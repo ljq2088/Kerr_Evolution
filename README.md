@@ -1,5 +1,7 @@
 # Kerr 双曲切片标量场演化
 
+[中文推导 PDF（8 页）](docs/kerr_hyperboloidal_derivation_zh.pdf)：从 Kerr 标量波动方程、坐标变换、场重标度到球谐投影、特征边界和数值演化的完整步骤。
+
 独立 WSL 项目：`/home/ljq/code/kerr-hyperboloidal`。分支：`Kerr双曲切片演化`。
 
 在固定 Kerr 背景上求解无质量、无源、最小耦合标量场 `Box_g Phi = 0`。
