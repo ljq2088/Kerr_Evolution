@@ -10,6 +10,7 @@ from lorenz_ghp import KerrGHP
 from lorenz_mode_jet import separated_jet
 from lorenz_corrector import Weighted
 from lorenz_spin1 import cky_tensor,current_adjoint_contraction
+from functools import lru_cache
 
 
 def sdag_tensor(g,f,which):
@@ -58,9 +59,9 @@ def chi_adjoint(g,kernel,which):
     return F.f
 
 
-def direct_chi(g,kernel,which):
+def direct_chi(g,kernel,which,p=0,q=0):
     kinds=('thornp','ethp') if which==0 else ('thorn','eth')
-    F=Weighted(kernel)
+    F=Weighted(kernel,p,q)
     for _ in range(2):
         v,p,q=g.derivative(F.f,F.p,F.q,kinds[0])
         F=Weighted(v,p,q)
@@ -93,6 +94,7 @@ def dkw_current_adjoint(g,vec):
     return [[outputs[0][i][j]+outputs[1][i][j] for j in range(4)] for i in range(4)]
 
 
+@lru_cache(maxsize=256)
 def chi_amplitudes(r0,a=.6,ell=2,m=2,return_parts=False):
     if m==0:
         raise ValueError('Nonstatic modes only')

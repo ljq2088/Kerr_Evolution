@@ -1,0 +1,37 @@
+{
+  "status": "diagnostic_only_not_a_reality_gate",
+  "physical_projection": "(h_m+conj(h_minus_m))/2; source matching still required",
+  "spin1_normalization": "experimental factor 4",
+  "r": 8.0,
+  "theta": 1.1,
+  "r0": 6.0,
+  "a": 0.6,
+  "m": 2,
+  "cases": [
+    {
+      "ellmax": 2,
+      "raw_complex_conjugacy_defect": 1.8329406661747647,
+      "maximum_component": 8.864659956649213
+    },
+    {
+      "ellmax": 3,
+      "raw_complex_conjugacy_defect": 1.9893172157618213,
+      "maximum_component": 35.17806512811391
+    },
+    {
+      "ellmax": 4,
+      "raw_complex_conjugacy_defect": 1.9935627826432862,
+      "maximum_component": 44.697960735827344
+    },
+    {
+      "ellmax": 5,
+      "raw_complex_conjugacy_defect": 1.9983900754883117,
+      "maximum_component": 113.47026214385978
+    },
+    {
+      "ellmax": 6,
+      "raw_complex_conjugacy_defect": 1.9985055272810517,
+      "maximum_component": 114.89767851895127
+    }
+  ]
+}

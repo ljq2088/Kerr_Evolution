@@ -80,9 +80,15 @@ def horizon_series(r, a, mu, omega, m, lam, order=4):
 
 
 class RadialGreen:
-    def __init__(self, a, mu, omega, ell, m, rmax=2000., offset=1e-6, rtol=2e-10):
+    def __init__(self, a, mu, omega, ell, m, rmax=2000., offset=1e-6, rtol=2e-10,
+                 mass_squared=None):
         if not 0 <= abs(a) < 1 or mu < 0 or ell < abs(m):
             raise ValueError('Invalid Kerr or angular parameters')
+        # An optional real analytic mass-squared continuation supports the
+        # retarded resolvent derivative used to construct trace-driven kappa.
+        # Ordinary massive-field evolution leaves this argument unset.
+        msq=mu*mu if mass_squared is None else float(mass_squared)
+        mu=np.sqrt(msq+0j)
         if abs(omega*omega-mu*mu) < 1e-10:
             raise ValueError('k=0 requires separate threshold asymptotics')
         self.a, self.mu, self.omega, self.m = a, mu, omega, m
@@ -100,9 +106,9 @@ class RadialGreen:
         rin,din = horizon_series(r,a,mu,omega,m,self.lam)
         self.insol = solve_ivp(rhs, (r, rmax), [rin, din], dense_output=True,
                                method='DOP853', rtol=rtol, atol=rtol*1e-3)
-        self.propagating = abs(omega) > mu
-        self.k = (np.sign(omega)*np.sqrt(omega*omega-mu*mu) if self.propagating
-                  else 1j*np.sqrt(mu*mu-omega*omega))
+        self.propagating = omega*omega > msq
+        self.k = (np.sign(omega)*np.sqrt(omega*omega-msq) if self.propagating
+                  else 1j*np.sqrt(msq-omega*omega))
         r = rmax
         k = self.k
         # A bound Up solution may be freely normalized; no infinity flux exists.

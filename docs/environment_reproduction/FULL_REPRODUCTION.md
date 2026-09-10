@@ -44,9 +44,22 @@
 8. 自旋±1和紧支撑辅助标量的伴随点源积分已经实现。
    六个辅助场现在均可与公开幅度表比对；必须保留各自显式的归一化映射。
    实现、分部积分符号和独立验证见 [LORENZ_SOURCE_DERIVATION.md](LORENZ_SOURCE_DERIVATION.md)。
-   这仍不等于完整 Lorenz 度规：trace-driven kappa、张量组合及静态补全未完成。
+   这仍不等于完整 Lorenz 度规：张量组合的点源匹配及静态补全未完成。
 
-当前环境及 Lorenz 模块共23项测试通过。背景图片是未受扰动云，不是论文尾迹图。
+9. 已实现非静态真空区域的三部分张量重构及 trace-driven kappa。
+   `kappa_convergence.json`：对质量平方参数作四阶中心 resolvent 导数，
+   改变步长、积分容差及远端边界后，场值与梯度的相对变化不超过4.3e-9。
+   `metric_curvature_development.json`：独立坐标 Riemann 变分恢复输入
+   psi0/psi4，相对差不超过6.4e-13；没有复用 GHP 重构算符作为检验。
+   各部分通过真空 Einstein 和 Lorenz 检验，标量部分恢复预期 trace。
+   **这些检验不约束任意齐次规范场的系数。自旋1的系数4仍是试验值，
+   尚无点源匹配证明；不能把当前合成度规接入生产环境源。**
+10. 纠正中间复度规的验收定义：2406.12510v3 Sec. III A 明确先重构复解，
+    再取实部。物理 Fourier 系数为 (h_m+conj(h_-m))/2。
+    `metric_reality_development.json` 中原始复解的共轭差只是诊断，
+    不应当作失败的现实性条件，也不能用取实部代替点源匹配验证。
+
+当前环境及 Lorenz 模块共29项测试通过。背景图片是未受扰动云，不是论文尾迹图。
 
 ## Lorenz 重构公开资料调查
 
@@ -61,8 +74,8 @@
   静态 m_g=0 仍须单独处理，不能通过除以零频率获得。
 - Windows 有 WolframScript；当前 Python 实现未依赖运行外部 notebook。
 
-下一阶段：执行公开微分算符得到完整 Lorenz 度规，补上 trace-driven kappa，
-验证 Einstein 源和 Lorenz 条件。
+下一阶段：核对自旋1重构及复解的源约定，以点源连续性和导数跳跃
+验证 Einstein 源，补齐静态和低多极度规。
 之后接入已有协变源与 massive Green 求解器，推进上表图级验收。
 目前缺作者程序不构成无法继续的理由：已有公开方程和数值表可支持独立实现。
 

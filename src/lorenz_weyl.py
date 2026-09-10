@@ -4,8 +4,10 @@ These are curvature fields, not a claim of a completed Lorenz metric.
 """
 from pybhpt.geo import KerrGeodesic
 from pybhpt.teuk import TeukolskyMode
+from functools import lru_cache
 
 
+@lru_cache(maxsize=256)
 def weyl_amplitudes(r0, a=.6, ell=2, m=2):
     geo=KerrGeodesic(a,r0,0.,1.,nsamples=128)
     result={}

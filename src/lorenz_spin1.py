@@ -9,6 +9,7 @@ from pybhpt.swsh import SpinWeightedSpheroidalHarmonic
 from lorenz_ghp import KerrGHP
 from lorenz_mode_jet import separated_jet
 from lorenz_corrector import corrector
+from functools import lru_cache
 
 
 def cky_tensor(g):
@@ -29,6 +30,7 @@ def current_adjoint_contraction(g,vec,u,fup):
     return contraction-trace_term
 
 
+@lru_cache(maxsize=256)
 def spin1_amplitudes(r0,a=.6,ell=2,m=2,spin=1):
     if spin not in (-1,1) or m==0:
         raise ValueError('Require nonstatic spin +/-1 mode')
