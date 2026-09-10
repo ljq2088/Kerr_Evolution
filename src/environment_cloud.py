@@ -28,6 +28,13 @@ def horizon(a):
     return rp, a/(2*rp)
 
 
+def radial_coefficients(r, a, mu, omega, m, lam):
+    """Delta, Delta', V for (Delta R')' + V R = J, M=1."""
+    delta = r*r-2*r+a*a
+    K = (r*r+a*a)*omega-a*m
+    return delta, 2*(r-1), K*K/delta-mu*mu*r*r-a*a*omega*omega+2*a*m*omega-lam
+
+
 def matching_residual(a, mu=.3, outer_efolds=30., horizon_offset=1e-5,
                       rtol=2e-10):
     """Match horizon-regular and infinity-decaying solutions at threshold.
@@ -42,10 +49,8 @@ def matching_residual(a, mu=.3, outer_efolds=30., horizon_offset=1e-5,
     lam = angular_eigenvalue(1, 1, a*a*(omega*omega-mu*mu))
     k = np.sqrt(mu*mu-omega*omega)
     def rhs(r, state):
-        delta = r*r-2*r+a*a
-        K = (r*r+a*a)*omega-a
-        potential = K*K/delta-mu*mu*r*r-a*a*omega*omega+2*a*omega-lam
-        return [state[1], -(2*(r-1)*state[1]+potential*state[0])/delta]
+        delta, dp, potential = radial_coefficients(r, a, mu, omega, 1, lam)
+        return [state[1], -(dp*state[1]+potential*state[0])/delta]
     vh = -mu*mu*rp*rp-a*a*omega*omega+2*a*omega-lam
     slope = -vh/(2*(rp-1))
     match = 2/mu**2

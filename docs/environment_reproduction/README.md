@@ -1,5 +1,8 @@
 # Kerr 环境扰动论文复现
 
+**继续完整复现的最新状态见 [FULL_REPRODUCTION.md](FULL_REPRODUCTION.md)。**
+下文记录最初启动阶段；后续已增加归一化云、协变源、径向 Green 求解和 Lorenz trace 基准。
+
 依据：Dyson et al., [arXiv:2501.09806v1](https://arxiv.org/abs/2501.09806v1)，正文及补充材料。
 目标是有质量复标量云被圆赤道轨道小天体的引力度规扰动驱动的响应。
 
