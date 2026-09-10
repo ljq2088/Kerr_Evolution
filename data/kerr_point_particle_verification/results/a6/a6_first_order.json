@@ -1,0 +1,13 @@
+{
+  "stage": "A6 first-order identity",
+  "execution": {"transport_status": "degraded_fallback", "timing_ms": 6899, "saved_file_executed": true},
+  "residuals": {
+    "A": 0, "B": 0, "C": 0, "D": 0, "ER": 0, "F": 0,
+    "SecondOrderRecovery": 0,
+    "PDefinition": 0,
+    "QEvolutionIdentity": 0
+  },
+  "source_placement": {"PT": 1, "psiT": 0, "QT": 0},
+  "FirstOrderIdentityChecked": true,
+  "assumptions": ["L>0", "-1<y<1", "A!=0 for solving psi_T"]
+}

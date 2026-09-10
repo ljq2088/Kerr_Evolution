@@ -1,0 +1,8 @@
+{
+  "chi": 0.6920851868180025,
+  "flux_total_over_mu2": 0.009328435794991877,
+  "flux_version": "sxs0305-bhpt-l6-2026-09-03",
+  "lmax": 6,
+  "provenance": "Mathematica MCP KerrGeodesics/Teukolsky exact-spin ISCO flux; Wolfram 14.2.1 MacOSX-ARM64; machine-real orbit; 2026-09-03",
+  "relative_lmax_increment": 0.011484701037361529
+}

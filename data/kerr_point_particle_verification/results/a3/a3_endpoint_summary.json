@@ -1,0 +1,37 @@
+{
+  "stage": "A3 endpoint summary",
+  "execution": {
+    "backend": "Mathematica MCP execute_code",
+    "transport_status": "degraded_fallback",
+    "timing_ms": 73,
+    "saved_file_executed": true,
+    "heavy_algebra_rerun": false
+  },
+  "imported_stage_files": [
+    "a3a_geodesic_velocities.json",
+    "a3b_invariant_constant_t.json",
+    "a3b_bl_delta_pullback.json",
+    "a3c_tetrad_projections.json"
+  ],
+  "required_stage_flags": {
+    "A3aGeodesicPassed": true,
+    "InvariantConstantTRoutePassed": true,
+    "BLDeltaPullbackRoutePassed": true,
+    "TetradProjectionRoutesPassed": true,
+    "A2OperatorsExcluded": true
+  },
+  "A3FullEndpointVerified": true,
+  "A3Endpoint": [
+    "T_nn^(H,pp)",
+    "T_mbar_n^(H,pp)",
+    "T_mbar_mbar^(H,pp)"
+  ],
+  "A3ClosesBeforeA2FourBlockFunctional": true,
+  "verification_scope": "algebraic closure under saved local assumptions",
+  "limits": {
+    "GlobalWorldlineMonotonicityVerified": false,
+    "GlobalUniqueSliceIntersectionVerified": false,
+    "A1SignatureTetradBridgeInherited": true,
+    "ProjectGateStillConditionalOnA1": true
+  }
+}

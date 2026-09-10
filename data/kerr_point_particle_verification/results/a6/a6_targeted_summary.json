@@ -1,0 +1,35 @@
+{
+  "stage": "A6 targeted summary",
+  "execution": {
+    "transport_status": "ok",
+    "timing_ms": 19,
+    "relative_path_replay": true,
+    "heavy_algebra_rerun": false,
+    "root_replay_after_review": {"transport_status": "ok", "timing_ms": 15, "success": true}
+  },
+  "checks": {
+    "FirstOrderIdentityChecked": true,
+    "CharacteristicsChecked": true,
+    "AxisProjectionChecked": true
+  },
+  "AllTargetedChecksPassed": true,
+  "assumptions": {
+    "FirstOrder": ["L>0","-1<y<1","A!=0 for solving psi_T"],
+    "Characteristics": ["M>0,L>0,|a|<M,-1<y<1","A(0,y)>0,A(RH,y)>0 for radial branch ordering","A(R,y)>0,-1<y<1 for real angular roots"],
+    "AxisProjection": ["s=-2,m=2,4","open nodes exclude y=+-1","analytic Wigner-d convention"]
+  },
+  "scope": [
+    "A-F extraction and P/Q identity",
+    "continuum characteristic roots and boundary directions",
+    "axis indicial/Laurent, toy factor-aware basis, analytic projection"
+  ],
+  "engineering_open": [
+    "post-ISCO transition prescription",
+    "production nodes and stencil",
+    "CFL and stability",
+    "endpoint finite-limit rows",
+    "production quadrature",
+    "convergence and production readiness"
+  ],
+  "FullEndpointClaimMade": false
+}

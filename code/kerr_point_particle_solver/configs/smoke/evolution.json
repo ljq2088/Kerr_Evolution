@@ -1,0 +1,15 @@
+{
+  "chi": 0.8,
+  "flux_model_version": "target-bhpt-l6-2026-08",
+  "gaussian_tail_tolerance": 1e-14,
+  "m": 2,
+  "mass_scale": 1.0,
+  "n_r": 128,
+  "n_y": 33,
+  "post_light_ring_time_over_m": 120.0,
+  "q_mass": 1e-5,
+  "sigma_r_over_dr": 4.0,
+  "sigma_y_over_dy": 4.0,
+  "tau_on_over_m": 20.0,
+  "transition_prescription": "ori-thorne-v1"
+}

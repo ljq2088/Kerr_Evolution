@@ -4,3 +4,7 @@ __pycache__/
 outputs/
 reference/*.pdf
 reference/*fulltext.txt
+*.egg-info/
+.pytest_cache/
+data/kerr_point_particle_evolution/initial_data/
+data/kerr_point_particle_evolution/runs/

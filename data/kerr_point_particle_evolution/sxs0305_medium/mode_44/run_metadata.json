@@ -1,0 +1,111 @@
+{
+  "N_end": 3587,
+  "T1": 358.70000000000005,
+  "T_bound": 358.72772347491565,
+  "T_end": 358.70000000000005,
+  "code_hash": "27b96348f5665801fee02169d14ff3567081bf2e427212c42fa92e61ff3d7d0a",
+  "config": {
+    "chi": 0.6920851868180025,
+    "flux_model_version": "sxs0305-bhpt-l6-2026-09-03",
+    "gaussian_tail_tolerance": 1e-14,
+    "m": 4,
+    "mass_scale": 0.952032939704,
+    "n_r": 512,
+    "n_y": 129,
+    "post_light_ring_time_over_m": 120.0,
+    "q_mass": 1e-05,
+    "sigma_r_over_dr": 4.0,
+    "sigma_y_over_dy": 4.0,
+    "tau_on_over_m": 20.0,
+    "transition_prescription": "ori-thorne-v1"
+  },
+  "config_hash": "c3b0f2ef3fcf674ef8545af4a7ca254862e3e362fd3712b306e32181a51a6f6b",
+  "delta_t_post": 120.0,
+  "environment": {
+    "numpy": "1.26.4",
+    "python": "3.11.12",
+    "scipy": "1.15.2"
+  },
+  "events": {
+    "horizon_crossing": 234.10306705507253,
+    "light_ring": 229.82211580818498,
+    "source_off": 234.10306705507253,
+    "terminal": 235.3363481723815
+  },
+  "final_time": 358.70000000000005,
+  "final_time_on_output_grid": true,
+  "grid_version": "b68d16c3001a324959f393a5d1717d8964cad8dab5255f6936361685fd901392",
+  "initial_data": {
+    "angular_momentum": 2.6006748443128864,
+    "energy": 0.8975004479262404,
+    "manifest": {
+      "L": 1.0,
+      "M": 1.0,
+      "alpha_ot": 0.0072320387330206725,
+      "angular_momentum_isco": 2.600990895003148,
+      "background_hash": "37dc1fb52fcf2507e5a09666b653c872b907c78eabdbe8c8c1dcf507d5f64593",
+      "beta_ot": 0.04851377857078301,
+      "chi": 0.6920851868180025,
+      "delta_energy": 4.487994504742986e-05,
+      "delta_lz": 0.0003160506902614691,
+      "delta_r": 0.01341429423620572,
+      "edot_correction": 0.9756864530788195,
+      "energy_isco": 0.8975453278712878,
+      "flux_model_version": "sxs0305-bhpt-l6-2026-09-03",
+      "flux_provenance": "Mathematica MCP KerrGeodesics/Teukolsky exact-spin ISCO flux; Wolfram 14.2.1 MacOSX-ARM64; machine-real orbit; 2026-09-03",
+      "flux_total_over_mu2": 0.009328435794991877,
+      "generator_version": "ori-thorne-python-v1",
+      "kappa_ot": 0.12437013682641503,
+      "lmax": 6,
+      "omega_isco": 0.1420023636407838,
+      "prescription": "ori-thorne-v1",
+      "q_mass": 1e-05,
+      "r_isco": 3.429136825145341,
+      "radial_scale": 2.4927345859436074,
+      "relative_lmax_increment": 0.011484701037361529,
+      "schema_version": "1",
+      "t_ot": 3.412,
+      "tau0": 7.447861785102774,
+      "x_start": -0.5381356808642278
+    },
+    "r0": 3.4157225309091355
+  },
+  "light_ring_scri_reference": 238.72772347491565,
+  "output": {
+    "checkpoint_dt_over_m": 10.0,
+    "chunk_size": 1024,
+    "ell_out": [
+      4
+    ],
+    "field_dt_over_m": 5.0,
+    "output_dt_over_m": 0.1,
+    "save_field": false,
+    "save_psi4_lm": true,
+    "save_scri_field": false,
+    "save_strain_lm": false
+  },
+  "output_count": 3587,
+  "run_kind": "full",
+  "schema": "c1-run-v1",
+  "status": "complete",
+  "stencil_width": 7,
+  "timestep": {
+    "controlling_limit": "wave",
+    "dt": 0.001724137931034483,
+    "dt_amplitude": 0.15360306954091663,
+    "dt_motion": 0.08322664184197208,
+    "dt_phase": 0.10439805219389281,
+    "dt_ramp": 0.5,
+    "dt_wave": 0.0017423304791834347,
+    "extrema_interval": [
+      100.0,
+      234.10306705507253
+    ],
+    "gamma_source": 0.9765429847744231,
+    "q_floor": 5.973659739153827e-15,
+    "q_reference": 0.005973659739153827,
+    "steps_per_output": 58,
+    "t_stable": 100.0
+  },
+  "trajectory_hash": "14a9ce9e1c6debb797e570af7d28c4bcc7d74d249c6d6c85a2400f75b1bc3e47"
+}

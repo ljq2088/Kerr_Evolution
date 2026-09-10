@@ -1,0 +1,94 @@
+{
+  "schema": "kerr-point-particle-sxs0305-medium-v1",
+  "status": "complete",
+  "review_status": "owner_accepted",
+  "source_task": "T007",
+  "background": {
+    "sxs_id": "SXS:BBH:0305v2.0",
+    "lev": 6,
+    "extrapolation": "N2",
+    "remnant_mass_over_total_mass": 0.952032939704,
+    "remnant_spin": 0.6920851868180025
+  },
+  "transition": {
+    "prescription": "ori-thorne-v1",
+    "mass_ratio": 1e-05,
+    "lmax": 6,
+    "flux_total_over_mu2": 0.009328435794991877,
+    "relative_l6_increment": 0.011484701037361529,
+    "initial_data_key": "cf94e0e68778cc924a0a3a1defb6971e59b3af510dbe7420b898ba23ccdd7554",
+    "r0": 3.4157225309091355,
+    "energy": 0.8975004479262404,
+    "angular_momentum": 2.6006748443128864,
+    "wolfram_version": "14.2.1 for Mac OS X ARM (64-bit) (March 16, 2025)"
+  },
+  "numerics": {
+    "grid": [512, 129],
+    "output_dt_over_M": 0.1,
+    "post_light_ring_time_over_M": 120.0,
+    "sigma_R_over_dR": 4.0,
+    "sigma_y_over_dy": 4.0,
+    "startup_time_over_M": 20.0,
+    "T1_over_M": 358.70000000000005,
+    "sample_count": 3587
+  },
+  "code": {
+    "generating_package_hash": "27b96348f5665801fee02169d14ff3567081bf2e427212c42fa92e61ff3d7d0a",
+    "migration_release_hash": "869fb1afb73b8a88499982ffd51eb9962798fb38c02a0f61928f96d4e36cb444",
+    "c2_implementation_hash": "eb59171953e35a260327f187f030043de207f9851d76f44783a8cd36905f4860",
+    "environment": {
+      "python": "3.11.12",
+      "numpy": "1.26.4",
+      "scipy": "1.15.2"
+    }
+  },
+  "modes": {
+    "22": {
+      "mode_schema": "c1-mode-v1",
+      "strain_schema": "c2-H-v2",
+      "psi4_peak_time_over_M": 243.20000000000002,
+      "psi4_peak_abs": 0.011476335879089306,
+      "H_peak_time_over_M": 237.70000000000002,
+      "H_peak_abs": 0.0499494214899296,
+      "strain_transform_interval": [0.1, 358.70000000000005],
+      "strain_analysis_interval": [100.0, 358.70000000000005],
+      "strain_recommended_interval": [100.0, 348.70000000000005],
+      "ffi_omega0": 0.21931268189798342
+    },
+    "44": {
+      "mode_schema": "c1-mode-v1",
+      "strain_schema": "c2-H-v2",
+      "psi4_peak_time_over_M": 246.0,
+      "psi4_peak_abs": 0.013523815737956506,
+      "H_peak_time_over_M": 242.5,
+      "H_peak_abs": 0.01255623249393376,
+      "strain_transform_interval": [0.1, 358.70000000000005],
+      "strain_analysis_interval": [100.0, 358.70000000000005],
+      "strain_recommended_interval": [100.0, 348.70000000000005],
+      "ffi_omega0": 0.43862536379596684
+    }
+  },
+  "files": {
+    "input/bhpt_l6_isco_flux.json": "a9325f87d8e8e80e0cfe8632a499ce72e5fff352c02cee5c020e1a22d6d6357c",
+    "input/evolution_m2.json": "bd194bea62b30756739c1ee54cfd7904f9e820a813738d42b3adef33ebd69a25",
+    "input/evolution_m4.json": "590cd3b34cb30399970e8d805e0099dbb2df1f13fc6ae4ddd0ac2979abbf9573",
+    "input/plunge_initial_data.json": "ae2c84e25ab1673a144e3c36738f7c0451bf1bdc99f3e59ee65589ed44ee23aa",
+    "input/sxs_h22_h44.npz": "b1b0e9740b695fb9aeba059ab4c8db618a726a0733c9a4cfcaabdc2e5bc9a9a7",
+    "input/sxs_metadata.json": "abd4ba5cc1d9a893b523315779709cec1fd50981c49ff1ed50b6b22253c4c943",
+    "mode_22/H_l2_m2.npz": "c64179c24d8cc8c99c94cd0b02600c34d45edbe8436825e07f2003fea15e631e",
+    "mode_22/psi4_l2_m2.npz": "731425525068aeaa59bafa6fb07ffcfaf74c03c650ec664097cda5394ec1a307",
+    "mode_22/psi4_real_abs.png": "bff3d5fdb72dda45254004732ae52e2bbd92a4e238e7ba8d19b2005009718530",
+    "mode_22/run_metadata.json": "c33d8db728098886483fbde3e59e7b6b9a0d493d92fdd50fa57224fd5c4fe319",
+    "mode_22/strain_real_abs.png": "62e4e68e52f6841e242303efc0338e3443ced8bfab4e48bf735d54db421bfd46",
+    "mode_44/H_l4_m4.npz": "db2542355547aec4464176a3455a9c25d9489582d8e72883ba5185fe4ca1213d",
+    "mode_44/psi4_l4_m4.npz": "f2dc91512728d12df1e3d6da9159ab1ad6f30ae3f8a3940d8fb9c263a1c63070",
+    "mode_44/psi4_real_abs.png": "dbb3c08e44fbba59f1aead5446699795265def382c877238eff10f5ff7bf916b",
+    "mode_44/run_metadata.json": "ad42695f7ecb3b41052d904794e9d00a4e300f915486d62e8033894c7163aadc",
+    "mode_44/strain_real_abs.png": "54f9391969505630ea6402e766501294f87d2bd1820e953759254bfedb8f180f"
+  },
+  "boundaries": {
+    "strain_sign_and_normalization": "conditional-open",
+    "sampling_status": "owner-waived",
+    "raw_psi4_is_authoritative": true
+  }
+}

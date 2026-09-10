@@ -1,0 +1,41 @@
+{
+  "stage": "A3b P08 Eq. 26 BL delta pullback",
+  "execution": {
+    "backend": "Mathematica MCP execute_code",
+    "transport_status": "degraded_fallback",
+    "timing_ms": 95,
+    "saved_file_executed": true
+  },
+  "residuals": {
+    "RadialRootCondition": 0,
+    "RadialAbsoluteValueBranch": 0,
+    "OneOverAbsRadialDerivative": 0,
+    "RCoordinateJacobian": 0,
+    "AngularDeltaJacobian": 0,
+    "AzimuthalSupport": 0,
+    "AzimuthalDerivativeWithRespectToPhi": 1,
+    "AzimuthalAbsoluteValue": 0,
+    "VelocityJacobian": [0,0,0,0],
+    "DistributionWeight": 0,
+    "StressTensorEndpoint": [[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]],
+    "AllRequiredResidualsZero": true
+  },
+  "endpoint_spatial_deltas": [
+    "delta(R-Rp(T))",
+    "delta(theta-thetaP)",
+    "delta(Phi-PhiP(T))"
+  ],
+  "assumptions": [
+    "C1 radial and azimuthal worldline functions near support",
+    "one simple local radial root",
+    "ut>0,uT>0,uT=ut+hp ur",
+    "rp>0,L>0,0<thetaP<Pi,SigmaP>0",
+    "azimuthal equality is local modulo 2Pi"
+  ],
+  "limits": {
+    "GlobalRadialRootUniquenessVerified": false,
+    "AzimuthalGlobalBranchVerified": false,
+    "LocalRootAndSupportComparison": true
+  },
+  "stage_passed": true
+}

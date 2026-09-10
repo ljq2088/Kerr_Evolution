@@ -1,0 +1,70 @@
+{
+  "execution": {
+    "backend": "Mathematica MCP execute_code",
+    "style": "compute",
+    "format": "text",
+    "response_detail": "compact",
+    "transport_status": "degraded_fallback",
+    "timing_ms": 912,
+    "saved_file_executed": true,
+    "root_replay": {
+      "success": true,
+      "transport_status": "ok",
+      "timing_ms": 1869
+    }
+  },
+  "primary_end_to_end_evidence": {
+    "theory_start": "workspace/W02_point_particle_evolution/theory/appendix/SASAKI_SOURCE.md: original BL four blocks",
+    "theory_endpoint": "workspace/W02_point_particle_evolution/theory/appendix/SASAKI_SOURCE.md: complete pulled-back hat T_H",
+    "projection_inputs": "arbitrary fNN, fMN, fMM functions composed as f(t+h(r),L^2/r,theta,phi+q(r))",
+    "frozen_projection_tetrad_context": "fNN, fMN, fMM are the Sasaki Kinnersley projections; no additional tetrad change is applied inside the source functional",
+    "generation_used_hatted_operators": false,
+    "generation_used_theory_intermediate_derivative_map": false,
+    "generation_used_theory_target_block_template": false,
+    "unresolved_coordinate_composition_objects": [],
+    "all_coordinate_composition_derivatives_resolved": true,
+    "block_endpoint_residuals": {
+      "nn_LL": 0,
+      "mbar_n_LJ": 0,
+      "mbar_mbar_JJ": 0,
+      "mbar_n_JL": 0
+    },
+    "B2PrimeEndpointResidual": 0,
+    "B2StarPrimeEndpointResidual": 0,
+    "WholeHatTEndpointResidual": 0,
+    "WholeEndpointVerified": true
+  },
+  "left_operator_identity_evidence": {
+    "frozen_field_tetrad_factor": "Delta(R)^2 R/4",
+    "factor_role": "context for the referenced left identity; not used to generate the source blocks",
+    "artifact": "workspace/W02_point_particle_evolution/mma/results/A1_A2_operator.json",
+    "all_twelve_jet_residuals_zero": true,
+    "operator_ratio_residual_zero": true,
+    "second_radial_chain_residual_zero": true,
+    "recomputed_here": false,
+    "direct_reference_audited": true
+  },
+  "assumptions": [
+    "M>0",
+    "L>0",
+    "R>0",
+    "0<theta<Pi",
+    "Delta(R)!=0 for the rational-expression comparison"
+  ],
+  "evidence_independence": {
+    "generation_route": "The Kernel differentiates the original Sasaki BL blocks on composed new-coordinate functions before coordinate derivatives and composed arguments are eliminated.",
+    "target_route": "The complete theory hat T_H endpoint is entered separately after the generation route.",
+    "legacy_shared_template_used_as_pass_evidence": false,
+    "independent_primary_pdf_transcription_verified": false
+  },
+  "evidence_limits": {
+    "A1_signature_bridge_closed": false,
+    "A1_sourced_unit_bridge_closed": false,
+    "excluded_limits": [
+      "Delta=0 in this rational-expression comparison",
+      "R=0",
+      "theta=0,Pi coordinate poles"
+    ],
+    "narrow_conclusion": "The complete source computed from the theory BL start equals the separately entered theory hyperboloidal endpoint for arbitrary projection functions. Primary-PDF transcription and A1 convention/unit bridges remain open."
+  }
+}

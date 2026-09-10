@@ -1,0 +1,91 @@
+{
+  "execution": {
+    "backend": "Mathematica MCP execute_code",
+    "style": "compute",
+    "format": "text",
+    "response_detail": "compact",
+    "transport_status": "ok",
+    "calls": [
+      {"group": "kinematics_field_jacobians_poles", "timing_ms": 1339},
+      {"group": "four_blocks_and_weak_action", "timing_ms": 131936}
+    ],
+    "saved_entry_replay": [
+      {"group": "Kinematics", "transport_status": "degraded_fallback", "timing_ms": 35457, "success": true},
+      {"group": "Sources", "transport_status": "degraded_fallback", "timing_ms": 185856, "success": true}
+    ],
+    "combined_replay": {
+      "success": false,
+      "failure": "timed out awaiting tools/call after 300s",
+      "scope": "transport wait for the combined entry; no nonzero residual or Kernel error was returned"
+    },
+    "replay_commands": [
+      "a4Group=\"Kinematics\"; Get[\".../A4_fixed_m_y_distribution.wl\"]",
+      "a4Group=\"Sources\"; Get[\".../A4_fixed_m_y_distribution.wl\"]"
+    ]
+  },
+  "independent_transformed_targets": {
+    "dPhi_to_i_m": 0,
+    "field_angular_operator": 0,
+    "source_L_s": 0,
+    "source_J_plus": 0,
+    "complete_fixed_m_y_field_operator": 0,
+    "four_exact_blocks": {
+      "nn_LL": 0,
+      "mbar_n_LJ": 0,
+      "mbar_mbar_JJ": 0,
+      "mbar_n_JL": 0
+    },
+    "four_block_total": 0
+  },
+  "same_definition_auxiliary_checks": {
+    "fourier_nonzero_integer_residual": 0,
+    "fourier_zero_integer_residual": 0,
+    "fourier_orthogonality_range_minus6_to6_all_zero": true,
+    "point_delta_mode_coefficient_m2_m4": [0, 0],
+    "mode_commutation_T_R": [0, 0],
+    "first_angular_derivative": 0,
+    "angular_divergence": 0,
+    "measure": 0,
+    "angular_delta_jacobian": 0,
+    "fixed_m_projection_weight": 0,
+    "vector_covector_contraction": 0,
+    "rank_two_tensor_jacobian": [[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]],
+    "L_formal_transpose_lagrange": 0,
+    "J_formal_transpose_lagrange": 0,
+    "pure_derivative_signs_j0_to2_k0_to2": [[0,0,0],[0,0,0],[0,0,0]],
+    "block_ordering_checks": [true, true, true, true]
+  },
+  "explicit_wigner_d_pole_check": {
+    "d22": "Cos[theta/2]^4",
+    "d44": "Sqrt[7] Csc[theta/2]^4 Sin[theta]^6/32",
+    "y22": "(yy-1)^2/4",
+    "y44": "-Sqrt[7] (yy-1)^3 (yy+1)/8",
+    "orders_north_south_m2_m4": [[0,2],[1,3]],
+    "pole_power_residuals": [[0,0],[0,0]]
+  },
+  "issues": {
+    "nonzero_mathematical_residuals": [],
+    "corrected_execution_issue": "The first diagnostic used a row-level zero test for the Fourier residual matrix. The matrix entries were zero; the aggregation was corrected to flatten before testing and was rerun.",
+    "transport_limit": "The combined saved-entry replay exceeded the 300s tools/call wait. Both selectable groups in the same saved entry replayed successfully and reproduce the complete result.",
+    "invocation_syntax_issue": "The first grouped replay passed a literal backslash-n between the selector and file text and returned ToExpression::sntx before evaluating formulas. The newline encoding alone was corrected; the same mathematical check then succeeded.",
+    "inherited_open_boundaries": [
+      "A1 signature/Weyl-scalar bridge",
+      "A1 sourced unit normalization",
+      "A1 independent Ripley-PDF transcription"
+    ]
+  },
+  "assumptions": [
+    "M>0, L>0, R>0",
+    "-1<y<1 for transformed angular identities",
+    "m and s are integers where used",
+    "0<theta_p<Pi for the angular delta chart",
+    "u^T is nonzero in the projection weight",
+    "Delta is nonzero for the four source-block comparison"
+  ],
+  "excluded": [
+    "coordinate endpoints y=+-1 in interior differential identities",
+    "particles exactly on an angular coordinate pole",
+    "Gaussian regularization and all finite-width claims",
+    "off-worldline extension, source time jets, and discretization"
+  ]
+}

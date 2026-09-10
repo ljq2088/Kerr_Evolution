@@ -1,0 +1,37 @@
+{
+  "stage": "A3b invariant constant-T route",
+  "execution": {
+    "backend": "Mathematica MCP execute_code",
+    "transport_status": "degraded_fallback",
+    "timing_ms": 207,
+    "saved_file_executed": true
+  },
+  "residuals": {
+    "BLMetricDeterminant": 0,
+    "InverseCoordinateJacobianDeterminant": 0,
+    "HyperboloidalVolume": 0,
+    "TauRootCondition": 0,
+    "TauAbsoluteValueBranch": 0,
+    "OneOverAbsTauDerivative": 0,
+    "DistributionWeight": 0,
+    "StressTensorEndpoint": [[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]],
+    "AllRequiredResidualsZero": true
+  },
+  "remaining_spatial_deltas": [
+    "delta(R-Rp(T))",
+    "delta(theta-thetaP(T))",
+    "delta(Phi-PhiP(T))"
+  ],
+  "assumptions": [
+    "C1 worldline near the root",
+    "one simple transverse local root with uT!=0",
+    "future branch uT>0",
+    "M>0,L>0,r>0,0<theta<Pi and nonsingular coordinate Jacobian"
+  ],
+  "limits": {
+    "GlobalWorldlineMonotonicityVerified": false,
+    "GlobalUniqueIntersectionVerified": false,
+    "LocalSimpleTransverseRootAssumed": true
+  },
+  "stage_passed": true
+}

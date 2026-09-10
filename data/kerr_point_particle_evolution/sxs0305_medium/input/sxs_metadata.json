@@ -1,0 +1,31 @@
+{
+  "cache_path": "/Users/indigo/codes/Nonlinear_direct_wave/code/Probe_Gravity/outputs/sxs_cache/SXS_BBH_0305v2p0_N2_h22_h44.npz",
+  "sxs_id": "SXS:BBH:0305v2.0",
+  "extrapolation": "N2",
+  "samples": 13746,
+  "time_range_shifted": [
+    -3692.167801530389,
+    151.7741939951511
+  ],
+  "time_range_original": [
+    0.4802218854561792,
+    3844.4222174109964
+  ],
+  "Mf": 0.952032939704,
+  "chif": 0.6920851868180025,
+  "chif_vec": [
+    5.25395868351e-08,
+    -2.45673365593e-08,
+    0.692085186818
+  ],
+  "t_peak_h22_original": 3692.6480234158453,
+  "t_peak_h44_shifted": 3.2994754432911577,
+  "h22_peak_amp": 0.3892972217220016,
+  "h44_peak_amp": 0.022065927573019443,
+  "arrays": [
+    "t_original",
+    "t",
+    "h22",
+    "h44"
+  ]
+}

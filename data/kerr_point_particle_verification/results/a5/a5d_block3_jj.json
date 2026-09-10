@@ -1,0 +1,15 @@
+{
+  "stage": "A5d block3 JJ",
+  "execution": {"transport_status": "ok", "timing_ms": 7, "saved_file_executed": true, "relative_wrapper_replay": true},
+  "ordering": ["inner J", "outer J"],
+  "raw_residual_leaf_count": 1,
+  "CompleteSourceResidual": 0,
+  "DiracDeltaFree": true,
+  "UnevaluatedTimeDerivativeRemnants": [],
+  "UndefinedJetRemnants": [],
+  "OnlyFormalSpatialDerivativesRemain": true,
+  "generation_used_theory_frakL_frakJ_or_H": false,
+  "assumptions": ["M>0,L>0,R>0,-1<y<1,hatDelta!=0","passed A5a f^(0,1,2) jets","fixed widths and smooth interior Gaussian"],
+  "excluded": ["finite-domain normalization","axis completion","turning branch","width convergence"],
+  "stage_passed": true
+}

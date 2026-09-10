@@ -1,0 +1,30 @@
+{
+  "stage": "A5 endpoint summary",
+  "execution": {
+    "transport_status": "ok",
+    "timing_ms": 23,
+    "heavy_algebra_rerun": false,
+    "relative_path_replay": true,
+    "root_replay_after_review": {"transport_status": "ok", "timing_ms": 19, "success": true}
+  },
+  "required_flags": {
+    "CommonJetsPassed": true,
+    "ExtensionWorldlineRecoveryPassed": true,
+    "FourBlockEndpointsPassed": true,
+    "AllGeneratedBlocksClean": true,
+    "TotalSourceResidualZero": true
+  },
+  "block_residuals": {"S1_LL": 0, "S2_LJ": 0, "S3_JJ": 0, "S4_JL": 0},
+  "TotalSourceResidual": 0,
+  "InteriorTimeAlgebraVerified": true,
+  "A5FullEndpointVerifiedWithinInteriorScope": true,
+  "generation_used_theory_frak_helpers": false,
+  "GaussianFullLineNormalizationVerified": true,
+  "open_boundaries": {
+    "FiniteDomainNormalizationVerified": false,
+    "AxisCompletionVerified": false,
+    "TurningPointBranchVerified": false,
+    "WidthConvergenceVerified": false
+  },
+  "inherited": {"A1BoundaryInherited": true, "A4EndpointInherited": true}
+}

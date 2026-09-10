@@ -1,0 +1,44 @@
+{
+  "stage": "A3c tetrad projections",
+  "execution": {
+    "backend": "Mathematica MCP execute_code",
+    "transport_status": "degraded_fallback",
+    "timing_ms": 7282,
+    "saved_file_executed": true
+  },
+  "residuals": {
+    "Covectors": {
+      "BLn": [0,0,0,0], "BLmbar": [0,0,0,0],
+      "HyperboloidalN": [0,0,0,0], "HyperboloidalMbar": [0,0,0,0]
+    },
+    "Contractions": {
+      "BLRoute": {"Np": 0, "Mbarp": 0},
+      "InvariantRoute": {"Np": 0, "Mbarp": 0},
+      "RouteComparison": {"Np": 0, "Mbarp": 0}
+    },
+    "RouteWeights": {"Invariant": 0, "BLPullback": 0},
+    "Projections": {
+      "InvariantRoute": {"Tnn": 0, "TmbarN": 0, "TmbarMbar": 0},
+      "BLPullbackRoute": {"Tnn": 0, "TmbarN": 0, "TmbarMbar": 0},
+      "WholeRouteComparison": {"Tnn": 0, "TmbarN": 0, "TmbarMbar": 0}
+    },
+    "NpOverDeltaRegularScaling": 0,
+    "AllRequiredResidualsZero": true
+  },
+  "theory_contractions": {
+    "Np": "-Delta K/(2 r^2)",
+    "Mbarp": "-I (Lz-aE)/(Sqrt[2] r)"
+  },
+  "diagnostics": {
+    "RankOneProjectionFactorizationResiduals": [0,0,0],
+    "classification": "same-definition diagnostic, not standalone pass evidence"
+  },
+  "assumptions": [
+    "equatorial Q=0 inward geodesic, Rgeo>=0",
+    "M>0,|a|<M,L>0,r>0,Delta>0,P+Sqrt[Rgeo]!=0",
+    "ut>0,uT>0 for the two distribution weights",
+    "three common deltas are relative to dR dtheta dPhi"
+  ],
+  "A2FourBlockOperatorsUsed": false,
+  "stage_passed": true
+}

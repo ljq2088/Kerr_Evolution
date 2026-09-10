@@ -1,0 +1,11 @@
+{
+  "checkpoint_dt_over_m": 10.0,
+  "chunk_size": 128,
+  "ell_out": [2],
+  "field_dt_over_m": 5.0,
+  "output_dt_over_m": 0.25,
+  "save_field": false,
+  "save_psi4_lm": true,
+  "save_scri_field": false,
+  "save_strain_lm": false
+}

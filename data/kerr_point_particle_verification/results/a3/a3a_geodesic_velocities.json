@@ -1,0 +1,45 @@
+{
+  "stage": "A3a geodesic velocities",
+  "latest_execution": {
+    "backend": "Mathematica MCP execute_code",
+    "transport_status": "degraded_fallback",
+    "timing_ms": 172,
+    "saved_file_executed": true
+  },
+  "primary_sources": ["P08 Eqs. 27-28", "P09 Eqs. 2.1-2.3"],
+  "residuals": {
+    "BLVelocity": {"ut": 0, "uphi": 0, "urSquared": 0, "urInward": 0, "utheta": 0},
+    "DefiningEquations": {"E=-u_t": 0, "Lz=u_phi": 0, "g(u,u)=-1": 0},
+    "KIdentity": 0,
+    "HyperboloidalVelocity": {"uT": 0, "uR": 0, "uPhi": 0, "uy": 0},
+    "Horizon": {
+      "DeltaAtRPlus": 0,
+      "RgeoAtRPlusMinusComputedPPlusSquared": 0,
+      "ComputedPPlusDefinitionResidual": 0,
+      "FutureSqrtBranchForRealPPlusPositive": 0,
+      "KPlusFromRegularRoute": 0
+    },
+    "AllRequiredResidualsZero": true
+  },
+  "assumptions": [
+    "M>0, |a|<M, L>0, r>rPlus, Delta>0",
+    "Q=0, theta=Pi/2, Rgeo>=0, inward sign",
+    "P+Sqrt[Rgeo]!=0 for K regular form",
+    "future BL/hyperboloidal branches require ut>0,uT>0",
+    "abstract real PPlus>0 after separately checking computed P(rPlus) definition"
+  ],
+  "limits": {
+    "FutureDirectionDerivedForAllParameters": false,
+    "TurningPointDifferentiabilityVerified": false,
+    "HorizonMethod": "Delta(rPlus)=0, Rgeo(rPlus)=PPlus^2, positive square-root branch, then regular C/(P+Sqrt[Rgeo]); singular K form is not evaluated at the horizon"
+  },
+  "first_attempt": {
+    "transport_status": "degraded_fallback",
+    "timing_ms": 2074,
+    "AllRequiredResidualsZero": false,
+    "FutureSqrtBranchResidual": "LZ spin-2 EE mass (mass+Sqrt[(mass-spin)(mass+spin)])+Abs[LZ spin-2 EE mass (mass+Sqrt[(mass-spin)(mass+spin)])]",
+    "KPlusResidual": "Piecewise[{{ComplexInfinity,2 EE mass (mass+Sqrt[(mass-spin)(mass+spin)])<=LZ spin}},0]",
+    "classification": "The expanded PPlus>0 assumption did not discharge Abs[PPlus]. Proof organization was changed, not the physical target."
+  },
+  "stage_passed": true
+}

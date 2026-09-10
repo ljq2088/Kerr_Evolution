@@ -1,0 +1,40 @@
+{
+  "stage": "A4b direct y field/source",
+  "status": "complete",
+  "saved_files": ["checks/a4/a4b_y_field_source.wl"],
+  "executions": {
+    "field": {"transport_status": "ok", "timing_ms": 20, "residual": 0},
+    "S1": {"transport_status": "ok", "timing_ms": 295, "raw_hat_leaf_count": 69683, "direct_source_leaf_count": 69793, "passed": true},
+    "S2": {"transport_status": "ok", "timing_ms": 14994, "raw_hat_leaf_count": 828493, "direct_source_leaf_count": 828559, "passed": true},
+    "S3": {"transport_status": "ok", "timing_ms": 905, "raw_hat_leaf_count": 273270, "direct_source_leaf_count": 273333, "passed": true},
+    "S4": {"transport_status": "ok", "timing_ms": 14679, "raw_hat_leaf_count": 811519, "direct_source_leaf_count": 811585, "passed": true}
+  },
+  "residuals": {
+    "CompleteYField": 0,
+    "OperandYModes": {"Wy*N^2": 0, "Wy*Mbar*N": 0, "Wy*Mbar^2": 0},
+    "AngularDeltaWeightJacobian": 0,
+    "OuterPrefactors": {"S1": 0, "S2": 0, "S3": 0, "S4": 0},
+    "HatBlocks": {"S1": 0, "S2": 0, "S3": 0, "S4": 0},
+    "CompleteSourceBlocks": {"S1": 0, "S2": 0, "S3": 0, "S4": 0},
+    "CompleteYEquationResidual": 0,
+    "SingleEndToEndResidual": 0,
+    "SingleEndToEndResidualConstruction": "direct CompleteYField residual plus four direct complete SourceBlock residuals after exact PgG-PyT residual factorization",
+    "GeneratedThetaAndPhiFree": {"S1": true, "S2": true, "S3": true, "S4": true},
+    "AllRequiredResidualsZero": true
+  },
+  "method": "direct unprojected periodic E0 with deltaTheta=Sin[thetaP] deltaY[-Cos[theta]], followed by mode extraction, y transformation, and exact jet/Expand residual factorization",
+  "evidence_independence": {
+    "theory_Etheta_used_as_generation_helper": false,
+    "theory_Ey_used_as_generation_helper": false,
+    "target_outer_prefactor_shared_in_advance": false,
+    "direct_source_raw_objects_constructed": true,
+    "residual_factorization": "PgG-PyT=(Pg-Py)G+Py(G-T)"
+  },
+  "assumptions": [
+    "M>0,L>0,R>0,-1<y<1,Delta!=0,integer m",
+    "0<thetaP<Pi for angular delta chart",
+    "worldline amplitudes are sufficiently differentiable; delta derivatives are understood distributionally",
+    "no Gaussian and no explicit spatial delta-jet expansion"
+  ],
+  "stage_passed": true
+}

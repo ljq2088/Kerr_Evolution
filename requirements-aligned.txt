@@ -1,0 +1,4 @@
+-r requirements-lock.txt
+-e ./code/kerr_waveform_tools
+-e ./code/kerr_point_particle_solver
+pytest==9.1.1

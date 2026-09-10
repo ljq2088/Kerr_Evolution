@@ -1,0 +1,28 @@
+{
+  "execution": {
+    "backend": "Mathematica MCP execute_code",
+    "style": "compute",
+    "format": "text",
+    "response_detail": "compact",
+    "transport_status": "ok",
+    "timing_ms": 96
+  },
+  "residuals": {
+    "A1MasterFieldResidual": 0,
+    "SignatureBridgeAlgebraicallyDecidable": false,
+    "SourcedUnitBridgeAlgebraicallyDecidable": false,
+    "CoordinateJacobianInverseResidual": [[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]],
+    "SecondRadialChainResidual": 0,
+    "JplusCoefficientResiduals": [0,0,0],
+    "LoperatorCoefficientResiduals": [0,0],
+    "AngularDefinitionResidual": 0,
+    "OperatorRatioResidual": 0,
+    "OperatorResidualsByJet": {
+      "psi": 0, "dT": 0, "dR": 0, "dTheta": 0, "dPhi": 0,
+      "dTT": 0, "dTR": 0, "dRR": 0, "dThetaTheta": 0,
+      "dPhiPhi": 0, "dTPhi": 0, "dRPhi": 0
+    },
+    "AllOperatorResidualsZero": true,
+    "OverallSourceFactorResidual": 0
+  }
+}

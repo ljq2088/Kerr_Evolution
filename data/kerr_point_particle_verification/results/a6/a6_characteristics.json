@@ -1,0 +1,30 @@
+{
+  "stage": "A6 characteristics",
+  "latest_execution": {"transport_status": "degraded_fallback", "timing_ms": 52, "saved_file_executed": true},
+  "residuals": {
+    "RootFormulaSubstitution": [0,0],
+    "Discriminant": 0,
+    "SCRICoefficients": {"C": 0, "BPlus2L2": 0},
+    "HorizonCoefficients": {"C": 0, "BMinus4MRH": 0},
+    "SCRISpeeds": [0,0],
+    "HorizonSpeeds": [0,0],
+    "BoundaryBranchFormula": [[0,0],[0,0]],
+    "AngularRootResiduals": [0,0]
+  },
+  "directions": {
+    "SCRITangent": true,
+    "SCRINonzeroDecreasingR": true,
+    "HorizonNonzeroIncreasingR": true,
+    "HorizonTangent": true
+  },
+  "CharacteristicsChecked": true,
+  "angular_principal_polynomial": "A vy^2-d",
+  "angular_roots": ["+Sqrt[d/A]", "-Sqrt[d/A]"],
+  "assumptions": ["M>0,L>0,|a|<M,-1<y<1","A(0,y)>0,A(RH,y)>0 for radial branch ordering","A(R,y)>0,-1<y<1 for real angular roots"],
+  "first_attempt": {
+    "transport_status": "degraded_fallback",
+    "timing_ms": 4137,
+    "CharacteristicsChecked": false,
+    "classification": "Direct sorting/comparison of full symbolic radical roots did not discharge the horizon square-root branch; coefficient identities already passed."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "stage": "A6 axis and projection",
+  "executions": {
+    "axis_basis": {"transport_status": "degraded_fallback", "timing_ms": 49, "saved_file_executed": true},
+    "projection_helper": {"transport_status": "degraded_fallback", "timing_ms": 69, "saved_file_executed": true}
+  },
+  "indicial": {
+    "GenericNorthResidual": 0,
+    "GenericSouthResidual": 0,
+    "m2_powers_north_south": [0,2],
+    "m4_powers_north_south": [1,3],
+    "m2_negative_Laurent_coefficients": {"north": [0,0], "south": [0,0]},
+    "m4_negative_Laurent_coefficients": {"north": [0,0], "south": [0,0]},
+    "AxisIndicialAndLaurentChecked": true
+  },
+  "factor_aware_basis": {
+    "nodes": "five rational open nodes at each side",
+    "orders_checked": [1,2],
+    "powers_checked": [0,1,2,3],
+    "all_basis_residuals_zero": true,
+    "FactorAwareBasisChecked": true
+  },
+  "projection": {
+    "mode_sets": [[[2,2],[3,2]],[[4,4],[5,4]]],
+    "ContinuousGram": [[[1,0],[0,1]],[[1,0],[0,1]]],
+    "DiscreteGram": [[[1,0],[0,1]],[[1,0],[0,1]]],
+    "ContinuousAdjacentLLeakage": [0,0],
+    "DiscreteAdjacentLLeakage": [0,0],
+    "QuadratureMomentResidual": [0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+    "ProjectionNormalizationLeakageChecked": true
+  },
+  "AxisProjectionChecked": true,
+  "assumptions": ["s=-2,m=2,4","open nodes exclude y=+-1","analytic Wigner-d convention"],
+  "engineering_boundary": "production nodes, stencil width, endpoint finite-limit rows, and quadrature choice remain W02.3",
+  "first_attempts": [
+    "Combined file left factor-aware Table unevaluated due invalid iterator destructuring.",
+    "After iterator correction, numeric 0^0 at the stencil center produced Indeterminate; k=0 monomial was then represented explicitly as 1."
+  ]
+}

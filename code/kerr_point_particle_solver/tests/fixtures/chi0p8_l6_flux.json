@@ -1,0 +1,8 @@
+{
+  "chi": 0.8,
+  "flux_total_over_mu2": 0.01687986787530486,
+  "flux_version": "target-bhpt-l6-2026-08",
+  "lmax": 6,
+  "provenance": "target compute_isco_flux.wl recorded 2026-08",
+  "relative_lmax_increment": 0.01660590066635954
+}

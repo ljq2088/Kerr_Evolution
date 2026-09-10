@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kerr-waveform-tools"
+version = "0.1.0"
+description = "Reusable Kerr background, transition, worldline, waveform, and artifact tools"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.24", "scipy>=1.11", "matplotlib>=3.8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

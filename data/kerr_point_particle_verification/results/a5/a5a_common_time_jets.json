@@ -1,0 +1,24 @@
+{
+  "stage": "A5a common time jets",
+  "executions": {
+    "Worldline": {"transport_status": "ok", "timing_ms": 1398, "passed": true},
+    "AmplitudePhase": {"transport_status": "ok", "timing_ms": 9888, "passed": true},
+    "Gaussian": {"transport_status": "ok", "timing_ms": 3682, "passed": true}
+  },
+  "residuals": {
+    "Worldline": {"Rdot": 0, "Rddot": 0, "Phiddot": 0, "NhatDot": 0, "NhatDDot": 0, "MbarDot": 0, "MbarDDot": 0, "A0Dot": 0, "A0DDot": 0, "ExtensionRecovery": [0,0,0,0]},
+    "AmplitudeJets": [[0,0,0],[0,0,0],[0,0,0]],
+    "PhaseJets": [[0,0,0],[0,0,0],[0,0,0]],
+    "FullLineNormalization": {"GR": 0, "Gy": 0},
+    "CenteredFirstMoments": {"GR": 0, "Gy": 0},
+    "GaussianJets": [0,0,0],
+    "ProductGaussianJets": [0,0,0],
+    "AllRequiredResidualsZero": true
+  },
+  "undefined_dot_quantities_used_as_inputs": false,
+  "scalar_inputs": ["M","a","L","mu","m","E","Lz","rp","PhiP","sigmaR","sigmaY","R","y"],
+  "assumptions": ["fixed positive widths","Rgeo>0 inward branch","P+Sqrt[Rgeo]!=0","uT>0","equatorial yp=0"],
+  "excluded": ["turning point","time-dependent widths","finite-domain normalization","axis completion"],
+  "execution_note": "The first AmplitudePhase dispatch ended in an automatic permission-review timeout before a Kernel result; the single permitted retry succeeded.",
+  "stage_passed": true
+}

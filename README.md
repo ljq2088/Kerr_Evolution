@@ -1,4 +1,18 @@
-# Kerr 双曲切片标量场演化
+# Kerr 双曲切片演化：s=-2 与 s=0 参考
+
+现已导入与 [IndigoJX 参考仓库](https://github.com/IndigoJX/ParticleSourceEvolutionInHyperboloidalCompactCoord/tree/13fc2b485f76b1284c2e17879ede9075de062a9d) 固定提交一致的 **s=-2 点粒子 Teukolsky 演化器**：轨迹、四块源项、七点空间离散、RK4、零无穷波形提取与 checkpoint/restart。导入文件保持原样，见 [对齐说明](docs/upstream_alignment.md) 和 [逐文件校验清单](docs/upstream_manifest.json)。
+
+```bash
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements-aligned.txt
+bash run_sminus2.sh --run-id kerr-sminus2-smoke --no-progress
+```
+
+默认运行 a/M=0.8、m=2、质量比 1e-5 的上游 smoke 配置。结果写入 `data/kerr_point_particle_evolution/runs/`；波形是零无穷处的复 psi4_22。默认不计算应变 h。上游 A1 符号/归一化 bridge 的 `conditional-open` 状态保留。
+
+s=0 参考来自上游通用自旋算符的标量极限，已核对 24 组参数的全部系数。原标量实现、图和 PDF 保留如下，其 sigma/tau 坐标可用 `src/scalar_upstream.py` 转成 R/T/psi0。旧 PDF 不作为 s=-2 推导；后者以 [上游推导](findings/kerr_point_particle_evolution/theory/DERIVATION.md) 为准。
+
+## 原有 s=0 标量演化
 
 [中文推导 PDF（8 页）](docs/kerr_hyperboloidal_derivation_zh.pdf)：从 Kerr 标量波动方程、坐标变换、场重标度到球谐投影、特征边界和数值演化的完整步骤。
 

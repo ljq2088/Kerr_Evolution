@@ -1,0 +1,44 @@
+{
+  "stage": "A4 endpoint summary",
+  "execution": {
+    "backend": "Mathematica MCP execute_code",
+    "transport_status": "degraded_fallback",
+    "timing_ms": 92,
+    "heavy_algebra_rerun": false,
+    "root_replay_after_review": {
+      "transport_status": "ok",
+      "timing_ms": 17,
+      "success": true
+    }
+  },
+  "primary_endpoint_flags": {
+    "ThetaFieldVerified": true,
+    "ThetaFourBlocksVerified": true,
+    "ThetaEquationVerified": true,
+    "YFieldVerified": true,
+    "YFourBlocksVerified": true,
+    "YSingleEndToEndVerified": true,
+    "A4aStagePassed": true,
+    "A4bStagePassed": true
+  },
+  "A4FullEndpointVerified": true,
+  "transformation": "complete periodic point-particle E0 -> fixed-m theta -> fixed-m y",
+  "weak_distribution_diagnostics": {
+    "LTransposeResidualZero": true,
+    "JTransposeResidualZero": true,
+    "DerivativeSignResidualsZero": true,
+    "BlockOrderingChecksTrue": true
+  },
+  "PolePowerDiagnosticVerified": true,
+  "OldArbitraryProjectionBlocksUsedAsPassEvidence": false,
+  "GaussianIntroduced": false,
+  "SpatialDeltaJetsExpanded": false,
+  "limits": {
+    "A1SignatureUnitPDFBoundaryInherited": true,
+    "ProjectGateStillConditionalOnA1": true,
+    "axis_regularity_powers_checked": true,
+    "axis_endpoint_numerical_closure_open": true,
+    "interior_coordinate_transform_domain": "-1<y<1",
+    "particle_at_angular_coordinate_pole_excluded": true
+  }
+}

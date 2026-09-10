@@ -1,0 +1,42 @@
+{
+  "stage": "A4a fixed-m theta",
+  "executions": {
+    "field": {"transport_status": "degraded_fallback", "timing_ms": 21, "saved_file": "checks/a4/a4a_fixed_m_theta.wl"},
+    "S1": {"transport_status": "ok", "timing_ms": 274, "raw_difference_leaf_count": 51279},
+    "S2": {"transport_status": "ok", "timing_ms": 8268, "raw_difference_leaf_count": 873631},
+    "S3": {"transport_status": "ok", "timing_ms": 751, "raw_difference_leaf_count": 322556},
+    "S4": {"transport_status": "ok", "timing_ms": 8111, "raw_difference_leaf_count": 855401},
+    "source_saved_file": "checks/a4/a4a_source_jet_blocks.wl"
+  },
+  "generation_route": {
+    "start": "complete unprojected E0 with periodic delta Fourier series",
+    "selected_mode": "Kernel differentiates Exp[I m(Phi-PhiP)]/(2Pi) before extracting Exp[I m Phi]",
+    "final_Wtheta_assumed_in_generation": false,
+    "theory_Etheta_used_as_generation_helper": false,
+    "arbitrary_projection_template_used": false,
+    "complete_point_particle_input_differentiated": true
+  },
+  "residuals": {
+    "CompleteField": 0,
+    "OperandModes": {"W*N^2": 0, "W*Mbar*N": 0, "W*Mbar^2": 0},
+    "HatBlocks": {"nn_LL": 0, "mbar_n_LJ": 0, "mbar_mbar_JJ": 0, "mbar_n_JL": 0},
+    "SourceBlocks": {"S1": 0, "S2": 0, "S3": 0, "S4": 0},
+    "CompleteThetaEquationResidual": 0,
+    "CompleteThetaEquationResidualConstruction": "exact CompleteField residual plus the four exact grouped SourceBlock residuals",
+    "AllRequiredResidualsZero": true
+  },
+  "assumptions": [
+    "M>0,L>0,R>0,0<theta<Pi,Delta!=0,integer m",
+    "point-particle amplitudes and worldline functions are C2 where differentiated",
+    "deltaR and deltaTheta are exact coordinate-distribution placeholders",
+    "no Gaussian and no expanded spatial delta jets"
+  ],
+  "execution_notes": {
+    "terminated_full_source_attempt": "The monolithic source FullSimplify call was terminated after approximately 180 seconds without output.",
+    "terminated_blocks12_attempt": "The Blocks12 FullSimplify call was terminated after approximately 180 seconds without output.",
+    "optimized_method": "Kernel differentiates the complete point-particle input, then Expand/jet-coefficient comparison replaces monolithic Together+FullSimplify.",
+    "final_field_entry_cleanup": "a4a_fixed_m_theta.wl contains only the replayable complete-field check; all four source blocks are executed by checks/a4/a4a_source_jet_blocks.wl.",
+    "field_entry_contains_source_fullsimplify_branch": false
+  },
+  "stage_passed": true
+}
