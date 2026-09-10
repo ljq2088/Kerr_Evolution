@@ -53,6 +53,24 @@ Kerr 模态耦合、`m ↔ -m` 共轭关系及质量缩放。
 详细推导见 [Kerr 方程说明](docs/kerr_hyperboloidal_zh.md)，文献阅读范围见
 [Zotero 来源记录](docs/zotero_sources.md)。
 
+## 三维演化可视化
+
+```bash
+OPENBLAS_NUM_THREADS=1 .venv/bin/python src/plot_3d.py
+```
+
+读取已有 `outputs/kerr_m2/evolution.npz`，输出到 `outputs/kerr_m2/three_d/`：
+`snapshots_3d.png`（6 个时刻）和 `evolution_3d.gif`（0–80M、81 帧）。
+图示为重建的 `Re(Phi)=Re(sum_l u_lm Y_lm)/r`，取单个复 `m=2` 解的实部，不乘 2。
+它展示三维坐标域中的赤道和经向切面，不是等值面或整个体积的渲染。
+采用显示坐标 `X=r sin(theta) cos(varphi), Y=r sin(theta) sin(varphi), Z=r cos(theta)`；
+`varphi` 是 ingoing 方位角。这些不是 Kerr–Schild 笛卡尔坐标，也不表示空间的等距嵌入。
+范围 `r_plus <= r <= 16M`，不包含未来零无穷；中心黑面表示坐标 `r=r_plus`。
+时间是固定双曲切片 `tau`，不是所有点共同的 Boyer–Lindquist 时间。
+颜色红正蓝负，统一采用固定的对称对数色标，以同时显示强场与衰减后的弱场。
+径向从原 Chebyshev 网格用重心插值重建，角向直接计算球谐函数；不重新演化。
+`visualization.json` 保存具体坐标、色标、帧时间和插值核验结果。
+
 ## 当前范围
 
 实现针对 `|a/M|<1` 的线性测试场。没有加入标量质量、源项、自相互作用、背景反作用或 EMRI 粒子源。
