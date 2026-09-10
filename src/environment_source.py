@@ -61,12 +61,12 @@ def angular_mode(theta, ell, m, c2, size=20):
 
 
 class ThresholdCloud:
-    """alpha=.3 |211>, physical field normalized to requested Killing mass."""
-    def __init__(self, mass=1., radial_points=2401):
-        result = cloud_211(outer_efolds=45., horizon_offset=1e-6, rtol=2e-11)
+    """|211>, physical field normalized to requested Killing mass."""
+    def __init__(self, mass=1., radial_points=2401, alpha=.3):
+        result = cloud_211(outer_efolds=45., horizon_offset=1e-6, rtol=2e-11,mu=alpha)
         self.a, self.omega, self.rp = (result[k] for k in
                                       ('a_over_M', 'M_omega_c', 'r_plus_over_M'))
-        self.mu, self.m = .3, 1
+        self.mu, self.m = alpha, 1
         self.c2 = self.a**2*(self.omega**2-self.mu**2)
         self.lam = angular_eigenvalue(1, 1, self.c2)
         self.rmin = self.rp+1e-6

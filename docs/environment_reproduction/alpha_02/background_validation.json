@@ -1,0 +1,13 @@
+{
+  "status": "background_only_not_forced_environment",
+  "a": 0.6870453082262991,
+  "mu": 0.2,
+  "omega_c": 0.19895734610440202,
+  "normalized_killing_mass": 1.0,
+  "direct_energy": 1.0000000012114474,
+  "direct_charge": 5.026202956521189,
+  "energy_minus_omega_charge": -1.0746958878371515e-13,
+  "maximum_relative_KG_trace_residual": 1.7186252421197423e-13,
+  "field_convention": "C=1 complex scalar; integral |S exp(im phi)|\u00b2 dOmega=1",
+  "paper_phi10_scale": "multiply this mass=1 field by alpha**(-3)"
+}

@@ -8,10 +8,12 @@ import matplotlib.pyplot as plt
 from environment_source import ThresholdCloud, angular_mode
 
 
-def main():
+def main(alpha=.3):
     out = Path(__file__).resolve().parents[1]/'docs/environment_reproduction'
-    out.mkdir(exist_ok=True)
-    cloud = ThresholdCloud()
+    if alpha!=.3:
+        out=out/'alpha_02'
+    out.mkdir(exist_ok=True,parents=True)
+    cloud = ThresholdCloud(alpha=alpha)
     r = np.geomspace(cloud.rmin, cloud.rmax, 1601)
     R, dR = cloud.radial(r)
     e, q = cloud.integrals(4801)
@@ -33,7 +35,7 @@ def main():
     fig, axes = plt.subplots(1,2,figsize=(10,4), constrained_layout=True)
     axes[0].plot(r,R)
     axes[0].set(xlim=(cloud.rp,150),xlabel='Boyer-Lindquist r/M',ylabel='R(r), cloud mass = 1',
-                title='Kerr threshold cloud |211>, alpha = 0.3')
+                title=f'Kerr threshold cloud |211>, alpha = {alpha}')
     x=np.linspace(-80,80,301)
     xx,yy=np.meshgrid(x,x)
     rr=np.hypot(xx,yy)
@@ -50,4 +52,7 @@ def main():
 
 
 if __name__=='__main__':
-    main()
+    import argparse
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--alpha',type=float,choices=(.2,.3),default=.3)
+    main(parser.parse_args().alpha)

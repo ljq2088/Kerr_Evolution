@@ -33,7 +33,15 @@
    两端复振幅最大相对差约2.4e-9。详见 `lorenz_trace_validation.json`。
    这是六个辅助场之一，尚未重构完整 h_mu_nu。
 
-13 项本模块测试已通过。背景图片是未受扰动云，不是论文尾迹图。
+6. 接入固定版本 pybhpt=1.0.0 的 s=±2 点粒子频域 Weyl 解。
+   对公开表 rp=4/6/10/20 的两端振幅，时间积分后的最大相对误差约5.1e-15。
+   特别注意：表的 Psi0/Psi4 数值与原始 pybhpt 曲率相差 i/omega。
+   这被记录为显式的经验约定映射；原始曲率和时间积分分别保存，不能直接混用。
+   文中定义的曲率与表的命名之间仍需在完整重构过程中逐步核对。
+7. 背景求解扩展至论文的 alpha=.2；独立质量—荷检验及无径向节点检验通过。
+   对应数值和背景图在 `alpha_02/`。
+
+16 项本模块测试已通过。背景图片是未受扰动云，不是论文尾迹图。
 
 ## Lorenz 重构公开资料调查
 
@@ -48,7 +56,7 @@
   静态 m_g=0 仍须单独处理，不能通过除以零频率获得。
 - Windows 有 WolframScript；当前 Python 实现未依赖运行外部 notebook。
 
-下一阶段：实现其余自旋±2、±1和辅助标量带源解，首先复现同一振幅表，
+下一阶段：实现其余自旋±1和辅助标量带源解，首先复现同一振幅表，
 再执行公开微分算符得到完整 Lorenz 度规，验证 Einstein 源和 Lorenz 条件。
 之后接入已有协变源与 massive Green 求解器，推进上表图级验收。
 目前缺作者程序不构成无法继续的理由：已有公开方程和数值表可支持独立实现。
@@ -58,9 +66,11 @@
 ```bash
 .venv/bin/python src/environment_cloud.py
 .venv/bin/python src/report_environment_background.py
+.venv/bin/python src/report_environment_background.py --alpha .2
 # report_lorenz_trace 需要上述公开源包位于 outputs/lorenz_reference/
 .venv/bin/python src/report_lorenz_trace.py
-.venv/bin/python -m pytest tests/test_environment_cloud.py tests/test_environment_source.py tests/test_environment_radial.py tests/test_lorenz_trace.py -q
+.venv/bin/python src/report_lorenz_weyl.py
+.venv/bin/python -m pytest tests/test_environment_cloud.py tests/test_environment_source.py tests/test_environment_radial.py tests/test_lorenz_trace.py tests/test_lorenz_weyl.py tests/test_environment_alpha02.py -q
 ```
 
 所有当前数值结果只涉及此处明确列出的模块和参数，不代表全篇收敛或完整 EMRI 波形。

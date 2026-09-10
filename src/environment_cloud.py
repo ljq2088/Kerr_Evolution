@@ -66,12 +66,20 @@ def matching_residual(a, mu=.3, outer_efolds=30., horizon_offset=1e-5,
     return float((u[0]*v[1]-v[0]*u[1])/np.linalg.norm(u)/np.linalg.norm(v))
 
 
-def cloud_211(outer_efolds=30., horizon_offset=1e-5, rtol=2e-10):
-    """Find the alpha=.3 |211> threshold branch; bracket is deliberately fixed."""
-    kwargs = dict(outer_efolds=outer_efolds, horizon_offset=horizon_offset, rtol=rtol)
-    a = brentq(lambda x: matching_residual(x, **kwargs), .87, .88, xtol=1e-12)
+def cloud_211(outer_efolds=30., horizon_offset=1e-5, rtol=2e-10, mu=.3):
+    """Find the |211> threshold branch for the paper's alpha=.2 or .3.
+
+    Hydrogenic binding brackets between n=sqrt(2) and sqrt(8), excluding
+    the first radial overtone. No general high-alpha cloud solver is claimed.
+    """
+    if not .19 <= mu <= .31:
+        raise ValueError('Validated cloud range is alpha in [0.19,0.31]')
+    kwargs = dict(outer_efolds=outer_efolds, horizon_offset=horizon_offset, rtol=rtol,mu=mu)
+    def spin(w):
+        return 4*w/(1+4*w*w)
+    lower,upper=spin(mu*(1-mu*mu/4)),spin(mu*(1-mu*mu/16))
+    a = brentq(lambda x: matching_residual(x, **kwargs), lower,upper, xtol=1e-13)
     rp, omega = horizon(a)
-    mu = .3
     threshold = (1/(mu-omega)-a)**(2/3)
     return dict(alpha=mu, a_over_M=a, M_omega_c=omega,
                 r_plus_over_M=rp, m2_threshold_r_over_M=threshold,

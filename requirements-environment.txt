@@ -1,0 +1,3 @@
+-r requirements-aligned.txt
+# Frequency-domain Weyl source/radial solver; reconstruction is developed locally.
+pybhpt==1.0.0

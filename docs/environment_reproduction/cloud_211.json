@@ -2,20 +2,20 @@
   "method": "Independent two-sided shooting; not Leaver",
   "baseline": {
     "alpha": 0.3,
-    "a_over_M": 0.8771530275949851,
-    "M_omega_c": 0.29629324847979127,
-    "r_plus_over_M": 1.4802109600799958,
-    "m2_threshold_r_over_M": 41.66084841817926,
-    "matching_residual": -2.474597585925439e-15
+    "a_over_M": 0.8771530275949888,
+    "M_omega_c": 0.2962932484797939,
+    "r_plus_over_M": 1.4802109600799889,
+    "m2_threshold_r_over_M": 41.660848418198874,
+    "matching_residual": 1.5245680287442853e-13
   },
   "refined": {
     "alpha": 0.3,
-    "a_over_M": 0.8771530275949329,
-    "M_omega_c": 0.29629324847975447,
-    "r_plus_over_M": 1.4802109600800912,
-    "m2_threshold_r_over_M": 41.660848417902606,
-    "matching_residual": -5.78016524658781e-15
+    "a_over_M": 0.8771530275949366,
+    "M_omega_c": 0.29629324847975713,
+    "r_plus_over_M": 1.4802109600800843,
+    "m2_threshold_r_over_M": 41.66084841792264,
+    "matching_residual": 1.5234540549281733e-13
   },
   "paper_v1_m2_threshold": 41.66,
-  "threshold_cutoff_change": 2.766569195955526e-10
+  "threshold_cutoff_change": 2.7623769938145415e-10
 }
