@@ -9,16 +9,19 @@ from lorenz_metric import nonstatic_metric
 
 
 class LorenzMetricMode:
-    def __init__(self,orbital_radius,a,m,ellmax):
+    def __init__(self,orbital_radius,a,m,ellmax,ellmin=None):
         if abs(m)<1 or ellmax<abs(m):
             raise ValueError('This development adapter requires nonzero m_g and ellmax>=|m_g|')
         self.r0,self.a,self.m,self.ellmax=orbital_radius,a,m,ellmax
+        self.ellmin=abs(m) if ellmin is None else ellmin
+        if not abs(m)<=self.ellmin<=ellmax:
+            raise ValueError('Require |m_g|<=ellmin<=ellmax')
         self.omega=m/(orbital_radius**1.5+a)
 
     @lru_cache(maxsize=8192)
     def _values(self,r,theta):
         h=np.zeros((4,4),complex)
-        for ell in range(abs(self.m),self.ellmax+1):
+        for ell in range(self.ellmin,self.ellmax+1):
             _,piece=nonstatic_metric(r,theta,self.r0,self.a,ell,self.m,order=6)
             h+=np.array([[v.value for v in row] for row in piece])
         return tuple(h.ravel())
@@ -36,5 +39,7 @@ class LorenzMetricMode:
                     kappa_mass_squared_step=min(5e-5,.01*self.omega**2),
                     maxwell_chiralities='both; full complex compact current')
         if abs(self.m)==1:
-            result['nonstatic_dipole_included']=True
+            result['nonstatic_dipole_included']=self.ellmin==1
+        if self.ellmin!=abs(self.m):
+            result['ellmin']=self.ellmin
         return result

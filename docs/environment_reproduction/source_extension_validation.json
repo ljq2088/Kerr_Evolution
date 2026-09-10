@@ -1,0 +1,21 @@
+{
+  "status": "passed_on_full_source_scale",
+  "absolute_error": 7.260446256796851e-15,
+  "relative_to_increment": 1.6244812332158025e-08,
+  "relative_to_full_source": 9.201304334412128e-12,
+  "comparison": "Partial metric sum contraction against separately contracted/projected per-ell sources",
+  "note": "Summing tensors before contraction changes cancellation; initial 1e-10 relative-to-small-increment threshold failed at 1.62e-8. Compare with total source as well.",
+  "metric_provenance": {
+    "status": "development_not_production_validated",
+    "coordinates": "Boyer-Lindquist",
+    "field": "covariant h_ab; particle mass stripped",
+    "m_g": 2,
+    "ellmax": 6,
+    "orbital_radius": 20.0,
+    "a": 0.8771530275949366,
+    "static_and_low_modes_included": false,
+    "kappa_mass_squared_step": 4.9033552954689705e-06,
+    "maxwell_chiralities": "both; full complex compact current",
+    "ellmin": 5
+  }
+}

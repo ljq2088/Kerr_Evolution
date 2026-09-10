@@ -1,0 +1,416 @@
+{
+  "status": "pointwise_diagnostic_not_flux_convergence",
+  "parameters": {
+    "alpha": 0.3,
+    "rp": 20.0,
+    "scalar_ell": 3,
+    "scalar_m": 3,
+    "metric_m": 2,
+    "radii": [
+      10.0,
+      30.0
+    ],
+    "angular_orders": [
+      6,
+      10,
+      14
+    ],
+    "metric_ellmax": 8
+  },
+  "rows": [
+    {
+      "radius": 10.0,
+      "angular_order": 6,
+      "metric_ell": 2,
+      "source": [
+        -0.0007933547098321183,
+        -2.924407179154424e-05
+      ]
+    },
+    {
+      "radius": 10.0,
+      "angular_order": 6,
+      "metric_ell": 3,
+      "source": [
+        2.349506544892611e-05,
+        -1.341323716226733e-10
+      ]
+    },
+    {
+      "radius": 10.0,
+      "angular_order": 6,
+      "metric_ell": 4,
+      "source": [
+        -1.8218378471943243e-05,
+        8.617338301366963e-12
+      ]
+    },
+    {
+      "radius": 10.0,
+      "angular_order": 6,
+      "metric_ell": 5,
+      "source": [
+        -4.1707327592493953e-07,
+        -1.0123871881014319e-15
+      ]
+    },
+    {
+      "radius": 10.0,
+      "angular_order": 6,
+      "metric_ell": 6,
+      "source": [
+        -3.159081154779883e-08,
+        2.915031659960786e-15
+      ]
+    },
+    {
+      "radius": 10.0,
+      "angular_order": 6,
+      "metric_ell": 7,
+      "source": [
+        -1.2049958773654419e-09,
+        -4.834876809996475e-16
+      ]
+    },
+    {
+      "radius": 10.0,
+      "angular_order": 6,
+      "metric_ell": 8,
+      "source": [
+        2.2963844652699088e-07,
+        -2.6722381403481324e-14
+      ]
+    },
+    {
+      "radius": 10.0,
+      "angular_order": 10,
+      "metric_ell": 2,
+      "source": [
+        -0.0007933547100205372,
+        -2.9244071911956983e-05
+      ]
+    },
+    {
+      "radius": 10.0,
+      "angular_order": 10,
+      "metric_ell": 3,
+      "source": [
+        2.3495065130545696e-05,
+        -1.341332523276444e-10
+      ]
+    },
+    {
+      "radius": 10.0,
+      "angular_order": 10,
+      "metric_ell": 4,
+      "source": [
+        -1.8218379709920733e-05,
+        8.598354658937997e-12
+      ]
+    },
+    {
+      "radius": 10.0,
+      "angular_order": 10,
+      "metric_ell": 5,
+      "source": [
+        -4.170799976347502e-07,
+        -1.741105290071069e-15
+      ]
+    },
+    {
+      "radius": 10.0,
+      "angular_order": 10,
+      "metric_ell": 6,
+      "source": [
+        -2.9859376507735825e-08,
+        -1.4107353094791742e-14
+      ]
+    },
+    {
+      "radius": 10.0,
+      "angular_order": 10,
+      "metric_ell": 7,
+      "source": [
+        -1.9901248645295146e-10,
+        -7.814587295449337e-16
+      ]
+    },
+    {
+      "radius": 10.0,
+      "angular_order": 10,
+      "metric_ell": 8,
+      "source": [
+        -7.82249310466256e-12,
+        -2.8534228132773376e-14
+      ]
+    },
+    {
+      "radius": 10.0,
+      "angular_order": 14,
+      "metric_ell": 2,
+      "source": [
+        -0.0007933547100204889,
+        -2.924407191003194e-05
+      ]
+    },
+    {
+      "radius": 10.0,
+      "angular_order": 14,
+      "metric_ell": 3,
+      "source": [
+        2.349506512445415e-05,
+        -1.3413090016349127e-10
+      ]
+    },
+    {
+      "radius": 10.0,
+      "angular_order": 14,
+      "metric_ell": 4,
+      "source": [
+        -1.82183797082897e-05,
+        8.585520310959069e-12
+      ]
+    },
+    {
+      "radius": 10.0,
+      "angular_order": 14,
+      "metric_ell": 5,
+      "source": [
+        -4.1708000769677846e-07,
+        5.99628245260684e-16
+      ]
+    },
+    {
+      "radius": 10.0,
+      "angular_order": 14,
+      "metric_ell": 6,
+      "source": [
+        -2.98593755438731e-08,
+        -2.0834644435542798e-14
+      ]
+    },
+    {
+      "radius": 10.0,
+      "angular_order": 14,
+      "metric_ell": 7,
+      "source": [
+        -1.9901843646418882e-10,
+        9.209511479947814e-17
+      ]
+    },
+    {
+      "radius": 10.0,
+      "angular_order": 14,
+      "metric_ell": 8,
+      "source": [
+        -7.823435858588031e-12,
+        -2.0527995974866932e-14
+      ]
+    },
+    {
+      "radius": 30.0,
+      "angular_order": 6,
+      "metric_ell": 2,
+      "source": [
+        -0.007730348982285409,
+        -3.0273708207902468e-05
+      ]
+    },
+    {
+      "radius": 30.0,
+      "angular_order": 6,
+      "metric_ell": 3,
+      "source": [
+        0.0001557876963526659,
+        -2.148132214949891e-09
+      ]
+    },
+    {
+      "radius": 30.0,
+      "angular_order": 6,
+      "metric_ell": 4,
+      "source": [
+        -0.0003483183461215991,
+        2.9616129463411374e-11
+      ]
+    },
+    {
+      "radius": 30.0,
+      "angular_order": 6,
+      "metric_ell": 5,
+      "source": [
+        2.6199782278359024e-08,
+        -8.714186863483604e-15
+      ]
+    },
+    {
+      "radius": 30.0,
+      "angular_order": 6,
+      "metric_ell": 6,
+      "source": [
+        7.45305270734989e-08,
+        4.8887310963891203e-14
+      ]
+    },
+    {
+      "radius": 30.0,
+      "angular_order": 6,
+      "metric_ell": 7,
+      "source": [
+        4.3160343135157133e-07,
+        3.091226046307103e-15
+      ]
+    },
+    {
+      "radius": 30.0,
+      "angular_order": 6,
+      "metric_ell": 8,
+      "source": [
+        1.4724949345706016e-05,
+        -2.516438493962316e-13
+      ]
+    },
+    {
+      "radius": 30.0,
+      "angular_order": 10,
+      "metric_ell": 2,
+      "source": [
+        -0.0077303489823208026,
+        -3.0273708194361474e-05
+      ]
+    },
+    {
+      "radius": 30.0,
+      "angular_order": 10,
+      "metric_ell": 3,
+      "source": [
+        0.00015578769605389066,
+        -2.148133016258207e-09
+      ]
+    },
+    {
+      "radius": 30.0,
+      "angular_order": 10,
+      "metric_ell": 4,
+      "source": [
+        -0.00034831838383321214,
+        2.964552875562777e-11
+      ]
+    },
+    {
+      "radius": 30.0,
+      "angular_order": 10,
+      "metric_ell": 5,
+      "source": [
+        2.5765442036364764e-08,
+        -8.293461831571506e-15
+      ]
+    },
+    {
+      "radius": 30.0,
+      "angular_order": 10,
+      "metric_ell": 6,
+      "source": [
+        2.16989240524966e-08,
+        3.308661411613098e-14
+      ]
+    },
+    {
+      "radius": 30.0,
+      "angular_order": 10,
+      "metric_ell": 7,
+      "source": [
+        1.2581815685563803e-12,
+        1.0890634087760543e-15
+      ]
+    },
+    {
+      "radius": 30.0,
+      "angular_order": 10,
+      "metric_ell": 8,
+      "source": [
+        -3.800359278169225e-13,
+        1.0829225856522652e-13
+      ]
+    },
+    {
+      "radius": 30.0,
+      "angular_order": 14,
+      "metric_ell": 2,
+      "source": [
+        -0.007730348982321268,
+        -3.027370819567932e-05
+      ]
+    },
+    {
+      "radius": 30.0,
+      "angular_order": 14,
+      "metric_ell": 3,
+      "source": [
+        0.0001557876960546424,
+        -2.148132503505215e-09
+      ]
+    },
+    {
+      "radius": 30.0,
+      "angular_order": 14,
+      "metric_ell": 4,
+      "source": [
+        -0.00034831838383396957,
+        2.963782377487706e-11
+      ]
+    },
+    {
+      "radius": 30.0,
+      "angular_order": 14,
+      "metric_ell": 5,
+      "source": [
+        2.5765452221402664e-08,
+        -7.715113973724498e-15
+      ]
+    },
+    {
+      "radius": 30.0,
+      "angular_order": 14,
+      "metric_ell": 6,
+      "source": [
+        2.169892524331412e-08,
+        -3.390001158435846e-15
+      ]
+    },
+    {
+      "radius": 30.0,
+      "angular_order": 14,
+      "metric_ell": 7,
+      "source": [
+        1.2047130681446292e-12,
+        8.451330614956667e-16
+      ]
+    },
+    {
+      "radius": 30.0,
+      "angular_order": 14,
+      "metric_ell": 8,
+      "source": [
+        -3.8384359099200405e-13,
+        5.5926656164090715e-14
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "radius": 10.0,
+      "angular_6_to_10_at_L8_relative": 0.000287576640929397,
+      "angular_10_to_14_at_L8_relative": 2.636551996109367e-11,
+      "metric_L4_to_L8_at_n14_relative": 0.0005666769336049159,
+      "metric_L6_to_L8_at_n14_relative": 2.6213464854491144e-07
+    },
+    {
+      "radius": 30.0,
+      "angular_6_to_10_at_L8_relative": 0.0019197358272723497,
+      "angular_10_to_14_at_L8_relative": 1.3572083637576032e-11,
+      "metric_L4_to_L8_at_n14_relative": 5.990894487242653e-06,
+      "metric_L6_to_L8_at_n14_relative": 1.0385481194394685e-10
+    }
+  ]
+}

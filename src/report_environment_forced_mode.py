@@ -29,6 +29,8 @@ def main():
     parser.add_argument('--horizon-log',action='store_true')
     parser.add_argument('--horizon-order',type=int)
     parser.add_argument('--reuse-source',type=Path)
+    parser.add_argument('--extend-metric-source',type=Path,
+                        help='Reuse lower ellmax source and compute only additional metric modes at matching radii')
     args=parser.parse_args()
     if min(args.radial_order,args.angular_order)<2:
         raise ValueError('Quadrature orders must be at least two')
@@ -79,14 +81,27 @@ def main():
     if args.horizon_order is not None:
         metadata['horizon_quadrature_order']=args.horizon_order
     reused={}
+    extended={}
+    additional_metric=None
+    grid_keys={'radial_order','source_panels','green_outer_radius','green_horizon_offset',
+               'horizon_log_first_panel','horizon_quadrature_order'}
+    source_parameters=lambda p:{k:v for k,v in p.items() if k not in grid_keys}
     if args.reuse_source:
         cached=json.loads(args.reuse_source.read_text())
-        grid_keys={'radial_order','source_panels','green_outer_radius','green_horizon_offset',
-                   'horizon_log_first_panel','horizon_quadrature_order'}
-        source_parameters=lambda p:{k:v for k,v in p.items() if k not in grid_keys}
         if source_parameters(cached['parameters'])!=source_parameters(metadata):
             raise ValueError('Reusable samples have different source physics or angular truncation')
         reused={row['r']:row['source'] for row in cached['samples']}
+    if args.extend_metric_source:
+        cached=json.loads(args.extend_metric_source.read_text())
+        lower=source_parameters(cached['parameters'])
+        upper=source_parameters(metadata)
+        lower=json.loads(json.dumps(lower))
+        old_lmax=lower['metric']['ellmax']
+        lower['metric']['ellmax']=args.metric_ellmax
+        if lower!=upper or not abs(args.metric_m)<=old_lmax<args.metric_ellmax:
+            raise ValueError('Extension requires identical source physics/angular quadrature and a lower complete metric ell sum')
+        extended={row['r']:row['source'] for row in cached['samples']}
+        additional_metric=LorenzMetricMode(20.,cloud.a,args.metric_m,args.metric_ellmax,ellmin=old_lmax+1)
     samples=[]
     if out.exists():
         previous=json.loads(out.read_text())
@@ -105,11 +120,14 @@ def main():
         if r in reused:
             value=reused[r]
         else:
-            frequency,J=project_source(cloud,[r],20.,scalar_ell,scalar_m,metric,ntheta=args.angular_order)
+            selected_metric=additional_metric if r in extended else metric
+            frequency,J=project_source(cloud,[r],20.,scalar_ell,scalar_m,selected_metric,ntheta=args.angular_order)
             if abs(frequency-omega)>1e-14:
                 raise RuntimeError('Source and Green frequencies differ')
-            value=encode(J[0])
+            value=encode(J[0]+(complex(*extended[r]) if r in extended else 0j))
         samples.append(dict(r=r,weight=float(weights[index]),source=value,reused=r in reused))
+        if r in extended and r not in reused:
+            samples[-1]['extended_from_metric_ellmax']=old_lmax
         save()
         print(f'Source radius {index+1}/{len(radii)}: r={r:.8g}',flush=True)
     J=np.array([complex(*sample['source']) for sample in samples])
