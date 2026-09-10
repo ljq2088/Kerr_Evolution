@@ -11,6 +11,18 @@
 Ripley (2022) 的式 (11)，取场自旋权重 `s=0`；这里不是将 Schwarzschild 势简单替换成 Kerr 势。
 角向采用固定 `m` 的球谐 Galerkin 展开，完整保留截断空间内的 `l ↔ l±2` 耦合及所有 `im a` 项。
 
+## 结果预览
+
+`a/M=0.7, m=2` 的标量场三维切面演化（`0–80M`）：
+
+![Kerr 标量场三维演化](docs/figures/evolution_3d.gif)
+
+[六个时刻的高清快照](docs/figures/snapshots_3d.png) ·
+[视界与零无穷的模态波形](docs/figures/waveforms.png) ·
+[收敛数据](docs/convergence.json)
+
+这些示例图随 Git 保存；完整可再生演化数组仍写入忽略的 `outputs/`。
+
 ## 运行
 
 ```bash

@@ -1,0 +1,46 @@
+{
+  "m=0": {
+    "radial_n": [
+      32,
+      48,
+      64
+    ],
+    "radial_max_abs_differences": [
+      2.09437918676815e-06,
+      2.4624445954524177e-09
+    ],
+    "angular_lmax": [
+      4,
+      6,
+      8
+    ],
+    "angular_common_modes_max_abs_differences": [
+      1.1609201824181598e-06,
+      1.546822750812251e-08
+    ],
+    "temporal_max_abs_difference": 3.2725317317128244e-09,
+    "peak_boundary_amplitude": 0.34937344622482874
+  },
+  "m=2": {
+    "radial_n": [
+      32,
+      48,
+      64
+    ],
+    "radial_max_abs_differences": [
+      2.070511829705417e-06,
+      9.869694748171199e-10
+    ],
+    "angular_lmax": [
+      4,
+      6,
+      8
+    ],
+    "angular_common_modes_max_abs_differences": [
+      5.834156143366763e-07,
+      7.88208467687858e-09
+    ],
+    "temporal_max_abs_difference": 1.677537734827807e-09,
+    "peak_boundary_amplitude": 0.3373976696697992
+  }
+}
