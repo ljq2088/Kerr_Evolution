@@ -106,7 +106,7 @@ def spin1_metric(r,theta,r0,a=.6,ell=2,m=2,order=8,return_vector=False,full_curr
     return g,h
 
 
-def spin0_metric(r,theta,r0,a=.6,ell=2,m=2,order=8,kappa_step=None):
+def spin0_metric(r,theta,r0,a=.6,ell=2,m=2,order=8,kappa_step=None,return_vector=False):
     """Trace, compact chi and retarded kappa; no static completion."""
     if m==0 or r==r0:
         raise ValueError('Nonstatic vacuum points only')
@@ -119,6 +119,8 @@ def spin0_metric(r,theta,r0,a=.6,ell=2,m=2,order=8,kappa_step=None):
     ky=cky_tensor(g)
     xi=[sum(ky[i][j]*g.inv[j][k]*g.partial(htrace,k)/2 for j in range(4) for k in range(4))
         +g.partial(kappa-chi,i) for i in range(4)]
+    if return_vector:
+        return g,xi
     dxi=vector_covariant_derivative(g,xi)
     h=[[-(dxi[i][j]+dxi[j][i])*1j/omega for j in range(4)] for i in range(4)]
     return g,h

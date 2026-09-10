@@ -1,0 +1,302 @@
+{
+  "source": "https://arxiv.org/src/2501.09806v1",
+  "figure": "Figures/Flux_l_mode_convergence_inf.pdf",
+  "sha256": "5c5c62e8831e8a734a4efdcc1256373c6a426b0efb0b3128d72bb1ea1ac298d3",
+  "status": "digitized_vector_graphic_not_author_numeric_data",
+  "parameters": {
+    "alpha": 0.3,
+    "rp_over_M": 20
+  },
+  "mode_assignment": "Largest marker m=ell, then m decreases by two; paper Fig.6 caption.",
+  "normalization": "Axis labeled F^{s,infinity}_{ell m}; comparison to epsilon definition unresolved.",
+  "markers": [
+    {
+      "ell": 2,
+      "pdf_marker_center": [
+        61.93707500000001,
+        17.221069999999983
+      ],
+      "plotted_flux": 1.2777284288186083e-06,
+      "m": 2
+    },
+    {
+      "ell": 3,
+      "pdf_marker_center": [
+        77.335155,
+        7.130034999999992
+      ],
+      "plotted_flux": 1.2517190009296099e-05,
+      "m": 3
+    },
+    {
+      "ell": 4,
+      "pdf_marker_center": [
+        92.73324500000001,
+        31.92588999999999
+      ],
+      "plotted_flux": 4.594494783286693e-08,
+      "m": 2
+    },
+    {
+      "ell": 4,
+      "pdf_marker_center": [
+        92.73324500000001,
+        12.952519999999993
+      ],
+      "plotted_flux": 3.3547841868696594e-06,
+      "m": 4
+    },
+    {
+      "ell": 5,
+      "pdf_marker_center": [
+        108.131335,
+        35.001909999999995
+      ],
+      "plotted_flux": 2.2915713437700764e-08,
+      "m": 3
+    },
+    {
+      "ell": 5,
+      "pdf_marker_center": [
+        108.13133,
+        18.986649999999983
+      ],
+      "plotted_flux": 8.571090731208459e-07,
+      "m": 5
+    },
+    {
+      "ell": 6,
+      "pdf_marker_center": [
+        123.52941000000001,
+        71.311995
+      ],
+      "plotted_flux": 6.2232911628054575e-12,
+      "m": 2
+    },
+    {
+      "ell": 6,
+      "pdf_marker_center": [
+        123.529415,
+        40.332429999999995
+      ],
+      "plotted_flux": 6.864491320153966e-09,
+      "m": 4
+    },
+    {
+      "ell": 6,
+      "pdf_marker_center": [
+        123.52942,
+        25.29359999999999
+      ],
+      "plotted_flux": 2.0587954296004627e-07,
+      "m": 6
+    },
+    {
+      "ell": 7,
+      "pdf_marker_center": [
+        138.92749500000002,
+        68.98523499999999
+      ],
+      "plotted_flux": 1.0532649109435135e-11,
+      "m": 3
+    },
+    {
+      "ell": 7,
+      "pdf_marker_center": [
+        138.927485,
+        46.482884999999996
+      ],
+      "plotted_flux": 1.708265096375114e-09,
+      "m": 5
+    },
+    {
+      "ell": 7,
+      "pdf_marker_center": [
+        138.92749,
+        31.87838999999999
+      ],
+      "plotted_flux": 4.644113961680458e-08,
+      "m": 7
+    },
+    {
+      "ell": 8,
+      "pdf_marker_center": [
+        154.32557500000001,
+        116.330445
+      ],
+      "plotted_flux": 2.358491918681448e-16,
+      "m": 2
+    },
+    {
+      "ell": 8,
+      "pdf_marker_center": [
+        154.325585,
+        72.38782
+      ],
+      "plotted_flux": 4.879332227975806e-12,
+      "m": 4
+    },
+    {
+      "ell": 8,
+      "pdf_marker_center": [
+        154.32557500000001,
+        53.12396499999999
+      ],
+      "plotted_flux": 3.804666063126787e-10,
+      "m": 6
+    },
+    {
+      "ell": 8,
+      "pdf_marker_center": [
+        154.32557500000001,
+        38.72803
+      ],
+      "plotted_flux": 9.866903815251853e-09,
+      "m": 8
+    },
+    {
+      "ell": 9,
+      "pdf_marker_center": [
+        169.72366,
+        107.621295
+      ],
+      "plotted_flux": 1.6903784794288288e-15,
+      "m": 3
+    },
+    {
+      "ell": 9,
+      "pdf_marker_center": [
+        169.72367000000003,
+        77.652545
+      ],
+      "plotted_flux": 1.4835332176698066e-12,
+      "m": 5
+    },
+    {
+      "ell": 9,
+      "pdf_marker_center": [
+        169.72366499999998,
+        60.08627499999999
+      ],
+      "plotted_flux": 7.880049406984535e-11,
+      "m": 7
+    },
+    {
+      "ell": 9,
+      "pdf_marker_center": [
+        169.72366,
+        45.79134999999999
+      ],
+      "plotted_flux": 1.997435759828428e-09,
+      "m": 9
+    },
+    {
+      "ell": 10,
+      "pdf_marker_center": [
+        185.12175000000002,
+        108.45648499999999
+      ],
+      "plotted_flux": 1.3994508465868232e-15,
+      "m": 4
+    },
+    {
+      "ell": 10,
+      "pdf_marker_center": [
+        185.12174,
+        83.910235
+      ],
+      "plotted_flux": 3.6033988702654406e-13,
+      "m": 6
+    },
+    {
+      "ell": 10,
+      "pdf_marker_center": [
+        185.121745,
+        67.36821499999999
+      ],
+      "plotted_flux": 1.518272043925862e-11,
+      "m": 8
+    },
+    {
+      "ell": 10,
+      "pdf_marker_center": [
+        185.12175,
+        53.10824999999999
+      ],
+      "plotted_flux": 3.818211294282396e-10,
+      "m": 10
+    },
+    {
+      "ell": 11,
+      "pdf_marker_center": [
+        200.519835,
+        112.42613499999999
+      ],
+      "plotted_flux": 5.702790406333915e-16,
+      "m": 5
+    },
+    {
+      "ell": 11,
+      "pdf_marker_center": [
+        200.51983,
+        90.773485
+      ],
+      "plotted_flux": 7.632269353597989e-14,
+      "m": 7
+    },
+    {
+      "ell": 11,
+      "pdf_marker_center": [
+        200.519835,
+        74.89676499999999
+      ],
+      "plotted_flux": 2.7666231352696076e-12,
+      "m": 9
+    },
+    {
+      "ell": 11,
+      "pdf_marker_center": [
+        200.519835,
+        60.635574999999996
+      ],
+      "plotted_flux": 6.959542278511802e-11,
+      "m": 11
+    },
+    {
+      "ell": 12,
+      "pdf_marker_center": [
+        215.91791999999998,
+        119.03224499999999
+      ],
+      "plotted_flux": 1.2802158134573393e-16,
+      "m": 6
+    },
+    {
+      "ell": 12,
+      "pdf_marker_center": [
+        215.917915,
+        98.941565
+      ],
+      "plotted_flux": 1.2034944682128945e-14,
+      "m": 8
+    },
+    {
+      "ell": 12,
+      "pdf_marker_center": [
+        215.91792,
+        83.195955
+      ],
+      "plotted_flux": 4.2351006917415707e-13,
+      "m": 10
+    },
+    {
+      "ell": 12,
+      "pdf_marker_center": [
+        215.91792,
+        68.54442
+      ],
+      "plotted_flux": 1.1636738340061715e-11,
+      "m": 12
+    }
+  ]
+}

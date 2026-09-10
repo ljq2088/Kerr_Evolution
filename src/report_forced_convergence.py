@@ -47,7 +47,25 @@ def main():
         if log_rows:
             row['horizon_flux_relative_change']=abs(row['horizon_orbital_flux']-log_rows[-1]['horizon_orbital_flux'])/max(abs(row['horizon_orbital_flux']),1e-300)
         log_rows.append(row)
-    result=dict(status='diagnostic_not_full_paper_convergence',runs=rows,horizon_log_runs=log_rows)
+    cutoff_rows=[]
+    for offset in (.05,.005,.0005):
+        name=('forced_mode_nr8_nt6_L4_log_h32.json' if offset==.05 else
+              f'forced_mode_nr8_nt6_L4_inner{offset:g}_outer320_log_h32.json')
+        path=directory/name
+        if not path.exists():
+            continue
+        data=json.loads(path.read_text())
+        if data['status']!='truncated_single_mode_not_converged':
+            continue
+        row=dict(source_inner_offset=offset)
+        for boundary in ('infinity','horizon'):
+            key=boundary+'_orbital_flux'
+            row[key]=data['flux'][boundary]['orbital_energy']
+            if cutoff_rows:
+                row[key+'_relative_change']=abs(row[key]-cutoff_rows[-1][key])/max(abs(row[key]),1e-300)
+        cutoff_rows.append(row)
+    result=dict(status='diagnostic_not_full_paper_convergence',runs=rows,
+                horizon_log_runs=log_rows,source_inner_cutoff_runs=cutoff_rows)
     (directory/'forced_mode_convergence.json').write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps(result,indent=2))
 

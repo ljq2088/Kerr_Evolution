@@ -1,0 +1,47 @@
+{
+  "status": "coordinate_cross_check_not_flux_convergence",
+  "cases": [
+    {
+      "offset": 0.05,
+      "bl": [
+        -3.961212941956099e-06,
+        1.247291605453729e-07
+      ],
+      "ingoing": [
+        -3.9612129419561584e-06,
+        1.2472916054539681e-07
+      ],
+      "relative_difference": 1.6130702102304673e-14,
+      "bl_metric_condition": 4071.153907953715,
+      "ingoing_metric_condition": 5.715559832434246
+    },
+    {
+      "offset": 0.005,
+      "bl": [
+        2.9985877769301422e-06,
+        -3.2754956960400535e-06
+      ],
+      "ingoing": [
+        2.9985877769065117e-06,
+        -3.275495696065696e-06
+      ],
+      "relative_difference": 7.852347518600677e-12,
+      "bl_metric_condition": 412686.78160551615,
+      "ingoing_metric_condition": 5.751872364668229
+    },
+    {
+      "offset": 0.0005,
+      "bl": [
+        1.039807001168569e-06,
+        5.26029381220372e-06
+      ],
+      "ingoing": [
+        1.0398070008771354e-06,
+        5.260293811822081e-06
+      ],
+      "relative_difference": 8.95528619506813e-11,
+      "bl_metric_condition": 41334265.98099718,
+      "ingoing_metric_condition": 5.7567018171521385
+    }
+  ]
+}

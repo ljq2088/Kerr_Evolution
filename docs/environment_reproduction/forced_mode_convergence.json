@@ -56,5 +56,26 @@
       "reused_source_samples": 56,
       "horizon_flux_relative_change": 3.5577205169152994e-09
     }
+  ],
+  "source_inner_cutoff_runs": [
+    {
+      "source_inner_offset": 0.05,
+      "infinity_orbital_flux": 1.3148099382078505e-05,
+      "horizon_orbital_flux": -6.059665041441579e-13
+    },
+    {
+      "source_inner_offset": 0.005,
+      "infinity_orbital_flux": 1.3148099388608089e-05,
+      "infinity_orbital_flux_relative_change": 4.966180794563248e-10,
+      "horizon_orbital_flux": -5.674551130048125e-13,
+      "horizon_orbital_flux_relative_change": 0.06786685018206678
+    },
+    {
+      "source_inner_offset": 0.0005,
+      "infinity_orbital_flux": 1.314809938850238e-05,
+      "infinity_orbital_flux_relative_change": 8.039794545809462e-12,
+      "horizon_orbital_flux": -5.716833571875435e-13,
+      "horizon_orbital_flux_relative_change": 0.007396129569928775
+    }
   ]
 }
