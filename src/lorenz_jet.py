@@ -4,8 +4,24 @@ Coefficients are derivatives divided by factorials in real r and theta.
 No finite differencing is used: differential operators consume Taylor orders.
 """
 import math
+from functools import lru_cache
 import numpy as np
-from scipy.signal import convolve2d
+
+
+@lru_cache(maxsize=32)
+def _layout(order):
+    """Only coefficient pairs whose total degree survives truncation."""
+    size=order+1
+    left,right,target=[],[],[]
+    for i in range(size):
+        for j in range(size-i):
+            for k in range(size-i-j):
+                for l in range(size-i-j-k):
+                    left.append(i*size+j)
+                    right.append(k*size+l)
+                    target.append((i+k)*size+j+l)
+    mask=np.add.outer(np.arange(size),np.arange(size))>order
+    return mask,np.asarray(left),np.asarray(right),np.asarray(target)
 
 
 class Jet:
@@ -18,7 +34,7 @@ class Jet:
             self.c[0,0]=value
         else:
             self.c[:]=coefficients
-        self.c[np.add.outer(np.arange(order+1),np.arange(order+1))>order]=0
+        self.c[_layout(order)[0]]=0
 
     @classmethod
     def variable(cls,value,axis,order=6):
@@ -53,7 +69,11 @@ class Jet:
 
     def __mul__(self,other):
         rhs=self.lift(other)
-        c=convolve2d(self.c,rhs.c)[:self.order+1,:self.order+1]
+        _,left,right,target=_layout(self.order)
+        products=self.c.ravel()[left]*rhs.c.ravel()[right]
+        size=(self.order+1)**2
+        c=(np.bincount(target,weights=products.real,minlength=size)
+           +1j*np.bincount(target,weights=products.imag,minlength=size)).reshape(self.c.shape)
         return Jet(order=self.order,coefficients=c)
     __rmul__=__mul__
 
