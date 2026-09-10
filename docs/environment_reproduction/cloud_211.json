@@ -1,0 +1,21 @@
+{
+  "method": "Independent two-sided shooting; not Leaver",
+  "baseline": {
+    "alpha": 0.3,
+    "a_over_M": 0.8771530275949851,
+    "M_omega_c": 0.29629324847979127,
+    "r_plus_over_M": 1.4802109600799958,
+    "m2_threshold_r_over_M": 41.66084841817926,
+    "matching_residual": -2.474597585925439e-15
+  },
+  "refined": {
+    "alpha": 0.3,
+    "a_over_M": 0.8771530275949329,
+    "M_omega_c": 0.29629324847975447,
+    "r_plus_over_M": 1.4802109600800912,
+    "m2_threshold_r_over_M": 41.660848417902606,
+    "matching_residual": -5.78016524658781e-15
+  },
+  "paper_v1_m2_threshold": 41.66,
+  "threshold_cutoff_change": 2.766569195955526e-10
+}
