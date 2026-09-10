@@ -1,7 +1,7 @@
 {
   "status": "diagnostic_only_not_a_reality_gate",
   "physical_projection": "(h_m+conj(h_minus_m))/2; source matching still required",
-  "spin1_normalization": "experimental factor 4",
+  "spin1_normalization": "factor 2 verified by Maxwell circularity",
   "r": 8.0,
   "theta": 1.1,
   "r0": 6.0,
@@ -10,28 +10,28 @@
   "cases": [
     {
       "ellmax": 2,
-      "raw_complex_conjugacy_defect": 1.8329406661747647,
-      "maximum_component": 8.864659956649213
+      "raw_complex_conjugacy_defect": 0.1305607511069503,
+      "maximum_component": 62.225422221424985
     },
     {
       "ellmax": 3,
-      "raw_complex_conjugacy_defect": 1.9893172157618213,
-      "maximum_component": 35.17806512811391
+      "raw_complex_conjugacy_defect": 0.5651258167030833,
+      "maximum_component": 61.91570842118703
     },
     {
       "ellmax": 4,
-      "raw_complex_conjugacy_defect": 1.9935627826432862,
-      "maximum_component": 44.697960735827344
+      "raw_complex_conjugacy_defect": 0.5423462347927038,
+      "maximum_component": 82.1506495910909
     },
     {
       "ellmax": 5,
-      "raw_complex_conjugacy_defect": 1.9983900754883117,
-      "maximum_component": 113.47026214385978
+      "raw_complex_conjugacy_defect": 1.3959007257682452,
+      "maximum_component": 81.22276947984068
     },
     {
       "ellmax": 6,
-      "raw_complex_conjugacy_defect": 1.9985055272810517,
-      "maximum_component": 114.89767851895127
+      "raw_complex_conjugacy_defect": 0.5206818759450115,
+      "maximum_component": 220.50282158891306
     }
   ]
 }

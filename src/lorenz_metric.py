@@ -1,7 +1,7 @@
 """Experimental nonstatic complex Lorenz reconstruction in vacuum regions.
 
 Includes spin-2, spin-1, trace, compact chi and resolvent kappa pieces.
-Source matching, spin-1 normalization and static completion remain unverified.
+Source matching and static completion remain unverified.
 Do not use this intermediate assembly as a production environmental metric.
 """
 import numpy as np
@@ -67,7 +67,7 @@ def spin2_metric(r,theta,r0,a=.6,ell=2,m=2,order=10,return_parts=False):
     return g,h
 
 
-def spin1_metric(r,theta,r0,a=.6,ell=2,m=2,order=8):
+def spin1_metric(r,theta,r0,a=.6,ell=2,m=2,order=8,return_vector=False):
     """Vacuum spin-1 pure-gauge piece; source matching not yet asserted."""
     if m==0 or r==r0:
         raise ValueError('Nonstatic vacuum points only')
@@ -82,10 +82,12 @@ def spin1_metric(r,theta,r0,a=.6,ell=2,m=2,order=8):
     ky=cky_tensor(g)
     htwo=[[sum((ky[i][k]*g.inv[k][c]*f[c][j]-ky[j][k]*g.inv[k][c]*f[c][i])/2
                 for k in range(4) for c in range(4))*1j/omega for j in range(4)] for i in range(4)]
-    # EXPERIMENTAL normalization: factor 2 from the full-Maxwell inversion
-    # identity and a proposed factor 2 for the self-dual projection. The
-    # latter is NOT fixed by the vacuum tests and needs source matching.
-    xi=[-4*x for x in tensor_divergence(g,htwo)]
+    # Factor 2 is fixed independently by recovering BOTH input Maxwell
+    # scalars from F=d(xi). An additional self-dual factor 2 would double
+    # those scalars. Source matching of the complete metric is still open.
+    xi=[-2*x for x in tensor_divergence(g,htwo)]
+    if return_vector:
+        return g,xi
     dxi=vector_covariant_derivative(g,xi)
     h=[[-(dxi[i][j]+dxi[j][i])*1j/omega for j in range(4)] for i in range(4)]
     return g,h

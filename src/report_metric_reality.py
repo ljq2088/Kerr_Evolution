@@ -22,7 +22,7 @@ def main():
         cases.append(dict(ellmax=ell,raw_complex_conjugacy_defect=error,maximum_component=float(np.max(abs(plus)))))
         print(cases[-1],flush=True)
     out=Path(__file__).resolve().parents[1]/'docs/environment_reproduction/metric_reality_development.json'
-    out.write_text(json.dumps(dict(status='diagnostic_only_not_a_reality_gate',physical_projection='(h_m+conj(h_minus_m))/2; source matching still required',spin1_normalization='experimental factor 4',r=8.,theta=1.1,r0=6.,a=.6,m=2,cases=cases),indent=2)+'\n')
+    out.write_text(json.dumps(dict(status='diagnostic_only_not_a_reality_gate',physical_projection='(h_m+conj(h_minus_m))/2; source matching still required',spin1_normalization='factor 2 verified by Maxwell circularity',r=8.,theta=1.1,r0=6.,a=.6,m=2,cases=cases),indent=2)+'\n')
 
 
 if __name__=='__main__':

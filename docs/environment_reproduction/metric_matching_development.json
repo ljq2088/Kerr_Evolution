@@ -1,0 +1,35 @@
+{
+  "status": "finite_cutoff_diagnostic_not_source_validation",
+  "r0": 6.0,
+  "a": 0.6,
+  "m": 2,
+  "theta": 1.1,
+  "radial_separation": 0.001,
+  "cases": [
+    {
+      "ellmax": 2,
+      "relative_two_sided_difference": 0.8855921134765391,
+      "maximum_component": 153.38360872467584
+    },
+    {
+      "ellmax": 3,
+      "relative_two_sided_difference": 0.866727858467376,
+      "maximum_component": 151.98987707820044
+    },
+    {
+      "ellmax": 4,
+      "relative_two_sided_difference": 0.70147403402191,
+      "maximum_component": 385.8105176174763
+    },
+    {
+      "ellmax": 5,
+      "relative_two_sided_difference": 0.7064936568190839,
+      "maximum_component": 383.002006835207
+    },
+    {
+      "ellmax": 6,
+      "relative_two_sided_difference": 0.5394376314483099,
+      "maximum_component": 2328.151984190935
+    }
+  ]
+}

@@ -6,7 +6,7 @@ from lorenz_ghp import KerrGHP
 from lorenz_tensor import vector_covariant_derivative,linearized_einstein,lorenz_constraint,trace
 from lorenz_metric import spin2_metric,spin1_metric,spin0_metric
 from lorenz_kappa import trace_field_jet
-from lorenz_spin1 import cky_tensor
+from lorenz_spin1 import cky_tensor,spin1_amplitudes
 from lorenz_tensor import tensor_divergence,extreme_weyl
 from lorenz_metric import homogeneous_field_jet
 from lorenz_weyl import weyl_amplitudes
@@ -82,3 +82,16 @@ def test_spin1_vacuum_metric():
         assert gauge/scale<1e-8
         assert tr/scale<1e-8
         assert einstein/scale<1e-8
+
+
+def test_spin1_recovers_input_maxwell_scalars():
+    for r in (4.5,8.):
+        g,xi=spin1_metric(r,1.1,6.,return_vector=True)
+        d=vector_covariant_derivative(g,xi)
+        F=[[d[j][i]-d[i][j] for j in range(4)] for i in range(4)]
+        l,n,mm,mb=g.tetrad
+        computed=[sum(F[i][j]*u[i]*v[j] for i in range(4) for j in range(4)).value
+                  for u,v in ((l,mm),(mb,n))]
+        bc,index=('In',1) if r<6 else ('Up',0)
+        expected=[homogeneous_field_jet(g,s,2,spin1_amplitudes(6.,.6,2,2,s)[index],bc).value for s in (1,-1)]
+        np.testing.assert_allclose(computed,expected,rtol=1e-9,atol=1e-12)

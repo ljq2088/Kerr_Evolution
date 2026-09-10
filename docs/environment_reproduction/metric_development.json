@@ -1,6 +1,6 @@
 {
   "status": "nonstatic_development_source_matching_not_validated",
-  "spin1_normalization": "experimental factor 4",
+  "spin1_normalization": "factor 2 verified by Maxwell circularity",
   "conjugacy_note": "Complex AAB intermediate; conjugacy defect is not a physical-reality acceptance gate.",
   "cases": [
     {
@@ -10,11 +10,11 @@
       "ell": 2,
       "m": 2,
       "theta": 1.1,
-      "maximum_component": 1.947340441354193,
-      "trace_error": 4.509552745162493e-13,
-      "relative_lorenz": 6.010005670186316e-13,
-      "relative_einstein": 1.8457347338928202e-14,
-      "raw_complex_conjugacy_defect": 0.9814945040386119
+      "maximum_component": 10.0331791282895,
+      "trace_error": 4.509187918865132e-13,
+      "relative_lorenz": 1.1656101051234735e-13,
+      "relative_einstein": 3.5893470057361386e-15,
+      "raw_complex_conjugacy_defect": 0.09524916859534113
     },
     {
       "r": 8.0,
@@ -23,11 +23,11 @@
       "ell": 2,
       "m": 2,
       "theta": 1.1,
-      "maximum_component": 8.864659956649904,
-      "trace_error": 1.7459970423530982e-13,
-      "relative_lorenz": 1.5985555150824202e-14,
-      "relative_einstein": 1.2461571849006118e-15,
-      "raw_complex_conjugacy_defect": 1.8329406661747116
+      "maximum_component": 62.22542222142236,
+      "trace_error": 1.747270213520485e-13,
+      "relative_lorenz": 2.272874270953808e-15,
+      "relative_einstein": 1.7057306922567656e-16,
+      "raw_complex_conjugacy_defect": 0.13056075110697107
     }
   ]
 }

@@ -25,7 +25,7 @@ def main():
         cases.append(case)
         print(json.dumps(case),flush=True)
     out=Path(__file__).resolve().parents[1]/'docs/environment_reproduction/metric_development.json'
-    out.write_text(json.dumps(dict(status='nonstatic_development_source_matching_not_validated',spin1_normalization='experimental factor 4',conjugacy_note='Complex AAB intermediate; conjugacy defect is not a physical-reality acceptance gate.',cases=cases),indent=2)+'\n')
+    out.write_text(json.dumps(dict(status='nonstatic_development_source_matching_not_validated',spin1_normalization='factor 2 verified by Maxwell circularity',conjugacy_note='Complex AAB intermediate; conjugacy defect is not a physical-reality acceptance gate.',cases=cases),indent=2)+'\n')
 
 
 if __name__=='__main__':
