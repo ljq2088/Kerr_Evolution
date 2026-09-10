@@ -14,6 +14,8 @@ s=0 参考来自上游通用自旋算符的标量极限，已核对 24 组参数
 
 ## 原有 s=0 标量演化
 
+**新的 s=-2 结果：** [完整波形与复现报告](docs/sminus2_smoke/README.md)，演化至 T/M=325.25，共 1301 点。下方动态图仍是原来的 s=0 标量场示例。
+
 [中文推导 PDF（8 页）](docs/kerr_hyperboloidal_derivation_zh.pdf)：从 Kerr 标量波动方程、坐标变换、场重标度到球谐投影、特征边界和数值演化的完整步骤。
 
 独立 WSL 项目：`/home/ljq/code/kerr-hyperboloidal`。分支：`Kerr双曲切片演化`。

@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "samples": 1301,
+  "T_start": 0.25,
+  "T_end": 325.25,
+  "finite": true,
+  "max_abs_psi4": 0.021001470681304146,
+  "final_abs_psi4": 5.643329470191473e-06,
+  "events": {
+    "horizon_crossing": 198.19586176251167,
+    "light_ring": 194.35765737453633,
+    "source_off": 198.19586176251167,
+    "terminal": 202.9693086636809
+  },
+  "upstream_commit": "13fc2b485f76b1284c2e17879ede9075de062a9d",
+  "code_commit": "2ffb347",
+  "tests": {
+    "solver": 58,
+    "shared_tools": 5,
+    "local": 10
+  },
+  "limitations": "Smoke resolution; no continuum convergence claim; A1 bridge conditional-open",
+  "sha256": {
+    "psi4_l2_m2.npz": "263f6c9cbf3b5155cabbb8a3e6f524333be817b55e1db415c049cd8be8012013",
+    "metadata.json": "f42952496dfe12d976716827a48e921e42a5b3ff6125b821495efef1e5bd489c",
+    "waveform.csv": "d837e9700ddb523874eafd3122217a55b07c4fecf2acba40f745e177882ff25a"
+  }
+}

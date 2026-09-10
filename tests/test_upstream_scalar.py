@@ -3,8 +3,31 @@ import numpy as np
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 from kerr_scalar import Config, KerrScalar, sin_squared_matrix
+from scalar_upstream import convert
+import json
 
 # Independent transcription of RIPLEY_OPERATOR.md, set field spin s=0.
+def test_coordinate_export_roundtrip(tmp_path):
+    mass, chi, length = 2.3, .7, 3.1
+    rp = mass*(1+np.sqrt(1-chi**2))
+    sigma = np.array([0., .2, 1.])
+    tau = np.array([0., 1.])
+    u = np.arange(6).reshape(2, 3, 1)*(1+2j)
+    source, target = tmp_path/'old.npz', tmp_path/'new.npz'
+    np.savez(source, config=json.dumps(dict(mass=mass, spin=chi)),
+             sigma=sigma, tau=tau, u=u, p=2*u, ell=[2])
+    convert(source, target, length)
+    with np.load(target, allow_pickle=False) as result:
+        np.testing.assert_allclose(result['T']+4*mass*np.log(rp/mass), tau)
+        np.testing.assert_allclose(result['T_elapsed'], tau)
+        np.testing.assert_allclose(result['R'], length**2/rp*sigma)
+        np.testing.assert_allclose(result['psi0']*length**2, u)
+        np.testing.assert_allclose(result['psi0_T']*length**2, 2*u)
+        # Away from scri, both conventions reconstruct the same physical field.
+        np.testing.assert_allclose(result['R'][None,1:,None]*result['psi0'][:,1:],
+                                   sigma[None,1:,None]/rp*u[:,1:])
+
+
 def test_scalar_matches_upstream_general_spin_limit():
     maximum = 0.
     for M in (1., 2.3):

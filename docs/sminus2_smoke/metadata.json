@@ -1,0 +1,120 @@
+{
+  "N_end": 1301,
+  "T1": 325.25,
+  "T_bound": 325.48845541045813,
+  "T_end": 325.25,
+  "code_hash": "5802ee8952fbda7bd67b4329ba7aaf1b0ad741c7168c331529fe3641748bb759",
+  "config": {
+    "chi": 0.8,
+    "flux_model_version": "target-bhpt-l6-2026-08",
+    "gaussian_tail_tolerance": 1e-14,
+    "m": 2,
+    "mass_scale": 1.0,
+    "n_r": 128,
+    "n_y": 33,
+    "post_light_ring_time_over_m": 120.0,
+    "q_mass": 1e-05,
+    "sigma_r_over_dr": 4.0,
+    "sigma_y_over_dy": 4.0,
+    "tau_on_over_m": 20.0,
+    "transition_prescription": "ori-thorne-v1"
+  },
+  "config_hash": "04e6e8b8f4b0dd08bb2f11f693d1f9768bd4a9b4139ce200d4802f073b0777f6",
+  "delta_t_post": 120.0,
+  "environment": {
+    "numpy": "1.26.4",
+    "python": "3.12.2",
+    "scipy": "1.14.1"
+  },
+  "events": {
+    "horizon_crossing": 198.19586176251167,
+    "light_ring": 194.35765737453633,
+    "source_off": 198.19586176251167,
+    "terminal": 202.9693086636809
+  },
+  "final_time": 325.25,
+  "final_time_on_output_grid": true,
+  "grid_version": "2e6f582c71ca0da22f978cce2a87423a0a09c2c3960c68ba0d7819b346546505",
+  "initial_data": {
+    "angular_momentum": 2.380043975639771,
+    "energy": 0.8777923492418308,
+    "manifest": {
+      "L": 1.0,
+      "M": 1.0,
+      "alpha_ot": 0.014009825081821563,
+      "angular_momentum_isco": 2.38044062435071,
+      "background_hash": "da0a9472a0c15e2aab200b35754711080ccb65a1c3713ad5286b32c7b9a675f3",
+      "beta_ot": 0.06446420636631957,
+      "chi": 0.8,
+      "delta_energy": 6.891642996258217e-05,
+      "delta_lz": 0.0003966487109390387,
+      "delta_r": 0.012446099389309972,
+      "edot_correction": 0.9011560169898711,
+      "energy_isco": 0.8778612656717933,
+      "flux_model_version": "target-bhpt-l6-2026-08",
+      "flux_provenance": "target compute_isco_flux.wl recorded 2026-08",
+      "flux_total_over_mu2": 0.01687986787530486,
+      "generator_version": "ori-thorne-python-v1",
+      "kappa_ot": 0.20925898729758566,
+      "lmax": 6,
+      "omega_isco": 0.17374676398021624,
+      "prescription": "ori-thorne-v1",
+      "q_mass": 1e-05,
+      "r_isco": 2.9066438544641957,
+      "radial_scale": 2.312818092515619,
+      "relative_lmax_increment": 0.01660590066635954,
+      "schema_version": "1",
+      "t_ot": 3.412,
+      "tau0": 5.5553689289674795,
+      "x_start": -0.5381356808642278
+    },
+    "r0": 2.894197755074886
+  },
+  "initial_data_provenance": {
+    "flux_model_version": "target-bhpt-l6-2026-08",
+    "generator_version": "ori-thorne-python-v1",
+    "key": "0b3b1641c9b124aec4900fe22ba0087e4bf80fbfd1eb9bd143677a0a62c78b4c",
+    "record_path": "/home/ljq/code/kerr-hyperboloidal/data/kerr_point_particle_evolution/initial_data/0b3b1641c9b124aec4900fe22ba0087e4bf80fbfd1eb9bd143677a0a62c78b4c.json",
+    "record_sha256": "160a3a07b8e42cc54ccfe11b09fe4a2bb58ee2cb6cc704e3cd02c6d67be10838",
+    "schema_version": "1",
+    "status": "miss-generated"
+  },
+  "light_ring_scri_reference": 205.48845541045813,
+  "output": {
+    "checkpoint_dt_over_m": 10.0,
+    "chunk_size": 128,
+    "ell_out": [
+      2
+    ],
+    "field_dt_over_m": 5.0,
+    "output_dt_over_m": 0.25,
+    "save_field": false,
+    "save_psi4_lm": true,
+    "save_scri_field": false,
+    "save_strain_lm": false
+  },
+  "output_count": 1301,
+  "run_kind": "full",
+  "schema": "c1-run-v2",
+  "status": "complete",
+  "stencil_width": 7,
+  "timestep": {
+    "controlling_limit": "wave",
+    "dt": 0.007352941176470588,
+    "dt_amplitude": 0.26343849574654377,
+    "dt_motion": 0.4080694239847024,
+    "dt_phase": 0.18218151227504387,
+    "dt_ramp": 0.5,
+    "dt_wave": 0.007402706225554954,
+    "extrema_interval": [
+      100.0,
+      198.19586176251167
+    ],
+    "gamma_source": 0.5693928655905938,
+    "q_floor": 9.2817181038698e-15,
+    "q_reference": 0.009281718103869801,
+    "steps_per_output": 34,
+    "t_stable": 100.0
+  },
+  "trajectory_hash": "d752a98fa72db1bd451a2a2ae7a034d5f1f8204524876d8c60ef8ead5ec345c7"
+}
