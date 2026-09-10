@@ -1,0 +1,90 @@
+[
+  {
+    "key": "8AW4IT3C",
+    "title": "Hyperboloidal Approach to Quasinormal Modes",
+    "year": "2025-1-17",
+    "citationKey": "macedoHyperboloidalApproachQuasinormal2025",
+    "url": "http://arxiv.org/abs/2409.11478",
+    "DOI": "10.3389/fphy.2024.1497601"
+  },
+  {
+    "key": "R7UUGT4R",
+    "title": "Computing the quasinormal modes and eigenfunctions for the Teukolsky equation using horizon penetrating, hyperboloidally compactified coordinates",
+    "year": "2022-07-21",
+    "citationKey": "ripleyComputingQuasinormalModes2022",
+    "url": "http://arxiv.org/abs/2202.03837",
+    "DOI": "10.1088/1361-6382/ac776d"
+  },
+  {
+    "key": "6TFRLV7N",
+    "title": "Numerical computation of second order vacuum perturbations of Kerr black holes",
+    "year": "2021-5-18",
+    "citationKey": "ripleyNumericalComputationSecond2021",
+    "url": "http://arxiv.org/abs/2010.00162",
+    "DOI": "10.1103/PhysRevD.103.104018"
+  },
+  {
+    "key": "VYSELPRX",
+    "title": "An analytic representation for the quasi-normal modes of Kerr black holes",
+    "year": "1985-12-09",
+    "citationKey": "AnalyticRepresentationQuasinormal1985",
+    "url": "https://royalsocietypublishing.org/doi/10.1098/rspa.1985.0119",
+    "DOI": "10.1098/rspa.1985.0119"
+  },
+  {
+    "key": "KF65HIFK",
+    "title": "Hyperboloidal framework in black hole dynamics",
+    "year": null,
+    "citationKey": "heHyperboloidalFrameworkBlack",
+    "url": null,
+    "DOI": null
+  },
+  {
+    "key": "H28HGKBA",
+    "title": "Identify Web-page Content meaning using Knowledge based System for Dual Meaning Words",
+    "year": "2012-07-16",
+    "citationKey": "sinhaIdentifyWebpageContent2012",
+    "url": "http://arxiv.org/abs/1207.3628",
+    "DOI": "10.48550/arXiv.1207.3628"
+  },
+  {
+    "key": "43PJUEFC",
+    "title": "Binary black hole coalescence in the large-mass-ratio limit: the hyperboloidal layer method and waveforms at null infinity",
+    "year": "2011-10-13",
+    "citationKey": "bernuzziBinaryBlackHole2011",
+    "url": "http://arxiv.org/abs/1107.5402",
+    "DOI": "10.1103/PhysRevD.84.084026"
+  },
+  {
+    "key": "THVCDNRH",
+    "title": "Hyperboloidal foliations and scri-fixing",
+    "year": "2008-07-21",
+    "citationKey": "zenginogluHyperboloidalFoliationsScrifixing2008",
+    "url": "http://arxiv.org/abs/0712.4333",
+    "DOI": "10.1088/0264-9381/25/14/145002"
+  },
+  {
+    "key": "62UDB62L",
+    "title": "Gravitational radiation from Kerr black holes using the Sasaki-Nakamura formalism: waveforms and fluxes at infinity",
+    "year": "2025",
+    "citationKey": "yinGravitationalRadiationKerr2025",
+    "url": "https://arxiv.org/abs/2511.08673",
+    "DOI": "10.48550/ARXIV.2511.08673"
+  },
+  {
+    "key": "ALTDVDYY",
+    "title": "Bondi-Sachs Formalism",
+    "year": "2016",
+    "citationKey": "madlerBondiSachsFormalism2016",
+    "url": "http://arxiv.org/abs/1609.01731",
+    "DOI": "10.4249/scholarpedia.33528"
+  },
+  {
+    "key": "HLY4BCNT",
+    "title": "Bridging time across null horizons",
+    "year": "2025-02-13",
+    "citationKey": "zenginogluBridgingTimeNull2025",
+    "url": "http://arxiv.org/abs/2502.08581",
+    "DOI": "10.48550/arXiv.2502.08581"
+  }
+]
