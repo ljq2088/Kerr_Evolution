@@ -1,0 +1,29 @@
+{
+  "cases": [
+    {
+      "ell": 2,
+      "relative_green_difference": 4.3956505879642507e-13,
+      "relative_wronskian_variation": 4.256864497834296e-13
+    },
+    {
+      "ell": 4,
+      "relative_green_difference": 8.486035612076074e-13,
+      "relative_wronskian_variation": 9.609717369001164e-13
+    },
+    {
+      "ell": 6,
+      "relative_green_difference": 8.085989124232157e-13,
+      "relative_wronskian_variation": 3.548502642306618e-13
+    },
+    {
+      "ell": 8,
+      "relative_green_difference": 9.172230877524941e-12,
+      "relative_wronskian_variation": 7.677823207821345e-12
+    },
+    {
+      "ell": 10,
+      "relative_green_difference": 8.716365368436349e-12,
+      "relative_wronskian_variation": 8.937298619629607e-12
+    }
+  ]
+}

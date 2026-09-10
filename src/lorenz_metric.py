@@ -82,9 +82,10 @@ def spin1_metric(r,theta,r0,a=.6,ell=2,m=2,order=8,return_vector=False):
     ky=cky_tensor(g)
     htwo=[[sum((ky[i][k]*g.inv[k][c]*f[c][j]-ky[j][k]*g.inv[k][c]*f[c][i])/2
                 for k in range(4) for c in range(4))*1j/omega for j in range(4)] for i in range(4)]
-    # Factor 2 is fixed independently by recovering BOTH input Maxwell
-    # scalars from F=d(xi). An additional self-dual factor 2 would double
-    # those scalars. Source matching of the complete metric is still open.
+    # Factor 2 recovers BOTH input self-dual Maxwell scalars from F=d(xi).
+    # This does NOT establish the full real sourced vector: the opposite
+    # chirality still needs auditing. Projected metric matching currently
+    # exposes a missing contribution of approximately this sector's size.
     xi=[-2*x for x in tensor_divergence(g,htwo)]
     if return_vector:
         return g,xi
