@@ -1,0 +1,60 @@
+{
+  "status": "diagnostic_not_full_paper_convergence",
+  "runs": [
+    {
+      "radial_order": 2,
+      "sample_count": 16,
+      "infinity_orbital_flux": 1.3694768844958313e-05,
+      "horizon_orbital_flux": -7.262309169944239e-13,
+      "last_outer_cutoffs": [
+        160.0,
+        320.0
+      ],
+      "z_inf_outer_tail_relative_change": 6.123555045078268e-05,
+      "z_h_outer_tail_relative_change": 4.1131821385537673e-05
+    },
+    {
+      "radial_order": 4,
+      "sample_count": 32,
+      "infinity_orbital_flux": 1.3134331669566135e-05,
+      "horizon_orbital_flux": -1.2078460934126532e-12,
+      "infinity_orbital_flux_relative_change": 0.0426696378233527,
+      "horizon_orbital_flux_relative_change": 0.3987388617182772,
+      "last_outer_cutoffs": [
+        160.0,
+        320.0
+      ],
+      "z_inf_outer_tail_relative_change": 0.00043560668771121984,
+      "z_h_outer_tail_relative_change": 3.5688914570211726e-05
+    },
+    {
+      "radial_order": 8,
+      "sample_count": 64,
+      "infinity_orbital_flux": 1.3148099382887404e-05,
+      "horizon_orbital_flux": -5.836773389640088e-13,
+      "infinity_orbital_flux_relative_change": 0.001047125741929539,
+      "horizon_orbital_flux_relative_change": 1.069372944230635,
+      "last_outer_cutoffs": [
+        160.0,
+        320.0
+      ],
+      "z_inf_outer_tail_relative_change": 0.00026607074839240646,
+      "z_h_outer_tail_relative_change": 1.7225667557206204e-05
+    }
+  ],
+  "horizon_log_runs": [
+    {
+      "horizon_order": 16,
+      "horizon_orbital_flux": -6.059665063000174e-13,
+      "infinity_orbital_flux": 1.3148099382078503e-05,
+      "reused_source_samples": 56
+    },
+    {
+      "horizon_order": 32,
+      "horizon_orbital_flux": -6.059665041441579e-13,
+      "infinity_orbital_flux": 1.3148099382078505e-05,
+      "reused_source_samples": 56,
+      "horizon_flux_relative_change": 3.5577205169152994e-09
+    }
+  ]
+}

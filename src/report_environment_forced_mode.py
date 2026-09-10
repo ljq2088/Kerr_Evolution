@@ -22,31 +22,71 @@ def main():
     parser.add_argument('--radial-order',type=int,default=2)
     parser.add_argument('--angular-order',type=int,default=6)
     parser.add_argument('--metric-ellmax',type=int,default=4)
+    parser.add_argument('--metric-m',type=int,default=2)
+    parser.add_argument('--scalar-ell',type=int)
     parser.add_argument('--source-inner-offset',type=float,default=.05)
     parser.add_argument('--source-outer-radius',type=float,default=320.)
+    parser.add_argument('--horizon-log',action='store_true')
+    parser.add_argument('--horizon-order',type=int)
+    parser.add_argument('--reuse-source',type=Path)
     args=parser.parse_args()
     if min(args.radial_order,args.angular_order)<2:
         raise ValueError('Quadrature orders must be at least two')
     cloud=ThresholdCloud(alpha=.3)
-    metric=LorenzMetricMode(20.,cloud.a,2,args.metric_ellmax)
+    metric=LorenzMetricMode(20.,cloud.a,args.metric_m,args.metric_ellmax)
+    scalar_m=cloud.m+args.metric_m
+    scalar_ell=abs(scalar_m) if args.scalar_ell is None else args.scalar_ell
+    if scalar_ell<abs(scalar_m):
+        raise ValueError('Scalar ell must be >= |scalar m|')
     omega=cloud.omega+metric.omega
-    green=RadialGreen(cloud.a,cloud.mu,omega,3,3,rmax=1000.,offset=1e-4,rtol=1e-11)
+    green=RadialGreen(cloud.a,cloud.mu,omega,scalar_ell,scalar_m,rmax=1000.,offset=1e-4,rtol=1e-11)
     inner=cloud.rp+args.source_inner_offset
     outer=args.source_outer_radius
     if not green.rmin<=inner<20.<outer<=min(green.rmax,cloud.rmax):
         raise ValueError('Source cutoffs must enclose the orbit and lie inside both solved domains')
     panels=np.array([inner]+[r for r in (3.,6.,12.,20.,40.,80.,160.,320.) if inner<r<outer]+[outer])
-    x,w=np.polynomial.legendre.leggauss(args.radial_order)
-    radii=np.concatenate([(a+b)/2+(b-a)*x/2 for a,b in zip(panels[:-1],panels[1:])])
-    weights=np.concatenate([(b-a)*w/2 for a,b in zip(panels[:-1],panels[1:])])
+    node_panels,weight_panels=[],[]
+    for index,(a,b) in enumerate(zip(panels[:-1],panels[1:])):
+        order=(args.horizon_order or args.radial_order) if index==0 else args.radial_order
+        if order<2:
+            raise ValueError('Horizon quadrature order must be at least two')
+        x,w=np.polynomial.legendre.leggauss(order)
+        if index==0 and args.horizon_log:
+            lo,hi=np.log(a-cloud.rp),np.log(b-cloud.rp)
+            distance=np.exp((lo+hi)/2+(hi-lo)*x/2)
+            node_panels.append(cloud.rp+distance)
+            weight_panels.append((hi-lo)*w*distance/2)
+        else:
+            node_panels.append((a+b)/2+(b-a)*x/2)
+            weight_panels.append((b-a)*w/2)
+    radii,weights=np.concatenate(node_panels),np.concatenate(weight_panels)
     directory=Path(__file__).resolve().parents[1]/'docs/environment_reproduction'
     suffix=''
+    if args.metric_m!=2 or scalar_ell!=3:
+        suffix=f'_mg{args.metric_m}_sl{scalar_ell}'
     if args.source_inner_offset!=.05 or outer!=320.:
-        suffix=f'_inner{args.source_inner_offset:g}_outer{outer:g}'
+        suffix+=f'_inner{args.source_inner_offset:g}_outer{outer:g}'
+    if args.horizon_log:
+        suffix+='_log'
+    if args.horizon_order is not None:
+        suffix+=f'_h{args.horizon_order}'
     out=directory/f'forced_mode_nr{args.radial_order}_nt{args.angular_order}_L{args.metric_ellmax}{suffix}.json'
-    metadata=dict(alpha=.3,cloud_mass=1.,metric=metric.provenance,scalar_ell=3,scalar_m=3,
+    metadata=dict(alpha=.3,cloud_mass=1.,metric=metric.provenance,scalar_ell=scalar_ell,scalar_m=scalar_m,
                   omega=float(omega),radial_order=args.radial_order,angular_order=args.angular_order,
                   source_panels=panels.tolist(),green_outer_radius=1000.,green_horizon_offset=1e-4)
+    if args.horizon_log:
+        metadata['horizon_log_first_panel']=True
+    if args.horizon_order is not None:
+        metadata['horizon_quadrature_order']=args.horizon_order
+    reused={}
+    if args.reuse_source:
+        cached=json.loads(args.reuse_source.read_text())
+        grid_keys={'radial_order','source_panels','green_outer_radius','green_horizon_offset',
+                   'horizon_log_first_panel','horizon_quadrature_order'}
+        source_parameters=lambda p:{k:v for k,v in p.items() if k not in grid_keys}
+        if source_parameters(cached['parameters'])!=source_parameters(metadata):
+            raise ValueError('Reusable samples have different source physics or angular truncation')
+        reused={row['r']:row['source'] for row in cached['samples']}
     samples=[]
     if out.exists():
         previous=json.loads(out.read_text())
@@ -62,10 +102,14 @@ def main():
     result=dict(status='source_sampling_in_progress',parameters=metadata,samples=samples)
     for index in range(len(samples),len(radii)):
         r=float(radii[index])
-        frequency,J=project_source(cloud,[r],20.,3,3,metric,ntheta=args.angular_order)
-        if abs(frequency-omega)>1e-14:
-            raise RuntimeError('Source and Green frequencies differ')
-        samples.append(dict(r=r,weight=float(weights[index]),source=encode(J[0])))
+        if r in reused:
+            value=reused[r]
+        else:
+            frequency,J=project_source(cloud,[r],20.,scalar_ell,scalar_m,metric,ntheta=args.angular_order)
+            if abs(frequency-omega)>1e-14:
+                raise RuntimeError('Source and Green frequencies differ')
+            value=encode(J[0])
+        samples.append(dict(r=r,weight=float(weights[index]),source=value,reused=r in reused))
         save()
         print(f'Source radius {index+1}/{len(radii)}: r={r:.8g}',flush=True)
     J=np.array([complex(*sample['source']) for sample in samples])
@@ -79,7 +123,8 @@ def main():
         selected=radii<cutoff
         ci=np.sum(weights[selected]*ingoing[selected]*J[selected])/green.w0
         ch=np.sum(weights[selected]*outgoing[selected]*J[selected])/green.w0
-        cutoff_sequence.append(dict(outer_source_cutoff=float(cutoff),z_inf=encode(ci),z_h=encode(ch)))
+        cutoff_sequence.append(dict(outer_source_cutoff=float(cutoff),z_inf=encode(ci if green.propagating else 0j),
+                                    up_coefficient=encode(ci),z_h=encode(ch)))
     for r in np.concatenate(([green.rmin],panels,[green.rmax])):
         left=radii<r
         cu=np.sum(weights[left]*ingoing[left]*J[left])/green.w0
@@ -87,11 +132,12 @@ def main():
         u,du=green.insol.sol(r)
         v,dv=green.upsol.sol(r)
         field_samples.append(dict(r=float(r),field=encode(v*cu+u*cv),derivative=encode(dv*cu+du*cv)))
-    result.update(status='truncated_single_mode_not_converged',z_inf=encode(zi),z_h=encode(zh),
+    result.update(status='truncated_single_mode_not_converged',z_inf=encode(zi if green.propagating else 0j),
+                  up_coefficient=encode(zi),propagating=bool(green.propagating),z_h=encode(zh),
                   radial_response_at_panel_boundaries=field_samples,
                   outer_source_cutoff_sequence=cutoff_sequence,
                   flux_scaling='per q^2*(cloud mass/M); unit Killing cloud mass, not alpha^-3 rescaled',
-                  flux=mode_flux(omega,3,cloud.omega,cloud.m,cloud.mu,cloud.a,zi,zh),
+                  flux=mode_flux(omega,scalar_m,cloud.omega,cloud.m,cloud.mu,cloud.a,zi,zh),
                   wronskian_relative_spread=float(np.max(abs(green.wronskian(radii)/green.w0-1))),
                   missing_convergence=['radial quadrature','horizon source cutoff','outer source cutoff',
                                        'angular projection','metric ell truncation','remaining m modes and static completion'])

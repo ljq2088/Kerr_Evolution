@@ -223,3 +223,30 @@ sin(theta)，在粒子赤道处取值仍为1，预期源跳跃不变。
 显式步长若达到 omega^2 则拒绝，避免中心差分跨越径向波数分支点。
 在 rp=41.8 的低频情形，默认步长与减半步长的独立检查通过。
 这只控制差分步长；远端边界与完整源精度仍须在生产参数下收敛。
+
+## 静态 trace 的真空 Lorenz 部分
+
+`lorenz_static_gauge.py` 根据2306.16459的静态方案构造
+xi_r=kappa_r+(B_theta+cot(theta)B)/Delta、xi_theta=kappa_theta-B_r，
+xi_t=xi_phi=0，并令 h_ab=2 nabla_(a xi_b)。将 kappa 展开为 Y_j0，
+B 展开为 partial_theta Y_j0，j=ell-2,ell,ell+2。径向方程为
+
+\[
+(\partial_r\Delta\partial_r-j(j+1))\kappa_j
+ =\tfrac12(r^2\delta_{j\ell}+a^2 c_j)R_\ell,
+\]
+\[
+(\Delta\partial_r^2-j(j+1))B_j
+ =\frac{\Delta R'_\ell}{2\ell(\ell+1)}
+ (r^2\delta_{j\ell}+a^2 d_j).
+\]
+
+系数 c_j 来自 cos^2(theta)Y_l 的标量投影，d_j 来自
+cos^2(theta)partial_theta Y_l 在 partial_theta Y_j 基上的投影。
+B_0不存在；kappa_0可存在。各侧使用轨道处为零的初值定义一个特解，
+这不是最终物理边界条件。Schwarzschild及Kerr的两侧真空检验通过，
+恢复指定trace并满足Lorenz条件。自由齐次解仍需与其他静态部分匹配。
+
+非静态 m=±1 还需 ell=1 的标量/矢量规范部分。这里不存在自旋2球谐，
+因此该单项的自旋2部分为零，其余部分不能省略。已通过trace、Lorenz、
+Einstein和正负m共轭检验，但完整m=1点源匹配仍需独立验收。

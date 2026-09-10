@@ -136,7 +136,16 @@ def nonstatic_metric(r,theta,r0,a=.6,ell=2,m=2,order=10):
     coefficient is (h_m+conj(h_-m))/2. That projection alone proves neither
     source normalization nor continuity; see arXiv:2406.12510v3 Sec. III A.
     """
-    g,h2=spin2_metric(r,theta,r0,a,ell,m,order)
+    if m==0 or ell<max(1,abs(m)) or r==r0:
+        raise ValueError('Nonstatic vacuum modes with ell>=|m| are required')
+    if ell>=2:
+        g,h2=spin2_metric(r,theta,r0,a,ell,m,order)
+    else:
+        # No spin-2 harmonic exists at ell=1. Its scalar and vector gauge
+        # sectors must still be included in the nonstatic dipole mode.
+        from lorenz_jet import Jet
+        g=KerrGHP(r,theta,a,omega=m/(r0**1.5+a),m=m,order=order)
+        h2=[[Jet(0.,order) for _ in range(4)] for _ in range(4)]
     _,h1=spin1_metric(r,theta,r0,a,ell,m,order,full_current=True)
     _,h0=spin0_metric(r,theta,r0,a,ell,m,order)
     return g,[[h2[i][j]+h1[i][j]+h0[i][j] for j in range(4)] for i in range(4)]
