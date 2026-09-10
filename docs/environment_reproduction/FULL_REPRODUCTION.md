@@ -41,7 +41,12 @@
 7. 背景求解扩展至论文的 alpha=.2；独立质量—荷检验及无径向节点检验通过。
    对应数值和背景图在 `alpha_02/`。
 
-16 项本模块测试已通过。背景图片是未受扰动云，不是论文尾迹图。
+8. 自旋±1和紧支撑辅助标量的伴随点源积分已经实现。
+   六个辅助场现在均可与公开幅度表比对；必须保留各自显式的归一化映射。
+   实现、分部积分符号和独立验证见 [LORENZ_SOURCE_DERIVATION.md](LORENZ_SOURCE_DERIVATION.md)。
+   这仍不等于完整 Lorenz 度规：trace-driven kappa、张量组合及静态补全未完成。
+
+当前环境及 Lorenz 模块共23项测试通过。背景图片是未受扰动云，不是论文尾迹图。
 
 ## Lorenz 重构公开资料调查
 
@@ -56,8 +61,8 @@
   静态 m_g=0 仍须单独处理，不能通过除以零频率获得。
 - Windows 有 WolframScript；当前 Python 实现未依赖运行外部 notebook。
 
-下一阶段：实现其余自旋±1和辅助标量带源解，首先复现同一振幅表，
-再执行公开微分算符得到完整 Lorenz 度规，验证 Einstein 源和 Lorenz 条件。
+下一阶段：执行公开微分算符得到完整 Lorenz 度规，补上 trace-driven kappa，
+验证 Einstein 源和 Lorenz 条件。
 之后接入已有协变源与 massive Green 求解器，推进上表图级验收。
 目前缺作者程序不构成无法继续的理由：已有公开方程和数值表可支持独立实现。
 
@@ -70,6 +75,9 @@
 # report_lorenz_trace 需要上述公开源包位于 outputs/lorenz_reference/
 .venv/bin/python src/report_lorenz_trace.py
 .venv/bin/python src/report_lorenz_weyl.py
+.venv/bin/python src/report_lorenz_spin1.py
+.venv/bin/python src/report_lorenz_chi.py
+.venv/bin/python src/report_corrector_adjoint.py
 .venv/bin/python -m pytest tests/test_environment_cloud.py tests/test_environment_source.py tests/test_environment_radial.py tests/test_lorenz_trace.py tests/test_lorenz_weyl.py tests/test_environment_alpha02.py -q
 ```
 
