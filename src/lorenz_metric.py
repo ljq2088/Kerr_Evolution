@@ -67,8 +67,12 @@ def spin2_metric(r,theta,r0,a=.6,ell=2,m=2,order=10,return_parts=False):
     return g,h
 
 
-def spin1_metric(r,theta,r0,a=.6,ell=2,m=2,order=8,return_vector=False):
-    """Vacuum spin-1 pure-gauge piece; source matching not yet asserted."""
+def spin1_metric(r,theta,r0,a=.6,ell=2,m=2,order=8,return_vector=False,full_current=False):
+    """Vacuum spin-1 piece; optionally reconstruct the full complex current.
+
+    full_current=False exposes the self-dual circularity diagnostic. The
+    complete metric must include the independently sourced opposite chirality.
+    """
     if m==0 or r==r0:
         raise ValueError('Nonstatic vacuum points only')
     omega=m/(r0**1.5+a)
@@ -79,13 +83,21 @@ def spin1_metric(r,theta,r0,a=.6,ell=2,m=2,order=8,return_vector=False):
     l,n,mm,mb=g.cov
     f=[[(mb[i]*n[j]-mb[j]*n[i])*phi0+(l[i]*mm[j]-l[j]*mm[i])*phi2
         for j in range(4)] for i in range(4)]
+    if full_current:
+        from lorenz_spin1_chiral import chiral_amplitudes
+        reverse=KerrGHP(r,theta,a,omega=-omega,m=-m,order=order)
+        anti=[]
+        for s in (1,-1):
+            se,dkw=chiral_amplitudes(r0,a,ell,m,s,-1)[index]
+            anti.append(homogeneous_field_jet(reverse,s,ell,(se-dkw).conjugate(),bc).conjugate())
+        f=[[f[i][j]+(mm[i]*n[j]-mm[j]*n[i])*anti[0]
+             +(l[i]*mb[j]-l[j]*mb[i])*anti[1] for j in range(4)] for i in range(4)]
     ky=cky_tensor(g)
     htwo=[[sum((ky[i][k]*g.inv[k][c]*f[c][j]-ky[j][k]*g.inv[k][c]*f[c][i])/2
                 for k in range(4) for c in range(4))*1j/omega for j in range(4)] for i in range(4)]
     # Factor 2 recovers BOTH input self-dual Maxwell scalars from F=d(xi).
-    # This does NOT establish the full real sourced vector: the opposite
-    # chirality still needs auditing. Projected metric matching currently
-    # exposes a missing contribution of approximately this sector's size.
+    # For the full source, the opposite chirality is explicitly included
+    # above; it cannot be replaced by a conjugation of a complex current.
     xi=[-2*x for x in tensor_divergence(g,htwo)]
     if return_vector:
         return g,xi
@@ -120,6 +132,6 @@ def nonstatic_metric(r,theta,r0,a=.6,ell=2,m=2,order=10):
     source normalization nor continuity; see arXiv:2406.12510v3 Sec. III A.
     """
     g,h2=spin2_metric(r,theta,r0,a,ell,m,order)
-    _,h1=spin1_metric(r,theta,r0,a,ell,m,order)
+    _,h1=spin1_metric(r,theta,r0,a,ell,m,order,full_current=True)
     _,h0=spin0_metric(r,theta,r0,a,ell,m,order)
     return g,[[h2[i][j]+h1[i][j]+h0[i][j] for j in range(4)] for i in range(4)]
