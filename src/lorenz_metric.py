@@ -127,6 +127,11 @@ def spin0_metric(r,theta,r0,a=.6,ell=2,m=2,order=8,kappa_step=5e-5):
 def nonstatic_metric(r,theta,r0,a=.6,ell=2,m=2,order=10):
     """Complex development assembly; source matching is not yet validated.
 
+    For all components, reliable Taylor derivatives extend only through
+    order-6: the DKW scalar and its two gradients consume six orders.
+    Use order>=8 for first/second derivatives of every component. The tt
+    component consumes fewer radial orders because its gradients are temporal.
+
     AAB fields need not obey h_m=conj(h_-m): the physical real-part Fourier
     coefficient is (h_m+conj(h_-m))/2. That projection alone proves neither
     source normalization nor continuity; see arXiv:2406.12510v3 Sec. III A.
