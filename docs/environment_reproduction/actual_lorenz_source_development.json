@@ -1,0 +1,38 @@
+{
+  "status": "local_source_only_not_a_waveform_or_flux",
+  "metric": {
+    "status": "development_not_production_validated",
+    "coordinates": "Boyer-Lindquist",
+    "field": "covariant h_ab; particle mass stripped",
+    "m_g": 2,
+    "ellmax": 4,
+    "orbital_radius": 20.0,
+    "a": 0.8771530275949366,
+    "static_and_low_modes_included": false,
+    "kappa_mass_squared_step": 4.9033552954689705e-06,
+    "maxwell_chiralities": "both; full complex compact current"
+  },
+  "alpha": 0.3,
+  "cloud_mass": 1.0,
+  "r": 10.0,
+  "scalar_ell": 3,
+  "scalar_m": 3,
+  "cases": [
+    {
+      "ntheta": 6,
+      "omega": 0.3184367696439012,
+      "source": [
+        -0.0007880780228543234,
+        -2.9244197322839807e-05
+      ]
+    },
+    {
+      "ntheta": 10,
+      "omega": 0.3184367696439012,
+      "source": [
+        -0.0007880780246029621,
+        -2.9244197454931095e-05
+      ]
+    }
+  ]
+}

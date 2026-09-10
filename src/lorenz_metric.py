@@ -106,7 +106,7 @@ def spin1_metric(r,theta,r0,a=.6,ell=2,m=2,order=8,return_vector=False,full_curr
     return g,h
 
 
-def spin0_metric(r,theta,r0,a=.6,ell=2,m=2,order=8,kappa_step=5e-5):
+def spin0_metric(r,theta,r0,a=.6,ell=2,m=2,order=8,kappa_step=None):
     """Trace, compact chi and retarded kappa; no static completion."""
     if m==0 or r==r0:
         raise ValueError('Nonstatic vacuum points only')

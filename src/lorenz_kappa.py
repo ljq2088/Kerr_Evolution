@@ -35,10 +35,14 @@ def trace_field_jet(g,r0,ell,msq=0.,rtol=1e-12,rmax=2000.):
     return separated_jet(g,0,eigenvalue,R,dR,S,dS,mass_squared=msq)
 
 
-def kappa_jet(g,r0,ell,step=5e-5,rtol=1e-12,rmax=2000.):
+def kappa_jet(g,r0,ell,step=None,rtol=1e-12,rmax=2000.):
     """Fourth-order central resolvent derivative; vary step/tolerance to audit."""
     if abs(g.omega)<1e-12:
         raise ValueError('Static kappa needs separate treatment')
+    if step is None:
+        step=min(5e-5,.01*g.omega**2)
+    if not 0<step<g.omega**2:
+        raise ValueError('Resolvent derivative step must stay below the mass threshold omega^2')
     def h(msq):
         return trace_field_jet(g,r0,ell,msq,rtol,rmax)
     coarse=(h(step)-h(-step))/(2*step)
