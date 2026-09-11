@@ -21,6 +21,7 @@ def main():
                  'scalar_batch_mg2_55f1591fe654.json',
                  'scalar_batch_mg3_6e43371e7529.json',
                  'scalar_batch_mg4_4870f8fe05d6.json',
+                 'scalar_batch_mg5_1e0ba7deb0bf.json',
                  'scalar_batch_mg6_6b877cd2cd15.json'):
         batch = read(name)
         if batch['status'] != 'batch_completed_finite_resolution_not_converged':
@@ -48,7 +49,7 @@ def main():
     result = dict(status='partial_high_L_comparison_not_full_figure6',
         inputs_sha256=inputs, comparisons=comparison, boundary_audit=boundary,
         limitations=[
-            'Only completed m=2..5 and m=7 infinity sectors compared; no missing-mode sum',
+            'Only completed m=2..7 infinity sectors compared; no missing-mode sum',
             'Paper values digitized from vector figure, not author numerical data',
             'Units inferred as q^2 Mc/M by independent Figures 2 and 6 closure',
             'Outer-boundary audit does not establish source-grid or metric convergence',

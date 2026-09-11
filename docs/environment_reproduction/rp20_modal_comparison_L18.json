@@ -1,0 +1,102 @@
+{
+  "status": "finite_resolution_comparison_not_reproduction",
+  "parameters": {
+    "alpha": 0.3,
+    "rp": 20,
+    "metric_ellmax": 18,
+    "nr": 8,
+    "nt": 18,
+    "horizon_order": 32,
+    "inner_offset": 0.0005,
+    "outer_source_cutoff": 320,
+    "green_outer_by_scalar_m": {
+      "2": 4000.0,
+      "0": 4000.0
+    }
+  },
+  "coverage_sha256": "95a5012642e94c8add80b55315850dd20c894a3184d96e216e8a3384ad4437ba",
+  "modes": [
+    {
+      "ell": 2,
+      "m": 2,
+      "file": "forced_mode_nr8_nt18_L18_mg1_sl2_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "computed": 1.341204879161883e-06,
+      "digitized": 1.2777284288186083e-06,
+      "relative_difference": 0.04967914066212442
+    },
+    {
+      "ell": 3,
+      "m": 3,
+      "file": "forced_mode_nr8_nt18_L18_inner0.0005_outer320_log_h32.json",
+      "computed": 1.3155145535414752e-05,
+      "digitized": 1.2517190009296099e-05,
+      "relative_difference": 0.050966353122774866
+    },
+    {
+      "ell": 4,
+      "m": 2,
+      "file": "forced_mode_nr8_nt18_L18_mg1_sl4_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "computed": 4.8344803848697864e-08,
+      "digitized": 4.594494783286693e-08,
+      "relative_difference": 0.05223329504172791
+    },
+    {
+      "ell": 4,
+      "m": 4,
+      "file": "forced_mode_nr8_nt18_L18_mg3_sl4_inner0.0005_outer320_log_h32.json",
+      "computed": 3.5204993195473868e-06,
+      "digitized": 3.3547841868696594e-06,
+      "relative_difference": 0.04939665964991802
+    },
+    {
+      "ell": 5,
+      "m": 3,
+      "file": "forced_mode_nr8_nt18_L18_mg2_sl5_inner0.0005_outer320_log_h32.json",
+      "computed": 2.4077427713301184e-08,
+      "digitized": 2.2915713437700764e-08,
+      "relative_difference": 0.050695095256740874
+    },
+    {
+      "ell": 5,
+      "m": 5,
+      "file": "forced_mode_nr8_nt18_L18_mg4_sl5_inner0.0005_outer320_log_h32.json",
+      "computed": 8.982983810518522e-07,
+      "digitized": 8.571090731208459e-07,
+      "relative_difference": 0.04805608670204675
+    },
+    {
+      "ell": 6,
+      "m": 2,
+      "file": "forced_mode_nr8_nt18_L18_mg1_sl6_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "computed": 6.549974350006465e-12,
+      "digitized": 6.2232911628054575e-12,
+      "relative_difference": 0.052493636992831716
+    },
+    {
+      "ell": 6,
+      "m": 4,
+      "file": "forced_mode_nr8_nt18_L18_mg3_sl6_inner0.0005_outer320_log_h32.json",
+      "computed": 7.20528629633175e-09,
+      "digitized": 6.864491320153966e-09,
+      "relative_difference": 0.049646064112167876
+    },
+    {
+      "ell": 6,
+      "m": 6,
+      "file": "forced_mode_nr8_nt18_L18_mg5_sl6_inner0.0005_outer320_log_h32.json",
+      "computed": 2.1555478355247862e-07,
+      "digitized": 2.0587954296004627e-07,
+      "relative_difference": 0.04699466714043532
+    }
+  ],
+  "finite_infinity_total": 1.9210336966561032e-05,
+  "finite_horizon_total": -6.866732369741025e-05,
+  "sum_figure6_ell_le6": 1.8288422616947143e-05,
+  "figure2_horizon_magnitude_inferred_unit_cloud_mass": 5.176375531716324e-05,
+  "limitations": [
+    "Raw finite source cutoffs, no horizon-tail correction",
+    "Paper metric cutoff reached; remaining convergence is unproven",
+    "Scalar ell=7..12 of paper Fig.6 not present",
+    "Figure 2/6 normalization relationship inferred from cross-figure closure"
+  ]
+}

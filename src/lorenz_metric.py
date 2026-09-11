@@ -5,6 +5,7 @@ Source matching and static completion remain unverified.
 Do not use this intermediate assembly as a production environmental metric.
 """
 import numpy as np
+from functools import lru_cache
 from pybhpt.radial import RadialTeukolsky
 from pybhpt.swsh import SpinWeightedSpheroidalHarmonic
 from lorenz_ghp import KerrGHP
@@ -18,15 +19,22 @@ from lorenz_kappa import trace_field_jet,kappa_jet
 from lorenz_chi import chi_amplitudes
 
 
+@lru_cache(maxsize=8192)
+def _homogeneous_radial_data(spin,ell,m,a,omega,r,bc):
+    """Immutable radial data; independent of theta and source amplitude."""
+    radial=RadialTeukolsky(spin,ell,m,a,omega,np.array([r]))
+    radial.solve(bc=bc)
+    return radial.eigenvalue,radial.radialsolution(bc,0),radial.radialderivative(bc,0)
+
+
 def homogeneous_field_jet(g,spin,ell,amplitude,bc):
     r=float(g.r.value.real)
     theta=float(g.theta.value.real)
-    radial=RadialTeukolsky(spin,ell,g.m,g.a,g.omega,np.array([r]))
-    radial.solve(bc=bc)
+    eigenvalue,value,derivative=_homogeneous_radial_data(spin,ell,g.m,g.a,g.omega,r,bc)
     angular=SpinWeightedSpheroidalHarmonic(spin,ell,g.m,g.a*g.omega)
-    R0=amplitude*radial.radialsolution(bc,0)
-    R1=amplitude*radial.radialderivative(bc,0)
-    return separated_jet(g,spin,radial.eigenvalue,R0,R1,
+    R0=amplitude*value
+    R1=amplitude*derivative
+    return separated_jet(g,spin,eigenvalue,R0,R1,
                           angular(theta),angular(theta,deriv=1))
 
 

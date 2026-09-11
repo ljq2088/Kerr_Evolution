@@ -1,0 +1,67 @@
+{
+  "status": "single_source_extension_not_global_convergence",
+  "input_sha256": {
+    "forced_mode_nr8_nt18_L18_inner0.0005_outer320_log_h32.json": "d5549cee14d7434185cb044b5f15c18d3add7daacd8271ab5f8bc40f3dcd2736",
+    "forced_mode_nr8_nt18_L18_inner0.0005_outer640_log_h32.json": "cd497fe01e61afb8aba40036ef31fc9e2cbd595a53cae0aecc89226ba93f5c49"
+  },
+  "parameters": {
+    "alpha": 0.3,
+    "cloud_mass": 1.0,
+    "metric": {
+      "status": "development_not_production_validated",
+      "coordinates": "Boyer-Lindquist",
+      "field": "covariant h_ab; particle mass stripped",
+      "m_g": 2,
+      "ellmax": 18,
+      "orbital_radius": 20.0,
+      "a": 0.8771530275949366,
+      "static_and_low_modes_included": false,
+      "kappa_mass_squared_step": 4.9033552954689705e-06,
+      "maxwell_chiralities": "both; full complex compact current"
+    },
+    "scalar_ell": 3,
+    "scalar_m": 3,
+    "omega": 0.3184367696439012,
+    "radial_order": 8,
+    "angular_order": 18,
+    "green_outer_radius": 1000.0,
+    "green_horizon_offset": 0.0001,
+    "horizon_log_first_panel": true,
+    "horizon_quadrature_order": 32
+  },
+  "source_outer_radii": [
+    320.0,
+    640.0
+  ],
+  "reused_inner_samples": 88,
+  "new_samples": 8,
+  "flux_changes": {
+    "infinity": {
+      "original": 1.3155145535414752e-05,
+      "extended": 1.3155137424493155e-05,
+      "absolute_change": -8.11092159724218e-12,
+      "relative_change": -6.165588647411013e-07,
+      "relative_complex_amplitude_change": [
+        -3.0827947997784117e-07,
+        1.770762665090193e-08
+      ],
+      "flux_change_from_amplitude": -6.165588646058845e-07
+    },
+    "horizon": {
+      "original": -5.729439680528303e-13,
+      "extended": -5.729439752010963e-13,
+      "absolute_change": -7.148266046155428e-21,
+      "relative_change": 1.2476378818959688e-08,
+      "relative_complex_amplitude_change": [
+        6.23818965868947e-09,
+        3.510510871719953e-09
+      ],
+      "flux_change_from_amplitude": 1.2476379368617637e-08
+    }
+  },
+  "limitations": [
+    "Only the source outer cutoff changes; the Green boundary is fixed",
+    "One extension is not a rigorous bound on all remaining tails",
+    "Added-panel quadrature and all other discretizations still require convergence"
+  ]
+}
