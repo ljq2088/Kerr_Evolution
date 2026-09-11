@@ -11,6 +11,10 @@
 边界并用独立远边界计算交叉核对。见 `THRESHOLD_BOUNDARY.md`；旧失效
 通量明确保留为历史诊断，不能用于图5验收。
 
+Schwarzschild复频率背景、KS切片能量归一化及冻结时间衰减的KG缺陷
+已独立实现与检查，见 `SCHWARZSCHILD_BACKGROUND.md`。Schwarzschild
+环境通量尚未接入，图2/3仍未完成。
+
 ## 图级验收
 
 | 目标 | 所需证据 | 当前状态 |

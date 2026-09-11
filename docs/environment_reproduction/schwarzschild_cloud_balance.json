@@ -1,0 +1,35 @@
+{
+  "status": "exact_complex_cloud_KS_slice_validation",
+  "runs": [
+    {
+      "alpha": 0.2,
+      "omega": [
+        0.19895266125256753,
+        -4.060438251215384e-08
+      ],
+      "balance": {
+        "energy": 1.0000000000000002,
+        "charge": 5.026321305301433,
+        "horizon_energy": 8.120884094055271e-08,
+        "horizon_charge": 4.0818172739823716e-07,
+        "energy_balance": 7.591624502259031e-14,
+        "charge_balance": 3.8157934158362963e-13
+      }
+    },
+    {
+      "alpha": 0.3,
+      "omega": [
+        0.296192346399001,
+        -9.455651671983593e-06
+      ],
+      "balance": {
+        "energy": 0.9999999999999999,
+        "charge": 3.3761844664428944,
+        "horizon_energy": 1.8911310865829815e-05,
+        "horizon_charge": 6.384807398460268e-05,
+        "energy_balance": 7.521862632400974e-12,
+        "charge_balance": 2.5394511106034863e-11
+      }
+    }
+  ]
+}

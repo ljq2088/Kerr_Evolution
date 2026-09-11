@@ -1,0 +1,38 @@
+{
+  "status": "not_converged_paper_result",
+  "orbit": 41.6,
+  "alpha": 0.3,
+  "scalar_mode": [
+    2,
+    2
+  ],
+  "flux_scaling": "per q\u00b2 eta; paper epsilon normalization unresolved",
+  "runs": [
+    {
+      "file": "forced_mode_nr2_nt6_L2_alpha0.3_rp41.6_mg1_sl2_gh0.0001_go32000_coulomb_log_h8.json",
+      "radial_order": 2,
+      "angular_order": 6,
+      "metric_ellmax": 2,
+      "horizon_order": 8,
+      "infinity_flux": 1.8048852552438566e-05,
+      "horizon_flux": -2.167293163456128e-06
+    },
+    {
+      "file": "forced_mode_nr4_nt10_L4_alpha0.3_rp41.6_mg1_sl2_gh0.0001_go32000_coulomb_log_h16.json",
+      "radial_order": 4,
+      "angular_order": 10,
+      "metric_ellmax": 4,
+      "horizon_order": 16,
+      "infinity_flux": 1.4301339809978076e-05,
+      "horizon_flux": -2.1705849451982713e-06,
+      "changed_resolution_parameters": [
+        "radial_order",
+        "angular_order",
+        "metric_ellmax",
+        "horizon_order"
+      ],
+      "infinity_flux_relative_change": 0.2620392768966892,
+      "horizon_flux_relative_change": 0.0015165413127117503
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "status": "complex_background_spectrum_only_not_schwarzschild_flux_reproduction",
+  "method": "Independent two-sided radial shooting with ingoing/decaying boundaries",
+  "runs": [
+    {
+      "baseline": {
+        "alpha": 0.2,
+        "ell": 1,
+        "m": 1,
+        "a_over_M": 0.0,
+        "omega": [
+          0.19895266125256744,
+          -4.060438253540228e-08
+        ],
+        "log_derivative_residual": [
+          -1.089840023782429e-15,
+          -1.4019369364948013e-16
+        ],
+        "outer_efolds": 45.0,
+        "horizon_offset": 1e-05,
+        "rmax": 2249.9999999999995,
+        "match_radius": 49.99999999999999,
+        "solver_success": true,
+        "function_evaluations": 13,
+        "newton_polish_iterations": 0,
+        "amplitude_decay_time_M": 24627883.434210993
+      },
+      "refined": {
+        "alpha": 0.2,
+        "ell": 1,
+        "m": 1,
+        "a_over_M": 0.0,
+        "omega": [
+          0.19895266125256744,
+          -4.060438253540228e-08
+        ],
+        "log_derivative_residual": [
+          2.3570555229834866e-15,
+          3.954927697320679e-15
+        ],
+        "outer_efolds": 60.0,
+        "horizon_offset": 1e-06,
+        "rmax": 2999.9999999999995,
+        "match_radius": 49.99999999999999,
+        "solver_success": true,
+        "function_evaluations": 6,
+        "newton_polish_iterations": 0,
+        "amplitude_decay_time_M": 24627883.434210993
+      },
+      "frequency_cutoff_change": 0.0
+    },
+    {
+      "baseline": {
+        "alpha": 0.3,
+        "ell": 1,
+        "m": 1,
+        "a_over_M": 0.0,
+        "omega": [
+          0.29619234639899916,
+          -9.45565166959826e-06
+        ],
+        "log_derivative_residual": [
+          3.1693397906096266e-14,
+          -1.860306613615803e-14
+        ],
+        "outer_efolds": 45.0,
+        "horizon_offset": 1e-05,
+        "rmax": 1000.0,
+        "match_radius": 22.22222222222222,
+        "solver_success": true,
+        "function_evaluations": 15,
+        "newton_polish_iterations": 0,
+        "amplitude_decay_time_M": 105756.85684522332
+      },
+      "refined": {
+        "alpha": 0.3,
+        "ell": 1,
+        "m": 1,
+        "a_over_M": 0.0,
+        "omega": [
+          0.29619234639899916,
+          -9.45565166959826e-06
+        ],
+        "log_derivative_residual": [
+          -5.5414006716603126e-14,
+          -7.155783127502091e-14
+        ],
+        "outer_efolds": 60.0,
+        "horizon_offset": 1e-06,
+        "rmax": 1333.3333333333335,
+        "match_radius": 22.22222222222222,
+        "solver_success": true,
+        "function_evaluations": 6,
+        "newton_polish_iterations": 0,
+        "amplitude_decay_time_M": 105756.85684522332
+      },
+      "frequency_cutoff_change": 0.0
+    }
+  ]
+}
