@@ -14,7 +14,7 @@
       "0": 4000.0
     }
   },
-  "computed_count": 20,
+  "computed_count": 23,
   "required_count": 36,
   "modes": [
     {
@@ -98,6 +98,14 @@
       "ratio": 1.0486479703423892
     },
     {
+      "ell": 7,
+      "m": 7,
+      "file": "forced_mode_nr8_nt18_L18_mg6_sl7_inner0.0005_outer320_log_h32.json",
+      "computed": 4.8569828469717736e-08,
+      "digitized": 4.644113961680458e-08,
+      "ratio": 1.0458362751318637
+    },
+    {
       "ell": 8,
       "m": 2,
       "file": "forced_mode_nr8_nt18_L18_mg1_sl8_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
@@ -128,6 +136,14 @@
       "computed": 1.5432451732671743e-12,
       "digitized": 1.4835332176698066e-12,
       "ratio": 1.0402498271600265
+    },
+    {
+      "ell": 9,
+      "m": 7,
+      "file": "forced_mode_nr8_nt18_L18_mg6_sl9_inner0.0005_outer320_log_h32.json",
+      "computed": 8.182943176804197e-11,
+      "digitized": 7.880049406984535e-11,
+      "ratio": 1.0384380546587932
     },
     {
       "ell": 10,
@@ -162,6 +178,14 @@
       "ratio": 1.033216814299088
     },
     {
+      "ell": 11,
+      "m": 7,
+      "file": "forced_mode_nr8_nt18_L18_mg6_sl11_inner0.0005_outer320_log_h32.json",
+      "computed": 7.904239547798779e-14,
+      "digitized": 7.632269353597989e-14,
+      "ratio": 1.0356342499983413
+    },
+    {
       "ell": 12,
       "m": 2,
       "file": "forced_mode_nr8_nt18_L18_mg1_sl12_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
@@ -184,20 +208,12 @@
       6
     ],
     [
-      7,
-      7
-    ],
-    [
       8,
       6
     ],
     [
       8,
       8
-    ],
-    [
-      9,
-      7
     ],
     [
       9,
@@ -214,10 +230,6 @@
     [
       10,
       10
-    ],
-    [
-      11,
-      7
     ],
     [
       11,
@@ -246,7 +258,7 @@
   ],
   "finite_total": null,
   "inputs_sha256": {
-    "flux_coverage_L18_nt18_i12_h12_f12_m0go4000_m2go4000.json": "2f16443bb1c1236c1e30399dd7ca934926c3376bc58ca514985ca7001e0989e9",
+    "flux_coverage_L18_nt18_i12_h12_f12_m0go4000_m2go4000.json": "25ec8af4527f65ac8bb7b594550278e7257e2ec5e9607bdec70edc16562c8647",
     "paper_v1_flux_markers.json": "64e3223059d77f8309738f94e05b8142754aaad542e45fd4642f1835be1f1beb"
   },
   "limitations": [
