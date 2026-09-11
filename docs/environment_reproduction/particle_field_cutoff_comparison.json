@@ -354,7 +354,7 @@
       ]
     }
   ],
-  "higher_particle_report_sha256": "bdd371ca6b74cbd6f5a9e650f01870f5d7a20f5c1cdc2bf87ce79dc5042500d4",
+  "higher_particle_report_sha256": "9681bd5d6d0621588ade82ac1f37cffa286a81082f75e84c17a294857dc58c2e",
   "limitations": [
     "L6/nt10 compared with L18/nt18; selected Green outer radii also differ",
     "Only complete ell2 and ell4 field shells compared",

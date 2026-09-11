@@ -1,12 +1,12 @@
 {
   "status": "finite_particle_field_not_figure7_reproduction",
   "evaluation": {
-    "r": 20,
+    "r": 20.0,
     "theta": 1.5707963267948966,
     "phi": 0,
     "time": 0
   },
-  "coverage_sha256": "f0260d20b04a1a1d7af6085db9a88fd0ef5f5c6c1c1d507cb54a6fe82611bac1",
+  "coverage_sha256": "8d7cf6b101ec0dfe8cce5428a2387d347c9dd4d3abd64a6b32e89679ad88bb61",
   "inputs_sha256": {
     "forced_mode_nr8_nt18_L18_mg-3_sl2_inner0.0005_outer320_log_h32.json": "a69182cf00537f41f6f3714370846341fc4bae15eef23f425783147a853fadb8",
     "forced_mode_nr8_nt18_L18_mg-1_sl2_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "fb30d727cdb754c5dca3f7906b7383fe939d81949341953bb3787bc5d79b1162",
@@ -31,7 +31,31 @@
     "forced_mode_nr8_nt18_L18_mg1_sl8_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "fa1f0fe651a3a0b68e09e06106fcfb2bdc05a68eccc7e83d40d94b7b7978ffe0",
     "forced_mode_nr8_nt18_L18_mg3_sl8_inner0.0005_outer320_log_h32.json": "819afff3412ad0691e3400bf6f37876fb03ccdc611cb3e7625056b2b3d3778ac",
     "forced_mode_nr8_nt18_L18_mg5_sl8_inner0.0005_outer320_log_h32.json": "66d1f67143e78c782a70592b742097f71f373dc01072c4ed815900aa0141bbbf",
-    "forced_mode_nr8_nt18_L18_mg7_sl8_inner0.0005_outer320_log_h32.json": "4b8f121292a7b01f00c3a81333c86e2e96c0d81b8036646d35116d9818773061"
+    "forced_mode_nr8_nt18_L18_mg7_sl8_inner0.0005_outer320_log_h32.json": "4b8f121292a7b01f00c3a81333c86e2e96c0d81b8036646d35116d9818773061",
+    "forced_mode_nr8_nt18_L18_mg-11_sl10_inner0.0005_outer320_log_h32.json": "7579354d6f5cb0248c72076b60389c5c273418c41216260de26935a13c47d769",
+    "forced_mode_nr8_nt18_L18_mg-9_sl10_inner0.0005_outer320_log_h32.json": "b57d9956e0a98619abf4e6bf66ba982b431ae6eb2f6eaebdc2d81fcd5d7b799a",
+    "forced_mode_nr8_nt18_L18_mg-7_sl10_inner0.0005_outer320_log_h32.json": "b539606f1d868f6700d1517efac58ec90f3c9dd0756a3881aaf8275b5d29d8f3",
+    "forced_mode_nr8_nt18_L18_mg-5_sl10_inner0.0005_outer320_log_h32.json": "0c374dd688dd1a15b0fee9a9c3030f0841eb9f5b4e79838ff9d852f0a0e72ddc",
+    "forced_mode_nr8_nt18_L18_mg-3_sl10_inner0.0005_outer320_log_h32.json": "84aaf2306ef3c9f60c3afaec5895fca935021605e49e2376fb1eedbe4032b43b",
+    "forced_mode_nr8_nt18_L18_mg-1_sl10_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "aa399f45d42502b2fb3bc9b1d6494c4adabc775b3800a0188addf9f47e27bdaa",
+    "forced_mode_nr8_nt18_L18_mg1_sl10_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "a183833a8a100ea8d7ba171070bd97000d36099a64b419433b6ab5983b13907c",
+    "forced_mode_nr8_nt18_L18_mg3_sl10_inner0.0005_outer320_log_h32.json": "70bb18f2dd224a84883206b173c7ff990927fc877a32ad9758cbe7eff2e78ae5",
+    "forced_mode_nr8_nt18_L18_mg5_sl10_inner0.0005_outer320_log_h32.json": "feee46d1c681780f16b26c0880cf6a53ee1fe96f6043fe1d49899b36e2e57fe8",
+    "forced_mode_nr8_nt18_L18_mg7_sl10_inner0.0005_outer320_log_h32.json": "02e7866c1557bb7799e995fd510e96005c2bdd9acecc235e227648550c361547",
+    "forced_mode_nr8_nt18_L18_mg9_sl10_inner0.0005_outer320_log_h32.json": "3bc36f7cb602c5fe1a9bcfeb9d8880ff72be52aa49ce9ea39342058f982f3808",
+    "forced_mode_nr8_nt18_L18_mg-13_sl12_inner0.0005_outer320_log_h32.json": "f67a9b4eb1c967cc5d123654b20094984d9f97eb8b4de7fcbdaab9bf88d7bda7",
+    "forced_mode_nr8_nt18_L18_mg-11_sl12_inner0.0005_outer320_log_h32.json": "dd6981248e1e7c7cbce58bdd9a25418436707689ab63dd4ef36a5ee681bb7f32",
+    "forced_mode_nr8_nt18_L18_mg-9_sl12_inner0.0005_outer320_log_h32.json": "55ccb4456f853bb00dfa0fad07bd30aa7d918b7bfd8fe2543fdf868d0b43c2dd",
+    "forced_mode_nr8_nt18_L18_mg-7_sl12_inner0.0005_outer320_log_h32.json": "2c0b7d06b978b87277f40183284474d727da7b16dd67992987ec71229187326f",
+    "forced_mode_nr8_nt18_L18_mg-5_sl12_inner0.0005_outer320_log_h32.json": "27c67bd9f2b5ce2135f0ad9e0cd98b5ec355960b525aa0970baaa5443cef1eaf",
+    "forced_mode_nr8_nt18_L18_mg-3_sl12_inner0.0005_outer320_log_h32.json": "9d47785ba8e7b8dedbd07a3a1623edadb507b0104303ec359a548df98d6b0ccc",
+    "forced_mode_nr8_nt18_L18_mg-1_sl12_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "099638cbc149cca5576bd6790ede2dcdeb7853bd265503cb8970a4eb888afc2c",
+    "forced_mode_nr8_nt18_L18_mg1_sl12_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "c91980a16e3df1b3d37f9b3436ccc4737624a6c4e2f7cf742053ca2d91c643ae",
+    "forced_mode_nr8_nt18_L18_mg3_sl12_inner0.0005_outer320_log_h32.json": "aad0103a7853204c4d8798ab5e7b5cf13ae004f3c6c8892c8ecd5a3680e33753",
+    "forced_mode_nr8_nt18_L18_mg5_sl12_inner0.0005_outer320_log_h32.json": "e2615b206c99e8890776fad66dcbf53626063a4bc55a22d06ac855e6e6ca3dbb",
+    "forced_mode_nr8_nt18_L18_mg7_sl12_inner0.0005_outer320_log_h32.json": "6a403509c3ea61fbef91472e404daee2321bcfe510631d9b53631904b1b46198",
+    "forced_mode_nr8_nt18_L18_mg9_sl12_inner0.0005_outer320_log_h32.json": "8b5f6769293ba9bbec79a5efe1b91cfe9b7d2ce3f8b5b8a59e31f8dd20df1fa3",
+    "forced_mode_nr8_nt18_L18_mg11_sl12_inner0.0005_outer320_log_h32.json": "03a6998760d1f7459036697d2ebc584911779a82b769f1d94519e9ee779e235b"
   },
   "multipoles": [
     {
@@ -452,10 +476,165 @@
     },
     {
       "ell": 10,
-      "missing_m": [
-        -10
+      "complete": true,
+      "missing_m": [],
+      "components": [
+        {
+          "m": -10,
+          "radial": [
+            -1.7983373903389194e-05,
+            2.743764218920352e-14
+          ],
+          "equatorial_angular_value": 0.542653787430937,
+          "particle_contribution": [
+            -9.758745959460818e-06,
+            1.4889140452146155e-14
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-11_sl10_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": -8,
+          "radial": [
+            1.3606390339552566e-05,
+            -5.521077047924288e-14
+          ],
+          "equatorial_angular_value": -0.39366836297543806,
+          "particle_contribution": [
+            -5.356405410976473e-06,
+            2.1734733633176188e-14
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-9_sl10_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": -6,
+          "radial": [
+            -1.2685538389827073e-05,
+            1.5292388448477017e-14
+          ],
+          "equatorial_angular_value": 0.35080364216286003,
+          "particle_contribution": [
+            -4.45013306994812e-06,
+            5.364625565094986e-15
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-7_sl10_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": -4,
+          "radial": [
+            1.2565417855570113e-05,
+            1.1650620570596545e-13
+          ],
+          "equatorial_angular_value": -0.3307384628989492,
+          "particle_contribution": [
+            -4.15586698723427e-06,
+            -3.85330833933798e-14
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-5_sl10_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": -2,
+          "radial": [
+            -1.2881060782218127e-05,
+            4.1062915028217567e-13
+          ],
+          "equatorial_angular_value": 0.32105716153151675,
+          "particle_contribution": [
+            -4.135556812253891e-06,
+            1.3183542943169395e-13
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-3_sl10_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 0,
+          "radial": [
+            1.3564551294501302e-05,
+            5.018970789183485e-11
+          ],
+          "equatorial_angular_value": -0.3181280605512626,
+          "particle_contribution": [
+            -4.3152643955678176e-06,
+            -1.596675443126382e-11
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-1_sl10_gh0.0001_go4000_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 2,
+          "radial": [
+            -1.4645454177517738e-05,
+            1.9957638081432566e-11
+          ],
+          "equatorial_angular_value": 0.3210638115230333,
+          "particle_contribution": [
+            -4.7021253397197755e-06,
+            6.407675351421978e-12
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg1_sl10_gh0.0001_go4000_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 4,
+          "radial": [
+            1.628292298210077e-05,
+            6.063392551990208e-13
+          ],
+          "equatorial_angular_value": -0.33074893206649003,
+          "particle_contribution": [
+            -5.385559387250737e-06,
+            -2.0054606112706707e-13
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg3_sl10_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 6,
+          "radial": [
+            -1.882674498270191e-05,
+            -3.4669982753754734e-11
+          ],
+          "equatorial_angular_value": 0.3508117290738547,
+          "particle_contribution": [
+            -6.604642960214176e-06,
+            -1.2162636596805422e-11
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg5_sl10_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 8,
+          "radial": [
+            2.33154716514607e-05,
+            1.1902487080766354e-09
+          ],
+          "equatorial_angular_value": -0.3936625128357377,
+          "particle_contribution": [
+            -9.178427158264427e-06,
+            -4.685562973209387e-10
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg7_sl10_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 10,
+          "radial": [
+            -3.6032556788008626e-05,
+            -2.0543409978338594e-08
+          ],
+          "equatorial_angular_value": 0.5426039409317548,
+          "particle_contribution": [
+            -1.955140731502073e-05,
+            -1.1146935214423257e-08
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg9_sl10_inner0.0005_outer320_log_h32.json"
+        }
       ],
-      "complete": false
+      "radial_coefficient_sum": [
+        -3.371997490047722e-05,
+        -1.93165629131711e-08
+      ],
+      "particle_field_sum": [
+        -7.759413479591123e-05,
+        -1.1637278482636281e-08
+      ],
+      "abs_radial_coefficient_sum": 3.3719980433244865e-05,
+      "abs_particle_field_sum": 7.759413566856899e-05,
+      "abs_radial_sum_per_epsilon_q": 0.0012488881641942544,
+      "abs_particle_sum_per_epsilon_q": 0.002873856876613667
     },
     {
       "ell": 11,
@@ -466,19 +645,200 @@
     },
     {
       "ell": 12,
-      "missing_m": [
-        -12,
-        -10,
-        12
+      "complete": true,
+      "missing_m": [],
+      "components": [
+        {
+          "m": -12,
+          "radial": [
+            -1.1645180388355208e-05,
+            1.6833313734636597e-14
+          ],
+          "equatorial_angular_value": 0.5662866189365352,
+          "particle_contribution": [
+            -6.594509829027718e-06,
+            9.5324803202853e-15
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-13_sl12_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": -10,
+          "radial": [
+            8.627675251982084e-06,
+            3.3094219557166095e-14
+          ],
+          "equatorial_angular_value": -0.40902727405940176,
+          "particle_contribution": [
+            -3.528954489787994e-06,
+            -1.3536438412590989e-14
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-11_sl12_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": -8,
+          "radial": [
+            -7.864821407798719e-06,
+            1.0508457335730443e-13
+          ],
+          "equatorial_angular_value": 0.36255805486409026,
+          "particle_contribution": [
+            -2.8514543514649595e-06,
+            3.80992585126471e-14
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-9_sl12_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": -6,
+          "radial": [
+            7.5984896509464514e-06,
+            2.341011765600509e-13
+          ],
+          "equatorial_angular_value": -0.3395638787499065,
+          "particle_contribution": [
+            -2.5801726185164003e-06,
+            -7.949230353264757e-14
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-7_sl12_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": -4,
+          "radial": [
+            -7.570727860534521e-06,
+            -2.3303974844095866e-12
+          ],
+          "equatorial_angular_value": 0.326841026879944,
+          "particle_contribution": [
+            -2.474424468165704e-06,
+            -7.616695068428675e-13
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-5_sl12_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": -2,
+          "radial": [
+            7.708081761288584e-06,
+            -2.8863695156708103e-12
+          ],
+          "equatorial_angular_value": -0.3202386242119446,
+          "particle_contribution": [
+            -2.468425498548239e-06,
+            9.243270026657172e-13
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-3_sl12_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 0,
+          "radial": [
+            -7.990241018192471e-06,
+            6.291707763448912e-11
+          ],
+          "equatorial_angular_value": 0.31818138011350694,
+          "particle_contribution": [
+            -2.5423459146080334e-06,
+            2.001904259445041e-11
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-1_sl12_gh0.0001_go4000_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 2,
+          "radial": [
+            8.436013605088254e-06,
+            3.4453384926646144e-11
+          ],
+          "equatorial_angular_value": -0.3202433938653691,
+          "particle_contribution": [
+            -2.70157762758789e-06,
+            -1.1033468919059113e-11
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg1_sl12_gh0.0001_go4000_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 4,
+          "radial": [
+            -9.075327242576113e-06,
+            -2.056565474795253e-12
+          ],
+          "equatorial_angular_value": 0.32684918134189345,
+          "particle_contribution": [
+            -2.9662632796457857e-06,
+            -6.721867418128308e-13
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg3_sl12_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 6,
+          "radial": [
+            9.998355118656184e-06,
+            -1.5389718952061714e-12
+          ],
+          "equatorial_angular_value": -0.3395724789219188,
+          "particle_contribution": [
+            -3.395166232783736e-06,
+            5.22592501446323e-13
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg5_sl12_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 8,
+          "radial": [
+            -1.1396615930565056e-05,
+            -1.507387363903687e-12
+          ],
+          "equatorial_angular_value": 0.36256211164308594,
+          "particle_contribution": [
+            -4.1319811373709e-06,
+            -5.465215457210256e-13
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg7_sl12_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 10,
+          "radial": [
+            1.3831822521138205e-05,
+            3.5600054483243e-11
+          ],
+          "equatorial_angular_value": -0.4090181517769297,
+          "particle_contribution": [
+            -5.65746648330246e-06,
+            -1.4561068487894052e-11
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg9_sl12_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 12,
+          "radial": [
+            -2.078757805686516e-05,
+            -6.235037933050815e-10
+          ],
+          "equatorial_angular_value": 0.5662413222206215,
+          "particle_contribution": [
+            -1.1770785684683707e-05,
+            -3.5305361233064247e-10
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg11_sl12_inner0.0005_outer320_log_h32.json"
+        }
       ],
-      "complete": false
+      "radial_coefficient_sum": [
+        -2.0130053995787485e-05,
+        -5.004638547114796e-10
+      ],
+      "particle_field_sum": [
+        -5.366352761549352e-05,
+        -3.5920796243652223e-10
+      ],
+      "abs_radial_coefficient_sum": 2.0130054002008633e-05,
+      "abs_particle_field_sum": 5.366352761669574e-05,
+      "abs_radial_sum_per_epsilon_q": 0.0007455575556299495,
+      "abs_particle_sum_per_epsilon_q": 0.0019875380598776203
     }
   ],
   "complete_shells": [
     2,
     4,
     6,
-    8
+    8,
+    10,
+    12
   ],
   "limitations": [
     "Original finite Gauss source integrals at exact panel boundary; no interpolation to particle",

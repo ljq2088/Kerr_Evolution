@@ -1,0 +1,90 @@
+{
+  "status": "leading_local_cusp_diagnostic_not_full_field_validation",
+  "input_sha256": "9681bd5d6d0621588ade82ac1f37cffa286a81082f75e84c17a294857dc58c2e",
+  "parameters": {
+    "a": 0.8771530275949366,
+    "alpha": 0.3,
+    "rp": 20.0,
+    "cloud_mass": 1.0,
+    "omega_c": 0.29629324847975713,
+    "omega_p": 0.011071760582072043,
+    "u_t_contravariant": 1.0828670139858214
+  },
+  "background_field": -0.003931542138152857,
+  "u_hessian_u": [
+    0.00037504006571492763,
+    0.0
+  ],
+  "A": [
+    0.00039624133899609815,
+    0.0
+  ],
+  "mean_angular_distance_factor": 20.28494417651074,
+  "predicted_spherical_coefficient_per_epsilon_q": [
+    0.2976938311837674,
+    0.0
+  ],
+  "rows": [
+    {
+      "ell": 2,
+      "scaled_coefficient": [
+        -0.0681329365625184,
+        -0.06087070774051988
+      ],
+      "relative_difference": 1.2457644666095224,
+      "chord_model_coefficient": -0.19047619047619047
+    },
+    {
+      "ell": 4,
+      "scaled_coefficient": [
+        0.4250139678380238,
+        0.07970126896094566
+      ],
+      "relative_difference": 0.5045750714085389,
+      "chord_model_coefficient": -0.05194805194805195
+    },
+    {
+      "ell": 6,
+      "scaled_coefficient": [
+        0.36122291777253324,
+        0.010044788678728742
+      ],
+      "relative_difference": 0.21605517068132016,
+      "chord_model_coefficient": -0.024242424242424242
+    },
+    {
+      "ell": 8,
+      "scaled_coefficient": [
+        0.32970529672987886,
+        0.0008159448947922396
+      ],
+      "relative_difference": 0.10756643024568706,
+      "chord_model_coefficient": -0.014035087719298246
+    },
+    {
+      "ell": 10,
+      "scaled_coefficient": [
+        0.31684271708330425,
+        4.751888713743149e-05
+      ],
+      "relative_difference": 0.06432429178498662,
+      "chord_model_coefficient": -0.009153318077803204
+    },
+    {
+      "ell": 12,
+      "scaled_coefficient": [
+        0.3105528218489209,
+        2.078749782618763e-06
+      ],
+      "relative_difference": 0.04319535538255123,
+      "chord_model_coefficient": -0.00644122383252818
+    }
+  ],
+  "limitations": [
+    "Prediction derives from local Lorenz h_ab=2m(g_ab+2u_a u_b)/s",
+    "Leading large-ell spherical asymptotic; data are finite spheroidal shell sums",
+    "Spheroidicity depends on m; no exact basis-equivalence assertion",
+    "Subleading local terms and missing higher reconstructed modes remain",
+    "No normalization has been fitted to the paper or numerical shells"
+  ]
+}
