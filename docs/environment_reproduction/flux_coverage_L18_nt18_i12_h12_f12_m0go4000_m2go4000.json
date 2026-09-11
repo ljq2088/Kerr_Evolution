@@ -1,9 +1,9 @@
 {
-  "observed_utc": "2026-09-11T16:54:47.082344+00:00",
+  "observed_utc": "2026-09-11T17:04:45.986623+00:00",
   "status": "coverage_only_not_paper_reproduction",
   "parameters": {
     "alpha": 0.3,
-    "rp": 20,
+    "rp": 20.0,
     "metric_ellmax": 18,
     "nr": 8,
     "nt": 18,
@@ -800,7 +800,7 @@
   },
   "horizon": {
     "required_count": 85,
-    "computed_count": 81,
+    "computed_count": 82,
     "modes": [
       {
         "ell": 0,
@@ -2372,7 +2372,24 @@
       {
         "ell": 12,
         "m": -12,
-        "status": "missing"
+        "file": "forced_mode_nr8_nt18_L18_mg-13_sl12_inner0.0005_outer320_log_h32.json",
+        "status": "truncated_single_mode_not_converged",
+        "samples": 88,
+        "green_outer_radius": 1000.0,
+        "flux": {
+          "infinity": {
+            "charge": 0.0,
+            "wave_energy": 0.0,
+            "orbital_energy": -0.0,
+            "orbital_angular_momentum": -0.0
+          },
+          "horizon": {
+            "charge": 4.323641749997588e-36,
+            "wave_energy": 6.5875161748737164e-37,
+            "orbital_energy": -6.223142418821157e-37,
+            "orbital_angular_momentum": -5.620734274996865e-35
+          }
+        }
       },
       {
         "ell": 12,
@@ -2610,7 +2627,7 @@
   },
   "field": {
     "required_count": 88,
-    "computed_count": 79,
+    "computed_count": 80,
     "modes": [
       {
         "ell": 2,
@@ -4163,7 +4180,24 @@
       {
         "ell": 12,
         "m": -12,
-        "status": "missing"
+        "file": "forced_mode_nr8_nt18_L18_mg-13_sl12_inner0.0005_outer320_log_h32.json",
+        "status": "truncated_single_mode_not_converged",
+        "samples": 88,
+        "green_outer_radius": 1000.0,
+        "flux": {
+          "infinity": {
+            "charge": 0.0,
+            "wave_energy": 0.0,
+            "orbital_energy": -0.0,
+            "orbital_angular_momentum": -0.0
+          },
+          "horizon": {
+            "charge": 4.323641749997588e-36,
+            "wave_energy": 6.5875161748737164e-37,
+            "orbital_energy": -6.223142418821157e-37,
+            "orbital_angular_momentum": -5.620734274996865e-35
+          }
+        }
       },
       {
         "ell": 12,

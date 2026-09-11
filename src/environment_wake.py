@@ -19,6 +19,7 @@ class EnvironmentalWake:
                         cloud_mass=p['cloud_mass'],coordinates=metric['coordinates'],
                         flux_scaling=data.get('flux_scaling'))
             numerical=dict(metric_ellmax=metric['ellmax'],
+                        angular_backend=metric.get('angular_backend','pybhpt-default'),
                         angular_order=p['angular_order'],radial_order=p['radial_order'],
                         source_panels=p['source_panels'],green_outer_radius=p['green_outer_radius'],
                         green_horizon_offset=p['green_horizon_offset'],

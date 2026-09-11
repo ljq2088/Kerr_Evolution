@@ -32,6 +32,24 @@ def test_empty_mode_range_is_rejected():
         EnvironmentalWake([])
 
 
+def test_different_angular_backends_require_explicit_mixing():
+    import copy
+    directory=Path(__file__).resolve().parents[1]/'docs/environment_reproduction'
+    first=json.loads((directory/'forced_mode_nr8_nt18_L18_mg5_sl10_inner0.0005_outer320_log_h32.json').read_text())
+    second=json.loads((directory/'forced_mode_nr8_nt18_L18_mg5_sl12_inner0.0005_outer320_log_h32.json').read_text())
+    # This copy tests metadata compatibility, not the diagnostic solver's accuracy.
+    tagged=copy.deepcopy(second)
+    tagged['parameters']['metric']['angular_backend']='dense-real-evd-diagnostic'
+    with pytest.raises(ValueError,match='different discretization'):
+        EnvironmentalWake([first,tagged],ellmax=12,allow_partial=True)
+    mixed=EnvironmentalWake([first,tagged],ellmax=12,allow_partial=True,
+                            allow_mixed_discretization=True)
+    assert mixed.mixed_discretization
+    assert mixed.parameters['angular_backend'] is None
+    assert [row['numerical']['angular_backend'] for row in mixed.mode_provenance]==[
+        'pybhpt-default','dense-real-evd-diagnostic']
+
+
 def test_one_actual_mode_cannot_be_presented_as_full_wake():
     path=Path(__file__).resolve().parents[1]/'docs/environment_reproduction/forced_mode_nr8_nt10_L6_mg1_sl2_inner0.0005_outer320_log_h32.json'
     report=json.loads(path.read_text())
