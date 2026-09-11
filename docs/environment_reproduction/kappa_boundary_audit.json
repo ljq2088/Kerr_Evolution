@@ -1,0 +1,186 @@
+{
+  "status": "unresolved_high_ell_low_frequency_auxiliary_boundary",
+  "note": "Last-term ratio is diagnostic, not an error bound. Even msq=0 fails; resolvent derivative needs its own boundary convergence.",
+  "rows": [
+    {
+      "orbital_radius": 6.0,
+      "a": 0.6,
+      "m": 1,
+      "ell": 1,
+      "omega": 0.06537255822991592,
+      "rmax": 2000.0,
+      "series_last_term_relative": 6.982505954323883e-14
+    },
+    {
+      "orbital_radius": 6.0,
+      "a": 0.6,
+      "m": 1,
+      "ell": 2,
+      "omega": 0.06537255822991592,
+      "rmax": 2000.0,
+      "series_last_term_relative": 1.385236765077542e-13
+    },
+    {
+      "orbital_radius": 6.0,
+      "a": 0.6,
+      "m": 1,
+      "ell": 4,
+      "omega": 0.06537255822991592,
+      "rmax": 2000.0,
+      "series_last_term_relative": 1.9991792388728104e-12
+    },
+    {
+      "orbital_radius": 6.0,
+      "a": 0.6,
+      "m": 1,
+      "ell": 6,
+      "omega": 0.06537255822991592,
+      "rmax": 2000.0,
+      "series_last_term_relative": 2.0707825250885755e-09
+    },
+    {
+      "orbital_radius": 6.0,
+      "a": 0.6,
+      "m": 1,
+      "ell": 8,
+      "omega": 0.06537255822991592,
+      "rmax": 2000.0,
+      "series_last_term_relative": 1.8833335297932343e-07
+    },
+    {
+      "orbital_radius": 6.0,
+      "a": 0.6,
+      "m": 1,
+      "ell": 10,
+      "omega": 0.06537255822991592,
+      "rmax": 2000.0,
+      "series_last_term_relative": 3.7720658896480985e-06
+    },
+    {
+      "orbital_radius": 6.0,
+      "a": 0.6,
+      "m": 1,
+      "ell": 18,
+      "omega": 0.06537255822991592,
+      "rmax": 2000.0,
+      "series_last_term_relative": 0.005590731605717658
+    },
+    {
+      "orbital_radius": 41.6,
+      "a": 0.8771530275949366,
+      "m": 1,
+      "ell": 1,
+      "omega": 0.0037148607942846714,
+      "rmax": 2000.0,
+      "series_last_term_relative": 1.1491944414130531e-07
+    },
+    {
+      "orbital_radius": 41.6,
+      "a": 0.8771530275949366,
+      "m": 1,
+      "ell": 2,
+      "omega": 0.0037148607942846714,
+      "rmax": 2000.0,
+      "series_last_term_relative": 2.2553777432230902e-07
+    },
+    {
+      "orbital_radius": 41.6,
+      "a": 0.8771530275949366,
+      "m": 1,
+      "ell": 4,
+      "omega": 0.0037148607942846714,
+      "rmax": 2000.0,
+      "series_last_term_relative": 3.128827981282862e-06
+    },
+    {
+      "orbital_radius": 41.6,
+      "a": 0.8771530275949366,
+      "m": 1,
+      "ell": 6,
+      "omega": 0.0037148607942846714,
+      "rmax": 2000.0,
+      "series_last_term_relative": 0.04639445338499855
+    },
+    {
+      "orbital_radius": 41.6,
+      "a": 0.8771530275949366,
+      "m": 1,
+      "ell": 8,
+      "omega": 0.0037148607942846714,
+      "rmax": 2000.0,
+      "series_last_term_relative": 5.455559541329433
+    },
+    {
+      "orbital_radius": 41.6,
+      "a": 0.8771530275949366,
+      "m": 1,
+      "ell": 10,
+      "omega": 0.0037148607942846714,
+      "rmax": 2000.0,
+      "series_last_term_relative": 1.4376141490136616
+    },
+    {
+      "orbital_radius": 41.6,
+      "a": 0.8771530275949366,
+      "m": 1,
+      "ell": 18,
+      "omega": 0.0037148607942846714,
+      "rmax": 2000.0,
+      "series_last_term_relative": 1.0257033299945004
+    },
+    {
+      "orbital_radius": 20.0,
+      "a": 0.8771530275949366,
+      "m": 2,
+      "ell": 2,
+      "omega": 0.022143521164144087,
+      "rmax": 2000.0,
+      "series_last_term_relative": 3.082446448147412e-11
+    },
+    {
+      "orbital_radius": 20.0,
+      "a": 0.8771530275949366,
+      "m": 2,
+      "ell": 4,
+      "omega": 0.022143521164144087,
+      "rmax": 2000.0,
+      "series_last_term_relative": 4.5955544643087924e-10
+    },
+    {
+      "orbital_radius": 20.0,
+      "a": 0.8771530275949366,
+      "m": 2,
+      "ell": 6,
+      "omega": 0.022143521164144087,
+      "rmax": 2000.0,
+      "series_last_term_relative": 1.3698944241497907e-06
+    },
+    {
+      "orbital_radius": 20.0,
+      "a": 0.8771530275949366,
+      "m": 2,
+      "ell": 8,
+      "omega": 0.022143521164144087,
+      "rmax": 2000.0,
+      "series_last_term_relative": 0.0001241490361954842
+    },
+    {
+      "orbital_radius": 20.0,
+      "a": 0.8771530275949366,
+      "m": 2,
+      "ell": 10,
+      "omega": 0.022143521164144087,
+      "rmax": 2000.0,
+      "series_last_term_relative": 0.002470335183181847
+    },
+    {
+      "orbital_radius": 20.0,
+      "a": 0.8771530275949366,
+      "m": 2,
+      "ell": 18,
+      "omega": 0.022143521164144087,
+      "rmax": 2000.0,
+      "series_last_term_relative": 2.27476203710602
+    }
+  ]
+}

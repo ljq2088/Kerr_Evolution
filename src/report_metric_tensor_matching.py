@@ -18,36 +18,46 @@ def main():
     parser.add_argument('--quadrature',type=int,default=12)
     parser.add_argument('--ellmax',type=int,default=8)
     parser.add_argument('--epsilon',type=float,default=5e-5)
+    parser.add_argument('--m',type=int,default=2)
+    parser.add_argument('--r0',type=float,default=6.)
+    parser.add_argument('--a',type=float,default=.6)
     parser.add_argument('--resume',action='store_true')
     parser.add_argument('--smooth',action='store_true',help='Use sin(theta) d_theta, a globally smooth angular vector')
     args=parser.parse_args()
+    if args.m==0 or args.ellmax<abs(args.m):
+        raise ValueError('Nonstatic mode and ellmax>=|m| required')
+    test_ells=(abs(args.m),abs(args.m)+1)
     x,w=np.polynomial.legendre.leggauss(args.quadrature)
-    weights=np.array([w*lpmv(2,j,x) for j in (2,3)])
+    weights=np.array([w*lpmv(abs(args.m),j,x) for j in test_ells])
     indices=[(a,b) for a in range(4) for b in range(a,4)]
     theta_count=np.array([int(a==2)+int(b==2) for a,b in indices])
     polar_factor=(np.sqrt(1-x*x)[:,None]**theta_count[None,:]
                   if args.smooth else np.ones((len(x),10)))
     weights=weights[:,:,None]*polar_factor[None,:,:]
-    metric=kerr_metric(6.,np.pi/2,.6)
-    op=1/(6**1.5+.6)
+    metric=kerr_metric(args.r0,np.pi/2,args.a)
+    op=1/(args.r0**1.5+args.a)
     ut=1/np.sqrt(-metric[0,0]-2*op*metric[0,3]-op*op*metric[3,3])
     ucov=metric@np.array([ut,0.,0.,op*ut])
-    target=-8*(np.outer(ucov,ucov)+metric/2)/(ut*(36-12+.36))
-    targets=np.array([[lpmv(2,j,0)*target[a,b] for a,b in indices] for j in (2,3)])
+    target=-8*(np.outer(ucov,ucov)+metric/2)/(ut*(args.r0**2-2*args.r0+args.a**2))
+    targets=np.array([[lpmv(abs(args.m),j,0)*target[a,b] for a,b in indices] for j in test_ells])
     # side, test function, radial Taylor derivative (0..2), tensor component
     sums=np.zeros((2,2,3,10),complex)
     cases=[]
     def encode(array):
         return np.stack((array.real,array.imag),axis=-1).tolist()
     suffix='_smooth' if args.smooth else ''
+    if args.m!=2:
+        suffix+=f'_m{args.m}'
+    if args.r0!=6. or args.a!=.6:
+        suffix+=f'_r{args.r0:g}_a{args.a:.12g}'
     if args.epsilon!=5e-5:
         suffix+=f'_eps{args.epsilon:g}'
     out=Path(__file__).resolve().parents[1]/'docs/environment_reproduction'/f'metric_tensor_matching_q{args.quadrature}{suffix}.json'
     baseline=None
-    first_ell=2
+    first_ell=abs(args.m)
     if args.resume:
         previous=json.loads(out.read_text())
-        expected=dict(jet_order=8,r0=6.,a=.6,m=2,quadrature=args.quadrature,epsilon=args.epsilon)
+        expected=dict(jet_order=8,r0=args.r0,a=args.a,m=args.m,quadrature=args.quadrature,epsilon=args.epsilon)
         if any(previous.get(k)!=v for k,v in expected.items()):
             raise ValueError('Resume parameters do not match the saved calculation')
         if previous.get('smooth_polar_tests',False)!=args.smooth:
@@ -62,9 +72,9 @@ def main():
         values=np.asarray(array)
         return values[...,0]+1j*values[...,1]
     for ell in range(first_ell,args.ellmax+1):
-        for side,r in enumerate((6.-args.epsilon,6.+args.epsilon)):
+        for side,r in enumerate((args.r0-args.epsilon,args.r0+args.epsilon)):
             for node,theta in enumerate(np.arccos(x)):
-                _,h=nonstatic_metric(r,theta,6.,ell=ell,order=8)
+                _,h=nonstatic_metric(r,theta,args.r0,a=args.a,ell=ell,m=args.m,order=8)
                 values=np.array([[h[a][b].value for a,b in indices],
                                  [h[a][b].derivative(0).value for a,b in indices],
                                  [h[a][b].derivative(0).derivative(0).value for a,b in indices]])
@@ -93,8 +103,8 @@ def main():
         print(dict(ellmax=ell,maximum_limit_value_jump=limits[-1]['maximum_value_jump'],
                    maximum_limit_derivative_error=limits[-1]['maximum_derivative_error']),flush=True)
         temporary=out.with_suffix('.tmp')
-        temporary.write_text(json.dumps(dict(status='all_component_projected_diagnostic',jet_order=8,smooth_polar_tests=args.smooth,r0=6.,a=.6,m=2,
-                 quadrature=args.quadrature,epsilon=args.epsilon,components=indices,tests=['P22','P32'],
+        temporary.write_text(json.dumps(dict(status='all_component_projected_diagnostic',jet_order=8,smooth_polar_tests=args.smooth,r0=args.r0,a=args.a,m=args.m,
+                 quadrature=args.quadrature,epsilon=args.epsilon,components=indices,tests=[f'P{j}{abs(args.m)}' for j in test_ells],
                  expected_derivative_jump=targets.tolist(),cases=cases),indent=2)+'\n')
         temporary.replace(out)
 

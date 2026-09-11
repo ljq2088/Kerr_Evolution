@@ -108,6 +108,14 @@
       "infinity_orbital_flux_relative_change": 0.0005353199990130515,
       "horizon_orbital_flux": -6.061446855916311e-13,
       "horizon_orbital_flux_relative_change": 5.323206964438927e-05
+    },
+    {
+      "angular_order": 10,
+      "metric_ellmax": 8,
+      "infinity_orbital_flux": 1.315514549888629e-05,
+      "infinity_orbital_flux_relative_change": 2.7350012116908834e-07,
+      "horizon_orbital_flux": -6.061447011140348e-13,
+      "horizon_orbital_flux_relative_change": 2.560841286765419e-08
     }
   ],
   "paper_figure6_normalization_audit": {
@@ -131,6 +139,14 @@
         "flux_per_q2_epsilon2_from_text": 0.018045462141224152,
         "ratio_unit_mass_to_plotted": 1.050966062765087,
         "ratio_text_epsilon_to_plotted": 1441.6544070851676
+      },
+      {
+        "angular_order": 10,
+        "metric_ellmax": 8,
+        "flux_per_q2_eta": 1.315514549888629e-05,
+        "flux_per_q2_epsilon2_from_text": 0.018045467076661582,
+        "ratio_unit_mass_to_plotted": 1.050966350204511,
+        "ratio_text_epsilon_to_plotted": 1441.6548013779307
       }
     ]
   }
