@@ -1,0 +1,90 @@
+{
+  "status": "single_channel_convergence_incomplete",
+  "flux_scaling": "per q^2 eta, eta=M_cloud/M; not epsilon-normalized",
+  "physical_mode": "scalar ell=m=0 is sourced by nonstatic metric m_g=-1",
+  "cases": {
+    "baseline": {
+      "file": "forced_mode_nr4_nt10_L4_mg-1_sl0_log_h16.json",
+      "radial_order": 4,
+      "angular_order": 10,
+      "horizon_order": 16,
+      "metric_ellmax": 4,
+      "source_inner_offset": 0.050000000000000044,
+      "infinity_flux": -0.0,
+      "horizon_flux": -6.742329873696426e-05,
+      "horizon_wave_energy": 0.0017369029471126915,
+      "horizon_charge": 0.006089663720342679,
+      "omega": 0.2852214878976851
+    },
+    "radial": {
+      "file": "forced_mode_nr8_nt10_L4_mg-1_sl0_log_h16.json",
+      "radial_order": 8,
+      "angular_order": 10,
+      "horizon_order": 16,
+      "metric_ellmax": 4,
+      "source_inner_offset": 0.050000000000000044,
+      "infinity_flux": -0.0,
+      "horizon_flux": -6.742051218193978e-05,
+      "horizon_wave_energy": 0.0017368311621996867,
+      "horizon_charge": 0.006089412039049191,
+      "omega": 0.2852214878976851,
+      "relative_change_from_baseline": 4.132925971711554e-05
+    },
+    "metric": {
+      "file": "forced_mode_nr4_nt10_L6_mg-1_sl0_log_h16.json",
+      "radial_order": 4,
+      "angular_order": 10,
+      "horizon_order": 16,
+      "metric_ellmax": 6,
+      "source_inner_offset": 0.050000000000000044,
+      "infinity_flux": -0.0,
+      "horizon_flux": -6.742328241722854e-05,
+      "horizon_wave_energy": 0.0017369025266972325,
+      "horizon_charge": 0.006089662246346235,
+      "omega": 0.2852214878976851,
+      "relative_change_from_baseline": 2.420489063625908e-07
+    },
+    "inner005": {
+      "file": "forced_mode_nr4_nt10_L4_mg-1_sl0_inner0.005_outer320_log_h16.json",
+      "radial_order": 4,
+      "angular_order": 10,
+      "horizon_order": 16,
+      "metric_ellmax": 4,
+      "source_inner_offset": 0.004999999999999893,
+      "infinity_flux": -0.0,
+      "horizon_flux": -6.73698162693126e-05,
+      "horizon_wave_energy": 0.0017355251762616174,
+      "horizon_charge": 0.006084833190703313,
+      "omega": 0.2852214878976851,
+      "relative_change_from_baseline": 0.0007932342180455576
+    },
+    "inner0005": {
+      "file": "forced_mode_nr4_nt10_L4_mg-1_sl0_inner0.0005_outer320_log_h16.json",
+      "radial_order": 4,
+      "angular_order": 10,
+      "horizon_order": 16,
+      "metric_ellmax": 4,
+      "source_inner_offset": 0.0004999999999999449,
+      "infinity_flux": -0.0,
+      "horizon_flux": -6.701005682540049e-05,
+      "horizon_wave_energy": 0.0017262573526741016,
+      "horizon_charge": 0.0060523397637324795,
+      "omega": 0.2852214878976851,
+      "relative_change_from_baseline": 0.0061290669442908285
+    }
+  },
+  "pending": [
+    "forced_mode_nr4_nt10_L4_mg-1_sl0_inner0.0005_outer320_log_h32.json"
+  ],
+  "orbit_frequency": 0.011071760582072043,
+  "cloud_frequency": 0.29629324847975713,
+  "baseline_cloud_energy_change": -0.0018043262458496557,
+  "baseline_energy_accounting_residual": 1.3552527156068805e-20,
+  "interpretation": "Positive scalar energy enters the horizon; cloud depletion yields a negative orbital-effective flux. No full-flux or floating-orbit claim.",
+  "missing": [
+    "near-horizon quadrature and cutoff convergence",
+    "angular projection check",
+    "full mode sums",
+    "paper normalization reconciliation"
+  ]
+}
