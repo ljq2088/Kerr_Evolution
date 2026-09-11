@@ -1,0 +1,295 @@
+{
+  "status": "bound_pole_diagnostic_not_forced_flux_reproduction",
+  "a": 0.8771530275949366,
+  "alpha": 0.3,
+  "cloud_frequency": 0.29629324847975713,
+  "cases": [
+    {
+      "ell": 0,
+      "m": 0,
+      "continuation": [
+        {
+          "a": 0.8771530275949366,
+          "alpha": 0.1,
+          "ell": 0,
+          "m": 0,
+          "omega": [
+            0.09944911956148371,
+            -1.3908742167750936e-05
+          ],
+          "residual": [
+            2.0435042547006788e-15,
+            1.717972552411906e-15
+          ],
+          "match_radius": 99.99999999999999,
+          "rmax": 2999.9999999999995,
+          "horizon_offset": 1e-05,
+          "rtol": 2e-10,
+          "outer_efolds": 30.0,
+          "root_solver_success": true,
+          "newton_polish_iterations": 0,
+          "branch_label": "Not determined by a single solve; use parameter continuation"
+        },
+        {
+          "a": 0.8771530275949366,
+          "alpha": 0.15000000000000002,
+          "ell": 0,
+          "m": 0,
+          "omega": [
+            0.14793203912943248,
+            -0.000265638954113967
+          ],
+          "residual": [
+            2.1163626406917047e-16,
+            -1.0364972768961422e-16
+          ],
+          "match_radius": 44.444444444444436,
+          "rmax": 1333.333333333333,
+          "horizon_offset": 1e-05,
+          "rtol": 2e-10,
+          "outer_efolds": 30.0,
+          "root_solver_success": true,
+          "newton_polish_iterations": 0,
+          "branch_label": "Not determined by a single solve; use parameter continuation"
+        },
+        {
+          "a": 0.8771530275949366,
+          "alpha": 0.20000000000000004,
+          "ell": 0,
+          "m": 0,
+          "omega": [
+            0.1950051259990757,
+            -0.0016503324517854003
+          ],
+          "residual": [
+            -1.3253287356462806e-15,
+            -4.458239333260394e-16
+          ],
+          "match_radius": 24.99999999999999,
+          "rmax": 749.9999999999998,
+          "horizon_offset": 1e-05,
+          "rtol": 2e-10,
+          "outer_efolds": 30.0,
+          "root_solver_success": true,
+          "newton_polish_iterations": 0,
+          "branch_label": "Not determined by a single solve; use parameter continuation"
+        },
+        {
+          "a": 0.8771530275949366,
+          "alpha": 0.25000000000000006,
+          "ell": 0,
+          "m": 0,
+          "omega": [
+            0.2412649643619721,
+            -0.005006508506873656
+          ],
+          "residual": [
+            1.1102230246251565e-16,
+            4.163336342344337e-17
+          ],
+          "match_radius": 15.999999999999993,
+          "rmax": 479.9999999999998,
+          "horizon_offset": 1e-05,
+          "rtol": 2e-10,
+          "outer_efolds": 30.0,
+          "root_solver_success": true,
+          "newton_polish_iterations": 0,
+          "branch_label": "Not determined by a single solve; use parameter continuation"
+        },
+        {
+          "a": 0.8771530275949366,
+          "alpha": 0.3,
+          "ell": 0,
+          "m": 0,
+          "omega": [
+            0.28749617228807656,
+            -0.01038008693710855
+          ],
+          "residual": [
+            -9.575673587391975e-16,
+            2.1371793224034263e-15
+          ],
+          "match_radius": 11.11111111111111,
+          "rmax": 333.33333333333337,
+          "horizon_offset": 1e-05,
+          "rtol": 2e-10,
+          "outer_efolds": 30.0,
+          "root_solver_success": true,
+          "newton_polish_iterations": 0,
+          "branch_label": "Not determined by a single solve; use parameter continuation"
+        }
+      ],
+      "refined": {
+        "a": 0.8771530275949366,
+        "alpha": 0.3,
+        "ell": 0,
+        "m": 0,
+        "omega": [
+          0.2874961722873674,
+          -0.010380086936585563
+        ],
+        "residual": [
+          -7.494005416219807e-16,
+          -1.2073675392798577e-15
+        ],
+        "match_radius": 11.11111111111111,
+        "rmax": 666.6666666666667,
+        "horizon_offset": 1e-06,
+        "rtol": 2e-12,
+        "outer_efolds": 60.0,
+        "root_solver_success": true,
+        "newton_polish_iterations": 0,
+        "branch_label": "Not determined by a single solve; use parameter continuation"
+      },
+      "frequency_change": 8.811453340263462e-13,
+      "resonance_radius_from_real_frequency": 23.34523833189765,
+      "drive_at_rp20": 0.2852214878976851,
+      "detuning_at_rp20": -0.0022746843896823132,
+      "detuning_over_absolute_imaginary_part": -0.21913924262666631
+    },
+    {
+      "ell": 2,
+      "m": 2,
+      "continuation": [
+        {
+          "a": 0.8771530275949366,
+          "alpha": 0.1,
+          "ell": 2,
+          "m": 2,
+          "omega": [
+            0.09994423851238275,
+            3.93398002979831e-18
+          ],
+          "residual": [
+            3.632164014000239e-14,
+            4.379219584561024e-19
+          ],
+          "match_radius": 299.99999999999994,
+          "rmax": 8999.999999999998,
+          "horizon_offset": 1e-05,
+          "rtol": 2e-10,
+          "outer_efolds": 30.0,
+          "root_solver_success": true,
+          "newton_polish_iterations": 1,
+          "branch_label": "Not determined by a single solve; use parameter continuation"
+        },
+        {
+          "a": 0.8771530275949366,
+          "alpha": 0.15000000000000002,
+          "ell": 2,
+          "m": 2,
+          "omega": [
+            0.1498109545077349,
+            5.021503229995947e-16
+          ],
+          "residual": [
+            2.6677444975309328e-14,
+            1.2840301731860077e-17
+          ],
+          "match_radius": 133.3333333333333,
+          "rmax": 3999.999999999999,
+          "horizon_offset": 1e-05,
+          "rtol": 2e-10,
+          "outer_efolds": 30.0,
+          "root_solver_success": true,
+          "newton_polish_iterations": 0,
+          "branch_label": "Not determined by a single solve; use parameter continuation"
+        },
+        {
+          "a": 0.8771530275949366,
+          "alpha": 0.20000000000000004,
+          "ell": 2,
+          "m": 2,
+          "omega": [
+            0.1995490988323128,
+            1.4283392485814108e-14
+          ],
+          "residual": [
+            9.023511104988557e-14,
+            -3.3881796103963646e-20
+          ],
+          "match_radius": 74.99999999999997,
+          "rmax": 2249.999999999999,
+          "horizon_offset": 1e-05,
+          "rtol": 2e-10,
+          "outer_efolds": 30.0,
+          "root_solver_success": true,
+          "newton_polish_iterations": 1,
+          "branch_label": "Not determined by a single solve; use parameter continuation"
+        },
+        {
+          "a": 0.8771530275949366,
+          "alpha": 0.25000000000000006,
+          "ell": 2,
+          "m": 2,
+          "omega": [
+            0.24911234947075947,
+            1.7973224282906597e-13
+          ],
+          "residual": [
+            3.8490044484973396e-14,
+            7.282753530366785e-15
+          ],
+          "match_radius": 47.99999999999998,
+          "rmax": 1439.9999999999993,
+          "horizon_offset": 1e-05,
+          "rtol": 2e-10,
+          "outer_efolds": 30.0,
+          "root_solver_success": true,
+          "newton_polish_iterations": 0,
+          "branch_label": "Not determined by a single solve; use parameter continuation"
+        },
+        {
+          "a": 0.8771530275949366,
+          "alpha": 0.3,
+          "ell": 2,
+          "m": 2,
+          "omega": [
+            0.29845136467226724,
+            1.3556458788492365e-12
+          ],
+          "residual": [
+            6.938893903907228e-18,
+            1.1182654432270682e-16
+          ],
+          "match_radius": 33.333333333333336,
+          "rmax": 1000.0,
+          "horizon_offset": 1e-05,
+          "rtol": 2e-10,
+          "outer_efolds": 30.0,
+          "root_solver_success": true,
+          "newton_polish_iterations": 1,
+          "branch_label": "Not determined by a single solve; use parameter continuation"
+        }
+      ],
+      "refined": {
+        "a": 0.8771530275949366,
+        "alpha": 0.3,
+        "ell": 2,
+        "m": 2,
+        "omega": [
+          0.29845136467226885,
+          1.3556460170368358e-12
+        ],
+        "residual": [
+          -4.162295508258751e-14,
+          8.889783041796446e-18
+        ],
+        "match_radius": 33.333333333333336,
+        "rmax": 2000.0,
+        "horizon_offset": 1e-06,
+        "rtol": 2e-12,
+        "outer_efolds": 60.0,
+        "root_solver_success": true,
+        "newton_polish_iterations": 0,
+        "branch_label": "Not determined by a single solve; use parameter continuation"
+      },
+      "frequency_change": 1.6098233916375042e-15,
+      "resonance_radius_from_real_frequency": 59.804636168304896,
+      "drive_at_rp20": 0.3073650090618292,
+      "detuning_at_rp20": 0.008913644389560327,
+      "detuning_over_absolute_imaginary_part": 6575200515.134273
+    }
+  ],
+  "limitation": "A real-frequency crossing is not a prediction of the flux maximum or a floating orbit. Source overlaps, finite widths, growth, and depletion still matter."
+}

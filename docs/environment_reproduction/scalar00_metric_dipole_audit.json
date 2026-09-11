@@ -1,0 +1,22 @@
+{
+  "status": "metric_dipole_decomposition_not_full_accuracy",
+  "dipole_input": "forced_mode_nr8_nt10_L1_mg-1_sl0_inner0.0005_outer320_log_h32.json",
+  "full_input": "forced_mode_nr8_nt10_L6_mg-1_sl0_inner0.0005_outer320_log_h32.json",
+  "dipole_z_h": [
+    -0.05003928029431636,
+    0.03370367360131248
+  ],
+  "full_z_h": [
+    -0.04961004734996963,
+    0.03350533711870666
+  ],
+  "higher_metric_modes_z_h": [
+    0.00042923294434673437,
+    -0.0001983364826058237
+  ],
+  "amplitude_correction_relative": 0.007898508318820139,
+  "dipole_horizon_flux": -6.805625877223406e-05,
+  "full_horizon_flux": -6.700727960687155e-05,
+  "flux_ratio": 1.0156547045562332,
+  "limitation": "Flux contributions do not add incoherently; amplitudes from different metric ell interfere within the same scalar mode."
+}
