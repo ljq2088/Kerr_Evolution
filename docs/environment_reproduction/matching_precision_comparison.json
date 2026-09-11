@@ -1,0 +1,114 @@
+{
+  "status": "diagnostic_not_a_flux_error_bound",
+  "runs": [
+    {
+      "label": "12 nodes, double",
+      "source": "metric_tensor_matching_q12_smooth_m1_r41.6_a0.877153027595.json",
+      "ellmax": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "maximum_value_jump": [
+        0.4327773907663677,
+        0.13932170789128362,
+        0.056457045939994975,
+        0.004555339269325101,
+        1.696702813631587e-05,
+        3.5796798072088363e-06,
+        3.094590077108511e-06,
+        7.296726364737402e-06
+      ],
+      "maximum_derivative_error": [
+        0.9435978055634293,
+        0.8633603840280544,
+        0.014875726743634616,
+        0.0008686840360530839,
+        2.3236400289107836e-06,
+        2.536479671320245e-07,
+        2.9868898408974947e-06,
+        3.118053923189033e-06
+      ],
+      "derivative_target_maximum": 4.254346758907552,
+      "final_derivative_error_over_maximum_target": 7.329101504621356e-07
+    },
+    {
+      "label": "16 nodes, double",
+      "source": "metric_tensor_matching_q16_smooth_m1_r41.6_a0.877153027595.json",
+      "ellmax": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "maximum_value_jump": [
+        0.43277739069634436,
+        0.1393217068611765,
+        0.056457052156434165,
+        0.004555164855013281,
+        1.676896826841808e-05,
+        1.657679039441792e-06,
+        1.5649262427322422e-05,
+        1.6090425857722153e-05
+      ],
+      "maximum_derivative_error": [
+        0.9435978055789538,
+        0.8633603842546909,
+        0.014875724780674964,
+        0.0008686621240755512,
+        2.3008561471795758e-06,
+        2.431040948939341e-07,
+        2.6796798711033887e-06,
+        2.801774938949752e-06
+      ],
+      "derivative_target_maximum": 4.254346758907552,
+      "final_derivative_error_over_maximum_target": 6.58567601026768e-07
+    },
+    {
+      "label": "12 nodes, extended jets",
+      "source": "metric_tensor_matching_q12_smooth_m1_r41.6_a0.877153027595_extended.json",
+      "ellmax": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "maximum_value_jump": [
+        0.4327773917109641,
+        0.13932170122018528,
+        0.056457047894750395,
+        0.004555276961886285,
+        1.6905417955074357e-05,
+        3.4880719617215094e-06,
+        2.761130717237306e-06,
+        5.303144634713181e-06
+      ],
+      "maximum_derivative_error": [
+        0.9435978055504415,
+        0.8633603835561816,
+        0.014875725074968506,
+        0.0008686778427100958,
+        2.3178779808927507e-06,
+        2.3306259804788738e-07,
+        2.8777037714728098e-06,
+        3.009157419889235e-06
+      ],
+      "derivative_target_maximum": 4.254346758907552,
+      "final_derivative_error_over_maximum_target": 7.07313623081805e-07
+    }
+  ],
+  "conclusion": "Increasing quadrature and jet precision alone does not remove the observed error floor; radial and harmonic inputs remain double precision."
+}

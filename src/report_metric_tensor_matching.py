@@ -21,9 +21,15 @@ def main():
     parser.add_argument('--m',type=int,default=2)
     parser.add_argument('--r0',type=float,default=6.)
     parser.add_argument('--a',type=float,default=.6)
+    parser.add_argument('--extended-jet',action='store_true')
     parser.add_argument('--resume',action='store_true')
     parser.add_argument('--smooth',action='store_true',help='Use sin(theta) d_theta, a globally smooth angular vector')
     args=parser.parse_args()
+    if args.extended_jet:
+        from lorenz_jet import Jet
+        if np.finfo(np.longdouble).eps>=np.finfo(float).eps:
+            raise ValueError('Platform has no extended floating-point precision')
+        Jet.coefficient_dtype=np.clongdouble
     if args.m==0 or args.ellmax<abs(args.m):
         raise ValueError('Nonstatic mode and ellmax>=|m| required')
     test_ells=(abs(args.m),abs(args.m)+1)
@@ -50,6 +56,8 @@ def main():
         suffix+=f'_m{args.m}'
     if args.r0!=6. or args.a!=.6:
         suffix+=f'_r{args.r0:g}_a{args.a:.12g}'
+    if args.extended_jet:
+        suffix+='_extended'
     if args.epsilon!=5e-5:
         suffix+=f'_eps{args.epsilon:g}'
     out=Path(__file__).resolve().parents[1]/'docs/environment_reproduction'/f'metric_tensor_matching_q{args.quadrature}{suffix}.json'
@@ -104,6 +112,7 @@ def main():
                    maximum_limit_derivative_error=limits[-1]['maximum_derivative_error']),flush=True)
         temporary=out.with_suffix('.tmp')
         temporary.write_text(json.dumps(dict(status='all_component_projected_diagnostic',jet_order=8,smooth_polar_tests=args.smooth,r0=args.r0,a=args.a,m=args.m,
+                 jet_arithmetic='extended' if args.extended_jet else 'double',radial_input_precision='double',
                  quadrature=args.quadrature,epsilon=args.epsilon,components=indices,tests=[f'P{j}{abs(args.m)}' for j in test_ells],
                  expected_derivative_jump=targets.tolist(),cases=cases),indent=2)+'\n')
         temporary.replace(out)

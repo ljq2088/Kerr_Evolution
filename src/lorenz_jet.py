@@ -26,10 +26,12 @@ def _layout(order):
 
 class Jet:
     __array_priority__=1000
+    # Optional process-local diagnostic; radial input data remains double.
+    coefficient_dtype=np.complex128
 
     def __init__(self, value=0., order=6, coefficients=None):
         self.order=order
-        self.c=np.zeros((order+1,order+1),complex)
+        self.c=np.zeros((order+1,order+1),dtype=self.coefficient_dtype)
         if coefficients is None:
             self.c[0,0]=value
         else:
@@ -72,8 +74,13 @@ class Jet:
         _,left,right,target=_layout(self.order)
         products=self.c.ravel()[left]*rhs.c.ravel()[right]
         size=(self.order+1)**2
-        c=(np.bincount(target,weights=products.real,minlength=size)
-           +1j*np.bincount(target,weights=products.imag,minlength=size)).reshape(self.c.shape)
+        if products.dtype==np.dtype(np.complex128):
+            c=(np.bincount(target,weights=products.real,minlength=size)
+               +1j*np.bincount(target,weights=products.imag,minlength=size)).reshape(self.c.shape)
+        else:
+            c=np.zeros(size,dtype=products.dtype)
+            np.add.at(c,target,products)
+            c=c.reshape(self.c.shape)
         return Jet(order=self.order,coefficients=c)
     __rmul__=__mul__
 
