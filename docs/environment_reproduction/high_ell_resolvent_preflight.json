@@ -1,0 +1,134 @@
+{
+  "status": "high_ell_initialization_checked_not_metric_convergence",
+  "rows": [
+    {
+      "ell": 21,
+      "mass_squared": 0.0,
+      "eigenvalue": 461.99963637887174,
+      "series_last_term_relative": 2.05124053468738
+    },
+    {
+      "ell": 21,
+      "mass_squared": 9.46749662030759e-06,
+      "eigenvalue": 461.9996400150833,
+      "series_last_term_relative": 2.0806590544852503
+    },
+    {
+      "ell": 21,
+      "mass_squared": -9.46749662030759e-06,
+      "eigenvalue": 461.9996327426613,
+      "series_last_term_relative": 2.021059434354565
+    },
+    {
+      "ell": 21,
+      "mass_squared": 4.733748310153795e-06,
+      "eigenvalue": 461.99963819697757,
+      "series_last_term_relative": 2.0660530845060645
+    },
+    {
+      "ell": 21,
+      "mass_squared": -4.733748310153795e-06,
+      "eigenvalue": 461.9996345607669,
+      "series_last_term_relative": 2.03623740135873
+    },
+    {
+      "ell": 22,
+      "mass_squared": 0.0,
+      "eigenvalue": 505.9996363272959,
+      "series_last_term_relative": 2.320712049425365
+    },
+    {
+      "ell": 22,
+      "mass_squared": 9.46749662030759e-06,
+      "eigenvalue": 505.99963996402215,
+      "series_last_term_relative": 2.3210752717932235
+    },
+    {
+      "ell": 22,
+      "mass_squared": -9.46749662030759e-06,
+      "eigenvalue": 505.9996326905687,
+      "series_last_term_relative": 2.3189293182717545
+    },
+    {
+      "ell": 22,
+      "mass_squared": 4.733748310153795e-06,
+      "eigenvalue": 505.9996381456592,
+      "series_last_term_relative": 2.321069979629232
+    },
+    {
+      "ell": 22,
+      "mass_squared": -4.733748310153795e-06,
+      "eigenvalue": 505.9996345089328,
+      "series_last_term_relative": 2.319999128683657
+    },
+    {
+      "ell": 23,
+      "mass_squared": 0.0,
+      "eigenvalue": 551.999636282178,
+      "series_last_term_relative": 2.1616624540989204
+    },
+    {
+      "ell": 23,
+      "mass_squared": 9.46749662030759e-06,
+      "eigenvalue": 551.999639919356,
+      "series_last_term_relative": 2.1484494934644176
+    },
+    {
+      "ell": 23,
+      "mass_squared": -9.46749662030759e-06,
+      "eigenvalue": 551.9996326450006,
+      "series_last_term_relative": 2.174471208543195
+    },
+    {
+      "ell": 23,
+      "mass_squared": 4.733748310153795e-06,
+      "eigenvalue": 551.9996381007659,
+      "series_last_term_relative": 2.1551043835163886
+    },
+    {
+      "ell": 23,
+      "mass_squared": -4.733748310153795e-06,
+      "eigenvalue": 551.9996344635894,
+      "series_last_term_relative": 2.1681194846381504
+    },
+    {
+      "ell": 24,
+      "mass_squared": 0.0,
+      "eigenvalue": 599.9996362424826,
+      "series_last_term_relative": 1.919219684718054
+    },
+    {
+      "ell": 24,
+      "mass_squared": 9.46749662030759e-06,
+      "eigenvalue": 599.9996398800591,
+      "series_last_term_relative": 1.9061129927750733
+    },
+    {
+      "ell": 24,
+      "mass_squared": -9.46749662030759e-06,
+      "eigenvalue": 599.9996326049081,
+      "series_last_term_relative": 1.9323155728981811
+    },
+    {
+      "ell": 24,
+      "mass_squared": 4.733748310153795e-06,
+      "eigenvalue": 599.9996380612714,
+      "series_last_term_relative": 1.912667092989696
+    },
+    {
+      "ell": 24,
+      "mass_squared": -4.733748310153795e-06,
+      "eigenvalue": 599.999634423697,
+      "series_last_term_relative": 1.9257695840670872
+    }
+  ],
+  "full_metric_point": {
+    "r": 5.0,
+    "theta": 1.2,
+    "r0": 10.0,
+    "ell": 24,
+    "m": 1,
+    "max_absolute_component": 4.036176477379205e-11,
+    "finite": true
+  }
+}

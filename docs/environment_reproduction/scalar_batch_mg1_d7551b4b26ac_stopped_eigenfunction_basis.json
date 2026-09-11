@@ -1,0 +1,41 @@
+{
+  "status": "batch_stopped_after_independent_preflight_failure",
+  "parameters": {
+    "alpha": 0.3,
+    "background": "threshold-kerr",
+    "orbital_radius": 10.0,
+    "green_horizon_offset": 0.0001,
+    "green_outer_radius": 1000.0,
+    "infinity_method": "series",
+    "radial_order": 8,
+    "angular_order": 24,
+    "metric_ellmax": 24,
+    "metric_m": 1,
+    "scalar_ell": null,
+    "static_matching": null,
+    "source_inner_offset": 0.0005,
+    "source_outer_radius": 320.0,
+    "horizon_log": true,
+    "horizon_order": 32,
+    "reuse_source": null,
+    "extend_metric_source": null,
+    "scalar_ells": [
+      2,
+      4,
+      6
+    ],
+    "conjugate_ells": [
+      0,
+      2,
+      4
+    ]
+  },
+  "channels": [],
+  "failure": {
+    "stage": "independent_high_ell_preflight",
+    "error_type": "IndexError",
+    "message": "angular_mode fixed 20-dimensional eigenvector basis: index 20 out of bounds",
+    "action": "Verified process group terminated after deterministic failure; no completed radial samples",
+    "session_exit_code": 1
+  }
+}

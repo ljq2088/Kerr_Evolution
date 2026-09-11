@@ -81,3 +81,19 @@ def test_source_projection_includes_sigma(cloud):
                                     +cloud.a**2*np.dot(weights,x*x*s1*s1))
     np.testing.assert_allclose(j1, expected, rtol=1e-11)
     np.testing.assert_allclose(j3, cloud.mu**2*R*2*np.pi*cloud.a**2*np.dot(weights,x*x*s1*s3),rtol=1e-9)
+
+
+def test_high_angular_eigenfunctions_share_radial_spectrum_and_normalization():
+    from environment_cloud import angular_eigenvalue
+    from environment_source import angular_mode
+    x, weights = np.polynomial.legendre.leggauss(120)
+    theta = np.arccos(x)
+    for ell in (21, 24, 32):
+        for m in (-1, 1, 5):
+            for c2 in (-1., .01, 1.):
+                value, derivative, lam = angular_mode(theta, ell, m, c2)
+                fine, dfine, _ = angular_mode(theta, ell, m, c2, size=80)
+                np.testing.assert_allclose(lam, angular_eigenvalue(ell, m, c2), atol=2e-11, rtol=2e-13)
+                np.testing.assert_allclose(2*np.pi*np.dot(weights, value**2), 1., atol=2e-12)
+                np.testing.assert_allclose(value, fine, atol=2e-11, rtol=2e-11)
+                np.testing.assert_allclose(derivative, dfine, atol=2e-10, rtol=2e-10)

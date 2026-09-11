@@ -6,7 +6,7 @@ This module does not invent a point-particle metric: callers must supply h.
 import numpy as np
 from scipy.integrate import solve_ivp, simpson
 from scipy.special import lpmv, gammaln
-from environment_cloud import cloud_211, angular_eigenvalue, radial_coefficients
+from environment_cloud import cloud_211, angular_eigenvalue, angular_basis_size, radial_coefficients
 
 
 def kerr_metric(r, theta, a):
@@ -35,6 +35,8 @@ def connection(r, theta, a):
 
 def angular_mode(theta, ell, m, c2, size=20):
     """S and dS/dtheta, with integral |S exp(im phi)|² dOmega = 1."""
+    size = angular_basis_size(ell, m, size)
+    ell, m = int(ell), int(m)
     if m < 0:
         s, ds, lam = angular_mode(theta, ell, -m, c2, size)
         return (-1)**abs(m)*s, (-1)**abs(m)*ds, lam
