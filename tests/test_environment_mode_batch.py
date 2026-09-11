@@ -37,3 +37,23 @@ def test_channel_failure_preserves_completed_results_and_records_terminal_state(
     assert result['channels'][0]['file'] == 'first.json'
     assert result['failure'] == dict(scalar_ell=5, scalar_m=1,
         error_type='ValueError', message='Unresolved infinity boundary')
+
+
+def test_metric_precomputation_failure_records_terminal_state(tmp_path, monkeypatch):
+    import environment_metric_sampling
+    folder = tmp_path / 'docs' / 'environment_reproduction'
+    folder.mkdir(parents=True)
+    monkeypatch.setattr(batch, '__file__', str(tmp_path / 'src' / 'report.py'))
+    monkeypatch.setattr(sys, 'argv', ['report.py', '--scalar-ells', '2', '--metric-m', '1', '--workers', '2'])
+    monkeypatch.setattr(batch, 'build_cloud', lambda args: SimpleNamespace(m=1))
+    monkeypatch.setattr(batch, 'build_metric', lambda args, shared: SimpleNamespace(m=1))
+    monkeypatch.setattr(batch, 'source_grid', lambda args, cloud: (None, [2., 3.], None))
+    def fail(*args, **kwargs):
+        raise IndexError('Angular basis too small')
+    monkeypatch.setattr(environment_metric_sampling, 'precompute_metric', fail)
+    with pytest.raises(IndexError, match='Angular basis too small'):
+        batch.main()
+    result = json.loads(next(folder.glob('scalar_batch_*.json')).read_text())
+    assert result['status'] == 'batch_failed_partial_results_preserved'
+    assert result['channels'] == []
+    assert result['failure']['stage'] == 'metric_precomputation'

@@ -1,0 +1,12 @@
+{
+  "max_absolute_eigenvalue_change": 1.3073986337985843e-12,
+  "worst_case": {
+    "r0": 3.5,
+    "m": 1,
+    "ell": 16,
+    "c2": 0.013917228177549297,
+    "before": 271.9930606482602,
+    "after": 271.9930606482589
+  },
+  "limitation": "Eigenvalues only; not a bound on the resolvent derivative or final metric/flux error."
+}

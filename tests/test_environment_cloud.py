@@ -1,7 +1,7 @@
 import sys
 from pathlib import Path
 import numpy as np
-from scipy.special import pro_cv
+from scipy.special import pro_cv, obl_cv
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]/'src'))
 from environment_cloud import angular_eigenvalue, cloud_211, horizon, mode_flux
@@ -39,3 +39,14 @@ def test_charge_bookkeeping_and_horizon_area_law():
             assert flux['infinity']['charge'] == 0
         f = flux['horizon']
         assert f['wave_energy']-omega_c*m*f['charge'] >= -1e-14
+
+
+def test_high_angular_modes_against_independent_scipy():
+    for m in (0, 1, 5):
+        for ell in (18, 20, 21, 24, 32):
+            for c in (.1, 1., 3.):
+                for sign, reference in ((-1, pro_cv), (1, obl_cv)):
+                    value = angular_eigenvalue(ell, m, sign*c*c)
+                    np.testing.assert_allclose(value, reference(m, ell, c), rtol=2e-12, atol=2e-11)
+                    np.testing.assert_allclose(value, angular_eigenvalue(ell, m, sign*c*c, size=80),
+                                               rtol=2e-13, atol=2e-11)

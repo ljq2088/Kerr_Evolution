@@ -1,0 +1,41 @@
+{
+  "status": "batch_failed_partial_results_preserved",
+  "parameters": {
+    "alpha": 0.3,
+    "background": "threshold-kerr",
+    "orbital_radius": 10.0,
+    "green_horizon_offset": 0.0001,
+    "green_outer_radius": 1000.0,
+    "infinity_method": "series",
+    "radial_order": 8,
+    "angular_order": 24,
+    "metric_ellmax": 24,
+    "metric_m": 1,
+    "scalar_ell": null,
+    "static_matching": null,
+    "source_inner_offset": 0.0005,
+    "source_outer_radius": 320.0,
+    "horizon_log": true,
+    "horizon_order": 32,
+    "reuse_source": null,
+    "extend_metric_source": null,
+    "scalar_ells": [
+      2,
+      4,
+      6
+    ],
+    "conjugate_ells": [
+      0,
+      2,
+      4
+    ]
+  },
+  "channels": [],
+  "failure": {
+    "stage": "metric_precomputation",
+    "error_type": "IndexError",
+    "message": "index 20 is out of bounds for axis 0 with size 20",
+    "terminal_exit_code": 1,
+    "log_sha256": "41140119270a93115ed788119e279b3935e1d83c370f721c825ffbd12f04311e"
+  }
+}

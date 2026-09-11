@@ -49,7 +49,13 @@ def main():
         from environment_metric_sampling import precompute_metric
         _,radii,_=source_grid(args,cloud)
         theta=np.arccos(np.polynomial.legendre.leggauss(args.angular_order)[0])
-        metric,audit=precompute_metric(metric,radii,theta,folder.parents[1]/'outputs/metric_cache',batch.workers)
+        try:
+            metric,audit=precompute_metric(metric,radii,theta,folder.parents[1]/'outputs/metric_cache',batch.workers)
+        except Exception as error:
+            summary.update(status='batch_failed_partial_results_preserved',
+                failure=dict(stage='metric_precomputation',error_type=type(error).__name__,message=str(error)))
+            save()
+            raise
         summary['metric_precomputation']=audit;save()
     plan=[(ell,metric,False) for ell in batch.scalar_ells]
     if batch.conjugate_ells:

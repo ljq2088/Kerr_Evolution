@@ -12,6 +12,13 @@ from scipy.optimize import brentq
 
 def angular_eigenvalue(ell, m, c2, size=20):
     """Eigenvalue of -angular Laplacian - c² cos²(theta), unit sphere norm."""
+    if int(ell) != ell or int(m) != m or ell < abs(m):
+        raise ValueError('Require integer ell >= |m|')
+    if int(size) != size or size < 1:
+        raise ValueError('Basis size must be a positive integer')
+    ell, m = int(ell), int(m)
+    # Keep a buffer above the requested mode, including when ell exceeds 20.
+    size = max(int(size), ell-abs(m)+12)
     ls = np.arange(abs(m), abs(m) + size + 1)
     cosine = np.zeros((size + 1, size + 1))
     for j, l in enumerate(ls[:-1]):
