@@ -1,0 +1,505 @@
+{
+  "status": "complete_finite_gravitational_sweep_not_full_paper_reproduction",
+  "rows": [
+    {
+      "rp": 3.5,
+      "totals": {
+        "infinity": 0.006653756472497688,
+        "horizon": -0.00012238915734479532
+      },
+      "positive_22": {
+        "ell": 2,
+        "m": 2,
+        "infinity": 0.0023433517941011048,
+        "horizon": -5.471624452366351e-05
+      },
+      "ell10_to_12_relative_change": {
+        "infinity": 0.00010472173711884025,
+        "horizon": 3.983378071836796e-10
+      },
+      "input_file": "gravitational_flux_r3.5_L12.json",
+      "sha256": "d8471b5abc8cd46ac69f8b4c2ee0c7372de066efdd6cea9fb52c82319b424a81"
+    },
+    {
+      "rp": 4,
+      "totals": {
+        "infinity": 0.0036723833932707844,
+        "horizon": -5.429410088458931e-05
+      },
+      "positive_22": {
+        "ell": 2,
+        "m": 2,
+        "infinity": 0.0013544058099858307,
+        "horizon": -2.4776297099824873e-05
+      },
+      "ell10_to_12_relative_change": {
+        "infinity": 4.0812724733330086e-05,
+        "horizon": 6.287748099964574e-11
+      },
+      "input_file": "gravitational_flux_r4_L12.json",
+      "sha256": "57b38644ecfb0c8fdce69d5e0dc004cdd693e5e69b90c0f04236339abc9e57c9"
+    },
+    {
+      "rp": 5,
+      "totals": {
+        "infinity": 0.0013311470723628475,
+        "horizon": -1.3129484898992918e-05
+      },
+      "positive_22": {
+        "ell": 2,
+        "m": 2,
+        "infinity": 0.0005218471754346914,
+        "horizon": -6.149543682932485e-06
+      },
+      "ell10_to_12_relative_change": {
+        "infinity": 8.165425702699736e-06,
+        "horizon": 2.3923085734622873e-12
+      },
+      "input_file": "gravitational_flux_r5_L12.json",
+      "sha256": "67f0bc419057bc7d00054b9933962c2bf2e6342daeaa785245a3d7185b446bda"
+    },
+    {
+      "rp": 6,
+      "totals": {
+        "infinity": 0.0005715342181602863,
+        "horizon": -3.93449840721451e-06
+      },
+      "positive_22": {
+        "ell": 2,
+        "m": 2,
+        "infinity": 0.00023306783288657253,
+        "horizon": -1.871958655113944e-06
+      },
+      "ell10_to_12_relative_change": {
+        "infinity": 2.1187268630651346e-06,
+        "horizon": 1.4366285938649526e-13
+      },
+      "input_file": "gravitational_flux_r6_L12.json",
+      "sha256": "7b2e84cbdfaeb14d0b95d4472c626358588f648774e94b4b388949dbb513faab"
+    },
+    {
+      "rp": 8,
+      "totals": {
+        "infinity": 0.00014724281364032776,
+        "horizon": -5.51379550303097e-07
+      },
+      "positive_22": {
+        "ell": 2,
+        "m": 2,
+        "infinity": 6.305156378935264e-05,
+        "horizon": -2.669597685870091e-07
+      },
+      "ell10_to_12_relative_change": {
+        "infinity": 2.372310203835326e-07,
+        "horizon": 1.3322676295501878e-15
+      },
+      "input_file": "gravitational_flux_r8_L12.json",
+      "sha256": "80ca47bbfe6d6c723b8622952f2d278b1790c96f65a63f6c55601acfe005d567"
+    },
+    {
+      "rp": 10,
+      "totals": {
+        "infinity": 5.0709873524357535e-05,
+        "horizon": -1.1514431063142317e-07
+      },
+      "positive_22": {
+        "ell": 2,
+        "m": 2,
+        "infinity": 2.2364845884964593e-05,
+        "horizon": -5.626036482065133e-08
+      },
+      "ell10_to_12_relative_change": {
+        "infinity": 4.141695009174384e-08,
+        "horizon": 0.0
+      },
+      "input_file": "gravitational_flux_r10_L12.json",
+      "sha256": "006c4c00db0b1f15afa57f758db6603a526fbbb0635bc8cf20293c0c225deb85"
+    },
+    {
+      "rp": 12,
+      "totals": {
+        "infinity": 2.107912241855414e-05,
+        "horizon": -3.1351965624799613e-08
+      },
+      "positive_22": {
+        "ell": 2,
+        "m": 2,
+        "infinity": 9.483356487710068e-06,
+        "horizon": -1.5402114142691803e-08
+      },
+      "ell10_to_12_relative_change": {
+        "infinity": 9.682379120690143e-09,
+        "horizon": 0.0
+      },
+      "input_file": "gravitational_flux_r12_L12.json",
+      "sha256": "2e53f962ffb375dfba7a5bbc8216bf0f40e1099ac60c355bc4252a18377f4f2c"
+    },
+    {
+      "rp": 14,
+      "totals": {
+        "infinity": 9.99558277749229e-06,
+        "horizon": -1.0312155289549388e-08
+      },
+      "positive_22": {
+        "ell": 2,
+        "m": 2,
+        "infinity": 4.5619907542588954e-06,
+        "horizon": -5.0838400161339714e-09
+      },
+      "ell10_to_12_relative_change": {
+        "infinity": 2.7845619143818112e-09,
+        "horizon": 0.0
+      },
+      "input_file": "gravitational_flux_r14_L12.json",
+      "sha256": "65c01fbc32edd733c54358ecc61976ecbdd87753eae0ef77c99187d0e48da6aa"
+    },
+    {
+      "rp": 16,
+      "totals": {
+        "infinity": 5.224298527715555e-06,
+        "horizon": -3.90670301474766e-09
+      },
+      "positive_22": {
+        "ell": 2,
+        "m": 2,
+        "infinity": 2.410450369806734e-06,
+        "horizon": -1.9306672350279257e-09
+      },
+      "ell10_to_12_relative_change": {
+        "infinity": 9.349556684412619e-10,
+        "horizon": 0.0
+      },
+      "input_file": "gravitational_flux_r16_L12.json",
+      "sha256": "32fdd4b045abb5ed533414a15ba7e140a72f8ed4aca691f32a86beb235541d40"
+    },
+    {
+      "rp": 18,
+      "totals": {
+        "infinity": 2.9427248655053946e-06,
+        "horizon": -1.6515410351044556e-09
+      },
+      "positive_22": {
+        "ell": 2,
+        "m": 2,
+        "infinity": 1.3693863866886292e-06,
+        "horizon": -8.176186976305686e-10
+      },
+      "ell10_to_12_relative_change": {
+        "infinity": 3.5404612575007377e-10,
+        "horizon": 0.0
+      },
+      "input_file": "gravitational_flux_r18_L12.json",
+      "sha256": "8800374ce652fc16c9745098bd58677f10e6f3652a9d701218d6ba099a77e58b"
+    },
+    {
+      "rp": 20,
+      "totals": {
+        "infinity": 1.7589060045244072e-06,
+        "horizon": -7.620383587329189e-10
+      },
+      "positive_22": {
+        "ell": 2,
+        "m": 2,
+        "infinity": 8.241503504674764e-07,
+        "horizon": -3.7775805531102975e-10
+      },
+      "ell10_to_12_relative_change": {
+        "infinity": 1.47602818856285e-10,
+        "horizon": 0.0
+      },
+      "input_file": "gravitational_flux_r20_L12.json",
+      "sha256": "b56921f32a776b6bcccada21117efcee3d2d09f6197fdfd480466c32c4f7f59d"
+    },
+    {
+      "rp": 22,
+      "totals": {
+        "infinity": 1.1032430814532778e-06,
+        "horizon": -3.776576297927827e-10
+      },
+      "positive_22": {
+        "ell": 2,
+        "m": 2,
+        "infinity": 5.198710470829891e-07,
+        "horizon": -1.874052468878737e-10
+      },
+      "ell10_to_12_relative_change": {
+        "infinity": 6.657407958243766e-11,
+        "horizon": 0.0
+      },
+      "input_file": "gravitational_flux_r22_L12.json",
+      "sha256": "a9d5e8e84a1f996c43dce50936d90d18bdf0ba0ea8e0004b368140872381d74a"
+    },
+    {
+      "rp": 24,
+      "totals": {
+        "infinity": 7.201856397351393e-07,
+        "horizon": -1.986244134987278e-10
+      },
+      "positive_22": {
+        "ell": 2,
+        "m": 2,
+        "infinity": 3.4098199128870837e-07,
+        "horizon": -9.864417031702088e-11
+      },
+      "ell10_to_12_relative_change": {
+        "infinity": 3.206279686196467e-11,
+        "horizon": 0.0
+      },
+      "input_file": "gravitational_flux_r24_L12.json",
+      "sha256": "2352f9288ff81d1464853b36e2c1b02631530b916da7eb9d7eacaeae5054e83b"
+    },
+    {
+      "rp": 26,
+      "totals": {
+        "infinity": 4.862087165781537e-07,
+        "horizon": -1.0984260394543079e-10
+      },
+      "positive_22": {
+        "ell": 2,
+        "m": 2,
+        "infinity": 2.311341328858733e-07,
+        "horizon": -5.458813309599097e-11
+      },
+      "ell10_to_12_relative_change": {
+        "infinity": 1.6323831175668602e-11,
+        "horizon": 0.0
+      },
+      "input_file": "gravitational_flux_r26_L12.json",
+      "sha256": "e105996c0cc32ddc32500dfb5a491b1583fc22c976e4048948610e95dc39a29e"
+    },
+    {
+      "rp": 28,
+      "totals": {
+        "infinity": 3.378067677835865e-07,
+        "horizon": -6.34115009985254e-11
+      },
+      "positive_22": {
+        "ell": 2,
+        "m": 2,
+        "infinity": 1.6114633566407288e-07,
+        "horizon": -3.153073191952932e-11
+      },
+      "ell10_to_12_relative_change": {
+        "infinity": 8.716138921727179e-12,
+        "horizon": 0.0
+      },
+      "input_file": "gravitational_flux_r28_L12.json",
+      "sha256": "c23a474b9f51e7416a9899b1abca461cc4559a3de8b5edccde48db6336b7286b"
+    },
+    {
+      "rp": 30,
+      "totals": {
+        "infinity": 2.4059198270728633e-07,
+        "horizon": -3.799376599188607e-11
+      },
+      "positive_22": {
+        "ell": 2,
+        "m": 2,
+        "infinity": 1.15119270557877e-07,
+        "horizon": -1.8900729877003218e-11
+      },
+      "ell10_to_12_relative_change": {
+        "infinity": 4.850564394587309e-12,
+        "horizon": 0.0
+      },
+      "input_file": "gravitational_flux_r30_L12.json",
+      "sha256": "902c14994bc02331a635a64cf9e95e8c752bc9a18441bab91ba27399c1b3eed7"
+    },
+    {
+      "rp": 32,
+      "totals": {
+        "infinity": 1.7510026114758474e-07,
+        "horizon": -2.351612799560933e-11
+      },
+      "positive_22": {
+        "ell": 2,
+        "m": 2,
+        "infinity": 8.400564262612946e-08,
+        "horizon": -1.170313554218577e-11
+      },
+      "ell10_to_12_relative_change": {
+        "infinity": 2.7986502004750946e-12,
+        "horizon": 0.0
+      },
+      "input_file": "gravitational_flux_r32_L12.json",
+      "sha256": "0c2cff62c31b40df2bead92dce33303ef247e04fb9a0ac2e8ed3bcd93df25a5e"
+    },
+    {
+      "rp": 34,
+      "totals": {
+        "infinity": 1.2988482803246724e-07,
+        "horizon": -1.4977953841997647e-11
+      },
+      "positive_22": {
+        "ell": 2,
+        "m": 2,
+        "infinity": 6.246007628312077e-08,
+        "horizon": -7.456503197061806e-12
+      },
+      "ell10_to_12_relative_change": {
+        "infinity": 1.66733293838206e-12,
+        "horizon": 0.0
+      },
+      "input_file": "gravitational_flux_r34_L12.json",
+      "sha256": "8c5a7c0b7c3d0a7cce9f8196eb2f41c0e7e9cf1ce2a7f9e1f70df18f68f2a227"
+    },
+    {
+      "rp": 36,
+      "totals": {
+        "infinity": 9.798523022067604e-08,
+        "horizon": -9.78537720418709e-12
+      },
+      "positive_22": {
+        "ell": 2,
+        "m": 2,
+        "infinity": 4.721895409882342e-08,
+        "horizon": -4.872897834457436e-12
+      },
+      "ell10_to_12_relative_change": {
+        "infinity": 1.021849271864994e-12,
+        "horizon": 0.0
+      },
+      "input_file": "gravitational_flux_r36_L12.json",
+      "sha256": "8bd17a9fd4ab165c19e518c0447d5630575fdde52969df3db31b3fd9547f766f"
+    },
+    {
+      "rp": 38,
+      "totals": {
+        "infinity": 7.504267893565016e-08,
+        "horizon": -6.5398528701816025e-12
+      },
+      "positive_22": {
+        "ell": 2,
+        "m": 2,
+        "infinity": 3.623114872771476e-08,
+        "horizon": -3.2575339352794195e-12
+      },
+      "ell10_to_12_relative_change": {
+        "infinity": 6.425970866530406e-13,
+        "horizon": 0.0
+      },
+      "input_file": "gravitational_flux_r38_L12.json",
+      "sha256": "ecb8149ace2375622b060558a48e7b072b9d4bc31c25a779c07f2d6db991fe7d"
+    },
+    {
+      "rp": 40,
+      "totals": {
+        "infinity": 5.8255413430044216e-08,
+        "horizon": -4.460954252712742e-12
+      },
+      "positive_22": {
+        "ell": 2,
+        "m": 2,
+        "infinity": 2.8173981451099614e-08,
+        "horizon": -2.2225263439777036e-12
+      },
+      "ell10_to_12_relative_change": {
+        "infinity": 4.1322500976548326e-13,
+        "horizon": 0.0
+      },
+      "input_file": "gravitational_flux_r40_L12.json",
+      "sha256": "31f0b76a484f02cc304317796903d3795b5960a4774d6a820f40d1152b94696c"
+    },
+    {
+      "rp": 42,
+      "totals": {
+        "infinity": 4.5780001624670864e-08,
+        "horizon": -3.0995900006008548e-12
+      },
+      "positive_22": {
+        "ell": 2,
+        "m": 2,
+        "infinity": 2.2174672746576272e-08,
+        "horizon": -1.544580879296502e-12
+      },
+      "ell10_to_12_relative_change": {
+        "infinity": 2.715605518233133e-13,
+        "horizon": 0.0
+      },
+      "input_file": "gravitational_flux_r42_L12.json",
+      "sha256": "dd5f8232c4c9fe57f7889187905dd605eaba4c0e8acc493558021787a3780169"
+    },
+    {
+      "rp": 44,
+      "totals": {
+        "infinity": 3.637784137450751e-08,
+        "horizon": -2.190089168348272e-12
+      },
+      "positive_22": {
+        "ell": 2,
+        "m": 2,
+        "infinity": 1.764527066479623e-08,
+        "horizon": -1.0915565369826618e-12
+      },
+      "ell10_to_12_relative_change": {
+        "infinity": 1.816324868286756e-13,
+        "horizon": 0.0
+      },
+      "input_file": "gravitational_flux_r44_L12.json",
+      "sha256": "6327436211cd3dd32597673a8e3391ec7bc4097309abe1aa2cc4515e8c401e34"
+    },
+    {
+      "rp": 46,
+      "totals": {
+        "infinity": 2.920078613910994e-08,
+        "horizon": -1.5713082457612891e-12
+      },
+      "positive_22": {
+        "ell": 2,
+        "m": 2,
+        "infinity": 1.4182214373524385e-08,
+        "horizon": -7.832781474043547e-13
+      },
+      "ell10_to_12_relative_change": {
+        "infinity": 1.2367884494324244e-13,
+        "horizon": 0.0
+      },
+      "input_file": "gravitational_flux_r46_L12.json",
+      "sha256": "84bd0dace2270f86e09baf9fc54376340e8acc61b5a862061f5221e8b07682e8"
+    },
+    {
+      "rp": 48,
+      "totals": {
+        "infinity": 2.3657967471284e-08,
+        "horizon": -1.1432584859773138e-12
+      },
+      "positive_22": {
+        "ell": 2,
+        "m": 2,
+        "infinity": 1.150375222062694e-08,
+        "horizon": -5.699837849829933e-13
+      },
+      "ell10_to_12_relative_change": {
+        "infinity": 8.548717289613705e-14,
+        "horizon": 0.0
+      },
+      "input_file": "gravitational_flux_r48_L12.json",
+      "sha256": "1e92dc70e1bbce3dee4b671e7f4e2108c8bc6e7c1357b458254670e1165512ae"
+    },
+    {
+      "rp": 50,
+      "totals": {
+        "infinity": 1.933123031911062e-08,
+        "horizon": -8.425968381458513e-13
+      },
+      "positive_22": {
+        "ell": 2,
+        "m": 2,
+        "infinity": 9.410095202470122e-09,
+        "horizon": -4.2014143784621274e-13
+      },
+      "ell10_to_12_relative_change": {
+        "infinity": 6.017408793468348e-14,
+        "horizon": 0.0
+      },
+      "input_file": "gravitational_flux_r50_L12.json",
+      "sha256": "3c72fbb72c6ac3aaa774f36e9b42e1d1b9263eae030ddc96653f3567b1121fb1"
+    }
+  ],
+  "units": "per q^2",
+  "spin": 0.8771530275949366,
+  "limitations": [
+    "Finite ell<=12 sum, not an infinite multipole error bound",
+    "No scalar flux curve or environmental ratio is inferred from these data"
+  ]
+}
