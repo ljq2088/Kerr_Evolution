@@ -1,8 +1,10 @@
 """Kerr static Lorenz completion basis, completion table of 2306.16459v3.
 
 M=1. y is a particular solution with zero radial data at reference_radius;
-this harmonic freedom differs from a boundary-adapted paper basis. No particle
-matching, boundary regularity or charge normalization is asserted by this module.
+this harmonic freedom differs from a boundary-adapted paper basis. An optional
+regular quadrupole removes its growing homogeneous term. Particle matching and
+combined metric boundary conditions are handled in environment_static_lorenz;
+charge normalization is not independently asserted by this basis module.
 """
 from functools import lru_cache
 import numpy as np
@@ -28,11 +30,16 @@ def _y_radial(a,reference_radius,r):
     return solution.y[:,-1]
 
 
-def completion_scalars(g,reference_radius=6.):
+def completion_scalars(g,reference_radius=6.,y_boundary='reference'):
     r,a,c=g.r,g.a,g.theta.cos()
     rp,rm=1+np.sqrt(1-a*a),1-np.sqrt(1-a*a)
     f=2/(rp-rm)*((r-rp)/(r-rm)).log()
-    state=_y_radial(a,reference_radius,float(r.value.real))
+    state=_y_radial(a,reference_radius,float(r.value.real)).copy()
+    if y_boundary=='regular-quadrupole':
+        from lorenz_static_boundary import regular_completion_y2
+        state[2:4]=regular_completion_y2(a,float(r.value.real))[:2].real
+    elif y_boundary!='reference':
+        raise ValueError('y_boundary must be reference or regular-quadrupole')
     modes=[]
     for j,(ell,source) in enumerate(((0,(r*r+a*a/3)*f),(2,2*a*a*f/3))):
         radial=Jet(state[2*j],g.order)
@@ -53,7 +60,7 @@ def _gauge(g,xi):
     return [[d[i][j]+d[j][i] for j in range(4)] for i in range(4)]
 
 
-def completion_metric(r,theta,a=.6,mode='A',order=6,reference_radius=6.):
+def completion_metric(r,theta,a=.6,mode='A',order=6,reference_radius=6.,y_boundary='reference'):
     if not 0<=a<1 or min(r,reference_radius)<=1+np.sqrt(1-a*a):
         raise ValueError('Exterior subextremal Kerr points required')
     g=KerrGHP(r,theta,a,omega=0.,m=0,order=order)
@@ -66,7 +73,7 @@ def completion_metric(r,theta,a=.6,mode='A',order=6,reference_radius=6.):
         if mode=='B':
             xi=[zero(),(r*(r*r+a*a)-2*rp*rp)/g.delta,a*a*s*c,zero()]
         return g,_gauge(g,xi),Jet(6. if mode=='B' else 0.,order)
-    y,z,f=completion_scalars(g,reference_radius)
+    y,z,f=completion_scalars(g,reference_radius,y_boundary=y_boundary)
     if mode in ('D','F'):
         # Lie derivative from xi^r and the explicitly t-linear contravariant
         # components, plus the scalar-gradient gauge part. Result is stationary.

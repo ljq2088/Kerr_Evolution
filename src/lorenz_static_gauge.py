@@ -1,7 +1,7 @@
 """Static trace-generated Lorenz vacuum piece from arXiv:2306.16459 Sec. IV.
 
-Particular kappa/B solutions have zero data at r0 on each side. Their
-homogeneous freedom and the spin-2/completion pieces still require matching.
+Particular kappa/B solutions have zero reference data by default; regular
+In/Up Green data is optional. Spin-2/completion matching is handled separately.
 """
 from functools import lru_cache
 import numpy as np
@@ -59,7 +59,7 @@ def _angular_jet(g,ell):
     return out
 
 
-def static_trace_metric(r,theta,r0=6.,a=.6,ell=2,order=6):
+def static_trace_metric(r,theta,r0=6.,a=.6,ell=2,order=6,boundary='reference'):
     if ell<2 or ell%2 or r==r0:
         raise ValueError('Even ell>=2 vacuum points only; monopole completion is separate')
     g=KerrGHP(r,theta,a,omega=0.,m=0,order=order)
@@ -70,7 +70,13 @@ def static_trace_metric(r,theta,r0=6.,a=.6,ell=2,order=6):
     for n in range(order-1):
         rhs=(ell*(ell+1)*R-2*(g.r-1)*R.derivative(0))/g.delta
         R.c[n+2,0]=rhs.c[n,0]/((n+1)*(n+2))
-    state=radial_particular(r0,a,ell,side,r).y[:,-1]
+    if boundary=='reference':
+        state=radial_particular(r0,a,ell,side,r).y[:,-1]
+    elif boundary=='regular':
+        from lorenz_static_boundary import regular_trace_state
+        state=regular_trace_state(r,r0,a,ell)
+    else:
+        raise ValueError('Boundary must be reference or regular')
     kappa,B=Jet(0.,order),Jet(0.,order)
     for index,(j,c,d) in enumerate(angular_couplings(ell)):
         k0,kp,b0,bp=state[4*index:4*index+4]

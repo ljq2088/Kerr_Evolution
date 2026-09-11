@@ -1,9 +1,10 @@
 """Static vacuum Hertz-to-Lorenz construction from 2306.16459v3 Sec. IV.
 
 Legendre P/Q Hertz branches, with optional point-particle Weyl normalization.
-Chi has zero data at a reference radius. Homogeneous matching and physical
-boundary adaptation are not supplied. The complex vacuum metric is made real
-by adding its conjugate with the calibrated Hertz amplitude.
+Chi has zero reference data by default; the sourced wrapper also supports
+regular In/Up Green data. Metric matching/completion is supplied separately
+by environment_static_lorenz. The complex vacuum metric is made real by
+adding its conjugate with the calibrated Hertz amplitude.
 """
 from functools import lru_cache
 import math
@@ -88,11 +89,14 @@ def _chi_state(r,a,ell,branch,reference_radius):
     return solution.y[:,-1]
 
 
-def static_spin2_metric(r,theta,a=.6,ell=2,branch='P',order=8,reference_radius=6.,radiation_gauge=False):
+def static_spin2_metric(r,theta,a=.6,ell=2,branch='P',order=8,reference_radius=6.,radiation_gauge=False,
+                       amplitude=1.,chi_state=None):
     if ell<2 or not 0<=a<1 or min(r,reference_radius)<=1+np.sqrt(1-a*a):
         raise ValueError('Static ell>=2 exterior vacuum data required')
     g=KerrGHP(r,theta,a,omega=0.,m=0,order=order)
     p=_radial_jet(g,ell,branch)
+    if amplitude!=1.:
+        p=p*amplitude
     Y=_angular(g,ell)
     psi=p*Y
     s,c=g.theta.sin(),g.theta.cos()
@@ -116,7 +120,10 @@ def static_spin2_metric(r,theta,a=.6,ell=2,branch='P',order=8,reference_radius=6
     twoform=[[sum(g.g[i][u]*g.g[j][v]*(l[u]*m[v]-m[u]*l[v])*HU/g.sigma
                   for u in range(4) for v in range(4)) for j in range(4)] for i in range(4)]
     chi=Jet(0.,order)
-    state=_chi_state(r,a,ell,branch,reference_radius)
+    state=(_chi_state(r,a,ell,branch,reference_radius)*amplitude
+           if chi_state is None else np.asarray(chi_state))
+    if state.shape!=(2*len(_couplings(ell)),):
+        raise ValueError('Chi state must contain value and first derivative for every coupled degree')
     for n,(j,(aa,bb,cc,dd)) in enumerate(_couplings(ell)):
         radial=Jet(state[2*n],order); radial.c[1,0]=state[2*n+1]
         source=(-aa*(g.r*p.derivative(0)-2*p)+a*a*bb*p.derivative(0).derivative(0)
@@ -153,7 +160,7 @@ def static_hertz_amplitude(r0,a,ell,branch):
     return (2*target/(lam*(lam-2)*p/delta**2)).conjugate()
 
 
-def sourced_static_spin2(r,theta,r0=6.,a=.6,ell=2,order=8,circular_symmetry=True):
+def sourced_static_spin2(r,theta,r0=6.,a=.6,ell=2,order=8,circular_symmetry=True,boundary='reference'):
     """Curvature-normalized circular static piece, not a matched metric.
 
     Average with the Kerr isometry (t,phi)->(-t,-phi). The stationary
@@ -163,8 +170,17 @@ def sourced_static_spin2(r,theta,r0=6.,a=.6,ell=2,order=8,circular_symmetry=True
     if r==r0:raise ValueError('Use a one-sided vacuum point')
     branch='P' if r<r0 else 'Q'
     amplitude=static_hertz_amplitude(r0,a,ell,branch)
-    g,h=static_spin2_metric(r,theta,a=a,ell=ell,branch=branch,order=order,reference_radius=r0)
-    real=[[amplitude*v+amplitude.conjugate()*v.conjugate() for v in row] for row in h]
+    if boundary=='reference':
+        g,h=static_spin2_metric(r,theta,a=a,ell=ell,branch=branch,order=order,reference_radius=r0)
+        real=[[amplitude*v+amplitude.conjugate()*v.conjugate() for v in row] for row in h]
+    elif boundary=='regular':
+        from lorenz_static_boundary import regular_chi_state
+        state=regular_chi_state(r,r0,a,ell)
+        g,h=static_spin2_metric(r,theta,a=a,ell=ell,branch=branch,order=order,reference_radius=r0,
+                               amplitude=amplitude,chi_state=state)
+        real=[[v+v.conjugate() for v in row] for row in h]
+    else:
+        raise ValueError('Boundary must be reference or regular')
     if circular_symmetry:
         parity=(-1,1,1,-1)
         real=[[v*(1+parity[i]*parity[j])/2 for j,v in enumerate(row)] for i,row in enumerate(real)]

@@ -1,0 +1,66 @@
+{
+  "status": "assembled_static_candidate_finite_resolution",
+  "matching_file": "static_tetrad_a0.6_r6_L8_q20_j8_free8_paper.json",
+  "provenance": {
+    "status": "development_static_boundary_candidate",
+    "coordinates": "Boyer-Lindquist",
+    "m_g": 0,
+    "a": 0.6,
+    "orbital_radius": 6.0,
+    "ellmax": 8,
+    "completion": "berndtson",
+    "auxiliary_boundary": "regular In/Up",
+    "y_quadrupole": "regular In/Up; free scalar jumps transformed",
+    "inside_completion": {
+      "B": 0.17354797550687992,
+      "C": -1.1850830680454543,
+      "D": -0.1949181446730775,
+      "E": -0.1949181446730775,
+      "F": -0.02507282324977113,
+      "G": -0.1747186715713192
+    },
+    "outside_completion": {
+      "B": 0.0,
+      "C": 34.95530019984521,
+      "D": 0.0,
+      "E": 0.7327453898854912,
+      "F": 0.0,
+      "G": 2.250334070851923
+    },
+    "full_source_convergence_verified": false
+  },
+  "boundary_samples": [
+    {
+      "r": 1.81,
+      "advanced_maximum": 1.3493685912511708,
+      "scaled_BL_maximum": 137.94407596402402
+    },
+    {
+      "r": 1.801,
+      "advanced_maximum": 1.3630512677553952,
+      "scaled_BL_maximum": 1396.6082206556457
+    },
+    {
+      "r": 30.0,
+      "advanced_maximum": 47.15908247548554,
+      "scaled_BL_maximum": 0.05239898052831727
+    },
+    {
+      "r": 100.0,
+      "advanced_maximum": 149.6056247579475,
+      "scaled_BL_maximum": 0.014960562475794751
+    }
+  ],
+  "epsilon": 5e-06,
+  "angular_nodes": 12,
+  "test_degrees": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "maximum_scaled_continuity_residual": 2.571831636544175e-13,
+  "maximum_scaled_derivative_residual": 1.0751732837377403e-11,
+  "source_and_boundary_checks_do_not_establish_full_modal_convergence": true
+}
