@@ -20,6 +20,7 @@ def encode(z):
 def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--alpha',type=float,default=.3)
+    parser.add_argument('--background',choices=('threshold-kerr','schwarzschild-frozen'),default='threshold-kerr')
     parser.add_argument('--orbital-radius',type=float,default=20.)
     parser.add_argument('--green-horizon-offset',type=float,default=1e-4)
     parser.add_argument('--green-outer-radius',type=float,default=1000.)
@@ -39,7 +40,11 @@ def main():
     args=parser.parse_args()
     if min(args.radial_order,args.angular_order)<2:
         raise ValueError('Quadrature orders must be at least two')
-    cloud=ThresholdCloud(alpha=args.alpha)
+    if args.background=='threshold-kerr':
+        cloud=ThresholdCloud(alpha=args.alpha)
+    else:
+        from environment_schwarzschild_cloud import SchwarzschildCloud
+        cloud=SchwarzschildCloud(alpha=args.alpha,freeze_decay=True)
     orbit=args.orbital_radius
     if orbit<=cloud.rp:
         raise ValueError('Orbit must be outside the horizon')
@@ -80,6 +85,8 @@ def main():
     suffix=''
     if args.alpha!=.3 or orbit!=20.:
         suffix=f'_alpha{args.alpha:g}_rp{orbit:g}'
+    if args.background!='threshold-kerr':
+        suffix+='_schwarzschild_frozen'
     if args.metric_m!=2 or scalar_ell!=3:
         suffix+=f'_mg{args.metric_m}_sl{scalar_ell}'
     if args.green_horizon_offset!=1e-4 or args.green_outer_radius!=1000.:
@@ -99,6 +106,11 @@ def main():
                   green_horizon_offset=args.green_horizon_offset)
     if args.infinity_method!='series':
         metadata['infinity_method']=args.infinity_method
+    if args.background!='threshold-kerr':
+        metadata['background']=dict(type=args.background,spectral_omega=encode(cloud.spectral_omega),
+            normalization=cloud.normalization,
+            approximation='Complex radial eigenfunction retained; temporal decay frozen; KG defect nonzero',
+            source_operator='h^{ab} Hessian_ab as in paper; no claim of exact stationary balance')
     if args.horizon_log:
         metadata['horizon_log_first_panel']=True
     if args.horizon_order is not None:

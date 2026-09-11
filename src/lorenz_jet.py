@@ -125,6 +125,17 @@ class Jet:
             result=result+term
         return np.exp(self.value)*result
 
+    def log(self):
+        if self.value==0:
+            raise ValueError('Logarithm requires a nonzero expansion point')
+        reduced=(self-self.value)/self.value
+        result=Jet(np.log(self.value),self.order)
+        term=Jet(1,self.order)
+        for n in range(1,self.order+1):
+            term=term*reduced
+            result=result+((-1)**(n+1)/n)*term
+        return result
+
     def sin(self):
         return ((1j*self).exp()-(-1j*self).exp())/(2j)
 

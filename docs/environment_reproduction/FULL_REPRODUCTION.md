@@ -13,7 +13,10 @@
 
 Schwarzschild复频率背景、KS切片能量归一化及冻结时间衰减的KG缺陷
 已独立实现与检查，见 `SCHWARZSCHILD_BACKGROUND.md`。Schwarzschild
-环境通量尚未接入，图2/3仍未完成。
+后续已接入显式标记的Schwarzschild冻结背景受迫通道，完成首轮有限
+分辨率积分与球对称选择规则检验；尚未完成收敛与总通量，图2/3未完成。
+静态A–G补全基已通过真空身份检验，详见 `STATIC_COMPLETION.md`，
+但匹配系数与物理边界条件尚未确定，不能视为静态扇区已经完成。
 
 ## 图级验收
 

@@ -22,8 +22,8 @@ def angular_eigenvalue(ell, m, c2, size=20):
 
 
 def horizon(a):
-    if not 0 < a < 1:
-        raise ValueError('Require 0 < a/M < 1')
+    if not 0 <= a < 1:
+        raise ValueError('Require 0 <= a/M < 1')
     rp = 1 + np.sqrt(1-a*a)
     return rp, a/(2*rp)
 

@@ -1,0 +1,353 @@
+{
+  "status": "vacuum_basis_only_not_physical_completion",
+  "reference": "https://arxiv.org/abs/2306.16459v3",
+  "y_radial_data": "zero at r=6; homogeneous gauge freedom retained",
+  "missing": [
+    "physical boundary adaptation",
+    "particle matching coefficients",
+    "independent conserved-charge check"
+  ],
+  "maxima": {
+    "trace_error": 2.6645352591003757e-15,
+    "lorenz_error": 1.3565537582138631e-15,
+    "einstein_error": 4.62361252506948e-15
+  },
+  "rows": [
+    {
+      "a": 0.0,
+      "r": 3.5,
+      "mode": "A",
+      "trace_error": 4.440892098500626e-16,
+      "lorenz_error": 1.3075809589553576e-16,
+      "einstein_error": 2.3735913018642685e-16
+    },
+    {
+      "a": 0.0,
+      "r": 3.5,
+      "mode": "B",
+      "trace_error": 8.881784197001252e-16,
+      "lorenz_error": 1.3565537582138631e-15,
+      "einstein_error": 2.7385952708848663e-16
+    },
+    {
+      "a": 0.0,
+      "r": 3.5,
+      "mode": "C",
+      "trace_error": 6.938893903907228e-18,
+      "lorenz_error": 2.42861286636753e-17,
+      "einstein_error": 1.2503735255917835e-17
+    },
+    {
+      "a": 0.0,
+      "r": 3.5,
+      "mode": "D",
+      "trace_error": 2.220446049250313e-16,
+      "lorenz_error": 4.440892098500626e-16,
+      "einstein_error": 3.201012108955975e-15
+    },
+    {
+      "a": 0.0,
+      "r": 3.5,
+      "mode": "E",
+      "trace_error": 6.661338147750939e-16,
+      "lorenz_error": 4.440892098500626e-16,
+      "einstein_error": 1.49208531152994e-15
+    },
+    {
+      "a": 0.0,
+      "r": 3.5,
+      "mode": "F",
+      "trace_error": 0.0,
+      "lorenz_error": 0.0,
+      "einstein_error": 0.0
+    },
+    {
+      "a": 0.0,
+      "r": 3.5,
+      "mode": "G",
+      "trace_error": 0.0,
+      "lorenz_error": 0.0,
+      "einstein_error": 2.2551405187698492e-17
+    },
+    {
+      "a": 0.0,
+      "r": 9.0,
+      "mode": "A",
+      "trace_error": 0.0,
+      "lorenz_error": 1.098685095100909e-16,
+      "einstein_error": 2.624270772785742e-16
+    },
+    {
+      "a": 0.0,
+      "r": 9.0,
+      "mode": "B",
+      "trace_error": 0.0,
+      "lorenz_error": 2.197370190201818e-16,
+      "einstein_error": 6.288328474960813e-16
+    },
+    {
+      "a": 0.0,
+      "r": 9.0,
+      "mode": "C",
+      "trace_error": 8.673617379884035e-19,
+      "lorenz_error": 4.87890977618477e-19,
+      "einstein_error": 6.392768031916777e-18
+    },
+    {
+      "a": 0.0,
+      "r": 9.0,
+      "mode": "D",
+      "trace_error": 2.220446049250313e-16,
+      "lorenz_error": 6.938893903907228e-18,
+      "einstein_error": 2.9847865072408953e-16
+    },
+    {
+      "a": 0.0,
+      "r": 9.0,
+      "mode": "E",
+      "trace_error": 1.1102230246251565e-16,
+      "lorenz_error": 2.7755575615628914e-17,
+      "einstein_error": 1.7167291977895413e-16
+    },
+    {
+      "a": 0.0,
+      "r": 9.0,
+      "mode": "F",
+      "trace_error": 0.0,
+      "lorenz_error": 0.0,
+      "einstein_error": 1.5265566588595902e-16
+    },
+    {
+      "a": 0.0,
+      "r": 9.0,
+      "mode": "G",
+      "trace_error": 0.0,
+      "lorenz_error": 0.0,
+      "einstein_error": 4.336808689942018e-19
+    },
+    {
+      "a": 0.6,
+      "r": 3.5,
+      "mode": "A",
+      "trace_error": 0.0,
+      "lorenz_error": 1.8937947736662667e-16,
+      "einstein_error": 3.600852084330091e-16
+    },
+    {
+      "a": 0.6,
+      "r": 3.5,
+      "mode": "B",
+      "trace_error": 0.0,
+      "lorenz_error": 6.054184931159057e-16,
+      "einstein_error": 2.940692921296769e-16
+    },
+    {
+      "a": 0.6,
+      "r": 3.5,
+      "mode": "C",
+      "trace_error": 1.3877787807814457e-17,
+      "lorenz_error": 8.023096076392733e-18,
+      "einstein_error": 5.976406746498861e-17
+    },
+    {
+      "a": 0.6,
+      "r": 3.5,
+      "mode": "D",
+      "trace_error": 4.440892098500626e-16,
+      "lorenz_error": 8.881784197001252e-16,
+      "einstein_error": 4.010535898287738e-15
+    },
+    {
+      "a": 0.6,
+      "r": 3.5,
+      "mode": "E",
+      "trace_error": 2.220446049250313e-16,
+      "lorenz_error": 2.220446049250313e-16,
+      "einstein_error": 4.62361252506948e-15
+    },
+    {
+      "a": 0.6,
+      "r": 3.5,
+      "mode": "F",
+      "trace_error": 0.0,
+      "lorenz_error": 1.249000902703301e-16,
+      "einstein_error": 2.3172514801518253e-16
+    },
+    {
+      "a": 0.6,
+      "r": 3.5,
+      "mode": "G",
+      "trace_error": 1.0408340855860843e-16,
+      "lorenz_error": 4.163336342344337e-17,
+      "einstein_error": 1.518296937468904e-16
+    },
+    {
+      "a": 0.6,
+      "r": 9.0,
+      "mode": "A",
+      "trace_error": 0.0,
+      "lorenz_error": 3.1895891969905327e-16,
+      "einstein_error": 2.645460278790465e-16
+    },
+    {
+      "a": 0.6,
+      "r": 9.0,
+      "mode": "B",
+      "trace_error": 8.881784197001252e-16,
+      "lorenz_error": 1.973247953923618e-16,
+      "einstein_error": 1.0166805239619295e-15
+    },
+    {
+      "a": 0.6,
+      "r": 9.0,
+      "mode": "C",
+      "trace_error": 8.673617379884035e-19,
+      "lorenz_error": 4.726443845678996e-19,
+      "einstein_error": 4.76993828432321e-18
+    },
+    {
+      "a": 0.6,
+      "r": 9.0,
+      "mode": "D",
+      "trace_error": 0.0,
+      "lorenz_error": 4.3042826247674526e-17,
+      "einstein_error": 2.357340013631872e-16
+    },
+    {
+      "a": 0.6,
+      "r": 9.0,
+      "mode": "E",
+      "trace_error": 0.0,
+      "lorenz_error": 2.2280354644577116e-17,
+      "einstein_error": 1.5877414919893261e-16
+    },
+    {
+      "a": 0.6,
+      "r": 9.0,
+      "mode": "F",
+      "trace_error": 4.440892098500626e-16,
+      "lorenz_error": 3.157196726277789e-16,
+      "einstein_error": 5.860757666132336e-16
+    },
+    {
+      "a": 0.6,
+      "r": 9.0,
+      "mode": "G",
+      "trace_error": 6.938893903907228e-18,
+      "lorenz_error": 1.5720931501039814e-18,
+      "einstein_error": 2.0162860260992313e-17
+    },
+    {
+      "a": 0.8771530275949366,
+      "r": 3.5,
+      "mode": "A",
+      "trace_error": 0.0,
+      "lorenz_error": 1.47389167282665e-16,
+      "einstein_error": 4.904131626697129e-16
+    },
+    {
+      "a": 0.8771530275949366,
+      "r": 3.5,
+      "mode": "B",
+      "trace_error": 2.6645352591003757e-15,
+      "lorenz_error": 7.632783294297951e-16,
+      "einstein_error": 2.0199148368405462e-15
+    },
+    {
+      "a": 0.8771530275949366,
+      "r": 3.5,
+      "mode": "C",
+      "trace_error": 2.7755575615628914e-17,
+      "lorenz_error": 7.697835424647081e-18,
+      "einstein_error": 8.936809278325107e-17
+    },
+    {
+      "a": 0.8771530275949366,
+      "r": 3.5,
+      "mode": "D",
+      "trace_error": 6.661338147750939e-16,
+      "lorenz_error": 1.3322676295501878e-15,
+      "einstein_error": 2.492606559464202e-15
+    },
+    {
+      "a": 0.8771530275949366,
+      "r": 3.5,
+      "mode": "E",
+      "trace_error": 4.440892098500626e-16,
+      "lorenz_error": 2.220446049250313e-16,
+      "einstein_error": 2.813790893423507e-15
+    },
+    {
+      "a": 0.8771530275949366,
+      "r": 3.5,
+      "mode": "F",
+      "trace_error": 1.7763568394002505e-15,
+      "lorenz_error": 5.551115123125783e-16,
+      "einstein_error": 1.1978595112331197e-15
+    },
+    {
+      "a": 0.8771530275949366,
+      "r": 3.5,
+      "mode": "G",
+      "trace_error": 6.938893903907228e-17,
+      "lorenz_error": 2.7755575615628914e-17,
+      "einstein_error": 6.288014538324429e-17
+    },
+    {
+      "a": 0.8771530275949366,
+      "r": 9.0,
+      "mode": "A",
+      "trace_error": 0.0,
+      "lorenz_error": 5.778437384378327e-17,
+      "einstein_error": 3.16413336288112e-16
+    },
+    {
+      "a": 0.8771530275949366,
+      "r": 9.0,
+      "mode": "B",
+      "trace_error": 1.7763568394002505e-15,
+      "lorenz_error": 1.8388068845354155e-16,
+      "einstein_error": 1.1688018197612955e-15
+    },
+    {
+      "a": 0.8771530275949366,
+      "r": 9.0,
+      "mode": "C",
+      "trace_error": 1.734723475976807e-18,
+      "lorenz_error": 3.2526065174565133e-19,
+      "einstein_error": 4.785228079052432e-18
+    },
+    {
+      "a": 0.8771530275949366,
+      "r": 9.0,
+      "mode": "D",
+      "trace_error": 0.0,
+      "lorenz_error": 4.163336342344337e-17,
+      "einstein_error": 9.504404831612394e-17
+    },
+    {
+      "a": 0.8771530275949366,
+      "r": 9.0,
+      "mode": "E",
+      "trace_error": 1.1102230246251565e-16,
+      "lorenz_error": 2.7755575615628914e-17,
+      "einstein_error": 2.281130982492021e-16
+    },
+    {
+      "a": 0.8771530275949366,
+      "r": 9.0,
+      "mode": "F",
+      "trace_error": 2.220446049250313e-15,
+      "lorenz_error": 9.43689570931383e-16,
+      "einstein_error": 1.2625443042952897e-15
+    },
+    {
+      "a": 0.8771530275949366,
+      "r": 9.0,
+      "mode": "G",
+      "trace_error": 3.469446951953614e-18,
+      "lorenz_error": 3.0357660829594124e-18,
+      "einstein_error": 6.653605823364021e-18
+    }
+  ]
+}
