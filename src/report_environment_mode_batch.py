@@ -8,7 +8,7 @@ import hashlib
 import json
 from pathlib import Path
 from time import perf_counter
-from report_environment_forced_mode import argument_parser,build_cloud,build_metric,run
+from report_environment_forced_mode import argument_parser,build_cloud,build_metric,source_grid,run
 from environment_lorenz_mode import LorenzMetricMode,ConjugateMetricMode
 
 
@@ -16,6 +16,7 @@ def main():
     parser=argparse.ArgumentParser(add_help=False)
     parser.add_argument('--scalar-ells',nargs='+',type=int,required=True)
     parser.add_argument('--conjugate-ells',nargs='+',type=int,default=[])
+    parser.add_argument('--workers',type=int,default=1)
     batch,remaining=parser.parse_known_args()
     args=argument_parser().parse_args(remaining)
     if args.scalar_ell is not None or args.reuse_source or args.extend_metric_source:
@@ -40,6 +41,14 @@ def main():
         temporary.write_text(json.dumps(summary,indent=2,default=str)+'\n')
         temporary.replace(output)
     save()
+    if batch.workers<1:raise ValueError('Workers must be positive')
+    if batch.workers>1:
+        import numpy as np
+        from environment_metric_sampling import precompute_metric
+        _,radii,_=source_grid(args,cloud)
+        theta=np.arccos(np.polynomial.legendre.leggauss(args.angular_order)[0])
+        metric,audit=precompute_metric(metric,radii,theta,folder.parents[1]/'outputs/metric_cache',batch.workers)
+        summary['metric_precomputation']=audit;save()
     plan=[(ell,metric,False) for ell in batch.scalar_ells]
     if batch.conjugate_ells:
         conjugate=ConjugateMetricMode(metric)
@@ -51,7 +60,8 @@ def main():
         after=metric._values.cache_info()
         channel=dict(scalar_ell=ell,scalar_m=cloud.m+selected_metric.m,file=path.name,
             metric_m=selected_metric.m,metric_conjugated=conjugated,
-            metric_cache_hits=after.hits-before.hits,metric_reconstructions=after.misses-before.misses,
+            metric_cache_hits=after.hits-before.hits+(after.misses-before.misses if getattr(metric,'precomputed',False) else 0),
+            metric_reconstructions=0 if getattr(metric,'precomputed',False) else after.misses-before.misses,
             elapsed_seconds=perf_counter()-started,flux=result['flux'])
         summary['channels'].append(channel);save()
         print('Completed shared-metric channel',json.dumps(channel),flush=True)

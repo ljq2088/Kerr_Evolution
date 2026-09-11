@@ -59,6 +59,29 @@ def build_metric(args,cloud):
     return LorenzMetricMode(args.orbital_radius,cloud.a,args.metric_m,args.metric_ellmax)
 
 
+def source_grid(args,cloud):
+    inner=cloud.rp+args.source_inner_offset
+    outer=args.source_outer_radius
+    orbit=args.orbital_radius
+    panels=np.array([inner]+sorted({r for r in (3.,6.,12.,20.,40.,80.,160.,320.,orbit)
+                                  if inner<r<outer})+[outer])
+    node_panels,weight_panels=[],[]
+    for index,(a,b) in enumerate(zip(panels[:-1],panels[1:])):
+        order=(args.horizon_order or args.radial_order) if index==0 else args.radial_order
+        if order<2:
+            raise ValueError('Quadrature order must be at least two')
+        x,w=np.polynomial.legendre.leggauss(order)
+        if index==0 and args.horizon_log:
+            lo,hi=np.log(a-cloud.rp),np.log(b-cloud.rp)
+            distance=np.exp((lo+hi)/2+(hi-lo)*x/2)
+            node_panels.append(cloud.rp+distance)
+            weight_panels.append((hi-lo)*w*distance/2)
+        else:
+            node_panels.append((a+b)/2+(b-a)*x/2)
+            weight_panels.append((b-a)*w/2)
+    return panels,np.concatenate(node_panels),np.concatenate(weight_panels)
+
+
 def run(args,cloud=None,metric=None):
     if min(args.radial_order,args.angular_order)<2:
         raise ValueError('Quadrature orders must be at least two')
@@ -92,23 +115,7 @@ def run(args,cloud=None,metric=None):
     outer=args.source_outer_radius
     if not green.rmin<=inner<orbit<outer<=min(green.rmax,cloud.rmax):
         raise ValueError('Source cutoffs must enclose the orbit and lie inside both solved domains')
-    panels=np.array([inner]+sorted({r for r in (3.,6.,12.,20.,40.,80.,160.,320.,orbit)
-                                  if inner<r<outer})+[outer])
-    node_panels,weight_panels=[],[]
-    for index,(a,b) in enumerate(zip(panels[:-1],panels[1:])):
-        order=(args.horizon_order or args.radial_order) if index==0 else args.radial_order
-        if order<2:
-            raise ValueError('Horizon quadrature order must be at least two')
-        x,w=np.polynomial.legendre.leggauss(order)
-        if index==0 and args.horizon_log:
-            lo,hi=np.log(a-cloud.rp),np.log(b-cloud.rp)
-            distance=np.exp((lo+hi)/2+(hi-lo)*x/2)
-            node_panels.append(cloud.rp+distance)
-            weight_panels.append((hi-lo)*w*distance/2)
-        else:
-            node_panels.append((a+b)/2+(b-a)*x/2)
-            weight_panels.append((b-a)*w/2)
-    radii,weights=np.concatenate(node_panels),np.concatenate(weight_panels)
+    panels,radii,weights=source_grid(args,cloud)
     directory=Path(__file__).resolve().parents[1]/'docs/environment_reproduction'
     suffix=''
     if args.alpha!=.3 or orbit!=20.:

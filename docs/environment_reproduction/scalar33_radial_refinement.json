@@ -1,0 +1,25 @@
+{
+  "status": "radial_refinement_not_full_convergence",
+  "inputs": [
+    {
+      "file": "forced_mode_nr8_nt10_L4_inner0.0005_outer320_log_h32.json",
+      "sha256": "5fe15060b583c78bd30c397a374c31e211ea465e84eeea5608a76067b7414dc3"
+    },
+    {
+      "file": "forced_mode_nr16_nt10_L4_inner0.0005_outer320_log_h32.json",
+      "sha256": "7bc24b801ed9c1c5b057f8a1133434674d6c6d00f18811daceec2ee34e070a4e"
+    }
+  ],
+  "flux": {
+    "infinity": {
+      "nr8": 1.3148099696798758e-05,
+      "nr16": 1.314805650521602e-05,
+      "relative_change": 3.285005721997969e-06
+    },
+    "horizon": {
+      "nr8": -5.719908391643106e-13,
+      "nr16": -5.719910234101357e-13,
+      "relative_change": 3.221132447439601e-07
+    }
+  }
+}
