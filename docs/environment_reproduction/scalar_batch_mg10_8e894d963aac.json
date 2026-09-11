@@ -1,0 +1,112 @@
+{
+  "status": "batch_completed_finite_resolution_not_converged",
+  "parameters": {
+    "alpha": 0.3,
+    "background": "threshold-kerr",
+    "orbital_radius": 20.0,
+    "green_horizon_offset": 0.0001,
+    "green_outer_radius": 1000.0,
+    "infinity_method": "series",
+    "radial_order": 8,
+    "angular_order": 18,
+    "metric_ellmax": 18,
+    "metric_m": 10,
+    "scalar_ell": null,
+    "static_matching": null,
+    "source_inner_offset": 0.0005,
+    "source_outer_radius": 320.0,
+    "horizon_log": true,
+    "horizon_order": 32,
+    "reuse_source": null,
+    "extend_metric_source": null,
+    "scalar_ells": [
+      11
+    ],
+    "conjugate_ells": [
+      9,
+      11
+    ]
+  },
+  "channels": [
+    {
+      "scalar_ell": 11,
+      "scalar_m": 11,
+      "file": "forced_mode_nr8_nt18_L18_mg10_sl11_inner0.0005_outer320_log_h32.json",
+      "metric_m": 10,
+      "metric_conjugated": false,
+      "metric_cache_hits": 1584,
+      "metric_reconstructions": 0,
+      "elapsed_seconds": 3.9200502849998884,
+      "flux": {
+        "infinity": {
+          "charge": 6.493799167726801e-10,
+          "wave_energy": 2.6430467469122154e-10,
+          "orbital_energy": 7.189778965312985e-11,
+          "orbital_angular_momentum": 6.493799167726801e-09
+        },
+        "horizon": {
+          "charge": -3.127489373917528e-34,
+          "wave_energy": -1.2729221218938387e-34,
+          "orbital_energy": -3.462681357098926e-35,
+          "orbital_angular_momentum": -3.127489373917528e-33
+        }
+      }
+    },
+    {
+      "scalar_ell": 9,
+      "scalar_m": -9,
+      "file": "forced_mode_nr8_nt18_L18_mg-10_sl9_inner0.0005_outer320_log_h32.json",
+      "metric_m": -10,
+      "metric_conjugated": true,
+      "metric_cache_hits": 1584,
+      "metric_reconstructions": 0,
+      "elapsed_seconds": 3.8919333449994156,
+      "flux": {
+        "infinity": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": -0.0,
+          "orbital_angular_momentum": -0.0
+        },
+        "horizon": {
+          "charge": 1.437003650997837e-28,
+          "wave_energy": 2.666728760373057e-29,
+          "orbital_energy": -1.5910160379411465e-29,
+          "orbital_angular_momentum": -1.4370036509978371e-27
+        }
+      }
+    },
+    {
+      "scalar_ell": 11,
+      "scalar_m": -9,
+      "file": "forced_mode_nr8_nt18_L18_mg-10_sl11_inner0.0005_outer320_log_h32.json",
+      "metric_m": -10,
+      "metric_conjugated": true,
+      "metric_cache_hits": 1584,
+      "metric_reconstructions": 0,
+      "elapsed_seconds": 3.768413788999169,
+      "flux": {
+        "infinity": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": -0.0,
+          "orbital_angular_momentum": -0.0
+        },
+        "horizon": {
+          "charge": 2.3871749046996937e-35,
+          "wave_energy": 4.430015170791704e-36,
+          "orbital_energy": -2.6430229012365656e-36,
+          "orbital_angular_momentum": -2.3871749046996936e-34
+        }
+      }
+    }
+  ],
+  "metric_precomputation": {
+    "workers": 8,
+    "cached_radii": 0,
+    "reconstructed_radii": 88,
+    "elapsed_seconds": 1035.7251545580002,
+    "cache_key": "5d1bd5ea8d3d0577b428706f",
+    "source_hash": "124f9094d3ece32cbaec86f3f91ba4ee9930a840fc28aa597622c57d01115b25"
+  }
+}
