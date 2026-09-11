@@ -129,3 +129,8 @@ C_{\rm local}=A\bar q/\alpha^3=0.297693831184.
 
 这没有消除与论文图7的差异，也没有引入任何拟合归一化。
 可复现计算为report_local_scalar_cusp.py，数据见local_scalar_cusp.json。
+
+后续已将完整偶数有限场（含ell'=0）直接重投影为球谐分阶，
+结果见SCALAR_SPHERICAL_REPROJECTION.md。重建相对差约1e-14，
+L=12的球谐缩放系数为.3105523307，与上表相近。该步骤核对
+了有限输入的角基底转换；无限模态极限和度规截断仍未验证。
