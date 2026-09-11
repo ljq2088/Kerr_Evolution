@@ -1,0 +1,171 @@
+{
+  "status": "figure4_cross_figure_normalization_audit_not_reproduction",
+  "input_sha256": {
+    "paper_figure4_selected_radii.json": "6ffff2d880a3f4387fa396b869128d8ba0bbd81684f1725bec04a230b5fc87e8",
+    "paper_figure2_selected_radii.json": "9e3c975b57a687ac1ac1a553e18f38588a01726bb91280251404f1f61f0b4294",
+    "gravitational_flux_r20_L12.json": "b56921f32a776b6bcccada21117efcee3d2d09f6197fdfd480466c32c4f7f59d",
+    "flux_coverage_L18_nt18_i6_h5_f5_m0go4000_m2go4000.json": "95a5012642e94c8add80b55315850dd20c894a3184d96e216e8a3384ad4437ba"
+  },
+  "parameters": {
+    "alpha": 0.3,
+    "q": 1e-06,
+    "eta": 0.1,
+    "a": 0.8771530275949366
+  },
+  "predetermined_factors": {
+    "prose_eta": 7.289999999999999e-17,
+    "caption_epsilon": 2.6999999999999997e-15,
+    "extra_alpha6_hypothesis": 5.314409999999998e-20
+  },
+  "reference_rows": [
+    {
+      "rp": 10.0,
+      "scalar_scalings": {
+        "infinity": {
+          "figure4_over_figure2": 5.315217561560692e-20,
+          "measured_over_predictions": {
+            "prose_eta": 0.0007291107766201224,
+            "caption_epsilon": 1.9685990968743305e-05,
+            "extra_alpha6_hypothesis": 1.0001519569549007
+          }
+        },
+        "horizon_magnitude": {
+          "figure4_over_figure2": 5.3153449480426435e-20,
+          "measured_over_predictions": {
+            "prose_eta": 0.0007291282507603079,
+            "caption_epsilon": 1.9686462770528313e-05,
+            "extra_alpha6_hypothesis": 1.0001759269688726
+          }
+        }
+      },
+      "inset_point_visible": {
+        "infinity": false,
+        "horizon_magnitude": true
+      },
+      "single_positive_22_gw_per_q2": {
+        "infinity": 2.2364845884964593e-05,
+        "horizon": -5.626036482065133e-08
+      },
+      "figure4_gw_over_single_22": {
+        "infinity": 0.9999922105632875,
+        "horizon_magnitude": 0.9994767624023667
+      },
+      "inset_over_main_flux_ratio": {
+        "infinity": 0.5607138309796598,
+        "horizon_magnitude": 0.999959519290673
+      }
+    },
+    {
+      "rp": 20.0,
+      "scalar_scalings": {
+        "infinity": {
+          "figure4_over_figure2": 5.314688391879336e-20,
+          "measured_over_predictions": {
+            "prose_eta": 0.0007290381881864661,
+            "caption_epsilon": 1.9684031081034583e-05,
+            "extra_alpha6_hypothesis": 1.000052384343575
+          }
+        },
+        "horizon_magnitude": {
+          "figure4_over_figure2": 5.3148238682184355e-20,
+          "measured_over_predictions": {
+            "prose_eta": 0.0007290567720464247,
+            "caption_epsilon": 1.968453284525347e-05,
+            "extra_alpha6_hypothesis": 1.000077876606893
+          }
+        }
+      },
+      "inset_point_visible": {
+        "infinity": true,
+        "horizon_magnitude": true
+      },
+      "single_positive_22_gw_per_q2": {
+        "infinity": 8.241503504674764e-07,
+        "horizon": -3.7775805531102975e-10
+      },
+      "figure4_gw_over_single_22": {
+        "infinity": 0.9999848754138215,
+        "horizon_magnitude": 0.9994466333830659
+      },
+      "inset_over_main_flux_ratio": {
+        "infinity": 0.8198418252558703,
+        "horizon_magnitude": 0.9999218567566985
+      }
+    },
+    {
+      "rp": 30.0,
+      "scalar_scalings": {
+        "infinity": {
+          "figure4_over_figure2": 5.314499540428107e-20,
+          "measured_over_predictions": {
+            "prose_eta": 0.0007290122826376005,
+            "caption_epsilon": 1.9683331631215213e-05,
+            "extra_alpha6_hypothesis": 1.0000168486112493
+          }
+        },
+        "horizon_magnitude": {
+          "figure4_over_figure2": 5.314103288767123e-20,
+          "measured_over_predictions": {
+            "prose_eta": 0.0007289579271285493,
+            "caption_epsilon": 1.968186403247083e-05,
+            "extra_alpha6_hypothesis": 0.9999422868704381
+          }
+        }
+      },
+      "inset_point_visible": {
+        "infinity": true,
+        "horizon_magnitude": true
+      },
+      "single_positive_22_gw_per_q2": {
+        "infinity": 1.15119270557877e-07,
+        "horizon": -1.8900729877003218e-11
+      },
+      "figure4_gw_over_single_22": {
+        "infinity": 0.9999808107517615,
+        "horizon_magnitude": 0.99943606310288
+      },
+      "inset_over_main_flux_ratio": {
+        "infinity": 0.9212368843575756,
+        "horizon_magnitude": 0.9999594594261257
+      }
+    },
+    {
+      "rp": 40.0,
+      "scalar_scalings": {},
+      "inset_point_visible": {
+        "infinity": true,
+        "horizon_magnitude": true
+      },
+      "single_positive_22_gw_per_q2": {
+        "infinity": 2.8173981451099614e-08,
+        "horizon": -2.2225263439777036e-12
+      },
+      "figure4_gw_over_single_22": {
+        "infinity": 0.9999769810318098,
+        "horizon_magnitude": 0.9995495157055647
+      },
+      "inset_over_main_flux_ratio": {
+        "infinity": 0.9732092814623021,
+        "horizon_magnitude": 0.9999902726623517
+      }
+    }
+  ],
+  "r20_numerical": {
+    "infinity": {
+      "scalar_physical": 1.9210336966561033e-18,
+      "gravitational_physical": 1.758906004524407e-18,
+      "scalar_over_gravitational": 1.0921753019858125
+    },
+    "horizon": {
+      "scalar_physical": -6.866732369741026e-18,
+      "gravitational_physical": -7.620383587329189e-22,
+      "scalar_over_gravitational": 9011.006192862393
+    }
+  },
+  "limitations": [
+    "Figure values are digitized and have no rigorous error bound",
+    "Agreement with a single GW mode is evidence about the plotted curve, not proof of author code",
+    "Extra alpha^6 is a tested algebraic hypothesis, not a correction applied to any solver",
+    "Scalar source and metric convergence remain unresolved; this is not a physical flux prediction"
+  ]
+}
