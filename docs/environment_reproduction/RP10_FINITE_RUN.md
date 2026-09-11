@@ -57,3 +57,9 @@ F_H=4 M r_+ mg^2 Omega_p (Omega_p-Omega_H)|Z_H|^2 <= 0；
 src/report_horizon_boundary_audit.py。批次数据为
 scalar_batch_mg1_15f68e4b08e2.json，共六个标量响应；其中(6,2)
 不计入ell<=5的视界清单。mg=2及后续批次继续运行。
+
+在rp20角向对照批次完成后，已启动rp10的mg=1径向加密：
+每个普通源面板从8点增至16点，首面板仍32点，其他参数保持
+一致。一次共享度规计算提供标量m=2的ell2,4,6与m=0的ell0,2,4，
+重点检查前述主导(0,0)视界差异。日志为outputs/rp10_L18_mg1_nr16.log。
+完成前不声称源积分已经收敛。

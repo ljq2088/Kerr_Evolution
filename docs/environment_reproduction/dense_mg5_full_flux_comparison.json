@@ -1,0 +1,102 @@
+{
+  "status": "complete_selected_channels_backend_audit_not_global_convergence",
+  "rows": [
+    {
+      "ell": 6,
+      "m": 6,
+      "inputs": {
+        "forced_mode_nr8_nt18_L18_mg5_sl6_inner0.0005_outer320_log_h32.json": "aaeeb9f38ab4e90fa56735baa3b0e59e0dbf2baab71f76c7399a900e9aea3231",
+        "forced_mode_nr8_nt18_L18_mg5_sl6_inner0.0005_outer320_log_h32_denseangular.json": "76e28635f8b65cb827c9c8930acdca2919f878725f9388f09ae8c88bc58f7922"
+      },
+      "source_nodes": 88,
+      "source_max_difference_over_max_source": 1.1030112130224244e-07,
+      "source_weighted_relative_l2": 3.865379008734135e-09,
+      "fluxes": {
+        "infinity": {
+          "default": 2.1555478355247862e-07,
+          "dense": 2.1555478362872464e-07,
+          "relative_change": 3.537199422254389e-10
+        },
+        "horizon": {
+          "default": -1.631647413889863e-22,
+          "dense": -1.6304873794532154e-22,
+          "relative_change": -0.0007109590140446098
+        }
+      }
+    },
+    {
+      "ell": 8,
+      "m": 6,
+      "inputs": {
+        "forced_mode_nr8_nt18_L18_mg5_sl8_inner0.0005_outer320_log_h32.json": "66d1f67143e78c782a70592b742097f71f373dc01072c4ed815900aa0141bbbf",
+        "forced_mode_nr8_nt18_L18_mg5_sl8_inner0.0005_outer320_log_h32_denseangular.json": "2c631979e0115d8fb12000d445e10e4adf90842dbbbb411ae5ef5f94b92420bd"
+      },
+      "source_nodes": 88,
+      "source_max_difference_over_max_source": 1.81737696434874e-07,
+      "source_weighted_relative_l2": 1.97261319126378e-08,
+      "fluxes": {
+        "infinity": {
+          "default": 3.9868067000640646e-10,
+          "dense": 3.986806703819091e-10,
+          "relative_change": 9.418630320112698e-10
+        },
+        "horizon": {
+          "default": -3.977241961534437e-25,
+          "dense": -3.9347175847265227e-25,
+          "relative_change": -0.010691926017875053
+        }
+      }
+    },
+    {
+      "ell": 10,
+      "m": 6,
+      "inputs": {
+        "forced_mode_nr8_nt18_L18_mg5_sl10_inner0.0005_outer320_log_h32.json": "feee46d1c681780f16b26c0880cf6a53ee1fe96f6043fe1d49899b36e2e57fe8",
+        "forced_mode_nr8_nt18_L18_mg5_sl10_inner0.0005_outer320_log_h32_denseangular.json": "be1ed0e4caf14a4eea0b7805f96bbb7b1f644be193967475a16336134cdcaa92"
+      },
+      "source_nodes": 88,
+      "source_max_difference_over_max_source": 3.9607742961881255e-07,
+      "source_weighted_relative_l2": 2.004974132382224e-08,
+      "fluxes": {
+        "infinity": {
+          "default": 3.737974549705777e-13,
+          "dense": 3.737974566683852e-13,
+          "relative_change": 4.542052067790792e-09
+        },
+        "horizon": {
+          "default": -4.168517985016838e-27,
+          "dense": -4.7417483298686714e-27,
+          "relative_change": 0.13751418295716378
+        }
+      }
+    },
+    {
+      "ell": 12,
+      "m": 6,
+      "inputs": {
+        "forced_mode_nr8_nt18_L18_mg5_sl12_inner0.0005_outer320_log_h32.json": "e2615b206c99e8890776fad66dcbf53626063a4bc55a22d06ac855e6e6ca3dbb",
+        "forced_mode_nr8_nt18_L18_mg5_sl12_inner0.0005_outer320_log_h32_denseangular.json": "cf0412f3d17e918f239f522b1b3ce00b83a1e7552a34726b6c9c05aa1010d5f8"
+      },
+      "source_nodes": 88,
+      "source_max_difference_over_max_source": 4.280297884630526e-07,
+      "source_weighted_relative_l2": 5.8785653521823144e-08,
+      "fluxes": {
+        "infinity": {
+          "default": 1.6965420409740824e-16,
+          "dense": 1.6965420595648792e-16,
+          "relative_change": 1.0958052465426249e-08
+        },
+        "horizon": {
+          "default": -5.73962126105121e-27,
+          "dense": -5.70363423486902e-27,
+          "relative_change": -0.006269930461509032
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "Same finite source grid and metric cutoff",
+    "Weighted source norm is a discrete diagnostic, not a continuum error bound",
+    "Four channels do not establish accuracy of all modes or resolve paper normalization"
+  ]
+}
