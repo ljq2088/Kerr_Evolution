@@ -1,0 +1,66 @@
+{
+  "status": "completed_two_grid_comparison_not_global_convergence",
+  "inputs": {
+    "forced_mode_nr8_nt18_L18_mg5_sl12_inner0.0005_outer320_log_h32.json": "e2615b206c99e8890776fad66dcbf53626063a4bc55a22d06ac855e6e6ca3dbb",
+    "forced_mode_nr16_nt18_L18_mg5_sl12_inner0.0005_outer320_log_h32.json": "c9999e6a5c6c68fdf7cb0ecee8017490eb9594a9a4c17ecb6dbfa53bcc0bccc4"
+  },
+  "common_parameters": {
+    "alpha": 0.3,
+    "cloud_mass": 1.0,
+    "metric": {
+      "status": "development_not_production_validated",
+      "coordinates": "Boyer-Lindquist",
+      "field": "covariant h_ab; particle mass stripped",
+      "m_g": 5,
+      "ellmax": 18,
+      "orbital_radius": 20.0,
+      "a": 0.8771530275949366,
+      "static_and_low_modes_included": false,
+      "kappa_mass_squared_step": 3.064597059668107e-05,
+      "maxwell_chiralities": "both; full complex compact current"
+    },
+    "scalar_ell": 12,
+    "scalar_m": 6,
+    "omega": 0.35165205139011735,
+    "angular_order": 18,
+    "source_panels": [
+      1.4807109600800843,
+      3.0,
+      6.0,
+      12.0,
+      20.0,
+      40.0,
+      80.0,
+      160.0,
+      320.0
+    ],
+    "green_outer_radius": 1000.0,
+    "green_horizon_offset": 0.0001,
+    "horizon_log_first_panel": true,
+    "horizon_quadrature_order": 32
+  },
+  "source_nodes": [
+    88,
+    144
+  ],
+  "fluxes": {
+    "infinity": {
+      "nr8": 1.6965420409740824e-16,
+      "nr16": 1.6965420315336277e-16,
+      "relative_change": -5.564527394419372e-09,
+      "complex_amplitude_relative_change": 1.909251378196721e-08
+    },
+    "horizon": {
+      "nr8": -5.73962126105121e-27,
+      "nr16": -5.440622974349765e-27,
+      "relative_change": -0.05209373111958315,
+      "complex_amplitude_relative_change": 0.12097645540357008
+    }
+  },
+  "limitations": [
+    "First logarithmic panel remains at 32 points",
+    "Metric cutoff and angular order unchanged",
+    "Two radial grids do not establish global convergence",
+    "Tiny horizon flux remains sensitive"
+  ]
+}
