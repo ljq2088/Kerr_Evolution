@@ -1,0 +1,122 @@
+{
+  "status": "same_source_radial_integrator_audit_not_full_convergence",
+  "rows": [
+    {
+      "input": "forced_mode_nr8_nt18_L18_inner0.0005_outer320_log_h32.json",
+      "sha256": "d5549cee14d7434185cb044b5f15c18d3add7daacd8271ab5f8bc40f3dcd2736",
+      "ell": 3,
+      "m": 3,
+      "runs": [
+        {
+          "rtol": 1e-11,
+          "amplitude": [
+            0.018812052887284176,
+            -0.049273988585191775
+          ],
+          "discrete_condition_number": 1.1468671666232484,
+          "wronskian_relative_spread": 7.158015278143178e-11
+        },
+        {
+          "rtol": 1e-13,
+          "amplitude": [
+            0.018812052892941508,
+            -0.049273988581780906
+          ],
+          "discrete_condition_number": 1.146867166623029,
+          "wronskian_relative_spread": 1.3272046862810774e-12
+        }
+      ],
+      "relative_complex_amplitude_change": 1.2524923976027735e-10,
+      "relative_infinity_flux_change": -4.43169945185673e-11
+    },
+    {
+      "input": "forced_mode_nr8_nt18_L18_mg5_sl10_inner0.0005_outer320_log_h32.json",
+      "sha256": "feee46d1c681780f16b26c0880cf6a53ee1fe96f6043fe1d49899b36e2e57fe8",
+      "ell": 10,
+      "m": 6,
+      "runs": [
+        {
+          "rtol": 1e-11,
+          "amplitude": [
+            -3.965121484645298e-06,
+            -1.6370512869473262e-06
+          ],
+          "discrete_condition_number": 1.0017265367404045,
+          "wronskian_relative_spread": 1.2252687766162715e-10
+        },
+        {
+          "rtol": 1e-13,
+          "amplitude": [
+            -3.965121484138052e-06,
+            -1.6370512877201855e-06
+          ],
+          "discrete_condition_number": 1.001726536740401,
+          "wronskian_relative_spread": 2.8320366883369923e-12
+        }
+      ],
+      "relative_complex_amplitude_change": 2.1550131452992357e-10,
+      "relative_infinity_flux_change": -8.108624882652293e-11
+    },
+    {
+      "input": "forced_mode_nr8_nt18_L18_mg5_sl12_inner0.0005_outer320_log_h32.json",
+      "sha256": "e2615b206c99e8890776fad66dcbf53626063a4bc55a22d06ac855e6e6ca3dbb",
+      "ell": 12,
+      "m": 6,
+      "runs": [
+        {
+          "rtol": 1e-11,
+          "amplitude": [
+            -8.89017855430162e-08,
+            -2.1179796016489766e-08
+          ],
+          "discrete_condition_number": 1.0004041753820652,
+          "wronskian_relative_spread": 1.0151505296810819e-10
+        },
+        {
+          "rtol": 1e-13,
+          "amplitude": [
+            -8.89017855353101e-08,
+            -2.1179796034314813e-08
+          ],
+          "discrete_condition_number": 1.0004041753820656,
+          "wronskian_relative_spread": 3.4175698154851937e-12
+        }
+      ],
+      "relative_complex_amplitude_change": 2.1249047082597247e-10,
+      "relative_infinity_flux_change": -7.364731047232453e-11
+    },
+    {
+      "input": "forced_mode_nr8_nt18_L18_mg7_sl12_inner0.0005_outer320_log_h32.json",
+      "sha256": "6a403509c3ea61fbef91472e404daee2321bcfe510631d9b53631904b1b46198",
+      "ell": 12,
+      "m": 8,
+      "runs": [
+        {
+          "rtol": 1e-11,
+          "amplitude": [
+            5.976706231237166e-07,
+            2.868041643896127e-07
+          ],
+          "discrete_condition_number": 1.0011599502889659,
+          "wronskian_relative_spread": 1.0069278753339518e-10
+        },
+        {
+          "rtol": 1e-13,
+          "amplitude": [
+            5.976706230170391e-07,
+            2.8680416452390287e-07
+          ],
+          "discrete_condition_number": 1.001159950288979,
+          "wronskian_relative_spread": 3.3354480529052897e-12
+        }
+      ],
+      "relative_complex_amplitude_change": 2.587102771457132e-10,
+      "relative_infinity_flux_change": -1.1488032747308807e-10
+    }
+  ],
+  "limitations": [
+    "Condition number belongs to the finite sampled sum, not a continuum error bound",
+    "No source-grid, angular, metric, or finite-boundary refinement in this check",
+    "Near-unit conditioning does not bound unknown absolute source errors"
+  ]
+}

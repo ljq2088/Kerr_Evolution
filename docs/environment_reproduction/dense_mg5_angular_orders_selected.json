@@ -1,0 +1,147 @@
+{
+  "status": "selected_source_nodes_not_flux_convergence",
+  "parameters": {
+    "alpha": 0.3,
+    "cloud_mass": 1.0,
+    "a": 0.8771530275949366,
+    "r0": 20.0,
+    "abs_metric_m": 5,
+    "metric_ellmax": 18,
+    "angular_order": 18,
+    "angular_backend": "dense-real"
+  },
+  "inputs": [
+    {
+      "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg5_sl10_inner0.0005_outer320_log_h32.json",
+      "sha256": "feee46d1c681780f16b26c0880cf6a53ee1fe96f6043fe1d49899b36e2e57fe8"
+    },
+    {
+      "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg5_sl12_inner0.0005_outer320_log_h32.json",
+      "sha256": "e2615b206c99e8890776fad66dcbf53626063a4bc55a22d06ac855e6e6ca3dbb"
+    }
+  ],
+  "requested_indices": [
+    56
+  ],
+  "requested_angular_orders": [
+    18,
+    24,
+    32
+  ],
+  "completed": [
+    {
+      "input": "forced_mode_nr8_nt18_L18_mg5_sl10_inner0.0005_outer320_log_h32.json",
+      "sample_index": 56,
+      "r": 20.397101435024638,
+      "ell": 10,
+      "m": 6,
+      "angular_order": 18,
+      "original_source": [
+        0.002892138149391649,
+        1.3658913475695357e-10
+      ],
+      "dense_source": [
+        0.002892138209733657,
+        7.305063576300359e-11
+      ],
+      "absolute_difference": 8.762590237891144e-11,
+      "relative_difference": 3.029796567544436e-08
+    },
+    {
+      "input": "forced_mode_nr8_nt18_L18_mg5_sl12_inner0.0005_outer320_log_h32.json",
+      "sample_index": 56,
+      "r": 20.397101435024638,
+      "ell": 12,
+      "m": 6,
+      "angular_order": 18,
+      "original_source": [
+        -0.0022097571773983015,
+        8.366212036310855e-10
+      ],
+      "dense_source": [
+        -0.0022097571658658798,
+        6.655758498048825e-10
+      ],
+      "absolute_difference": 1.7143368926857769e-10,
+      "relative_difference": 7.75803291972587e-08
+    },
+    {
+      "input": "forced_mode_nr8_nt18_L18_mg5_sl10_inner0.0005_outer320_log_h32.json",
+      "sample_index": 56,
+      "r": 20.397101435024638,
+      "ell": 10,
+      "m": 6,
+      "angular_order": 24,
+      "original_source": [
+        0.002892138149391649,
+        1.3658913475695357e-10
+      ],
+      "dense_source": [
+        0.002892138210030102,
+        5.962332215795685e-11
+      ],
+      "absolute_difference": 9.798345928999825e-11,
+      "relative_difference": 3.387924581355445e-08
+    },
+    {
+      "input": "forced_mode_nr8_nt18_L18_mg5_sl12_inner0.0005_outer320_log_h32.json",
+      "sample_index": 56,
+      "r": 20.397101435024638,
+      "ell": 12,
+      "m": 6,
+      "angular_order": 24,
+      "original_source": [
+        -0.0022097571773983015,
+        8.366212036310855e-10
+      ],
+      "dense_source": [
+        -0.002209757163879109,
+        6.485798368972946e-10
+      ],
+      "absolute_difference": 1.885267200237396e-10,
+      "relative_difference": 8.531558216079267e-08
+    },
+    {
+      "input": "forced_mode_nr8_nt18_L18_mg5_sl10_inner0.0005_outer320_log_h32.json",
+      "sample_index": 56,
+      "r": 20.397101435024638,
+      "ell": 10,
+      "m": 6,
+      "angular_order": 32,
+      "original_source": [
+        0.002892138149391649,
+        1.3658913475695357e-10
+      ],
+      "dense_source": [
+        0.002892138208911646,
+        5.634595670695097e-11
+      ],
+      "absolute_difference": 9.990794596485189e-11,
+      "relative_difference": 3.4544665850719154e-08
+    },
+    {
+      "input": "forced_mode_nr8_nt18_L18_mg5_sl12_inner0.0005_outer320_log_h32.json",
+      "sample_index": 56,
+      "r": 20.397101435024638,
+      "ell": 12,
+      "m": 6,
+      "angular_order": 32,
+      "original_source": [
+        -0.0022097571773983015,
+        8.366212036310855e-10
+      ],
+      "dense_source": [
+        -0.002209757169308956,
+        6.587422435020684e-10
+      ],
+      "absolute_difference": 1.78062803439715e-10,
+      "relative_difference": 8.058025798533564e-08
+    }
+  ],
+  "all_requested_nodes_completed": true,
+  "limitations": [
+    "Fresh source amplitudes and homogeneous angular factors use one backend",
+    "Same radial inputs and cloud; angular quadrature order recorded per row",
+    "Selected-node differences do not bound integrated flux errors"
+  ]
+}
