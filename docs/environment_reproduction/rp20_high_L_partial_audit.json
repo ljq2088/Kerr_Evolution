@@ -1,0 +1,96 @@
+{
+  "status": "partial_high_L_comparison_not_full_figure6",
+  "inputs_sha256": {
+    "paper_v1_flux_markers.json": "64e3223059d77f8309738f94e05b8142754aaad542e45fd4642f1835be1f1beb",
+    "scalar_batch_mg1_e732460f3ebb.json": "b04dca983c8ac9a8d5c748f5fc8770cca53331261167886746326087a2ad6a97",
+    "scalar_batch_mg2_55f1591fe654.json": "9e386c74943b6b9f5f3df5f1503d46f5d4591337a80bbe12182680a4ef1418f5",
+    "forced_mode_nr8_nt18_L18_mg1_sl12_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "c91980a16e3df1b3d37f9b3436ccc4737624a6c4e2f7cf742053ca2d91c643ae",
+    "forced_mode_nr8_nt18_L18_mg1_sl12_gh0.0001_go8000_inner0.0005_outer320_log_h32.json": "e60908f80fe63648453c3c5906677056f8b798ac21b7d5d6b7abe4cb7e86b69f"
+  },
+  "comparisons": [
+    {
+      "ell": 2,
+      "m": 2,
+      "source": "forced_mode_nr8_nt18_L18_mg1_sl2_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "computed": 1.341204879161883e-06,
+      "digitized": 1.2777284288186083e-06,
+      "ratio": 1.0496791406621244
+    },
+    {
+      "ell": 4,
+      "m": 2,
+      "source": "forced_mode_nr8_nt18_L18_mg1_sl4_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "computed": 4.8344803848697864e-08,
+      "digitized": 4.594494783286693e-08,
+      "ratio": 1.052233295041728
+    },
+    {
+      "ell": 6,
+      "m": 2,
+      "source": "forced_mode_nr8_nt18_L18_mg1_sl6_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "computed": 6.549974350006465e-12,
+      "digitized": 6.2232911628054575e-12,
+      "ratio": 1.0524936369928317
+    },
+    {
+      "ell": 8,
+      "m": 2,
+      "source": "forced_mode_nr8_nt18_L18_mg1_sl8_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "computed": 2.4825498837235456e-16,
+      "digitized": 2.358491918681448e-16,
+      "ratio": 1.0526005470103346
+    },
+    {
+      "ell": 3,
+      "m": 3,
+      "source": "forced_mode_nr8_nt18_L18_inner0.0005_outer320_log_h32.json",
+      "computed": 1.3155145535414752e-05,
+      "digitized": 1.2517190009296099e-05,
+      "ratio": 1.0509663531227749
+    },
+    {
+      "ell": 5,
+      "m": 3,
+      "source": "forced_mode_nr8_nt18_L18_mg2_sl5_inner0.0005_outer320_log_h32.json",
+      "computed": 2.4077427713301184e-08,
+      "digitized": 2.2915713437700764e-08,
+      "ratio": 1.0506950952567409
+    },
+    {
+      "ell": 7,
+      "m": 3,
+      "source": "forced_mode_nr8_nt18_L18_mg2_sl7_inner0.0005_outer320_log_h32.json",
+      "computed": 1.1068887450540066e-11,
+      "digitized": 1.0532649109435135e-11,
+      "ratio": 1.0509120104100467
+    },
+    {
+      "ell": 9,
+      "m": 3,
+      "source": "forced_mode_nr8_nt18_L18_mg2_sl9_inner0.0005_outer320_log_h32.json",
+      "computed": 1.7597771725900695e-15,
+      "digitized": 1.6903784794288288e-15,
+      "ratio": 1.041055121090213
+    }
+  ],
+  "boundary_audit": {
+    "scalar_ell": 12,
+    "scalar_m": 2,
+    "outer_radii": [
+      4000,
+      8000
+    ],
+    "reused_samples": 88,
+    "relative_flux_changes": {
+      "infinity": -7.163670434628955e-09,
+      "horizon": 6.8904881800335716e-12
+    }
+  },
+  "limitations": [
+    "Only completed m=2 and m=3 infinity sectors compared; no missing-mode sum",
+    "Paper values digitized from vector figure, not author numerical data",
+    "Units inferred as q^2 Mc/M by independent Figures 2 and 6 closure",
+    "Outer-boundary audit does not establish source-grid or metric convergence",
+    "High-L metric matching accuracy remains separately unresolved"
+  ]
+}

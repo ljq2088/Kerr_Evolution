@@ -12,7 +12,7 @@ from environment_radial import RadialGreen
 
 class SampledResponse:
     def __init__(self, green, panels, radii, source, *, log_first=False,
-                 rtol=1e-10, atol=1e-14):
+                 rtol=1e-10, atol=1e-14, phase=None):
         self.green=green
         self.panels=np.asarray(panels,float)
         r=np.asarray(radii,float);J=np.asarray(source,complex)
@@ -34,11 +34,13 @@ class SampledResponse:
             expected=np.polynomial.legendre.leggauss(len(nodes))[0]
             if not np.allclose(x,expected,rtol=0,atol=2e-9):
                 raise ValueError('Samples do not match the declared Gauss panel')
-            coefficients=legfit(x,values,len(nodes)-1)
+            reduced=values if phase is None else values*np.exp(-1j*phase(nodes))
+            coefficients=legfit(x,reduced,len(nodes)-1)
             def rhs(z,y,branch=0,coeff=coefficients,a=z0,b=z1,log=logarithmic):
                 radius=green.rp+np.exp(z) if log else z
                 jacobian=np.exp(z) if log else 1.
                 source_value=legval(2*(z-a)/(b-a)-1,coeff)
+                if phase is not None:source_value*=np.exp(1j*phase(radius))
                 solution=green.insol if branch==0 else green.upsol
                 return [jacobian*solution.sol(radius)[0]*source_value/green.w0]
             # Bound channels can have tiny Green coefficients multiplying huge
@@ -77,7 +79,7 @@ class SampledResponse:
         return np.asarray([v*A+u*B,dv*A+du*B])
 
     @classmethod
-    def from_report(cls,data,**kwargs):
+    def from_report(cls,data,dephase_outgoing=False,**kwargs):
         if data.get('status')!='truncated_single_mode_not_converged' or 'flux' not in data:
             raise ValueError('A completed finite-source response report is required')
         if data.get('flux_validity')=='historical_unreliable_boundary_result':
@@ -89,6 +91,14 @@ class SampledResponse:
         if green.infinity_method=='series' and green.series_last_term_relative>1e-3:
             raise ValueError('Unresolved infinity series')
         rows=data['samples']
+        phase=None
+        if dephase_outgoing:
+            from environment_radial import tortoise
+            orbit=m['orbital_radius'];a=m['a'];frequency=m['m_g']/(orbit**1.5+a)
+            origin=tortoise(orbit,a)
+            # The particle is already a panel boundary. Match the carrier
+            # continuously to zero there; inner source interpolation is kept.
+            phase=lambda radius:frequency*(tortoise(np.maximum(radius,orbit),a)-origin)
         return cls(green,p['source_panels'],[s['r'] for s in rows],
             [complex(*s['source']) for s in rows],
-            log_first=p.get('horizon_log_first_panel',False),**kwargs)
+            log_first=p.get('horizon_log_first_panel',False),phase=phase,**kwargs)

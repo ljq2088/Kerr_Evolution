@@ -1,0 +1,78 @@
+{
+  "status": "batch_completed_finite_resolution_not_converged",
+  "parameters": {
+    "alpha": 0.3,
+    "background": "threshold-kerr",
+    "orbital_radius": 3.5,
+    "green_horizon_offset": 0.0001,
+    "green_outer_radius": 1000.0,
+    "infinity_method": "series",
+    "radial_order": 4,
+    "angular_order": 16,
+    "metric_ellmax": 12,
+    "metric_m": 0,
+    "scalar_ell": null,
+    "static_matching": "docs/environment_reproduction/static_tetrad_a0.877153_r3.5_L12_q24_j12_free12_paper_eps5e-06.json",
+    "source_inner_offset": 0.05,
+    "source_outer_radius": 320.0,
+    "horizon_log": true,
+    "horizon_order": 16,
+    "reuse_source": null,
+    "extend_metric_source": null,
+    "scalar_ells": [
+      3,
+      5
+    ],
+    "conjugate_ells": []
+  },
+  "channels": [
+    {
+      "scalar_ell": 3,
+      "scalar_m": 1,
+      "file": "forced_mode_nr4_nt16_L12_alpha0.3_rp3.5_mg0_sl3_log_h16.json",
+      "metric_m": 0,
+      "metric_conjugated": false,
+      "metric_cache_hits": 0,
+      "metric_reconstructions": 768,
+      "elapsed_seconds": 3345.181005238,
+      "flux": {
+        "infinity": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": 0.0,
+          "orbital_angular_momentum": 0.0
+        },
+        "horizon": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": 0.0,
+          "orbital_angular_momentum": 0.0
+        }
+      }
+    },
+    {
+      "scalar_ell": 5,
+      "scalar_m": 1,
+      "file": "forced_mode_nr4_nt16_L12_alpha0.3_rp3.5_mg0_sl5_log_h16.json",
+      "metric_m": 0,
+      "metric_conjugated": false,
+      "metric_cache_hits": 768,
+      "metric_reconstructions": 0,
+      "elapsed_seconds": 0.9662564579994068,
+      "flux": {
+        "infinity": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": 0.0,
+          "orbital_angular_momentum": 0.0
+        },
+        "horizon": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": 0.0,
+          "orbital_angular_momentum": 0.0
+        }
+      }
+    }
+  ]
+}

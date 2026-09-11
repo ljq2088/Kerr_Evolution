@@ -14,10 +14,11 @@ def pair(z):return [float(z.real),float(z.imag)]
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('inputs',nargs='+',type=Path)
+    parser.add_argument('--dephase-outgoing',action='store_true')
     args=parser.parse_args()
     for path in args.inputs:
         data=json.loads(path.read_text())
-        response=SampledResponse.from_report(data)
+        response=SampledResponse.from_report(data,dephase_outgoing=args.dephase_outgoing)
         p=data['parameters'];metric=p['metric']
         g=response.green
         r=np.unique(np.r_[np.linspace(max(g.rmin,2.),150.,601),response.panels])
@@ -32,6 +33,7 @@ def main():
         report=dict(status='continuous_finite_source_field_not_converged',
             input=path.name,input_sha256=hashlib.sha256(path.read_bytes()).hexdigest(),
             parameters=p,method='Panelwise Legendre source interpolation and bidirectional adaptive Green quadrature',
+            outgoing_source_dephased=args.dephase_outgoing,
             up_coefficient=pair(response.up_coefficient),z_h=pair(response.horizon_coefficient),flux=flux,
             original_gauss_flux=data['flux'],
             boundary_field_relative_max_error=float(np.max(abs(new-old))/max(np.max(abs(old)),1e-300)),
@@ -39,7 +41,7 @@ def main():
             limitations=['Finite source cutoffs unchanged; no horizon extrapolation applied',
                 'Interpolation needs independent source-grid refinement',
                 'One scalar spheroidal multipole, not the full wake'])
-        output=path.with_name('continuous_'+path.name)
+        output=path.with_name(('continuous_dephased_' if args.dephase_outgoing else 'continuous_')+path.name)
         output.write_text(json.dumps(report,indent=2)+'\n')
         print(json.dumps({k:report[k] for k in ('input','boundary_field_relative_max_error','flux')}),flush=True)
 

@@ -43,3 +43,22 @@ def test_continuous_manufactured_field_and_derivative(omega):
 def test_incomplete_report_is_rejected():
     with pytest.raises(ValueError,match='completed'):
         SampledResponse.from_report(dict(status='source_sampling_in_progress'))
+
+
+def test_known_carrier_recovers_rapidly_oscillating_manufactured_source():
+    g=RadialGreen(.7,.3,.4,2,2,rmax=100.)
+    panels=[10.,30.];x=np.polynomial.legendre.leggauss(20)[0]
+    r=20+10*x;q=3.
+    p=np.polynomial.Polynomial([0,0,0,0,1,-4,6,-4,1])*256
+    z=(r-10)/20;carrier=np.exp(1j*q*r)
+    f=p(z)*carrier
+    df=(p.deriv()(z)/20+1j*q*p(z))*carrier
+    ddf=(p.deriv(2)(z)/400+2j*q*p.deriv()(z)/20-q*q*p(z))*carrier
+    d,dp,v=radial_coefficients(r,.7,.3,.4,2,g.lam)
+    J=d*ddf+dp*df+v*f
+    probe=np.linspace(10,30,301)
+    exact=p((probe-10)/20)*np.exp(1j*q*probe)
+    raw=SampledResponse(g,panels,r,J).evaluate(probe)[0]
+    demodulated=SampledResponse(g,panels,r,J,phase=lambda radius:q*radius).evaluate(probe)[0]
+    assert np.max(abs(raw-exact))>1e-3
+    assert np.max(abs(demodulated-exact))<2e-6
