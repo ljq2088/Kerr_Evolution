@@ -1,0 +1,201 @@
+{
+  "status": "complete_mode_range_not_converged",
+  "parameters": {
+    "alpha": 0.3,
+    "a": 0.8771530275949366,
+    "r0": 20.0,
+    "cloud_mass": 1.0,
+    "coordinates": "Boyer-Lindquist",
+    "flux_scaling": "per q^2*(cloud mass/M); unit Killing cloud mass, not alpha^-3 rescaled",
+    "metric_ellmax": 18,
+    "angular_backend": "pybhpt-default",
+    "angular_order": 18,
+    "radial_order": 8,
+    "source_panels": [
+      1.4807109600800843,
+      3.0,
+      6.0,
+      12.0,
+      20.0,
+      40.0,
+      80.0,
+      160.0,
+      320.0
+    ],
+    "green_outer_radius": null,
+    "green_horizon_offset": 0.0001,
+    "horizon_order": 32,
+    "horizon_log": true,
+    "infinity_method": "series"
+  },
+  "missing_modes": [],
+  "mixed_discretization": true,
+  "mode_provenance": [
+    {
+      "ell": 2,
+      "m": 0,
+      "numerical": {
+        "metric_ellmax": 18,
+        "angular_backend": "pybhpt-default",
+        "angular_order": 18,
+        "radial_order": 8,
+        "source_panels": [
+          1.4807109600800843,
+          3.0,
+          6.0,
+          12.0,
+          20.0,
+          40.0,
+          80.0,
+          160.0,
+          320.0
+        ],
+        "green_outer_radius": 4000.0,
+        "green_horizon_offset": 0.0001,
+        "horizon_order": 32,
+        "horizon_log": true,
+        "infinity_method": "series"
+      },
+      "metric": {
+        "status": "development_not_production_validated",
+        "coordinates": "Boyer-Lindquist",
+        "field": "covariant h_ab; particle mass stripped",
+        "m_g": -1,
+        "ellmax": 18,
+        "orbital_radius": 20.0,
+        "a": 0.8771530275949366,
+        "static_and_low_modes_included": false,
+        "kappa_mass_squared_step": 1.2258388238672426e-06,
+        "maxwell_chiralities": "both; full complex compact current",
+        "nonstatic_dipole_included": true
+      }
+    },
+    {
+      "ell": 2,
+      "m": -2,
+      "numerical": {
+        "metric_ellmax": 18,
+        "angular_backend": "pybhpt-default",
+        "angular_order": 18,
+        "radial_order": 8,
+        "source_panels": [
+          1.4807109600800843,
+          3.0,
+          6.0,
+          12.0,
+          20.0,
+          40.0,
+          80.0,
+          160.0,
+          320.0
+        ],
+        "green_outer_radius": 1000.0,
+        "green_horizon_offset": 0.0001,
+        "horizon_order": 32,
+        "horizon_log": true,
+        "infinity_method": "series"
+      },
+      "metric": {
+        "status": "development_not_production_validated",
+        "coordinates": "Boyer-Lindquist",
+        "field": "covariant h_ab; particle mass stripped",
+        "m_g": -3,
+        "ellmax": 18,
+        "orbital_radius": 20.0,
+        "a": 0.8771530275949366,
+        "static_and_low_modes_included": false,
+        "kappa_mass_squared_step": 1.1032549414805184e-05,
+        "maxwell_chiralities": "both; full complex compact current"
+      }
+    },
+    {
+      "ell": 2,
+      "m": 2,
+      "numerical": {
+        "metric_ellmax": 18,
+        "angular_backend": "pybhpt-default",
+        "angular_order": 18,
+        "radial_order": 8,
+        "source_panels": [
+          1.4807109600800843,
+          3.0,
+          6.0,
+          12.0,
+          20.0,
+          40.0,
+          80.0,
+          160.0,
+          320.0
+        ],
+        "green_outer_radius": 4000.0,
+        "green_horizon_offset": 0.0001,
+        "horizon_order": 32,
+        "horizon_log": true,
+        "infinity_method": "series"
+      },
+      "metric": {
+        "status": "development_not_production_validated",
+        "coordinates": "Boyer-Lindquist",
+        "field": "covariant h_ab; particle mass stripped",
+        "m_g": 1,
+        "ellmax": 18,
+        "orbital_radius": 20.0,
+        "a": 0.8771530275949366,
+        "static_and_low_modes_included": false,
+        "kappa_mass_squared_step": 1.2258388238672426e-06,
+        "maxwell_chiralities": "both; full complex compact current",
+        "nonstatic_dipole_included": true
+      }
+    }
+  ],
+  "common_radial_domain": [
+    1.4803109600800843,
+    1000.0
+  ],
+  "included_modes": [
+    [
+      2,
+      -2
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "time": 0,
+  "plot": {
+    "layout": "wide_stacked_with_inset",
+    "color_scale": "linear",
+    "normalization": "per q epsilon",
+    "applied_scale": 37.03703703703704,
+    "amplitude_fitted": false,
+    "radial_edges": [
+      1.5302109600800844,
+      192.8280192295715
+    ],
+    "radial_cells": 240,
+    "angular_cells": 480,
+    "figure1_coordinate_mapping_confirmed": false
+  },
+  "coordinates": "BL-label embedding x=r sin(theta)cos(phi), y=r sin(theta)sin(phi), z=r cos(theta); not Kerr-Schild Cartesian coordinates",
+  "quantity": "Complex scalar response per q epsilon; not density, total cloud, or rPhi",
+  "inputs": [
+    {
+      "file": "forced_mode_nr8_nt18_L18_mg-1_sl2_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "sha256": "fb30d727cdb754c5dca3f7906b7383fe939d81949341953bb3787bc5d79b1162"
+    },
+    {
+      "file": "forced_mode_nr8_nt18_L18_mg-3_sl2_inner0.0005_outer320_log_h32.json",
+      "sha256": "a69182cf00537f41f6f3714370846341fc4bae15eef23f425783147a853fadb8"
+    },
+    {
+      "file": "forced_mode_nr8_nt18_L18_mg1_sl2_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "sha256": "901be8306b526e3e6df1f9b461ca4ceea112d358491afae6142cc364e3f8de7f"
+    }
+  ],
+  "limitation": "Each mode retains its recorded finite source grid. Missing modes are explicitly omitted. Mixed discretization requires separate convergence checks. Not a paper wake reproduction."
+}
