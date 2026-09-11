@@ -39,6 +39,7 @@ def main():
     p.add_argument('--epsilon',type=float,default=5e-5)
     p.add_argument('--continuity-only',action='store_true',help='Fit values and conserved charges; hold out all derivative jumps')
     p.add_argument('--free-ellmax',type=int,default=None,help='Largest free scalar degree; default ellmax+2')
+    p.add_argument('--reuse-samples',action='store_true',help='Reuse matching vacuum jets at the same angular nodes and separation')
     args=p.parse_args()
     if args.ellmax<2 or args.testmax<0 or args.quadrature<args.testmax+3:
         raise ValueError('Require ellmax>=2 and adequate angular quadrature')
@@ -55,7 +56,31 @@ def main():
         d=np.array([h[i][j].derivative(0).value for i,j in pairs])
         dd=np.array([h[i][j].derivative(0).derivative(0).value for i,j in pairs])
         return np.array([v+shift*d+shift*shift*dd/2,d+shift*dd])
+    root=Path(__file__).resolve().parents[1]
+    sample_path=root/'outputs'/f'static_samples_a{args.a:g}_r{args.r0:g}_q{args.quadrature}_eps{args.epsilon:g}.npz'
+    sample_metadata=dict(version=1,a=args.a,r0=args.r0,quadrature=args.quadrature,epsilon=args.epsilon,
+                         order=8,circular_isometry_average=True)
+    sampled_particular={}
+    sampled_basis={}
+    if args.reuse_samples and sample_path.exists():
+        with np.load(sample_path,allow_pickle=False) as saved:
+            if json.loads(str(saved['metadata']))!=sample_metadata:
+                raise ValueError('Saved samples have different physics or discretization')
+            sampled_particular={int(k[2:]):saved[k] for k in saved.files if k.startswith('p_')}
+            sampled_basis={k[2:]:saved[k] for k in saved.files if k.startswith('b_')}
+    def save_samples():
+        temporary=sample_path.with_suffix('.tmp')
+        with temporary.open('wb') as stream:
+            np.savez_compressed(stream,metadata=json.dumps(sample_metadata),
+                **{f'p_{ell}':v for ell,v in sampled_particular.items()},
+                **{f'b_{label}':v for label,v in sampled_basis.items()})
+        temporary.replace(sample_path)
     for ell in range(2,args.ellmax+1):
+        if ell in sampled_particular:
+            particular+=np.einsum('dkc,jkc->djc',sampled_particular[ell],weights)
+            print(f'Reused particular ell={ell}',flush=True)
+            continue
+        nodal=np.zeros((2,len(x),10),complex)
         for sign in (-1,1):
             r=args.r0+sign*args.epsilon
             for k,t in enumerate(np.arccos(x)):
@@ -64,19 +89,29 @@ def main():
                 if ell%2==0:
                     _,h,_=static_trace_metric(r,t,r0=args.r0,a=args.a,ell=ell,order=8)
                     v+=values(h,-sign*args.epsilon)
-                particular+=sign*v[:,None,:]*weights[:,k,:][None,:,:]
+                nodal[:,k]+=sign*v
+        sampled_particular[ell]=nodal
+        save_samples()
+        particular+=np.einsum('dkc,jkc->djc',nodal,weights)
         print(f'Completed particular ell={ell}',flush=True)
     free_ellmax=args.ellmax+2 if args.free_ellmax is None else args.free_ellmax
     labels=list('BCDEFG')+[f'kappa_{ell}_{d}' for ell in range(2,free_ellmax+1,2) for d in (0,1)]
     basis=np.zeros((len(labels),)+shape,complex)
     for n,label in enumerate(labels):
+        if label in sampled_basis:
+            basis[n]=np.einsum('dkc,jkc->djc',sampled_basis[label],weights)
+            continue
+        nodal=np.zeros((2,len(x),10),complex)
         for k,t in enumerate(np.arccos(x)):
             if len(label)==1:
                 _,h,_=completion_metric(args.r0,t,a=args.a,mode=label,order=6,reference_radius=args.r0)
             else:
                 _,ell,d=label.split('_')
                 _,h=scalar_hessian(args.r0,t,args.a,int(ell),int(d))
-            basis[n]+=values(h)[:,None,:]*weights[:,k,:][None,:,:]
+            nodal[:,k]=values(h)
+        sampled_basis[label]=nodal
+        save_samples()
+        basis[n]=np.einsum('dkc,jkc->djc',nodal,weights)
     metric=kerr_metric(args.r0,np.pi/2,args.a)
     op=1/(args.r0**1.5+args.a)
     ut=1/np.sqrt(-metric[0,0]-2*op*metric[0,3]-op*op*metric[3,3])
@@ -91,24 +126,30 @@ def main():
     matrix=np.moveaxis(basis.real*scale,0,-1)[used].reshape(-1,len(labels))
     rhs=((target-particular.real)*scale)[used].ravel()
     if args.continuity_only:
-        charge_rows=np.zeros((2,len(labels)))
-        charge_rows[0,labels.index('E')]=1
-        charge_rows[1,labels.index('G')]=1
-        matrix=np.vstack((matrix,charge_rows))
-        rhs=np.concatenate((rhs,[-u[0],u[3]+args.a*u[0]]))
+        # Eliminate the known charges exactly; no least-squares relaxation.
+        prescribed={labels.index('E'):float(-u[0]),labels.index('G'):float(u[3]+args.a*u[0])}
+    else:
+        prescribed={}
+    for index,value in prescribed.items():
+        rhs-=matrix[:,index]*value
     norms=np.linalg.norm(matrix,axis=0)
     active=norms>1e-9*np.max(norms)
+    for index in prescribed:
+        active[index]=False
     coefficient=np.zeros(len(labels))
+    for index,value in prescribed.items():
+        coefficient[index]=value
     fitted,_,rank,singular=np.linalg.lstsq(matrix[:,active]/norms[active],rhs,rcond=1e-10)
     coefficient[active]=fitted/norms[active]
     residual=particular.real+np.einsum('n,ndjc->djc',coefficient,basis.real)-target
     result=dict(status='local_junction_diagnostic_not_boundary_matched',parameters=vars(args),
         circular_isometry_average=True,
         derivative_conditions_used_in_fit=not args.continuity_only,
+        charge_conditions='exact_elimination' if args.continuity_only else 'not_prescribed',
         residual_scale='value/(L_i L_j), r0*radial_derivative/(L_i L_j); L=(1,1,r0,r0)',
         components=pairs,test_degrees=degrees.tolist(),fit_testmax=args.testmax,
         basis_labels=labels,coefficients=coefficient.tolist(),rank=int(rank),
-        unconstrained_columns=[label for label,keep in zip(labels,active) if not keep],
+        unconstrained_columns=[label for n,(label,keep) in enumerate(zip(labels,active)) if not keep and n not in prescribed],
         singular_values_column_normalized=singular.tolist(),
         expected_charge_jumps=dict(E=float(-u[0]),G=float(u[3]+args.a*u[0])),
         fitted_completion_jumps={label:float(coefficient[n]) for n,label in enumerate(labels[:6])},
@@ -122,6 +163,10 @@ def main():
     suffix='_continuity' if args.continuity_only else ''
     if args.free_ellmax is not None:
         suffix+=f'_free{args.free_ellmax}'
+    if args.continuity_only:
+        suffix+='_exactcharges'
+    if args.epsilon!=5e-5:
+        suffix+=f'_eps{args.epsilon:g}'
     out=Path(__file__).resolve().parents[1]/'docs/environment_reproduction'/f'static_matching_a{args.a:g}_r{args.r0:g}_L{args.ellmax}_q{args.quadrature}_j{args.testmax}{suffix}.json'
     out.write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps({k:result[k] for k in ('rank','max_scaled_fit_residual','max_scaled_derivative_residual_low_degrees','max_scaled_holdout_residual','expected_charge_jumps','fitted_completion_jumps')},indent=2),flush=True)

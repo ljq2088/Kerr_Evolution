@@ -1,0 +1,47 @@
+{
+  "status": "local_low_multipole_matching_verified_boundaries_and_full_sum_incomplete",
+  "inputs": [
+    "static_tetrad_a0.6_r6_L8_q20_j8_free8_paper.json",
+    "static_tetrad_a0.6_r6_L12_q20_j12_free12_paper.json",
+    "static_tetrad_a0.6_r6_L12_q20_j12_free12_paper_eps5e-06.json"
+  ],
+  "reference": "https://arxiv.org/abs/2306.16459v3",
+  "reference_table": "Jumps in radial functions and completion mode coefficients for a=0.6M, r0=6M",
+  "independent_completion_comparison": {
+    "B": {
+      "computed": -0.17354797550703033,
+      "paper_rounded": -0.17354798,
+      "absolute_difference": 4.492969662983626e-09
+    },
+    "D": {
+      "computed": 0.19491814467312,
+      "paper_rounded": 0.19491814,
+      "absolute_difference": 4.673120002074427e-09
+    },
+    "F": {
+      "computed": 0.02507282324977946,
+      "paper_rounded": 0.025072823,
+      "absolute_difference": 2.497794575340162e-10
+    }
+  },
+  "not_compared": "C and free scalar jumps depend on the particular/homogeneous gauge convention; E/G are imposed exactly, not independent validation",
+  "derivative_error_ratio_epsilon_over_tenth": {
+    "2": 100.03266568006566,
+    "4": 99.9891636115478,
+    "6": 100.06924760157531,
+    "8": 99.98806460212496
+  },
+  "verified_test_degrees": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "low_degree_maximum_value": 2.1251415481350113e-13,
+  "low_degree_maximum_derivative": 5.415997274208731e-11
+}
