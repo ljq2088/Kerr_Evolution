@@ -1,0 +1,191 @@
+{
+  "observed_utc": "2026-09-11T13:56:24.138879+00:00",
+  "status": "coverage_only_not_paper_reproduction",
+  "parameters": {
+    "alpha": 0.3,
+    "rp": 20,
+    "metric_ellmax": 6,
+    "nr": 8,
+    "nt": 10,
+    "horizon_order": 32,
+    "inner_offset": 0.0005,
+    "outer_source_cutoff": 320
+  },
+  "infinity": {
+    "required_count": 9,
+    "computed_count": 0,
+    "modes": [
+      {
+        "ell": 2,
+        "m": 2,
+        "file": "forced_mode_nr8_nt10_L6_mg1_sl2_inner0.0005_outer320_log_h32.json",
+        "status": "source_sampling_in_progress",
+        "samples": 36
+      },
+      {
+        "ell": 3,
+        "m": 3,
+        "status": "missing"
+      },
+      {
+        "ell": 4,
+        "m": 2,
+        "status": "missing"
+      },
+      {
+        "ell": 4,
+        "m": 4,
+        "file": "forced_mode_nr8_nt10_L6_mg3_sl4_inner0.0005_outer320_log_h32.json",
+        "status": "source_sampling_in_progress",
+        "samples": 52
+      },
+      {
+        "ell": 5,
+        "m": 3,
+        "status": "missing"
+      },
+      {
+        "ell": 5,
+        "m": 5,
+        "status": "missing"
+      },
+      {
+        "ell": 6,
+        "m": 2,
+        "status": "missing"
+      },
+      {
+        "ell": 6,
+        "m": 4,
+        "status": "missing"
+      },
+      {
+        "ell": 6,
+        "m": 6,
+        "status": "missing"
+      }
+    ],
+    "finite_resolution_total": null,
+    "converged": false
+  },
+  "horizon": {
+    "required_count": 18,
+    "computed_count": 1,
+    "modes": [
+      {
+        "ell": 0,
+        "m": 0,
+        "file": "forced_mode_nr8_nt10_L6_mg-1_sl0_inner0.0005_outer320_log_h32.json",
+        "status": "truncated_single_mode_not_converged",
+        "samples": 88,
+        "flux": {
+          "infinity": {
+            "charge": 0.0,
+            "wave_energy": 0.0,
+            "orbital_energy": -0.0,
+            "orbital_angular_momentum": -0.0
+          },
+          "horizon": {
+            "charge": 0.006052088925710076,
+            "wave_energy": 0.0017261858082801304,
+            "orbital_energy": -6.700727960687155e-05,
+            "orbital_angular_momentum": -0.006052088925710076
+          }
+        }
+      },
+      {
+        "ell": 1,
+        "m": -1,
+        "status": "missing"
+      },
+      {
+        "ell": 2,
+        "m": -2,
+        "status": "missing"
+      },
+      {
+        "ell": 2,
+        "m": 0,
+        "status": "missing"
+      },
+      {
+        "ell": 2,
+        "m": 2,
+        "file": "forced_mode_nr8_nt10_L6_mg1_sl2_inner0.0005_outer320_log_h32.json",
+        "status": "source_sampling_in_progress",
+        "samples": 36
+      },
+      {
+        "ell": 3,
+        "m": -3,
+        "status": "missing"
+      },
+      {
+        "ell": 3,
+        "m": -1,
+        "status": "missing"
+      },
+      {
+        "ell": 3,
+        "m": 3,
+        "status": "missing"
+      },
+      {
+        "ell": 4,
+        "m": -4,
+        "status": "missing"
+      },
+      {
+        "ell": 4,
+        "m": -2,
+        "status": "missing"
+      },
+      {
+        "ell": 4,
+        "m": 0,
+        "status": "missing"
+      },
+      {
+        "ell": 4,
+        "m": 2,
+        "status": "missing"
+      },
+      {
+        "ell": 4,
+        "m": 4,
+        "file": "forced_mode_nr8_nt10_L6_mg3_sl4_inner0.0005_outer320_log_h32.json",
+        "status": "source_sampling_in_progress",
+        "samples": 52
+      },
+      {
+        "ell": 5,
+        "m": -5,
+        "status": "missing"
+      },
+      {
+        "ell": 5,
+        "m": -3,
+        "status": "missing"
+      },
+      {
+        "ell": 5,
+        "m": -1,
+        "status": "missing"
+      },
+      {
+        "ell": 5,
+        "m": 3,
+        "status": "missing"
+      },
+      {
+        "ell": 5,
+        "m": 5,
+        "status": "missing"
+      }
+    ],
+    "finite_resolution_total": null,
+    "converged": false
+  },
+  "excluded": "m=1 is static forcing: orbital-effective energy flux vanishes, but its field is required for wakes. Nonpropagating infinity modes carry zero stationary infinity flux.",
+  "limits": "No total is reported with missing modes. Even a complete finite-resolution total needs L_g=18 and all other convergence checks."
+}
