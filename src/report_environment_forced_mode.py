@@ -17,7 +17,7 @@ def encode(z):
     return [float(z.real),float(z.imag)]
 
 
-def main():
+def argument_parser():
     parser=argparse.ArgumentParser()
     parser.add_argument('--alpha',type=float,default=.3)
     parser.add_argument('--background',choices=('threshold-kerr','schwarzschild-frozen'),default='threshold-kerr')
@@ -38,18 +38,30 @@ def main():
                         help='Reuse compatible source samples; repeat to combine completed grids')
     parser.add_argument('--extend-metric-source',type=Path,
                         help='Reuse lower ellmax source and compute only additional metric modes at matching radii')
-    args=parser.parse_args()
+    return parser
+
+
+def build_cloud(args):
+    if args.background=='threshold-kerr':
+        return ThresholdCloud(alpha=args.alpha)
+    from environment_schwarzschild_cloud import SchwarzschildCloud
+    return SchwarzschildCloud(alpha=args.alpha,freeze_decay=True)
+
+
+def run(args,cloud=None,metric=None):
     if min(args.radial_order,args.angular_order)<2:
         raise ValueError('Quadrature orders must be at least two')
-    if args.background=='threshold-kerr':
-        cloud=ThresholdCloud(alpha=args.alpha)
-    else:
-        from environment_schwarzschild_cloud import SchwarzschildCloud
-        cloud=SchwarzschildCloud(alpha=args.alpha,freeze_decay=True)
+    if cloud is None:
+        cloud=build_cloud(args)
+    if cloud.mu!=args.alpha or (hasattr(cloud,'spectral_omega')!=(args.background=='schwarzschild-frozen')):
+        raise ValueError('Shared cloud does not match requested background')
     orbit=args.orbital_radius
     if orbit<=cloud.rp:
         raise ValueError('Orbit must be outside the horizon')
-    metric=LorenzMetricMode(orbit,cloud.a,args.metric_m,args.metric_ellmax)
+    if metric is None:
+        metric=LorenzMetricMode(orbit,cloud.a,args.metric_m,args.metric_ellmax)
+    if (metric.r0,metric.a,metric.m,metric.ellmax,metric.ellmin)!=(orbit,cloud.a,args.metric_m,args.metric_ellmax,abs(args.metric_m)):
+        raise ValueError('Shared metric does not match requested mode sum')
     scalar_m=cloud.m+args.metric_m
     scalar_ell=abs(scalar_m) if args.scalar_ell is None else args.scalar_ell
     if scalar_ell<abs(scalar_m):
@@ -205,6 +217,11 @@ def main():
                                        'angular projection','metric ell truncation','remaining m modes and static completion'])
     save()
     print(json.dumps({k:result[k] for k in ('status','z_inf','z_h','flux','wronskian_relative_spread')}),flush=True)
+    return out,result
+
+
+def main():
+    run(argument_parser().parse_args())
 
 
 if __name__=='__main__':

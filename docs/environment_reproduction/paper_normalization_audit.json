@@ -1,0 +1,28 @@
+{
+  "source": "https://arxiv.org/src/2501.09806v1",
+  "status": "cross_figure_digitization_inference_not_author_numeric_data",
+  "sha256_figure2": "edb692b0bb709680165c5c90300d0bd68596813e48dfcf687af900271e4edfe7",
+  "sha256_figure6": "5c5c62e8831e8a734a4efdcc1256373c6a426b0efb0b3128d72bb1ea1ac298d3",
+  "parameters": {
+    "alpha": 0.3,
+    "rp_over_M": 20,
+    "scalar_ellmax": 6
+  },
+  "figure2": {
+    "infinity": {
+      "pdf_x": 297.89883,
+      "pdf_top": 45.85221899871218,
+      "plotted_flux": 0.025085942621731777
+    },
+    "horizon_magnitude": {
+      "pdf_x": 297.89883,
+      "pdf_top": 32.13296513963231,
+      "plotted_flux": 0.07100652306881104
+    }
+  },
+  "figure6_sum": 1.8288422616947143e-05,
+  "figure6_sum_divided_by_alpha6": 0.02508699947455027,
+  "relative_difference": 4.2129284692604685e-05,
+  "interpretation": "The two graphics differ by alpha^6. Combined with epsilon^2=eta alpha^6, this supports Fig.6 per q^2 eta and Fig.2 per q^2 epsilon^2. This does not resolve the remaining solver mode discrepancy.",
+  "limitations": "Vector interpolation and marker rounding; no formal digitization error bound. Fig.4 caption uses epsilon^2=0.1 alpha^3 whereas nearby prose specifies eta=0.1; unresolved."
+}

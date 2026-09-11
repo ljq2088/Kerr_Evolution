@@ -666,6 +666,195 @@
           "corrected_horizon_flux": -6.697691326323739e-05
         }
       ]
+    },
+    {
+      "input": "forced_mode_nr8_nt10_L6_mg-1_sl0_inner0.0005_outer320_log_h32.json",
+      "cutoff": 0.0004999999999999449,
+      "horizon_order": 32,
+      "base_horizon_flux": -6.700727960687155e-05,
+      "gamma": 0.8791718797215596,
+      "variations": [
+        {
+          "order": 0,
+          "window": 5.0,
+          "samples": 9,
+          "rank": 2,
+          "column_normalized_condition": 2.494012408994864,
+          "maximum_integrand_fit_residual": 6.742269222804625e-05,
+          "held_out_integrand_residual": 3.39610137678927e-05,
+          "maximum_sample_integrand": 0.06896371145921032,
+          "method": "two horizon Frobenius phases; analytic integration from zero to cutoff",
+          "correction": [
+            1.4057469546962074e-05,
+            -3.3420165547588814e-06
+          ],
+          "corrected_z_h": [
+            -0.04959598988042265,
+            0.03350199510215189
+          ],
+          "corrected_horizon_flux": -6.69770172973026e-05
+        },
+        {
+          "order": 0,
+          "window": 10.0,
+          "samples": 11,
+          "rank": 2,
+          "column_normalized_condition": 1.708977397666147,
+          "maximum_integrand_fit_residual": 0.00019357406172850828,
+          "held_out_integrand_residual": 0.00025822011987814623,
+          "maximum_sample_integrand": 0.0722858505776433,
+          "method": "two horizon Frobenius phases; analytic integration from zero to cutoff",
+          "correction": [
+            1.4064914102361641e-05,
+            -3.2887428908052267e-06
+          ],
+          "corrected_z_h": [
+            -0.04959598243586725,
+            0.03350204837581584
+          ],
+          "corrected_horizon_flux": -6.697707023187322e-05
+        },
+        {
+          "order": 0,
+          "window": 20.0,
+          "samples": 13,
+          "rank": 2,
+          "column_normalized_condition": 1.31867139184908,
+          "maximum_integrand_fit_residual": 0.00032566473429798876,
+          "held_out_integrand_residual": 0.0002051344436606311,
+          "maximum_sample_integrand": 0.0722858505776433,
+          "method": "two horizon Frobenius phases; analytic integration from zero to cutoff",
+          "correction": [
+            1.4086208685042293e-05,
+            -3.2302685422922486e-06
+          ],
+          "corrected_z_h": [
+            -0.04959596114128457,
+            0.03350210685016436
+          ],
+          "corrected_horizon_flux": -6.697710399524078e-05
+        },
+        {
+          "order": 1,
+          "window": 5.0,
+          "samples": 9,
+          "rank": 4,
+          "column_normalized_condition": 109.94302837696924,
+          "maximum_integrand_fit_residual": 6.960297852556026e-07,
+          "held_out_integrand_residual": 1.6482689301229355e-06,
+          "maximum_sample_integrand": 0.06896371145921032,
+          "method": "two horizon Frobenius phases; analytic integration from zero to cutoff",
+          "correction": [
+            1.4066353237510994e-05,
+            -3.424314458040481e-06
+          ],
+          "corrected_z_h": [
+            -0.049595980996732104,
+            0.033501912804248614
+          ],
+          "corrected_horizon_flux": -6.697689771824416e-05
+        },
+        {
+          "order": 1,
+          "window": 10.0,
+          "samples": 11,
+          "rank": 4,
+          "column_normalized_condition": 34.4658392536137,
+          "maximum_integrand_fit_residual": 9.623113394340477e-07,
+          "held_out_integrand_residual": 3.590952042955967e-06,
+          "maximum_sample_integrand": 0.0722858505776433,
+          "method": "two horizon Frobenius phases; analytic integration from zero to cutoff",
+          "correction": [
+            1.4068814936554455e-05,
+            -3.4213661632228685e-06
+          ],
+          "corrected_z_h": [
+            -0.04959597853503306,
+            0.03350191575254343
+          ],
+          "corrected_horizon_flux": -6.697689684631236e-05
+        },
+        {
+          "order": 1,
+          "window": 20.0,
+          "samples": 13,
+          "rank": 4,
+          "column_normalized_condition": 14.75719298531431,
+          "maximum_integrand_fit_residual": 1.2230511113400687e-06,
+          "held_out_integrand_residual": 1.2654891098135927e-06,
+          "maximum_sample_integrand": 0.0722858505776433,
+          "method": "two horizon Frobenius phases; analytic integration from zero to cutoff",
+          "correction": [
+            1.4069635003771296e-05,
+            -3.4205190319133957e-06
+          ],
+          "corrected_z_h": [
+            -0.04959597771496584,
+            0.03350191659967474
+          ],
+          "corrected_horizon_flux": -6.697689638667228e-05
+        },
+        {
+          "order": 2,
+          "window": 5.0,
+          "samples": 9,
+          "rank": 6,
+          "column_normalized_condition": 15138.275277920136,
+          "maximum_integrand_fit_residual": 6.020386706284286e-07,
+          "held_out_integrand_residual": null,
+          "maximum_sample_integrand": 0.06896371145921032,
+          "method": "two horizon Frobenius phases; analytic integration from zero to cutoff",
+          "correction": [
+            1.4021873860333299e-05,
+            -3.411808689717618e-06
+          ],
+          "corrected_z_h": [
+            -0.04959602547610928,
+            0.03350192531001694
+          ],
+          "corrected_horizon_flux": -6.697699587864133e-05
+        },
+        {
+          "order": 2,
+          "window": 10.0,
+          "samples": 11,
+          "rank": 6,
+          "column_normalized_condition": 2304.3880968012386,
+          "maximum_integrand_fit_residual": 6.756566161204038e-07,
+          "held_out_integrand_residual": 1.549107940736094e-05,
+          "maximum_sample_integrand": 0.0722858505776433,
+          "method": "two horizon Frobenius phases; analytic integration from zero to cutoff",
+          "correction": [
+            1.4061562103097456e-05,
+            -3.436030043455236e-06
+          ],
+          "corrected_z_h": [
+            -0.04959598578786652,
+            0.033501901088663195
+          ],
+          "corrected_horizon_flux": -6.69768919267657e-05
+        },
+        {
+          "order": 2,
+          "window": 20.0,
+          "samples": 13,
+          "rank": 6,
+          "column_normalized_condition": 643.4317033899365,
+          "maximum_integrand_fit_residual": 8.150135483359676e-07,
+          "held_out_integrand_residual": 1.2502370582612776e-06,
+          "maximum_sample_integrand": 0.0722858505776433,
+          "method": "two horizon Frobenius phases; analytic integration from zero to cutoff",
+          "correction": [
+            1.40667923804782e-05,
+            -3.4241889756900753e-06
+          ],
+          "corrected_z_h": [
+            -0.04959598055758913,
+            0.03350191292973096
+          ],
+          "corrected_horizon_flux": -6.69768970609976e-05
+        }
+      ]
     }
   ]
 }

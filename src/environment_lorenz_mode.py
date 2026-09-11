@@ -43,3 +43,24 @@ class LorenzMetricMode:
         if self.ellmin!=abs(self.m):
             result['ellmin']=self.ellmin
         return result
+
+
+class ConjugateMetricMode:
+    """Opposite Fourier mode of the same real retarded particle metric.
+
+    This conjugates only h, not the complex background cloud. The resulting
+    scalar channels still need separate source projections and radial solves.
+    """
+    def __init__(self,base):
+        self.base=base
+        self.r0,self.a,self.ellmax,self.ellmin=base.r0,base.a,base.ellmax,base.ellmin
+        self.m,self.omega=-base.m,-base.omega
+
+    def __call__(self,r,theta):
+        return self.base(r,theta).conjugate()
+
+    @property
+    def provenance(self):
+        # Keep the physical convention identical to a direct reconstruction.
+        # Batch reports separately record which computational route was used.
+        return dict(self.base.provenance,m_g=self.m)
