@@ -1,0 +1,89 @@
+{
+  "status": "vector_digitization_not_author_numerical_data",
+  "source": "https://arxiv.org/src/2501.09806v1",
+  "sha256": "57c8eabfe99a7815a5ecf0586358ba3ec00c5065c3c37eed7a8c40a1ee100fba",
+  "log_y_grid_top": [
+    10.057850000000002,
+    42.8117,
+    75.56557000000001,
+    108.31941
+  ],
+  "log_y_grid_values": [
+    0.1,
+    0.01,
+    0.001,
+    0.0001
+  ],
+  "markers": [
+    {
+      "ell": 2,
+      "pdf_x": 65.06025,
+      "pdf_top": 46.95505000000001,
+      "plotted_value": 0.0074730946320272496
+    },
+    {
+      "ell": 3,
+      "pdf_x": 100.82759999999999,
+      "pdf_top": 40.632490000000004,
+      "plotted_value": 0.011655557116795254
+    },
+    {
+      "ell": 4,
+      "pdf_x": 126.20266,
+      "pdf_top": 49.390395000000005,
+      "plotted_value": 0.006297200926571535
+    },
+    {
+      "ell": 5,
+      "pdf_x": 145.88232,
+      "pdf_top": 56.836850000000005,
+      "plotted_value": 0.0037307970803953715
+    },
+    {
+      "ell": 6,
+      "pdf_x": 161.961955,
+      "pdf_top": 63.185455,
+      "plotted_value": 0.0023876677828246935
+    },
+    {
+      "ell": 7,
+      "pdf_x": 175.5505,
+      "pdf_top": 68.50241,
+      "plotted_value": 0.0016430214305348165
+    },
+    {
+      "ell": 8,
+      "pdf_x": 187.337015,
+      "pdf_top": 72.92445000000001,
+      "plotted_value": 0.001204023576016471
+    },
+    {
+      "ell": 9,
+      "pdf_x": 197.72390000000001,
+      "pdf_top": 76.64953500000001,
+      "plotted_value": 0.0009266277858775332
+    },
+    {
+      "ell": 10,
+      "pdf_x": 207.018015,
+      "pdf_top": 79.8578,
+      "plotted_value": 0.0007395278836017201
+    },
+    {
+      "ell": 11,
+      "pdf_x": 215.422525,
+      "pdf_top": 82.67254500000001,
+      "plotted_value": 0.0006067618300114862
+    },
+    {
+      "ell": 12,
+      "pdf_x": 223.096295,
+      "pdf_top": 85.1882,
+      "plotted_value": 0.0005084091945751095
+    }
+  ],
+  "limitations": [
+    "No formal digitization error bound",
+    "Figure7 angular evaluation and normalization must be checked independently"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "status": "same_source_nodes_not_source_grid_convergence",
+  "checks": [
+    {
+      "ell": 2,
+      "gauss_field": [
+        0.0002943342859500794,
+        0.0002629614574390458
+      ],
+      "continuous_field": [
+        0.00029433429120370285,
+        0.0002629615147240012
+      ],
+      "relative_difference": 1.4574763608548978e-07
+    },
+    {
+      "ell": 4,
+      "gauss_field": [
+        -0.0005666852904506984,
+        -0.0001062683586145942
+      ],
+      "continuous_field": [
+        -0.0005666831613033514,
+        -0.00010626691609450787
+      ],
+      "relative_difference": 4.460561089336974e-06
+    },
+    {
+      "ell": 6,
+      "gauss_field": [
+        -0.0002308406811800804,
+        -6.419154895282273e-06
+      ],
+      "continuous_field": [
+        -0.00023084128913065702,
+        -6.41900557166761e-06
+      ],
+      "relative_difference": 2.710867163280566e-06
+    }
+  ],
+  "input_sha256": "177ad052c61dda666cbf13b4931870ce88e439ccc54c80ba039ca91834708f49",
+  "complete": true
+}
