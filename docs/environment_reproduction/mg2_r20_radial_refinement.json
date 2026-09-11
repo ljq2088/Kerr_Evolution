@@ -1,0 +1,296 @@
+{
+  "status": "completed_radial_refinement_not_global_convergence",
+  "rows": [
+    {
+      "ell": 3,
+      "m": 3,
+      "source_nodes": [
+        88,
+        144
+      ],
+      "inputs": {
+        "forced_mode_nr8_nt18_L18_inner0.0005_outer320_log_h32.json": "d5549cee14d7434185cb044b5f15c18d3add7daacd8271ab5f8bc40f3dcd2736",
+        "forced_mode_nr16_nt18_L18_inner0.0005_outer320_log_h32.json": "e29c8ab6a5629b1a0cb6d01b83ea949474beafb89ca3cc9e29812f908a30c6f5"
+      },
+      "fluxes": {
+        "infinity": {
+          "nr8": 1.3155145535414752e-05,
+          "nr16": 1.3155102335424169e-05,
+          "relative_change": -3.2838854171490794e-06,
+          "amplitude_relative_change": 1.7424586717029448e-06
+        },
+        "horizon": {
+          "nr8": -5.729439680528303e-13,
+          "nr16": -5.729373048459905e-13,
+          "relative_change": -1.1629770468535305e-05,
+          "amplitude_relative_change": 5.860220380162244e-06
+        }
+      }
+    },
+    {
+      "ell": 5,
+      "m": 3,
+      "source_nodes": [
+        88,
+        144
+      ],
+      "inputs": {
+        "forced_mode_nr8_nt18_L18_mg2_sl5_inner0.0005_outer320_log_h32.json": "1925fbd05a140f4e0fe3c3b294cda08b9f38ddcd2b9f74a56a01eb3c6b5b3088",
+        "forced_mode_nr16_nt18_L18_mg2_sl5_inner0.0005_outer320_log_h32.json": "ec786a13b15e31aa8cc8abf7388299c9303f81610315ab673bb38e01c2069ca8"
+      },
+      "fluxes": {
+        "infinity": {
+          "nr8": 2.4077427713301184e-08,
+          "nr16": 2.4077427905418222e-08,
+          "relative_change": 7.979134686308953e-09,
+          "amplitude_relative_change": 1.2417900918964312e-08
+        },
+        "horizon": {
+          "nr8": -1.073629227814188e-15,
+          "nr16": -1.0729865494380774e-15,
+          "relative_change": -0.0005986036514850079,
+          "amplitude_relative_change": 0.0003541913578384658
+        }
+      }
+    },
+    {
+      "ell": 7,
+      "m": 3,
+      "source_nodes": [
+        88,
+        144
+      ],
+      "inputs": {
+        "forced_mode_nr8_nt18_L18_mg2_sl7_inner0.0005_outer320_log_h32.json": "e9ce78c8e82b7e1c35b8ad2c498922ae750b69efab848eb6c88f68c1c4e10c2e",
+        "forced_mode_nr16_nt18_L18_mg2_sl7_inner0.0005_outer320_log_h32.json": "6d8f0ad0ca32f31a90c664ad12fd50b9a3cdda83f36ea8bc1bc78e4d90bb9d69"
+      },
+      "fluxes": {
+        "infinity": {
+          "nr8": 1.1068887450540066e-11,
+          "nr16": 1.1068887681883193e-11,
+          "relative_change": 2.0900305264248686e-08,
+          "amplitude_relative_change": 3.347486475934683e-08
+        },
+        "horizon": {
+          "nr8": -5.409688854977173e-18,
+          "nr16": -5.403689185318972e-18,
+          "relative_change": -0.0011090600252694482,
+          "amplitude_relative_change": 0.004108581761317369
+        }
+      }
+    },
+    {
+      "ell": 9,
+      "m": 3,
+      "source_nodes": [
+        88,
+        144
+      ],
+      "inputs": {
+        "forced_mode_nr8_nt18_L18_mg2_sl9_inner0.0005_outer320_log_h32.json": "77ac01c5c67addecca4f455f35f88dddcbb93548bf5b4420345e88ee7f6bbae9",
+        "forced_mode_nr16_nt18_L18_mg2_sl9_inner0.0005_outer320_log_h32.json": "bf8d848b07ee87b72af342a998c85908bfe562171ae1178946662f21782404b2"
+      },
+      "fluxes": {
+        "infinity": {
+          "nr8": 1.7597771725900695e-15,
+          "nr16": 1.7597771491091799e-15,
+          "relative_change": -1.3343103844043469e-08,
+          "amplitude_relative_change": 4.523012032561983e-08
+        },
+        "horizon": {
+          "nr8": -1.1234667447803247e-19,
+          "nr16": -1.1085976844793896e-19,
+          "relative_change": -0.013234980358802217,
+          "amplitude_relative_change": 0.028995201996553845
+        }
+      }
+    },
+    {
+      "ell": 11,
+      "m": 3,
+      "source_nodes": [
+        88,
+        144
+      ],
+      "inputs": {
+        "forced_mode_nr8_nt18_L18_mg2_sl11_inner0.0005_outer320_log_h32.json": "01c1d9e0aa688f8cf5521ddaa89ddc3eb3a0cfc8f3f3f1b988c529d7fd6c815e",
+        "forced_mode_nr16_nt18_L18_mg2_sl11_inner0.0005_outer320_log_h32.json": "febca613594021de3d9f9de263ad01a0224514df03d879d14dfc364958b8afcf"
+      },
+      "fluxes": {
+        "infinity": {
+          "nr8": 1.2177729252652086e-19,
+          "nr16": 1.2177731978581145e-19,
+          "relative_change": 2.238454315239835e-07,
+          "amplitude_relative_change": 3.465526542852683e-07
+        },
+        "horizon": {
+          "nr8": -1.1438150601085523e-20,
+          "nr16": -1.2727124097834125e-20,
+          "relative_change": 0.11269072612370357,
+          "amplitude_relative_change": 0.0972859071861742
+        }
+      }
+    },
+    {
+      "ell": 1,
+      "m": -1,
+      "source_nodes": [
+        88,
+        144
+      ],
+      "inputs": {
+        "forced_mode_nr8_nt18_L18_mg-2_sl1_inner0.0005_outer320_log_h32.json": "c405f15552b78a51e44f9ef19fc96576804534f25bfd35859197c2885a605e82",
+        "forced_mode_nr16_nt18_L18_mg-2_sl1_inner0.0005_outer320_log_h32.json": "2ea035675284c6f3c97895db5ad971411961bc854771818989d67df0608be0c0"
+      },
+      "fluxes": {
+        "infinity": {
+          "nr8": -0.0,
+          "nr16": -0.0,
+          "relative_change": null,
+          "amplitude_relative_change": null
+        },
+        "horizon": {
+          "nr8": -1.5222259417522308e-08,
+          "nr16": -1.522225860108409e-08,
+          "relative_change": -5.363449628870143e-08,
+          "amplitude_relative_change": 5.083636397132892e-08
+        }
+      }
+    },
+    {
+      "ell": 3,
+      "m": -1,
+      "source_nodes": [
+        88,
+        144
+      ],
+      "inputs": {
+        "forced_mode_nr8_nt18_L18_mg-2_sl3_inner0.0005_outer320_log_h32.json": "3155342d0eab716d9d560dfcf19a3d803ac8446ba34865a567a6b2e88c9bee29",
+        "forced_mode_nr16_nt18_L18_mg-2_sl3_inner0.0005_outer320_log_h32.json": "0fd360246a0d8e2cf4db2b6252f288dd63d33cb4f9620c8b427fcc92d131c7b2"
+      },
+      "fluxes": {
+        "infinity": {
+          "nr8": -0.0,
+          "nr16": -0.0,
+          "relative_change": null,
+          "amplitude_relative_change": null
+        },
+        "horizon": {
+          "nr8": -2.34315464208814e-14,
+          "nr16": -2.3431201923567746e-14,
+          "relative_change": -1.4702286714962653e-05,
+          "amplitude_relative_change": 4.7342947111772725e-05
+        }
+      }
+    },
+    {
+      "ell": 5,
+      "m": -1,
+      "source_nodes": [
+        88,
+        144
+      ],
+      "inputs": {
+        "forced_mode_nr8_nt18_L18_mg-2_sl5_inner0.0005_outer320_log_h32.json": "9f60157caf5e7a674c4738425413bbc39ba9b05c6366824b602f9cc563b04306",
+        "forced_mode_nr16_nt18_L18_mg-2_sl5_inner0.0005_outer320_log_h32.json": "62f7c3da71df25cbb206176f804aeb6a08fb8874a9914fa12c053ecd905d5217"
+      },
+      "fluxes": {
+        "infinity": {
+          "nr8": -0.0,
+          "nr16": -0.0,
+          "relative_change": null,
+          "amplitude_relative_change": null
+        },
+        "horizon": {
+          "nr8": -1.2870444588724716e-16,
+          "nr16": -1.2858875506765154e-16,
+          "relative_change": -0.0008988875154861686,
+          "amplitude_relative_change": 0.00046849283591785933
+        }
+      }
+    },
+    {
+      "ell": 7,
+      "m": -1,
+      "source_nodes": [
+        88,
+        144
+      ],
+      "inputs": {
+        "forced_mode_nr8_nt18_L18_mg-2_sl7_inner0.0005_outer320_log_h32.json": "cb939ba658a0a055c691eb0d205658d6aa87ea89706aec0782a62294a092b771",
+        "forced_mode_nr16_nt18_L18_mg-2_sl7_inner0.0005_outer320_log_h32.json": "bbe5625849e7956206356a42717d1276901c29094cd4cdd4e7f7b4a1db512d62"
+      },
+      "fluxes": {
+        "infinity": {
+          "nr8": -0.0,
+          "nr16": -0.0,
+          "relative_change": null,
+          "amplitude_relative_change": null
+        },
+        "horizon": {
+          "nr8": -1.3659957137680044e-18,
+          "nr16": -1.3553560856113559e-18,
+          "relative_change": -0.007788917673321127,
+          "amplitude_relative_change": 0.0115737807258197
+        }
+      }
+    },
+    {
+      "ell": 9,
+      "m": -1,
+      "source_nodes": [
+        88,
+        144
+      ],
+      "inputs": {
+        "forced_mode_nr8_nt18_L18_mg-2_sl9_inner0.0005_outer320_log_h32.json": "64dbea0d828f4968c7a158b91960e6f9fca137e9ab59bdd86c790586010128fa",
+        "forced_mode_nr16_nt18_L18_mg-2_sl9_inner0.0005_outer320_log_h32.json": "ac5eb9b2ab686c1990f1de2f85bd546bf0fb9433ec8ef9a4a7e8491e22360552"
+      },
+      "fluxes": {
+        "infinity": {
+          "nr8": -0.0,
+          "nr16": -0.0,
+          "relative_change": null,
+          "amplitude_relative_change": null
+        },
+        "horizon": {
+          "nr8": -4.73003257903918e-20,
+          "nr16": -4.818517226544815e-20,
+          "relative_change": 0.018706984788593006,
+          "amplitude_relative_change": 0.05085918433975541
+        }
+      }
+    },
+    {
+      "ell": 11,
+      "m": -1,
+      "source_nodes": [
+        88,
+        144
+      ],
+      "inputs": {
+        "forced_mode_nr8_nt18_L18_mg-2_sl11_inner0.0005_outer320_log_h32.json": "ed746f21a9f13403822fe7331da31abee1c4330778fcbad437dfc8504d8da9e6",
+        "forced_mode_nr16_nt18_L18_mg-2_sl11_inner0.0005_outer320_log_h32.json": "5b11708f78f7acf4a276391292b9a0d37e842c3123191cf6b3f6c39a59e00827"
+      },
+      "fluxes": {
+        "infinity": {
+          "nr8": -0.0,
+          "nr16": -0.0,
+          "relative_change": null,
+          "amplitude_relative_change": null
+        },
+        "horizon": {
+          "nr8": -4.990863087441342e-21,
+          "nr16": -5.9841784689468855e-21,
+          "relative_change": 0.1990267743479186,
+          "amplitude_relative_change": 0.13843627465876007
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "First logarithmic panel remains at32 points",
+    "Fixed metric cutoff and angular order",
+    "Two grids only; no full convergence claim"
+  ]
+}
