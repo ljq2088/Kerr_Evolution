@@ -1,0 +1,80 @@
+{
+  "status": "local_high_l_boundary_audit_not_global_accuracy",
+  "parameters": {
+    "a": 0.8771530275949366,
+    "r0": 20,
+    "theta": 1.1,
+    "outer_boundaries": [
+      2000,
+      8000
+    ]
+  },
+  "cases": [
+    {
+      "m": 1,
+      "ell": 17,
+      "r": 10.0,
+      "relative_value_gradient_change": 3.8842947627704776e-08,
+      "reference_scale": 2.0629195966245196e-08,
+      "series_last_terms": [
+        1.3802711291815777,
+        0.028643820339348907
+      ]
+    },
+    {
+      "m": 1,
+      "ell": 17,
+      "r": 30.0,
+      "relative_value_gradient_change": 4.5442001471811726e-08,
+      "reference_scale": 5.738439236926802e-06,
+      "series_last_terms": [
+        1.3802711291815777,
+        0.028643820339348907
+      ]
+    },
+    {
+      "m": 1,
+      "ell": 17,
+      "r": 300.0,
+      "relative_value_gradient_change": 1.7696154097666307e-10,
+      "reference_scale": 6.337148168180124e-22,
+      "series_last_terms": [
+        1.3802711291815777,
+        0.028643820339348907
+      ]
+    },
+    {
+      "m": 2,
+      "ell": 18,
+      "r": 10.0,
+      "relative_value_gradient_change": 1.5848624411267269e-07,
+      "reference_scale": 1.385710425281864e-08,
+      "series_last_terms": [
+        2.274762037106013,
+        0.0009069425566048226
+      ]
+    },
+    {
+      "m": 2,
+      "ell": 18,
+      "r": 30.0,
+      "relative_value_gradient_change": 4.732755508394544e-08,
+      "reference_scale": 5.327156820389455e-06,
+      "series_last_terms": [
+        2.274762037106013,
+        0.0009069425566048226
+      ]
+    },
+    {
+      "m": 2,
+      "ell": 18,
+      "r": 300.0,
+      "relative_value_gradient_change": 6.864044637617598e-10,
+      "reference_scale": 9.521503839236712e-23,
+      "series_last_terms": [
+        2.274762037106013,
+        0.0009069425566048226
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "status": "finite_resolution_comparison_not_reproduction",
+  "parameters": {
+    "alpha": 0.3,
+    "rp": 20,
+    "metric_ellmax": 6,
+    "nr": 8,
+    "nt": 10,
+    "horizon_order": 32,
+    "inner_offset": 0.0005,
+    "outer_source_cutoff": 320
+  },
+  "modes": [
+    {
+      "ell": 2,
+      "m": 2,
+      "file": "forced_mode_nr8_nt10_L6_mg1_sl2_inner0.0005_outer320_log_h32.json",
+      "computed": 1.3412052119916453e-06,
+      "digitized": 1.2777284288186083e-06,
+      "relative_difference": 0.04967940114765068
+    },
+    {
+      "ell": 3,
+      "m": 3,
+      "file": "forced_mode_nr8_nt10_L6_inner0.0005_outer320_log_h32.json",
+      "computed": 1.3155141907316334e-05,
+      "digitized": 1.2517190009296099e-05,
+      "relative_difference": 0.05096606327350228
+    },
+    {
+      "ell": 4,
+      "m": 2,
+      "file": "forced_mode_nr8_nt10_L6_mg1_sl4_inner0.0005_outer320_log_h32.json",
+      "computed": 4.834317690142806e-08,
+      "digitized": 4.594494783286693e-08,
+      "relative_difference": 0.05219788424366323
+    },
+    {
+      "ell": 4,
+      "m": 4,
+      "file": "forced_mode_nr8_nt10_L6_mg3_sl4_inner0.0005_outer320_log_h32.json",
+      "computed": 3.5204381477499386e-06,
+      "digitized": 3.3547841868696594e-06,
+      "relative_difference": 0.049378425452413444
+    },
+    {
+      "ell": 5,
+      "m": 3,
+      "file": "forced_mode_nr8_nt10_L6_mg2_sl5_inner0.0005_outer320_log_h32.json",
+      "computed": 2.406410968955996e-08,
+      "digitized": 2.2915713437700764e-08,
+      "relative_difference": 0.05011392095564715
+    },
+    {
+      "ell": 5,
+      "m": 5,
+      "file": "forced_mode_nr8_nt10_L6_mg4_sl5_inner0.0005_outer320_log_h32.json",
+      "computed": 8.980728610317368e-07,
+      "digitized": 8.571090731208459e-07,
+      "relative_difference": 0.04779296964123403
+    },
+    {
+      "ell": 6,
+      "m": 2,
+      "file": "forced_mode_nr8_nt10_L6_mg1_sl6_inner0.0005_outer320_log_h32.json",
+      "computed": 5.126370992237206e-12,
+      "digitized": 6.2232911628054575e-12,
+      "relative_difference": -0.17626046120486516
+    },
+    {
+      "ell": 6,
+      "m": 4,
+      "file": "forced_mode_nr8_nt10_L6_mg3_sl6_inner0.0005_outer320_log_h32.json",
+      "computed": 5.8729470109784126e-09,
+      "digitized": 6.864491320153966e-09,
+      "relative_difference": -0.14444541670034683
+    },
+    {
+      "ell": 6,
+      "m": 6,
+      "file": "forced_mode_nr8_nt10_L6_mg5_sl6_inner0.0005_outer320_log_h32.json",
+      "computed": 1.9952722026198246e-07,
+      "digitized": 2.0587954296004627e-07,
+      "relative_difference": -0.030854559937004367
+    }
+  ],
+  "finite_infinity_total": 1.9192670708324595e-05,
+  "finite_horizon_total": -6.86671045257455e-05,
+  "sum_figure6_ell_le6": 1.8288422616947143e-05,
+  "figure2_horizon_magnitude_inferred_unit_cloud_mass": 5.176375531716324e-05,
+  "limitations": [
+    "Raw finite source cutoffs, no horizon-tail correction",
+    "Metric ell cutoff below paper target 18",
+    "Scalar ell=7..12 of paper Fig.6 not present",
+    "Figure 2/6 normalization relationship inferred from cross-figure closure"
+  ]
+}
