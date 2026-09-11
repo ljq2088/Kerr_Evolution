@@ -1,0 +1,48 @@
+{
+  "status": "local_precision_diagnostic_not_full_precision_solution",
+  "parameters": {
+    "a": 0.8771530275949366,
+    "r0": 20.0,
+    "theta": 1.1,
+    "ell": 18,
+    "m": 1,
+    "taylor_order": 8,
+    "angular_backend": "dense-real"
+  },
+  "cases": [
+    {
+      "r": 20.00005,
+      "precision": "double",
+      "metric_scale": 0.03585351381947702,
+      "maximum_lorenz_constraint": 1.1556073268931343e-06,
+      "maximum_einstein_residual": 9.316574243226902e-11
+    },
+    {
+      "r": 20.00005,
+      "precision": "extended",
+      "metric_scale": 0.035852627540028825,
+      "maximum_lorenz_constraint": 3.110237821689393e-07,
+      "maximum_einstein_residual": 9.307186809724013e-12
+    },
+    {
+      "r": 30.0,
+      "precision": "double",
+      "metric_scale": 1.7763164735267202e-05,
+      "maximum_lorenz_constraint": 3.3606654625350354e-11,
+      "maximum_einstein_residual": 4.140987634003073e-14
+    },
+    {
+      "r": 30.0,
+      "precision": "extended",
+      "metric_scale": 1.776366063467307e-05,
+      "maximum_lorenz_constraint": 4.54309280496692e-11,
+      "maximum_einstein_residual": 3.0140908675826256e-15
+    }
+  ],
+  "method": "nonstatic_metric followed by lorenz_constraint and linearized_einstein; only Jet.coefficient_dtype changes",
+  "limitations": [
+    "Radial and angular eigen inputs remain double precision",
+    "Source amplitudes held fixed in process caches",
+    "No uniform improvement of the Lorenz constraint at both points"
+  ]
+}

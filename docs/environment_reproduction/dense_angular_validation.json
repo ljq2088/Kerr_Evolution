@@ -1,0 +1,180 @@
+{
+  "status": "completed_diagnostics_not_flux_convergence",
+  "inputs_sha256": {
+    "metric_tensor_matching_q24_smooth_m1_r20_a0.877153027595.json": "b531370573de6fbdcaf28a86e674744682e9a45ada5a877b77881d97ac03ff12",
+    "metric_tensor_matching_q24_smooth_m1_r20_a0.877153027595_denseangular.json": "dc4dda3cc2447cb29c4fb41e7d4bbd58eaa42efaca857b93d00cf99f7b188c84",
+    "dense_source_mg2_selected_nodes.json": "c4ff6357c7ce362d403f40adf01fa83519b9b3792ada0174ffa08b03b8adeb5a"
+  },
+  "matching_at_L18": {
+    "maximum_value_jump": {
+      "baseline": 0.0014114958036815669,
+      "dense": 6.491288062423033e-05,
+      "reduction_factor": 21.74446412034118
+    },
+    "maximum_derivative_error": {
+      "baseline": 0.001202136262700031,
+      "dense": 6.166694533368305e-05,
+      "reduction_factor": 19.494013465320993
+    }
+  },
+  "selected_source_comparisons": [
+    {
+      "input": "forced_mode_nr8_nt18_L18_inner0.0005_outer320_log_h32.json",
+      "sample_index": 55,
+      "r": 19.841159425990146,
+      "ell": 3,
+      "m": 3,
+      "original_source": [
+        -0.01471965902933954,
+        -4.608709340871351e-05
+      ],
+      "dense_source": [
+        -0.014719658713072882,
+        -4.608768962698534e-05
+      ],
+      "absolute_difference": 6.749080137804968e-10,
+      "relative_difference": 4.585056653598104e-08
+    },
+    {
+      "input": "forced_mode_nr8_nt18_L18_mg2_sl7_inner0.0005_outer320_log_h32.json",
+      "sample_index": 55,
+      "r": 19.841159425990146,
+      "ell": 7,
+      "m": 3,
+      "original_source": [
+        -0.004268929816945483,
+        1.0272467590800387e-09
+      ],
+      "dense_source": [
+        -0.004268930503829715,
+        -2.827640643539409e-10
+      ],
+      "absolute_difference": 1.4791681126189506e-09,
+      "relative_difference": 3.464962358358205e-07
+    },
+    {
+      "input": "forced_mode_nr8_nt18_L18_mg2_sl9_inner0.0005_outer320_log_h32.json",
+      "sample_index": 55,
+      "r": 19.841159425990146,
+      "ell": 9,
+      "m": 3,
+      "original_source": [
+        0.0031789717360199265,
+        3.897680121464484e-09
+      ],
+      "dense_source": [
+        0.0031789719240074075,
+        -1.1379575322520668e-10
+      ],
+      "absolute_difference": 4.0158782334937815e-09,
+      "relative_difference": 1.2632632709464236e-06
+    },
+    {
+      "input": "forced_mode_nr8_nt18_L18_inner0.0005_outer320_log_h32.json",
+      "sample_index": 56,
+      "r": 20.397101435024638,
+      "ell": 3,
+      "m": 3,
+      "original_source": [
+        -0.014777062930873462,
+        -4.6048892674091103e-05
+      ],
+      "dense_source": [
+        -0.01477706286384193,
+        -4.604965502212608e-05
+      ],
+      "absolute_difference": 7.652893260886794e-10,
+      "relative_difference": 5.178874948621016e-08
+    },
+    {
+      "input": "forced_mode_nr8_nt18_L18_mg2_sl7_inner0.0005_outer320_log_h32.json",
+      "sample_index": 56,
+      "r": 20.397101435024638,
+      "ell": 7,
+      "m": 3,
+      "original_source": [
+        -0.004063266408602105,
+        3.477587781865679e-09
+      ],
+      "dense_source": [
+        -0.004063267533769251,
+        -1.1062032952363269e-10
+      ],
+      "absolute_difference": 3.760483819573224e-09,
+      "relative_difference": 9.254829591312903e-07
+    },
+    {
+      "input": "forced_mode_nr8_nt18_L18_mg2_sl9_inner0.0005_outer320_log_h32.json",
+      "sample_index": 56,
+      "r": 20.397101435024638,
+      "ell": 9,
+      "m": 3,
+      "original_source": [
+        0.002949179952414233,
+        8.102238317122805e-10
+      ],
+      "dense_source": [
+        0.0029491791745246032,
+        -1.170910595815176e-10
+      ],
+      "absolute_difference": 1.2103822470157925e-09,
+      "relative_difference": 4.1041315434987743e-07
+    },
+    {
+      "input": "forced_mode_nr8_nt18_L18_inner0.0005_outer320_log_h32.json",
+      "sample_index": 64,
+      "r": 40.794202870049276,
+      "ell": 3,
+      "m": 3,
+      "original_source": [
+        -0.004324629364445486,
+        5.458969458207204e-06
+      ],
+      "dense_source": [
+        -0.004324629364441175,
+        5.458969443707925e-06
+      ],
+      "absolute_difference": 1.5126533001567476e-14,
+      "relative_difference": 3.497761235834327e-12
+    },
+    {
+      "input": "forced_mode_nr8_nt18_L18_mg2_sl7_inner0.0005_outer320_log_h32.json",
+      "sample_index": 64,
+      "r": 40.794202870049276,
+      "ell": 7,
+      "m": 3,
+      "original_source": [
+        -5.795308858147254e-05,
+        -9.070225054302617e-12
+      ],
+      "dense_source": [
+        -5.7953088571411014e-05,
+        -9.0836284057872e-12
+      ],
+      "absolute_difference": 1.675959768393154e-14,
+      "relative_difference": 2.8919248471753304e-10
+    },
+    {
+      "input": "forced_mode_nr8_nt18_L18_mg2_sl9_inner0.0005_outer320_log_h32.json",
+      "sample_index": 64,
+      "r": 40.794202870049276,
+      "ell": 9,
+      "m": 3,
+      "original_source": [
+        9.587022370809032e-06,
+        -2.1077760601158232e-13
+      ],
+      "dense_source": [
+        9.58702236407726e-06,
+        -1.9445129837373385e-13
+      ],
+      "absolute_difference": 1.7659702141523297e-14,
+      "relative_difference": 1.8420424463902677e-09
+    }
+  ],
+  "limitations": [
+    "Dense backend does not eliminate the high-L matching error floor",
+    "Selected source nodes do not determine a corrected integrated flux",
+    "Default production angular backend remains unchanged"
+  ]
+}
