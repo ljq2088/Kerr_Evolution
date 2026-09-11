@@ -17,14 +17,21 @@ def main():
     parser.add_argument('coverage',type=Path)
     parser.add_argument('--ellmax',type=int,default=5)
     parser.add_argument('--allow-partial',action='store_true')
+    parser.add_argument('--allow-mixed-discretization',action='store_true')
     args=parser.parse_args()
     folder=args.coverage.parent;coverage=json.loads(args.coverage.read_text())
-    files=sorted({row['file'] for boundary in ('infinity','horizon')
+    sections=('field',) if 'field' in coverage else ('infinity','horizon')
+    files=sorted({row['file'] for boundary in sections
                   for row in coverage[boundary]['modes'] if 'flux' in row and 2<=row['ell']<=args.ellmax})
     reports=[json.loads((folder/name).read_text()) for name in files]
-    wake=EnvironmentalWake(reports,ellmax=args.ellmax,allow_partial=args.allow_partial)
+    wake=EnvironmentalWake(reports,ellmax=args.ellmax,allow_partial=args.allow_partial,
+                           allow_mixed_discretization=args.allow_mixed_discretization)
     rp=1+np.sqrt(1-wake.parameters['a']**2)
-    re=np.geomspace(max(rp+.05,wake.parameters['source_panels'][0]),80.,121)
+    inner=max(rp+.05,wake.radial_domain[0],
+              max(row['numerical']['source_panels'][0] for row in wake.mode_provenance))
+    outer=min(80.,wake.radial_domain[1])
+    if inner>=outer:raise ValueError('No radial range for the requested slices')
+    re=np.geomspace(inner,outer,121)
     ae=np.linspace(-np.pi,np.pi,241)
     r=np.sqrt(re[:-1]*re[1:])[:,None];angle=(ae[:-1]+ae[1:])[None,:]/2
     equatorial=wake.evaluate(r,np.pi/2,angle)
@@ -42,17 +49,22 @@ def main():
     fig.colorbar(im,ax=axes,label=r'$|\delta\Phi|/[q\sqrt{M_c/M}]$')
     missing=', '.join(f'({ell},{m})' for ell,m in wake.missing) or 'none'
     title='Partial scalar response' if wake.missing else 'Finite-mode scalar response'
+    if wake.mixed_discretization:title+=' (mixed discretization)'
     fig.suptitle(f"{title}: alpha={wake.parameters['alpha']}, r_p={wake.parameters['r0']}M, ell=2..{args.ellmax}\nMissing modes: {missing}",fontsize=12)
-    stem=folder/f"wake_diagnostic_rp{wake.parameters['r0']:g}_L{wake.parameters['metric_ellmax']}_sl{args.ellmax}"
+    cutoff=wake.parameters['metric_ellmax']
+    suffix='_mixed' if wake.mixed_discretization else ''
+    stem=folder/f"wake_diagnostic_rp{wake.parameters['r0']:g}_L{cutoff}_sl{args.ellmax}{suffix}"
     fig.savefig(stem.with_suffix('.png'),dpi=160);plt.close(fig)
     np.savez_compressed(stem.with_suffix('.npz'),radial_centers=r[:,0],angle_centers=angle[0],
                         equatorial=equatorial,meridional=meridional)
     report=dict(status=wake.status,parameters=wake.parameters,missing_modes=wake.missing,
+        mixed_discretization=wake.mixed_discretization,mode_provenance=wake.mode_provenance,
+        common_radial_domain=wake.radial_domain,
         included_modes=sorted(wake.modes),time=0,
         coordinates='BL-label embedding x=r sin(theta)cos(phi), y=r sin(theta)sin(phi), z=r cos(theta); not Kerr-Schild Cartesian coordinates',
         quantity='Complex scalar response per q sqrt(Mc/M); not density, total cloud, or rPhi',
         inputs=[dict(file=name,sha256=hashlib.sha256((folder/name).read_bytes()).hexdigest()) for name in files],
-        limitation='Same finite source grid as flux reports. Missing modes are explicitly omitted. Not a paper wake reproduction.')
+        limitation='Each mode retains its recorded finite source grid. Missing modes are explicitly omitted. Mixed discretization requires separate convergence checks. Not a paper wake reproduction.')
     stem.with_suffix('.json').write_text(json.dumps(report,indent=2)+'\n')
     print(stem.with_suffix('.png'),wake.status,wake.missing,flush=True)
 

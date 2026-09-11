@@ -17,10 +17,12 @@ from lorenz_tensor import vector_covariant_derivative
 def angular_couplings(ell):
     x,w=np.polynomial.legendre.leggauss(32)
     theta=np.arccos(x)
-    S,dS,_=angular_mode(theta,ell,0,0.)
+    S,dS,_=angular_mode(theta,ell,0,0.,size=max(20,ell+1))
     result=[]
     for j in range(max(0,ell-2),ell+3,2):
-        T,dT,_=angular_mode(theta,j,0,0.)
+        # Multiplication by cos(theta)^2 reaches ell+2. At c2=0 the
+        # spherical harmonic is exact once the requested degree is present.
+        T,dT,_=angular_mode(theta,j,0,0.,size=max(20,j+1))
         c=2*np.pi*np.dot(w,T*x*x*S)
         d=2*np.pi*np.dot(w,dT*x*x*dS)/(j*(j+1)) if j else 0.
         result.append((j,float(c),float(d)))
@@ -50,7 +52,7 @@ def radial_particular(r0,a,ell,side,endpoint):
 
 
 def _angular_jet(g,ell):
-    S,dS,_=angular_mode(float(g.theta.value.real),ell,0,0.)
+    S,dS,_=angular_mode(float(g.theta.value.real),ell,0,0.,size=max(20,ell+1))
     out=Jet(S,g.order)
     out.c[0,1]=dS
     for n in range(g.order-1):
