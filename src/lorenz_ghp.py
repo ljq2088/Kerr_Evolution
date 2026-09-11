@@ -4,12 +4,28 @@ Spin coefficients are computed from covariant tetrad derivatives, using the
 definitions in 2406.12510v3 Appendix A, rather than importing NP sign tables.
 """
 import numpy as np
+from copy import deepcopy
+from functools import lru_cache
 from lorenz_jet import Jet
+
+
+@lru_cache(maxsize=64,typed=True)
+def _geometry(r,theta,a,order,coefficient_dtype):
+    # Geometry has no Fourier frequency or m dependence. The dtype is part
+    # of the key because diagnostics may switch Taylor coefficient precision.
+    template=KerrGHP.__new__(KerrGHP)
+    template._initialize_geometry(r,theta,a,order)
+    return template.__dict__
 
 
 class KerrGHP:
     def __init__(self,r,theta,a,omega=0.,m=0,order=6):
         self.order,self.omega,self.m=order,omega,m
+        # Jets are mutable. Never share cached arrays with a caller, and
+        # preserve aliases within each independent geometry using deepcopy.
+        self.__dict__.update(deepcopy(_geometry(r,theta,a,order,np.dtype(Jet.coefficient_dtype).str)))
+
+    def _initialize_geometry(self,r,theta,a,order):
         r,t=Jet.variable(r,0,order),Jet.variable(theta,1,order)
         self.r,self.theta,self.a=r,t,a
         s,c=t.sin(),t.cos()

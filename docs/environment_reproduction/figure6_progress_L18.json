@@ -1,0 +1,259 @@
+{
+  "status": "partial_figure6_comparison",
+  "parameters": {
+    "alpha": 0.3,
+    "rp": 20,
+    "metric_ellmax": 18,
+    "nr": 8,
+    "nt": 18,
+    "horizon_order": 32,
+    "inner_offset": 0.0005,
+    "outer_source_cutoff": 320,
+    "green_outer_by_scalar_m": {
+      "2": 4000.0,
+      "0": 4000.0
+    }
+  },
+  "computed_count": 20,
+  "required_count": 36,
+  "modes": [
+    {
+      "ell": 2,
+      "m": 2,
+      "file": "forced_mode_nr8_nt18_L18_mg1_sl2_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "computed": 1.341204879161883e-06,
+      "digitized": 1.2777284288186083e-06,
+      "ratio": 1.0496791406621244
+    },
+    {
+      "ell": 3,
+      "m": 3,
+      "file": "forced_mode_nr8_nt18_L18_inner0.0005_outer320_log_h32.json",
+      "computed": 1.3155145535414752e-05,
+      "digitized": 1.2517190009296099e-05,
+      "ratio": 1.0509663531227749
+    },
+    {
+      "ell": 4,
+      "m": 2,
+      "file": "forced_mode_nr8_nt18_L18_mg1_sl4_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "computed": 4.8344803848697864e-08,
+      "digitized": 4.594494783286693e-08,
+      "ratio": 1.052233295041728
+    },
+    {
+      "ell": 4,
+      "m": 4,
+      "file": "forced_mode_nr8_nt18_L18_mg3_sl4_inner0.0005_outer320_log_h32.json",
+      "computed": 3.5204993195473868e-06,
+      "digitized": 3.3547841868696594e-06,
+      "ratio": 1.049396659649918
+    },
+    {
+      "ell": 5,
+      "m": 3,
+      "file": "forced_mode_nr8_nt18_L18_mg2_sl5_inner0.0005_outer320_log_h32.json",
+      "computed": 2.4077427713301184e-08,
+      "digitized": 2.2915713437700764e-08,
+      "ratio": 1.0506950952567409
+    },
+    {
+      "ell": 5,
+      "m": 5,
+      "file": "forced_mode_nr8_nt18_L18_mg4_sl5_inner0.0005_outer320_log_h32.json",
+      "computed": 8.982983810518522e-07,
+      "digitized": 8.571090731208459e-07,
+      "ratio": 1.0480560867020468
+    },
+    {
+      "ell": 6,
+      "m": 2,
+      "file": "forced_mode_nr8_nt18_L18_mg1_sl6_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "computed": 6.549974350006465e-12,
+      "digitized": 6.2232911628054575e-12,
+      "ratio": 1.0524936369928317
+    },
+    {
+      "ell": 6,
+      "m": 4,
+      "file": "forced_mode_nr8_nt18_L18_mg3_sl6_inner0.0005_outer320_log_h32.json",
+      "computed": 7.20528629633175e-09,
+      "digitized": 6.864491320153966e-09,
+      "ratio": 1.0496460641121679
+    },
+    {
+      "ell": 7,
+      "m": 3,
+      "file": "forced_mode_nr8_nt18_L18_mg2_sl7_inner0.0005_outer320_log_h32.json",
+      "computed": 1.1068887450540066e-11,
+      "digitized": 1.0532649109435135e-11,
+      "ratio": 1.0509120104100467
+    },
+    {
+      "ell": 7,
+      "m": 5,
+      "file": "forced_mode_nr8_nt18_L18_mg4_sl7_inner0.0005_outer320_log_h32.json",
+      "computed": 1.7913687261205092e-09,
+      "digitized": 1.708265096375114e-09,
+      "ratio": 1.0486479703423892
+    },
+    {
+      "ell": 8,
+      "m": 2,
+      "file": "forced_mode_nr8_nt18_L18_mg1_sl8_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "computed": 2.4825498837235456e-16,
+      "digitized": 2.358491918681448e-16,
+      "ratio": 1.0526005470103346
+    },
+    {
+      "ell": 8,
+      "m": 4,
+      "file": "forced_mode_nr8_nt18_L18_mg3_sl8_inner0.0005_outer320_log_h32.json",
+      "computed": 5.1235938029224826e-12,
+      "digitized": 4.879332227975806e-12,
+      "ratio": 1.0500604516220877
+    },
+    {
+      "ell": 9,
+      "m": 3,
+      "file": "forced_mode_nr8_nt18_L18_mg2_sl9_inner0.0005_outer320_log_h32.json",
+      "computed": 1.7597771725900695e-15,
+      "digitized": 1.6903784794288288e-15,
+      "ratio": 1.041055121090213
+    },
+    {
+      "ell": 9,
+      "m": 5,
+      "file": "forced_mode_nr8_nt18_L18_mg4_sl9_inner0.0005_outer320_log_h32.json",
+      "computed": 1.5432451732671743e-12,
+      "digitized": 1.4835332176698066e-12,
+      "ratio": 1.0402498271600265
+    },
+    {
+      "ell": 10,
+      "m": 2,
+      "file": "forced_mode_nr8_nt18_L18_mg1_sl10_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "computed": 3.702198155384351e-21,
+      "digitized": null,
+      "ratio": null
+    },
+    {
+      "ell": 10,
+      "m": 4,
+      "file": "forced_mode_nr8_nt18_L18_mg3_sl10_inner0.0005_outer320_log_h32.json",
+      "computed": 1.448079029566845e-15,
+      "digitized": 1.3994508465868232e-15,
+      "ratio": 1.0347480464202248
+    },
+    {
+      "ell": 11,
+      "m": 3,
+      "file": "forced_mode_nr8_nt18_L18_mg2_sl11_inner0.0005_outer320_log_h32.json",
+      "computed": 1.2177729252652086e-19,
+      "digitized": null,
+      "ratio": null
+    },
+    {
+      "ell": 11,
+      "m": 5,
+      "file": "forced_mode_nr8_nt18_L18_mg4_sl11_inner0.0005_outer320_log_h32.json",
+      "computed": 5.892218936247729e-16,
+      "digitized": 5.702790406333915e-16,
+      "ratio": 1.033216814299088
+    },
+    {
+      "ell": 12,
+      "m": 2,
+      "file": "forced_mode_nr8_nt18_L18_mg1_sl12_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "computed": 2.622040946345618e-26,
+      "digitized": null,
+      "ratio": null
+    },
+    {
+      "ell": 12,
+      "m": 4,
+      "file": "forced_mode_nr8_nt18_L18_mg3_sl12_inner0.0005_outer320_log_h32.json",
+      "computed": 1.9290204840300767e-19,
+      "digitized": null,
+      "ratio": null
+    }
+  ],
+  "missing_modes": [
+    [
+      6,
+      6
+    ],
+    [
+      7,
+      7
+    ],
+    [
+      8,
+      6
+    ],
+    [
+      8,
+      8
+    ],
+    [
+      9,
+      7
+    ],
+    [
+      9,
+      9
+    ],
+    [
+      10,
+      6
+    ],
+    [
+      10,
+      8
+    ],
+    [
+      10,
+      10
+    ],
+    [
+      11,
+      7
+    ],
+    [
+      11,
+      9
+    ],
+    [
+      11,
+      11
+    ],
+    [
+      12,
+      6
+    ],
+    [
+      12,
+      8
+    ],
+    [
+      12,
+      10
+    ],
+    [
+      12,
+      12
+    ]
+  ],
+  "finite_total": null,
+  "inputs_sha256": {
+    "flux_coverage_L18_nt18_i12_h12_f12_m0go4000_m2go4000.json": "2f16443bb1c1236c1e30399dd7ca934926c3376bc58ca514985ca7001e0989e9",
+    "paper_v1_flux_markers.json": "64e3223059d77f8309738f94e05b8142754aaad542e45fd4642f1835be1f1beb"
+  },
+  "limitations": [
+    "No missing mode is assigned zero; no partial sum is called a total",
+    "Values outside displayed flux range remain in this JSON",
+    "Paper markers are digitized, not author numerical data",
+    "Normalization inferred from Figures 2 and 6 closure",
+    "Angular repeatability and source-grid errors remain under investigation"
+  ]
+}

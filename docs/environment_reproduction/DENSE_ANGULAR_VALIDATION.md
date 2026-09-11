@@ -1,0 +1,62 @@
+# 确定性角向求解的统一源检验
+
+本页记录候选算法的验证，默认生产求解仍使用原来的角向实现。
+environment_angular_diagnostic.py 只有被显式安装到独立诊断进程后
+才替换相关函数；单纯导入不会修改生产流程。
+
+## 矩阵与约定
+
+令gamma=a omega，采用角向分离常数A和径向分离常数lambda：
+
+\[
+\frac1{\sin\theta}\partial_\theta(\sin\theta\partial_\theta S)
++\left[\gamma^2\cos^2\theta-2s\gamma\cos\theta+s+A
+-\frac{(m+s\cos\theta)^2}{\sin^2\theta}\right]S=0,
+\qquad \lambda=A+\gamma^2-2m\gamma.
+\]
+
+在自旋加权球谐基底中，记X为乘以cos(theta)的矩阵，D的对角元
+为ell(ell+1)-s(s+1)。实频率下的分离矩阵为
+
+\[
+H=D+2s\gamma X-\gamma^2 X^{(2)}+(\gamma^2-2m\gamma)I,
+\quad X^{(2)}_{jk}=\langle j|\cos^2\theta|k\rangle.
+\]
+
+X为三对角，X^(2)为五对角。这里保留pybhpt原矩阵的投影边缘项，
+没有用简单截断后的X平方替代。H在实频率下为Hermitian矩阵，
+因此使用确定性的稠密Hermitian求解，按本征值选取目标ell分支，
+并使目标球谐系数为正。矩阵维数、场的单位范数和相位约定均保留。
+复频率不由该诊断处理。
+
+此前隔离测试只改变真空齐次角因子，见HIGH_L_DIAGNOSTICS.md。
+本轮 --dense-angular 匹配进程和 report_dense_source.py 都在任何
+源振幅生成前安装该后端，从而统一源振幅与真空角因子的算法。
+匹配输出使用独立的 _denseangular 文件名，且记录angular_backend，
+恢复时拒绝不同后端的数据。没有覆写原始匹配或标量源。
+
+采用该候选后端，17项针对性测试通过，涵盖角向微分方程、
+C++径向分离常数、单位范数、真空Einstein/Lorenz身份、曲率、
+Maxwell重构与公开源振幅。它们仍不能代替目标Lg=18点源及通量
+收敛。q24、rp=20M、mg=1、Lg=18匹配，以及mg=2的3个真实径向
+节点对照正在分别计算，只有完成的报告才用于结论。
+
+## 几何缓存
+
+Kerr背景的度规、联络、自旋系数及其Taylor系数只依赖r、theta、a、
+Taylor阶数和系数精度，不依赖Fourier的omega、m。现缓存最多64个
+几何点，并为每次调用深复制Jet数组，保持实例独立。omega、m仍
+分别存放，时间和方位导数继续使用各自模态的频率。
+
+测试覆盖独立实例的可变数组隔离、对称分量别名、频率/方位导数、
+全部度规及联络Taylor系数与直接构造的一致性，以及double/extended
+精度缓存分离。安装确定性角函数后，在ell=2、6、18的实际度规
+比较中，缓存前后张量逐位相同。单点计时显示提速，但并发负载下
+该计时不能代表整批任务的加速比。生产角向求解没有因此改变；
+已在运行的进程继续使用其启动时的实现。
+本次包含缓存和角函数检查的完整默认回归测试为94项通过。
+
+图6的Lg=18阶段性对照已扩展到20/36个无穷远通道，图中灰圈是
+论文矢量标记、彩色叉是已计算结果。下图保留百分比差异；缺失
+通道不赋零，总通量仍为null。figure6_progress_L18.json保存全部
+数值及输入SHA256，包括图示纵轴范围外的微弱通道。

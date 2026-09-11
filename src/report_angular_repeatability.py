@@ -6,27 +6,13 @@ Source amplitudes already cached by the baseline are deliberately held fixed.
 import json
 from pathlib import Path
 import numpy as np
-from scipy.linalg import eigh
 from pybhpt.radial import RadialTeukolsky
 from pybhpt.swsh import SpinWeightedSpheroidalHarmonic
+from environment_angular_diagnostic import DenseRealHarmonic
 import lorenz_metric
 import lorenz_chi
 import lorenz_spin1
 import lorenz_spin1_chiral
-
-
-class DenseRealHarmonic(SpinWeightedSpheroidalHarmonic):
-    def generate_eigs(self):
-        if np.imag(self.spheroidicity)!=0:
-            raise ValueError('This diagnostic requires real frequency')
-        index=self.j-self.jmin
-        size=index+round(20+abs(2*self.spheroidicity))+2
-        matrix=self.sparse_matrix(size).toarray()
-        if np.max(abs(matrix-matrix.T.conj()))>1e-12:
-            raise ValueError('Angular matrix is not Hermitian')
-        eigen,vectors=eigh(matrix,driver='evd')
-        vector=vectors[:,index]*np.sign(vectors[index,index])
-        return eigen[index],vector
 
 
 def main():

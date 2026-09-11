@@ -4,6 +4,7 @@
     "paper_v1_flux_markers.json": "64e3223059d77f8309738f94e05b8142754aaad542e45fd4642f1835be1f1beb",
     "scalar_batch_mg1_e732460f3ebb.json": "b04dca983c8ac9a8d5c748f5fc8770cca53331261167886746326087a2ad6a97",
     "scalar_batch_mg2_55f1591fe654.json": "9e386c74943b6b9f5f3df5f1503d46f5d4591337a80bbe12182680a4ef1418f5",
+    "scalar_batch_mg3_6e43371e7529.json": "c3906f14a49bc1fe54c433ad4c79bef65220acd2d69a4690623838f40736b1b3",
     "scalar_batch_mg4_4870f8fe05d6.json": "b9379bb8857cf419df87f74b25e331cc2274075c3b17f872b595ddf9800f4123",
     "forced_mode_nr8_nt18_L18_mg1_sl12_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "c91980a16e3df1b3d37f9b3436ccc4737624a6c4e2f7cf742053ca2d91c643ae",
     "forced_mode_nr8_nt18_L18_mg1_sl12_gh0.0001_go8000_inner0.0005_outer320_log_h32.json": "e60908f80fe63648453c3c5906677056f8b798ac21b7d5d6b7abe4cb7e86b69f"
@@ -74,6 +75,38 @@
       "ratio": 1.041055121090213
     },
     {
+      "ell": 4,
+      "m": 4,
+      "source": "forced_mode_nr8_nt18_L18_mg3_sl4_inner0.0005_outer320_log_h32.json",
+      "computed": 3.5204993195473868e-06,
+      "digitized": 3.3547841868696594e-06,
+      "ratio": 1.049396659649918
+    },
+    {
+      "ell": 6,
+      "m": 4,
+      "source": "forced_mode_nr8_nt18_L18_mg3_sl6_inner0.0005_outer320_log_h32.json",
+      "computed": 7.20528629633175e-09,
+      "digitized": 6.864491320153966e-09,
+      "ratio": 1.0496460641121679
+    },
+    {
+      "ell": 8,
+      "m": 4,
+      "source": "forced_mode_nr8_nt18_L18_mg3_sl8_inner0.0005_outer320_log_h32.json",
+      "computed": 5.1235938029224826e-12,
+      "digitized": 4.879332227975806e-12,
+      "ratio": 1.0500604516220877
+    },
+    {
+      "ell": 10,
+      "m": 4,
+      "source": "forced_mode_nr8_nt18_L18_mg3_sl10_inner0.0005_outer320_log_h32.json",
+      "computed": 1.448079029566845e-15,
+      "digitized": 1.3994508465868232e-15,
+      "ratio": 1.0347480464202248
+    },
+    {
       "ell": 5,
       "m": 5,
       "source": "forced_mode_nr8_nt18_L18_mg4_sl5_inner0.0005_outer320_log_h32.json",
@@ -120,7 +153,7 @@
     }
   },
   "limitations": [
-    "Only completed m=2, m=3 and m=5 infinity sectors compared; no missing-mode sum",
+    "Only completed m=2..5 infinity sectors compared; no missing-mode sum",
     "Paper values digitized from vector figure, not author numerical data",
     "Units inferred as q^2 Mc/M by independent Figures 2 and 6 closure",
     "Outer-boundary audit does not establish source-grid or metric convergence",
