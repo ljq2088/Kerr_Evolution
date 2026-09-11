@@ -1,0 +1,174 @@
+{
+  "status": "partial_mode_field",
+  "parameters": {
+    "alpha": 0.3,
+    "a": 0.8771530275949366,
+    "r0": 20.0,
+    "cloud_mass": 1.0,
+    "metric_ellmax": 6,
+    "angular_order": 10,
+    "radial_order": 8,
+    "source_panels": [
+      1.4807109600800843,
+      3.0,
+      6.0,
+      12.0,
+      20.0,
+      40.0,
+      80.0,
+      160.0,
+      320.0
+    ],
+    "green_outer_radius": 1000.0,
+    "green_horizon_offset": 0.0001,
+    "horizon_order": 32,
+    "horizon_log": true,
+    "infinity_method": "series"
+  },
+  "missing_modes": [
+    [
+      3,
+      1
+    ],
+    [
+      5,
+      1
+    ]
+  ],
+  "included_modes": [
+    [
+      2,
+      -2
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      -3
+    ],
+    [
+      3,
+      -1
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      -4
+    ],
+    [
+      4,
+      -2
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      5,
+      -5
+    ],
+    [
+      5,
+      -3
+    ],
+    [
+      5,
+      -1
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      5,
+      5
+    ]
+  ],
+  "time": 0,
+  "coordinates": "BL-label embedding x=r sin(theta)cos(phi), y=r sin(theta)sin(phi), z=r cos(theta); not Kerr-Schild Cartesian coordinates",
+  "quantity": "Complex scalar response per q sqrt(Mc/M); not density, total cloud, or rPhi",
+  "inputs": [
+    {
+      "file": "forced_mode_nr8_nt10_L6_inner0.0005_outer320_log_h32.json",
+      "sha256": "34fd7eee2939ccc8adafd7e4dbd2ed744ce7385933ba4384b5759d26630726ef"
+    },
+    {
+      "file": "forced_mode_nr8_nt10_L6_mg-1_sl2_inner0.0005_outer320_log_h32.json",
+      "sha256": "96918455d397e17fc1e66b917f4c9dbadb10b3f8a6ab574ecb1c108d31802f72"
+    },
+    {
+      "file": "forced_mode_nr8_nt10_L6_mg-1_sl4_inner0.0005_outer320_log_h32.json",
+      "sha256": "62693fc048c2d4e4f4cef4474e618265107f5fa6a1ae8f30d78e641fcaa50e5d"
+    },
+    {
+      "file": "forced_mode_nr8_nt10_L6_mg-2_sl3_inner0.0005_outer320_log_h32.json",
+      "sha256": "5b779a95b1f84ba8c4dca357ddc4a2079d5678f423ec5182fab45844b8d571d3"
+    },
+    {
+      "file": "forced_mode_nr8_nt10_L6_mg-2_sl5_inner0.0005_outer320_log_h32.json",
+      "sha256": "cbd27f8ec1d66fd33548c8a1e04fb47c94946b7c74af547e0d92a331594b53cf"
+    },
+    {
+      "file": "forced_mode_nr8_nt10_L6_mg-3_sl2_inner0.0005_outer320_log_h32.json",
+      "sha256": "9552bb2bb15605ad82c5e1d8f0b75d6be5a1c9b0f0737f3dbc89d29467732188"
+    },
+    {
+      "file": "forced_mode_nr8_nt10_L6_mg-3_sl4_inner0.0005_outer320_log_h32.json",
+      "sha256": "139d3f19a102e5de07fdc86a3bff4e5a519326b55e099a9920657d8f8ee824c2"
+    },
+    {
+      "file": "forced_mode_nr8_nt10_L6_mg-4_sl3_inner0.0005_outer320_log_h32.json",
+      "sha256": "80ff138d31cb9df98c37a5487066b24db527c185eae946e963e03dc5e9e3e01e"
+    },
+    {
+      "file": "forced_mode_nr8_nt10_L6_mg-4_sl5_inner0.0005_outer320_log_h32.json",
+      "sha256": "9f95ad38a796f026e06a3af542b0265220f225b7a3e695ed1a5f5287b12990dc"
+    },
+    {
+      "file": "forced_mode_nr8_nt10_L6_mg-5_sl4_inner0.0005_outer320_log_h32.json",
+      "sha256": "252f7b68c4e0d226b022a175d2e81380b9593f481ff8630b929d3e53172054e7"
+    },
+    {
+      "file": "forced_mode_nr8_nt10_L6_mg-6_sl5_inner0.0005_outer320_log_h32.json",
+      "sha256": "930b18b0b7b94f5480b03b5fad66daa943f56324d38d577e01b36f2819d314e4"
+    },
+    {
+      "file": "forced_mode_nr8_nt10_L6_mg1_sl2_inner0.0005_outer320_log_h32.json",
+      "sha256": "b833146fea64610d772e82f7b3b3196bff8201599bce14c1bc288bd321c57db9"
+    },
+    {
+      "file": "forced_mode_nr8_nt10_L6_mg1_sl4_inner0.0005_outer320_log_h32.json",
+      "sha256": "afe6b1cbbe24292569a86edfa51ede900fb165e5e37312e9027f44bd1a411a15"
+    },
+    {
+      "file": "forced_mode_nr8_nt10_L6_mg2_sl5_inner0.0005_outer320_log_h32.json",
+      "sha256": "801607f13e9f7eabe48f2359c96a990945cd07679fcbf0061c497a76183ec302"
+    },
+    {
+      "file": "forced_mode_nr8_nt10_L6_mg3_sl4_inner0.0005_outer320_log_h32.json",
+      "sha256": "f230656486fa2bdc26306b039fd2db1bd295c5b178568b94324a49c6d8d0272b"
+    },
+    {
+      "file": "forced_mode_nr8_nt10_L6_mg4_sl5_inner0.0005_outer320_log_h32.json",
+      "sha256": "8469f482886112336e11f8f1d78e3e300d207d149171d1d1308420e8ce94c2f9"
+    }
+  ],
+  "limitation": "Same finite source grid as flux reports. Missing modes are explicitly omitted. Not a paper wake reproduction."
+}
