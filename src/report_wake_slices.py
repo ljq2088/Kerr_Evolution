@@ -83,8 +83,8 @@ def main():
     if args.wide_linear:suffix+='_wide_linear'
     if args.epsilon_q:suffix+='_eps'
     stem=folder/f"wake_diagnostic_rp{wake.parameters['r0']:g}_L{cutoff}_sl{args.ellmax}{suffix}"
-    fig.savefig(stem.with_suffix('.png'),dpi=160,bbox_inches='tight');plt.close(fig)
-    np.savez_compressed(stem.with_suffix('.npz'),radial_centers=r[:,0],angle_centers=angle[0],
+    fig.savefig(Path(str(stem)+'.png'),dpi=160,bbox_inches='tight');plt.close(fig)
+    np.savez_compressed(Path(str(stem)+'.npz'),radial_centers=r[:,0],angle_centers=angle[0],
                         equatorial=equatorial,meridional=meridional)
     report=dict(status=wake.status,parameters=wake.parameters,missing_modes=wake.missing,
         mixed_discretization=wake.mixed_discretization,mode_provenance=wake.mode_provenance,
@@ -101,8 +101,8 @@ def main():
                   'Complex scalar response per q sqrt(Mc/M)')+'; not density, total cloud, or rPhi',
         inputs=[dict(file=name,sha256=hashlib.sha256((folder/name).read_bytes()).hexdigest()) for name in files],
         limitation='Each mode retains its recorded finite source grid. Missing modes are explicitly omitted. Mixed discretization requires separate convergence checks. Not a paper wake reproduction.')
-    stem.with_suffix('.json').write_text(json.dumps(report,indent=2)+'\n')
-    print(stem.with_suffix('.png'),wake.status,wake.missing,flush=True)
+    Path(str(stem)+'.json').write_text(json.dumps(report,indent=2)+'\n')
+    print(Path(str(stem)+'.png'),wake.status,wake.missing,flush=True)
 
 
 if __name__=='__main__':main()
