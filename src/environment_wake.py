@@ -64,13 +64,15 @@ class EnvironmentalWake:
         if hasattr(self,'radial_domain') and (np.any(r<self.radial_domain[0]) or np.any(r>self.radial_domain[1])):
             raise ValueError('Requested radii outside the common radial solution domain')
         unique,index=np.unique(r.ravel(),return_inverse=True)
+        unique_theta,theta_index=np.unique(theta.ravel(),return_inverse=True)
         result=np.zeros(r.shape,complex)
         for (ell,m),(omega,response) in self.modes.items():
             radial=response.evaluate(unique)[0][index].reshape(r.shape)
             # angular_mode also calculates a derivative with coordinate-pole
             # 0/0; its returned value is regular and has the exact axis limit.
             with np.errstate(divide='ignore',invalid='ignore'):
-                angular=angular_mode(theta,ell,m,self.parameters['a']**2*(omega**2-self.parameters['alpha']**2))[0]
+                values=angular_mode(unique_theta,ell,m,self.parameters['a']**2*(omega**2-self.parameters['alpha']**2))[0]
+                angular=values[theta_index].reshape(theta.shape)
             if not np.all(np.isfinite(angular)):raise ValueError('Non-finite spheroidal value')
             result+=radial*angular*np.exp(1j*(m*phi-omega*time))
         return result

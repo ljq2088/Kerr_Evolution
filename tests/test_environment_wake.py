@@ -32,6 +32,26 @@ def test_empty_mode_range_is_rejected():
         EnvironmentalWake([])
 
 
+def test_repeated_angles_share_evaluation_without_changing_field(monkeypatch):
+    import environment_wake
+    original=environment_wake.angular_mode
+    calls=[]
+    def measured(theta,*args,**kwargs):
+        calls.append(np.size(theta))
+        return original(theta,*args,**kwargs)
+    monkeypatch.setattr(environment_wake,'angular_mode',measured)
+    wake=EnvironmentalWake.__new__(EnvironmentalWake)
+    wake.parameters=dict(a=0.,alpha=.3)
+    wake.modes={(2,2):(.306,ConstantRadial(1+2j))}
+    r=np.arange(3.,103.)[:,None]
+    theta=np.array([0.,.7,np.pi/2,np.pi,.7])[None,:]
+    phi=.4
+    values=wake.evaluate(r,theta,phi)
+    expected=(1+2j)*np.sqrt(15/(32*np.pi))*np.sin(theta)**2*np.exp(2j*phi)
+    np.testing.assert_allclose(values,np.broadcast_to(expected,values.shape),atol=1e-14)
+    assert calls==[4]
+
+
 def test_different_angular_backends_require_explicit_mixing():
     import copy
     directory=Path(__file__).resolve().parents[1]/'docs/environment_reproduction'

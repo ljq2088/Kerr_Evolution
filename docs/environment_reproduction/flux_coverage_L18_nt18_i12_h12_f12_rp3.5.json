@@ -1,0 +1,1210 @@
+{
+  "observed_utc": "2026-09-11T17:15:56.905400+00:00",
+  "status": "coverage_only_not_paper_reproduction",
+  "parameters": {
+    "alpha": 0.3,
+    "rp": 3.5,
+    "metric_ellmax": 18,
+    "nr": 8,
+    "nt": 18,
+    "horizon_order": 32,
+    "inner_offset": 0.0005,
+    "outer_source_cutoff": 320,
+    "green_outer_by_scalar_m": {}
+  },
+  "infinity": {
+    "required_count": 61,
+    "computed_count": 0,
+    "modes": [
+      {
+        "ell": 2,
+        "m": 2,
+        "status": "missing"
+      },
+      {
+        "ell": 3,
+        "m": 3,
+        "status": "missing"
+      },
+      {
+        "ell": 4,
+        "m": -4,
+        "status": "missing"
+      },
+      {
+        "ell": 4,
+        "m": 2,
+        "status": "missing"
+      },
+      {
+        "ell": 4,
+        "m": 4,
+        "status": "missing"
+      },
+      {
+        "ell": 5,
+        "m": -5,
+        "status": "missing"
+      },
+      {
+        "ell": 5,
+        "m": 3,
+        "status": "missing"
+      },
+      {
+        "ell": 5,
+        "m": 5,
+        "status": "missing"
+      },
+      {
+        "ell": 6,
+        "m": -6,
+        "status": "missing"
+      },
+      {
+        "ell": 6,
+        "m": -4,
+        "status": "missing"
+      },
+      {
+        "ell": 6,
+        "m": 2,
+        "status": "missing"
+      },
+      {
+        "ell": 6,
+        "m": 4,
+        "status": "missing"
+      },
+      {
+        "ell": 6,
+        "m": 6,
+        "status": "missing"
+      },
+      {
+        "ell": 7,
+        "m": -7,
+        "status": "missing"
+      },
+      {
+        "ell": 7,
+        "m": -5,
+        "status": "missing"
+      },
+      {
+        "ell": 7,
+        "m": 3,
+        "status": "missing"
+      },
+      {
+        "ell": 7,
+        "m": 5,
+        "status": "missing"
+      },
+      {
+        "ell": 7,
+        "m": 7,
+        "status": "missing"
+      },
+      {
+        "ell": 8,
+        "m": -8,
+        "status": "missing"
+      },
+      {
+        "ell": 8,
+        "m": -6,
+        "status": "missing"
+      },
+      {
+        "ell": 8,
+        "m": -4,
+        "status": "missing"
+      },
+      {
+        "ell": 8,
+        "m": 2,
+        "status": "missing"
+      },
+      {
+        "ell": 8,
+        "m": 4,
+        "status": "missing"
+      },
+      {
+        "ell": 8,
+        "m": 6,
+        "status": "missing"
+      },
+      {
+        "ell": 8,
+        "m": 8,
+        "status": "missing"
+      },
+      {
+        "ell": 9,
+        "m": -9,
+        "status": "missing"
+      },
+      {
+        "ell": 9,
+        "m": -7,
+        "status": "missing"
+      },
+      {
+        "ell": 9,
+        "m": -5,
+        "status": "missing"
+      },
+      {
+        "ell": 9,
+        "m": 3,
+        "status": "missing"
+      },
+      {
+        "ell": 9,
+        "m": 5,
+        "status": "missing"
+      },
+      {
+        "ell": 9,
+        "m": 7,
+        "status": "missing"
+      },
+      {
+        "ell": 9,
+        "m": 9,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": -10,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": -8,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": -6,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": -4,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": 2,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": 4,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": 6,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": 8,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": 10,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": -11,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": -9,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": -7,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": -5,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": 3,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": 5,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": 7,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": 9,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": 11,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": -12,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": -10,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": -8,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": -6,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": -4,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": 2,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": 4,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": 6,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": 8,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": 10,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": 12,
+        "status": "missing"
+      }
+    ],
+    "finite_resolution_total": null,
+    "converged": false
+  },
+  "horizon": {
+    "required_count": 85,
+    "computed_count": 0,
+    "modes": [
+      {
+        "ell": 0,
+        "m": 0,
+        "status": "missing"
+      },
+      {
+        "ell": 1,
+        "m": -1,
+        "status": "missing"
+      },
+      {
+        "ell": 2,
+        "m": -2,
+        "status": "missing"
+      },
+      {
+        "ell": 2,
+        "m": 0,
+        "status": "missing"
+      },
+      {
+        "ell": 2,
+        "m": 2,
+        "status": "missing"
+      },
+      {
+        "ell": 3,
+        "m": -3,
+        "status": "missing"
+      },
+      {
+        "ell": 3,
+        "m": -1,
+        "status": "missing"
+      },
+      {
+        "ell": 3,
+        "m": 3,
+        "status": "missing"
+      },
+      {
+        "ell": 4,
+        "m": -4,
+        "status": "missing"
+      },
+      {
+        "ell": 4,
+        "m": -2,
+        "status": "missing"
+      },
+      {
+        "ell": 4,
+        "m": 0,
+        "status": "missing"
+      },
+      {
+        "ell": 4,
+        "m": 2,
+        "status": "missing"
+      },
+      {
+        "ell": 4,
+        "m": 4,
+        "status": "missing"
+      },
+      {
+        "ell": 5,
+        "m": -5,
+        "status": "missing"
+      },
+      {
+        "ell": 5,
+        "m": -3,
+        "status": "missing"
+      },
+      {
+        "ell": 5,
+        "m": -1,
+        "status": "missing"
+      },
+      {
+        "ell": 5,
+        "m": 3,
+        "status": "missing"
+      },
+      {
+        "ell": 5,
+        "m": 5,
+        "status": "missing"
+      },
+      {
+        "ell": 6,
+        "m": -6,
+        "status": "missing"
+      },
+      {
+        "ell": 6,
+        "m": -4,
+        "status": "missing"
+      },
+      {
+        "ell": 6,
+        "m": -2,
+        "status": "missing"
+      },
+      {
+        "ell": 6,
+        "m": 0,
+        "status": "missing"
+      },
+      {
+        "ell": 6,
+        "m": 2,
+        "status": "missing"
+      },
+      {
+        "ell": 6,
+        "m": 4,
+        "status": "missing"
+      },
+      {
+        "ell": 6,
+        "m": 6,
+        "status": "missing"
+      },
+      {
+        "ell": 7,
+        "m": -7,
+        "status": "missing"
+      },
+      {
+        "ell": 7,
+        "m": -5,
+        "status": "missing"
+      },
+      {
+        "ell": 7,
+        "m": -3,
+        "status": "missing"
+      },
+      {
+        "ell": 7,
+        "m": -1,
+        "status": "missing"
+      },
+      {
+        "ell": 7,
+        "m": 3,
+        "status": "missing"
+      },
+      {
+        "ell": 7,
+        "m": 5,
+        "status": "missing"
+      },
+      {
+        "ell": 7,
+        "m": 7,
+        "status": "missing"
+      },
+      {
+        "ell": 8,
+        "m": -8,
+        "status": "missing"
+      },
+      {
+        "ell": 8,
+        "m": -6,
+        "status": "missing"
+      },
+      {
+        "ell": 8,
+        "m": -4,
+        "status": "missing"
+      },
+      {
+        "ell": 8,
+        "m": -2,
+        "status": "missing"
+      },
+      {
+        "ell": 8,
+        "m": 0,
+        "status": "missing"
+      },
+      {
+        "ell": 8,
+        "m": 2,
+        "status": "missing"
+      },
+      {
+        "ell": 8,
+        "m": 4,
+        "status": "missing"
+      },
+      {
+        "ell": 8,
+        "m": 6,
+        "status": "missing"
+      },
+      {
+        "ell": 8,
+        "m": 8,
+        "status": "missing"
+      },
+      {
+        "ell": 9,
+        "m": -9,
+        "status": "missing"
+      },
+      {
+        "ell": 9,
+        "m": -7,
+        "status": "missing"
+      },
+      {
+        "ell": 9,
+        "m": -5,
+        "status": "missing"
+      },
+      {
+        "ell": 9,
+        "m": -3,
+        "status": "missing"
+      },
+      {
+        "ell": 9,
+        "m": -1,
+        "status": "missing"
+      },
+      {
+        "ell": 9,
+        "m": 3,
+        "status": "missing"
+      },
+      {
+        "ell": 9,
+        "m": 5,
+        "status": "missing"
+      },
+      {
+        "ell": 9,
+        "m": 7,
+        "status": "missing"
+      },
+      {
+        "ell": 9,
+        "m": 9,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": -10,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": -8,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": -6,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": -4,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": -2,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": 0,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": 2,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": 4,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": 6,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": 8,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": 10,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": -11,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": -9,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": -7,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": -5,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": -3,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": -1,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": 3,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": 5,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": 7,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": 9,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": 11,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": -12,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": -10,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": -8,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": -6,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": -4,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": -2,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": 0,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": 2,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": 4,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": 6,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": 8,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": 10,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": 12,
+        "status": "missing"
+      }
+    ],
+    "finite_resolution_total": null,
+    "converged": false
+  },
+  "field": {
+    "required_count": 88,
+    "computed_count": 0,
+    "modes": [
+      {
+        "ell": 2,
+        "m": -2,
+        "status": "missing"
+      },
+      {
+        "ell": 2,
+        "m": 0,
+        "status": "missing"
+      },
+      {
+        "ell": 2,
+        "m": 2,
+        "status": "missing"
+      },
+      {
+        "ell": 3,
+        "m": -3,
+        "status": "missing"
+      },
+      {
+        "ell": 3,
+        "m": -1,
+        "status": "missing"
+      },
+      {
+        "ell": 3,
+        "m": 1,
+        "status": "missing"
+      },
+      {
+        "ell": 3,
+        "m": 3,
+        "status": "missing"
+      },
+      {
+        "ell": 4,
+        "m": -4,
+        "status": "missing"
+      },
+      {
+        "ell": 4,
+        "m": -2,
+        "status": "missing"
+      },
+      {
+        "ell": 4,
+        "m": 0,
+        "status": "missing"
+      },
+      {
+        "ell": 4,
+        "m": 2,
+        "status": "missing"
+      },
+      {
+        "ell": 4,
+        "m": 4,
+        "status": "missing"
+      },
+      {
+        "ell": 5,
+        "m": -5,
+        "status": "missing"
+      },
+      {
+        "ell": 5,
+        "m": -3,
+        "status": "missing"
+      },
+      {
+        "ell": 5,
+        "m": -1,
+        "status": "missing"
+      },
+      {
+        "ell": 5,
+        "m": 1,
+        "status": "missing"
+      },
+      {
+        "ell": 5,
+        "m": 3,
+        "status": "missing"
+      },
+      {
+        "ell": 5,
+        "m": 5,
+        "status": "missing"
+      },
+      {
+        "ell": 6,
+        "m": -6,
+        "status": "missing"
+      },
+      {
+        "ell": 6,
+        "m": -4,
+        "status": "missing"
+      },
+      {
+        "ell": 6,
+        "m": -2,
+        "status": "missing"
+      },
+      {
+        "ell": 6,
+        "m": 0,
+        "status": "missing"
+      },
+      {
+        "ell": 6,
+        "m": 2,
+        "status": "missing"
+      },
+      {
+        "ell": 6,
+        "m": 4,
+        "status": "missing"
+      },
+      {
+        "ell": 6,
+        "m": 6,
+        "status": "missing"
+      },
+      {
+        "ell": 7,
+        "m": -7,
+        "status": "missing"
+      },
+      {
+        "ell": 7,
+        "m": -5,
+        "status": "missing"
+      },
+      {
+        "ell": 7,
+        "m": -3,
+        "status": "missing"
+      },
+      {
+        "ell": 7,
+        "m": -1,
+        "status": "missing"
+      },
+      {
+        "ell": 7,
+        "m": 1,
+        "status": "missing"
+      },
+      {
+        "ell": 7,
+        "m": 3,
+        "status": "missing"
+      },
+      {
+        "ell": 7,
+        "m": 5,
+        "status": "missing"
+      },
+      {
+        "ell": 7,
+        "m": 7,
+        "status": "missing"
+      },
+      {
+        "ell": 8,
+        "m": -8,
+        "status": "missing"
+      },
+      {
+        "ell": 8,
+        "m": -6,
+        "status": "missing"
+      },
+      {
+        "ell": 8,
+        "m": -4,
+        "status": "missing"
+      },
+      {
+        "ell": 8,
+        "m": -2,
+        "status": "missing"
+      },
+      {
+        "ell": 8,
+        "m": 0,
+        "status": "missing"
+      },
+      {
+        "ell": 8,
+        "m": 2,
+        "status": "missing"
+      },
+      {
+        "ell": 8,
+        "m": 4,
+        "status": "missing"
+      },
+      {
+        "ell": 8,
+        "m": 6,
+        "status": "missing"
+      },
+      {
+        "ell": 8,
+        "m": 8,
+        "status": "missing"
+      },
+      {
+        "ell": 9,
+        "m": -9,
+        "status": "missing"
+      },
+      {
+        "ell": 9,
+        "m": -7,
+        "status": "missing"
+      },
+      {
+        "ell": 9,
+        "m": -5,
+        "status": "missing"
+      },
+      {
+        "ell": 9,
+        "m": -3,
+        "status": "missing"
+      },
+      {
+        "ell": 9,
+        "m": -1,
+        "status": "missing"
+      },
+      {
+        "ell": 9,
+        "m": 1,
+        "status": "missing"
+      },
+      {
+        "ell": 9,
+        "m": 3,
+        "status": "missing"
+      },
+      {
+        "ell": 9,
+        "m": 5,
+        "status": "missing"
+      },
+      {
+        "ell": 9,
+        "m": 7,
+        "status": "missing"
+      },
+      {
+        "ell": 9,
+        "m": 9,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": -10,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": -8,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": -6,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": -4,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": -2,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": 0,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": 2,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": 4,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": 6,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": 8,
+        "status": "missing"
+      },
+      {
+        "ell": 10,
+        "m": 10,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": -11,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": -9,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": -7,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": -5,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": -3,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": -1,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": 1,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": 3,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": 5,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": 7,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": 9,
+        "status": "missing"
+      },
+      {
+        "ell": 11,
+        "m": 11,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": -12,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": -10,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": -8,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": -6,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": -4,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": -2,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": 0,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": 2,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": 4,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": 6,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": 8,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": 10,
+        "status": "missing"
+      },
+      {
+        "ell": 12,
+        "m": 12,
+        "status": "missing"
+      }
+    ],
+    "converged": false
+  },
+  "excluded": "m=1 is static forcing: orbital-effective energy flux vanishes, but its field is required for wakes. Nonpropagating infinity modes carry zero stationary infinity flux.",
+  "limits": "No total is reported with missing modes. Even a complete finite-resolution total needs L_g=18 and all other convergence checks."
+}
