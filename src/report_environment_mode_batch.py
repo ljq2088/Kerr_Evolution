@@ -58,7 +58,14 @@ def main():
     for ell,selected_metric,conjugated in plan:
         selected=argparse.Namespace(**vars(args));selected.scalar_ell=ell;selected.metric_m=selected_metric.m
         before=metric._values.cache_info();started=perf_counter()
-        path,result=run(selected,cloud=cloud,metric=selected_metric)
+        try:
+            path,result=run(selected,cloud=cloud,metric=selected_metric)
+        except Exception as error:
+            summary.update(status='batch_failed_partial_results_preserved',
+                failure=dict(scalar_ell=ell,scalar_m=cloud.m+selected_metric.m,
+                             error_type=type(error).__name__,message=str(error)))
+            save()
+            raise
         after=metric._values.cache_info()
         channel=dict(scalar_ell=ell,scalar_m=cloud.m+selected_metric.m,file=path.name,
             metric_m=selected_metric.m,metric_conjugated=conjugated,

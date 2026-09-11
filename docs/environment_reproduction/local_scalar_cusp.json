@@ -1,6 +1,6 @@
 {
   "status": "leading_local_cusp_diagnostic_not_full_field_validation",
-  "input_sha256": "9681bd5d6d0621588ade82ac1f37cffa286a81082f75e84c17a294857dc58c2e",
+  "input_sha256": "76230e421f10d76e2bf5754622f393f1ea6cb524a43659b78a1f44a5c6cc0775",
   "parameters": {
     "a": 0.8771530275949366,
     "alpha": 0.3,
@@ -35,6 +35,15 @@
       "chord_model_coefficient": -0.19047619047619047
     },
     {
+      "ell": 3,
+      "scaled_coefficient": [
+        0.4438698145988673,
+        0.18550042671014025
+      ],
+      "relative_difference": 0.793342934010737,
+      "chord_model_coefficient": -0.08888888888888889
+    },
+    {
       "ell": 4,
       "scaled_coefficient": [
         0.4250139678380238,
@@ -42,6 +51,15 @@
       ],
       "relative_difference": 0.5045750714085389,
       "chord_model_coefficient": -0.05194805194805195
+    },
+    {
+      "ell": 5,
+      "scaled_coefficient": [
+        0.3902594376483576,
+        0.03013549317528038
+      ],
+      "relative_difference": 0.32700549615062297,
+      "chord_model_coefficient": -0.03418803418803419
     },
     {
       "ell": 6,
@@ -53,6 +71,15 @@
       "chord_model_coefficient": -0.024242424242424242
     },
     {
+      "ell": 7,
+      "scaled_coefficient": [
+        0.3418643157857898,
+        0.003001746158622626
+      ],
+      "relative_difference": 0.14871777339483713,
+      "chord_model_coefficient": -0.01809954751131222
+    },
+    {
       "ell": 8,
       "scaled_coefficient": [
         0.32970529672987886,
@@ -62,6 +89,15 @@
       "chord_model_coefficient": -0.014035087719298246
     },
     {
+      "ell": 9,
+      "scaled_coefficient": [
+        0.32198240690510116,
+        0.0002041317377957346
+      ],
+      "relative_difference": 0.08159199475341994,
+      "chord_model_coefficient": -0.011204481792717087
+    },
+    {
       "ell": 10,
       "scaled_coefficient": [
         0.31684271708330425,
@@ -69,6 +105,15 @@
       ],
       "relative_difference": 0.06432429178498662,
       "chord_model_coefficient": -0.009153318077803204
+    },
+    {
+      "ell": 11,
+      "scaled_coefficient": [
+        0.313224889612714,
+        1.0351187833503884e-05
+      ],
+      "relative_difference": 0.05217125869432161,
+      "chord_model_coefficient": -0.007619047619047619
     },
     {
       "ell": 12,

@@ -1,0 +1,8 @@
+{
+  "purpose": "Recover same-version static metric cache without changing cached metadata or tensor values",
+  "source_commit": "66da5c7e1239be84ae751d8462c7bb1e146f18cd",
+  "source_directory": "/home/ljq/code/kerr-hyperboloidal/outputs/static_recovery_source/66da5c7e1239be84ae751d8462c7bb1e146f18cd/src",
+  "cache_key": "7b2c865e93a1d747b65bf411",
+  "cache_source_hash": "45328186c7c344105d71d58fde1df86eba6e2d0710d4b0667e12a52e42f9fddb",
+  "limitation": "Finite static boundary candidate; historical numerical implementation, not a convergence claim"
+}

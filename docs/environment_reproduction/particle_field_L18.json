@@ -6,16 +6,26 @@
     "phi": 0,
     "time": 0
   },
-  "coverage_sha256": "8d7cf6b101ec0dfe8cce5428a2387d347c9dd4d3abd64a6b32e89679ad88bb61",
+  "coverage_sha256": "19c290e3496cd2ee7d49e87bf809ab388c7b894c3bfb095bb577207b44e386cc",
   "inputs_sha256": {
     "forced_mode_nr8_nt18_L18_mg-3_sl2_inner0.0005_outer320_log_h32.json": "a69182cf00537f41f6f3714370846341fc4bae15eef23f425783147a853fadb8",
     "forced_mode_nr8_nt18_L18_mg-1_sl2_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "fb30d727cdb754c5dca3f7906b7383fe939d81949341953bb3787bc5d79b1162",
     "forced_mode_nr8_nt18_L18_mg1_sl2_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "901be8306b526e3e6df1f9b461ca4ceea112d358491afae6142cc364e3f8de7f",
+    "forced_mode_nr8_nt18_L18_mg-4_sl3_inner0.0005_outer320_log_h32.json": "c581ec8c3b0892a40e4f1a3d439ed24a0c3943bbbd3948db8e84a980a11268d1",
+    "forced_mode_nr8_nt18_L18_mg-2_sl3_inner0.0005_outer320_log_h32.json": "3155342d0eab716d9d560dfcf19a3d803ac8446ba34865a567a6b2e88c9bee29",
+    "forced_mode_nr8_nt18_L18_mg0_sl3_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "800928338bb93ce51154465a6744ed29b6d0cddc2be27572e5aea81258e7883e",
+    "forced_mode_nr8_nt18_L18_inner0.0005_outer320_log_h32.json": "d5549cee14d7434185cb044b5f15c18d3add7daacd8271ab5f8bc40f3dcd2736",
     "forced_mode_nr8_nt18_L18_mg-5_sl4_inner0.0005_outer320_log_h32.json": "f571181bfd6b8d8dac7dacc1e9002de185484e5c8ee58c02d42901f4daf1ea56",
     "forced_mode_nr8_nt18_L18_mg-3_sl4_inner0.0005_outer320_log_h32.json": "30a0fba92cd9c85e5b0e67dfa645b33b0f346599f3cc880477f93271b0d6844e",
     "forced_mode_nr8_nt18_L18_mg-1_sl4_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "588835460137dbf2011e15d91414f5045a046045fcf916a55826d9df709be8c3",
     "forced_mode_nr8_nt18_L18_mg1_sl4_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "ce0b019b1f4c5e5836a60e18114cc7e9f01e55e740a7a2c99c58abc763f01992",
     "forced_mode_nr8_nt18_L18_mg3_sl4_inner0.0005_outer320_log_h32.json": "1f9dfd94b0e9cd0a0139fdbb7221a7b790923dc71fae39b31ba31955bd991065",
+    "forced_mode_nr8_nt18_L18_mg-6_sl5_inner0.0005_outer320_log_h32.json": "ffd11c1d16ccdb8971f00f1fa891ebc691f937d9daa6a190af1dae437d7f165e",
+    "forced_mode_nr8_nt18_L18_mg-4_sl5_inner0.0005_outer320_log_h32.json": "f9c64ba982a0566c363b0f6ef9487b3941f71d478ab261492471a7785ba14c39",
+    "forced_mode_nr8_nt18_L18_mg-2_sl5_inner0.0005_outer320_log_h32.json": "9f60157caf5e7a674c4738425413bbc39ba9b05c6366824b602f9cc563b04306",
+    "forced_mode_nr8_nt18_L18_mg0_sl5_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "d73972aa3fd7cc515b604f99d2aab48005c6ae52fed19db10ccd5559b3d37cfe",
+    "forced_mode_nr8_nt18_L18_mg2_sl5_inner0.0005_outer320_log_h32.json": "1925fbd05a140f4e0fe3c3b294cda08b9f38ddcd2b9f74a56a01eb3c6b5b3088",
+    "forced_mode_nr8_nt18_L18_mg4_sl5_inner0.0005_outer320_log_h32.json": "f4bfa2d133178247906193d93a92c9fbe8371fdab0ec4da2e0693f31c6c76265",
     "forced_mode_nr8_nt18_L18_mg-7_sl6_inner0.0005_outer320_log_h32.json": "22eae0a1b2c56eb1e524f31b683a84cd7e865ec7930ed3a2095c874090bc960f",
     "forced_mode_nr8_nt18_L18_mg-5_sl6_inner0.0005_outer320_log_h32.json": "2d070274c06351f5431fca9a6abcc363f743cbca41b4921c6db078e147032878",
     "forced_mode_nr8_nt18_L18_mg-3_sl6_inner0.0005_outer320_log_h32.json": "cb24cb02fd48dd12b1d2f9c9869274c8ed287d5e9324a23460324bbe44b31c64",
@@ -23,6 +33,14 @@
     "forced_mode_nr8_nt18_L18_mg1_sl6_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "f09527cb53aacb41a9d790b423fdd20b41f27efcd20b13ef1a881b7da307822b",
     "forced_mode_nr8_nt18_L18_mg3_sl6_inner0.0005_outer320_log_h32.json": "910e1fd603f7e9fed65685d02427a96fa3c6d85e90085b00056edead884694cd",
     "forced_mode_nr8_nt18_L18_mg5_sl6_inner0.0005_outer320_log_h32.json": "aaeeb9f38ab4e90fa56735baa3b0e59e0dbf2baab71f76c7399a900e9aea3231",
+    "forced_mode_nr8_nt18_L18_mg-8_sl7_inner0.0005_outer320_log_h32.json": "ab671311ba78224d559e4b2a2bfd8b7677ca97d1a7dcde2fcfc06ce8854f594a",
+    "forced_mode_nr8_nt18_L18_mg-6_sl7_inner0.0005_outer320_log_h32.json": "b0d915f78355a2c40b9ce7a00939c49ec7a64194ba22c2a1c937614760ed538c",
+    "forced_mode_nr8_nt18_L18_mg-4_sl7_inner0.0005_outer320_log_h32.json": "9543ec2a1f7dd07387c8c157ac62753f4b944b37b00f5a3b73bbe35393b86c76",
+    "forced_mode_nr8_nt18_L18_mg-2_sl7_inner0.0005_outer320_log_h32.json": "cb939ba658a0a055c691eb0d205658d6aa87ea89706aec0782a62294a092b771",
+    "forced_mode_nr8_nt18_L18_mg0_sl7_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "2d0d7772565f4e50f3b38f0f30c1b6ded26e5fa0973bdafb95bbc6b264018c2a",
+    "forced_mode_nr8_nt18_L18_mg2_sl7_inner0.0005_outer320_log_h32.json": "e9ce78c8e82b7e1c35b8ad2c498922ae750b69efab848eb6c88f68c1c4e10c2e",
+    "forced_mode_nr8_nt18_L18_mg4_sl7_inner0.0005_outer320_log_h32.json": "ff8f2a48b9a291b82d65e9963240108453ccc2d38bfe2e7b87b10999ec3f04cf",
+    "forced_mode_nr8_nt18_L18_mg6_sl7_inner0.0005_outer320_log_h32.json": "f65cbca990b3fd80677042bfe480402d9a47c4537b64014daead23fb4178a904",
     "forced_mode_nr8_nt18_L18_mg-9_sl8_inner0.0005_outer320_log_h32.json": "53f0c60d4dd5a1abf926d9c41e542e2ecdde3932c17a122b570202df007e520d",
     "forced_mode_nr8_nt18_L18_mg-7_sl8_inner0.0005_outer320_log_h32.json": "7b5ce1623d7b899a9792592edfa694d1537154450d98baa4b73a440ff96cf583",
     "forced_mode_nr8_nt18_L18_mg-5_sl8_inner0.0005_outer320_log_h32.json": "63d1625e8a35582ed9b3c18a467fc24f6e857fd88fd95426d14c064cf3790290",
@@ -32,6 +50,16 @@
     "forced_mode_nr8_nt18_L18_mg3_sl8_inner0.0005_outer320_log_h32.json": "819afff3412ad0691e3400bf6f37876fb03ccdc611cb3e7625056b2b3d3778ac",
     "forced_mode_nr8_nt18_L18_mg5_sl8_inner0.0005_outer320_log_h32.json": "66d1f67143e78c782a70592b742097f71f373dc01072c4ed815900aa0141bbbf",
     "forced_mode_nr8_nt18_L18_mg7_sl8_inner0.0005_outer320_log_h32.json": "4b8f121292a7b01f00c3a81333c86e2e96c0d81b8036646d35116d9818773061",
+    "forced_mode_nr8_nt18_L18_mg-10_sl9_inner0.0005_outer320_log_h32.json": "76db13aa3d46346e05f0ce0bbbc5ff8f9da0504425e0ee14e56ef42e285b2811",
+    "forced_mode_nr8_nt18_L18_mg-8_sl9_inner0.0005_outer320_log_h32.json": "363cf0fe4c6d92f6f7fc1d5285471acdcbd31cb206e34bc1b276552bad8a4e3b",
+    "forced_mode_nr8_nt18_L18_mg-6_sl9_inner0.0005_outer320_log_h32.json": "573d2ab69da02677e406614691228e3a8e1a24a1798cdeb47c77c486065adbae",
+    "forced_mode_nr8_nt18_L18_mg-4_sl9_inner0.0005_outer320_log_h32.json": "5726f3fdd2be5f4b0bc8306bd954ca941a8af411f1dea492dba9b446b05fa643",
+    "forced_mode_nr8_nt18_L18_mg-2_sl9_inner0.0005_outer320_log_h32.json": "64dbea0d828f4968c7a158b91960e6f9fca137e9ab59bdd86c790586010128fa",
+    "forced_mode_nr8_nt18_L18_mg0_sl9_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "07c344da45edca3e94c47b17b00e0470625dc56add8c29a5897d609d0298d095",
+    "forced_mode_nr8_nt18_L18_mg2_sl9_inner0.0005_outer320_log_h32.json": "77ac01c5c67addecca4f455f35f88dddcbb93548bf5b4420345e88ee7f6bbae9",
+    "forced_mode_nr8_nt18_L18_mg4_sl9_inner0.0005_outer320_log_h32.json": "2ec745d5a0045d373eaaaae76db13e5b48e420889ff1b55bd71048db7f9069b7",
+    "forced_mode_nr8_nt18_L18_mg6_sl9_inner0.0005_outer320_log_h32.json": "090bc3e2175f20a4a0ffbe2ea6e6a2955d9ffc0a3fe4ca4e8a1271fed4c9b3cd",
+    "forced_mode_nr8_nt18_L18_mg8_sl9_inner0.0005_outer320_log_h32.json": "ddc3d83317979710794ccbdb6522fba294730d19a147ec2356354a9b0d2256dd",
     "forced_mode_nr8_nt18_L18_mg-11_sl10_inner0.0005_outer320_log_h32.json": "7579354d6f5cb0248c72076b60389c5c273418c41216260de26935a13c47d769",
     "forced_mode_nr8_nt18_L18_mg-9_sl10_inner0.0005_outer320_log_h32.json": "b57d9956e0a98619abf4e6bf66ba982b431ae6eb2f6eaebdc2d81fcd5d7b799a",
     "forced_mode_nr8_nt18_L18_mg-7_sl10_inner0.0005_outer320_log_h32.json": "b539606f1d868f6700d1517efac58ec90f3c9dd0756a3881aaf8275b5d29d8f3",
@@ -43,6 +71,18 @@
     "forced_mode_nr8_nt18_L18_mg5_sl10_inner0.0005_outer320_log_h32.json": "feee46d1c681780f16b26c0880cf6a53ee1fe96f6043fe1d49899b36e2e57fe8",
     "forced_mode_nr8_nt18_L18_mg7_sl10_inner0.0005_outer320_log_h32.json": "02e7866c1557bb7799e995fd510e96005c2bdd9acecc235e227648550c361547",
     "forced_mode_nr8_nt18_L18_mg9_sl10_inner0.0005_outer320_log_h32.json": "3bc36f7cb602c5fe1a9bcfeb9d8880ff72be52aa49ce9ea39342058f982f3808",
+    "forced_mode_nr8_nt18_L18_mg-12_sl11_inner0.0005_outer320_log_h32.json": "b49b311b4ef4d0fe65d54c62030c3ab77e96144d5fee2e6d956ae5518ae6cc1a",
+    "forced_mode_nr8_nt18_L18_mg-10_sl11_inner0.0005_outer320_log_h32.json": "177963b865dd4377f8f47c32b9c15e3df4a2a7fb6598cad370c0e8d3b5921ac9",
+    "forced_mode_nr8_nt18_L18_mg-8_sl11_inner0.0005_outer320_log_h32.json": "fcc2a5f08c87ed93598ac2545e0f7c732be3f9c9a3fa9a1255d4b3eb5d8eb95b",
+    "forced_mode_nr8_nt18_L18_mg-6_sl11_inner0.0005_outer320_log_h32.json": "05e473f756a226b143ac26835b8f47b13d09dfd60e533e9cda026ac75aba846a",
+    "forced_mode_nr8_nt18_L18_mg-4_sl11_inner0.0005_outer320_log_h32.json": "c8e7ef7d9d7f59a10d3edae6a86e017bcc51dd81267876f3808eaabe8a65fb5f",
+    "forced_mode_nr8_nt18_L18_mg-2_sl11_inner0.0005_outer320_log_h32.json": "ed746f21a9f13403822fe7331da31abee1c4330778fcbad437dfc8504d8da9e6",
+    "forced_mode_nr8_nt18_L18_mg0_sl11_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "826baf13ac6532939dd265647eaea3277e58ec30a12e413a3ba4e35d845d6f03",
+    "forced_mode_nr8_nt18_L18_mg2_sl11_inner0.0005_outer320_log_h32.json": "01c1d9e0aa688f8cf5521ddaa89ddc3eb3a0cfc8f3f3f1b988c529d7fd6c815e",
+    "forced_mode_nr8_nt18_L18_mg4_sl11_inner0.0005_outer320_log_h32.json": "87a89e517f0b76452cb2e268c072b5c748c83acac968fc6c2f28226754ef5d03",
+    "forced_mode_nr8_nt18_L18_mg6_sl11_inner0.0005_outer320_log_h32.json": "79b90c5659c44aafbef227dbaf8ed090dab6c8c4bb609378dec6de1a24a960d3",
+    "forced_mode_nr8_nt18_L18_mg8_sl11_inner0.0005_outer320_log_h32.json": "c11ede88eed79cc0037f44fc95c3260b62833a4fe11d6fc6bddad275b25619b7",
+    "forced_mode_nr8_nt18_L18_mg10_sl11_inner0.0005_outer320_log_h32.json": "4fd354c194e790351734c214f7d2dcd4616bba1d51970ab96c8ff6c50dff2c4d",
     "forced_mode_nr8_nt18_L18_mg-13_sl12_inner0.0005_outer320_log_h32.json": "f67a9b4eb1c967cc5d123654b20094984d9f97eb8b4de7fcbdaab9bf88d7bda7",
     "forced_mode_nr8_nt18_L18_mg-11_sl12_inner0.0005_outer320_log_h32.json": "dd6981248e1e7c7cbce58bdd9a25418436707689ab63dd4ef36a5ee681bb7f32",
     "forced_mode_nr8_nt18_L18_mg-9_sl12_inner0.0005_outer320_log_h32.json": "55ccb4456f853bb00dfa0fad07bd30aa7d918b7bfd8fe2543fdf868d0b43c2dd",
@@ -118,10 +158,74 @@
     },
     {
       "ell": 3,
-      "missing_m": [
-        1
+      "complete": true,
+      "missing_m": [],
+      "components": [
+        {
+          "m": -3,
+          "radial": [
+            -0.00022871872090311679,
+            -1.336288570851009e-08
+          ],
+          "equatorial_angular_value": 0.4172763061221325,
+          "particle_contribution": [
+            -9.543890299943155e-05,
+            -5.576015587579326e-09
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-4_sl3_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": -1,
+          "radial": [
+            0.00032583526294001515,
+            -2.2913365132498673e-06
+          ],
+          "equatorial_angular_value": -0.32314466069026915,
+          "particle_contribution": [
+            -0.00010529192548367583,
+            7.404331601013527e-07
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-2_sl3_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 1,
+          "radial": [
+            -0.0006053289750419243,
+            -0.0
+          ],
+          "equatorial_angular_value": 0.32317489197161264,
+          "particle_contribution": [
+            -0.0001956271261164609,
+            -0.0
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg0_sl3_gh0.0001_go4000_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 3,
+          "radial": [
+            0.0013949320204476375,
+            0.00098176350792325
+          ],
+          "equatorial_angular_value": -0.41720122738322374,
+          "particle_contribution": [
+            -0.0005819673510469145,
+            -0.0004095929405056392
+          ],
+          "file": "forced_mode_nr8_nt18_L18_inner0.0005_outer320_log_h32.json"
+        }
       ],
-      "complete": false
+      "radial_coefficient_sum": [
+        0.0008867195874426116,
+        0.0009794588085242917
+      ],
+      "particle_field_sum": [
+        -0.0009783253056464829,
+        -0.0004088580833611254
+      ],
+      "abs_radial_coefficient_sum": 0.0013212157977977028,
+      "abs_particle_field_sum": 0.0010603232224175878,
+      "abs_radial_sum_per_epsilon_q": 0.04893391843695196,
+      "abs_particle_sum_per_epsilon_q": 0.03927123045991066
     },
     {
       "ell": 4,
@@ -209,10 +313,100 @@
     },
     {
       "ell": 5,
-      "missing_m": [
-        1
+      "complete": true,
+      "missing_m": [],
+      "components": [
+        {
+          "m": -5,
+          "radial": [
+            -8.418779492942038e-05,
+            -4.3406519991273086e-11
+          ],
+          "equatorial_angular_value": 0.46417145847801633,
+          "particle_contribution": [
+            -3.907757155843721e-05,
+            -2.01480676918044e-11
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-6_sl5_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": -3,
+          "radial": [
+            7.760924932842148e-05,
+            -2.6645692044394798e-09
+          ],
+          "equatorial_angular_value": -0.34593162366681546,
+          "particle_contribution": [
+            -2.684749363174355e-05,
+            9.21758751264344e-10
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-4_sl5_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": -1,
+          "radial": [
+            -8.882288789757955e-05,
+            1.0517373861618268e-09
+          ],
+          "equatorial_angular_value": 0.3202668213536209,
+          "particle_contribution": [
+            -2.8447023970406806e-05,
+            3.36836589564814e-10
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-2_sl5_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 1,
+          "radial": [
+            0.00011322367294237985,
+            0.0
+          ],
+          "equatorial_angular_value": -0.3202794403057102,
+          "particle_contribution": [
+            -3.6263214599342204e-05,
+            0.0
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg0_sl5_gh0.0001_go4000_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 3,
+          "radial": [
+            -0.0001695598181888152,
+            -2.4273200298519976e-06
+          ],
+          "equatorial_angular_value": 0.3459489309331278,
+          "particle_contribution": [
+            -5.8659037831636134e-05,
+            -8.397287693598663e-07
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg2_sl5_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 5,
+          "radial": [
+            0.00034267350460081213,
+            5.614962153522301e-05
+          ],
+          "equatorial_angular_value": -0.4641047352914638,
+          "particle_contribution": [
+            -0.00015903639614415813,
+            -2.605930523932055e-05
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg4_sl5_inner0.0005_outer320_log_h32.json"
+        }
       ],
-      "complete": false
+      "radial_coefficient_sum": [
+        0.00019093592585579832,
+        5.372064526703274e-05
+      ],
+      "particle_field_sum": [
+        -0.00034833073773572407,
+        -2.689779556140728e-05
+      ],
+      "abs_radial_coefficient_sum": 0.00019834927655607238,
+      "abs_particle_field_sum": 0.00034936770637478365,
+      "abs_radial_sum_per_epsilon_q": 0.007346269502076756,
+      "abs_particle_sum_per_epsilon_q": 0.012939544680547544
     },
     {
       "ell": 6,
@@ -326,10 +520,126 @@
     },
     {
       "ell": 7,
-      "missing_m": [
-        1
+      "complete": true,
+      "missing_m": [],
+      "components": [
+        {
+          "m": -7,
+          "radial": [
+            -4.074377796904465e-05,
+            -1.9805973463877996e-13
+          ],
+          "equatorial_angular_value": 0.5000707444587135,
+          "particle_contribution": [
+            -2.037477138104069e-05,
+            -9.904387894810993e-14
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-8_sl7_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": -5,
+          "radial": [
+            3.306612727983511e-05,
+            -6.4922851603369974e-12
+          ],
+          "equatorial_angular_value": -0.36692625951048263,
+          "particle_contribution": [
+            -1.2132830399287425e-05,
+            2.3821899095578683e-12
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-6_sl7_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": -3,
+          "radial": [
+            -3.319067839251978e-05,
+            9.937023000806091e-13
+          ],
+          "equatorial_angular_value": 0.331889063302248,
+          "particle_contribution": [
+            -1.101562316205955e-05,
+            3.297989255750427e-13
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-4_sl7_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": -1,
+          "radial": [
+            3.576264204493568e-05,
+            1.6780066861082518e-13
+          ],
+          "equatorial_angular_value": -0.31936243453738244,
+          "particle_contribution": [
+            -1.1421244428959611e-05,
+            -5.358923004455366e-14
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-2_sl7_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 1,
+          "radial": [
+            -4.062582747675783e-05,
+            -0.0
+          ],
+          "equatorial_angular_value": 0.319369265965226,
+          "particle_contribution": [
+            -1.2974640700482058e-05,
+            -0.0
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg0_sl7_gh0.0001_go4000_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 3,
+          "radial": [
+            4.899631062819411e-05,
+            1.2673245317452e-09
+          ],
+          "equatorial_angular_value": -0.33190402060459806,
+          "particle_contribution": [
+            -1.6262072492289425e-05,
+            -4.2063010749707146e-10
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg2_sl7_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 5,
+          "radial": [
+            -6.50426807715282e-05,
+            -1.529086812507822e-07
+          ],
+          "equatorial_angular_value": 0.3669304551253576,
+          "particle_contribution": [
+            -2.3866140458070188e-05,
+            -5.610685200396775e-08
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg4_sl7_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 7,
+          "radial": [
+            0.00011209243144665149,
+            2.7685606277934984e-06
+          ],
+          "equatorial_angular_value": -0.5000118904697415,
+          "particle_contribution": [
+            -5.604754855499011e-05,
+            -1.3843132333831215e-06
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg6_sl7_inner0.0005_outer320_log_h32.json"
+        }
       ],
-      "complete": false
+      "radial_coefficient_sum": [
+        5.0314546789765924e-05,
+        2.616913742232535e-06
+      ],
+      "particle_field_sum": [
+        -0.00016409487157717907,
+        -1.4408381561388602e-06
+      ],
+      "abs_radial_coefficient_sum": 5.03825550780608e-05,
+      "abs_particle_field_sum": 0.00016410119710874468,
+      "abs_radial_sum_per_epsilon_q": 0.0018660205584466966,
+      "abs_particle_sum_per_epsilon_q": 0.006077822115138693
     },
     {
       "ell": 8,
@@ -469,10 +779,152 @@
     },
     {
       "ell": 9,
-      "missing_m": [
-        1
+      "complete": true,
+      "missing_m": [],
+      "components": [
+        {
+          "m": -9,
+          "radial": [
+            -2.300497389116697e-05,
+            3.4798172945685054e-14
+          ],
+          "equatorial_angular_value": 0.5295786044514894,
+          "particle_contribution": [
+            -1.2182941968727154e-05,
+            1.8428367866037465e-14
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-10_sl9_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": -7,
+          "radial": [
+            1.768631372233298e-05,
+            1.6390172789739318e-14
+          ],
+          "equatorial_angular_value": -0.38530816198091833,
+          "particle_contribution": [
+            -6.814681032570014e-06,
+            -6.315267352164117e-15
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-8_sl9_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": -5,
+          "radial": [
+            -1.677191350705385e-05,
+            5.511031068239057e-14
+          ],
+          "equatorial_angular_value": 0.3446223412103351,
+          "particle_contribution": [
+            -5.7799760993781404e-06,
+            1.899224429219438e-14
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-6_sl9_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": -3,
+          "radial": [
+            1.6931743117696306e-05,
+            9.632387098675292e-14
+          ],
+          "equatorial_angular_value": -0.3264697331460653,
+          "particle_contribution": [
+            -5.527701657332041e-06,
+            -3.1446828456641246e-14
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-4_sl9_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": -1,
+          "radial": [
+            -1.77462273057548e-05,
+            5.1858742787955045e-12
+          ],
+          "equatorial_angular_value": 0.31896598286727595,
+          "particle_contribution": [
+            -5.66044283476617e-06,
+            1.6541174863621339e-12
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-2_sl9_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 1,
+          "radial": [
+            1.9196621133698014e-05,
+            0.0
+          ],
+          "equatorial_angular_value": -0.31897025153256436,
+          "particle_contribution": [
+            -6.123151071590996e-06,
+            0.0
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg0_sl9_gh0.0001_go4000_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 3,
+          "radial": [
+            -2.1471527936552966e-05,
+            -4.399031836867591e-12
+          ],
+          "equatorial_angular_value": 0.32648045031604744,
+          "particle_contribution": [
+            -7.010034109699405e-06,
+            -1.4361978950551604e-12
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg2_sl9_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 5,
+          "radial": [
+            2.508426160241433e-05,
+            1.4810790265328642e-10
+          ],
+          "equatorial_angular_value": -0.34463278654631874,
+          "particle_contribution": [
+            -8.644858974496877e-06,
+            -5.104283920093302e-11
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg4_sl9_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 7,
+          "radial": [
+            -3.1552560013712024e-05,
+            -6.3965836394010815e-09
+          ],
+          "equatorial_angular_value": 0.38530476777821543,
+          "particle_contribution": [
+            -1.2157351808891517e-05,
+            -2.4646341737533657e-09
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg6_sl9_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 9,
+          "radial": [
+            4.9905014517295736e-05,
+            1.1057892079831249e-07
+          ],
+          "equatorial_angular_value": -0.5295260879549311,
+          "particle_contribution": [
+            -2.6426007106677654e-05,
+            -5.855442334060857e-08
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg8_sl9_inner0.0005_outer320_log_h32.json"
+        }
       ],
-      "complete": false
+      "radial_coefficient_sum": [
+        1.825675143919675e-05,
+        1.0433143452653402e-07
+      ],
+      "particle_field_sum": [
+        -9.632714666412997e-05,
+        -6.106988277545522e-08
+      ],
+      "abs_radial_coefficient_sum": 1.8257049546978914e-05,
+      "abs_particle_field_sum": 9.632716602279642e-05,
+      "abs_radial_sum_per_epsilon_q": 0.0006761870202584783,
+      "abs_particle_sum_per_epsilon_q": 0.003567672815659127
     },
     {
       "ell": 10,
@@ -638,10 +1090,178 @@
     },
     {
       "ell": 11,
-      "missing_m": [
-        1
+      "complete": true,
+      "missing_m": [],
+      "components": [
+        {
+          "m": -11,
+          "radial": [
+            -1.4347370524120007e-05,
+            -7.836556008646072e-14
+          ],
+          "equatorial_angular_value": 0.5548473651656097,
+          "particle_contribution": [
+            -7.96060073236272e-06,
+            -4.34809245337e-14
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-12_sl11_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": -9,
+          "radial": [
+            1.072686136375766e-05,
+            2.3626154222040995e-14
+          ],
+          "equatorial_angular_value": -0.4015571691237312,
+          "particle_contribution": [
+            -4.307448082813252e-06,
+            -9.487251606683471e-15
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-10_sl11_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": -7,
+          "radial": [
+            -9.874427629944756e-06,
+            2.307958355960067e-15
+          ],
+          "equatorial_angular_value": 0.3567864100868249,
+          "particle_contribution": [
+            -3.523061585750144e-06,
+            8.234481764528826e-16
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-8_sl11_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": -5,
+          "radial": [
+            9.643689161782385e-06,
+            1.0852711748956689e-14
+          ],
+          "equatorial_angular_value": -0.3351397486288602,
+          "particle_contribution": [
+            -3.231983561534612e-06,
+            -3.637175087486822e-15
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-6_sl11_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": -3,
+          "radial": [
+            -9.72692743811543e-06,
+            -6.404028295618528e-13
+          ],
+          "equatorial_angular_value": 0.3237758011990683,
+          "particle_contribution": [
+            -3.149343724481024e-06,
+            -2.0734693923153928e-13
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-4_sl11_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": -1,
+          "radial": [
+            1.0045748415972204e-05,
+            -6.851547117294624e-12
+          ],
+          "equatorial_angular_value": -0.3187576530274505,
+          "particle_contribution": [
+            -3.2021591879795287e-06,
+            2.1839830787158285e-12
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg-2_sl11_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 1,
+          "radial": [
+            -1.0595148369786498e-05,
+            -0.0
+          ],
+          "equatorial_angular_value": 0.31876056969956623,
+          "particle_contribution": [
+            -3.3773155304045748e-06,
+            -0.0
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg0_sl11_gh0.0001_go4000_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 3,
+          "radial": [
+            1.1420967427821943e-05,
+            6.984331230463386e-12
+          ],
+          "equatorial_angular_value": -0.3237835929540016,
+          "particle_contribution": [
+            -3.6979218687908106e-06,
+            -2.2614118601802782e-12
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg2_sl11_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 5,
+          "radial": [
+            -1.2634190478001532e-05,
+            8.58176431393215e-13
+          ],
+          "equatorial_angular_value": 0.3351494090443738,
+          "particle_contribution": [
+            -4.234341472456268e-06,
+            2.876173238372456e-13
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg4_sl11_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 7,
+          "radial": [
+            1.4491742293778331e-05,
+            6.883978644166012e-12
+          ],
+          "equatorial_angular_value": -0.35679235414009647,
+          "particle_contribution": [
+            -5.170542848588772e-06,
+            -2.456150946302141e-12
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg6_sl11_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 9,
+          "radial": [
+            -1.774222351319528e-05,
+            -2.106155996680732e-10
+          ],
+          "equatorial_angular_value": 0.4015494596619096,
+          "particle_contribution": [
+            -7.124380264924392e-06,
+            -8.457258024308385e-11
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg8_sl11_inner0.0005_outer320_log_h32.json"
+        },
+        {
+          "m": 11,
+          "radial": [
+            2.6980025251531974e-05,
+            3.6521352419314813e-09
+          ],
+          "equatorial_angular_value": -0.5547999127083433,
+          "particle_contribution": [
+            -1.4968515654418836e-05,
+            -2.02620431342265e-09
+          ],
+          "file": "forced_mode_nr8_nt18_L18_mg10_sl11_inner0.0005_outer320_log_h32.json"
+        }
       ],
-      "complete": false
+      "radial_coefficient_sum": [
+        8.388745961480993e-06,
+        3.4487125998868146e-09
+      ],
+      "particle_field_sum": [
+        -6.394761451450493e-05,
+        -2.113285984911946e-09
+      ],
+      "abs_radial_coefficient_sum": 8.388746670384215e-06,
+      "abs_particle_field_sum": 6.394761454942397e-05,
+      "abs_radial_sum_per_epsilon_q": 0.00031069432112534136,
+      "abs_particle_sum_per_epsilon_q": 0.0023684301684971844
     },
     {
       "ell": 12,
@@ -834,10 +1454,15 @@
   ],
   "complete_shells": [
     2,
+    3,
     4,
+    5,
     6,
+    7,
     8,
+    9,
     10,
+    11,
     12
   ],
   "limitations": [

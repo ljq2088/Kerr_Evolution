@@ -1,0 +1,144 @@
+{
+  "status": "batch_failed_partial_results_preserved",
+  "parameters": {
+    "alpha": 0.3,
+    "background": "threshold-kerr",
+    "orbital_radius": 20.0,
+    "green_horizon_offset": 0.0001,
+    "green_outer_radius": 1000.0,
+    "infinity_method": "series",
+    "radial_order": 8,
+    "angular_order": 18,
+    "metric_ellmax": 18,
+    "metric_m": 0,
+    "scalar_ell": null,
+    "static_matching": "docs/environment_reproduction/static_tetrad_a0.877153_r20_L18_q32_j18_free18_paper_eps5e-06.json",
+    "source_inner_offset": 0.0005,
+    "source_outer_radius": 320.0,
+    "horizon_log": true,
+    "horizon_order": 32,
+    "reuse_source": null,
+    "extend_metric_source": null,
+    "scalar_ells": [
+      3,
+      5,
+      7,
+      9,
+      11
+    ],
+    "conjugate_ells": []
+  },
+  "channels": [
+    {
+      "scalar_ell": 3,
+      "scalar_m": 1,
+      "file": "forced_mode_nr8_nt18_L18_mg0_sl3_inner0.0005_outer320_log_h32.json",
+      "metric_m": 0,
+      "metric_conjugated": false,
+      "metric_cache_hits": 1584,
+      "metric_reconstructions": 0,
+      "elapsed_seconds": 5.1315943819990935,
+      "flux": {
+        "infinity": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": 0.0,
+          "orbital_angular_momentum": 0.0
+        },
+        "horizon": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": 0.0,
+          "orbital_angular_momentum": 0.0
+        }
+      }
+    },
+    {
+      "scalar_ell": 5,
+      "scalar_m": 1,
+      "file": "forced_mode_nr8_nt18_L18_mg0_sl5_inner0.0005_outer320_log_h32.json",
+      "metric_m": 0,
+      "metric_conjugated": false,
+      "metric_cache_hits": 1584,
+      "metric_reconstructions": 0,
+      "elapsed_seconds": 2.8596549310004775,
+      "flux": {
+        "infinity": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": 0.0,
+          "orbital_angular_momentum": 0.0
+        },
+        "horizon": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": 0.0,
+          "orbital_angular_momentum": 0.0
+        }
+      }
+    },
+    {
+      "scalar_ell": 7,
+      "scalar_m": 1,
+      "file": "forced_mode_nr8_nt18_L18_mg0_sl7_inner0.0005_outer320_log_h32.json",
+      "metric_m": 0,
+      "metric_conjugated": false,
+      "metric_cache_hits": 1584,
+      "metric_reconstructions": 0,
+      "elapsed_seconds": 4.446697494999171,
+      "flux": {
+        "infinity": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": 0.0,
+          "orbital_angular_momentum": 0.0
+        },
+        "horizon": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": 0.0,
+          "orbital_angular_momentum": 0.0
+        }
+      }
+    },
+    {
+      "scalar_ell": 9,
+      "scalar_m": 1,
+      "file": "forced_mode_nr8_nt18_L18_mg0_sl9_inner0.0005_outer320_log_h32.json",
+      "metric_m": 0,
+      "metric_conjugated": false,
+      "metric_cache_hits": 1584,
+      "metric_reconstructions": 0,
+      "elapsed_seconds": 5.56266290900021,
+      "flux": {
+        "infinity": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": 0.0,
+          "orbital_angular_momentum": 0.0
+        },
+        "horizon": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": 0.0,
+          "orbital_angular_momentum": 0.0
+        }
+      }
+    }
+  ],
+  "metric_precomputation": {
+    "workers": 2,
+    "cached_radii": 0,
+    "reconstructed_radii": 88,
+    "elapsed_seconds": 8370.98880508,
+    "cache_key": "7b2c865e93a1d747b65bf411",
+    "source_hash": "45328186c7c344105d71d58fde1df86eba6e2d0710d4b0667e12a52e42f9fddb"
+  },
+  "failure": {
+    "scalar_ell": 11,
+    "scalar_m": 1,
+    "error_type": "ValueError",
+    "message": "Unresolved inverse-r infinity boundary: use --infinity-method coulomb and verify --green-outer-radius convergence before interpreting fluxes",
+    "evidence": "outputs/scalar_batch_static_r20_L18.log; observed process exit code 1"
+  }
+}

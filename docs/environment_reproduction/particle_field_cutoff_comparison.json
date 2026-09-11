@@ -359,5 +359,7 @@
     "L6/nt10 compared with L18/nt18; selected Green outer radii also differ",
     "Only complete ell2 and ell4 field shells compared",
     "Each lower input carries exact metadata; higher inputs are in particle_field_L18.json"
-  ]
+  ],
+  "current_higher_particle_report_sha256": "76230e421f10d76e2bf5754622f393f1ea6cb524a43659b78a1f44a5c6cc0775",
+  "current_reference_check": "Both compared ell2 and ell4 complex particle fields exactly unchanged when odd static shells were added"
 }
