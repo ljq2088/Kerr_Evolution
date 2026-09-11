@@ -14,7 +14,7 @@
       "0": 4000.0
     }
   },
-  "computed_count": 33,
+  "computed_count": 35,
   "required_count": 36,
   "modes": [
     {
@@ -210,6 +210,14 @@
       "ratio": 1.0363968916114763
     },
     {
+      "ell": 10,
+      "m": 10,
+      "file": "forced_mode_nr8_nt18_L18_mg9_sl10_inner0.0005_outer320_log_h32.json",
+      "computed": 3.9487273444890734e-10,
+      "digitized": 3.818211294282396e-10,
+      "ratio": 1.0341825111674987
+    },
+    {
       "ell": 11,
       "m": 3,
       "file": "forced_mode_nr8_nt18_L18_mg2_sl11_inner0.0005_outer320_log_h32.json",
@@ -280,17 +288,17 @@
       "computed": 1.5189728984473025e-14,
       "digitized": 1.2034944682128945e-14,
       "ratio": 1.2621353388544208
+    },
+    {
+      "ell": 12,
+      "m": 10,
+      "file": "forced_mode_nr8_nt18_L18_mg9_sl12_inner0.0005_outer320_log_h32.json",
+      "computed": 4.966088741511509e-13,
+      "digitized": 4.2351006917415707e-13,
+      "ratio": 1.1726022833873495
     }
   ],
   "missing_modes": [
-    [
-      10,
-      10
-    ],
-    [
-      12,
-      10
-    ],
     [
       12,
       12
@@ -298,7 +306,7 @@
   ],
   "finite_total": null,
   "inputs_sha256": {
-    "flux_coverage_L18_nt18_i12_h12_f12_m0go4000_m2go4000.json": "35783461761d25a7ad8740f6b8714caf651a6acc7b902cfa8f262bbf2497d382",
+    "flux_coverage_L18_nt18_i12_h12_f12_m0go4000_m2go4000.json": "f0260d20b04a1a1d7af6085db9a88fd0ef5f5c6c1c1d507cb54a6fe82611bac1",
     "paper_v1_flux_markers.json": "64e3223059d77f8309738f94e05b8142754aaad542e45fd4642f1835be1f1beb"
   },
   "limitations": [
