@@ -17,6 +17,8 @@ def main():
     parser.add_argument('inputs',type=Path,nargs='+')
     parser.add_argument('--sample-indices',type=int,nargs='+',required=True)
     parser.add_argument('--output',type=Path,required=True)
+    parser.add_argument('--angular-orders',type=int,nargs='+',
+                        help='Compare quadrature orders with the same deterministic metric backend')
     args=parser.parse_args()
     reports=[json.loads(path.read_text()) for path in args.inputs]
     common=None
@@ -29,6 +31,11 @@ def main():
         if p.get('background') is not None or g['m_g']==0:raise ValueError('Requires nonstatic stationary Kerr source')
         common=this
     alpha,mass,a,orbit,mg,ellmax,ntheta=common
+    orders=args.angular_orders or [ntheta]
+    if len(set(orders))!=len(orders) or min(orders)<2:
+        raise ValueError('Angular orders must be distinct and at least two')
+    if any(index<0 or any(index>=len(data['samples']) for data in reports) for index in args.sample_indices):
+        raise ValueError('Sample index outside a supplied source grid')
     install_dense_angular_diagnostic()
     cloud=ThresholdCloud(alpha=alpha,mass=mass)
     if abs(cloud.a-a)>1e-13:raise ValueError('Cloud spin differs from reference')
@@ -40,22 +47,23 @@ def main():
             parameters=dict(alpha=alpha,cloud_mass=mass,a=a,r0=orbit,abs_metric_m=mg,
                             metric_ellmax=ellmax,angular_order=ntheta,angular_backend='dense-real'),
             inputs=[dict(file=str(path),sha256=hashlib.sha256(path.read_bytes()).hexdigest()) for path in args.inputs],
-            requested_indices=args.sample_indices,completed=rows,
-            all_requested_nodes_completed=len(rows)==len(args.inputs)*len(args.sample_indices),
+            requested_indices=args.sample_indices,requested_angular_orders=orders,completed=rows,
+            all_requested_nodes_completed=len(rows)==len(args.inputs)*len(args.sample_indices)*len(orders),
             limitations=['Fresh source amplitudes and homogeneous angular factors use one backend',
-                         'Same radial inputs, cloud and quadrature as references',
+                         'Same radial inputs and cloud; angular quadrature order recorded per row',
                          'Selected-node differences do not bound integrated flux errors'])
         temporary=args.output.with_suffix('.tmp')
         temporary.write_text(json.dumps(result,indent=2)+'\n');temporary.replace(args.output)
     save()
-    for index in args.sample_indices:
+    for order in orders:
+      for index in args.sample_indices:
         for path,data in zip(args.inputs,reports):
             p=data['parameters'];sample=data['samples'][index];r=sample['r']
             metric=base if p['metric']['m_g']>0 else opposite
-            omega,values=project_source(cloud,[r],orbit,p['scalar_ell'],p['scalar_m'],metric,ntheta=ntheta)
+            omega,values=project_source(cloud,[r],orbit,p['scalar_ell'],p['scalar_m'],metric,ntheta=order)
             if abs(omega-p['omega'])>1e-13:raise ValueError('Frequency differs')
             old=complex(*sample['source']);new=values[0]
-            row=dict(input=path.name,sample_index=index,r=r,ell=p['scalar_ell'],m=p['scalar_m'],
+            row=dict(input=path.name,sample_index=index,r=r,ell=p['scalar_ell'],m=p['scalar_m'],angular_order=order,
                 original_source=[old.real,old.imag],dense_source=[float(new.real),float(new.imag)],
                 absolute_difference=float(abs(new-old)),relative_difference=float(abs(new-old)/abs(old)) if old else None)
             rows.append(row);save();print(row,flush=True)

@@ -43,7 +43,7 @@ def main():
         sum_figure6_ell_le6=sum(row['digitized'] for row in rows),
         figure2_horizon_magnitude_inferred_unit_cloud_mass=figure2['figure2']['horizon_magnitude']['plotted_flux']*.3**6,
         limitations=['Raw finite source cutoffs, no horizon-tail correction',
-                     ('Metric ell cutoff below paper target 18' if cutoff<18 else 'Paper metric cutoff reached; remaining convergence is unproven'),
+                     ('Metric ell cutoff below paper target 18' if cutoff<18 else 'Reconstruction index cutoff 18 reached; equivalence to paper spherical-data truncation unverified'),
                      'Scalar ell=7..12 of paper Fig.6 not present',
                      'Figure 2/6 normalization relationship inferred from cross-figure closure'])
     stem=root/f'rp20_modal_comparison_L{cutoff}'

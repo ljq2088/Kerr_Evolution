@@ -95,7 +95,7 @@
   "figure2_horizon_magnitude_inferred_unit_cloud_mass": 5.176375531716324e-05,
   "limitations": [
     "Raw finite source cutoffs, no horizon-tail correction",
-    "Paper metric cutoff reached; remaining convergence is unproven",
+    "Reconstruction index cutoff 18 reached; equivalence to paper spherical-data truncation unverified",
     "Scalar ell=7..12 of paper Fig.6 not present",
     "Figure 2/6 normalization relationship inferred from cross-figure closure"
   ]

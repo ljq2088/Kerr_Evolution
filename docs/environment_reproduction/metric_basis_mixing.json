@@ -1,0 +1,512 @@
+{
+  "status": "angular_basis_comparison_not_metric_truncation_error",
+  "a": 0.8771530275949366,
+  "orbital_radius": 20.0,
+  "rows": [
+    {
+      "spin": -2,
+      "ell": 12,
+      "m": 2,
+      "spheroidicity": 0.019423256630741542,
+      "angular_norm": 1.0000000000000007,
+      "spherical_above_18_norm_squared": 2.4254046765558413e-36,
+      "spherical_above_18_norm": 1.5573710786308578e-18,
+      "largest_off_diagonal_coefficient": 0.0015754159953427008
+    },
+    {
+      "spin": -2,
+      "ell": 18,
+      "m": 2,
+      "spheroidicity": 0.019423256630741542,
+      "angular_norm": 0.9999999999999994,
+      "spherical_above_18_norm_squared": 1.0229419618347815e-06,
+      "spherical_above_18_norm": 0.0010114059332606178,
+      "largest_off_diagonal_coefficient": 0.0010662850429231903
+    },
+    {
+      "spin": -1,
+      "ell": 12,
+      "m": 2,
+      "spheroidicity": 0.019423256630741542,
+      "angular_norm": 0.9999999999999989,
+      "spherical_above_18_norm_squared": 8.047017199935973e-34,
+      "spherical_above_18_norm": 2.836726493678228e-17,
+      "largest_off_diagonal_coefficient": 0.0007961127052502799
+    },
+    {
+      "spin": -1,
+      "ell": 18,
+      "m": 2,
+      "spheroidicity": 0.019423256630741542,
+      "angular_norm": 1.0000000000000007,
+      "spherical_above_18_norm_squared": 2.578866737643563e-07,
+      "spherical_above_18_norm": 0.0005078254363109003,
+      "largest_off_diagonal_coefficient": 0.0005356372127752281
+    },
+    {
+      "spin": 0,
+      "ell": 12,
+      "m": 2,
+      "spheroidicity": 0.019423256630741542,
+      "angular_norm": 1.0000000000000004,
+      "spherical_above_18_norm_squared": 5.881449979462238e-50,
+      "spherical_above_18_norm": 2.4251700928929167e-25,
+      "largest_off_diagonal_coefficient": 1.991754211337606e-06
+    },
+    {
+      "spin": 0,
+      "ell": 18,
+      "m": 2,
+      "spheroidicity": 0.019423256630741542,
+      "angular_norm": 1.0,
+      "spherical_above_18_norm_squared": 1.4333346489175142e-12,
+      "spherical_above_18_norm": 1.197219549171126e-06,
+      "largest_off_diagonal_coefficient": 1.3308147412065105e-06
+    },
+    {
+      "spin": 1,
+      "ell": 12,
+      "m": 2,
+      "spheroidicity": 0.019423256630741542,
+      "angular_norm": 0.9999999999999987,
+      "spherical_above_18_norm_squared": 8.047017199935764e-34,
+      "spherical_above_18_norm": 2.836726493678191e-17,
+      "largest_off_diagonal_coefficient": 0.0007961127052502842
+    },
+    {
+      "spin": 1,
+      "ell": 18,
+      "m": 2,
+      "spheroidicity": 0.019423256630741542,
+      "angular_norm": 1.0,
+      "spherical_above_18_norm_squared": 2.578866737641996e-07,
+      "spherical_above_18_norm": 0.000507825436310746,
+      "largest_off_diagonal_coefficient": 0.0005356372127752289
+    },
+    {
+      "spin": 2,
+      "ell": 12,
+      "m": 2,
+      "spheroidicity": 0.019423256630741542,
+      "angular_norm": 0.9999999999999987,
+      "spherical_above_18_norm_squared": 2.4254046765557715e-36,
+      "spherical_above_18_norm": 1.5573710786308353e-18,
+      "largest_off_diagonal_coefficient": 0.001575415995342895
+    },
+    {
+      "spin": 2,
+      "ell": 18,
+      "m": 2,
+      "spheroidicity": 0.019423256630741542,
+      "angular_norm": 1.0000000000000007,
+      "spherical_above_18_norm_squared": 1.022941961834773e-06,
+      "spherical_above_18_norm": 0.0010114059332606137,
+      "largest_off_diagonal_coefficient": 0.0010662850429232111
+    },
+    {
+      "spin": -2,
+      "ell": 12,
+      "m": 5,
+      "spheroidicity": 0.048558141576853855,
+      "angular_norm": 1.0,
+      "spherical_above_18_norm_squared": 1.2196328884077976e-32,
+      "spherical_above_18_norm": 1.1043699056058154e-16,
+      "largest_off_diagonal_coefficient": 0.0036360567443151784
+    },
+    {
+      "spin": -2,
+      "ell": 18,
+      "m": 5,
+      "spheroidicity": 0.048558141576853855,
+      "angular_norm": 1.0000000000000002,
+      "spherical_above_18_norm_squared": 6.0239483046298934e-06,
+      "spherical_above_18_norm": 0.0024543733018084052,
+      "largest_off_diagonal_coefficient": 0.0025783545455587277
+    },
+    {
+      "spin": -1,
+      "ell": 12,
+      "m": 5,
+      "spheroidicity": 0.048558141576853855,
+      "angular_norm": 1.0000000000000013,
+      "spherical_above_18_norm_squared": 7.327344807742954e-34,
+      "spherical_above_18_norm": 2.7069068709032e-17,
+      "largest_off_diagonal_coefficient": 0.001837542975754453
+    },
+    {
+      "spin": -1,
+      "ell": 18,
+      "m": 5,
+      "spheroidicity": 0.048558141576853855,
+      "angular_norm": 0.9999999999999998,
+      "spherical_above_18_norm_squared": 1.5187189755785954e-06,
+      "spherical_above_18_norm": 0.001232363167081277,
+      "largest_off_diagonal_coefficient": 0.0012952273940756373
+    },
+    {
+      "spin": 0,
+      "ell": 12,
+      "m": 5,
+      "spheroidicity": 0.048558141576853855,
+      "angular_norm": 1.0000000000000002,
+      "spherical_above_18_norm_squared": 7.060303462967034e-32,
+      "spherical_above_18_norm": 2.657123155400787e-16,
+      "largest_off_diagonal_coefficient": 1.0396056687596295e-05
+    },
+    {
+      "spin": 0,
+      "ell": 18,
+      "m": 5,
+      "spheroidicity": 0.048558141576853855,
+      "angular_norm": 0.9999999999999998,
+      "spherical_above_18_norm_squared": 4.990165508526349e-11,
+      "spherical_above_18_norm": 7.064110353417725e-06,
+      "largest_off_diagonal_coefficient": 7.738163330156486e-06
+    },
+    {
+      "spin": 1,
+      "ell": 12,
+      "m": 5,
+      "spheroidicity": 0.048558141576853855,
+      "angular_norm": 1.0000000000000013,
+      "spherical_above_18_norm_squared": 7.327344807742292e-34,
+      "spherical_above_18_norm": 2.706906870903078e-17,
+      "largest_off_diagonal_coefficient": 0.0018375429757545884
+    },
+    {
+      "spin": 1,
+      "ell": 18,
+      "m": 5,
+      "spheroidicity": 0.048558141576853855,
+      "angular_norm": 1.0000000000000004,
+      "spherical_above_18_norm_squared": 1.5187189755785697e-06,
+      "spherical_above_18_norm": 0.0012323631670812666,
+      "largest_off_diagonal_coefficient": 0.0012952273940751724
+    },
+    {
+      "spin": 2,
+      "ell": 12,
+      "m": 5,
+      "spheroidicity": 0.048558141576853855,
+      "angular_norm": 0.9999999999999999,
+      "spherical_above_18_norm_squared": 1.2196328884078172e-32,
+      "spherical_above_18_norm": 1.1043699056058242e-16,
+      "largest_off_diagonal_coefficient": 0.0036360567443151177
+    },
+    {
+      "spin": 2,
+      "ell": 18,
+      "m": 5,
+      "spheroidicity": 0.048558141576853855,
+      "angular_norm": 1.0000000000000004,
+      "spherical_above_18_norm_squared": 6.023948304629927e-06,
+      "spherical_above_18_norm": 0.002454373301808412,
+      "largest_off_diagonal_coefficient": 0.0025783545455588005
+    },
+    {
+      "spin": -2,
+      "ell": 12,
+      "m": 7,
+      "spheroidicity": 0.0679813982075954,
+      "angular_norm": 0.9999999999999993,
+      "spherical_above_18_norm_squared": 1.405478217131606e-35,
+      "spherical_above_18_norm": 3.748970814945891e-18,
+      "largest_off_diagonal_coefficient": 0.004555298851705227
+    },
+    {
+      "spin": -2,
+      "ell": 18,
+      "m": 7,
+      "spheroidicity": 0.0679813982075954,
+      "angular_norm": 0.9999999999999998,
+      "spherical_above_18_norm_squared": 1.0977435547192898e-05,
+      "spherical_above_18_norm": 0.0033132213248125908,
+      "largest_off_diagonal_coefficient": 0.0034642437137395064
+    },
+    {
+      "spin": -1,
+      "ell": 12,
+      "m": 7,
+      "spheroidicity": 0.0679813982075954,
+      "angular_norm": 0.9999999999999991,
+      "spherical_above_18_norm_squared": 7.062314322233472e-36,
+      "spherical_above_18_norm": 2.657501518764095e-18,
+      "largest_off_diagonal_coefficient": 0.00230226148466848
+    },
+    {
+      "spin": -1,
+      "ell": 18,
+      "m": 7,
+      "spheroidicity": 0.0679813982075954,
+      "angular_norm": 1.000000000000001,
+      "spherical_above_18_norm_squared": 2.767684254296655e-06,
+      "spherical_above_18_norm": 0.0016636358538744756,
+      "largest_off_diagonal_coefficient": 0.0017402774757634258
+    },
+    {
+      "spin": 0,
+      "ell": 12,
+      "m": 7,
+      "spheroidicity": 0.0679813982075954,
+      "angular_norm": 1.0000000000000002,
+      "spherical_above_18_norm_squared": 4.0341268922075854e-33,
+      "spherical_above_18_norm": 6.351477695944138e-17,
+      "largest_off_diagonal_coefficient": 1.576688141325389e-05
+    },
+    {
+      "spin": 0,
+      "ell": 18,
+      "m": 7,
+      "spheroidicity": 0.0679813982075954,
+      "angular_norm": 0.9999999999999998,
+      "spherical_above_18_norm_squared": 1.6661679064172368e-10,
+      "spherical_above_18_norm": 1.2908012652679098e-05,
+      "largest_off_diagonal_coefficient": 1.3868476830741602e-05
+    },
+    {
+      "spin": 1,
+      "ell": 12,
+      "m": 7,
+      "spheroidicity": 0.0679813982075954,
+      "angular_norm": 0.9999999999999998,
+      "spherical_above_18_norm_squared": 7.062314322226298e-36,
+      "spherical_above_18_norm": 2.6575015187627454e-18,
+      "largest_off_diagonal_coefficient": 0.002302261484668553
+    },
+    {
+      "spin": 1,
+      "ell": 18,
+      "m": 7,
+      "spheroidicity": 0.0679813982075954,
+      "angular_norm": 1.0000000000000002,
+      "spherical_above_18_norm_squared": 2.767684254296707e-06,
+      "spherical_above_18_norm": 0.001663635853874491,
+      "largest_off_diagonal_coefficient": 0.0017402774757634882
+    },
+    {
+      "spin": 2,
+      "ell": 12,
+      "m": 7,
+      "spheroidicity": 0.0679813982075954,
+      "angular_norm": 0.9999999999999973,
+      "spherical_above_18_norm_squared": 1.4054782171308002e-35,
+      "spherical_above_18_norm": 3.748970814944817e-18,
+      "largest_off_diagonal_coefficient": 0.004555298851705165
+    },
+    {
+      "spin": 2,
+      "ell": 18,
+      "m": 7,
+      "spheroidicity": 0.0679813982075954,
+      "angular_norm": 1.0,
+      "spherical_above_18_norm_squared": 1.0977435547193818e-05,
+      "spherical_above_18_norm": 0.0033132213248127295,
+      "largest_off_diagonal_coefficient": 0.0034642437137396625
+    },
+    {
+      "spin": -2,
+      "ell": 12,
+      "m": 9,
+      "spheroidicity": 0.08740465483833694,
+      "angular_norm": 1.0000000000000018,
+      "spherical_above_18_norm_squared": 1.6761735080157867e-34,
+      "spherical_above_18_norm": 1.2946711968742437e-17,
+      "largest_off_diagonal_coefficient": 0.004818754261596885
+    },
+    {
+      "spin": -2,
+      "ell": 18,
+      "m": 9,
+      "spheroidicity": 0.08740465483833694,
+      "angular_norm": 0.9999999999999973,
+      "spherical_above_18_norm_squared": 1.6312682968168167e-05,
+      "spherical_above_18_norm": 0.004038896256177938,
+      "largest_off_diagonal_coefficient": 0.004190819141141484
+    },
+    {
+      "spin": -1,
+      "ell": 12,
+      "m": 9,
+      "spheroidicity": 0.08740465483833694,
+      "angular_norm": 1.0,
+      "spherical_above_18_norm_squared": 2.2331553338226266e-35,
+      "spherical_above_18_norm": 4.725627295738235e-18,
+      "largest_off_diagonal_coefficient": 0.0024316096291574414
+    },
+    {
+      "spin": -1,
+      "ell": 18,
+      "m": 9,
+      "spheroidicity": 0.08740465483833694,
+      "angular_norm": 0.9999999999999997,
+      "spherical_above_18_norm_squared": 4.113056176337124e-06,
+      "spherical_above_18_norm": 0.0020280671035094286,
+      "largest_off_diagonal_coefficient": 0.002105317774194485
+    },
+    {
+      "spin": 0,
+      "ell": 12,
+      "m": 9,
+      "spheroidicity": 0.08740465483833694,
+      "angular_norm": 0.9999999999999996,
+      "spherical_above_18_norm_squared": 1.2325957812425594e-32,
+      "spherical_above_18_norm": 1.110223302422787e-16,
+      "largest_off_diagonal_coefficient": 1.9576586905054413e-05
+    },
+    {
+      "spin": 0,
+      "ell": 18,
+      "m": 9,
+      "spheroidicity": 0.08740465483833694,
+      "angular_norm": 0.9999999999999997,
+      "spherical_above_18_norm_squared": 3.713512029784164e-10,
+      "spherical_above_18_norm": 1.927047490277332e-05,
+      "largest_off_diagonal_coefficient": 2.0062334136549486e-05
+    },
+    {
+      "spin": 1,
+      "ell": 12,
+      "m": 9,
+      "spheroidicity": 0.08740465483833694,
+      "angular_norm": 1.0,
+      "spherical_above_18_norm_squared": 2.2331553338230924e-35,
+      "spherical_above_18_norm": 4.725627295738728e-18,
+      "largest_off_diagonal_coefficient": 0.002431609629157334
+    },
+    {
+      "spin": 1,
+      "ell": 18,
+      "m": 9,
+      "spheroidicity": 0.08740465483833694,
+      "angular_norm": 1.0000000000000002,
+      "spherical_above_18_norm_squared": 4.113056176337436e-06,
+      "spherical_above_18_norm": 0.002028067103509506,
+      "largest_off_diagonal_coefficient": 0.0021053177741945824
+    },
+    {
+      "spin": 2,
+      "ell": 12,
+      "m": 9,
+      "spheroidicity": 0.08740465483833694,
+      "angular_norm": 1.0000000000000013,
+      "spherical_above_18_norm_squared": 1.6761735080157485e-34,
+      "spherical_above_18_norm": 1.2946711968742289e-17,
+      "largest_off_diagonal_coefficient": 0.004818754261596886
+    },
+    {
+      "spin": 2,
+      "ell": 18,
+      "m": 9,
+      "spheroidicity": 0.08740465483833694,
+      "angular_norm": 1.0000000000000002,
+      "spherical_above_18_norm_squared": 1.63126829681694e-05,
+      "spherical_above_18_norm": 0.004038896256178091,
+      "largest_off_diagonal_coefficient": 0.004190819141141172
+    },
+    {
+      "spin": -2,
+      "ell": 12,
+      "m": 11,
+      "spheroidicity": 0.10682791146907847,
+      "angular_norm": 0.9999999999999998,
+      "spherical_above_18_norm_squared": 3.2087149996670073e-34,
+      "spherical_above_18_norm": 1.7912886421978474e-17,
+      "largest_off_diagonal_coefficient": 0.004359407287317644
+    },
+    {
+      "spin": -2,
+      "ell": 18,
+      "m": 11,
+      "spheroidicity": 0.10682791146907847,
+      "angular_norm": 1.0000000000000004,
+      "spherical_above_18_norm_squared": 2.0931284705450133e-05,
+      "spherical_above_18_norm": 0.004575072098388192,
+      "largest_off_diagonal_coefficient": 0.004687111692435693
+    },
+    {
+      "spin": -1,
+      "ell": 12,
+      "m": 11,
+      "spheroidicity": 0.10682791146907847,
+      "angular_norm": 0.9999999999999996,
+      "spherical_above_18_norm_squared": 4.268475362870907e-35,
+      "spherical_above_18_norm": 6.533356995351553e-18,
+      "largest_off_diagonal_coefficient": 0.002199998069923664
+    },
+    {
+      "spin": -1,
+      "ell": 18,
+      "m": 11,
+      "spheroidicity": 0.10682791146907847,
+      "angular_norm": 0.9999999999999983,
+      "spherical_above_18_norm_squared": 5.277896380404404e-06,
+      "spherical_above_18_norm": 0.0022973672715533326,
+      "largest_off_diagonal_coefficient": 0.002354694241413718
+    },
+    {
+      "spin": 0,
+      "ell": 12,
+      "m": 11,
+      "spheroidicity": 0.10682791146907847,
+      "angular_norm": 1.0000000000000009,
+      "spherical_above_18_norm_squared": 2.6399591598802936e-32,
+      "spherical_above_18_norm": 1.624795113200521e-16,
+      "largest_off_diagonal_coefficient": 1.7442286267686022e-05
+    },
+    {
+      "spin": 0,
+      "ell": 18,
+      "m": 11,
+      "spheroidicity": 0.10682791146907847,
+      "angular_norm": 1.0000000000000004,
+      "spherical_above_18_norm_squared": 6.212330879676663e-10,
+      "spherical_above_18_norm": 2.4924547898962305e-05,
+      "largest_off_diagonal_coefficient": 2.4924547896907477e-05
+    },
+    {
+      "spin": 1,
+      "ell": 12,
+      "m": 11,
+      "spheroidicity": 0.10682791146907847,
+      "angular_norm": 0.9999999999999996,
+      "spherical_above_18_norm_squared": 4.2684753628714866e-35,
+      "spherical_above_18_norm": 6.5333569953519965e-18,
+      "largest_off_diagonal_coefficient": 0.0021999980699237073
+    },
+    {
+      "spin": 1,
+      "ell": 18,
+      "m": 11,
+      "spheroidicity": 0.10682791146907847,
+      "angular_norm": 0.9999999999999994,
+      "spherical_above_18_norm_squared": 5.277896380404714e-06,
+      "spherical_above_18_norm": 0.0022973672715534002,
+      "largest_off_diagonal_coefficient": 0.002354694241413576
+    },
+    {
+      "spin": 2,
+      "ell": 12,
+      "m": 11,
+      "spheroidicity": 0.10682791146907847,
+      "angular_norm": 1.0000000000000002,
+      "spherical_above_18_norm_squared": 3.2087149996669983e-34,
+      "spherical_above_18_norm": 1.7912886421978446e-17,
+      "largest_off_diagonal_coefficient": 0.004359407287317627
+    },
+    {
+      "spin": 2,
+      "ell": 18,
+      "m": 11,
+      "spheroidicity": 0.10682791146907847,
+      "angular_norm": 1.0000000000000007,
+      "spherical_above_18_norm_squared": 2.093128470544985e-05,
+      "spherical_above_18_norm": 0.004575072098388161,
+      "largest_off_diagonal_coefficient": 0.004687111692434933
+    }
+  ],
+  "limitations": [
+    "Individual angular factors, before metric reconstruction and source contraction",
+    "Missing separated modes above 18 are not computed",
+    "Does not determine the authors component basis or explain flux discrepancies"
+  ]
+}
