@@ -113,3 +113,5 @@ report_static_boundary_comparison.py核验两批仅Green外边界不同，96个r
 绘图输出名现改为追加扩展名，避免Path.with_suffix把rp3.5的小数点之后全部截断。已用rp=3.5M、ell=2的三个齐备通道实际绘制宽域切面，并检查PNG布局、JSON参数及NPZ的240x480有限复场数组。结果为wake_diagnostic_rp3.5_L18_sl2_wide_linear_eps.{png,json,npz}；仅验证低阶绘图流程，不作为完整Fig.1验收。
 
 第八批mg=8及共轭驱动完成五个通道：m=9的ell=9,11及m=-7的ell=7,9,11。批次scalar_batch_mg8_3f7c15502706.json的五份结果各有96个源采样点，通量与批次记录一致。完整场清单为75/88，无穷远48/61、非静态视界70/85；仍不报告缺通道的总量。队列已进入mg=9。
+
+第九批mg=9及共轭驱动完成五个通道：m=10的ell=10,12及m=-8的ell=8,10,12。批次scalar_batch_mg9_c2dbfcd52792.json完成，五份结果各有96个源采样点，通量与批次记录一致且有限。完整场清单80/88，无穷远53/61、非静态视界75/85。mg=10继续运行，尚缺八个场通道。
