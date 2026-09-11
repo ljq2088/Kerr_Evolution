@@ -20,6 +20,8 @@ Schwarzschild复频率背景、KS切片能量归一化及冻结时间衰减的KG
 
 静态spin-2 Hertz–Lorenz分支及点粒子曲率归一化已实现并检查Psi0/Psi4，
 见 `STATIC_SPIN2.md`。联合trace、自由标量和补全基的轨道匹配仍未完成。
+已实现联合局部匹配诊断并修正圆轨道等距对称性：Schwarzschild低阶
+条件可满足，Kerr独立导数跳跃还未整体收敛，详见 `STATIC_MATCHING.md`。
 
 ## 图级验收
 

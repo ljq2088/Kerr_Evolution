@@ -153,10 +153,19 @@ def static_hertz_amplitude(r0,a,ell,branch):
     return (2*target/(lam*(lam-2)*p/delta**2)).conjugate()
 
 
-def sourced_static_spin2(r,theta,r0=6.,a=.6,ell=2,order=8):
-    """Curvature-normalized real static spin-2 piece, not a matched metric."""
+def sourced_static_spin2(r,theta,r0=6.,a=.6,ell=2,order=8,circular_symmetry=True):
+    """Curvature-normalized circular static piece, not a matched metric.
+
+    Average with the Kerr isometry (t,phi)->(-t,-phi). The stationary
+    circular source is invariant under this pullback. A single IRG seed
+    otherwise retains a curvature-free, symmetry-odd gauge contribution.
+    """
     if r==r0:raise ValueError('Use a one-sided vacuum point')
     branch='P' if r<r0 else 'Q'
     amplitude=static_hertz_amplitude(r0,a,ell,branch)
     g,h=static_spin2_metric(r,theta,a=a,ell=ell,branch=branch,order=order,reference_radius=r0)
-    return g,[[amplitude*v+amplitude.conjugate()*v.conjugate() for v in row] for row in h]
+    real=[[amplitude*v+amplitude.conjugate()*v.conjugate() for v in row] for row in h]
+    if circular_symmetry:
+        parity=(-1,1,1,-1)
+        real=[[v*(1+parity[i]*parity[j])/2 for j,v in enumerate(row)] for i,row in enumerate(real)]
+    return g,real
