@@ -71,11 +71,24 @@
       "horizon_charge": 0.0060523397637324795,
       "omega": 0.2852214878976851,
       "relative_change_from_baseline": 0.0061290669442908285
+    },
+    "inner0005_h32": {
+      "file": "forced_mode_nr4_nt10_L4_mg-1_sl0_inner0.0005_outer320_log_h32.json",
+      "radial_order": 4,
+      "angular_order": 10,
+      "horizon_order": 32,
+      "metric_ellmax": 4,
+      "source_inner_offset": 0.0004999999999999449,
+      "infinity_flux": -0.0,
+      "horizon_flux": -6.701005933606647e-05,
+      "horizon_wave_energy": 0.0017262574173517902,
+      "horizon_charge": 0.006052339990495509,
+      "omega": 0.2852214878976851,
+      "relative_change_from_baseline": 0.00612902970692597,
+      "relative_change_from_same_cutoff_h16": 3.746700261153535e-08
     }
   },
-  "pending": [
-    "forced_mode_nr4_nt10_L4_mg-1_sl0_inner0.0005_outer320_log_h32.json"
-  ],
+  "pending": [],
   "orbit_frequency": 0.011071760582072043,
   "cloud_frequency": 0.29629324847975713,
   "baseline_cloud_energy_change": -0.0018043262458496557,

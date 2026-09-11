@@ -34,7 +34,8 @@ def main():
     parser.add_argument('--source-outer-radius',type=float,default=320.)
     parser.add_argument('--horizon-log',action='store_true')
     parser.add_argument('--horizon-order',type=int)
-    parser.add_argument('--reuse-source',type=Path)
+    parser.add_argument('--reuse-source',type=Path,action='append',
+                        help='Reuse compatible source samples; repeat to combine completed grids')
     parser.add_argument('--extend-metric-source',type=Path,
                         help='Reuse lower ellmax source and compute only additional metric modes at matching radii')
     args=parser.parse_args()
@@ -121,11 +122,15 @@ def main():
     grid_keys={'radial_order','source_panels','green_outer_radius','green_horizon_offset',
                'horizon_log_first_panel','horizon_quadrature_order','infinity_method'}
     source_parameters=lambda p:{k:v for k,v in p.items() if k not in grid_keys}
-    if args.reuse_source:
-        cached=json.loads(args.reuse_source.read_text())
+    for cache_path in args.reuse_source or []:
+        cached=json.loads(cache_path.read_text())
         if source_parameters(cached['parameters'])!=source_parameters(metadata):
             raise ValueError('Reusable samples have different source physics or angular truncation')
-        reused={row['r']:row['source'] for row in cached['samples']}
+        for row in cached['samples']:
+            if row['r'] in reused:
+                np.testing.assert_allclose(reused[row['r']],row['source'],rtol=1e-10,atol=1e-13,
+                                           err_msg='Conflicting source samples in reusable grids')
+            reused[row['r']]=row['source']
     if args.extend_metric_source:
         cached=json.loads(args.extend_metric_source.read_text())
         lower=source_parameters(cached['parameters'])
