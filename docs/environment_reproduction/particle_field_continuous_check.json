@@ -36,8 +36,20 @@
         -6.41900557166761e-06
       ],
       "relative_difference": 2.710867163280566e-06
+    },
+    {
+      "ell": 8,
+      "gauss_field": [
+        -0.00012321166798210005,
+        -3.0492058352097535e-07
+      ],
+      "continuous_field": [
+        -0.00012321281064761112,
+        -3.049179957172805e-07
+      ],
+      "relative_difference": 9.273999459409846e-06
     }
   ],
-  "input_sha256": "177ad052c61dda666cbf13b4931870ce88e439ccc54c80ba039ca91834708f49",
+  "input_sha256": "bdd371ca6b74cbd6f5a9e650f01870f5d7a20f5c1cdc2bf87ce79dc5042500d4",
   "complete": true
 }

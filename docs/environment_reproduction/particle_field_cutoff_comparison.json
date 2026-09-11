@@ -1,0 +1,363 @@
+{
+  "status": "joint_discretization_change_not_single_parameter_convergence",
+  "rows": [
+    {
+      "ell": 2,
+      "lower_cutoff_field": [
+        0.0002943390369267207,
+        0.0002629615397895727
+      ],
+      "higher_cutoff_field": [
+        0.0002943342859500794,
+        0.0002629614574390458
+      ],
+      "relative_complex_difference": 1.2038997526920917e-05,
+      "lower_inputs": [
+        {
+          "file": "forced_mode_nr8_nt10_L6_mg-3_sl2_inner0.0005_outer320_log_h32.json",
+          "sha256": "9552bb2bb15605ad82c5e1d8f0b75d6be5a1c9b0f0737f3dbc89d29467732188",
+          "parameters": {
+            "alpha": 0.3,
+            "cloud_mass": 1.0,
+            "metric": {
+              "status": "development_not_production_validated",
+              "coordinates": "Boyer-Lindquist",
+              "field": "covariant h_ab; particle mass stripped",
+              "m_g": -3,
+              "ellmax": 6,
+              "orbital_radius": 20.0,
+              "a": 0.8771530275949366,
+              "static_and_low_modes_included": false,
+              "kappa_mass_squared_step": 1.1032549414805184e-05,
+              "maxwell_chiralities": "both; full complex compact current"
+            },
+            "scalar_ell": 2,
+            "scalar_m": -2,
+            "omega": 0.263077966733541,
+            "radial_order": 8,
+            "angular_order": 10,
+            "source_panels": [
+              1.4807109600800843,
+              3.0,
+              6.0,
+              12.0,
+              20.0,
+              40.0,
+              80.0,
+              160.0,
+              320.0
+            ],
+            "green_outer_radius": 1000.0,
+            "green_horizon_offset": 0.0001,
+            "horizon_log_first_panel": true,
+            "horizon_quadrature_order": 32
+          }
+        },
+        {
+          "file": "forced_mode_nr8_nt10_L6_mg-1_sl2_inner0.0005_outer320_log_h32.json",
+          "sha256": "96918455d397e17fc1e66b917f4c9dbadb10b3f8a6ab574ecb1c108d31802f72",
+          "parameters": {
+            "alpha": 0.3,
+            "cloud_mass": 1.0,
+            "metric": {
+              "status": "development_not_production_validated",
+              "coordinates": "Boyer-Lindquist",
+              "field": "covariant h_ab; particle mass stripped",
+              "m_g": -1,
+              "ellmax": 6,
+              "orbital_radius": 20.0,
+              "a": 0.8771530275949366,
+              "static_and_low_modes_included": false,
+              "kappa_mass_squared_step": 1.2258388238672426e-06,
+              "maxwell_chiralities": "both; full complex compact current",
+              "nonstatic_dipole_included": true
+            },
+            "scalar_ell": 2,
+            "scalar_m": 0,
+            "omega": 0.2852214878976851,
+            "radial_order": 8,
+            "angular_order": 10,
+            "source_panels": [
+              1.4807109600800843,
+              3.0,
+              6.0,
+              12.0,
+              20.0,
+              40.0,
+              80.0,
+              160.0,
+              320.0
+            ],
+            "green_outer_radius": 1000.0,
+            "green_horizon_offset": 0.0001,
+            "horizon_log_first_panel": true,
+            "horizon_quadrature_order": 32
+          }
+        },
+        {
+          "file": "forced_mode_nr8_nt10_L6_mg1_sl2_inner0.0005_outer320_log_h32.json",
+          "sha256": "b833146fea64610d772e82f7b3b3196bff8201599bce14c1bc288bd321c57db9",
+          "parameters": {
+            "alpha": 0.3,
+            "cloud_mass": 1.0,
+            "metric": {
+              "status": "development_not_production_validated",
+              "coordinates": "Boyer-Lindquist",
+              "field": "covariant h_ab; particle mass stripped",
+              "m_g": 1,
+              "ellmax": 6,
+              "orbital_radius": 20.0,
+              "a": 0.8771530275949366,
+              "static_and_low_modes_included": false,
+              "kappa_mass_squared_step": 1.2258388238672426e-06,
+              "maxwell_chiralities": "both; full complex compact current",
+              "nonstatic_dipole_included": true
+            },
+            "scalar_ell": 2,
+            "scalar_m": 2,
+            "omega": 0.3073650090618292,
+            "radial_order": 8,
+            "angular_order": 10,
+            "source_panels": [
+              1.4807109600800843,
+              3.0,
+              6.0,
+              12.0,
+              20.0,
+              40.0,
+              80.0,
+              160.0,
+              320.0
+            ],
+            "green_outer_radius": 1000.0,
+            "green_horizon_offset": 0.0001,
+            "horizon_log_first_panel": true,
+            "horizon_quadrature_order": 32
+          }
+        }
+      ]
+    },
+    {
+      "ell": 4,
+      "lower_cutoff_field": [
+        -0.000566589105515717,
+        -0.00010626750427803523
+      ],
+      "higher_cutoff_field": [
+        -0.0005666852904506984,
+        -0.0001062683586145942
+      ],
+      "relative_complex_difference": 0.00016683118276857172,
+      "lower_inputs": [
+        {
+          "file": "forced_mode_nr8_nt10_L6_mg-5_sl4_inner0.0005_outer320_log_h32.json",
+          "sha256": "252f7b68c4e0d226b022a175d2e81380b9593f481ff8630b929d3e53172054e7",
+          "parameters": {
+            "alpha": 0.3,
+            "cloud_mass": 1.0,
+            "metric": {
+              "status": "development_not_production_validated",
+              "coordinates": "Boyer-Lindquist",
+              "field": "covariant h_ab; particle mass stripped",
+              "m_g": -5,
+              "ellmax": 6,
+              "orbital_radius": 20.0,
+              "a": 0.8771530275949366,
+              "static_and_low_modes_included": false,
+              "kappa_mass_squared_step": 3.064597059668107e-05,
+              "maxwell_chiralities": "both; full complex compact current"
+            },
+            "scalar_ell": 4,
+            "scalar_m": -4,
+            "omega": 0.24093444556939692,
+            "radial_order": 8,
+            "angular_order": 10,
+            "source_panels": [
+              1.4807109600800843,
+              3.0,
+              6.0,
+              12.0,
+              20.0,
+              40.0,
+              80.0,
+              160.0,
+              320.0
+            ],
+            "green_outer_radius": 1000.0,
+            "green_horizon_offset": 0.0001,
+            "horizon_log_first_panel": true,
+            "horizon_quadrature_order": 32
+          }
+        },
+        {
+          "file": "forced_mode_nr8_nt10_L6_mg-3_sl4_inner0.0005_outer320_log_h32.json",
+          "sha256": "139d3f19a102e5de07fdc86a3bff4e5a519326b55e099a9920657d8f8ee824c2",
+          "parameters": {
+            "alpha": 0.3,
+            "cloud_mass": 1.0,
+            "metric": {
+              "status": "development_not_production_validated",
+              "coordinates": "Boyer-Lindquist",
+              "field": "covariant h_ab; particle mass stripped",
+              "m_g": -3,
+              "ellmax": 6,
+              "orbital_radius": 20.0,
+              "a": 0.8771530275949366,
+              "static_and_low_modes_included": false,
+              "kappa_mass_squared_step": 1.1032549414805184e-05,
+              "maxwell_chiralities": "both; full complex compact current"
+            },
+            "scalar_ell": 4,
+            "scalar_m": -2,
+            "omega": 0.263077966733541,
+            "radial_order": 8,
+            "angular_order": 10,
+            "source_panels": [
+              1.4807109600800843,
+              3.0,
+              6.0,
+              12.0,
+              20.0,
+              40.0,
+              80.0,
+              160.0,
+              320.0
+            ],
+            "green_outer_radius": 1000.0,
+            "green_horizon_offset": 0.0001,
+            "horizon_log_first_panel": true,
+            "horizon_quadrature_order": 32
+          }
+        },
+        {
+          "file": "forced_mode_nr8_nt10_L6_mg-1_sl4_inner0.0005_outer320_log_h32.json",
+          "sha256": "62693fc048c2d4e4f4cef4474e618265107f5fa6a1ae8f30d78e641fcaa50e5d",
+          "parameters": {
+            "alpha": 0.3,
+            "cloud_mass": 1.0,
+            "metric": {
+              "status": "development_not_production_validated",
+              "coordinates": "Boyer-Lindquist",
+              "field": "covariant h_ab; particle mass stripped",
+              "m_g": -1,
+              "ellmax": 6,
+              "orbital_radius": 20.0,
+              "a": 0.8771530275949366,
+              "static_and_low_modes_included": false,
+              "kappa_mass_squared_step": 1.2258388238672426e-06,
+              "maxwell_chiralities": "both; full complex compact current",
+              "nonstatic_dipole_included": true
+            },
+            "scalar_ell": 4,
+            "scalar_m": 0,
+            "omega": 0.2852214878976851,
+            "radial_order": 8,
+            "angular_order": 10,
+            "source_panels": [
+              1.4807109600800843,
+              3.0,
+              6.0,
+              12.0,
+              20.0,
+              40.0,
+              80.0,
+              160.0,
+              320.0
+            ],
+            "green_outer_radius": 1000.0,
+            "green_horizon_offset": 0.0001,
+            "horizon_log_first_panel": true,
+            "horizon_quadrature_order": 32
+          }
+        },
+        {
+          "file": "forced_mode_nr8_nt10_L6_mg1_sl4_inner0.0005_outer320_log_h32.json",
+          "sha256": "afe6b1cbbe24292569a86edfa51ede900fb165e5e37312e9027f44bd1a411a15",
+          "parameters": {
+            "alpha": 0.3,
+            "cloud_mass": 1.0,
+            "metric": {
+              "status": "development_not_production_validated",
+              "coordinates": "Boyer-Lindquist",
+              "field": "covariant h_ab; particle mass stripped",
+              "m_g": 1,
+              "ellmax": 6,
+              "orbital_radius": 20.0,
+              "a": 0.8771530275949366,
+              "static_and_low_modes_included": false,
+              "kappa_mass_squared_step": 1.2258388238672426e-06,
+              "maxwell_chiralities": "both; full complex compact current",
+              "nonstatic_dipole_included": true
+            },
+            "scalar_ell": 4,
+            "scalar_m": 2,
+            "omega": 0.3073650090618292,
+            "radial_order": 8,
+            "angular_order": 10,
+            "source_panels": [
+              1.4807109600800843,
+              3.0,
+              6.0,
+              12.0,
+              20.0,
+              40.0,
+              80.0,
+              160.0,
+              320.0
+            ],
+            "green_outer_radius": 1000.0,
+            "green_horizon_offset": 0.0001,
+            "horizon_log_first_panel": true,
+            "horizon_quadrature_order": 32
+          }
+        },
+        {
+          "file": "forced_mode_nr8_nt10_L6_mg3_sl4_inner0.0005_outer320_log_h32.json",
+          "sha256": "f230656486fa2bdc26306b039fd2db1bd295c5b178568b94324a49c6d8d0272b",
+          "parameters": {
+            "alpha": 0.3,
+            "cloud_mass": 1.0,
+            "metric": {
+              "status": "development_not_production_validated",
+              "coordinates": "Boyer-Lindquist",
+              "field": "covariant h_ab; particle mass stripped",
+              "m_g": 3,
+              "ellmax": 6,
+              "orbital_radius": 20.0,
+              "a": 0.8771530275949366,
+              "static_and_low_modes_included": false,
+              "kappa_mass_squared_step": 1.1032549414805184e-05,
+              "maxwell_chiralities": "both; full complex compact current"
+            },
+            "scalar_ell": 4,
+            "scalar_m": 4,
+            "omega": 0.32950853022597326,
+            "radial_order": 8,
+            "angular_order": 10,
+            "source_panels": [
+              1.4807109600800843,
+              3.0,
+              6.0,
+              12.0,
+              20.0,
+              40.0,
+              80.0,
+              160.0,
+              320.0
+            ],
+            "green_outer_radius": 1000.0,
+            "green_horizon_offset": 0.0001,
+            "horizon_log_first_panel": true,
+            "horizon_quadrature_order": 32
+          }
+        }
+      ]
+    }
+  ],
+  "higher_particle_report_sha256": "bdd371ca6b74cbd6f5a9e650f01870f5d7a20f5c1cdc2bf87ce79dc5042500d4",
+  "limitations": [
+    "L6/nt10 compared with L18/nt18; selected Green outer radii also differ",
+    "Only complete ell2 and ell4 field shells compared",
+    "Each lower input carries exact metadata; higher inputs are in particle_field_L18.json"
+  ]
+}
