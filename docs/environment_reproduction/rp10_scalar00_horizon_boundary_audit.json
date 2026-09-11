@@ -1,0 +1,92 @@
+{
+  "status": "same_source_horizon_boundary_audit_not_full_convergence",
+  "input": "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-1_sl0_inner0.0005_outer320_log_h32.json",
+  "sha256": "42c9412363a7d92e2f039fc9cf3272cb8582168ec6f72794ed01853ba08ba5c8",
+  "parameters": {
+    "alpha": 0.3,
+    "cloud_mass": 1.0,
+    "metric": {
+      "status": "development_not_production_validated",
+      "coordinates": "Boyer-Lindquist",
+      "field": "covariant h_ab; particle mass stripped",
+      "m_g": -1,
+      "ellmax": 18,
+      "orbital_radius": 10.0,
+      "a": 0.8771530275949366,
+      "static_and_low_modes_included": false,
+      "kappa_mass_squared_step": 9.46749662030759e-06,
+      "maxwell_chiralities": "both; full complex compact current",
+      "nonstatic_dipole_included": true
+    },
+    "scalar_ell": 0,
+    "scalar_m": 0,
+    "omega": 0.26552395108721405,
+    "radial_order": 8,
+    "angular_order": 18,
+    "source_panels": [
+      1.4807109600800843,
+      3.0,
+      6.0,
+      10.0,
+      12.0,
+      20.0,
+      40.0,
+      80.0,
+      160.0,
+      320.0
+    ],
+    "green_outer_radius": 1000.0,
+    "green_horizon_offset": 0.0001,
+    "horizon_log_first_panel": true,
+    "horizon_quadrature_order": 32
+  },
+  "runs": [
+    {
+      "outer": 1000.0,
+      "rtol": 1e-11,
+      "z_h": [
+        0.011324754489022567,
+        0.0341817545430782
+      ],
+      "relative_complex_amplitude_change": 2.26704808377571e-16,
+      "relative_horizon_flux_change": 4.440892098500626e-16,
+      "horizon_orbital_energy": -6.272275267097332e-05,
+      "discrete_condition_number": 1.0710065069970898,
+      "wronskian_relative_spread": 2.8586569244690102e-11,
+      "last_series_term": 3.552521462480484e-15
+    },
+    {
+      "outer": 4000.0,
+      "rtol": 1e-11,
+      "z_h": [
+        0.011324754488941862,
+        0.03418175454284912
+      ],
+      "relative_complex_amplitude_change": 6.744686008375122e-12,
+      "relative_horizon_flux_change": -1.3486989303146402e-11,
+      "horizon_orbital_energy": -6.272275267012736e-05,
+      "discrete_condition_number": 1.071006506996981,
+      "wronskian_relative_spread": 2.94551512741297e-11,
+      "last_series_term": 0.0
+    },
+    {
+      "outer": 4000.0,
+      "rtol": 1e-13,
+      "z_h": [
+        0.011324754488893224,
+        0.03418175454303906
+      ],
+      "relative_complex_amplitude_change": 3.752781672208992e-12,
+      "relative_horizon_flux_change": -4.3227643686805095e-12,
+      "horizon_orbital_energy": -6.272275267070216e-05,
+      "discrete_condition_number": 1.0710065069970014,
+      "wronskian_relative_spread": 1.0124381016775998e-12,
+      "last_series_term": 0.0
+    }
+  ],
+  "limitations": [
+    "Source nodes and weights remain fixed",
+    "No source cutoff, source quadrature, metric or angular convergence test",
+    "Discrete conditioning is not a continuum error bound"
+  ]
+}
