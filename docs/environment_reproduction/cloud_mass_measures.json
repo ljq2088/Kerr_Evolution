@@ -1,0 +1,53 @@
+{
+  "status": "convention_audit_not_a_source_renormalization",
+  "results": [
+    {
+      "alpha": 0.2,
+      "a": 0.6870453082262991,
+      "omega": 0.19895734610440202,
+      "quadratures": [
+        {
+          "radial_points": 2401,
+          "angular_points": 32,
+          "killing_energy": 0.9999999999999941,
+          "printed_r2_energy_magnitude_C1": 0.9999852357138423,
+          "noether_charge": 5.026202950432207
+        },
+        {
+          "radial_points": 4801,
+          "angular_points": 48,
+          "killing_energy": 1.000000001211438,
+          "printed_r2_energy_magnitude_C1": 0.9999852369252683,
+          "noether_charge": 5.026202956521141
+        }
+      ],
+      "energy_minus_omega_charge": -1.0724754417879012e-13,
+      "flux_multiplier_if_unit_r2_mass": 1.0000147645041393
+    },
+    {
+      "alpha": 0.3,
+      "a": 0.8771530275949366,
+      "omega": 0.29629324847975713,
+      "quadratures": [
+        {
+          "radial_points": 2401,
+          "angular_points": 32,
+          "killing_energy": 0.9999999999999947,
+          "printed_r2_energy_magnitude_C1": 0.9998510600249692,
+          "noether_charge": 3.375034716900054
+        },
+        {
+          "radial_points": 4801,
+          "angular_points": 48,
+          "killing_energy": 1.000000001034616,
+          "printed_r2_energy_magnitude_C1": 0.9998510610594369,
+          "noether_charge": 3.3750347203919024
+        }
+      ],
+      "energy_minus_omega_charge": -2.26973995154367e-12,
+      "flux_multiplier_if_unit_r2_mass": 1.0001489621614457
+    }
+  ],
+  "convention": "C=1 complex stress; physical Killing mass uses Sigma dr dOmega. Printed r^2 integral evaluated with positive energy sign and the same C=1.",
+  "limitation": "Printed stress without C=1 factor would additionally divide mass by two; cannot reconcile that independently from its flux convention."
+}
