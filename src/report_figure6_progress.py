@@ -32,14 +32,14 @@ def main():
     ax.semilogy([r['ell'] for r in reference['markers']],
                 [r['plotted_flux'] for r in reference['markers']],
                 'o',ms=5,mfc='none',mec='.5',label='Paper v1: digitized markers')
-    colors=plt.get_cmap('tab10')
+    colors=plt.get_cmap('tab20')
     for index,m in enumerate(sorted({r['m'] for r in computed})):
         rows=sorted((r for r in computed if r['m']==m),key=lambda r:r['ell'])
         ax.semilogy([r['ell'] for r in rows],[r['computed'] for r in rows],
-                    'x-',lw=.8,ms=6,color=colors(index%10),label=f'Computed m={m}')
+                    'x-',lw=.8,ms=6,color=colors(index%20),label=f'Computed m={m}')
         matched=[r for r in rows if r['ratio'] is not None]
         ratio.plot([r['ell'] for r in matched],[100*(r['ratio']-1) for r in matched],
-                   'o-',ms=4,lw=.8,color=colors(index%10))
+                   'o-',ms=4,lw=.8,color=colors(index%20))
     ax.set(ylim=(1e-17,1e-4),ylabel=r'Infinity orbital flux per $q^2(M_c/M)$')
     ax.legend(ncol=2,fontsize=8);ax.grid(alpha=.2)
     ratio.axhline(0,color='.4',lw=.8)

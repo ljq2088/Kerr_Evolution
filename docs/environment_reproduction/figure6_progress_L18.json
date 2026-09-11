@@ -1,5 +1,5 @@
 {
-  "status": "partial_figure6_comparison",
+  "status": "finite_figure6_comparison_not_converged",
   "parameters": {
     "alpha": 0.3,
     "rp": 20.0,
@@ -14,7 +14,7 @@
       "0": 4000.0
     }
   },
-  "computed_count": 35,
+  "computed_count": 36,
   "required_count": 36,
   "modes": [
     {
@@ -296,17 +296,20 @@
       "computed": 4.966088741511509e-13,
       "digitized": 4.2351006917415707e-13,
       "ratio": 1.1726022833873495
+    },
+    {
+      "ell": 12,
+      "m": 12,
+      "file": "forced_mode_nr8_nt18_L18_mg11_sl12_inner0.0005_outer320_log_h32.json",
+      "computed": 1.2543675923565872e-11,
+      "digitized": 1.1636738340061715e-11,
+      "ratio": 1.0779374389111982
     }
   ],
-  "missing_modes": [
-    [
-      12,
-      12
-    ]
-  ],
-  "finite_total": null,
+  "missing_modes": [],
+  "finite_total": 1.9274073691532465e-05,
   "inputs_sha256": {
-    "flux_coverage_L18_nt18_i12_h12_f12_m0go4000_m2go4000.json": "e1dd5bb038a39eaedfc910f56145447342c1ae551be738a2d63eddcb1bb8a2d6",
+    "flux_coverage_L18_nt18_i12_h12_f12_m0go4000_m2go4000.json": "8d7cf6b101ec0dfe8cce5428a2387d347c9dd4d3abd64a6b32e89679ad88bb61",
     "paper_v1_flux_markers.json": "64e3223059d77f8309738f94e05b8142754aaad542e45fd4642f1835be1f1beb"
   },
   "limitations": [
