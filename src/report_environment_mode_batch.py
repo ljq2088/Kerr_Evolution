@@ -8,7 +8,7 @@ import hashlib
 import json
 from pathlib import Path
 from time import perf_counter
-from report_environment_forced_mode import argument_parser,build_cloud,run
+from report_environment_forced_mode import argument_parser,build_cloud,build_metric,run
 from environment_lorenz_mode import LorenzMetricMode,ConjugateMetricMode
 
 
@@ -23,7 +23,9 @@ def main():
     if len(set(batch.scalar_ells))!=len(batch.scalar_ells) or len(set(batch.conjugate_ells))!=len(batch.conjugate_ells):
         raise ValueError('Duplicate scalar multipoles')
     cloud=build_cloud(args)
-    metric=LorenzMetricMode(args.orbital_radius,cloud.a,args.metric_m,args.metric_ellmax)
+    metric=build_metric(args,cloud)
+    if metric.m==0 and batch.conjugate_ells:
+        raise ValueError('Static metric has no distinct opposite-m branch')
     if min(batch.scalar_ells)<abs(args.metric_m+cloud.m):
         raise ValueError('Every scalar ell must be >= |m_g+m_cloud|')
     if batch.conjugate_ells and min(batch.conjugate_ells)<abs(cloud.m-args.metric_m):

@@ -6,6 +6,7 @@ zero but is not asymptotically flat in these Lorenz coordinates. Finite-mode
 source matching and boundary convergence must still be checked per dataset.
 """
 import json
+from functools import lru_cache
 from pathlib import Path
 import numpy as np
 from lorenz_static_spin2 import sourced_static_spin2
@@ -25,6 +26,7 @@ class StaticLorenzMode:
             raise ValueError('Require circular matching with exact conserved charges')
         self.a,self.r0=meta['a'],meta['r0']
         self.ellmax=matching['parameters']['ellmax']
+        self.m,self.omega,self.ellmin=0,0.,0
         self.completion=completion
         self.jumps=dict(zip(matching['basis_labels'],matching['coefficients']))
         # The matching used y2(r0)=y2'(r0)=0. Removing its growing homogeneous
@@ -74,9 +76,13 @@ class StaticLorenzMode:
                 add(h,value)
         return g,total
 
-    def __call__(self,r,theta):
+    @lru_cache(maxsize=8192)
+    def _values(self,r,theta):
         _,h=self.metric_jet(r,theta,order=6)
-        return np.array([[v.value for v in row] for row in h])
+        return tuple(v.value for row in h for v in row)
+
+    def __call__(self,r,theta):
+        return np.asarray(self._values(float(r),float(theta))).reshape(4,4).copy()
 
     @property
     def provenance(self):
@@ -84,5 +90,6 @@ class StaticLorenzMode:
                     m_g=0,a=self.a,orbital_radius=self.r0,ellmax=self.ellmax,
                     completion=self.completion,auxiliary_boundary='regular In/Up',
                     y_quadrupole='regular In/Up; free scalar jumps transformed',
+                    matched_jumps=self.jumps,
                     inside_completion=self.inside,outside_completion=self.outside,
                     full_source_convergence_verified=False)

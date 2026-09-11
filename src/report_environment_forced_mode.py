@@ -30,6 +30,8 @@ def argument_parser():
     parser.add_argument('--metric-ellmax',type=int,default=4)
     parser.add_argument('--metric-m',type=int,default=2)
     parser.add_argument('--scalar-ell',type=int)
+    parser.add_argument('--static-matching',type=Path,
+                        help='Use the static Lorenz candidate from an exact-charge matching report; requires metric-m=0')
     parser.add_argument('--source-inner-offset',type=float,default=.05)
     parser.add_argument('--source-outer-radius',type=float,default=320.)
     parser.add_argument('--horizon-log',action='store_true')
@@ -48,6 +50,15 @@ def build_cloud(args):
     return SchwarzschildCloud(alpha=args.alpha,freeze_decay=True)
 
 
+def build_metric(args,cloud):
+    if args.static_matching:
+        if args.metric_m!=0:
+            raise ValueError('Static matching requires metric-m=0')
+        from environment_static_lorenz import StaticLorenzMode
+        return StaticLorenzMode(args.static_matching)
+    return LorenzMetricMode(args.orbital_radius,cloud.a,args.metric_m,args.metric_ellmax)
+
+
 def run(args,cloud=None,metric=None):
     if min(args.radial_order,args.angular_order)<2:
         raise ValueError('Quadrature orders must be at least two')
@@ -59,13 +70,17 @@ def run(args,cloud=None,metric=None):
     if orbit<=cloud.rp:
         raise ValueError('Orbit must be outside the horizon')
     if metric is None:
-        metric=LorenzMetricMode(orbit,cloud.a,args.metric_m,args.metric_ellmax)
+        metric=build_metric(args,cloud)
     if (metric.r0,metric.a,metric.m,metric.ellmax,metric.ellmin)!=(orbit,cloud.a,args.metric_m,args.metric_ellmax,abs(args.metric_m)):
         raise ValueError('Shared metric does not match requested mode sum')
     scalar_m=cloud.m+args.metric_m
     scalar_ell=abs(scalar_m) if args.scalar_ell is None else args.scalar_ell
     if scalar_ell<abs(scalar_m):
         raise ValueError('Scalar ell must be >= |scalar m|')
+    if metric.m==0 and scalar_ell==1 and args.background=='threshold-kerr':
+        raise ValueError('Static cloud (1,1) resonance requires a solvability/frequency-shift treatment; restrict wake to ell>=2')
+    if metric.m==0 and args.extend_metric_source:
+        raise ValueError('Static matching coefficients change with truncation; nonstatic source extension is inapplicable')
     omega=cloud.omega+metric.omega
     green=RadialGreen(cloud.a,cloud.mu,omega,scalar_ell,scalar_m,
                       rmax=args.green_outer_radius,offset=args.green_horizon_offset,rtol=1e-11,
