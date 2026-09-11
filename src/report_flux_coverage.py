@@ -25,6 +25,9 @@ def main():
     found={}
     for path in folder.glob('forced_mode_*.json'):
         data=json.loads(path.read_text());p=data.get('parameters',{});g=p.get('metric',{})
+        # Alternative angular diagnostics are separate convergence experiments.
+        if g.get('angular_backend') is not None:
+            continue
         panels=p.get('source_panels',[])
         if (p.get('alpha')!=.3 or g.get('orbital_radius')!=20 or p.get('background') is not None
             or g.get('ellmax')!=args.metric_ellmax or p.get('radial_order')!=8

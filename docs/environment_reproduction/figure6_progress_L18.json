@@ -14,7 +14,7 @@
       "0": 4000.0
     }
   },
-  "computed_count": 29,
+  "computed_count": 32,
   "required_count": 36,
   "modes": [
     {
@@ -138,6 +138,14 @@
       "ratio": 1.0478729628080918
     },
     {
+      "ell": 8,
+      "m": 8,
+      "file": "forced_mode_nr8_nt18_L18_mg7_sl8_inner0.0005_outer320_log_h32.json",
+      "computed": 1.0308732590403061e-08,
+      "digitized": 9.866903815251853e-09,
+      "ratio": 1.044778867152657
+    },
+    {
       "ell": 9,
       "m": 3,
       "file": "forced_mode_nr8_nt18_L18_mg2_sl9_inner0.0005_outer320_log_h32.json",
@@ -194,6 +202,14 @@
       "ratio": 1.0373468728513042
     },
     {
+      "ell": 10,
+      "m": 8,
+      "file": "forced_mode_nr8_nt18_L18_mg7_sl10_inner0.0005_outer320_log_h32.json",
+      "computed": 1.5735324269453662e-11,
+      "digitized": 1.518272043925862e-11,
+      "ratio": 1.0363968916114763
+    },
+    {
       "ell": 11,
       "m": 3,
       "file": "forced_mode_nr8_nt18_L18_mg2_sl11_inner0.0005_outer320_log_h32.json",
@@ -248,17 +264,17 @@
       "computed": 1.6965420409740824e-16,
       "digitized": 1.2802158134573393e-16,
       "ratio": 1.3252000351350264
+    },
+    {
+      "ell": 12,
+      "m": 8,
+      "file": "forced_mode_nr8_nt18_L18_mg7_sl12_inner0.0005_outer320_log_h32.json",
+      "computed": 1.5189728984473025e-14,
+      "digitized": 1.2034944682128945e-14,
+      "ratio": 1.2621353388544208
     }
   ],
   "missing_modes": [
-    [
-      8,
-      8
-    ],
-    [
-      10,
-      8
-    ],
     [
       10,
       10
@@ -266,10 +282,6 @@
     [
       11,
       11
-    ],
-    [
-      12,
-      8
     ],
     [
       12,
@@ -282,7 +294,7 @@
   ],
   "finite_total": null,
   "inputs_sha256": {
-    "flux_coverage_L18_nt18_i12_h12_f12_m0go4000_m2go4000.json": "167fdc2667d8c487cec995eee4585d4f44af287356c25c1980ef05d2b58f236b",
+    "flux_coverage_L18_nt18_i12_h12_f12_m0go4000_m2go4000.json": "7495eaeedab5b6dba711fda80fb207e715bfe806af09bc5c7b582ea91dca61c2",
     "paper_v1_flux_markers.json": "64e3223059d77f8309738f94e05b8142754aaad542e45fd4642f1835be1f1beb"
   },
   "limitations": [

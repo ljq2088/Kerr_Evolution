@@ -32,6 +32,8 @@ def main():
     if batch.conjugate_ells and min(batch.conjugate_ells)<abs(cloud.m-args.metric_m):
         raise ValueError('Opposite metric branch requires ell >= |m_cloud-m_g|')
     parameters=dict(vars(args),scalar_ells=batch.scalar_ells,conjugate_ells=batch.conjugate_ells)
+    if not parameters.get('dense_angular'):
+        parameters.pop('dense_angular',None)
     fingerprint=hashlib.sha256(json.dumps(parameters,sort_keys=True,default=str).encode()).hexdigest()[:12]
     folder=Path(__file__).resolve().parents[1]/'docs/environment_reproduction'
     output=folder/f'scalar_batch_mg{args.metric_m}_{fingerprint}.json'

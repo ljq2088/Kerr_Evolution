@@ -41,6 +41,8 @@ def precompute_metric(base,radii,theta,cache_root,workers=4):
     sources=sorted(set(root.glob('lorenz_*.py'))|{root/name for name in (
         'environment_lorenz_mode.py','environment_static_lorenz.py',
         'environment_radial.py','environment_source.py','environment_cloud.py')})
+    if base.provenance.get('angular_backend'):
+        sources=sorted(set(sources)|{root/'environment_dense_metric.py',root/'environment_angular_diagnostic.py'})
     digest=hashlib.sha256()
     for path in sources:
         digest.update(path.name.encode());digest.update(path.read_bytes())

@@ -29,6 +29,8 @@ def argument_parser():
     parser.add_argument('--angular-order',type=int,default=6)
     parser.add_argument('--metric-ellmax',type=int,default=4)
     parser.add_argument('--metric-m',type=int,default=2)
+    parser.add_argument('--dense-angular',action='store_true',
+                        help='Isolated deterministic real-frequency Lorenz angular diagnostic')
     parser.add_argument('--scalar-ell',type=int)
     parser.add_argument('--static-matching',type=Path,
                         help='Use the static Lorenz candidate from an exact-charge matching report; requires metric-m=0')
@@ -51,12 +53,18 @@ def build_cloud(args):
 
 
 def build_metric(args,cloud):
+    from environment_dense_metric import configure_metric_backend,DenseLorenzMetricMode
+    dense=getattr(args,'dense_angular',False)
+    if dense and args.static_matching:
+        raise ValueError('Dense angular diagnostic is restricted to nonstatic reconstruction')
+    configure_metric_backend(dense)
     if args.static_matching:
         if args.metric_m!=0:
             raise ValueError('Static matching requires metric-m=0')
         from environment_static_lorenz import StaticLorenzMode
         return StaticLorenzMode(args.static_matching)
-    return LorenzMetricMode(args.orbital_radius,cloud.a,args.metric_m,args.metric_ellmax)
+    constructor=DenseLorenzMetricMode if dense else LorenzMetricMode
+    return constructor(args.orbital_radius,cloud.a,args.metric_m,args.metric_ellmax)
 
 
 def source_grid(args,cloud):
@@ -104,6 +112,11 @@ def run(args,cloud=None,metric=None):
         raise ValueError('Static cloud (1,1) resonance requires a solvability/frequency-shift treatment; restrict wake to ell>=2')
     if metric.m==0 and args.extend_metric_source:
         raise ValueError('Static matching coefficients change with truncation; nonstatic source extension is inapplicable')
+    from environment_dense_metric import BACKEND,configure_metric_backend
+    dense=getattr(args,'dense_angular',False)
+    configure_metric_backend(dense)
+    if metric.provenance.get('angular_backend')!=(BACKEND if dense else None):
+        raise ValueError('Shared metric angular backend differs from request')
     omega=cloud.omega+metric.omega
     green=RadialGreen(cloud.a,cloud.mu,omega,scalar_ell,scalar_m,
                       rmax=args.green_outer_radius,offset=args.green_horizon_offset,rtol=1e-11,
@@ -134,6 +147,8 @@ def run(args,cloud=None,metric=None):
         suffix+='_log'
     if args.horizon_order is not None:
         suffix+=f'_h{args.horizon_order}'
+    if dense:
+        suffix+='_denseangular'
     out=directory/f'forced_mode_nr{args.radial_order}_nt{args.angular_order}_L{args.metric_ellmax}{suffix}.json'
     metadata=dict(alpha=args.alpha,cloud_mass=1.,metric=metric.provenance,scalar_ell=scalar_ell,scalar_m=scalar_m,
                   omega=float(omega),radial_order=args.radial_order,angular_order=args.angular_order,
@@ -175,7 +190,9 @@ def run(args,cloud=None,metric=None):
         if lower!=upper or not abs(args.metric_m)<=old_lmax<args.metric_ellmax:
             raise ValueError('Extension requires identical source physics/angular quadrature and a lower complete metric ell sum')
         extended={row['r']:row['source'] for row in cached['samples']}
-        additional_metric=LorenzMetricMode(orbit,cloud.a,args.metric_m,args.metric_ellmax,ellmin=old_lmax+1)
+        from environment_dense_metric import DenseLorenzMetricMode
+        constructor=DenseLorenzMetricMode if dense else LorenzMetricMode
+        additional_metric=constructor(orbit,cloud.a,args.metric_m,args.metric_ellmax,ellmin=old_lmax+1)
     samples=[]
     if out.exists():
         previous=json.loads(out.read_text())
