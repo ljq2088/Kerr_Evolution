@@ -19,6 +19,11 @@ def encode(z):
 
 def main():
     parser=argparse.ArgumentParser()
+    parser.add_argument('--alpha',type=float,default=.3)
+    parser.add_argument('--orbital-radius',type=float,default=20.)
+    parser.add_argument('--green-horizon-offset',type=float,default=1e-4)
+    parser.add_argument('--green-outer-radius',type=float,default=1000.)
+    parser.add_argument('--infinity-method',choices=('series','coulomb'),default='series')
     parser.add_argument('--radial-order',type=int,default=2)
     parser.add_argument('--angular-order',type=int,default=6)
     parser.add_argument('--metric-ellmax',type=int,default=4)
@@ -34,19 +39,28 @@ def main():
     args=parser.parse_args()
     if min(args.radial_order,args.angular_order)<2:
         raise ValueError('Quadrature orders must be at least two')
-    cloud=ThresholdCloud(alpha=.3)
-    metric=LorenzMetricMode(20.,cloud.a,args.metric_m,args.metric_ellmax)
+    cloud=ThresholdCloud(alpha=args.alpha)
+    orbit=args.orbital_radius
+    if orbit<=cloud.rp:
+        raise ValueError('Orbit must be outside the horizon')
+    metric=LorenzMetricMode(orbit,cloud.a,args.metric_m,args.metric_ellmax)
     scalar_m=cloud.m+args.metric_m
     scalar_ell=abs(scalar_m) if args.scalar_ell is None else args.scalar_ell
     if scalar_ell<abs(scalar_m):
         raise ValueError('Scalar ell must be >= |scalar m|')
     omega=cloud.omega+metric.omega
-    green=RadialGreen(cloud.a,cloud.mu,omega,scalar_ell,scalar_m,rmax=1000.,offset=1e-4,rtol=1e-11)
+    green=RadialGreen(cloud.a,cloud.mu,omega,scalar_ell,scalar_m,
+                      rmax=args.green_outer_radius,offset=args.green_horizon_offset,rtol=1e-11,
+                      infinity_method=args.infinity_method)
+    if args.infinity_method=='series' and green.series_last_term_relative>1e-3:
+        raise ValueError('Unresolved inverse-r infinity boundary: use --infinity-method coulomb '
+                         'and verify --green-outer-radius convergence before interpreting fluxes')
     inner=cloud.rp+args.source_inner_offset
     outer=args.source_outer_radius
-    if not green.rmin<=inner<20.<outer<=min(green.rmax,cloud.rmax):
+    if not green.rmin<=inner<orbit<outer<=min(green.rmax,cloud.rmax):
         raise ValueError('Source cutoffs must enclose the orbit and lie inside both solved domains')
-    panels=np.array([inner]+[r for r in (3.,6.,12.,20.,40.,80.,160.,320.) if inner<r<outer]+[outer])
+    panels=np.array([inner]+sorted({r for r in (3.,6.,12.,20.,40.,80.,160.,320.,orbit)
+                                  if inner<r<outer})+[outer])
     node_panels,weight_panels=[],[]
     for index,(a,b) in enumerate(zip(panels[:-1],panels[1:])):
         order=(args.horizon_order or args.radial_order) if index==0 else args.radial_order
@@ -64,8 +78,14 @@ def main():
     radii,weights=np.concatenate(node_panels),np.concatenate(weight_panels)
     directory=Path(__file__).resolve().parents[1]/'docs/environment_reproduction'
     suffix=''
+    if args.alpha!=.3 or orbit!=20.:
+        suffix=f'_alpha{args.alpha:g}_rp{orbit:g}'
     if args.metric_m!=2 or scalar_ell!=3:
-        suffix=f'_mg{args.metric_m}_sl{scalar_ell}'
+        suffix+=f'_mg{args.metric_m}_sl{scalar_ell}'
+    if args.green_horizon_offset!=1e-4 or args.green_outer_radius!=1000.:
+        suffix+=f'_gh{args.green_horizon_offset:g}_go{args.green_outer_radius:g}'
+    if args.infinity_method!='series':
+        suffix+='_'+args.infinity_method
     if args.source_inner_offset!=.05 or outer!=320.:
         suffix+=f'_inner{args.source_inner_offset:g}_outer{outer:g}'
     if args.horizon_log:
@@ -73,9 +93,12 @@ def main():
     if args.horizon_order is not None:
         suffix+=f'_h{args.horizon_order}'
     out=directory/f'forced_mode_nr{args.radial_order}_nt{args.angular_order}_L{args.metric_ellmax}{suffix}.json'
-    metadata=dict(alpha=.3,cloud_mass=1.,metric=metric.provenance,scalar_ell=scalar_ell,scalar_m=scalar_m,
+    metadata=dict(alpha=args.alpha,cloud_mass=1.,metric=metric.provenance,scalar_ell=scalar_ell,scalar_m=scalar_m,
                   omega=float(omega),radial_order=args.radial_order,angular_order=args.angular_order,
-                  source_panels=panels.tolist(),green_outer_radius=1000.,green_horizon_offset=1e-4)
+                  source_panels=panels.tolist(),green_outer_radius=args.green_outer_radius,
+                  green_horizon_offset=args.green_horizon_offset)
+    if args.infinity_method!='series':
+        metadata['infinity_method']=args.infinity_method
     if args.horizon_log:
         metadata['horizon_log_first_panel']=True
     if args.horizon_order is not None:
@@ -84,7 +107,7 @@ def main():
     extended={}
     additional_metric=None
     grid_keys={'radial_order','source_panels','green_outer_radius','green_horizon_offset',
-               'horizon_log_first_panel','horizon_quadrature_order'}
+               'horizon_log_first_panel','horizon_quadrature_order','infinity_method'}
     source_parameters=lambda p:{k:v for k,v in p.items() if k not in grid_keys}
     if args.reuse_source:
         cached=json.loads(args.reuse_source.read_text())
@@ -101,7 +124,7 @@ def main():
         if lower!=upper or not abs(args.metric_m)<=old_lmax<args.metric_ellmax:
             raise ValueError('Extension requires identical source physics/angular quadrature and a lower complete metric ell sum')
         extended={row['r']:row['source'] for row in cached['samples']}
-        additional_metric=LorenzMetricMode(20.,cloud.a,args.metric_m,args.metric_ellmax,ellmin=old_lmax+1)
+        additional_metric=LorenzMetricMode(orbit,cloud.a,args.metric_m,args.metric_ellmax,ellmin=old_lmax+1)
     samples=[]
     if out.exists():
         previous=json.loads(out.read_text())
@@ -121,7 +144,7 @@ def main():
             value=reused[r]
         else:
             selected_metric=additional_metric if r in extended else metric
-            frequency,J=project_source(cloud,[r],20.,scalar_ell,scalar_m,selected_metric,ntheta=args.angular_order)
+            frequency,J=project_source(cloud,[r],orbit,scalar_ell,scalar_m,selected_metric,ntheta=args.angular_order)
             if abs(frequency-omega)>1e-14:
                 raise RuntimeError('Source and Green frequencies differ')
             value=encode(J[0]+(complex(*extended[r]) if r in extended else 0j))
@@ -157,6 +180,10 @@ def main():
                   flux_scaling='per q^2*(cloud mass/M); unit Killing cloud mass, not alpha^-3 rescaled',
                   flux=mode_flux(omega,scalar_m,cloud.omega,cloud.m,cloud.mu,cloud.a,zi,zh),
                   wronskian_relative_spread=float(np.max(abs(green.wronskian(radii)/green.w0-1))),
+                  infinity_boundary_audit=dict(method=green.infinity_method,
+                      inverse_r_series_last_term_relative=green.series_last_term_relative,
+                      status=('series_unresolved' if green.infinity_method=='series' and green.series_last_term_relative>1e-3
+                              else 'outer_cutoff_convergence_required')),
                   missing_convergence=['radial quadrature','horizon source cutoff','outer source cutoff',
                                        'angular projection','metric ell truncation','remaining m modes and static completion'])
     save()

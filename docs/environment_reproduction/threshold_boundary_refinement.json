@@ -1,0 +1,411 @@
+{
+  "status": "boundary_diagnostic_low_resolution_source",
+  "rows": [
+    {
+      "orbit": 41.6,
+      "method": "series",
+      "rmax": 1000.0,
+      "series_last_term_relative": 1.0041918613025107,
+      "z_h": [
+        0.01480339819330772,
+        0.010852313119844035
+      ],
+      "z_inf": [
+        -2.4287792762701624e-14,
+        2.0573466669210877e-14
+      ],
+      "wronskian_spread": 1.9467588242586966e-11,
+      "flux": {
+        "infinity": {
+          "charge": 4.4697112612282614e-30,
+          "wave_energy": 1.3409496244819835e-30,
+          "orbital_energy": 1.6604355126109598e-32,
+          "orbital_angular_momentum": 4.4697112612282614e-30
+        },
+        "horizon": {
+          "charge": -0.0005836385936951254,
+          "wave_energy": -0.00017509631099383528,
+          "orbital_energy": -2.168136129749467e-06,
+          "orbital_angular_momentum": -0.0005836385936951254
+        }
+      }
+    },
+    {
+      "orbit": 41.6,
+      "method": "coulomb",
+      "rmax": 1000.0,
+      "series_last_term_relative": 1.0041918613025107,
+      "z_h": [
+        0.01480055000715466,
+        0.010850162792509927
+      ],
+      "z_inf": [
+        0.7448618570030119,
+        0.7392231066913031
+      ],
+      "wronskian_spread": 4.252913869341747e-11,
+      "flux": {
+        "infinity": {
+          "charge": 0.004858400892776272,
+          "wave_energy": 0.0014575596659371262,
+          "orbital_energy": 1.804828299949226e-05,
+          "orbital_angular_momentum": 0.004858400892776272
+        },
+        "horizon": {
+          "charge": -0.0005834116869763486,
+          "wave_energy": -0.00017502823713815347,
+          "orbital_energy": -2.1672932028759232e-06,
+          "orbital_angular_momentum": -0.0005834116869763486
+        }
+      }
+    },
+    {
+      "orbit": 41.6,
+      "method": "coulomb",
+      "rmax": 2000.0,
+      "series_last_term_relative": 1.0085529205173371,
+      "z_h": [
+        0.014800549857030502,
+        0.010850162655022417
+      ],
+      "z_inf": [
+        0.7450119651561462,
+        0.7390994815906858
+      ],
+      "wronskian_spread": 4.8055403005226575e-11,
+      "flux": {
+        "infinity": {
+          "charge": 0.004858581259942567,
+          "wave_energy": 0.0014576137775496616,
+          "orbital_energy": 1.8048953038406907e-05,
+          "orbital_angular_momentum": 0.004858581259942567
+        },
+        "horizon": {
+          "charge": -0.0005834116741098449,
+          "wave_energy": -0.00017502823327809802,
+          "orbital_energy": -2.1672931550786536e-06,
+          "orbital_angular_momentum": -0.0005834116741098449
+        }
+      }
+    },
+    {
+      "orbit": 41.6,
+      "method": "coulomb",
+      "rmax": 4000.0,
+      "series_last_term_relative": 1.017790057724416,
+      "z_h": [
+        0.014800549881983378,
+        0.010850162685460607
+      ],
+      "z_inf": [
+        0.7450604043735138,
+        0.7390460402365074
+      ],
+      "wronskian_spread": 1.5267869438961385e-10,
+      "flux": {
+        "infinity": {
+          "charge": 0.004858551189539174,
+          "wave_energy": 0.0014576047561847944,
+          "orbital_energy": 1.8048841331044275e-05,
+          "orbital_angular_momentum": 0.004858551189539174
+        },
+        "horizon": {
+          "charge": -0.0005834116765336097,
+          "wave_energy": -0.0001750282340052471,
+          "orbital_energy": -2.167293164082602e-06,
+          "orbital_angular_momentum": -0.0005834116765336097
+        }
+      }
+    },
+    {
+      "orbit": 41.6,
+      "method": "coulomb",
+      "rmax": 8000.0,
+      "series_last_term_relative": 1.0383818705744636,
+      "z_h": [
+        0.01480054987197277,
+        0.010850162691639544
+      ],
+      "z_inf": [
+        0.7450783203066951,
+        0.7390287205454981
+      ],
+      "wronskian_spread": 5.892171213070137e-11,
+      "flux": {
+        "infinity": {
+          "charge": 0.004858556030989197,
+          "wave_energy": 0.001457606208659062,
+          "orbital_energy": 1.8048859316357153e-05,
+          "orbital_angular_momentum": 0.004858556030989197
+        },
+        "horizon": {
+          "charge": -0.0005834116762525594,
+          "wave_energy": -0.00017502823392092975,
+          "orbital_energy": -2.1672931630385394e-06,
+          "orbital_angular_momentum": -0.0005834116762525594
+        }
+      }
+    },
+    {
+      "orbit": 41.6,
+      "method": "coulomb",
+      "rmax": 16000.0,
+      "series_last_term_relative": 1.0885717502223884,
+      "z_h": [
+        0.014800549875040094,
+        0.010850162690904585
+      ],
+      "z_inf": [
+        0.7450836336740441,
+        0.739023046380564
+      ],
+      "wronskian_spread": 2.4865820581968915e-11,
+      "flux": {
+        "infinity": {
+          "charge": 0.0048585539622341195,
+          "wave_energy": 0.0014576055880157624,
+          "orbital_energy": 1.804885163122002e-05,
+          "orbital_angular_momentum": 0.0048585539622341195
+        },
+        "horizon": {
+          "charge": -0.0005834116763822184,
+          "wave_energy": -0.00017502823395982849,
+          "orbital_energy": -2.1672931635202047e-06,
+          "orbital_angular_momentum": -0.0005834116763822184
+        }
+      }
+    },
+    {
+      "orbit": 41.6,
+      "method": "coulomb",
+      "rmax": 32000.0,
+      "series_last_term_relative": 1.2300990398325813,
+      "z_h": [
+        0.014800549874419856,
+        0.0108501626912918
+      ],
+      "z_inf": [
+        0.7450854583262915,
+        0.7390212447907926
+      ],
+      "wronskian_spread": 4.397050736492656e-11,
+      "flux": {
+        "infinity": {
+          "charge": 0.0048585542102161025,
+          "wave_energy": 0.0014576056624123685,
+          "orbital_energy": 1.8048852552438566e-05,
+          "orbital_angular_momentum": 0.0048585542102161025
+        },
+        "horizon": {
+          "charge": -0.0005834116763649697,
+          "wave_energy": -0.00017502823395465375,
+          "orbital_energy": -2.167293163456128e-06,
+          "orbital_angular_momentum": -0.0005834116763649697
+        }
+      }
+    },
+    {
+      "orbit": 41.8,
+      "method": "series",
+      "rmax": 1000.0,
+      "series_last_term_relative": 1.0886754001076164,
+      "z_h": [
+        0.014882558949067023,
+        0.010901003901160968
+      ],
+      "z_inf": [
+        0.0,
+        0.0
+      ],
+      "wronskian_spread": 2.5385016571527743e-11,
+      "flux": {
+        "infinity": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": 0.0,
+          "orbital_angular_momentum": 0.0
+        },
+        "horizon": {
+          "charge": -0.0005895977847505252,
+          "wave_energy": -0.00017686846658163244,
+          "orbital_energy": -2.174623641430718e-06,
+          "orbital_angular_momentum": -0.0005895977847505252
+        }
+      }
+    },
+    {
+      "orbit": 41.8,
+      "method": "coulomb",
+      "rmax": 1000.0,
+      "series_last_term_relative": 1.0886754001076164,
+      "z_h": [
+        0.014883582012088366,
+        0.010897753570968768
+      ],
+      "z_inf": [
+        0.0,
+        0.0
+      ],
+      "wronskian_spread": 2.9875435459465607e-11,
+      "flux": {
+        "infinity": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": 0.0,
+          "orbital_angular_momentum": 0.0
+        },
+        "horizon": {
+          "charge": -0.0005895277921356683,
+          "wave_energy": -0.00017684747008744274,
+          "orbital_energy": -2.1743654864665545e-06,
+          "orbital_angular_momentum": -0.0005895277921356683
+        }
+      }
+    },
+    {
+      "orbit": 41.8,
+      "method": "coulomb",
+      "rmax": 2000.0,
+      "series_last_term_relative": 1.1805816748611275,
+      "z_h": [
+        0.014883583455912525,
+        0.010897748983697775
+      ],
+      "z_inf": [
+        0.0,
+        0.0
+      ],
+      "wronskian_spread": 1.5921930445906254e-11,
+      "flux": {
+        "infinity": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": 0.0,
+          "orbital_angular_momentum": 0.0
+        },
+        "horizon": {
+          "charge": -0.0005895276933792276,
+          "wave_energy": -0.00017684744046233102,
+          "orbital_energy": -2.174365122221477e-06,
+          "orbital_angular_momentum": -0.0005895276933792276
+        }
+      }
+    },
+    {
+      "orbit": 41.8,
+      "method": "coulomb",
+      "rmax": 4000.0,
+      "series_last_term_relative": 1.372513075705116,
+      "z_h": [
+        0.01488358391518226,
+        0.010897747522534768
+      ],
+      "z_inf": [
+        0.0,
+        0.0
+      ],
+      "wronskian_spread": 4.026468048519138e-11,
+      "flux": {
+        "infinity": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": 0.0,
+          "orbital_angular_momentum": 0.0
+        },
+        "horizon": {
+          "charge": -0.0005895276618905559,
+          "wave_energy": -0.00017684743101631,
+          "orbital_energy": -2.174365006081268e-06,
+          "orbital_angular_momentum": -0.0005895276618905559
+        }
+      }
+    },
+    {
+      "orbit": 41.8,
+      "method": "coulomb",
+      "rmax": 8000.0,
+      "series_last_term_relative": 1.779110863271919,
+      "z_h": [
+        0.014883584115060517,
+        0.010897746889165854
+      ],
+      "z_inf": [
+        0.0,
+        0.0
+      ],
+      "wronskian_spread": 1.6250908545374504e-11,
+      "flux": {
+        "infinity": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": 0.0,
+          "orbital_angular_momentum": 0.0
+        },
+        "horizon": {
+          "charge": -0.0005895276482824018,
+          "wave_energy": -0.00017684742693411463,
+          "orbital_energy": -2.174364955890079e-06,
+          "orbital_angular_momentum": -0.0005895276482824018
+        }
+      }
+    },
+    {
+      "orbit": 41.8,
+      "method": "coulomb",
+      "rmax": 16000.0,
+      "series_last_term_relative": 2.635188277890366,
+      "z_h": [
+        0.014883584224829506,
+        0.010897746540647683
+      ],
+      "z_inf": [
+        0.0,
+        0.0
+      ],
+      "wronskian_spread": 1.3263309105960809e-11,
+      "flux": {
+        "infinity": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": 0.0,
+          "orbital_angular_momentum": 0.0
+        },
+        "horizon": {
+          "charge": -0.0005895276407832169,
+          "wave_energy": -0.0001768474246844974,
+          "orbital_energy": -2.174364928230707e-06,
+          "orbital_angular_momentum": -0.0005895276407832169
+        }
+      }
+    },
+    {
+      "orbit": 41.8,
+      "method": "coulomb",
+      "rmax": 32000.0,
+      "series_last_term_relative": 3.6889405465349077,
+      "z_h": [
+        0.014883584231832888,
+        0.010897746518890557
+      ],
+      "z_inf": [
+        0.0,
+        0.0
+      ],
+      "wronskian_spread": 9.70152847028897e-11,
+      "flux": {
+        "infinity": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": 0.0,
+          "orbital_angular_momentum": 0.0
+        },
+        "horizon": {
+          "charge": -0.000589527640322837,
+          "wave_energy": -0.00017684742454639193,
+          "orbital_energy": -2.17436492653268e-06,
+          "orbital_angular_momentum": -0.000589527640322837
+        }
+      }
+    }
+  ]
+}

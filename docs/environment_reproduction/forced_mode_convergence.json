@@ -77,5 +77,61 @@
       "horizon_orbital_flux": -5.716833571875435e-13,
       "horizon_orbital_flux_relative_change": 0.007396129569928775
     }
-  ]
+  ],
+  "angular_refinement": [
+    {
+      "angular_order": 6,
+      "metric_ellmax": 4,
+      "infinity_orbital_flux": 1.3148099382078503e-05,
+      "horizon_orbital_flux": -6.059665063000174e-13
+    },
+    {
+      "angular_order": 10,
+      "metric_ellmax": 4,
+      "infinity_orbital_flux": 1.3148099690402968e-05,
+      "infinity_orbital_flux_relative_change": 2.3450116168466408e-08,
+      "horizon_orbital_flux": -6.061124192555131e-13,
+      "horizon_orbital_flux_relative_change": 0.00024073579563829207
+    }
+  ],
+  "metric_refinement": [
+    {
+      "angular_order": 10,
+      "metric_ellmax": 4,
+      "infinity_orbital_flux": 1.3148099690402968e-05,
+      "horizon_orbital_flux": -6.061124192555131e-13
+    },
+    {
+      "angular_order": 10,
+      "metric_ellmax": 6,
+      "infinity_orbital_flux": 1.3155141900952403e-05,
+      "infinity_orbital_flux_relative_change": 0.0005353199990130515,
+      "horizon_orbital_flux": -6.061446855916311e-13,
+      "horizon_orbital_flux_relative_change": 5.323206964438927e-05
+    }
+  ],
+  "paper_figure6_normalization_audit": {
+    "status": "unresolved_not_a_reproduction_error_estimate",
+    "plotted_l3_m3": 1.2517190009296099e-05,
+    "epsilon2_over_eta": 0.0007289999999999998,
+    "reference": "paper_v1_flux_markers.json; digitized graphic, not author numeric data",
+    "comparisons": [
+      {
+        "angular_order": 10,
+        "metric_ellmax": 4,
+        "flux_per_q2_eta": 1.3148099690402968e-05,
+        "flux_per_q2_epsilon2_from_text": 0.01803580204444852,
+        "ratio_unit_mass_to_plotted": 1.0504034596134046,
+        "ratio_text_epsilon_to_plotted": 1440.8826606493897
+      },
+      {
+        "angular_order": 10,
+        "metric_ellmax": 6,
+        "flux_per_q2_eta": 1.3155141900952403e-05,
+        "flux_per_q2_epsilon2_from_text": 0.018045462141224152,
+        "ratio_unit_mass_to_plotted": 1.050966062765087,
+        "ratio_text_epsilon_to_plotted": 1441.6544070851676
+      }
+    ]
+  }
 }

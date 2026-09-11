@@ -64,8 +64,44 @@ def main():
             if cutoff_rows:
                 row[key+'_relative_change']=abs(row[key]-cutoff_rows[-1][key])/max(abs(row[key]),1e-300)
         cutoff_rows.append(row)
+    refinement={}
+    for label,settings in (
+        ('angular',[(n,4) for n in (6,10,14)]),
+        ('metric',[(10,l) for l in (4,6,8,12,18)])):
+        sequence=[]
+        for n,l in settings:
+            path=directory/f'forced_mode_nr8_nt{n}_L{l}_log_h16.json'
+            if not path.exists():
+                continue
+            data=json.loads(path.read_text())
+            if data['status']!='truncated_single_mode_not_converged':
+                continue
+            row=dict(angular_order=n,metric_ellmax=l)
+            for boundary in ('infinity','horizon'):
+                key=boundary+'_orbital_flux'
+                row[key]=data['flux'][boundary]['orbital_energy']
+                if sequence:
+                    row[key+'_relative_change']=abs(row[key]-sequence[-1][key])/max(abs(row[key]),1e-300)
+            sequence.append(row)
+        refinement[label]=sequence
     result=dict(status='diagnostic_not_full_paper_convergence',runs=rows,
-                horizon_log_runs=log_rows,source_inner_cutoff_runs=cutoff_rows)
+                horizon_log_runs=log_rows,source_inner_cutoff_runs=cutoff_rows,
+                angular_refinement=refinement['angular'],metric_refinement=refinement['metric'])
+    markers=directory/'paper_v1_flux_markers.json'
+    if markers.exists():
+        reference=json.loads(markers.read_text())
+        plotted=next(row['plotted_flux'] for row in reference['markers'] if row['ell']==3 and row['m']==3)
+        comparisons=[]
+        for row in refinement['metric']:
+            value=row['infinity_orbital_flux']
+            comparisons.append(dict(angular_order=row['angular_order'],metric_ellmax=row['metric_ellmax'],
+                flux_per_q2_eta=value,flux_per_q2_epsilon2_from_text=value/.3**6,
+                ratio_unit_mass_to_plotted=value/plotted,
+                ratio_text_epsilon_to_plotted=value/(.3**6*plotted)))
+        result['paper_figure6_normalization_audit']=dict(status='unresolved_not_a_reproduction_error_estimate',
+            plotted_l3_m3=plotted,epsilon2_over_eta=.3**6,
+            reference='paper_v1_flux_markers.json; digitized graphic, not author numeric data',
+            comparisons=comparisons)
     (directory/'forced_mode_convergence.json').write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps(result,indent=2))
 

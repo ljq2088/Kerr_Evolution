@@ -79,9 +79,36 @@ def horizon_series(r, a, mu, omega, m, lam, order=4):
     return value,value*(s/x+df/f)
 
 
+def coulomb_boundary(r,a,mu,omega,lam,k,propagating):
+    """Whittaker boundary for y=sqrt(Delta) R, retaining Q through r^-2.
+
+    y''+[k²+2 beta/r+C2/r²+O(r^-3)]y=0, beta=2 omega²-mu².
+    Unlike the inverse-r wave series this resums beta/(k² r) near threshold.
+    The neglected O(r^-3) potential still requires outer-cutoff convergence.
+    """
+    import mpmath as mp
+    with mp.workdps(40):
+        kk=mp.mpc(k)
+        beta=2*omega*omega-mu*mu
+        c2=12*omega*omega-4*mu*mu-a*a*k*k-lam
+        kap=1j*mp.mpc(beta)/kk
+        nu=mp.sqrt(mp.mpc(.25-c2))
+        z=-2j*kk*r
+        value=mp.whitw(kap,nu,z)
+        derivative=mp.diff(lambda zz:mp.whitw(kap,nu,zz),z)*(-2j*kk)
+        delta=r*r-2*r+a*a
+        logarithmic=derivative/value-(r-1)/delta
+        if propagating:
+            norm=mp.exp(-kap*mp.log(-2j*kk)-2j*kk*mp.log(2))
+            up=complex(norm*value/mp.sqrt(delta))
+        else:
+            up=1.+0j
+        return up,up*complex(logarithmic)
+
+
 class RadialGreen:
     def __init__(self, a, mu, omega, ell, m, rmax=2000., offset=1e-6, rtol=2e-10,
-                 mass_squared=None):
+                 mass_squared=None,infinity_method='series'):
         if not 0 <= abs(a) < 1 or mu < 0 or ell < abs(m):
             raise ValueError('Invalid Kerr or angular parameters')
         # An optional real analytic mass-squared continuation supports the
@@ -113,9 +140,17 @@ class RadialGreen:
         k = self.k
         # A bound Up solution may be freely normalized; no infinity flux exists.
         p,f,df = infinity_series(r,a,mu,omega,m,self.lam,k)
-        up = (np.exp(1j*k*r+p*np.log(r)-2j*k*np.log(2))*f
-              if self.propagating else 1.+0j)
-        dup = up*(1j*k+p/r+df/f)
+        _,f5,_ = infinity_series(r,a,mu,omega,m,self.lam,k,order=5)
+        self.series_last_term_relative=float(abs(f-f5)/max(abs(f),1e-300))
+        self.infinity_method=infinity_method
+        if infinity_method=='series':
+            up = (np.exp(1j*k*r+p*np.log(r)-2j*k*np.log(2))*f
+                  if self.propagating else 1.+0j)
+            dup = up*(1j*k+p/r+df/f)
+        elif infinity_method=='coulomb':
+            up,dup=coulomb_boundary(r,a,mu,omega,self.lam,k,self.propagating)
+        else:
+            raise ValueError('Unknown infinity boundary method')
         self.upsol = solve_ivp(rhs, (rmax, self.rmin), [up, dup], dense_output=True,
                                method='DOP853', rtol=rtol, atol=rtol*1e-3)
         if not self.insol.success or not self.upsol.success:
