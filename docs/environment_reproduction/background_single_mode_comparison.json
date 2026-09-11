@@ -1,0 +1,128 @@
+{
+  "status": "single_mode_diagnostic_not_figure2_or_3",
+  "runs": {
+    "kerr": {
+      "file": "forced_mode_nr8_nt10_L4_log_h16.json",
+      "parameters": {
+        "alpha": 0.3,
+        "cloud_mass": 1.0,
+        "metric": {
+          "status": "development_not_production_validated",
+          "coordinates": "Boyer-Lindquist",
+          "field": "covariant h_ab; particle mass stripped",
+          "m_g": 2,
+          "ellmax": 4,
+          "orbital_radius": 20.0,
+          "a": 0.8771530275949366,
+          "static_and_low_modes_included": false,
+          "kappa_mass_squared_step": 4.9033552954689705e-06,
+          "maxwell_chiralities": "both; full complex compact current"
+        },
+        "scalar_ell": 3,
+        "scalar_m": 3,
+        "omega": 0.3184367696439012,
+        "radial_order": 8,
+        "angular_order": 10,
+        "source_panels": [
+          1.5302109600800844,
+          3.0,
+          6.0,
+          12.0,
+          20.0,
+          40.0,
+          80.0,
+          160.0,
+          320.0
+        ],
+        "green_outer_radius": 1000.0,
+        "green_horizon_offset": 0.0001,
+        "horizon_log_first_panel": true,
+        "horizon_quadrature_order": 16
+      },
+      "flux": {
+        "infinity": {
+          "charge": 0.0005937673413789781,
+          "wave_energy": 0.0001890773541087693,
+          "orbital_energy": 1.3148099690402968e-05,
+          "orbital_angular_momentum": 0.0011875346827579561
+        },
+        "horizon": {
+          "charge": -2.737199810105003e-11,
+          "wave_energy": -8.71625065399737e-12,
+          "orbital_energy": -6.061124192555131e-13,
+          "orbital_angular_momentum": -5.474399620210006e-11
+        }
+      }
+    },
+    "schwarzschild": {
+      "file": "forced_mode_nr8_nt10_L4_schwarzschild_frozen_log_h16.json",
+      "parameters": {
+        "alpha": 0.3,
+        "cloud_mass": 1.0,
+        "metric": {
+          "status": "development_not_production_validated",
+          "coordinates": "Boyer-Lindquist",
+          "field": "covariant h_ab; particle mass stripped",
+          "m_g": 2,
+          "ellmax": 4,
+          "orbital_radius": 20.0,
+          "a": 0.0,
+          "static_and_low_modes_included": false,
+          "kappa_mass_squared_step": 5e-06,
+          "maxwell_chiralities": "both; full complex compact current"
+        },
+        "scalar_ell": 3,
+        "scalar_m": 3,
+        "omega": 0.3185530261739989,
+        "radial_order": 8,
+        "angular_order": 10,
+        "source_panels": [
+          2.05,
+          3.0,
+          6.0,
+          12.0,
+          20.0,
+          40.0,
+          80.0,
+          160.0,
+          320.0
+        ],
+        "green_outer_radius": 1000.0,
+        "green_horizon_offset": 0.0001,
+        "background": {
+          "type": "schwarzschild-frozen",
+          "spectral_omega": [
+            0.296192346399001,
+            -9.455651671983593e-06
+          ],
+          "normalization": "Killing energy of complex mode on ingoing Kerr-Schild T=0",
+          "approximation": "Complex radial eigenfunction retained; temporal decay frozen; KG defect nonzero",
+          "source_operator": "h^{ab} Hessian_ab as in paper; no claim of exact stationary balance"
+        },
+        "horizon_log_first_panel": true,
+        "horizon_quadrature_order": 16
+      },
+      "flux": {
+        "infinity": {
+          "charge": 0.000652461149942043,
+          "wave_energy": 0.00020784347377500502,
+          "orbital_energy": 1.4589474839480909e-05,
+          "orbital_angular_momentum": 0.001304922299884086
+        },
+        "horizon": {
+          "charge": 3.822496579394949e-11,
+          "wave_energy": 1.2176678529060204e-11,
+          "orbital_energy": 8.547362195287527e-13,
+          "orbital_angular_momentum": 7.644993158789899e-11
+        }
+      }
+    }
+  },
+  "infinity_relative_difference_to_schwarzschild": -0.09879554712808458,
+  "limitations": [
+    "Only scalar (ell,m)=(3,3), not a full flux sum",
+    "Schwarzschild temporal decay is frozen; complex radial cloud retained",
+    "Unit cloud Killing energy uses the documented slicing conventions",
+    "Source and boundary convergence incomplete; paper normalization unresolved"
+  ]
+}

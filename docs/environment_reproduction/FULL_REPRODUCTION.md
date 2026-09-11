@@ -18,6 +18,9 @@ Schwarzschild复频率背景、KS切片能量归一化及冻结时间衰减的KG
 静态A–G补全基已通过真空身份检验，详见 `STATIC_COMPLETION.md`，
 但匹配系数与物理边界条件尚未确定，不能视为静态扇区已经完成。
 
+静态spin-2 Hertz–Lorenz分支及点粒子曲率归一化已实现并检查Psi0/Psi4，
+见 `STATIC_SPIN2.md`。联合trace、自由标量和补全基的轨道匹配仍未完成。
+
 ## 图级验收
 
 | 目标 | 所需证据 | 当前状态 |
