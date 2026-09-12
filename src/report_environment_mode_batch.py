@@ -14,7 +14,7 @@ from environment_lorenz_mode import LorenzMetricMode,ConjugateMetricMode
 
 def main():
     parser=argparse.ArgumentParser(add_help=False)
-    parser.add_argument('--scalar-ells',nargs='+',type=int,required=True)
+    parser.add_argument('--scalar-ells',nargs='+',type=int,default=[])
     parser.add_argument('--conjugate-ells',nargs='+',type=int,default=[])
     parser.add_argument('--workers',type=int,default=1)
     batch,remaining=parser.parse_known_args()
@@ -23,11 +23,14 @@ def main():
         raise ValueError('Specify --scalar-ells; scalar-specific reuse/extension belongs in the single-channel command')
     if len(set(batch.scalar_ells))!=len(batch.scalar_ells) or len(set(batch.conjugate_ells))!=len(batch.conjugate_ells):
         raise ValueError('Duplicate scalar multipoles')
+    if not batch.scalar_ells and not batch.conjugate_ells:
+        raise ValueError('At least one direct or conjugate scalar multipole is required')
+    if batch.workers<1:raise ValueError('Workers must be positive')
     cloud=build_cloud(args)
     metric=build_metric(args,cloud)
     if metric.m==0 and batch.conjugate_ells:
         raise ValueError('Static metric has no distinct opposite-m branch')
-    if min(batch.scalar_ells)<abs(args.metric_m+cloud.m):
+    if batch.scalar_ells and min(batch.scalar_ells)<abs(args.metric_m+cloud.m):
         raise ValueError('Every scalar ell must be >= |m_g+m_cloud|')
     if batch.conjugate_ells and min(batch.conjugate_ells)<abs(cloud.m-args.metric_m):
         raise ValueError('Opposite metric branch requires ell >= |m_cloud-m_g|')

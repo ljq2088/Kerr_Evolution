@@ -57,3 +57,30 @@ def test_metric_precomputation_failure_records_terminal_state(tmp_path, monkeypa
     assert result['status'] == 'batch_failed_partial_results_preserved'
     assert result['channels'] == []
     assert result['failure']['stage'] == 'metric_precomputation'
+
+
+def test_conjugate_only_batch_does_not_solve_direct_channel(tmp_path, monkeypatch):
+    folder=tmp_path/'docs'/'environment_reproduction';folder.mkdir(parents=True)
+    monkeypatch.setattr(batch,'__file__',str(tmp_path/'src'/'report.py'))
+    monkeypatch.setattr(sys,'argv',['report.py','--conjugate-ells','1','--metric-m','2'])
+    metric=SimpleNamespace(m=2,_values=SimpleNamespace(cache_info=lambda:SimpleNamespace(hits=0,misses=0)))
+    monkeypatch.setattr(batch,'build_cloud',lambda args:SimpleNamespace(m=1))
+    monkeypatch.setattr(batch,'build_metric',lambda args,cloud:metric)
+    monkeypatch.setattr(batch,'ConjugateMetricMode',lambda base:SimpleNamespace(m=-base.m))
+    calls=[]
+    def run(args,**kwargs):
+        calls.append((args.scalar_ell,args.metric_m))
+        return folder/'mode.json',{'flux':{}}
+    monkeypatch.setattr(batch,'run',run)
+    batch.main()
+    assert calls==[(1,-2)]
+    result=json.loads(next(folder.glob('scalar_batch_*.json')).read_text())
+    assert result['status']=='batch_completed_finite_resolution_not_converged'
+    assert result['channels'][0]['scalar_m']==-1
+
+
+def test_empty_batch_rejected_before_cloud_construction(monkeypatch):
+    monkeypatch.setattr(sys,'argv',['report.py'])
+    monkeypatch.setattr(batch,'build_cloud',lambda args:pytest.fail('must not build cloud'))
+    with pytest.raises(ValueError,match='At least one'):
+        batch.main()

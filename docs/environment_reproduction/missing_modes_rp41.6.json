@@ -1,0 +1,64 @@
+{
+  "status": "batches_completed_refresh_inventory_required",
+  "inventory": {
+    "file": "docs/environment_reproduction/flux_coverage_L18_nt18_i12_h12_f12_m-2go4000_m-1go4000_m0go4000_m1go4000_m2go32000_m3go4000_m4go4000_m0coulomb_m2coulomb_rp41.6.json",
+    "sha256": "921a0ae3f0efd7336739bd0714f05f80dd3463110936254c7c95fbf5ee1b0663"
+  },
+  "targets": [
+    "field",
+    "infinity",
+    "horizon"
+  ],
+  "verified_existing_count": 89,
+  "missing_modes": [
+    [
+      1,
+      -1
+    ]
+  ],
+  "unresolved_static_modes": [],
+  "jobs": [
+    {
+      "metric_m": 2,
+      "scalar_ells": [],
+      "conjugate_ells": [
+        1
+      ],
+      "arguments": [
+        "--alpha",
+        "0.3",
+        "--background",
+        "threshold-kerr",
+        "--orbital-radius",
+        "41.6",
+        "--metric-m",
+        "2",
+        "--metric-ellmax",
+        "18",
+        "--radial-order",
+        "8",
+        "--angular-order",
+        "18",
+        "--horizon-log",
+        "--horizon-order",
+        "32",
+        "--source-inner-offset",
+        "0.0005",
+        "--source-outer-radius",
+        "320",
+        "--green-horizon-offset",
+        "0.0001",
+        "--green-outer-radius",
+        "4000.0",
+        "--infinity-method",
+        "series",
+        "--workers",
+        "2",
+        "--conjugate-ells",
+        "1"
+      ],
+      "returncode": 0
+    }
+  ],
+  "limitation": "Completes the requested finite inventory only. Static matching and convergence require separate checks."
+}

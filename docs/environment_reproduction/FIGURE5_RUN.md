@@ -120,3 +120,6 @@ rp41p8_m2_source320_640.json中，六个束缚通道的无穷远稳态通量均�
 
 
 41.6M的mg=9批次scalar_batch_mg9_619e3ae5e970.json完成5个通道：m=10的ell10,12，以及m=-8的ell8,10,12。均为96点源积分，已核对有限复源值、复振幅、模态标识及批次/响应通量一致。当前场覆盖80/88，无穷远34/36、视界76/85；缺项总量仍为空。指纹见figure5_r41p6_mg9_completed_audit.json。队列已开始mg=10。
+
+
+两轨道剩余非静态队列均已完成，场模态达到88/88。新的清单补缺模块进一步发现通量需要而场图不需要的(ell,m)=(1,-1)缺项，并以共轭单通道、96点度规缓存补齐。刷新后41.6M为infinity36/36、horizon85/85；41.8M为infinity30/30、horizon85/85。实际数据核验覆盖每轨道90个唯一通道，见figure5_complete_inventory_audit.json和MISSING_MODE_COMPLETION.md。仍未证明全局收敛或与论文一致。
