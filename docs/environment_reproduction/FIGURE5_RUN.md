@@ -123,3 +123,6 @@ rp41p8_m2_source320_640.json中，六个束缚通道的无穷远稳态通量均�
 
 
 两轨道剩余非静态队列均已完成，场模态达到88/88。新的清单补缺模块进一步发现通量需要而场图不需要的(ell,m)=(1,-1)缺项，并以共轭单通道、96点度规缓存补齐。刷新后41.6M为infinity36/36、horizon85/85；41.8M为infinity30/30、horizon85/85。实际数据核验覆盖每轨道90个唯一通道，见figure5_complete_inventory_audit.json和MISSING_MODE_COMPLETION.md。仍未证明全局收敛或与论文一致。
+
+
+完整双轨道图像已生成：figure5_threshold_wakes.png，原始复场网格figure5_threshold_wakes.npz，输入指纹及参数figure5_threshold_wakes.json。两轨道各88个场模态，赤道面、t=0、320×640极坐标网格、显示范围±225M，共用计算得到的线性色标。最大值分别0.3448598217022998、0.34664805016022937；没有进行幅值拟合。图像已实际查看，布局和色标可读，但幅值/形态尚未与论文一致，坐标嵌入约定及全局收敛仍待验证。
