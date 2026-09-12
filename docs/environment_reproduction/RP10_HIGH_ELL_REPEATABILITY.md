@@ -56,3 +56,18 @@ The paired sequence and input hashes are in rp10_metric_matching_dense_angular_a
 These are projected metric residuals; no inference about scalar-flux changes
 is justified without recomputing the source. Nonzero high-order residuals still
 require quadrature, arithmetic and radial-input checks. Production remains unchanged.
+
+
+## Dense angular functions with extended Taylor arithmetic
+
+The complete L1..18 q18 run is now available with both dense angular functions
+and extended Taylor coefficients, keeping analytic kappa. At L18, the value
+jump is 4.37068903337e-06 (double 6.3638530857e-06),
+and derivative mismatch is 1.6890593223e-05
+(double 1.76897217777e-05). Their extended/double ratios are
+0.686799173 and 0.954825262.
+Radial and angular inputs remain double in both runs.
+
+Input fingerprints and all 18 paired rows: rp10_metric_matching_dense_precision_audit.json.
+This comparison does not establish quadrature convergence, radial accuracy,
+or scalar flux changes. The independent dense-source flux run is pending.
