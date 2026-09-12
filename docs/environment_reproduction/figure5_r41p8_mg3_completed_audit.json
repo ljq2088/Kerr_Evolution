@@ -1,0 +1,84 @@
+{
+  "status": "eleven_completed_finite_resolution_channels",
+  "batch": "scalar_batch_mg3_3cd88b6595a8.json",
+  "batch_sha256": "7d4c251f9727c5873c6af565a5a0c4ee4ed77861e616ec3a55fc780981e7d8e9",
+  "channels": [
+    {
+      "ell": 4,
+      "m": 4,
+      "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg3_sl4_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "sha256": "bb1f8fbd049ba6a15f96ac19063e6740c2c341832c731300c332cad77724c076",
+      "samples": 96
+    },
+    {
+      "ell": 6,
+      "m": 4,
+      "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg3_sl6_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "sha256": "0a4a0dacc50986c0fe539a53649faf9a2adcf3538293b8a2487725648cc6478c",
+      "samples": 96
+    },
+    {
+      "ell": 8,
+      "m": 4,
+      "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg3_sl8_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "sha256": "9a953e27e16b85251a44738ca21643004c8dfd19eeefce73e9bed68ae7b31618",
+      "samples": 96
+    },
+    {
+      "ell": 10,
+      "m": 4,
+      "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg3_sl10_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "sha256": "39a4dc67d0d4a1dacd5eca6c00537e3874f153859ebaf5c98cfbc331e3028240",
+      "samples": 96
+    },
+    {
+      "ell": 12,
+      "m": 4,
+      "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg3_sl12_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "sha256": "dfc13ce860b44738ea3821a61e58dbbbd99fa2c7adfa1ece2de180b64c047ee1",
+      "samples": 96
+    },
+    {
+      "ell": 2,
+      "m": -2,
+      "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-3_sl2_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "sha256": "ab6d97191cd8198014c4451d1e62edfd42b7246038a80ea59c872b1e3d0df6dc",
+      "samples": 96
+    },
+    {
+      "ell": 4,
+      "m": -2,
+      "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-3_sl4_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "sha256": "d6078597c46e176e63e76a58cc19383cb2bb87e6c457ee25d1b7b8335242a6e6",
+      "samples": 96
+    },
+    {
+      "ell": 6,
+      "m": -2,
+      "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-3_sl6_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "sha256": "a9bcaef567a5fa69ea6826313c9cee6fb497fd2b3802a4c3bcd72d1a121be0e2",
+      "samples": 96
+    },
+    {
+      "ell": 8,
+      "m": -2,
+      "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-3_sl8_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "sha256": "97ac5df74523e7555e4aa8299ba7a23f41a26307cc8a49818b167cb26a530c81",
+      "samples": 96
+    },
+    {
+      "ell": 10,
+      "m": -2,
+      "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-3_sl10_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "sha256": "f5faf55382b5a0d84fb2c2ea65693f575a5b266c5f1496e1f95f396341f4e3ad",
+      "samples": 96
+    },
+    {
+      "ell": 12,
+      "m": -2,
+      "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-3_sl12_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "sha256": "d5db376fb8c6759444dcab9776835c9704761ee3570a0244469413b4608090b2",
+      "samples": 96
+    }
+  ]
+}
