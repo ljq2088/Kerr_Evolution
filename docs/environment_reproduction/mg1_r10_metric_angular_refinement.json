@@ -1,0 +1,130 @@
+{
+  "status": "joint_refinement_completed_not_global_convergence",
+  "changed": [
+    "metric ellmax 18 to 24",
+    "angular quadrature 18 to 24",
+    "scalar angular basis extension; see ANGULAR_BASIS_EXTENSION.md"
+  ],
+  "rows": [
+    {
+      "ell": 2,
+      "m": 2,
+      "inputs": {
+        "forced_mode_nr8_nt24_L24_alpha0.3_rp10_mg1_sl2_inner0.0005_outer320_log_h32.json": "d8d604e6c1b9cf6a45d41f7b3b1e428fc3cad43bdf7adccf5ab57141be8dda4a",
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg1_sl2_inner0.0005_outer320_log_h32.json": "befc07fca30285d76b3f41db1ffa77f5ffdf6c1fe84b1e9ae49b4ec146035e20"
+      },
+      "fluxes": {
+        "infinity": {
+          "baseline": 1.3096867315827016e-07,
+          "refined": 1.3096867411686913e-07,
+          "relative_change": 7.319299610841767e-09
+        },
+        "horizon": {
+          "baseline": -7.655969124867842e-07,
+          "refined": -7.655972325221842e-07,
+          "relative_change": 4.180207557880067e-07
+        }
+      }
+    },
+    {
+      "ell": 4,
+      "m": 2,
+      "inputs": {
+        "forced_mode_nr8_nt24_L24_alpha0.3_rp10_mg1_sl4_inner0.0005_outer320_log_h32.json": "35b2c0677f66dfe48f280cae2d49ebdbe916d6a2f171fa6dbfa7387bbf674ba1",
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg1_sl4_inner0.0005_outer320_log_h32.json": "53795d1ba5d07089bf26c520a97759513e43adaaba471bc0aaa873ee54e6ec2e"
+      },
+      "fluxes": {
+        "infinity": {
+          "baseline": 1.8216326161781874e-08,
+          "refined": 1.8216326247257074e-08,
+          "relative_change": 4.692230382019602e-09
+        },
+        "horizon": {
+          "baseline": -1.950230599205139e-09,
+          "refined": -1.9502363597408542e-09,
+          "relative_change": 2.953771578440012e-06
+        }
+      }
+    },
+    {
+      "ell": 6,
+      "m": 2,
+      "inputs": {
+        "forced_mode_nr8_nt24_L24_alpha0.3_rp10_mg1_sl6_inner0.0005_outer320_log_h32.json": "5dcaa749c852e97f5e83dc4165f2b66e5c51773644e03130f3437bcdf7d78b93",
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg1_sl6_inner0.0005_outer320_log_h32.json": "ffc46a5c7195c8d9032ef0e5d134afa2ed589b4fe98b02f1af79fe1c9a523f0e"
+      },
+      "fluxes": {
+        "infinity": {
+          "baseline": 2.061682026621116e-12,
+          "refined": 2.061682019514601e-12,
+          "relative_change": -3.4469500587164248e-09
+        },
+        "horizon": {
+          "baseline": -8.531960138930907e-12,
+          "refined": -8.532009613556552e-12,
+          "relative_change": 5.798740833062865e-06
+        }
+      }
+    },
+    {
+      "ell": 0,
+      "m": 0,
+      "inputs": {
+        "forced_mode_nr8_nt24_L24_alpha0.3_rp10_mg-1_sl0_inner0.0005_outer320_log_h32.json": "819eba6b025085cb70ad904afefc642920d98e7d038febeef9a3614a4552ca4f",
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-1_sl0_inner0.0005_outer320_log_h32.json": "42c9412363a7d92e2f039fc9cf3272cb8582168ec6f72794ed01853ba08ba5c8"
+      },
+      "fluxes": {
+        "infinity": {
+          "baseline": -0.0,
+          "refined": -0.0,
+          "relative_change": null
+        },
+        "horizon": {
+          "baseline": -6.272275267097329e-05,
+          "refined": -6.272237784804143e-05,
+          "relative_change": -5.975868658469885e-06
+        }
+      }
+    },
+    {
+      "ell": 2,
+      "m": 0,
+      "inputs": {
+        "forced_mode_nr8_nt24_L24_alpha0.3_rp10_mg-1_sl2_inner0.0005_outer320_log_h32.json": "8f00c5476ff5f840ae9b6dc8fc847a0625c1853d347c06f7618f3f77d43dee10",
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-1_sl2_inner0.0005_outer320_log_h32.json": "875115e558128431b1f3e2fc383910232698658de204a88c37aff04665f5a9f3"
+      },
+      "fluxes": {
+        "infinity": {
+          "baseline": -0.0,
+          "refined": -0.0,
+          "relative_change": null
+        },
+        "horizon": {
+          "baseline": -7.786874106910688e-08,
+          "refined": -7.786883011976404e-08,
+          "relative_change": 1.1435995488362494e-06
+        }
+      }
+    },
+    {
+      "ell": 4,
+      "m": 0,
+      "inputs": {
+        "forced_mode_nr8_nt24_L24_alpha0.3_rp10_mg-1_sl4_inner0.0005_outer320_log_h32.json": "68446819d0aa5422f6831d16d953af214b8fe399bb0d827f250c7068c64ad790",
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-1_sl4_inner0.0005_outer320_log_h32.json": "c20ecb978634c34ead80e657df0111098bc327db4b61af0fea5a494777354ace"
+      },
+      "fluxes": {
+        "infinity": {
+          "baseline": -0.0,
+          "refined": -0.0,
+          "relative_change": null
+        },
+        "horizon": {
+          "baseline": -4.5443425301355014e-10,
+          "refined": -4.544371154637828e-10,
+          "relative_change": 6.298931503723182e-06
+        }
+      }
+    }
+  ]
+}
