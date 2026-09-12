@@ -1,0 +1,43 @@
+{
+  "status": "homogeneous_preflight_not_forced_convergence",
+  "orbital_radius": 41.8,
+  "green_outer_radius": 64000,
+  "rows": [
+    {
+      "ell": 2,
+      "m": 2,
+      "propagating": false,
+      "wronskian_relative_spread": 1.622106555716612e-10
+    },
+    {
+      "ell": 4,
+      "m": 2,
+      "propagating": false,
+      "wronskian_relative_spread": 4.5709680539887067e-10
+    },
+    {
+      "ell": 6,
+      "m": 2,
+      "propagating": false,
+      "wronskian_relative_spread": 4.802425124340144e-10
+    },
+    {
+      "ell": 8,
+      "m": 2,
+      "propagating": false,
+      "wronskian_relative_spread": 9.428060554485756e-10
+    },
+    {
+      "ell": 10,
+      "m": 2,
+      "propagating": false,
+      "wronskian_relative_spread": 1.3929914999267021e-09
+    },
+    {
+      "ell": 12,
+      "m": 2,
+      "propagating": false,
+      "wronskian_relative_spread": 1.2028738005656424e-09
+    }
+  ]
+}
