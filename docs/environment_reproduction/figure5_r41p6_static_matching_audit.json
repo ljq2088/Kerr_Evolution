@@ -1,0 +1,11 @@
+{
+  "status": "finite_static_candidate_not_global_convergence",
+  "matching_file": "static_tetrad_a0.877153_r41.6_L18_q32_j18_free18_paper_eps5e-06.json",
+  "sha256": "e6f811da1d23b40e1bf4b92af9cb0d4a0f924ab6ac54954f939f6b449cd354e4",
+  "rank": 22,
+  "selected_continuity": 2.0883780143040325e-16,
+  "held_derivative_max_j0_through14": 1.2079266892284223e-10,
+  "edge_derivative_j18": 0.00029122992136112195,
+  "edge_derivative_j20": 0.06626558077731118,
+  "limit": "Edge residuals remain nonzero; source and field convergence have not been established."
+}
