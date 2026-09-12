@@ -1,5 +1,6 @@
 """Reintegrate saved actual-source data and audit a horizon-tail correction."""
 import argparse
+import hashlib
 import json
 from pathlib import Path
 import numpy as np
@@ -11,6 +12,7 @@ from environment_horizon_tail import horizon_tail
 def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('inputs',nargs='+',type=Path)
+    parser.add_argument('--output',type=Path,help='Separate audit destination; preserves previous reports when specified')
     args=parser.parse_args()
     cases=[]
     for path in args.inputs:
@@ -45,9 +47,10 @@ def main():
                 flux=mode_flux(omega,p['scalar_m'],omega_c,1,mu,a,0j,corrected)['horizon']['orbital_energy']
                 variations.append(dict(**report,correction=[correction.real,correction.imag],
                     corrected_z_h=[corrected.real,corrected.imag],corrected_horizon_flux=flux))
-        cases.append(dict(input=path.name,cutoff=cutoff,horizon_order=p.get('horizon_quadrature_order'),
+        cases.append(dict(input=path.name,input_sha256=hashlib.sha256(path.read_bytes()).hexdigest(),cutoff=cutoff,horizon_order=p.get('horizon_quadrature_order'),
             base_horizon_flux=data['flux']['horizon']['orbital_energy'],gamma=gamma,variations=variations))
-    out=Path(__file__).resolve().parents[1]/'docs/environment_reproduction/horizon_tail_audit.json'
+    out=args.output or Path(__file__).resolve().parents[1]/'docs/environment_reproduction/horizon_tail_audit.json'
+    out.parent.mkdir(parents=True,exist_ok=True)
     out.write_text(json.dumps(dict(status='horizon_tail_extrapolation_diagnostic_not_converged',cases=cases),indent=2)+'\n')
     for case in cases:
         print(case['input'],flush=True)
