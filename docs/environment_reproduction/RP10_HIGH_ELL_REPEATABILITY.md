@@ -21,3 +21,22 @@ rp10_*_spin2_repeatability.json files.
 
 A full L1..18 q18 matching comparison with dense angular functions and analytic
 kappa is the next required diagnostic. Production reconstruction is unchanged.
+
+
+## Accuracy of the dense angular functions at the tested high-L parameters
+
+At the actual r0=10M, a=.8771530275949366, m=1 frequency, L17 and L18
+were tested for spin weights -2,-1,0,1,2 on 100 Gauss-Legendre nodes.
+Each dense eigenproblem was also enlarged by 20 basis functions, using
+the same symmetric eigensolver and phase convention. The maximum relative
+change in S, its first derivative and its second derivative was
+1.465514541e-15. The normalized angular ODE residual was at most
+2.537246019e-14, and unit-sphere normalization error at most 7.793765633e-14.
+The separation eigenvalue differed from the independent radial C++ interface
+by at most 4.547473509e-13. All ten cases and dimensions are retained in
+rp10_high_ell_dense_angular_accuracy.json.
+
+These tests support angular basis convergence for these functions at the tested
+parameters. They do not bound cancellation amplification through metric
+reconstruction, radial errors or environmental fluxes. The full dense-angular
+matching sequence remains a separate running calculation.

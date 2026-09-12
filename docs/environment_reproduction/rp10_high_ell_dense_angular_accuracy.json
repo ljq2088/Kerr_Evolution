@@ -1,0 +1,159 @@
+{
+  "status": "completed_high_ell_angular_checks_not_metric_convergence",
+  "a": 0.8771530275949366,
+  "omega": 0.03076929739254309,
+  "m": 1,
+  "quadrature": 100,
+  "cases": [
+    {
+      "ell": 17,
+      "spin": -2,
+      "basis_size": 37,
+      "enlarged_size": 57,
+      "enlarged_eigenvalue_difference": 5.684341886080802e-14,
+      "cpp_eigenvalue_difference": 1.7053025658242404e-13,
+      "relative_angular_equation_residual": 1.422456385904891e-14,
+      "normalization_error": 3.019806626980426e-14,
+      "enlarged_function_relative_difference": [
+        1.1589713899343115e-15,
+        1.174239502865918e-15,
+        1.3894559047999899e-15
+      ]
+    },
+    {
+      "ell": 17,
+      "spin": -1,
+      "basis_size": 38,
+      "enlarged_size": 58,
+      "enlarged_eigenvalue_difference": 2.2737367544323206e-13,
+      "cpp_eigenvalue_difference": 1.7053025658242404e-13,
+      "relative_angular_equation_residual": 1.4936881240231033e-14,
+      "normalization_error": 7.793765632868599e-14,
+      "enlarged_function_relative_difference": [
+        1.2514953546196558e-15,
+        1.2746497630155208e-15,
+        1.3129746805439553e-15
+      ]
+    },
+    {
+      "ell": 17,
+      "spin": 0,
+      "basis_size": 38,
+      "enlarged_size": 58,
+      "enlarged_eigenvalue_difference": 1.1368683772161603e-13,
+      "cpp_eigenvalue_difference": 1.1368683772161603e-13,
+      "relative_angular_equation_residual": 1.4201088510225494e-14,
+      "normalization_error": 5.773159728050814e-15,
+      "enlarged_function_relative_difference": [
+        6.960361975684683e-16,
+        7.807334289905674e-16,
+        6.898051478739562e-16
+      ]
+    },
+    {
+      "ell": 17,
+      "spin": 1,
+      "basis_size": 38,
+      "enlarged_size": 58,
+      "enlarged_eigenvalue_difference": 1.1368683772161603e-13,
+      "cpp_eigenvalue_difference": 4.547473508864641e-13,
+      "relative_angular_equation_residual": 9.568939544522916e-15,
+      "normalization_error": 7.793765632868599e-14,
+      "enlarged_function_relative_difference": [
+        4.171651182065488e-16,
+        6.373248815077597e-16,
+        5.96806672974531e-16
+      ]
+    },
+    {
+      "ell": 17,
+      "spin": 2,
+      "basis_size": 37,
+      "enlarged_size": 57,
+      "enlarged_eigenvalue_difference": 5.684341886080802e-14,
+      "cpp_eigenvalue_difference": 3.410605131648481e-13,
+      "relative_angular_equation_residual": 2.474842817753189e-14,
+      "normalization_error": 2.6867397195928788e-14,
+      "enlarged_function_relative_difference": [
+        8.112799729540163e-16,
+        7.82826335243926e-16,
+        8.336735428799941e-16
+      ]
+    },
+    {
+      "ell": 18,
+      "spin": -2,
+      "basis_size": 38,
+      "enlarged_size": 58,
+      "enlarged_eigenvalue_difference": 1.7053025658242404e-13,
+      "cpp_eigenvalue_difference": 1.1368683772161603e-13,
+      "relative_angular_equation_residual": 1.5092239249403105e-14,
+      "normalization_error": 6.94999613415348e-14,
+      "enlarged_function_relative_difference": [
+        1.0233508077690266e-15,
+        8.467634962432195e-16,
+        9.536552634797065e-16
+      ]
+    },
+    {
+      "ell": 18,
+      "spin": -1,
+      "basis_size": 39,
+      "enlarged_size": 59,
+      "enlarged_eigenvalue_difference": 0.0,
+      "cpp_eigenvalue_difference": 0.0,
+      "relative_angular_equation_residual": 1.5103926284173617e-14,
+      "normalization_error": 7.205347429817266e-14,
+      "enlarged_function_relative_difference": [
+        6.79800321121835e-16,
+        5.908383524489969e-16,
+        8.374368802754819e-16
+      ]
+    },
+    {
+      "ell": 18,
+      "spin": 0,
+      "basis_size": 39,
+      "enlarged_size": 59,
+      "enlarged_eigenvalue_difference": 5.684341886080802e-14,
+      "cpp_eigenvalue_difference": 1.1368683772161603e-13,
+      "relative_angular_equation_residual": 1.4854326748544264e-14,
+      "normalization_error": 6.439293542825908e-15,
+      "enlarged_function_relative_difference": [
+        5.680745342749567e-16,
+        4.827302825819153e-16,
+        5.924190514920881e-16
+      ]
+    },
+    {
+      "ell": 18,
+      "spin": 1,
+      "basis_size": 39,
+      "enlarged_size": 59,
+      "enlarged_eigenvalue_difference": 5.684341886080802e-14,
+      "cpp_eigenvalue_difference": 5.684341886080802e-14,
+      "relative_angular_equation_residual": 1.0205355597414522e-14,
+      "normalization_error": 7.061018436615996e-14,
+      "enlarged_function_relative_difference": [
+        1.2236405780192949e-15,
+        1.3786228223809958e-15,
+        1.4655145404821088e-15
+      ]
+    },
+    {
+      "ell": 18,
+      "spin": 2,
+      "basis_size": 38,
+      "enlarged_size": 58,
+      "enlarged_eigenvalue_difference": 0.0,
+      "cpp_eigenvalue_difference": 3.410605131648481e-13,
+      "relative_angular_equation_residual": 2.537246018740189e-14,
+      "normalization_error": 7.127631818093505e-14,
+      "enlarged_function_relative_difference": [
+        4.548225812306787e-16,
+        3.6289864124708515e-16,
+        2.3841381586992673e-16
+      ]
+    }
+  ]
+}
