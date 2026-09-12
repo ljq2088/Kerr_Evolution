@@ -1,0 +1,27 @@
+{
+  "status": "three_repeats_at_one_point_only",
+  "r": 10.00005,
+  "theta": 1.1,
+  "r0": 10,
+  "a": 0.8771530275949366,
+  "m": 1,
+  "order": 8,
+  "cases": [
+    {
+      "ell": 17,
+      "maxabs": 43143.58534853569,
+      "repeat_difference": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "ell": 18,
+      "maxabs": 78.39088587791855,
+      "repeat_difference": [
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}
