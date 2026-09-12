@@ -9,3 +9,12 @@ The preflight alpha02_r20_finite_boundary_preflight.json verifies the six-versus
 Parameters: alpha=0.2, threshold Kerr |211> cloud normalized to unit Killing mass, r0=20M, metric reconstruction index through 18, nt18, nr8, h32 logarithmic first panel, inner source offset 0.0005M, source cutoff 320M, Green offset 0.0001M, outer Green radius 1000M, series boundary. Two workers precompute resumable metric samples. Source-domain and near-horizon convergence must be checked for this alpha; results from alpha=0.3 do not establish them.
 
 The sequential queue logs are outputs/alpha02_r20_finite_mg1.log through mg5.log and mg-6.log. Any process error stops later sectors. At launch the corresponding coverage inventory has zero completed production channels and null totals. Completion must be established from terminal batch reports and the background-specific coverage tool, not from this queue declaration.
+
+
+The first metric-m1 batch scalar_batch_mg1_a095a9ac6eae.json is completed:
+scalar m2/ell2,4,6 and m0/ell0,2,4, each with 88 source nodes. Finite source
+values, scalar identifiers and equality of response/batch fluxes were checked.
+Fingerprints and fluxes are in alpha02_r20_mg1_completed_audit.json.
+The finite inventory now has 3/9 infinity and 5/18 horizon channels; totals
+remain null. The queue has advanced to metric m2. This is not yet a full
+orbit comparison with the paper and does not validate alpha0.2 convergence.
