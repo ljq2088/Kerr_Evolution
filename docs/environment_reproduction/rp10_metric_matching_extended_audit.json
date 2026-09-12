@@ -1,0 +1,144 @@
+{
+  "status": "completed_precision_comparison_not_convergence",
+  "inputs": [
+    {
+      "file": "metric_tensor_matching_q18_smooth_m1_r10_a0.877153027595.json",
+      "sha256": "1e5383e957e61ef473f18ed41e9b6cde9fc1eac9d9535095c883f2f3e74095b2"
+    },
+    {
+      "file": "metric_tensor_matching_q18_smooth_m1_r10_a0.877153027595_extended.json",
+      "sha256": "9e0c8a8c215e69763097d52d7399c2102105c1a19539a00e30fe76fa7ce312b7"
+    }
+  ],
+  "cases": [
+    {
+      "ellmax": 1,
+      "double_value_jump": 0.9174124634763334,
+      "extended_value_jump": 0.9174124634894381,
+      "double_derivative_error": 1.5472863201405649,
+      "extended_derivative_error": 1.5472863201368563
+    },
+    {
+      "ellmax": 2,
+      "double_value_jump": 0.3051010401469929,
+      "extended_value_jump": 0.30510104003936656,
+      "double_derivative_error": 1.11543380118973,
+      "extended_derivative_error": 1.1154338011489289
+    },
+    {
+      "ellmax": 3,
+      "double_value_jump": 0.11722196121544926,
+      "extended_value_jump": 0.11722196115632721,
+      "double_derivative_error": 0.05957767859434071,
+      "extended_derivative_error": 0.05957767857778862
+    },
+    {
+      "ellmax": 4,
+      "double_value_jump": 0.012136636304054704,
+      "extended_value_jump": 0.01213663620877448,
+      "double_derivative_error": 0.007116033321634241,
+      "extended_derivative_error": 0.007116033300364146
+    },
+    {
+      "ellmax": 5,
+      "double_value_jump": 0.0003495240860278379,
+      "extended_value_jump": 0.00034952396704871256,
+      "double_derivative_error": 0.0001928568220030944,
+      "extended_derivative_error": 0.00019285675187061488
+    },
+    {
+      "ellmax": 6,
+      "double_value_jump": 2.827167171920961e-05,
+      "extended_value_jump": 2.8271489988616875e-05,
+      "double_derivative_error": 1.7081955778969995e-05,
+      "extended_derivative_error": 1.708214448405877e-05
+    },
+    {
+      "ellmax": 7,
+      "double_value_jump": 9.061325231027016e-07,
+      "extended_value_jump": 9.061549440671905e-07,
+      "double_derivative_error": 3.697043159533515e-07,
+      "extended_derivative_error": 3.701446765329459e-07
+    },
+    {
+      "ellmax": 8,
+      "double_value_jump": 2.3423021265483858e-07,
+      "extended_value_jump": 2.3374129465965963e-07,
+      "double_derivative_error": 4.097729002269008e-08,
+      "extended_derivative_error": 4.370795068322762e-08
+    },
+    {
+      "ellmax": 9,
+      "double_value_jump": 1.0388866925097524e-06,
+      "extended_value_jump": 1.057966481064665e-06,
+      "double_derivative_error": 6.652543893934507e-07,
+      "extended_derivative_error": 6.97554203801972e-07
+    },
+    {
+      "ellmax": 10,
+      "double_value_jump": 1.0650238125236605e-06,
+      "extended_value_jump": 1.0654902137787604e-06,
+      "double_derivative_error": 8.737199677636965e-07,
+      "extended_derivative_error": 8.685103715256492e-07
+    },
+    {
+      "ellmax": 11,
+      "double_value_jump": 3.549497160706094e-06,
+      "extended_value_jump": 3.494508667282383e-06,
+      "double_derivative_error": 3.396545962013103e-06,
+      "extended_derivative_error": 3.4495333363649204e-06
+    },
+    {
+      "ellmax": 12,
+      "double_value_jump": 5.257778083411294e-06,
+      "extended_value_jump": 5.093768640706302e-06,
+      "double_derivative_error": 5.653431691449772e-06,
+      "extended_derivative_error": 5.442411501183356e-06
+    },
+    {
+      "ellmax": 13,
+      "double_value_jump": 1.1913249741741165e-05,
+      "extended_value_jump": 1.1948211466187066e-05,
+      "double_derivative_error": 5.372737298496571e-06,
+      "extended_derivative_error": 4.969304930006711e-06
+    },
+    {
+      "ellmax": 14,
+      "double_value_jump": 1.3362167627256436e-05,
+      "extended_value_jump": 1.3780121014985344e-05,
+      "double_derivative_error": 5.697387070957595e-06,
+      "extended_derivative_error": 8.26239060180768e-06
+    },
+    {
+      "ellmax": 15,
+      "double_value_jump": 9.725149872621e-06,
+      "extended_value_jump": 1.1380983778582741e-05,
+      "double_derivative_error": 3.8466188095740705e-05,
+      "extended_derivative_error": 4.160411993958399e-05
+    },
+    {
+      "ellmax": 16,
+      "double_value_jump": 7.439156248598422e-06,
+      "extended_value_jump": 9.462002951391322e-06,
+      "double_derivative_error": 4.583216735874711e-05,
+      "extended_derivative_error": 4.640568948012281e-05
+    },
+    {
+      "ellmax": 17,
+      "double_value_jump": 0.00015345654708336096,
+      "extended_value_jump": 0.00015742292599636536,
+      "double_derivative_error": 0.00010740821203689175,
+      "extended_derivative_error": 0.00011157498488400599
+    },
+    {
+      "ellmax": 18,
+      "double_value_jump": 0.0001539863477027894,
+      "extended_value_jump": 0.00015792269117772314,
+      "double_derivative_error": 0.00010825727942345297,
+      "extended_derivative_error": 0.00011142842036076416
+    }
+  ],
+  "final_value_ratio": 1.0255629381023526,
+  "final_derivative_ratio": 1.0292926346773148,
+  "limitation": "Only jet coefficient arithmetic changes. Radial and angular inputs remain double. No metric or flux error bound."
+}

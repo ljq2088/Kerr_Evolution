@@ -24,3 +24,19 @@ The process completed all eighteen degrees. At cutoff 18 the maximum extrapolate
 Both diagnostics improve through cutoff 8 (continuity 2.3423e-7, derivative error 4.0977e-8), then rise. The complete sequence and fingerprint are saved in rp10_metric_matching_L18_audit.json and rp10_metric_matching_L18_sequence.png; the plot was visually checked. The high-cutoff rise prevents a convergence claim.
 
 An otherwise identical --extended-jet run has started. It changes Taylor coefficient arithmetic to numpy.clongdouble, while radial and angular input data remain double precision. This is a diagnostic of arithmetic sensitivity, not a fully high-precision reconstruction. Log: outputs/metric_matching_r10_m1_L18_q18_extended.log. Original flux data and the production reconstruction are unchanged.
+
+
+## Extended jet arithmetic comparison completed
+
+The independent full L=1..18 sequence with clongdouble Taylor arithmetic is
+complete. All physical, quadrature, separation and smooth projection parameters
+were checked against the double run. At L=18, maximum value jump is
+0.000157922691178, versus 0.000153986347703;
+maximum derivative mismatch is 0.000111428420361,
+versus 0.000108257279423. Ratios are respectively
+1.02556294 and 1.02929263.
+Thus changing only Taylor arithmetic did not remove the high-L residual rise.
+Radial/angular inputs remain double; this does not rule out input precision,
+parameter differencing or reconstruction errors. The separate analytic-kappa
+sequence is running and must be evaluated before attributing the discrepancy.
+Input hashes and all 18 paired rows: rp10_metric_matching_extended_audit.json.
