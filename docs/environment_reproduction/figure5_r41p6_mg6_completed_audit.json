@@ -1,0 +1,56 @@
+{
+  "status": "seven_completed_finite_resolution_channels",
+  "batch": "scalar_batch_mg6_49aa247a4275.json",
+  "batch_sha256": "a7a1188133b1906452278eeacecb1f36bdf5ff30270dd51c56d2906aa976653f",
+  "channels": [
+    {
+      "ell": 7,
+      "m": 7,
+      "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg6_sl7_inner0.0005_outer320_log_h32.json",
+      "sha256": "c099526a25aa5002300a48659dc940f26cc8cce4f36435231099a5c88d8ca7d8",
+      "samples": 96
+    },
+    {
+      "ell": 9,
+      "m": 7,
+      "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg6_sl9_inner0.0005_outer320_log_h32.json",
+      "sha256": "7b1b00ad168093669342be43208eff20497f9f00d505e58ed519c7bf783dea05",
+      "samples": 96
+    },
+    {
+      "ell": 11,
+      "m": 7,
+      "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg6_sl11_inner0.0005_outer320_log_h32.json",
+      "sha256": "2691736712643f0c7186708fc41c95783191f506a2539276357e5baac00c0667",
+      "samples": 96
+    },
+    {
+      "ell": 5,
+      "m": -5,
+      "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-6_sl5_inner0.0005_outer320_log_h32.json",
+      "sha256": "d0935876208572f3c80ac8977a10b9bd65d8d9ad6a688bdb26c1661a2d50dc89",
+      "samples": 96
+    },
+    {
+      "ell": 7,
+      "m": -5,
+      "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-6_sl7_inner0.0005_outer320_log_h32.json",
+      "sha256": "1b7253911375929a809ad0b7b6f33cc0b2fe39cc1d7366fae1e102b713a259d4",
+      "samples": 96
+    },
+    {
+      "ell": 9,
+      "m": -5,
+      "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-6_sl9_inner0.0005_outer320_log_h32.json",
+      "sha256": "00e8f6e9707543156732098e3c24d32f250af3536f16689939fcbca875427a4a",
+      "samples": 96
+    },
+    {
+      "ell": 11,
+      "m": -5,
+      "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-6_sl11_inner0.0005_outer320_log_h32.json",
+      "sha256": "928c70226867cddf6ce166eecaa3150fc793ed70f7c97f2a2ac22a13818215e1",
+      "samples": 96
+    }
+  ]
+}
