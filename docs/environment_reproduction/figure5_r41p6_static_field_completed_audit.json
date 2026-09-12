@@ -1,0 +1,14 @@
+{
+  "status": "completed_static_field_boundary_pair_not_full_convergence",
+  "inputs": [
+    {
+      "file": "scalar_batch_mg0_f495a4ee12c5.json",
+      "sha256": "55f31cfbab6d3fd4f867a78fb0776148bf674dd6b313cb4c7f4d4f7401c67567"
+    },
+    {
+      "file": "scalar_batch_mg0_207f04038b9d.json",
+      "sha256": "4442f95bf04eb7cdfc734bd44f0431ab92c8bfae9faf37caf66d6b17b3f845dd"
+    }
+  ],
+  "maximum_sampled_field_relative_change": 1.8701333416639594e-10
+}
