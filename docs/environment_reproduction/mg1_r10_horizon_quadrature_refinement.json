@@ -1,0 +1,162 @@
+{
+  "status": "completed_horizon_quadrature_comparison_not_global_convergence",
+  "rows": [
+    {
+      "ell": 2,
+      "m": 2,
+      "source_nodes": [
+        96,
+        128
+      ],
+      "unchanged_normal_panel_nodes": 64,
+      "normal_panel_source_relative_l2": 2.708664504528786e-07,
+      "inputs": {
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg1_sl2_inner0.0005_outer320_log_h32.json": "befc07fca30285d76b3f41db1ffa77f5ffdf6c1fe84b1e9ae49b4ec146035e20",
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg1_sl2_inner0.0005_outer320_log_h64.json": "18804aec93307a261f3e86cbd7caebfaf988124c8aa2776fb6efd305c6538582"
+      },
+      "fluxes": {
+        "infinity": {
+          "h32": 1.3096867315827016e-07,
+          "h64": 1.3096864556142789e-07,
+          "relative_change": -2.1071330735811244e-07
+        },
+        "horizon": {
+          "h32": -7.655969124867842e-07,
+          "h64": -7.655970630353159e-07,
+          "relative_change": 1.9664203088076704e-07
+        }
+      }
+    },
+    {
+      "ell": 4,
+      "m": 2,
+      "source_nodes": [
+        96,
+        128
+      ],
+      "unchanged_normal_panel_nodes": 64,
+      "normal_panel_source_relative_l2": 8.765228124233307e-07,
+      "inputs": {
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg1_sl4_inner0.0005_outer320_log_h32.json": "53795d1ba5d07089bf26c520a97759513e43adaaba471bc0aaa873ee54e6ec2e",
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg1_sl4_inner0.0005_outer320_log_h64.json": "8f349b8aac652b0c656938a4caa65bd16a3c93d6719363e24912963d5bb667d3"
+      },
+      "fluxes": {
+        "infinity": {
+          "h32": 1.8216326161781874e-08,
+          "h64": 1.8216325765908235e-08,
+          "relative_change": -2.1731804578095648e-08
+        },
+        "horizon": {
+          "h32": -1.950230599205139e-09,
+          "h64": -1.950237752048013e-09,
+          "relative_change": 3.6676908243826745e-06
+        }
+      }
+    },
+    {
+      "ell": 6,
+      "m": 2,
+      "source_nodes": [
+        96,
+        128
+      ],
+      "unchanged_normal_panel_nodes": 64,
+      "normal_panel_source_relative_l2": 1.4653399478873313e-06,
+      "inputs": {
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg1_sl6_inner0.0005_outer320_log_h32.json": "ffc46a5c7195c8d9032ef0e5d134afa2ed589b4fe98b02f1af79fe1c9a523f0e",
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg1_sl6_inner0.0005_outer320_log_h64.json": "bedbe79de3d1bc342d86c663973d73cc3d7a839d6e1cce7218236732f02a54cc"
+      },
+      "fluxes": {
+        "infinity": {
+          "h32": 2.061682026621116e-12,
+          "h64": 2.0616820395963206e-12,
+          "relative_change": 6.293504162258046e-09
+        },
+        "horizon": {
+          "h32": -8.531960138930907e-12,
+          "h64": -8.532112908954553e-12,
+          "relative_change": 1.790561854009276e-05
+        }
+      }
+    },
+    {
+      "ell": 0,
+      "m": 0,
+      "source_nodes": [
+        96,
+        128
+      ],
+      "unchanged_normal_panel_nodes": 64,
+      "normal_panel_source_relative_l2": 4.6263948488979593e-07,
+      "inputs": {
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-1_sl0_inner0.0005_outer320_log_h32.json": "42c9412363a7d92e2f039fc9cf3272cb8582168ec6f72794ed01853ba08ba5c8",
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-1_sl0_inner0.0005_outer320_log_h64.json": "4eb16c55cbc02c96d1df1caf1187c98e13b763a795ab82807138a99f52c244dc"
+      },
+      "fluxes": {
+        "infinity": {
+          "h32": -0.0,
+          "h64": -0.0,
+          "relative_change": null
+        },
+        "horizon": {
+          "h32": -6.272275267097329e-05,
+          "h64": -6.272275357554517e-05,
+          "relative_change": 1.442175046051375e-08
+        }
+      }
+    },
+    {
+      "ell": 2,
+      "m": 0,
+      "source_nodes": [
+        96,
+        128
+      ],
+      "unchanged_normal_panel_nodes": 64,
+      "normal_panel_source_relative_l2": 7.072595828149299e-07,
+      "inputs": {
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-1_sl2_inner0.0005_outer320_log_h32.json": "875115e558128431b1f3e2fc383910232698658de204a88c37aff04665f5a9f3",
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-1_sl2_inner0.0005_outer320_log_h64.json": "fa7c5686b33cad0a51943acf7d2a795c0f50d546b1c12d73bcbfebcf44cd8bed"
+      },
+      "fluxes": {
+        "infinity": {
+          "h32": -0.0,
+          "h64": -0.0,
+          "relative_change": null
+        },
+        "horizon": {
+          "h32": -7.786874106910688e-08,
+          "h64": -7.786880805160085e-08,
+          "relative_change": 8.601974688104974e-07
+        }
+      }
+    },
+    {
+      "ell": 4,
+      "m": 0,
+      "source_nodes": [
+        96,
+        128
+      ],
+      "unchanged_normal_panel_nodes": 64,
+      "normal_panel_source_relative_l2": 4.91535490582108e-07,
+      "inputs": {
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-1_sl4_inner0.0005_outer320_log_h32.json": "c20ecb978634c34ead80e657df0111098bc327db4b61af0fea5a494777354ace",
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-1_sl4_inner0.0005_outer320_log_h64.json": "bcb6aed8323ad544c3f58dfee5cd17c9f7a32bf6ccb9056533b5aa71a9142b60"
+      },
+      "fluxes": {
+        "infinity": {
+          "h32": -0.0,
+          "h64": -0.0,
+          "relative_change": null
+        },
+        "horizon": {
+          "h32": -4.5443425301355014e-10,
+          "h64": -4.5443762641648466e-10,
+          "relative_change": 7.4233025175729495e-06
+        }
+      }
+    }
+  ],
+  "limitation": "The angular basis extension was also present in the new run; shared normal-panel sources are compared, not assumed identical. No inner-cutoff or all-channel convergence proof."
+}
