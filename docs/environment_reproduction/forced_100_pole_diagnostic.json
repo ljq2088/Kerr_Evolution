@@ -1,0 +1,97 @@
+{
+  "status": "actual_forced_samples_with_pole_not_resonance_scan",
+  "alpha": 0.3,
+  "a": 0.8771530275949366,
+  "pole": [
+    0.2874961722873674,
+    -0.010380086936585563
+  ],
+  "real_frequency_crossing_radius": 23.34523833189765,
+  "rows": [
+    {
+      "rp": 10.0,
+      "drive_frequency": 0.26552395108721405,
+      "detuning": -0.021972221200153352,
+      "detuning_over_width": -2.11676658725374,
+      "horizon_orbital_flux": -6.272275267097329e-05,
+      "z_h": [
+        0.011324754489022565,
+        0.034181754543078195
+      ],
+      "z_h_magnitude": 0.0360089212262723,
+      "pole_removed_response_magnitude": 0.0008750425023693389,
+      "green_outer_radius": 1000.0,
+      "infinity_method": "series"
+    },
+    {
+      "rp": 20.0,
+      "drive_frequency": 0.2852214878976851,
+      "detuning": -0.0022746843896823132,
+      "detuning_over_width": -0.21913924262666631,
+      "horizon_orbital_flux": -6.700749953395336e-05,
+      "z_h": [
+        -0.049610138067644895,
+        0.03350537832676934
+      ],
+      "z_h_magnitude": 0.05986464879969425,
+      "pole_removed_response_magnitude": 0.0006361457516756664,
+      "green_outer_radius": 4000.0,
+      "infinity_method": "series"
+    },
+    {
+      "rp": 30.0,
+      "drive_frequency": 0.2902397569329121,
+      "detuning": 0.0027435846455446944,
+      "detuning_over_width": 0.2643122993387156,
+      "horizon_orbital_flux": -1.2220492355887712e-05,
+      "z_h": [
+        -0.03425561531607442,
+        0.0011376144155199937
+      ],
+      "z_h_magnitude": 0.03427449995610835,
+      "pole_removed_response_magnitude": 0.0003679898116595389,
+      "green_outer_radius": 1000.0,
+      "infinity_method": "series"
+    },
+    {
+      "rp": 41.6,
+      "drive_frequency": 0.29257838768547245,
+      "detuning": 0.00508221539810505,
+      "detuning_over_width": 0.489612026291641,
+      "horizon_orbital_flux": -1.060835166695826e-06,
+      "z_h": [
+        -0.011453466413644734,
+        0.005802113850471671
+      ],
+      "z_h_magnitude": 0.012839253016524098,
+      "pole_removed_response_magnitude": 0.0001483892845397291,
+      "green_outer_radius": 4000.0,
+      "infinity_method": "coulomb"
+    },
+    {
+      "rp": 41.8,
+      "drive_frequency": 0.2926049312952703,
+      "detuning": 0.005108759007902919,
+      "detuning_over_width": 0.49216919271616427,
+      "horizon_orbital_flux": -1.0305336858913622e-06,
+      "z_h": [
+        -0.011188063973276723,
+        0.006008563101341204
+      ],
+      "z_h_magnitude": 0.012699433294951849,
+      "pole_removed_response_magnitude": 0.00014692186368248038,
+      "green_outer_radius": 4000.0,
+      "infinity_method": "coulomb"
+    }
+  ],
+  "inputs": {
+    "kerr_resonance_poles.json": "1043008d162498b2f6ff27e50f4d6e2389b2027c68c1655c1bfa738c20f26733",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-1_sl0_inner0.0005_outer320_log_h32.json": "42c9412363a7d92e2f039fc9cf3272cb8582168ec6f72794ed01853ba08ba5c8",
+    "forced_mode_nr8_nt18_L18_mg-1_sl0_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "7c4a50e78dcdca545740856b042b0f7a1335bb8e0f611d44bb00c065c14a95f0",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp30_mg-1_sl0_inner0.0005_outer320_log_h32.json": "ae68a48c9392c945451d41cd5a637f32f77e585f6a61bc26da9890900b361863",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-1_sl0_gh0.0001_go4000_coulomb_inner0.0005_outer320_log_h32.json": "f8e1b40a51536e04b3542e17adcc82c891ef9aa8545bdc1ea01445fd761cf245",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-1_sl0_gh0.0001_go4000_coulomb_inner0.0005_outer320_log_h32.json": "fbad1bcdc0dc679dc6acc764614e5fd05c3a5269fad96a42ca3e5db70670617f"
+  },
+  "amplitude_fit": false,
+  "limitation": "The pole-removed quantity includes varying source coupling and regular Green contributions; it is not a measured pole residue. Sparse finite-resolution samples do not locate a flux maximum or prove a floating orbit."
+}
