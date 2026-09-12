@@ -48,6 +48,8 @@ Schwarzschild复频率背景、KS切片能量归一化及冻结时间衰减的KG
 - 真空GW基线完成26个轨道半径、各154个正负m模态。Fig.4跨图归一化存在未解决的不一致，不能将GW基线完成等同于环境通量比复现。见 GRAVITATIONAL_SWEEP.md、FIGURE4_NORMALIZATION_AUDIT.md。
 - rp=10M 的度规重构编号上限18→24与角积分18→24联合加密已完成，主导(0,0)视界通量相对变化约6e-6；见 MG1_R10_METRIC_ANGULAR_REFINEMENT.md。论文的球谐截断与实现的分离扁球谐截断需继续区分，见 METRIC_TRUNCATION_BASIS.md。
 
+图2/3的统计入口现已区分alpha=.2/.3及Kerr/冻结Schwarzschild背景；相应生产分辨率扫描仍缺数据，见BACKGROUND_FLUX_INVENTORIES.md。图5两侧m=2远边界与外源截断对照已完成，剩余完整场仍在计算，见FIGURE5_RUN.md。
+
 所有七幅图、Schwarzschild与alpha=.2扫描、阈值两侧完整尾迹及有源共振仍是未完成目标。用户没有作者代码；独立实现继续，不以这一缺失作为停止理由。
 
 ## 图级验收
