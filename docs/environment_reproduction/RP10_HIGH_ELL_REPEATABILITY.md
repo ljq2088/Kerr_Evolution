@@ -71,3 +71,20 @@ Radial and angular inputs remain double in both runs.
 Input fingerprints and all 18 paired rows: rp10_metric_matching_dense_precision_audit.json.
 This comparison does not establish quadrature convergence, radial accuracy,
 or scalar flux changes. The independent dense-source flux run is pending.
+
+
+## Angular projection quadrature: 18 versus 26 nodes
+
+Both complete sequences use dense angular functions, analytic kappa, double
+Taylor arithmetic, and identical physical parameters and projection tests.
+At L18, q26 gives value jump 4.27533061795e-06 versus
+6.3638530857e-06, and derivative mismatch
+1.60948473976e-05 versus 1.76897217777e-05.
+The q26/q18 ratios are 0.671814789 and
+0.909841749. No clean vanishing residual is established
+by these two quadratures. Input fingerprints and all paired rows are in
+rp10_metric_matching_dense_quadrature_audit.json.
+
+These tests leave radial input precision and amplified cancellation in the
+reconstruction unresolved. The separate same-grid scalar-source/flux
+comparison remains necessary before assigning any physical impact.
