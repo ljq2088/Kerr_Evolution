@@ -1,0 +1,192 @@
+{
+  "status": "completed_inner_cutoff_comparison_not_full_convergence",
+  "inputs": [
+    {
+      "file": "scalar_batch_mg1_604b085df0b7.json",
+      "sha256": "3d6ce258d05b4b04bd98849fbd46ddd6d92bf5e5f8312797beca022688893b92"
+    },
+    {
+      "file": "scalar_batch_mg1_374acca5b0e2.json",
+      "sha256": "4997dd1912ef6c6a9a1985a5e2102a056872c179928eaa1dad4e535bf99d8e50"
+    }
+  ],
+  "original_offset": 0.0005,
+  "extended_offset": 0.00025,
+  "cases": [
+    {
+      "ell": 0,
+      "m": 0,
+      "inputs": [
+        {
+          "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-1_sl0_inner0.0005_outer320_log_h64.json",
+          "sha256": "4eb16c55cbc02c96d1df1caf1187c98e13b763a795ab82807138a99f52c244dc"
+        },
+        {
+          "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-1_sl0_inner0.00025_outer320_log_h64.json",
+          "sha256": "fb983b31851597a3080840a0389253d0bb0e8c715bd4967362bc7c5ad2413a70"
+        }
+      ],
+      "unchanged_outer_nodes": 64,
+      "flux": {
+        "horizon": {
+          "original": -6.272275357554517e-05,
+          "extended": -6.273469110099658e-05,
+          "absolute_change": -1.1937525451407053e-08,
+          "relative_change": 0.00019032208841133127
+        },
+        "infinity": {
+          "original": -0.0,
+          "extended": -0.0,
+          "absolute_change": 0.0,
+          "relative_change": null
+        }
+      }
+    },
+    {
+      "ell": 2,
+      "m": 0,
+      "inputs": [
+        {
+          "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-1_sl2_inner0.0005_outer320_log_h64.json",
+          "sha256": "fa7c5686b33cad0a51943acf7d2a795c0f50d546b1c12d73bcbfebcf44cd8bed"
+        },
+        {
+          "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-1_sl2_inner0.00025_outer320_log_h64.json",
+          "sha256": "593d98b209d782fe1d0180f6763688d6b6ada0c6a5c4f627f3b53b2ecc670714"
+        }
+      ],
+      "unchanged_outer_nodes": 64,
+      "flux": {
+        "horizon": {
+          "original": -7.786880805160085e-08,
+          "extended": -7.80310309511584e-08,
+          "absolute_change": -1.6222289955754934e-10,
+          "relative_change": 0.002083284740278162
+        },
+        "infinity": {
+          "original": -0.0,
+          "extended": -0.0,
+          "absolute_change": 0.0,
+          "relative_change": null
+        }
+      }
+    },
+    {
+      "ell": 2,
+      "m": 2,
+      "inputs": [
+        {
+          "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg1_sl2_inner0.0005_outer320_log_h64.json",
+          "sha256": "18804aec93307a261f3e86cbd7caebfaf988124c8aa2776fb6efd305c6538582"
+        },
+        {
+          "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg1_sl2_inner0.00025_outer320_log_h64.json",
+          "sha256": "674624832a1129c5e5e69476bad91ce40da11db9fefcf1a0cf6eeab2c16ed978"
+        }
+      ],
+      "unchanged_outer_nodes": 64,
+      "flux": {
+        "horizon": {
+          "original": -7.655970630353159e-07,
+          "extended": -7.664476336775156e-07,
+          "absolute_change": -8.505706421996422e-10,
+          "relative_change": 0.001110989949239665
+        },
+        "infinity": {
+          "original": 1.3096864556142789e-07,
+          "extended": 1.309683566914933e-07,
+          "absolute_change": -2.888699345864927e-13,
+          "relative_change": -2.2056419179429078e-06
+        }
+      }
+    },
+    {
+      "ell": 4,
+      "m": 0,
+      "inputs": [
+        {
+          "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-1_sl4_inner0.0005_outer320_log_h64.json",
+          "sha256": "bcb6aed8323ad544c3f58dfee5cd17c9f7a32bf6ccb9056533b5aa71a9142b60"
+        },
+        {
+          "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-1_sl4_inner0.00025_outer320_log_h64.json",
+          "sha256": "ea6fddc38aeeecbd0c91f86896bc651c4a3a4bcb07470d62d337094b9565d91a"
+        }
+      ],
+      "unchanged_outer_nodes": 64,
+      "flux": {
+        "horizon": {
+          "original": -4.5443762641648466e-10,
+          "extended": -4.581106619868211e-10,
+          "absolute_change": -3.6730355703364564e-12,
+          "relative_change": 0.008082595623299422
+        },
+        "infinity": {
+          "original": -0.0,
+          "extended": -0.0,
+          "absolute_change": 0.0,
+          "relative_change": null
+        }
+      }
+    },
+    {
+      "ell": 4,
+      "m": 2,
+      "inputs": [
+        {
+          "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg1_sl4_inner0.0005_outer320_log_h64.json",
+          "sha256": "8f349b8aac652b0c656938a4caa65bd16a3c93d6719363e24912963d5bb667d3"
+        },
+        {
+          "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg1_sl4_inner0.00025_outer320_log_h64.json",
+          "sha256": "93647492ccbabb0f295fe6ff90123f03e0684a6aed541b8fdb79a98e4123b986"
+        }
+      ],
+      "unchanged_outer_nodes": 64,
+      "flux": {
+        "horizon": {
+          "original": -1.950237752048013e-09,
+          "extended": -1.9652248474943126e-09,
+          "absolute_change": -1.4987095446299666e-11,
+          "relative_change": 0.007684753015657292
+        },
+        "infinity": {
+          "original": 1.8216325765908235e-08,
+          "extended": 1.8216325767135638e-08,
+          "absolute_change": 1.2274036801306846e-18,
+          "relative_change": 6.737932203802397e-11
+        }
+      }
+    },
+    {
+      "ell": 6,
+      "m": 2,
+      "inputs": [
+        {
+          "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg1_sl6_inner0.0005_outer320_log_h64.json",
+          "sha256": "bedbe79de3d1bc342d86c663973d73cc3d7a839d6e1cce7218236732f02a54cc"
+        },
+        {
+          "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg1_sl6_inner0.00025_outer320_log_h64.json",
+          "sha256": "94f27d9abed9f2e675b2b5a0088153d9b50d50d0c50d226e76884a9e23ee7217"
+        }
+      ],
+      "unchanged_outer_nodes": 64,
+      "flux": {
+        "horizon": {
+          "original": -8.532112908954553e-12,
+          "extended": -8.56050627652744e-12,
+          "absolute_change": -2.839336757288702e-14,
+          "relative_change": 0.0033278237027416554
+        },
+        "infinity": {
+          "original": 2.0616820395963206e-12,
+          "extended": 2.061682039596338e-12,
+          "absolute_change": 1.7367561689345796e-26,
+          "relative_change": 8.423976809123478e-15
+        }
+      }
+    }
+  ],
+  "limitation": "First logarithmic panel is remeshed. This changes cutoff and its quadrature together; fixed panel order is not an independent quadrature convergence test."
+}
