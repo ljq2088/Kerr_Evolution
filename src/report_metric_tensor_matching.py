@@ -22,10 +22,14 @@ def main():
     parser.add_argument('--r0',type=float,default=6.)
     parser.add_argument('--a',type=float,default=.6)
     parser.add_argument('--extended-jet',action='store_true')
+    parser.add_argument('--analytic-kappa',action='store_true')
     parser.add_argument('--dense-angular',action='store_true',help='Use the real dense angular diagnostic for both source and vacuum factors')
     parser.add_argument('--resume',action='store_true')
     parser.add_argument('--smooth',action='store_true',help='Use sin(theta) d_theta, a globally smooth angular vector')
     args=parser.parse_args()
+    if args.analytic_kappa:
+        from environment_trace_variation import install_analytic_kappa_diagnostic
+        install_analytic_kappa_diagnostic()
     if args.dense_angular:
         from environment_angular_diagnostic import install_dense_angular_diagnostic
         install_dense_angular_diagnostic()
@@ -60,6 +64,8 @@ def main():
         suffix+=f'_m{args.m}'
     if args.r0!=6. or args.a!=.6:
         suffix+=f'_r{args.r0:g}_a{args.a:.12g}'
+    if args.analytic_kappa:
+        suffix+='_analytickappa'
     if args.extended_jet:
         suffix+='_extended'
     if args.dense_angular:
@@ -71,6 +77,8 @@ def main():
     first_ell=abs(args.m)
     if args.resume:
         previous=json.loads(out.read_text())
+        if previous.get('kappa_backend','finite-difference')!=('analytic' if args.analytic_kappa else 'finite-difference'):
+            raise ValueError('Resume kappa backend differs')
         expected=dict(jet_order=8,r0=args.r0,a=args.a,m=args.m,quadrature=args.quadrature,epsilon=args.epsilon)
         if any(previous.get(k)!=v for k,v in expected.items()):
             raise ValueError('Resume parameters do not match the saved calculation')
@@ -121,6 +129,7 @@ def main():
         temporary=out.with_suffix('.tmp')
         temporary.write_text(json.dumps(dict(status='all_component_projected_diagnostic',jet_order=8,smooth_polar_tests=args.smooth,r0=args.r0,a=args.a,m=args.m,
                  angular_backend='dense-real' if args.dense_angular else 'pybhpt-arpack',
+                 kappa_backend='analytic' if args.analytic_kappa else 'finite-difference',
                  jet_arithmetic='extended' if args.extended_jet else 'double',radial_input_precision='double',
                  quadrature=args.quadrature,epsilon=args.epsilon,components=indices,tests=[f'P{j}{abs(args.m)}' for j in test_ells],
                  expected_derivative_jump=targets.tolist(),cases=cases),indent=2)+'\n')
