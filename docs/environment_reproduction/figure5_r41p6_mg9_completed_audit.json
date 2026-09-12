@@ -1,0 +1,42 @@
+{
+  "status": "five_completed_finite_resolution_channels",
+  "batch": "scalar_batch_mg9_619e3ae5e970.json",
+  "batch_sha256": "f971fb99c8b03c29c59140465037b2f28e9300641c0d0e8a2522e19e76f723a2",
+  "channels": [
+    {
+      "ell": 10,
+      "m": 10,
+      "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg9_sl10_inner0.0005_outer320_log_h32.json",
+      "sha256": "3821601bc5519f10427819de4bb61c13d7363ef39712f444cde6b4b516aa513b",
+      "samples": 96
+    },
+    {
+      "ell": 12,
+      "m": 10,
+      "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg9_sl12_inner0.0005_outer320_log_h32.json",
+      "sha256": "d4e09d1a7b28f161ba86e69a435b3ec259f0ca99b067a6cf5b939029569bf931",
+      "samples": 96
+    },
+    {
+      "ell": 8,
+      "m": -8,
+      "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-9_sl8_inner0.0005_outer320_log_h32.json",
+      "sha256": "5fe5b2c7e982de1559d36bf472d65ba322cd0ce9830f71e16cac150d8ba590b8",
+      "samples": 96
+    },
+    {
+      "ell": 10,
+      "m": -8,
+      "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-9_sl10_inner0.0005_outer320_log_h32.json",
+      "sha256": "4dc7d4f48d0912ac97e86e56480f7b97f58f47c4bc3ba88459be558dd12a3a7d",
+      "samples": 96
+    },
+    {
+      "ell": 12,
+      "m": -8,
+      "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-9_sl12_inner0.0005_outer320_log_h32.json",
+      "sha256": "1a8992c190ead91afd8e72dfabac6a31043e82bd2fa769dc793fc059a780d9ef",
+      "samples": 96
+    }
+  ]
+}
