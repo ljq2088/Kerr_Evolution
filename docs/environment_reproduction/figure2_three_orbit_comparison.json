@@ -1,0 +1,129 @@
+{
+  "status": "finite_three_orbit_comparison_not_paper_reproduction",
+  "alpha": 0.3,
+  "normalization": "per q^2 (Mc/M)",
+  "rows": [
+    {
+      "rp": 10,
+      "fluxes": {
+        "infinity": {
+          "computed_signed": 7.332063442091086e-06,
+          "paper_magnitude": 7.011691112575283e-06,
+          "relative_magnitude_difference": 0.04569116413887997,
+          "channels": 9
+        },
+        "horizon": {
+          "computed_signed": -6.357677060534488e-05,
+          "paper_magnitude": 4.519606639296476e-05,
+          "relative_magnitude_difference": 0.40668814079008575,
+          "channels": 18
+        }
+      }
+    },
+    {
+      "rp": 20,
+      "fluxes": {
+        "infinity": {
+          "computed_signed": 1.9210336966561032e-05,
+          "paper_magnitude": 1.8287649394749014e-05,
+          "relative_magnitude_difference": 0.05045413721005354,
+          "channels": 9
+        },
+        "horizon": {
+          "computed_signed": -6.866732369741025e-05,
+          "paper_magnitude": 5.176375337127784e-05,
+          "relative_magnitude_difference": 0.32655225375352503,
+          "channels": 18
+        }
+      }
+    },
+    {
+      "rp": 30,
+      "fluxes": {
+        "infinity": {
+          "computed_signed": 2.7420088677119204e-05,
+          "paper_magnitude": 2.6053896613052324e-05,
+          "relative_magnitude_difference": 0.05243714920486986,
+          "channels": 9
+        },
+        "horizon": {
+          "computed_signed": -1.445175580555133e-05,
+          "paper_magnitude": 1.0941209701575121e-05,
+          "relative_magnitude_difference": 0.3208553898268509,
+          "channels": 18
+        }
+      }
+    }
+  ],
+  "inputs": {
+    "paper_figure2_selected_radii.json": "9e3c975b57a687ac1ac1a553e18f38588a01726bb91280251404f1f61f0b4294",
+    "flux_coverage_L18_nt18_i6_h5_f5_rp10.json": "d5451ea074eeb0d08d6ff6a74748dfaadc2089dcecb1e72ef3126d9076c37a27",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg1_sl2_inner0.0005_outer320_log_h32.json": "befc07fca30285d76b3f41db1ffa77f5ffdf6c1fe84b1e9ae49b4ec146035e20",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp10_inner0.0005_outer320_log_h32.json": "b40cd43b3169e20deeb121a079d4ac705f60e9ec09f39deda4a1caa4e8459519",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg1_sl4_inner0.0005_outer320_log_h32.json": "53795d1ba5d07089bf26c520a97759513e43adaaba471bc0aaa873ee54e6ec2e",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg3_sl4_inner0.0005_outer320_log_h32.json": "2f1d5350899e13ecb983298f35142f2c38782ba9295b69244cbdd2d79e48a841",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg2_sl5_inner0.0005_outer320_log_h32.json": "c36738c05816f3c7ff24ce6914c9ff64e78dfd9b4fe33f10b71c9941ead11682",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg4_sl5_inner0.0005_outer320_log_h32.json": "857d3f7ef6e051849cdde54c3d61afb82df2d589981642fa57505ba4a1046c60",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg1_sl6_inner0.0005_outer320_log_h32.json": "ffc46a5c7195c8d9032ef0e5d134afa2ed589b4fe98b02f1af79fe1c9a523f0e",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg3_sl6_inner0.0005_outer320_log_h32.json": "8a2bf00fb0971c1afcbe8a1dd2f8b136b8bf1f77f3f5029fda9688525403d569",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg5_sl6_inner0.0005_outer320_log_h32.json": "f4ea532b08a2d2d9cf388d2408fb5289058c44dca3ad1aa30e5928c28780a799",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-1_sl0_inner0.0005_outer320_log_h32.json": "42c9412363a7d92e2f039fc9cf3272cb8582168ec6f72794ed01853ba08ba5c8",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-2_sl1_inner0.0005_outer320_log_h32.json": "010704b3bfb685f01ce640bd39717ca047bb9f5d38d14b1a6f0770ddd85386ff",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-3_sl2_inner0.0005_outer320_log_h32.json": "b056b7275c3369ac8d329d3617af06ea5e81f25bddc67a3322417e68fe3521e2",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-1_sl2_inner0.0005_outer320_log_h32.json": "875115e558128431b1f3e2fc383910232698658de204a88c37aff04665f5a9f3",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-4_sl3_inner0.0005_outer320_log_h32.json": "c8a4b35b9973069685ca07c946e2807841a48e7e18095b063c5aef72a09dc5a2",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-2_sl3_inner0.0005_outer320_log_h32.json": "17d3e7fbdb0a08d8d4e98722a54de394e37d1e59dbab4aa9c09e3331a90ce074",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-5_sl4_inner0.0005_outer320_log_h32.json": "f59b1ab92177a5ededd15c70b975a8ff8c358a61887ac9eece41e3cc16cd0e23",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-3_sl4_inner0.0005_outer320_log_h32.json": "945d664a23ca7e3da61342a5fb3a4995f8d9c0b8419a0915fbffb4fe78a1b281",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-1_sl4_inner0.0005_outer320_log_h32.json": "c20ecb978634c34ead80e657df0111098bc327db4b61af0fea5a494777354ace",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-6_sl5_inner0.0005_outer320_log_h32.json": "2f861e2415643170f7822dd0813597904f181ce313d1b4db6915eca9c4630c2b",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-4_sl5_inner0.0005_outer320_log_h32.json": "18b498b14e2f682ab1ca7dd03e2aabcb109b39ea03c0776d24e52e2ec5098c2c",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp10_mg-2_sl5_inner0.0005_outer320_log_h32.json": "2a8abce2902bd7e4eea04a738caebbfbfc5ab134cecc9146b9f8c31ac07ba02b",
+    "flux_coverage_L18_nt18_i6_h5_f5_m0go4000_m2go4000.json": "95a5012642e94c8add80b55315850dd20c894a3184d96e216e8a3384ad4437ba",
+    "forced_mode_nr8_nt18_L18_mg1_sl2_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "901be8306b526e3e6df1f9b461ca4ceea112d358491afae6142cc364e3f8de7f",
+    "forced_mode_nr8_nt18_L18_inner0.0005_outer320_log_h32.json": "d5549cee14d7434185cb044b5f15c18d3add7daacd8271ab5f8bc40f3dcd2736",
+    "forced_mode_nr8_nt18_L18_mg1_sl4_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "ce0b019b1f4c5e5836a60e18114cc7e9f01e55e740a7a2c99c58abc763f01992",
+    "forced_mode_nr8_nt18_L18_mg3_sl4_inner0.0005_outer320_log_h32.json": "1f9dfd94b0e9cd0a0139fdbb7221a7b790923dc71fae39b31ba31955bd991065",
+    "forced_mode_nr8_nt18_L18_mg2_sl5_inner0.0005_outer320_log_h32.json": "1925fbd05a140f4e0fe3c3b294cda08b9f38ddcd2b9f74a56a01eb3c6b5b3088",
+    "forced_mode_nr8_nt18_L18_mg4_sl5_inner0.0005_outer320_log_h32.json": "f4bfa2d133178247906193d93a92c9fbe8371fdab0ec4da2e0693f31c6c76265",
+    "forced_mode_nr8_nt18_L18_mg1_sl6_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "f09527cb53aacb41a9d790b423fdd20b41f27efcd20b13ef1a881b7da307822b",
+    "forced_mode_nr8_nt18_L18_mg3_sl6_inner0.0005_outer320_log_h32.json": "910e1fd603f7e9fed65685d02427a96fa3c6d85e90085b00056edead884694cd",
+    "forced_mode_nr8_nt18_L18_mg5_sl6_inner0.0005_outer320_log_h32.json": "aaeeb9f38ab4e90fa56735baa3b0e59e0dbf2baab71f76c7399a900e9aea3231",
+    "forced_mode_nr8_nt18_L18_mg-1_sl0_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "7c4a50e78dcdca545740856b042b0f7a1335bb8e0f611d44bb00c065c14a95f0",
+    "forced_mode_nr8_nt18_L18_mg-2_sl1_inner0.0005_outer320_log_h32.json": "c405f15552b78a51e44f9ef19fc96576804534f25bfd35859197c2885a605e82",
+    "forced_mode_nr8_nt18_L18_mg-3_sl2_inner0.0005_outer320_log_h32.json": "a69182cf00537f41f6f3714370846341fc4bae15eef23f425783147a853fadb8",
+    "forced_mode_nr8_nt18_L18_mg-1_sl2_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "fb30d727cdb754c5dca3f7906b7383fe939d81949341953bb3787bc5d79b1162",
+    "forced_mode_nr8_nt18_L18_mg-4_sl3_inner0.0005_outer320_log_h32.json": "c581ec8c3b0892a40e4f1a3d439ed24a0c3943bbbd3948db8e84a980a11268d1",
+    "forced_mode_nr8_nt18_L18_mg-2_sl3_inner0.0005_outer320_log_h32.json": "3155342d0eab716d9d560dfcf19a3d803ac8446ba34865a567a6b2e88c9bee29",
+    "forced_mode_nr8_nt18_L18_mg-5_sl4_inner0.0005_outer320_log_h32.json": "f571181bfd6b8d8dac7dacc1e9002de185484e5c8ee58c02d42901f4daf1ea56",
+    "forced_mode_nr8_nt18_L18_mg-3_sl4_inner0.0005_outer320_log_h32.json": "30a0fba92cd9c85e5b0e67dfa645b33b0f346599f3cc880477f93271b0d6844e",
+    "forced_mode_nr8_nt18_L18_mg-1_sl4_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "588835460137dbf2011e15d91414f5045a046045fcf916a55826d9df709be8c3",
+    "forced_mode_nr8_nt18_L18_mg-6_sl5_inner0.0005_outer320_log_h32.json": "ffd11c1d16ccdb8971f00f1fa891ebc691f937d9daa6a190af1dae437d7f165e",
+    "forced_mode_nr8_nt18_L18_mg-4_sl5_inner0.0005_outer320_log_h32.json": "f9c64ba982a0566c363b0f6ef9487b3941f71d478ab261492471a7785ba14c39",
+    "forced_mode_nr8_nt18_L18_mg-2_sl5_inner0.0005_outer320_log_h32.json": "9f60157caf5e7a674c4738425413bbc39ba9b05c6366824b602f9cc563b04306",
+    "flux_coverage_L18_nt18_i6_h5_f5_rp30.json": "1a1715c96e4dcdf207693e58cb4728bd3ff1b6ae32013ceb3eae36b73f58cace",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp30_mg1_sl2_inner0.0005_outer320_log_h32.json": "fad297c89f52016906446277065c70641a5fe67f105fb5e80e1cb979e024d0be",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp30_inner0.0005_outer320_log_h32.json": "3e808696e0447f301fd1e46841d371343d38b331551d40968c6382bc9ba38846",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp30_mg1_sl4_inner0.0005_outer320_log_h32.json": "664d25a95d066a99cb5e94c7011d3ee046be26b77468537a8c0fb9e9c6daa8bb",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp30_mg3_sl4_inner0.0005_outer320_log_h32.json": "796cbffa72479e17af14b32f8b567be82e80056009f4b2212c5db733c524f8c4",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp30_mg2_sl5_inner0.0005_outer320_log_h32.json": "9f5563d35271f83992965dc08ab6388d9ff0297d162fd27486f7e7e4abf9d75a",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp30_mg4_sl5_inner0.0005_outer320_log_h32.json": "f896fd45a989931ba07ace2c7c09ab9677319af9925cb7f1a32f988e773eb930",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp30_mg1_sl6_inner0.0005_outer320_log_h32.json": "433729ffb52b94d0b5c15b3fd915419cbc2fbe2c2d67b66bb4646e0cebe18141",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp30_mg3_sl6_inner0.0005_outer320_log_h32.json": "ce1ceeeaf793a071539a3885b8695d44f1e87138176a5798b5bfb41e336654f2",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp30_mg5_sl6_inner0.0005_outer320_log_h32.json": "7837a84daf9a74e1c7ea8aca10f262cfb38f3d5c9d69e6c29358cb3a3a370584",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp30_mg-1_sl0_inner0.0005_outer320_log_h32.json": "ae68a48c9392c945451d41cd5a637f32f77e585f6a61bc26da9890900b361863",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp30_mg-2_sl1_inner0.0005_outer320_log_h32.json": "5400f29bca79edeab420efa1fc3c0325fc6ee7418e87b9096fd7558dc5d1dc9e",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp30_mg-3_sl2_inner0.0005_outer320_log_h32.json": "78c1e07d699a59decda6a90d6006712421abe50b8d8ce9cd396d0cbe5f4beeca",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp30_mg-1_sl2_inner0.0005_outer320_log_h32.json": "b66b85cb9dd86be1538dd7d09011068cc2642d537129a14959924c2d2b4231b9",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp30_mg-4_sl3_inner0.0005_outer320_log_h32.json": "36040d89ab01d2bdbeb49dda55af72f5d0ec872e3722bc03d71609b2bba75839",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp30_mg-2_sl3_inner0.0005_outer320_log_h32.json": "3c2d95caeb33b8987e9fcb05c6fe03750ee9ee362cebe5a7d30996b4d8fa68b7",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp30_mg-5_sl4_inner0.0005_outer320_log_h32.json": "afee1ee1229f90f69416c6a95d877514051af0ade9d9e4935ad036a60203ea55",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp30_mg-3_sl4_inner0.0005_outer320_log_h32.json": "28586c6c820ed01fb164f358f0f61e8a078930a4cbc3bfc8615b834195c2cfbc",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp30_mg-1_sl4_inner0.0005_outer320_log_h32.json": "83c7d44b1a5e6ca6904d6f82bc7e34b02a43e22a8af26748df13e2ce31fcbfdb",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp30_mg-6_sl5_inner0.0005_outer320_log_h32.json": "e7f03135a2bf2d14e6c55b6781ce77dfc07518758a5037f3070d7c52a3bfbbfd",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp30_mg-4_sl5_inner0.0005_outer320_log_h32.json": "a3444ca8d850c072bcbbba230bfe637090b8b7b454956e994fc4b85ebf62379f",
+    "forced_mode_nr8_nt18_L18_alpha0.3_rp30_mg-2_sl5_inner0.0005_outer320_log_h32.json": "1f449be498d2a38e2ae594350296c4864d266d260b35961d1d27965af67d9021"
+  },
+  "amplitude_fitted": false,
+  "limitations": "Only three sampled orbits. Paper values are digitized without a rigorous readout error bound. Horizon reference gives magnitude only. Source, metric and all-mode convergence remain unresolved."
+}

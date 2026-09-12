@@ -12,5 +12,8 @@
     "flux_coverage_L18_nt18_i6_h5_f5_rp30.json": "22b4839dce897e07ed72de47c1a063d37d6781096d21a9f8a02441111413a98e",
     "paper_figure2_selected_radii.json": "9e3c975b57a687ac1ac1a553e18f38588a01726bb91280251404f1f61f0b4294"
   },
-  "limitation": "Paper value digitized with no formal readout error bound; solver source and metric convergence remain unresolved. No fitted scaling."
+  "limitation": "Paper value digitized with no formal readout error bound; solver source and metric convergence remain unresolved. No fitted scaling.",
+  "historical_snapshot": "Captured with 17/18 horizon channels. The coverage input hash refers to git revision 740afd3, not the updated current file.",
+  "coverage_input_git_revision": "740afd3",
+  "current_two_boundary_comparison": "figure2_three_orbit_comparison.json"
 }
