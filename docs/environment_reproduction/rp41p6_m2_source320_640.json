@@ -1,0 +1,337 @@
+{
+  "status": "source_cutoff_comparison_not_global_convergence",
+  "field_radii": [
+    1.5402109600800844,
+    1.5927811964145095,
+    1.6471457517220403,
+    1.7033658694134308,
+    1.761504883249822,
+    1.8216282886902506,
+    1.883803816674379,
+    1.9481015099235652,
+    2.0145938018462295,
+    2.0833555981364063,
+    2.154464361157404,
+    2.2280001972056374,
+    2.3040459467529297,
+    2.38268727776896,
+    2.464012782228966,
+    2.548114075915439,
+    2.6350859016262396,
+    2.725026235905383,
+    2.8180363994167537,
+    2.9142211710850763,
+    3.013688906132723,
+    3.1165516581453394,
+    3.222925305303795,
+    3.332929680924658,
+    3.4466887084562616,
+    3.5643305410824357,
+    3.685987706091163,
+    3.8117972541708114,
+    3.941900913802121,
+    4.0764452509198685,
+    4.21558183402408,
+    4.3594674049268045,
+    4.508264055326766,
+    4.662139409410856,
+    4.821266812688147,
+    4.98582552726914,
+    5.156000933810279,
+    5.331984740351189,
+    5.51397519827991,
+    5.7021773256694335,
+    5.896803138237119,
+    6.0980718881871825,
+    6.306210311205314,
+    6.521452881883694,
+    6.744042077864105,
+    6.974228652996765,
+    7.2122719198225616,
+    7.458440041696916,
+    7.713010334884387,
+    7.976269580964321,
+    8.248514349899466,
+    8.530051334131524,
+    8.821197694080006,
+    9.122281415433578,
+    9.433641678636445,
+    9.755629240985964,
+    10.088606831771967,
+    10.432949560902895,
+    10.78904534147914,
+    11.157295326789525,
+    11.538114362223345,
+    11.931931452606973,
+    12.33919024549148,
+    12.76034953093585,
+    13.195883758348629,
+    13.646283570970345,
+    14.112056358598858,
+    14.593726829180174,
+    15.091837599908715,
+    15.606949808502987,
+    16.139643745345158,
+    16.6905195071967,
+    17.260197673226656,
+    17.849320004113878,
+    18.458550165010962,
+    19.08857447318431,
+    19.740102671172462,
+    20.413868726333757,
+    21.110631657684074,
+    21.831176390956035,
+    22.576314642842906,
+    23.346885835423482,
+    24.14375804179789,
+    24.967828963999672,
+    25.820026944285896,
+    26.701312010944406,
+    27.61267695979633,
+    28.555148472612434,
+    29.529788273702923,
+    30.537694325983818,
+    31.580002067867383,
+    32.65788569236978,
+    33.77255946987701,
+    34.925279116059464,
+    36.117343206475724,
+    37.35009463945944,
+    38.62492214893738,
+    39.94326186888253,
+    41.306598951164936,
+    42.71646923862292,
+    44.17446099523908,
+    45.68221669537044,
+    47.24143487404848,
+    48.853872040433124,
+    50.52134465657642,
+    52.245731183725304,
+    54.02897419846823,
+    55.87308258110974,
+    57.780133778738566,
+    59.752276145538154,
+    61.79173136297631,
+    63.90079694260057,
+    66.08184881425845,
+    68.33734400265827,
+    70.6698233952863,
+    73.08191460479772,
+    75.57633492910621,
+    78.15589441250722,
+    80.82349901128262,
+    83.58215386735334,
+    86.43496669366809,
+    89.38515127514131,
+    92.43603108908457,
+    95.5910430492103,
+    98.85374137742498,
+    102.22780160777369,
+    105.71702472704679,
+    109.32534145671362,
+    113.0568166810052,
+    116.91565402613685,
+    120.90620059582777,
+    125.0329518684519,
+    129.30055676133838,
+    133.7138228679261,
+    138.27772187367069,
+    142.99739515680758,
+    147.87815958027963,
+    152.92551348135237,
+    158.14514286566722,
+    163.5429278127094,
+    169.12494909990434,
+    174.8974950528088,
+    180.86706862911106,
+    187.04039474441979,
+    193.42442784809725,
+    200.02635975766944,
+    206.8536277606375,
+    213.91392299282066,
+    221.2151991026673,
+    228.7656812112932,
+    236.57387517834425,
+    244.64857718411997,
+    252.99888363875098,
+    261.6342014295963,
+    270.5642585184041,
+    279.79911490016985,
+    289.3491739360436,
+    299.2251940730498,
+    309.43830096382055,
+    320.0
+  ],
+  "rows": [
+    {
+      "ell": 2,
+      "m": 2,
+      "original_nodes": 96,
+      "extended_nodes": 104,
+      "original_cutoff": 320.0,
+      "extended_cutoff": 640.0,
+      "exact_inner_source_reuse": true,
+      "fluxes": {
+        "infinity": {
+          "original": 1.4300586956104802e-05,
+          "extended": 1.430058512671801e-05,
+          "absolute_change": -1.8293867922657093e-12,
+          "relative_change": -1.2792389558757833e-07
+        },
+        "horizon": {
+          "original": -2.478774172051498e-06,
+          "extended": -2.4787741731828173e-06,
+          "absolute_change": -1.1313192272094721e-15,
+          "relative_change": 4.5640269341618023e-10
+        }
+      },
+      "field_relative_sup_change": 2.303570284362534e-07,
+      "inputs": {
+        "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg1_sl2_gh0.0001_go32000_coulomb_inner0.0005_outer320_log_h32.json": "871494771adf9d4ffe9e7b2424e18dc30da413ce86c4467f94e2ea8d4e9c031e",
+        "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg1_sl2_gh0.0001_go32000_coulomb_inner0.0005_outer640_log_h32.json": "86fb62070c708cf91879a848f755f28515e24f23babb658dcc108e30f5a3630e"
+      }
+    },
+    {
+      "ell": 4,
+      "m": 2,
+      "original_nodes": 96,
+      "extended_nodes": 104,
+      "original_cutoff": 320.0,
+      "extended_cutoff": 640.0,
+      "exact_inner_source_reuse": true,
+      "fluxes": {
+        "infinity": {
+          "original": 1.3930313508469023e-08,
+          "extended": 1.3930302950967268e-08,
+          "absolute_change": -1.0557501754796298e-14,
+          "relative_change": -7.578796951124289e-07
+        },
+        "horizon": {
+          "original": -6.402779467671701e-09,
+          "extended": -6.402779467671696e-09,
+          "absolute_change": 4.963083675318166e-24,
+          "relative_change": -7.771561172376096e-16
+        }
+      },
+      "field_relative_sup_change": 2.8225470187752907e-08,
+      "inputs": {
+        "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg1_sl4_gh0.0001_go32000_coulomb_inner0.0005_outer320_log_h32.json": "268aeb765f1dc2419cf4fd9352d8c0c191263c36a50f4b0fa8046f0810de2ef5",
+        "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg1_sl4_gh0.0001_go32000_coulomb_inner0.0005_outer640_log_h32.json": "fe50360d0ead2577ad2ac7c68004b82826c597552a5f0734dfc485f1664515dd"
+      }
+    },
+    {
+      "ell": 6,
+      "m": 2,
+      "original_nodes": 96,
+      "extended_nodes": 104,
+      "original_cutoff": 320.0,
+      "extended_cutoff": 640.0,
+      "exact_inner_source_reuse": true,
+      "fluxes": {
+        "infinity": {
+          "original": 1.0975045397788124e-13,
+          "extended": 1.0975077453651072e-13,
+          "absolute_change": 3.2055862948263433e-19,
+          "relative_change": 2.9207954761467647e-06
+        },
+        "horizon": {
+          "original": -2.7830506732958647e-11,
+          "extended": -2.7830506732958647e-11,
+          "absolute_change": 0.0,
+          "relative_change": 0.0
+        }
+      },
+      "field_relative_sup_change": 1.677033409581987e-09,
+      "inputs": {
+        "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg1_sl6_gh0.0001_go32000_coulomb_inner0.0005_outer320_log_h32.json": "3679c044dc7d23aba8a5ce64335399f5d6cdc6d3f84299487864b21209721d41",
+        "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg1_sl6_gh0.0001_go32000_coulomb_inner0.0005_outer640_log_h32.json": "b29759f6b202d1be706eb8894cba871f319ab79de88676e17c79f1ee2ffe76eb"
+      }
+    },
+    {
+      "ell": 8,
+      "m": 2,
+      "original_nodes": 96,
+      "extended_nodes": 104,
+      "original_cutoff": 320.0,
+      "extended_cutoff": 640.0,
+      "exact_inner_source_reuse": true,
+      "fluxes": {
+        "infinity": {
+          "original": 7.921887310963655e-20,
+          "extended": 7.921995458231001e-20,
+          "absolute_change": 1.0814726734604585e-24,
+          "relative_change": 1.3651704840134116e-05
+        },
+        "horizon": {
+          "original": -1.3841643499372632e-13,
+          "extended": -1.3841643499372632e-13,
+          "absolute_change": 0.0,
+          "relative_change": 0.0
+        }
+      },
+      "field_relative_sup_change": 2.2418289830121808e-11,
+      "inputs": {
+        "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg1_sl8_gh0.0001_go32000_coulomb_inner0.0005_outer320_log_h32.json": "06846fe2fbbd879f67c6d2640be1932510648e2fe1905aa57cee1e266f040fd3",
+        "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg1_sl8_gh0.0001_go32000_coulomb_inner0.0005_outer640_log_h32.json": "82a92820a23efd8215ebaa6963d19c4fd5a936206edae99a980520abad26f3af"
+      }
+    },
+    {
+      "ell": 10,
+      "m": 2,
+      "original_nodes": 96,
+      "extended_nodes": 104,
+      "original_cutoff": 320.0,
+      "extended_cutoff": 640.0,
+      "exact_inner_source_reuse": true,
+      "fluxes": {
+        "infinity": {
+          "original": 9.549421620418751e-27,
+          "extended": 9.549681428390103e-27,
+          "absolute_change": 2.5980797135181634e-31,
+          "relative_change": 2.7206670904167396e-05
+        },
+        "horizon": {
+          "original": -7.301419408166708e-16,
+          "extended": -7.301419408166708e-16,
+          "absolute_change": 0.0,
+          "relative_change": 0.0
+        }
+      },
+      "field_relative_sup_change": 2.2422498613688315e-13,
+      "inputs": {
+        "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg1_sl10_gh0.0001_go32000_coulomb_inner0.0005_outer320_log_h32.json": "76713b463b45362a673e10c6cf3abd4ac4693d1aac079267ef110263544ad94a",
+        "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg1_sl10_gh0.0001_go32000_coulomb_inner0.0005_outer640_log_h32.json": "512f9306c8b771f7eb0a4bb6505ef10fb7548fd9ad72598bc74d8d860cc0e96c"
+      }
+    },
+    {
+      "ell": 12,
+      "m": 2,
+      "original_nodes": 96,
+      "extended_nodes": 104,
+      "original_cutoff": 320.0,
+      "extended_cutoff": 640.0,
+      "exact_inner_source_reuse": true,
+      "fluxes": {
+        "infinity": {
+          "original": 2.7560892074420643e-34,
+          "extended": 2.756202780190502e-34,
+          "absolute_change": 1.1357274843787496e-38,
+          "relative_change": 4.120793627837571e-05
+        },
+        "horizon": {
+          "original": -3.502944381014651e-18,
+          "extended": -3.502944381014651e-18,
+          "absolute_change": 0.0,
+          "relative_change": 0.0
+        }
+      },
+      "field_relative_sup_change": 3.1421388596333426e-15,
+      "inputs": {
+        "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg1_sl12_gh0.0001_go32000_coulomb_inner0.0005_outer320_log_h32.json": "ba2862f11614e587e1fd1c899e4a4a9921a4710464ee59d8e1e1bfd064072fd7",
+        "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg1_sl12_gh0.0001_go32000_coulomb_inner0.0005_outer640_log_h32.json": "f006efc7e1a3552c6186646ddfe28e36131060d6cea93f732415b8f4aced1c9e"
+      }
+    }
+  ],
+  "field_metric": "max abs difference / max abs original field at listed radii",
+  "limitation": "No interpolation-order, metric-truncation, all-mode or paper-agreement claim."
+}
