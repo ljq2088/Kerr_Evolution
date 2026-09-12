@@ -1,0 +1,178 @@
+{
+  "status": "completed_analytic_kappa_comparison_not_converged",
+  "inputs": [
+    {
+      "file": "metric_tensor_matching_q18_smooth_m1_r10_a0.877153027595.json",
+      "sha256": "1e5383e957e61ef473f18ed41e9b6cde9fc1eac9d9535095c883f2f3e74095b2"
+    },
+    {
+      "file": "metric_tensor_matching_q18_smooth_m1_r10_a0.877153027595_analytickappa.json",
+      "sha256": "d162ddaf9bcfa55d23d0cf2eb8dc7eb0ce8f1d98339a94a1614d6e5c428dc066"
+    }
+  ],
+  "cases": [
+    {
+      "ellmax": 1,
+      "finite_difference_value_jump": 0.9174124634763334,
+      "analytic_value_jump": 0.9174122767535036,
+      "finite_difference_derivative_error": 1.5472863201405649,
+      "analytic_derivative_error": 1.547286361860674,
+      "maximum_value_jump_change": 1.8684608731306947e-07,
+      "maximum_derivative_jump_change": 4.177425184843699e-08
+    },
+    {
+      "ellmax": 2,
+      "finite_difference_value_jump": 0.3051010401469929,
+      "analytic_value_jump": 0.30510085342416104,
+      "finite_difference_derivative_error": 1.11543380118973,
+      "analytic_derivative_error": 1.1154338429098383,
+      "maximum_value_jump_change": 1.868460877567628e-07,
+      "maximum_derivative_jump_change": 4.1774252292535694e-08
+    },
+    {
+      "ellmax": 3,
+      "finite_difference_value_jump": 0.11722196121544926,
+      "analytic_value_jump": 0.11722177133450806,
+      "finite_difference_derivative_error": 0.05957767859434071,
+      "analytic_derivative_error": 0.05957771905494269,
+      "maximum_value_jump_change": 1.8989377596023583e-07,
+      "maximum_derivative_jump_change": 4.828514304098585e-08
+    },
+    {
+      "ellmax": 4,
+      "finite_difference_value_jump": 0.012136636304054704,
+      "analytic_value_jump": 0.012136446423113078,
+      "finite_difference_derivative_error": 0.007116033321634241,
+      "analytic_derivative_error": 0.007116073782235333,
+      "maximum_value_jump_change": 1.8989377729249464e-07,
+      "maximum_derivative_jump_change": 4.8285143929154864e-08
+    },
+    {
+      "ellmax": 5,
+      "finite_difference_value_jump": 0.0003495240860278379,
+      "analytic_value_jump": 0.00034933433722344895,
+      "finite_difference_derivative_error": 0.0001928568220030944,
+      "analytic_derivative_error": 0.0001928973886623042,
+      "maximum_value_jump_change": 1.8975247853391272e-07,
+      "maximum_derivative_jump_change": 4.832875826717647e-08
+    },
+    {
+      "ellmax": 6,
+      "finite_difference_value_jump": 2.827167171920961e-05,
+      "analytic_value_jump": 2.8081922966373696e-05,
+      "finite_difference_derivative_error": 1.7081955778969995e-05,
+      "analytic_derivative_error": 1.7122522437347764e-05,
+      "maximum_value_jump_change": 1.8975247720124966e-07,
+      "maximum_derivative_jump_change": 4.83287591553455e-08
+    },
+    {
+      "ellmax": 7,
+      "finite_difference_value_jump": 9.061325231027016e-07,
+      "analytic_value_jump": 7.164036270880055e-07,
+      "finite_difference_derivative_error": 3.697043159533515e-07,
+      "analytic_derivative_error": 4.102600279455782e-07,
+      "maximum_value_jump_change": 1.8973189025401268e-07,
+      "maximum_derivative_jump_change": 4.824145747078282e-08
+    },
+    {
+      "ellmax": 8,
+      "finite_difference_value_jump": 2.3423021265483858e-07,
+      "analytic_value_jump": 1.2699773298074405e-07,
+      "finite_difference_derivative_error": 4.097729002269008e-08,
+      "analytic_derivative_error": 8.437244684109433e-08,
+      "maximum_value_jump_change": 1.897318889213451e-07,
+      "maximum_derivative_jump_change": 4.824145835895182e-08
+    },
+    {
+      "ellmax": 9,
+      "finite_difference_value_jump": 1.0388866925097524e-06,
+      "analytic_value_jump": 1.0388921829996307e-06,
+      "finite_difference_derivative_error": 6.652543893934507e-07,
+      "analytic_derivative_error": 6.65253510448303e-07,
+      "maximum_value_jump_change": 1.897502496665628e-07,
+      "maximum_derivative_jump_change": 4.8225680924998474e-08
+    },
+    {
+      "ellmax": 10,
+      "finite_difference_value_jump": 1.0650238125236605e-06,
+      "analytic_value_jump": 1.0650347646849202e-06,
+      "finite_difference_derivative_error": 8.737199677636965e-07,
+      "analytic_derivative_error": 8.737620510794088e-07,
+      "maximum_value_jump_change": 1.8975025055473535e-07,
+      "maximum_derivative_jump_change": 4.8225681813167464e-08
+    },
+    {
+      "ellmax": 11,
+      "finite_difference_value_jump": 3.549497160706094e-06,
+      "analytic_value_jump": 3.570662652847887e-06,
+      "finite_difference_derivative_error": 3.396545962013103e-06,
+      "analytic_derivative_error": 3.395540399329513e-06,
+      "maximum_value_jump_change": 1.89751791535694e-07,
+      "maximum_derivative_jump_change": 4.822882948399512e-08
+    },
+    {
+      "ellmax": 12,
+      "finite_difference_value_jump": 5.257778083411294e-06,
+      "analytic_value_jump": 5.401608793539987e-06,
+      "finite_difference_derivative_error": 5.653431691449772e-06,
+      "analytic_derivative_error": 5.691374063835099e-06,
+      "maximum_value_jump_change": 1.8975179153609827e-07,
+      "maximum_derivative_jump_change": 4.8228828595826136e-08
+    },
+    {
+      "ellmax": 13,
+      "finite_difference_value_jump": 1.1913249741741165e-05,
+      "analytic_value_jump": 1.1913247959584922e-05,
+      "finite_difference_derivative_error": 5.372737298496571e-06,
+      "analytic_derivative_error": 5.412639011281912e-06,
+      "maximum_value_jump_change": 1.8978909566860885e-07,
+      "maximum_derivative_jump_change": 4.81329347685327e-08
+    },
+    {
+      "ellmax": 14,
+      "finite_difference_value_jump": 1.3362167627256436e-05,
+      "analytic_value_jump": 1.3362140343150565e-05,
+      "finite_difference_derivative_error": 5.697387070957595e-06,
+      "analytic_derivative_error": 5.697976094247269e-06,
+      "maximum_value_jump_change": 1.8978909611309932e-07,
+      "maximum_derivative_jump_change": 4.8132932992194797e-08
+    },
+    {
+      "ellmax": 15,
+      "finite_difference_value_jump": 9.725149872621e-06,
+      "analytic_value_jump": 9.725095154230023e-06,
+      "finite_difference_derivative_error": 3.8466188095740705e-05,
+      "analytic_derivative_error": 3.84637996592078e-05,
+      "maximum_value_jump_change": 1.8982890089750325e-07,
+      "maximum_derivative_jump_change": 4.781866952994603e-08
+    },
+    {
+      "ellmax": 16,
+      "finite_difference_value_jump": 7.439156248598422e-06,
+      "analytic_value_jump": 7.439138595256372e-06,
+      "finite_difference_derivative_error": 4.583216735874711e-05,
+      "analytic_derivative_error": 4.5858968410584695e-05,
+      "maximum_value_jump_change": 1.8982889912115817e-07,
+      "maximum_derivative_jump_change": 4.781866952994603e-08
+    },
+    {
+      "ellmax": 17,
+      "finite_difference_value_jump": 0.00015345654708336096,
+      "analytic_value_jump": 0.00015345654639358744,
+      "finite_difference_derivative_error": 0.00010740821203689175,
+      "analytic_derivative_error": 0.00010740836202766075,
+      "maximum_value_jump_change": 1.898332258532638e-07,
+      "maximum_derivative_jump_change": 4.7410849976325745e-08
+    },
+    {
+      "ellmax": 18,
+      "finite_difference_value_jump": 0.0001539863477027894,
+      "analytic_value_jump": 0.00015398636316841434,
+      "finite_difference_derivative_error": 0.00010825727942345297,
+      "analytic_derivative_error": 0.0001082574341041201,
+      "maximum_value_jump_change": 1.8983322674143634e-07,
+      "maximum_derivative_jump_change": 4.741084819997217e-08
+    }
+  ],
+  "limitation": "Only kappa backend changes. This is a projected metric matching diagnostic, not a flux comparison or global error bound."
+}

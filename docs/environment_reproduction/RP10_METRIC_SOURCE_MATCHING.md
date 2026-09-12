@@ -40,3 +40,21 @@ Radial/angular inputs remain double; this does not rule out input precision,
 parameter differencing or reconstruction errors. The separate analytic-kappa
 sequence is running and must be evaluated before attributing the discrepancy.
 Input hashes and all 18 paired rows: rp10_metric_matching_extended_audit.json.
+
+
+## Analytic kappa comparison completed
+
+The independent analytic auxiliary-mass derivative, including the retarded
+boundaries, source projector, Green amplitudes and eighth-order Taylor jets,
+was substituted for kappa only in a separate process. All 18 multipoles and
+physical/projection parameters match the original run. At L=18:
+
+- Value jump: 0.000153986363168 (original 0.000153986347703).
+- Derivative mismatch: 0.000108257434104 (original 0.000108257279423).
+- Maximum componentwise change in projected derivative jump: 4.74108482e-08.
+
+The high-L rise persists. Removing finite mass differencing in kappa does not
+remove this matching residual. This rules out that replacement as a sufficient
+fix for this diagnostic; it neither identifies the remaining source of error
+nor determines the scalar-flux effect. No production backend was changed.
+Full paired sequence and input hashes: rp10_metric_matching_analytic_kappa_audit.json.
