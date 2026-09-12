@@ -1,0 +1,11 @@
+{
+  "status": "completed_projected_matching_not_converged",
+  "input": "metric_tensor_matching_q18_smooth_m1_r10_a0.877153027595.json",
+  "input_sha256": "1e5383e957e61ef473f18ed41e9b6cde9fc1eac9d9535095c883f2f3e74095b2",
+  "completed_ellmax": 18,
+  "expected_derivative_maximum": 5.232365106800739,
+  "final_value_jump": 0.0001539863477027894,
+  "final_derivative_error": 0.00010825727942345297,
+  "final_derivative_error_over_target_max": 2.068993222257104e-05,
+  "limitation": "Two smooth test functions and ten components. Nonmonotone high-ell residuals; no global metric or scalar-flux error bound."
+}

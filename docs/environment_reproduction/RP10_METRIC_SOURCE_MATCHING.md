@@ -15,3 +15,12 @@ The factor 8 includes the Fourier delta normalization. The target is computed fr
 Command: src/report_metric_tensor_matching.py --quadrature 18 --ellmax 18 --m 1 --r0 10 --a .8771530275949366 --smooth.
 
 Log: outputs/metric_matching_r10_m1_L18_q18.log. Partial cases are saved after each reconstructed degree in metric_tensor_matching_q18_smooth_m1_r10_a0.877153027595.json. The run must be confirmed terminal with all eighteen cases before reporting its final outcome. No reconstruction coefficient is adjusted to fit the jump, and no existing flux file is changed.
+
+
+## Completed double-arithmetic sequence
+
+The process completed all eighteen degrees. At cutoff 18 the maximum extrapolated continuity residual is 1.539863477028e-04, and the derivative-jump error is 1.082572794235e-04. The largest expected derivative-jump component is 5.232365106801e+00, giving a ratio 2.068993222257e-05 to that overall target scale. This is not a per-component relative bound or a scalar-flux error bound.
+
+Both diagnostics improve through cutoff 8 (continuity 2.3423e-7, derivative error 4.0977e-8), then rise. The complete sequence and fingerprint are saved in rp10_metric_matching_L18_audit.json and rp10_metric_matching_L18_sequence.png; the plot was visually checked. The high-cutoff rise prevents a convergence claim.
+
+An otherwise identical --extended-jet run has started. It changes Taylor coefficient arithmetic to numpy.clongdouble, while radial and angular input data remain double precision. This is a diagnostic of arithmetic sensitivity, not a fully high-precision reconstruction. Log: outputs/metric_matching_r10_m1_L18_q18_extended.log. Original flux data and the production reconstruction are unchanged.
