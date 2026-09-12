@@ -17,3 +17,14 @@ This specifically tests the dominant r10 scalar00 horizon contribution.
 A previous r20/mg5 dense comparison cannot establish the effect on this mode.
 No flux result or agreement with the paper is claimed yet. Log:
 outputs/rp10_mg1_h64_denseangular.log.
+
+
+The comparison entry point src/report_backend_batch_comparison.py accepts
+matching completed default/dense batches, including bound modes with zero
+infinity flux. It checks all response parameters after removing only the
+angular-backend identifier, identical radial nodes/weights, finite sources,
+batch/response flux consistency, and amplitude-squared flux changes.
+Its propagating path was regressed against the four completed r20/mg5
+channels in dense_mg5_full_flux_comparison.json; relative flux changes agree
+within 1e-14. The new incomplete r10 batch is correctly rejected. The bound
+path still awaits the completed r10 data; no bound-mode comparison is claimed.
