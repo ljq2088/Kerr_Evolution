@@ -40,3 +40,19 @@ These tests support angular basis convergence for these functions at the tested
 parameters. They do not bound cancellation amplification through metric
 reconstruction, radial errors or environmental fluxes. The full dense-angular
 matching sequence remains a separate running calculation.
+
+
+## Complete dense-angular matching sequence
+
+The q18 L1..18 calculation with analytic kappa and dense angular functions
+has completed. Physical, projection and Taylor parameters match the preceding
+analytic-kappa run; only the angular backend changes. At L18, the value jump
+is 6.3638530857e-06, compared with 0.000153986363168;
+the derivative mismatch is 1.76897217777e-05, compared with
+0.000108257434104. Ratios dense/default are
+0.0413273809 and 0.163404222.
+
+The paired sequence and input hashes are in rp10_metric_matching_dense_angular_audit.json.
+These are projected metric residuals; no inference about scalar-flux changes
+is justified without recomputing the source. Nonzero high-order residuals still
+require quadrature, arithmetic and radial-input checks. Production remains unchanged.
