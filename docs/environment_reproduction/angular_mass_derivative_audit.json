@@ -1,0 +1,45 @@
+{
+  "status": "angular_derivative_only_not_variational_metric_validation",
+  "a": 0.8771530275949366,
+  "omega": 0.03076929739254309,
+  "finite_difference_step": 0.01,
+  "rows": [
+    {
+      "ell": 1,
+      "m": 1,
+      "maximum_absolute_difference": {
+        "S_mass": 2.085831507514513e-14,
+        "S_theta_mass": 1.7289555204191842e-14,
+        "A_mass": 9.769962616701378e-15
+      }
+    },
+    {
+      "ell": 18,
+      "m": 1,
+      "maximum_absolute_difference": {
+        "S_mass": 6.468155004657472e-14,
+        "S_theta_mass": 1.9082894986421906e-12,
+        "A_mass": 3.378519686236814e-12
+      }
+    },
+    {
+      "ell": 24,
+      "m": 2,
+      "maximum_absolute_difference": {
+        "S_mass": 1.445939722122258e-13,
+        "S_theta_mass": 1.5068744863011574e-12,
+        "A_mass": 1.4874712572776616e-11
+      }
+    },
+    {
+      "ell": 18,
+      "m": -1,
+      "maximum_absolute_difference": {
+        "S_mass": 6.468155004657472e-14,
+        "S_theta_mass": 1.9082894986421906e-12,
+        "A_mass": 3.378519686236814e-12
+      }
+    }
+  ],
+  "production_changed": false
+}
