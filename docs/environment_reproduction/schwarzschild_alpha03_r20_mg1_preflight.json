@@ -1,0 +1,56 @@
+{
+  "status": "boundary_preflight_not_convergence",
+  "alpha": 0.3,
+  "r0": 20,
+  "a": 0,
+  "freeze_decay": true,
+  "omega": 0.296192346399001,
+  "spectral_omega": [
+    0.296192346399001,
+    -9.455651671983593e-06
+  ],
+  "cases": [
+    {
+      "ell": 2,
+      "m": 2,
+      "omega": 0.30737268628649994,
+      "propagating": true,
+      "series_last_term_relative": 5.428418932900463e-10
+    },
+    {
+      "ell": 4,
+      "m": 2,
+      "omega": 0.30737268628649994,
+      "propagating": true,
+      "series_last_term_relative": 5.3046640944457186e-09
+    },
+    {
+      "ell": 6,
+      "m": 2,
+      "omega": 0.30737268628649994,
+      "propagating": true,
+      "series_last_term_relative": 2.61202876476263e-07
+    },
+    {
+      "ell": 0,
+      "m": 0,
+      "omega": 0.28501200651150205,
+      "propagating": false,
+      "series_last_term_relative": 1.778755661812873e-14
+    },
+    {
+      "ell": 2,
+      "m": 0,
+      "omega": 0.28501200651150205,
+      "propagating": false,
+      "series_last_term_relative": 3.9966288787420263e-13
+    },
+    {
+      "ell": 4,
+      "m": 0,
+      "omega": 0.28501200651150205,
+      "propagating": false,
+      "series_last_term_relative": 7.480716816581768e-11
+    }
+  ]
+}
