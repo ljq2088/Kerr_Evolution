@@ -1,0 +1,160 @@
+{
+  "status": "static_same_source_boundary_check_not_full_convergence",
+  "rows": [
+    {
+      "ell": 3,
+      "m": 1,
+      "outer_boundaries": [
+        4000.0,
+        8000.0
+      ],
+      "inputs": {
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg0_sl3_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "dd875cbb6aa071aef1a1c2a71889cf9c3ad43f5495d1416c3a7786186e0e106b",
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg0_sl3_gh0.0001_go8000_inner0.0005_outer320_log_h32.json": "4b62388a96eac2044f28effeb92d9f9566309246282ee747890374f6395def2c"
+      },
+      "identical_source_samples": 96,
+      "common_field_radii": [
+        1.4803109600800843,
+        1.4807109600800843,
+        3.0,
+        6.0,
+        12.0,
+        20.0,
+        40.0,
+        41.8,
+        80.0,
+        160.0,
+        320.0
+      ],
+      "particle_field_relative_change": 2.550010630030509e-12,
+      "horizon_amplitude_relative_change": 6.906494441224269e-12,
+      "maximum_absolute_field_change": 3.1468968056391766e-15,
+      "max_field_change_over_max_field": 4.193328624312698e-12
+    },
+    {
+      "ell": 5,
+      "m": 1,
+      "outer_boundaries": [
+        4000.0,
+        8000.0
+      ],
+      "inputs": {
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg0_sl5_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "7d7ce29acb668811730caff56f7f84bcebe842a2e3be3e2bbcaea0ffdf66d3fc",
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg0_sl5_gh0.0001_go8000_inner0.0005_outer320_log_h32.json": "d8e58153c99d033dc037bd08a832be0b9d432e1cb9fbc0843f1b3bfd7b397d3e"
+      },
+      "identical_source_samples": 96,
+      "common_field_radii": [
+        1.4803109600800843,
+        1.4807109600800843,
+        3.0,
+        6.0,
+        12.0,
+        20.0,
+        40.0,
+        41.8,
+        80.0,
+        160.0,
+        320.0
+      ],
+      "particle_field_relative_change": 2.327806186918137e-11,
+      "horizon_amplitude_relative_change": 2.4154006578183995e-11,
+      "maximum_absolute_field_change": 3.458957295934817e-15,
+      "max_field_change_over_max_field": 2.327806186918137e-11
+    },
+    {
+      "ell": 7,
+      "m": 1,
+      "outer_boundaries": [
+        4000.0,
+        8000.0
+      ],
+      "inputs": {
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg0_sl7_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "7bb6e24febbb004614c8bb5ae528ab1f46daa09228c624463d34e3d0c10fc1ae",
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg0_sl7_gh0.0001_go8000_inner0.0005_outer320_log_h32.json": "0d3da39830a384cd630ed2750603be71fbd0a05c87540132ac39b2fbac9209ed"
+      },
+      "identical_source_samples": 96,
+      "common_field_radii": [
+        1.4803109600800843,
+        1.4807109600800843,
+        3.0,
+        6.0,
+        12.0,
+        20.0,
+        40.0,
+        41.8,
+        80.0,
+        160.0,
+        320.0
+      ],
+      "particle_field_relative_change": 1.9324254470504868e-10,
+      "horizon_amplitude_relative_change": 1.88666020615338e-10,
+      "maximum_absolute_field_change": 1.0423363832213345e-14,
+      "max_field_change_over_max_field": 1.9324254470504868e-10
+    },
+    {
+      "ell": 9,
+      "m": 1,
+      "outer_boundaries": [
+        4000.0,
+        8000.0
+      ],
+      "inputs": {
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg0_sl9_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "2acb075a7778548ed31433aae59500c52fad3693803d8a08d279853b4b225f26",
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg0_sl9_gh0.0001_go8000_inner0.0005_outer320_log_h32.json": "3b6258a8b83862aae5c7a5a495939cb9d9ae05f80e7c5168d1a78eac38e398a0"
+      },
+      "identical_source_samples": 96,
+      "common_field_radii": [
+        1.4803109600800843,
+        1.4807109600800843,
+        3.0,
+        6.0,
+        12.0,
+        20.0,
+        40.0,
+        41.8,
+        80.0,
+        160.0,
+        320.0
+      ],
+      "particle_field_relative_change": 2.449838897763895e-11,
+      "horizon_amplitude_relative_change": 1.705784860076805e-11,
+      "maximum_absolute_field_change": 6.270483264569915e-16,
+      "max_field_change_over_max_field": 2.449838897763895e-11
+    },
+    {
+      "ell": 11,
+      "m": 1,
+      "outer_boundaries": [
+        4000.0,
+        8000.0
+      ],
+      "inputs": {
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg0_sl11_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "459000a7679ac2d8db5bd37e9ae80b648e308469ecf0e117371a83bbf422aee3",
+        "forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg0_sl11_gh0.0001_go8000_inner0.0005_outer320_log_h32.json": "92abde4aa5aa5c0d296406a9dcdcbfc67895e13a715fe5ca1340d04115c0422f"
+      },
+      "identical_source_samples": 96,
+      "common_field_radii": [
+        1.4803109600800843,
+        1.4807109600800843,
+        3.0,
+        6.0,
+        12.0,
+        20.0,
+        40.0,
+        41.8,
+        80.0,
+        160.0,
+        320.0
+      ],
+      "particle_field_relative_change": 4.492103768550202e-12,
+      "horizon_amplitude_relative_change": 6.515263719782485e-12,
+      "maximum_absolute_field_change": 6.359184554806385e-17,
+      "max_field_change_over_max_field": 4.492103768550202e-12
+    }
+  ],
+  "limitations": [
+    "Physical fields compared; arbitrary bound Up normalization is not compared",
+    "Only sampled common radii checked; not a uniform continuum error bound",
+    "Source discretization, static matching and metric cutoff remain fixed"
+  ]
+}

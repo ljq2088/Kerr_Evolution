@@ -1,0 +1,15 @@
+{
+  "status": "completed_static_field_boundary_pair_not_full_convergence",
+  "inputs": [
+    {
+      "file": "scalar_batch_mg0_8c7393e9c55b.json",
+      "sha256": "c9d3231340d398d8231e994d51b5a904da643c1b68b7d0202d0b099030a5a019"
+    },
+    {
+      "file": "scalar_batch_mg0_933cf7994853.json",
+      "sha256": "3bded5a1b5b580d0c47f454b53b3c336b5db0381ff1d9090a8477c7c8f952cb2"
+    }
+  ],
+  "maximum_sampled_field_relative_change": 1.9324254470504868e-10,
+  "maximum_horizon_amplitude_relative_change": 1.88666020615338e-10
+}
