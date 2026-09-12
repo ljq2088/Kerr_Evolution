@@ -28,3 +28,19 @@ Its propagating path was regressed against the four completed r20/mg5
 channels in dense_mg5_full_flux_comparison.json; relative flux changes agree
 within 1e-14. The new incomplete r10 batch is correctly rejected. The bound
 path still awaits the completed r10 data; no bound-mode comparison is claimed.
+
+
+The new report_backend_panel_comparison.py first applies the strict batch
+comparison, then differences saved cumulative Green integrals across each
+source panel. It checks complete matching panel edges, finite amplitudes,
+endpoint agreement with the saved response, and recovery of the total
+backend-induced amplitude change. It reports the largest contributing radial
+interval and |sum(delta Z_panel)|/sum(|delta Z_panel|). This is attribution
+of a discrete difference, not a continuum error or a physical explanation.
+
+The four previously completed r20/mg5 direct channels pass this check in
+dense_mg5_radial_panel_comparison.json. The baseline batch was explicitly
+restricted to those direct channels (including its conjugate_ells parameter);
+the original batch hash and selection are retained. The unmodified full
+baseline was correctly rejected because it includes extra conjugate channels.
+No r10 panel attribution is claimed until its full batch completes.
