@@ -1,0 +1,54 @@
+{
+  "status": "sector_attribution_not_error_estimate",
+  "full_report": "docs/environment_reproduction/figure5_threshold_wakes.json",
+  "sha256": "131ed94c027fc4b82a274b708156b44d42ca79d9001d5fe239e2ec373839cf53",
+  "rows": [
+    {
+      "orbit": 41.6,
+      "sectors": {
+        "full": {
+          "maximum": 0.3448598217022998,
+          "maximum_r": 1.5430278953672374,
+          "maximum_phi": 2.675262494072558,
+          "rms": 0.12314048796544977
+        },
+        "static_m1": {
+          "maximum": 0.011880733904041036,
+          "maximum_r": 41.26925609485398,
+          "maximum_phi": -3.0188741905589422,
+          "rms": 0.00408500276403676
+        },
+        "nonstatic": {
+          "maximum": 0.34483142444073556,
+          "maximum_r": 1.5430278953672374,
+          "maximum_phi": 2.675262494072558,
+          "rms": 0.12307271236462977
+        }
+      }
+    },
+    {
+      "orbit": 41.8,
+      "sectors": {
+        "full": {
+          "maximum": 0.34664805016022937,
+          "maximum_r": 1.5430278953672374,
+          "maximum_phi": 2.675262494072558,
+          "rms": 0.11403233350272562
+        },
+        "static_m1": {
+          "maximum": 0.01186110535878456,
+          "maximum_r": 41.26925609485398,
+          "maximum_phi": -2.9894217594315373,
+          "rms": 0.0040776877629874935
+        },
+        "nonstatic": {
+          "maximum": 0.3466197823932988,
+          "maximum_r": 1.5430278953672374,
+          "maximum_phi": 2.675262494072558,
+          "rms": 0.11395940306347878
+        }
+      }
+    }
+  ],
+  "limitation": "Nonstatic field is the complex full field minus the static field, before taking absolute values. Static terms are retained in the physical result. RMS uses plotting cells, not a physical volume measure."
+}
