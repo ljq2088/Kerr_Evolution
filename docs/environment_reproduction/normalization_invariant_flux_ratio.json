@@ -1,0 +1,27 @@
+{
+  "status": "normalization_invariant_diagnostic_not_source_validation",
+  "input": "figure2_three_orbit_comparison.json",
+  "input_sha256": "30ef9b10185960155990ee9bd0213dce5b134aac90c33682f98eabfa3b20c2dc",
+  "rows": [
+    {
+      "rp": 10,
+      "computed_horizon_to_infinity_magnitude": 8.67106116954342,
+      "paper_horizon_to_infinity_magnitude": 6.445815377107358,
+      "relative_ratio_difference": 0.3452233212169147
+    },
+    {
+      "rp": 20,
+      "computed_horizon_to_infinity_magnitude": 3.5744986575164086,
+      "paper_horizon_to_infinity_magnitude": 2.8305307179686485,
+      "relative_ratio_difference": 0.26283690716547814
+    },
+    {
+      "rp": 30,
+      "computed_horizon_to_infinity_magnitude": 0.5270499295507622,
+      "paper_horizon_to_infinity_magnitude": 0.419945233685078,
+      "relative_ratio_difference": 0.25504443740395755
+    }
+  ],
+  "scaling_applied": false,
+  "limitation": "Uses finite channel ranges and digitized paper magnitudes without formal readout error bounds. Does not identify the reconstruction, gauge, source or reference discrepancy."
+}
