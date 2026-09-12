@@ -1,0 +1,16 @@
+{
+  "source": "arXiv:2501.09806v1 source archive, Figures/ResonanceBosonEMRIsFieldPlot.pdf",
+  "pdf_sha256": "22612b95f3467901352abf129d37cc2f6819c48d70ce3415c2429b53fc241aea",
+  "inspection": "Rendered original PDF; axes have ticks at -180,-90,0,90,180 and extend approximately to +/-225.",
+  "planes": [
+    "equatorial",
+    "equatorial"
+  ],
+  "orbital_radii": [
+    41.6,
+    41.8
+  ],
+  "common_color_scale": true,
+  "coordinate_mapping_confirmed": false,
+  "quantitative_pixel_comparison_completed": false
+}
