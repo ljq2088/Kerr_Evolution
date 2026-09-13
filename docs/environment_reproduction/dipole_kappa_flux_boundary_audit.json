@@ -1,0 +1,83 @@
+{
+  "status": "isolated_kappa_boundary_flux_audit_not_full_convergence",
+  "input": "forced_mode_nr8_nt18_L1_mg-1_sl0_inner0.0005_outer320_log_h32.json",
+  "sha256": "34e589bfe6316d0f75163b83422f86326d6f785354e23a01f82c5da7cf165199",
+  "baseline_amplitude_reproduction": 9.539283692045292e-17,
+  "parameters": {
+    "alpha": 0.3,
+    "cloud_mass": 1.0,
+    "metric": {
+      "status": "development_not_production_validated",
+      "coordinates": "Boyer-Lindquist",
+      "field": "covariant h_ab; particle mass stripped",
+      "m_g": -1,
+      "ellmax": 1,
+      "orbital_radius": 20.0,
+      "a": 0.8771530275949366,
+      "static_and_low_modes_included": false,
+      "kappa_mass_squared_step": 1.2258388238672426e-06,
+      "maxwell_chiralities": "both; full complex compact current",
+      "nonstatic_dipole_included": true
+    },
+    "scalar_ell": 0,
+    "scalar_m": 0,
+    "omega": 0.2852214878976851,
+    "radial_order": 8,
+    "angular_order": 18,
+    "source_panels": [
+      1.4807109600800843,
+      3.0,
+      6.0,
+      12.0,
+      20.0,
+      40.0,
+      80.0,
+      160.0,
+      320.0
+    ],
+    "green_outer_radius": 1000.0,
+    "green_horizon_offset": 0.0001,
+    "horizon_log_first_panel": true,
+    "horizon_quadrature_order": 32
+  },
+  "rows": [
+    {
+      "analytic_kappa_outer": 2000.0,
+      "delta_z_h": [
+        8.070785874195011e-11,
+        -1.5253104901307183e-12
+      ],
+      "relative_complex_amplitude_change": 1.3379830231536929e-09,
+      "relative_horizon_flux_change": -2.24731921960597e-09,
+      "horizon_orbital_energy": -6.805625863459314e-05,
+      "maximum_absolute_projected_source_change": 3.385696556145965e-10
+    },
+    {
+      "analytic_kappa_outer": 4000.0,
+      "delta_z_h": [
+        8.064655079239949e-11,
+        -1.4999173236264581e-12
+      ],
+      "relative_complex_amplitude_change": 1.3369591238533534e-09,
+      "relative_horizon_flux_change": -2.245163166492148e-09,
+      "horizon_orbital_energy": -6.805625863473987e-05,
+      "maximum_absolute_projected_source_change": 3.384639664693337e-10
+    },
+    {
+      "analytic_kappa_outer": 8000.0,
+      "delta_z_h": [
+        8.065171972074413e-11,
+        -1.495034817958774e-12
+      ],
+      "relative_complex_amplitude_change": 1.3370432824052442e-09,
+      "relative_horizon_flux_change": -2.2452151249297003e-09,
+      "horizon_orbital_energy": -6.805625863473635e-05,
+      "maximum_absolute_projected_source_change": 3.38482324618315e-10
+    }
+  ],
+  "limitations": [
+    "Only dipole kappa changes; all other sectors held fixed",
+    "Angular order 18 and original source cutoffs/quadrature held fixed",
+    "Analytic 2000 row separates derivative implementation from boundary changes"
+  ]
+}
