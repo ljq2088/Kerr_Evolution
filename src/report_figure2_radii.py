@@ -1,4 +1,4 @@
-"""Read selected radii from the original alpha=.3 Kerr flux curves in Fig.2."""
+"""Read selected radii from the original alpha=.3 Kerr or Schwarzschild flux curves in Fig.2."""
 import argparse
 from bisect import bisect_right
 import hashlib
@@ -12,7 +12,9 @@ def main():
     parser.add_argument('pdf',type=Path)
     parser.add_argument('output',type=Path)
     parser.add_argument('--radii',type=float,nargs='+',default=[10.,20.,30.])
+    parser.add_argument('--background',choices=('kerr','schwarzschild'),default='kerr')
     args=parser.parse_args()
+    color={'kerr':(.88072,.61104,.14205),'schwarzschild':(.36841,.50677,.70979)}[args.background]
     with pdfplumber.open(args.pdf) as document:
         page=document.pages[0]
         xgrid=sorted(l['x0'] for l in page.lines if l['x0']>230 and l['height']>120
@@ -20,7 +22,7 @@ def main():
         ygrid=sorted(l['top'] for l in page.lines if l['x0']>230 and l['width']>180
                      and l['height']==0 and l['stroking_color']==.75)
         curves=[c for c in page.curves if c['x0']>230 and len(c['pts'])==200
-                and c['stroking_color']==(.88072,.61104,.14205)]
+                and c['stroking_color']==color]
     if len(xgrid)!=5 or len(ygrid)!=4 or len(curves)!=2:
         raise ValueError('Unexpected original Fig.2 vector structure')
     dx=(xgrid[-1]-xgrid[0])/4;dy=(ygrid[-1]-ygrid[0])/3
@@ -43,7 +45,7 @@ def main():
             flux[branch]=dict(pdf_top=y,plotted_flux=value,
                 per_q2_cloud_mass=value*.3**6,bracketing_pdf_points=[points[i-1],points[i]])
         rows.append(dict(rp=radius,pdf_x=x,flux=flux))
-    report=dict(status='digitized_reference_not_author_numerical_data',alpha=.3,
+    report=dict(status='digitized_reference_not_author_numerical_data',alpha=.3,background=args.background,
         source='https://arxiv.org/src/2501.09806v1',sha256=hashlib.sha256(args.pdf.read_bytes()).hexdigest(),
         xgrid=xgrid,xgrid_radii=[10,20,30,40,50],ygrid=ygrid,
         ygrid_fluxes=[.1,.01,.001,.0001],rows=rows,

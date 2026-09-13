@@ -1,0 +1,129 @@
+{
+  "status": "finite_totals_vs_digitized_paper_not_convergence",
+  "alpha": 0.3,
+  "rp": 20,
+  "rows": [
+    {
+      "background": "schwarzschild",
+      "boundary": "infinity",
+      "signed_computed_per_q2_eta": 2.2940488565129742e-05,
+      "paper_magnitude_per_q2_eta": 2.300530899051696e-05,
+      "computed_magnitude_per_q2_epsilon2": 0.031468434245719816,
+      "paper_magnitude_per_q2_epsilon2": 0.03155735115297252,
+      "relative_magnitude_difference_percent": -0.28176289835506463,
+      "interpolation_method_sensitivity_percent": 0.0028833188675525534
+    },
+    {
+      "background": "schwarzschild",
+      "boundary": "horizon",
+      "signed_computed_per_q2_eta": -0.00012766876196991782,
+      "paper_magnitude_per_q2_eta": 0.00012820590908982991,
+      "computed_magnitude_per_q2_epsilon2": 0.17512861724268566,
+      "paper_magnitude_per_q2_epsilon2": 0.17586544456766798,
+      "relative_magnitude_difference_percent": -0.4189722016133657,
+      "interpolation_method_sensitivity_percent": 0.0032754819576208405
+    },
+    {
+      "background": "kerr",
+      "boundary": "infinity",
+      "signed_computed_per_q2_eta": 1.9210336966212184e-05,
+      "paper_magnitude_per_q2_eta": 1.8287649394749014e-05,
+      "computed_magnitude_per_q2_epsilon2": 0.026351628211539354,
+      "paper_magnitude_per_q2_epsilon2": 0.02508593881309879,
+      "relative_magnitude_difference_percent": 5.045413719097791,
+      "interpolation_method_sensitivity_percent": 0.003002312515310024
+    },
+    {
+      "background": "kerr",
+      "boundary": "horizon",
+      "signed_computed_per_q2_eta": -6.866732369763173e-05,
+      "paper_magnitude_per_q2_eta": 5.176375337127784e-05,
+      "computed_magnitude_per_q2_epsilon2": 0.09419385966753326,
+      "paper_magnitude_per_q2_epsilon2": 0.0710065203995581,
+      "relative_magnitude_difference_percent": 32.65522537578036,
+      "interpolation_method_sensitivity_percent": 0.009117503050015685
+    }
+  ],
+  "normalization_invariant_ratios": [
+    {
+      "background": "schwarzschild",
+      "computed_horizon_over_infinity": 5.565215475139371,
+      "paper_horizon_over_infinity": 5.572883595811636,
+      "relative_difference_percent": -0.13759700055511193
+    },
+    {
+      "background": "kerr",
+      "computed_horizon_over_infinity": 3.574498657592849,
+      "paper_horizon_over_infinity": 2.8305307179686485,
+      "relative_difference_percent": 26.283690719248387
+    }
+  ],
+  "inputs": [
+    {
+      "background": "schwarzschild",
+      "coverage": "flux_coverage_L18_nt18_i6_h5_f5_schwarzschild_frozen.json",
+      "reference": "figure2_schwarzschild_r20_reference.json",
+      "coverage_sha256": "1b22b54e96cd2abde82fe22b1539dee4f000d0e2b3cf944610b0b71d2cdfd787",
+      "reference_sha256": "b90f57b0c91a88a8a8fab908ae7213eb41b71890730be91d2c4764897a5f763f",
+      "response_sha256": {
+        "forced_mode_nr8_nt18_L18_schwarzschild_frozen_mg1_sl2_inner0.0005_outer320_log_h32.json": "919e7fa441858277c2d72f3860c674705f1160025c85ede3cedee5a85d10c815",
+        "forced_mode_nr8_nt18_L18_schwarzschild_frozen_inner0.0005_outer320_log_h32.json": "f2bf89724a8ea33926af4e45df2cebccbcb6993e955804c163fcb16321284b27",
+        "forced_mode_nr8_nt18_L18_schwarzschild_frozen_mg1_sl4_inner0.0005_outer320_log_h32.json": "baff2259b4ad040e4b402239344badc0b36a7542db9c9613e8f6d38e884fccaa",
+        "forced_mode_nr8_nt18_L18_schwarzschild_frozen_mg3_sl4_inner0.0005_outer320_log_h32.json": "40ca4dc534768aa811560fc70f20cc9a50e06f8d9f377fa5b3bf90ce6ac2940d",
+        "forced_mode_nr8_nt18_L18_schwarzschild_frozen_mg2_sl5_inner0.0005_outer320_log_h32.json": "e09986ce3223bff57215f783b895bbfc13a86ac7851ee178b928d02a778d141f",
+        "forced_mode_nr8_nt18_L18_schwarzschild_frozen_mg4_sl5_inner0.0005_outer320_log_h32.json": "87aade8f01c33d0ebd42bae662ff6f60399e82b9fc7f76aa42c14ada337b1e37",
+        "forced_mode_nr8_nt18_L18_schwarzschild_frozen_mg1_sl6_inner0.0005_outer320_log_h32.json": "ac933ee5aebc214447ea68eb13e90bbf3d6db1fa27c30ed2975ec5dc425ac05d",
+        "forced_mode_nr8_nt18_L18_schwarzschild_frozen_mg3_sl6_inner0.0005_outer320_log_h32.json": "84f32e4eee0783d739fcdd524cf9df1f8923a0f04ee317b3d62b4ab106148928",
+        "forced_mode_nr8_nt18_L18_schwarzschild_frozen_mg5_sl6_inner0.0005_outer320_log_h32.json": "4c85a65e83e5f4f4a97e82f31cc8766c1faf87db01440ab042866723bb284bb5",
+        "forced_mode_nr8_nt18_L18_schwarzschild_frozen_mg-1_sl0_inner0.0005_outer320_log_h32.json": "1e80e062e64e5335a62b7677b65cbab351a07f3aa7b2fc7507449891d2f92650",
+        "forced_mode_nr8_nt18_L18_schwarzschild_frozen_mg-2_sl1_inner0.0005_outer320_log_h32.json": "d616a1aa181bca6edc0b32c8efe892f103332a17163ff3a268e8861e1c24008e",
+        "forced_mode_nr8_nt18_L18_schwarzschild_frozen_mg-3_sl2_inner0.0005_outer320_log_h32.json": "52b24149a3e363580c6c1e5d5834ecdfbba4798fc52d5928d03b3748bb701039",
+        "forced_mode_nr8_nt18_L18_schwarzschild_frozen_mg-1_sl2_inner0.0005_outer320_log_h32.json": "34bf9bad95be4d7e20721b2a7eae85067b63141469efc3745ed3f2109c23b23f",
+        "forced_mode_nr8_nt18_L18_schwarzschild_frozen_mg-4_sl3_inner0.0005_outer320_log_h32.json": "6883e43276fa270b1656bda1b793365d3fafb94a5acebd6e64759a3acfda7c32",
+        "forced_mode_nr8_nt18_L18_schwarzschild_frozen_mg-2_sl3_inner0.0005_outer320_log_h32.json": "c57c92ebfde7fb08cde71241501163c48bcbabf25e7d80c9467c2ec259b56321",
+        "forced_mode_nr8_nt18_L18_schwarzschild_frozen_mg-5_sl4_inner0.0005_outer320_log_h32.json": "ca6ea8b2bb6feccc4f0bd09995dbff9336d48623fe3acdcefe271aa0c8aaaa31",
+        "forced_mode_nr8_nt18_L18_schwarzschild_frozen_mg-3_sl4_inner0.0005_outer320_log_h32.json": "ba8d54619198d44511d4e083688bb71d089f9fde713c65a52e9f5ca3b710699c",
+        "forced_mode_nr8_nt18_L18_schwarzschild_frozen_mg-1_sl4_inner0.0005_outer320_log_h32.json": "69a4db90f0f5dae20289cfe67953e583446c94e40093c97b99431d352d0b6a99",
+        "forced_mode_nr8_nt18_L18_schwarzschild_frozen_mg-6_sl5_inner0.0005_outer320_log_h32.json": "347b50b744748171280c97e290671a846c98ea8657434510c9e869795e652ff1",
+        "forced_mode_nr8_nt18_L18_schwarzschild_frozen_mg-4_sl5_inner0.0005_outer320_log_h32.json": "cb2a88c37ce3720c53720e8987970844acedecc9d796f4365022f4fa031b6e55",
+        "forced_mode_nr8_nt18_L18_schwarzschild_frozen_mg-2_sl5_inner0.0005_outer320_log_h32.json": "bffb2e5479c2d0467aa652131f6acd2d1b57ebec2f02bbdfdf09a925e5b28254"
+      }
+    },
+    {
+      "background": "kerr",
+      "coverage": "flux_coverage_L18_nt18_i6_h5_f5.json",
+      "reference": "figure2_kerr_r20_reference.json",
+      "coverage_sha256": "94da7a50218e90d2b0b21345f42e5a44ade1ae042e2ecf5fdf3f521f9669ef2c",
+      "reference_sha256": "10730bf2f2f4ed668bc904710ef442ebc9b65b82079815115aa4db903dfad779",
+      "response_sha256": {
+        "forced_mode_nr8_nt18_L18_mg1_sl2_inner0.0005_outer320_log_h32.json": "506b02c1a67c1572fe0a3a73d862d71afc7b949025a9327f6290df03d7c1c05c",
+        "forced_mode_nr8_nt18_L18_inner0.0005_outer320_log_h32.json": "d5549cee14d7434185cb044b5f15c18d3add7daacd8271ab5f8bc40f3dcd2736",
+        "forced_mode_nr8_nt18_L18_mg1_sl4_inner0.0005_outer320_log_h32.json": "8085c9e3ab577bb928380411964cf5ad8437d37a0563a3df7e96cae9c252e658",
+        "forced_mode_nr8_nt18_L18_mg3_sl4_inner0.0005_outer320_log_h32.json": "1f9dfd94b0e9cd0a0139fdbb7221a7b790923dc71fae39b31ba31955bd991065",
+        "forced_mode_nr8_nt18_L18_mg2_sl5_inner0.0005_outer320_log_h32.json": "1925fbd05a140f4e0fe3c3b294cda08b9f38ddcd2b9f74a56a01eb3c6b5b3088",
+        "forced_mode_nr8_nt18_L18_mg4_sl5_inner0.0005_outer320_log_h32.json": "f4bfa2d133178247906193d93a92c9fbe8371fdab0ec4da2e0693f31c6c76265",
+        "forced_mode_nr8_nt18_L18_mg1_sl6_inner0.0005_outer320_log_h32.json": "bbcd002280b2ebfe6da29de19957018bf71c9aac6857d0fccd7fb6c868d2ec3f",
+        "forced_mode_nr8_nt18_L18_mg3_sl6_inner0.0005_outer320_log_h32.json": "910e1fd603f7e9fed65685d02427a96fa3c6d85e90085b00056edead884694cd",
+        "forced_mode_nr8_nt18_L18_mg5_sl6_inner0.0005_outer320_log_h32.json": "aaeeb9f38ab4e90fa56735baa3b0e59e0dbf2baab71f76c7399a900e9aea3231",
+        "forced_mode_nr8_nt18_L18_mg-1_sl0_inner0.0005_outer320_log_h32.json": "a42b1ff487ebe7d542cd261277115d285fb6122a44a8840d7ffdb73053906794",
+        "forced_mode_nr8_nt18_L18_mg-2_sl1_inner0.0005_outer320_log_h32.json": "c405f15552b78a51e44f9ef19fc96576804534f25bfd35859197c2885a605e82",
+        "forced_mode_nr8_nt18_L18_mg-3_sl2_inner0.0005_outer320_log_h32.json": "a69182cf00537f41f6f3714370846341fc4bae15eef23f425783147a853fadb8",
+        "forced_mode_nr8_nt18_L18_mg-1_sl2_inner0.0005_outer320_log_h32.json": "13cb770453f63b39a21af45534e3c60f5a00afe2794cb0337eea70245f729517",
+        "forced_mode_nr8_nt18_L18_mg-4_sl3_inner0.0005_outer320_log_h32.json": "c581ec8c3b0892a40e4f1a3d439ed24a0c3943bbbd3948db8e84a980a11268d1",
+        "forced_mode_nr8_nt18_L18_mg-2_sl3_inner0.0005_outer320_log_h32.json": "3155342d0eab716d9d560dfcf19a3d803ac8446ba34865a567a6b2e88c9bee29",
+        "forced_mode_nr8_nt18_L18_mg-5_sl4_inner0.0005_outer320_log_h32.json": "f571181bfd6b8d8dac7dacc1e9002de185484e5c8ee58c02d42901f4daf1ea56",
+        "forced_mode_nr8_nt18_L18_mg-3_sl4_inner0.0005_outer320_log_h32.json": "30a0fba92cd9c85e5b0e67dfa645b33b0f346599f3cc880477f93271b0d6844e",
+        "forced_mode_nr8_nt18_L18_mg-1_sl4_inner0.0005_outer320_log_h32.json": "a40740e79f07e728f128c6528d5bb5c59b61838871454cc3a996ca19a5ca57b0",
+        "forced_mode_nr8_nt18_L18_mg-6_sl5_inner0.0005_outer320_log_h32.json": "ffd11c1d16ccdb8971f00f1fa891ebc691f937d9daa6a190af1dae437d7f165e",
+        "forced_mode_nr8_nt18_L18_mg-4_sl5_inner0.0005_outer320_log_h32.json": "f9c64ba982a0566c363b0f6ef9487b3941f71d478ab261492471a7785ba14c39",
+        "forced_mode_nr8_nt18_L18_mg-2_sl5_inner0.0005_outer320_log_h32.json": "9f60157caf5e7a674c4738425413bbc39ba9b05c6366824b602f9cc563b04306"
+      }
+    }
+  ],
+  "limitations": [
+    "Reference values come from original PDF vector interpolation, not author tables.",
+    "Interpolation method sensitivity is not a bound on digitization or paper discretization error.",
+    "Horizon comparison uses magnitudes; signed computed horizon fluxes remain negative.",
+    "Single radius, finite modal truncation, and frozen Schwarzschild decay do not establish full convergence."
+  ]
+}

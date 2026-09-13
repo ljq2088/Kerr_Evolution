@@ -1,0 +1,77 @@
+{
+  "status": "digitized_reference_not_author_numerical_data",
+  "alpha": 0.3,
+  "background": "schwarzschild",
+  "source": "https://arxiv.org/src/2501.09806v1",
+  "sha256": "edb692b0bb709680165c5c90300d0bd68596813e48dfcf687af900271e4edfe7",
+  "xgrid": [
+    258.16238,
+    297.89883,
+    337.63528,
+    377.37173,
+    417.10818
+  ],
+  "xgrid_radii": [
+    10,
+    20,
+    30,
+    40,
+    50
+  ],
+  "ygrid": [
+    27.6182,
+    57.97941,
+    88.34062,
+    118.70182000000001
+  ],
+  "ygrid_fluxes": [
+    0.1,
+    0.01,
+    0.001,
+    0.0001
+  ],
+  "rows": [
+    {
+      "rp": 20.0,
+      "pdf_x": 297.89883,
+      "flux": {
+        "infinity": {
+          "pdf_top": 42.82611194994327,
+          "plotted_flux": 0.03155735115297252,
+          "per_q2_cloud_mass": 2.300530899051696e-05,
+          "bracketing_pdf_points": [
+            [
+              296.89941,
+              42.984300000000005
+            ],
+            [
+              298.30022,
+              42.762580000000014
+            ]
+          ]
+        },
+        "horizon_magnitude": {
+          "pdf_top": 20.174223736882826,
+          "plotted_flux": 0.17586544456766798,
+          "per_q2_cloud_mass": 0.00012820590908982991,
+          "bracketing_pdf_points": [
+            [
+              297.61926,
+              20.10123999999999
+            ],
+            [
+              298.49788,
+              20.330610000000007
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "Linear interpolation in PDF coordinates; no formal digitization error bound",
+    "Horizon curve is a magnitude; no sign inferred from line position",
+    "Conversion follows epsilon^2=alpha^6 Mc/M and the Fig.2 flux definition",
+    "No solver outputs enter this reference extraction"
+  ]
+}
