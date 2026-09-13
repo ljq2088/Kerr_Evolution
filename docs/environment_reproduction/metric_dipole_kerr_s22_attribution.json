@@ -1,0 +1,48 @@
+{
+  "status": "coherent_metric_degree_attribution_not_error_estimate",
+  "inputs": [
+    {
+      "file": "forced_mode_nr8_nt18_L18_mg1_sl2_inner0.0005_outer320_log_h32.json",
+      "sha256": "506b02c1a67c1572fe0a3a73d862d71afc7b949025a9327f6290df03d7c1c05c"
+    },
+    {
+      "file": "forced_mode_nr8_nt18_L1_mg1_sl2_inner0.0005_outer320_log_h32.json",
+      "sha256": "ce62f14c32f843fcc4a148262c54a1384d7746c82d88319acee4fd33152086d1"
+    }
+  ],
+  "scalar_mode": [
+    2,
+    2
+  ],
+  "rows": {
+    "horizon": {
+      "full_flux": -1.4887900298264191e-06,
+      "dipole_flux": -1.4886603658780248e-06,
+      "higher_degree_flux": -6.210220101424782e-15,
+      "interference_flux": -1.2965773817395882e-10,
+      "dipole_amplitude_relative_to_full": [
+        0.9999564511596611,
+        4.769506078888691e-05
+      ],
+      "higher_degree_amplitude_relative_to_full": [
+        4.354884033891609e-05,
+        -4.7695060788885566e-05
+      ]
+    },
+    "infinity": {
+      "full_flux": 1.3412048788068127e-06,
+      "dipole_flux": 1.9733265097964377e-06,
+      "higher_degree_flux": 6.083494168868607e-08,
+      "interference_flux": -6.929565726783116e-07,
+      "dipole_amplitude_relative_to_full": [
+        1.2129751756529465,
+        1.1828644604478257e-05
+      ],
+      "higher_degree_amplitude_relative_to_full": [
+        -0.21297517565294652,
+        -1.1828644604490546e-05
+      ]
+    }
+  },
+  "limitation": "Metric separated degree, not spherical degree. Nonzero contributions alone do not identify a faulty sector. Full flux includes interference."
+}

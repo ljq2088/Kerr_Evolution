@@ -1,0 +1,40 @@
+{
+  "status": "coherent_metric_degree_attribution_not_error_estimate",
+  "inputs": [
+    {
+      "file": "forced_mode_nr8_nt18_L18_mg-1_sl0_inner0.0005_outer320_log_h32.json",
+      "sha256": "a42b1ff487ebe7d542cd261277115d285fb6122a44a8840d7ffdb73053906794"
+    },
+    {
+      "file": "forced_mode_nr8_nt18_L1_mg-1_sl0_inner0.0005_outer320_log_h32.json",
+      "sha256": "34e589bfe6316d0f75163b83422f86326d6f785354e23a01f82c5da7cf165199"
+    }
+  ],
+  "scalar_mode": [
+    0,
+    0
+  ],
+  "rows": {
+    "horizon": {
+      "full_flux": -6.700749953420403e-05,
+      "dipole_flux": -6.805625878753727e-05,
+      "higher_degree_flux": -4.1785837482554134e-09,
+      "interference_flux": 1.0529378370814941e-06,
+      "dipole_amplitude_relative_to_full": [
+        1.0077945056661288,
+        0.001267131753019576
+      ],
+      "higher_degree_amplitude_relative_to_full": [
+        -0.007794505666129031,
+        -0.0012671317530196
+      ]
+    },
+    "infinity": {
+      "full_flux": 0.0,
+      "dipole_flux": 0.0,
+      "higher_degree_flux": 0.0,
+      "interference_flux": 0.0
+    }
+  },
+  "limitation": "Metric separated degree, not spherical degree. Nonzero contributions alone do not identify a faulty sector. Full flux includes interference."
+}

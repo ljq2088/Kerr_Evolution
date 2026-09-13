@@ -1,0 +1,56 @@
+{
+  "status": "root_cause_not_yet_proven_no_production_fix",
+  "parameters": {
+    "alpha": 0.3,
+    "r0": 20,
+    "a": 0.8771530275949366,
+    "m_g": 1
+  },
+  "local_lorenz_gauge_correction_over_source": [
+    {
+      "r": 2.0,
+      "ratio": 1.3279797951835648e-13
+    },
+    {
+      "r": 5.0,
+      "ratio": 8.682296277876575e-12
+    },
+    {
+      "r": 10.0,
+      "ratio": 2.7324778287518557e-11
+    }
+  ],
+  "local_taylor6_to8_source_relative_change": [
+    {
+      "r": 2.0,
+      "ratio": 6.239007163117504e-14
+    },
+    {
+      "r": 5.0,
+      "ratio": 1.378304485001562e-12
+    },
+    {
+      "r": 10.0,
+      "ratio": 5.79174017079389e-12
+    }
+  ],
+  "analytic_kappa_dipole_source_relative_change": [
+    {
+      "r": 1.4807109600800843,
+      "ratio": 1.2149486261759696e-09
+    },
+    {
+      "r": 2.0,
+      "ratio": 3.6576763000673033e-09
+    },
+    {
+      "r": 5.0,
+      "ratio": 1.5755074839947058e-09
+    },
+    {
+      "r": 10.0,
+      "ratio": 1.392537843662512e-09
+    }
+  ],
+  "limitation": "Local samples are not integrated error bounds; no cause is identified by these small differences."
+}

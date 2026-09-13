@@ -1,0 +1,40 @@
+{
+  "status": "coherent_metric_degree_attribution_not_error_estimate",
+  "inputs": [
+    {
+      "file": "forced_mode_nr8_nt18_L18_schwarzschild_frozen_mg-1_sl0_inner0.0005_outer320_log_h32.json",
+      "sha256": "1e80e062e64e5335a62b7677b65cbab351a07f3aa7b2fc7507449891d2f92650"
+    },
+    {
+      "file": "forced_mode_nr8_nt18_L1_schwarzschild_frozen_mg-1_sl0_inner0.0005_outer320_log_h32.json",
+      "sha256": "9c10bc3d0d5a2559ffb0e956421f51078e4be7b3328c30c0a51f073238c8ea54"
+    }
+  ],
+  "scalar_mode": [
+    0,
+    0
+  ],
+  "rows": {
+    "horizon": {
+      "full_flux": -0.000134291079256201,
+      "dipole_flux": -0.0001342906167589859,
+      "higher_degree_flux": -3.995922800597121e-16,
+      "interference_flux": -4.6249681546571234e-10,
+      "dipole_amplitude_relative_to_full": [
+        0.9999982780032106,
+        -1.0146610063325099e-07
+      ],
+      "higher_degree_amplitude_relative_to_full": [
+        1.721996789406681e-06,
+        1.0146610062481977e-07
+      ]
+    },
+    "infinity": {
+      "full_flux": 0.0,
+      "dipole_flux": 0.0,
+      "higher_degree_flux": 0.0,
+      "interference_flux": 0.0
+    }
+  },
+  "limitation": "Metric separated degree, not spherical degree. Nonzero contributions alone do not identify a faulty sector. Full flux includes interference."
+}
