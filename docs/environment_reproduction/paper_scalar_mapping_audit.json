@@ -1,0 +1,72 @@
+{
+  "status": "vacuum_scalar_sector_identity",
+  "map": "kappa_2023 = i*(kappa_2024 - chi_compact)/(2*omega)",
+  "rows": [
+    {
+      "a": 0.0,
+      "r0": 6.0,
+      "m": 1,
+      "ell": 1,
+      "r": 4.0,
+      "metric_relative_error": 2.6620334421071514e-16,
+      "derivative_relative_error": 3.7153361322055347e-16,
+      "kappa_equation_relative_residual": 1.0036088756043697e-16
+    },
+    {
+      "a": 0.0,
+      "r0": 6.0,
+      "m": 1,
+      "ell": 1,
+      "r": 9.0,
+      "metric_relative_error": 3.1249868166929933e-16,
+      "derivative_relative_error": 7.442546545091598e-16,
+      "kappa_equation_relative_residual": 5.761701598357885e-15
+    },
+    {
+      "a": 0.8771530275949366,
+      "r0": 20.0,
+      "m": 1,
+      "ell": 1,
+      "r": 10.0,
+      "metric_relative_error": 5.732427758377756e-15,
+      "derivative_relative_error": 1.4767921605363338e-14,
+      "kappa_equation_relative_residual": 1.3978167826203358e-14
+    },
+    {
+      "a": 0.8771530275949366,
+      "r0": 20.0,
+      "m": 1,
+      "ell": 1,
+      "r": 40.0,
+      "metric_relative_error": 4.3046715819060117e-16,
+      "derivative_relative_error": 3.4756423374149115e-16,
+      "kappa_equation_relative_residual": 5.4020734784611974e-15
+    },
+    {
+      "a": 0.6,
+      "r0": 6.0,
+      "m": 2,
+      "ell": 2,
+      "r": 4.0,
+      "metric_relative_error": 2.746914647847521e-16,
+      "derivative_relative_error": 1.1545638359296559e-15,
+      "kappa_equation_relative_residual": 3.925654778892324e-16
+    },
+    {
+      "a": 0.6,
+      "r0": 6.0,
+      "m": 2,
+      "ell": 2,
+      "r": 9.0,
+      "metric_relative_error": 1.9532051731709537e-16,
+      "derivative_relative_error": 5.126782687121898e-16,
+      "kappa_equation_relative_residual": 6.989356214513918e-15
+    }
+  ],
+  "limitations": [
+    "Nonstatic vacuum points only",
+    "No point-source matching proof",
+    "No equivalence assertion for the full spin-2/spin-1 sector allocations",
+    "No change to the physical scalar flux"
+  ]
+}
