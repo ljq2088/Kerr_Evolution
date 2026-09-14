@@ -14,8 +14,8 @@ def test_tetrad_projection_and_radial_product_rule_on_background():
         dh=np.array([g.g[i][j].derivative(0).value for i,j in pairs])
         w,dw=tetrad_weights(r,theta,a)
         sigma=r*r+a*a*np.cos(theta)**2
-        np.testing.assert_allclose(w@h,[0,0,0,-2*sigma*sigma,4],atol=2e-10)
-        np.testing.assert_allclose(dw@h+w@dh,[0,0,0,-8*r*sigma,0],atol=2e-10)
+        np.testing.assert_allclose(w@h,[0,0,0,2*sigma*sigma,4],atol=2e-10)
+        np.testing.assert_allclose(dw@h+w@dh,[0,0,0,8*r*sigma,0],atol=2e-10)
 
 
 def test_spin_harmonic_projection_normalization():

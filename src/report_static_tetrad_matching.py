@@ -18,7 +18,7 @@ def tetrad_weights(r,theta,a):
     g=KerrGHP(r,theta,a,order=2)
     z=Jet(0.,2)
     lp=[(g.r*g.r+a*a)/g.delta,Jet(1.,2),z,a/g.delta]
-    lm=[lp[0],-lp[1],z,lp[3]]
+    lm=[-lp[0],lp[1],z,-lp[3]]
     mp=[1j*a*g.theta.sin(),z,Jet(1.,2),1j/g.theta.sin()]
     pairs=[(i,j) for i in range(4) for j in range(i,4)]
     rows=[]
