@@ -6,7 +6,6 @@ only the homogeneous spin-1/kappa block, not the sourced matching RHS.
 import numpy as np
 from lorenz_jet import Jet
 from lorenz_ghp import KerrGHP
-from lorenz_mode_jet import separated_jet
 from environment_angular_diagnostic import DenseRealHarmonic
 from pybhpt.swsh import Yslm
 
@@ -24,8 +23,14 @@ def radial_jet(g,spin,lam,y0,y1):
 def angular_jet(g,spin,ell):
     h=DenseRealHarmonic(spin,ell,g.m,g.a*g.omega)
     t=float(g.theta.value.real)
-    full=separated_jet(g,spin,h.eigenvalue,1.,0.,h(t),h(t,deriv=1))
-    out=Jet(0.,g.order);out.c[0,:]=full.c[0,:]
+    # separated_jet returns a Kinnersley field S/zeta^(|s|-s), not S.
+    # Recur the angular equation directly to avoid importing that tetrad factor.
+    out=Jet(h(t),g.order);out.c[0,1]=h(t,deriv=1)
+    A=h.eigenvalue-g.a*g.a*g.omega*g.omega+2*g.a*g.m*g.omega
+    U=g.a*g.a*g.omega*g.omega*g.theta.cos()**2-2*g.a*g.omega*spin*g.theta.cos()+spin+A-(g.m+spin*g.theta.cos())**2/g.theta.sin()**2
+    for j in range(g.order-1):
+        rhs=-g.theta.cos()/g.theta.sin()*out.derivative(1)-U*out
+        out.c[0,j+2]=rhs.c[0,j]/((j+1)*(j+2))
     return out,h.eigenvalue
 
 
