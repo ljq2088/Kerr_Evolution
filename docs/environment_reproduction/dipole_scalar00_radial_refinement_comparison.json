@@ -1,0 +1,37 @@
+{
+  "status": "dipole_radial_quadrature_comparison_not_full_convergence",
+  "inputs": [
+    {
+      "file": "forced_mode_nr8_nt18_L1_mg-1_sl0_inner0.0005_outer320_log_h32.json",
+      "sha256": "34e589bfe6316d0f75163b83422f86326d6f785354e23a01f82c5da7cf165199"
+    },
+    {
+      "file": "forced_mode_nr16_nt18_L1_mg-1_sl0_inner0.0005_outer320_log_h64.json",
+      "sha256": "6093bddab811ec30bb13df994aa78123a29c83401bb6591f74aa7cc471a0f119"
+    }
+  ],
+  "parameter_changes": {
+    "horizon_quadrature_order": [
+      32,
+      64
+    ],
+    "radial_order": [
+      8,
+      16
+    ]
+  },
+  "source_nodes": [
+    88,
+    176
+  ],
+  "horizon_flux": [
+    -6.805625878753728e-05,
+    -6.805625874792685e-05
+  ],
+  "relative_flux_change": -5.820248727417265e-10,
+  "relative_complex_amplitude_change": 3.8414938262687033e-10,
+  "limitations": [
+    "Fixed source cutoffs, angular order and metric dipole truncation",
+    "Does not establish agreement with the paper or convergence of the complete metric"
+  ]
+}
