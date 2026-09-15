@@ -1,0 +1,130 @@
+{
+  "status": "completed",
+  "scaling": "For s=0,+/-1, C_In/Up=(1+.3*(s+2)+.4*side)*exp(i*(.4*s+.3*m+.8*side))",
+  "baseline_sha256": "fc68e784768b0b314f6747d38dad849bf10021c727b87708d1b1ceb92e1da329",
+  "implementation_sha256": {
+    "environment_angular_diagnostic": "74c1ae7536df0ef1b6193c81a38f289b18c5dfc7371490e9fd1c3257da559307",
+    "environment_cloud": "13f9628f4513c00022ce7ebe69fc3d74db19a8e9fb610ece93ef9095866c8549",
+    "environment_lorenz_mode": "79ca9a4a27c608381291808f3200b752b99495be853d96b8cea0f39bcb5802b6",
+    "environment_radial": "b392c3ffdbc0ed022441e050a8c25b641533ed65630d6dff8e81d26cdaf28b5a",
+    "environment_source": "f8ed45cc7200b9738fa3406d0b8a03552f4847340cabdc92eec97b219c4cebb2",
+    "lorenz_chi": "7cd9321f8abe514b6649d54f9c9bc1258753f2e506573288b427fd7c01eb73b9",
+    "lorenz_corrector": "e97fba97ec3cc61fb3e9e990de2e5ddf14da6595bec9f52b3e2fc12da2c11632",
+    "lorenz_ghp": "598f52a92d2ba3c2b9edc51d8c08240a128a8ba714fb379578dbaff63b87a2fc",
+    "lorenz_jet": "8a68ebf0c27ba0a444f07851a6a5eb03623ff328e920a91f3824c332c635af65",
+    "lorenz_kappa": "6c5b5d8eccc119dc7aaf6ac7ac04d1aca6be52ea5bb03d682a3f891f52461d92",
+    "lorenz_metric": "e356a13729114412ffba238807ca1b4b612fc64c78c4a920a101e05baf02e91b",
+    "lorenz_mode_jet": "e8fe89e3a0d13f89ffbf4666fee552d8df3678f8c09f5866c456d9e9c68a6ccc",
+    "lorenz_spin1": "baf3b91c7ce4d316d75394288cbc218279b21be435ce9c696601f3fe39bafe98",
+    "lorenz_spin1_chiral": "e0c14b1f38f01d2f468c5fa439f527dd3b84b819b05e679334d390da2c581449",
+    "lorenz_tensor": "03bd09d77eb50a087cf20dfd9ddf04fb9514efe2311fff1b3a57c4b423551070",
+    "lorenz_weyl": "85668a281b4f351b57cce1a9ac56ddc4e07119918545e24685643f7195f012fd",
+    "report_gauge_radial_normalization_audit": "5d76a5091c5a7cae46a6c8c17864f61cb4c3afee9edb338f1f9fda416449c42b",
+    "source_provenance": "bd857ee008868fc3dbd880b276cd59acf025a38e13326674981d80fa3377a1b9"
+  },
+  "scope": "Metric ell1 -> scalar00 source, all s0 and +/-1 branches including negative chirality",
+  "rows": [
+    {
+      "r": 1.480968694531274,
+      "source_original": [
+        -0.016238147096519436,
+        0.059087846937453115
+      ],
+      "source_rescaled": [
+        -0.016238147097096336,
+        0.05908784693810075
+      ],
+      "relative_difference": 1.4153746774023444e-11
+    },
+    {
+      "r": 1.9994931986205384,
+      "source_original": [
+        -0.03966667178591433,
+        -0.006942914477814961
+      ],
+      "source_rescaled": [
+        -0.039666671785913106,
+        -0.006942914477816986
+      ],
+      "relative_difference": 5.872908651606238e-14
+    },
+    {
+      "r": 9.550303927486949,
+      "source_original": [
+        -0.012755658602369555,
+        -4.945805377298296e-05
+      ],
+      "source_rescaled": [
+        -0.012755658602360612,
+        -4.945805377135929e-05
+      ],
+      "relative_difference": 7.125181745157371e-13
+    },
+    {
+      "r": 19.841159425990146,
+      "source_original": [
+        0.0007236124977691691,
+        0.00015139424474189662
+      ],
+      "source_rescaled": [
+        0.0007236124977728312,
+        0.0001513942447429365
+      ],
+      "relative_difference": 5.149454151446698e-12
+    },
+    {
+      "r": 20.397101435024638,
+      "source_original": [
+        0.001588198749154765,
+        0.0001562999747488869
+      ],
+      "source_rescaled": [
+        0.001588198749150835,
+        0.00015629997475148367
+      ],
+      "relative_difference": 2.9516422806620168e-12
+    },
+    {
+      "r": 39.60289856497536,
+      "source_original": [
+        0.0005664597307540453,
+        5.7176141929278534e-05
+      ],
+      "source_rescaled": [
+        0.0005664597307543119,
+        5.7176141929618655e-05
+      ],
+      "relative_difference": 7.590538254619299e-13
+    },
+    {
+      "r": 112.66261430017401,
+      "source_original": [
+        6.486496975881731e-05,
+        -0.00018778563888439506
+      ],
+      "source_rescaled": [
+        6.486496975893958e-05,
+        -0.00018778563888432464
+      ],
+      "relative_difference": 7.102089460377614e-13
+    },
+    {
+      "r": 316.8231885198029,
+      "source_original": [
+        -1.1723665488334857e-07,
+        5.7202753429327335e-08
+      ],
+      "source_rescaled": [
+        -1.1723665488332877e-07,
+        5.720275342925855e-08
+      ],
+      "relative_difference": 5.486854548793574e-13
+    }
+  ],
+  "max_source_relative_difference": 1.4153746774023444e-11,
+  "elapsed_seconds": 22.38405193199287,
+  "limitations": [
+    "Normalization invariance checks consistent use of radial amplitudes; it cannot establish correct physical source coefficients",
+    "Finite eight-node ell1 diagnostic, not a new full flux calculation"
+  ]
+}

@@ -32,3 +32,7 @@ This supplies a concrete algorithmic cause for high-ell numerical contamination:
 It does not establish the root of the approximately 32.66% total horizon flux mismatch. The tests concern individual local ell contributions, not the final summed source integral. The dominant metric dipole has much milder conditioning, and the Schwarzschild high-ell path is similarly ill-conditioned. The actual source projection and horizon response must be recomputed under an independently stable algorithm to claim a causal correction of the main discrepancy.
 
 Data: reconstruction_conditioning_audit.json. Reproduce with `PYTHONPATH=src OPENBLAS_NUM_THREADS=1 .venv/bin/python src/report_reconstruction_conditioning_audit.py`.
+
+## Actual dipole radial-backend propagation cross-check
+
+The companion actual 88-node source integration `metric_backend_response_L1_s2AUTO_g*.json` changes the gauge-sector radial backend while retaining the L1 physical problem. The AUTO result is FH=-6.805625878766075e-5, ZH=-0.05003928029885452+0.03370367360681479i; direct TEUK gives FH=-6.805625878772487e-5, ZH=-0.05003928029887946+0.03370367360682864i. The horizon flux change is about 9.4e-13. This independently argues against HBL versus direct-TEUK radial integration as the main dipole discrepancy. Shared boundary normalization and theoretical source construction remain outside that comparison. Consequently the high-ell sensitivity documented here is a subsequent precision-repair item, not an established cause of the 32% total discrepancy.

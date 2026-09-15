@@ -1,0 +1,68 @@
+{
+  "status": "completed_low_spin_independent_radial_source_audit",
+  "parameters": {
+    "a": 0.8771530275949366,
+    "rp": 20.0,
+    "metric_ellmax": 1,
+    "scalar_ell": 0,
+    "scalar_m": 0,
+    "radial_nodes": 88,
+    "angular_nodes": 18
+  },
+  "baseline_horizon_orbital_flux": -6.805625878766075e-05,
+  "rows": {
+    "all": {
+      "spins": [
+        0,
+        -1,
+        1
+      ],
+      "anchor": 3.0,
+      "up_anchor": 20.0,
+      "rtol": 3e-14,
+      "horizon_flux_relative_difference": -2.121636200058674e-12,
+      "z_h_relative_difference": 1.1263183715806265e-12,
+      "source_weighted_relative_l2": 3.2192015736000872e-12,
+      "horizon_orbital_flux": -6.805625878751636e-05,
+      "selected_radial_calls": 445,
+      "sha256": "1a614b90e55383f1282a3fe0df038b3112c91f28d39c334aa8cdc26c752dfe73"
+    },
+    "zero": {
+      "spins": [
+        0
+      ],
+      "anchor": 3.0,
+      "up_anchor": 20.0,
+      "rtol": 3e-14,
+      "horizon_flux_relative_difference": 4.551914400963142e-14,
+      "z_h_relative_difference": 4.608641437171982e-14,
+      "source_weighted_relative_l2": 4.714100726738578e-12,
+      "horizon_orbital_flux": -6.805625878766385e-05,
+      "selected_radial_calls": 89,
+      "sha256": "9226363167aaab99d9884b122e987a1b1c9d0db03c7ca72c93595be3e4785450"
+    },
+    "one": {
+      "spins": [
+        -1,
+        1
+      ],
+      "anchor": 3.0,
+      "up_anchor": 20.0,
+      "rtol": 3e-14,
+      "horizon_flux_relative_difference": -2.166822277160918e-12,
+      "z_h_relative_difference": 1.1337907495203342e-12,
+      "source_weighted_relative_l2": 7.600494904334203e-12,
+      "horizon_orbital_flux": -6.805625878751328e-05,
+      "selected_radial_calls": 356,
+      "sha256": "f132e6e2117240719084d32dfde517548171fbadd0a9563d9a93f757eb8c829d"
+    }
+  },
+  "source_linearity_residual_relative_l2": 1.6234979157908068e-11,
+  "z_h_linearity_residual_relative": 4.498763821357658e-15,
+  "baseline_sha256": "fc68e784768b0b314f6747d38dad849bf10021c727b87708d1b1ceb92e1da329",
+  "limitations": [
+    "This is the dominant ell1 metric -> scalar00 horizon response, not a new complete L18 multipole sum",
+    "All runs share the reconstruction/source formulas, angular inputs, trace/kappa and massive scalar Green",
+    "MST anchoring independently checks radial boundary data and continuation; scalar angular eigenvalues remain common double precision inputs"
+  ]
+}
