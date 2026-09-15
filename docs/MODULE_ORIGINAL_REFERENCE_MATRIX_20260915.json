@@ -1,0 +1,1648 @@
+{
+  "date": "2026-09-15",
+  "scope": "Completed bounded original-code comparisons: official BHPT dependency functions, scalar/kappa helpers, Sam matching at sample/actual parameters, actual Sam full metric code path with two boundary resolutions at three radii,m1,protectedell1..3, and same-local-cloud source propagation. Original full environmental source/flux has not been located or executed.",
+  "taxonomy": {
+    "original_author_run": "Execute original author source (or verbatim source sections with a separately documented harness), record exact provenance and inputs/outputs; only the executed modules are covered. A successful module run is not a full metric/flux run.",
+    "original_author_dataset": "Numeric files distributed by an author repository. They are not automatically correct or the same version/run as the paper.",
+    "published_author_numeric_table": "Original numeric table included in an author arXiv archive.",
+    "original_author_symbolic_code": "Original symbolic code; availability does not mean local execution.",
+    "original_author_code": "Original runnable code; execution tracked separately.",
+    "original_author_document": "Original paper/source/figure, not numeric solver output.",
+    "plot_digitization": "Our extraction from plotted figure coordinates; not original raw arrays.",
+    "independent_reimplementation": "Our separately written implementation; independence scoped to shared inputs.",
+    "internal_identity": "Checks/refinements within our implementation, not independent original data.",
+    "third_party_library_run": "Third-party library execution, not author environmental package.",
+    "third_party_library_source": "Library source inspection only.",
+    "locally_modified_third_party": "Our changes to an upstream library, not unchanged upstream.",
+    "official_dependency_run": "Execute the unmodified official BHPT Mathematica dependency implementation and record version,inputs,outputs. This is distinct from executing the environmental paper author full pipeline; current pinned releases are not proven original historical dependency versions.",
+    "original_author_input_propagation": "Original author output is passed through a shared local downstream implementation and compared to local input propagated identically. This validates bounded input sensitivity, not the original author downstream implementation."
+  },
+  "archives": [
+    {
+      "path": "outputs/environment_reference/2501.09806v1.tar",
+      "sha256": "c07028320ab015cb3dc8c113614a9ad785de77169e421c608a9f72efd0039665",
+      "files": [
+        "Figures/BosonEMRIsFieldPlots.pdf",
+        "Figures/Flux_Inf_Hor_TwoPanels_2.pdf",
+        "Figures/Flux_l_mode_convergence_inf.pdf",
+        "Figures/Flux_l_mode_convergence_particle.pdf",
+        "Figures/RelDiffFlux_Inf_Hor_TwoPanels.pdf",
+        "Figures/ResonanceBosonEMRIsFieldPlot.pdf",
+        "Figures/plotTotal_onepanelSM_Ratio.pdf",
+        "main_PRL.bbl",
+        "main_PRL.tex",
+        "ref.bib",
+        "references.bib"
+      ]
+    },
+    {
+      "path": "outputs/lorenz_reference/2306.16459v3.tar",
+      "sha256": "7fc22e08a972c33a12af2bfc6973bfee459b19fe248a70ff5b925b0ea8df533e",
+      "files": [
+        "figs/hcomp_l2_m2_a0.pdf",
+        "figs/hcomp_l2_m2_a099.pdf",
+        "figs/hcomparison_alt_l1_m1_a0.6_n12.pdf",
+        "figs/hcomparison_alt_l2_m2_a0.6_n12.pdf",
+        "figs/hcomparison_l1_m1_a0.6_n12.pdf",
+        "figs/hcomparison_l2_m2_a0.6_n12.pdf",
+        "figs/hlplp_3D_diff_m2_a0.6_n12.pdf",
+        "figs/hlplp_3D_im_m2_a0.6_n12.pdf",
+        "figs/hlplp_3D_re_m2_a0.6_n12.pdf",
+        "figs/hlplp_angprofiles_m2_a0.6_n12.pdf",
+        "figs/hlplp_loglog_r_l2_s012.pdf",
+        "figs/hlplp_loglog_r_l8_s012.pdf",
+        "figs/hlplp_rprofile_m2_a0.6_n12.pdf",
+        "figs/hlplp_s012_l2_m2_a0.pdf",
+        "figs/hschw_BL_l2_m2.pdf",
+        "figs/hschw_BL_l3_m2.pdf",
+        "figs/hschw_comparison_l2_m2.pdf",
+        "figs/hschw_comparison_l2_m2_abserror.pdf",
+        "figs/lmodes_by_radius.pdf",
+        "figs/lmodes_on_worldline_s012.pdf",
+        "figs/m0_profiles_l01_a0.60.pdf",
+        "figs/m0_profiles_l23_a0.60.pdf",
+        "figs/m0_profiles_l67_a0.60.pdf",
+        "figs/mode_hlplp_l1_m1_a0.6_n12.pdf",
+        "figs/mode_hlplp_l1_m1_a06_n12.pdf",
+        "figs/mode_hlplp_l2_m2_a0.6_n12.pdf",
+        "figs/mode_hlplp_l3_m1_a0.6_n12.pdf",
+        "figs/mode_hlplp_l3_m1_a06_n12.pdf",
+        "figs/mode_hlplp_l4_m2_a0.6_n12.pdf",
+        "figs/mode_hlplp_relerr_l2_m2_a0.6_n12.pdf",
+        "figs/mode_hmpmp_l2_m1_a0.6_n12.pdf",
+        "figs/mode_hmpmp_l2_m1_a06_n12.pdf",
+        "figs/mode_hmpmp_l2_m2_a0.6_n12.pdf",
+        "figs/mode_hmpmp_l3_m1_a0.6_n12.pdf",
+        "figs/mode_hmpmp_l3_m1_a06_n12.pdf",
+        "figs/mode_hmpmp_l3_m2_a0.6_n12.pdf",
+        "figs/mode_hmpmp_l4_m2_a0.6_n12.pdf",
+        "figs/mode_hmpmp_relerr_l2_m2_a0.6_n12.pdf",
+        "LorenzGaugeKerrCirc.bbl",
+        "LorenzGaugeKerrCirc.tex"
+      ]
+    },
+    {
+      "path": "outputs/lorenz_reference/2406.12510v3.tar",
+      "sha256": "3bb7d110e55fb85a78aa56af85910ca0e1e5804c59016f504ec6ea913a0373a7",
+      "files": [
+        "00README.json",
+        "amplitudes.dat",
+        "amplitudes.pdf",
+        "DirectLorenzGauge.bbl",
+        "DirectLorenzGauge.bib",
+        "DirectLorenzGauge.tex",
+        "Operators.nb"
+      ]
+    }
+  ],
+  "author_repositories": [
+    {
+      "repository": "srd24/KerrLorenzCirc",
+      "commit": "5c1b42793ff893fd0c65a5b48ceecc02d34c5e35"
+    },
+    {
+      "repository": "ConorDyson/KerrLorenzMSF",
+      "commit": "6b469f0835e42d3fa531b4997d7a912257119f60"
+    }
+  ],
+  "module_map": [
+    {
+      "module": "Orbit and frequency bookkeeping",
+      "implementation": [
+        {
+          "path": "src/lorenz_weyl.py",
+          "exists": true
+        },
+        {
+          "path": "src/environment_lorenz_mode.py",
+          "exists": true
+        },
+        {
+          "path": "src/environment_source.py",
+          "exists": true
+        }
+      ],
+      "original_formula": "Dyson numerical-procedure appendix: omega_s=omega_c+m_g Omega_p; Kerr circular orbit in DDKW source equations",
+      "comparison_inputs": "M,a,rp,m_g,omega_c",
+      "comparison_outputs": "Omega_p,u^t,E,L,omega_g,omega_s",
+      "evidence": [
+        {
+          "classification": "original_author_code",
+          "path": "outputs/paper_metric_reference/ConorDyson_KerrLorenzMSF/GenerationCodes/Numerics-Asymptotics/h1-Radial-gen/MetricReconstructRadiative.wl",
+          "exists": true,
+          "scope": "OrbitalData / KerrAzimuthalFrequency; source uses M=1; no separate author orbit-array comparison yet"
+        },
+        {
+          "classification": "official_dependency_run",
+          "path": "docs/environment_reproduction/wolfram/official_bhpt_AUTO_comparison.json",
+          "exists": true,
+          "scope": "Executed official Mathematica BHPT code, not the complete 2025 environmental code release. 11cases: a=.6,rp8,ell2,m1,s=-2..2; actual a=.8771530275949366,rp20,ell1,s0±1,m±1. Three radii/case and In/Up; 66samples. No fitted scale or phase. R max relative3.0065e-14,Rprime3.3356e-14; angular lambda absolute1.3172e-13,S5.8009e-15,dS1.3989e-14; massless Green sample relative2.1763e-14.",
+          "manifest": "docs/environment_reproduction/wolfram/official_bhpt_manifest.json",
+          "readable_report": "docs/environment_reproduction/OFFICIAL_BHPT_FUNCTION_AUDIT_20260915.md",
+          "maximum_errors": {
+            "maximum_R_relative": 3.006501476662272e-14,
+            "maximum_dR_relative": 3.335647065658562e-14,
+            "maximum_angular_eigen_absolute": 1.3171755353091896e-13,
+            "maximum_angular_S_absolute": 5.800915303666443e-15,
+            "maximum_angular_dS_absolute": 1.3988810110276972e-14,
+            "maximum_official_W_drift": 4.471020973513945e-16,
+            "maximum_physical_G_relative": 2.1762763510572937e-14
+          }
+        }
+      ],
+      "missing": "Exact orbital and cloud parameters used for every plotted 2025 marker."
+    },
+    {
+      "module": "Cloud eigenfrequency and normalization",
+      "implementation": [
+        {
+          "path": "src/environment_cloud.py",
+          "exists": true
+        },
+        {
+          "path": "src/environment_source.py",
+          "exists": true
+        },
+        {
+          "path": "src/environment_schwarzschild_cloud.py",
+          "exists": true
+        },
+        {
+          "path": "src/paper_leaver_cloud.py",
+          "exists": true
+        }
+      ],
+      "original_formula": "Dyson stationary 211 cloud and numerical appendix; epsilon=alpha^3 sqrt(Mc/M); M_cloud=-integral T^t_t Sigma dr dOmega per referenced thesis convention",
+      "comparison_inputs": "alpha,a,n,l_c,m_c and cloud mass convention",
+      "comparison_outputs": "complex omega_c,radial profile,R derivatives,normalization and mass integral",
+      "evidence": [
+        {
+          "classification": "independent_reimplementation",
+          "path": "docs/environment_reproduction/leaver_cloud_full_audit.json",
+          "exists": true,
+          "scope": "Local independent Leaver implementation, not author code"
+        },
+        {
+          "classification": "internal_identity",
+          "path": "docs/environment_reproduction/cloud_mass_measures.json",
+          "exists": true,
+          "scope": "Comparison of mass measures; not author cloud array"
+        },
+        {
+          "classification": "original_author_code",
+          "path": "docs/CONOR_ENVIRONMENT_SOURCE_SEARCH_20260915.md",
+          "exists": true,
+          "scope": "Complete fixed-commit readable-text search:2111files,2069texts,47.35MB,Git blob checked; no identifiable full massive cloud/Klein-Gordon environment source/flux pipeline found. Old notebooks contain real boson-tagged metric output paths, so this is not a claim of no environment-related artifacts. CompressedData/binary contents and unpublished local referenced files excluded.",
+          "manifest": "docs/CONOR_ENVIRONMENT_SOURCE_SEARCH_20260915_manifest.json"
+        }
+      ],
+      "missing": "Raw author cloud eigenfrequency, radial profile and normalization arrays at alpha=.3,a=.877153... ."
+    },
+    {
+      "module": "Spin-weighted spheroidal harmonics",
+      "implementation": [
+        {
+          "path": "src/environment_angular_diagnostic.py",
+          "exists": true
+        },
+        {
+          "path": "src/environment_source.py",
+          "exists": true
+        },
+        {
+          "path": "src/paper_precise_angular.py",
+          "exists": true
+        }
+      ],
+      "original_formula": "DDKW Teukolsky separation and spin harmonics; Dyson angular spheroidal projection",
+      "comparison_inputs": "s,ell,m,c=a*omega and harmonic phase/normalization",
+      "comparison_outputs": "lambda,S(theta),dS,cos/cos^2 mixing matrices and spherical-expansion coefficients",
+      "evidence": [
+        {
+          "classification": "third_party_library_run",
+          "path": "docs/environment_reproduction/swsh_independent_qnm_audit.json",
+          "exists": true,
+          "scope": "Independent qnm angular implementation; not Dyson source"
+        },
+        {
+          "classification": "original_author_dataset",
+          "path": "docs/environment_reproduction/author_hdf5_metric_aligned_comparison.json",
+          "exists": true,
+          "scope": "Explicit scalar spheroidal-to-spherical B transform makes author trace agree 2.1e-12 to9.75e-11 at six points; validates combined scalar trace/basis, not all angular sectors independently"
+        },
+        {
+          "classification": "official_dependency_run",
+          "path": "docs/environment_reproduction/wolfram/official_bhpt_AUTO_comparison.json",
+          "exists": true,
+          "scope": "Executed official Mathematica BHPT code, not the complete 2025 environmental code release. 11cases: a=.6,rp8,ell2,m1,s=-2..2; actual a=.8771530275949366,rp20,ell1,s0±1,m±1. Three radii/case and In/Up; 66samples. No fitted scale or phase. R max relative3.0065e-14,Rprime3.3356e-14; angular lambda absolute1.3172e-13,S5.8009e-15,dS1.3989e-14; massless Green sample relative2.1763e-14.",
+          "manifest": "docs/environment_reproduction/wolfram/official_bhpt_manifest.json",
+          "readable_report": "docs/environment_reproduction/OFFICIAL_BHPT_FUNCTION_AUDIT_20260915.md",
+          "maximum_errors": {
+            "maximum_R_relative": 3.006501476662272e-14,
+            "maximum_dR_relative": 3.335647065658562e-14,
+            "maximum_angular_eigen_absolute": 1.3171755353091896e-13,
+            "maximum_angular_S_absolute": 5.800915303666443e-15,
+            "maximum_angular_dS_absolute": 1.3988810110276972e-14,
+            "maximum_official_W_drift": 4.471020973513945e-16,
+            "maximum_physical_G_relative": 2.1762763510572937e-14
+          }
+        }
+      ],
+      "missing": "Original production angular cutoff and complete high-ell/grid outputs. Direct official original SWSH values, slopes and eigenvalues for11bounded cases now pass, but current official package revisions are not the original paper dependency lockfile."
+    },
+    {
+      "module": "Massless spin +/-2 radial and Weyl amplitudes",
+      "implementation": [
+        {
+          "path": "src/lorenz_weyl.py",
+          "exists": true
+        },
+        {
+          "path": "src/lorenz_metric.py",
+          "exists": true
+        },
+        {
+          "path": "src/lorenz_mode_jet.py",
+          "exists": true
+        }
+      ],
+      "original_formula": "DDKW eq:teukolsky-eqns,eq:TS-identities/eq:TSs; WDK2024 eq:Psi-FD and eq:TeukolskyInhomogeneousModes",
+      "comparison_inputs": "a,rp,l,m,s,frequency,In/Up normalization",
+      "comparison_outputs": "R,Rprime,Wronskians,Weyl/source amplitudes,TS constants",
+      "evidence": [
+        {
+          "classification": "published_author_numeric_table",
+          "path": "docs/environment_reproduction/lorenz_weyl_validation.json",
+          "exists": true,
+          "scope": "Compares original WDK2024 amplitudes.dat via documented i/omega convention bridge"
+        },
+        {
+          "classification": "third_party_library_run",
+          "path": "docs/environment_reproduction/radial_backend_invariants.json",
+          "exists": true,
+          "scope": "BHPT backends; not independent author environmental code"
+        },
+        {
+          "classification": "official_dependency_run",
+          "path": "docs/environment_reproduction/wolfram/official_bhpt_AUTO_comparison.json",
+          "exists": true,
+          "scope": "Executed official Mathematica BHPT code, not the complete 2025 environmental code release. 11cases: a=.6,rp8,ell2,m1,s=-2..2; actual a=.8771530275949366,rp20,ell1,s0±1,m±1. Three radii/case and In/Up; 66samples. No fitted scale or phase. R max relative3.0065e-14,Rprime3.3356e-14; angular lambda absolute1.3172e-13,S5.8009e-15,dS1.3989e-14; massless Green sample relative2.1763e-14.",
+          "manifest": "docs/environment_reproduction/wolfram/official_bhpt_manifest.json",
+          "readable_report": "docs/environment_reproduction/OFFICIAL_BHPT_FUNCTION_AUDIT_20260915.md",
+          "maximum_errors": {
+            "maximum_R_relative": 3.006501476662272e-14,
+            "maximum_dR_relative": 3.335647065658562e-14,
+            "maximum_angular_eigen_absolute": 1.3171755353091896e-13,
+            "maximum_angular_S_absolute": 5.800915303666443e-15,
+            "maximum_angular_dS_absolute": 1.3988810110276972e-14,
+            "maximum_official_W_drift": 4.471020973513945e-16,
+            "maximum_physical_G_relative": 2.1762763510572937e-14
+          }
+        },
+        {
+          "classification": "original_author_run",
+          "path": "docs/environment_reproduction/sam_actual_metric_i6_h5_comparison.json",
+          "exists": true,
+          "scope": "Original Sam radiative reconstruction executed through all three spin sectors and the ten weighted metric projections at actual a=.8771530275949366,rp20,m1,L10,r=2,10,30. Protected ell1..3 component vector-relative maximum 8.191043e-07. Sector0/1/2 maxima 1.158013e-07,1.973502e-12,3.877619e-08. This is a completed full metric code path at three sampled radii and one m, not a full radial grid/high-ell/environmental source/flux verification. No scale/phase fitting; trace transformed by original Bmat0.",
+          "raw_reference_sha256": "b1b2a6d7d64b93581fbf9d050cc5fe1c714f9fa9e809097c0cc174041aa4801b",
+          "reference_json_normalization": {
+            "decimal_exponent_repairs": 65,
+            "unique_tokens": [
+              "-1.e-30",
+              "-4.e-29",
+              "0.e-29",
+              "0.e-30",
+              "0.e-32",
+              "0.e-48",
+              "0.e-49",
+              "0.e-50",
+              "0.e-51",
+              "0.e-52",
+              "0.e-54",
+              "0.e-55",
+              "0.e-57"
+            ],
+            "policy": "Outside-string decimal syntax only; original bytes and numeric values retained"
+          },
+          "configuration": {
+            "a": 0.8771530275949366,
+            "rp": 20.0,
+            "m": 1,
+            "lmax": 10,
+            "radii": [
+              2.0,
+              10.0,
+              30.0
+            ],
+            "protected_output_ells": [
+              1,
+              2,
+              3
+            ],
+            "inford": 6,
+            "horord": 5,
+            "rinf": 10000
+          },
+          "maximum_protected_metric_relative": 8.191043268333072e-07,
+          "maximum_protected_relative_by_sector": {
+            "0": 1.1580133702435377e-07,
+            "1": 1.9735015665941346e-12,
+            "2": 3.8776189959183425e-08
+          }
+        },
+        {
+          "classification": "original_author_run",
+          "path": "docs/environment_reproduction/sam_actual_metric_i7_h6_comparison.json",
+          "exists": true,
+          "scope": "Completed original Sam full radiative metric code path, boundary-refined inford7/horord6/rinf20000, at actual a=.8771530275949366,rp20,m1,L10,r2/10/30 and protected spherical ell1..3. Each of ten component vectors compared over these three ell values: maximum relativeL2 8.191043e-07. Earlier i6/h5 author result changes by at most 3.336806e-12 under refinement. This is bounded full metric validation, not full-grid/high-ell/all-m/source/flux validation.",
+          "raw_reference_sha256": "dd917471c3edbe804215fa3f9dc838185ed78bea679dc9c0ea5f50289d04d6cd",
+          "reference_json_normalization": {
+            "decimal_exponent_repairs": 65,
+            "unique_tokens": [
+              "-1.e-30",
+              "-4.e-29",
+              "0.e-29",
+              "0.e-30",
+              "0.e-32",
+              "0.e-48",
+              "0.e-49",
+              "0.e-50",
+              "0.e-51",
+              "0.e-52",
+              "0.e-54",
+              "0.e-55",
+              "0.e-57"
+            ],
+            "policy": "Outside-string decimal syntax only; original bytes and numeric values retained"
+          },
+          "configuration": {
+            "a": 0.8771530275949366,
+            "rp": 20.0,
+            "m": 1,
+            "lmax": 10,
+            "radii": [
+              2.0,
+              10.0,
+              30.0
+            ],
+            "protected_output_ells": [
+              1,
+              2,
+              3
+            ],
+            "inford": 7,
+            "horord": 6,
+            "rinf": 20000
+          },
+          "maximum_protected_metric_relative": 8.191043293525246e-07,
+          "maximum_protected_relative_by_sector": {
+            "0": 1.1580133333387867e-07,
+            "1": 1.9735015665941346e-12,
+            "2": 3.8776189959183425e-08
+          },
+          "boundary_refinement_report": "docs/environment_reproduction/sam_actual_metric_boundary_convergence.json"
+        },
+        {
+          "classification": "original_author_run",
+          "path": "docs/environment_reproduction/sam_actual_metric_boundary_convergence.json",
+          "exists": true,
+          "scope": "Both actual original-author metric runs completed. Boundary controls6/5/rinf10000 ->7/6/rinf20000 at fixed xhor1e-4,WP50,goal24. Maximum author relative change at r2/r10/r30=6.83e-14/2.06e-14/3.34e-12, while local-vs-fine maximum remains8.191e-7. Hence the residual sampled local difference is not explained by these author boundary settings. This is not horizon-limit/high-L convergence or a final flux test."
+        }
+      ],
+      "missing": "Author raw same-mode radial values and amplitudes at actual discrepancy parameters; exact MST/GSN/backend choice in 2025 adapted package."
+    },
+    {
+      "module": "Massless spin +/-1 radial and vector amplitudes",
+      "implementation": [
+        {
+          "path": "src/lorenz_spin1.py",
+          "exists": true
+        },
+        {
+          "path": "src/lorenz_spin1_chiral.py",
+          "exists": true
+        },
+        {
+          "path": "src/lorenz_metric.py",
+          "exists": true
+        },
+        {
+          "path": "src/lorenz_mode_jet.py",
+          "exists": true
+        }
+      ],
+      "original_formula": "DDKW eq:mp-s1,eq:TSs and coupled source jumps; WDK2024 eq:teuk-s1",
+      "comparison_inputs": "a,rp,l,m,s,In/Up side",
+      "comparison_outputs": "radial values,vector source amplitudes and full chiral current",
+      "evidence": [
+        {
+          "classification": "published_author_numeric_table",
+          "path": "docs/environment_reproduction/lorenz_spin1_validation.json",
+          "exists": true,
+          "scope": "Original WDK2024 table after sqrt(2)/omega^2 convention bridge"
+        },
+        {
+          "classification": "original_author_dataset",
+          "path": "docs/environment_reproduction/author_hdf5_metric_aligned_comparison.json",
+          "exists": true,
+          "scope": "m1 HDF5 likely omits ell1 vector in a generation path; omit-only diagnostic improves some coefficients but is not a justified production change"
+        },
+        {
+          "classification": "original_author_run",
+          "path": "docs/environment_reproduction/sam_vs_production_jumps_ell1to3.json",
+          "exists": true,
+          "scope": "Original Sam matching phase executed at a=.6,rp8,m1,L10,WP50. Four complex spin1/kappa jumps per ell1/2/3 agree with production at row-scaled1.98e-14,1.23e-12,1.15e-13. Modes ell4..10 are excluded as cutoff-edge diagnostics; not a full metric or flux comparison."
+        },
+        {
+          "classification": "official_dependency_run",
+          "path": "docs/environment_reproduction/wolfram/official_bhpt_AUTO_comparison.json",
+          "exists": true,
+          "scope": "Executed official Mathematica BHPT code, not the complete 2025 environmental code release. 11cases: a=.6,rp8,ell2,m1,s=-2..2; actual a=.8771530275949366,rp20,ell1,s0±1,m±1. Three radii/case and In/Up; 66samples. No fitted scale or phase. R max relative3.0065e-14,Rprime3.3356e-14; angular lambda absolute1.3172e-13,S5.8009e-15,dS1.3989e-14; massless Green sample relative2.1763e-14.",
+          "manifest": "docs/environment_reproduction/wolfram/official_bhpt_manifest.json",
+          "readable_report": "docs/environment_reproduction/OFFICIAL_BHPT_FUNCTION_AUDIT_20260915.md",
+          "maximum_errors": {
+            "maximum_R_relative": 3.006501476662272e-14,
+            "maximum_dR_relative": 3.335647065658562e-14,
+            "maximum_angular_eigen_absolute": 1.3171755353091896e-13,
+            "maximum_angular_S_absolute": 5.800915303666443e-15,
+            "maximum_angular_dS_absolute": 1.3988810110276972e-14,
+            "maximum_official_W_drift": 4.471020973513945e-16,
+            "maximum_physical_G_relative": 2.1762763510572937e-14
+          }
+        },
+        {
+          "classification": "original_author_run",
+          "path": "docs/environment_reproduction/sam_actual_vs_production_jumps_ell1to3.json",
+          "exists": true,
+          "scope": "Original Sam matching executed at actual discrepancy a=.8771530275949366,rp20,m1,L10. Four spin1/kappa jump entries for ell1/2/3 agree with production at row-scaled errors 2.2993e-14,3.3554e-12,2.1032e-13. Six-mode cutoff guard; symmetry-zero entries use row scaling. Full metric completion is reported separately; this matching report alone has no source/flux conclusion."
+        },
+        {
+          "classification": "original_author_run",
+          "path": "docs/environment_reproduction/sam_actual_metric_i6_h5_comparison.json",
+          "exists": true,
+          "scope": "Original Sam radiative reconstruction executed through all three spin sectors and the ten weighted metric projections at actual a=.8771530275949366,rp20,m1,L10,r=2,10,30. Protected ell1..3 component vector-relative maximum 8.191043e-07. Sector0/1/2 maxima 1.158013e-07,1.973502e-12,3.877619e-08. This is a completed full metric code path at three sampled radii and one m, not a full radial grid/high-ell/environmental source/flux verification. No scale/phase fitting; trace transformed by original Bmat0.",
+          "raw_reference_sha256": "b1b2a6d7d64b93581fbf9d050cc5fe1c714f9fa9e809097c0cc174041aa4801b",
+          "reference_json_normalization": {
+            "decimal_exponent_repairs": 65,
+            "unique_tokens": [
+              "-1.e-30",
+              "-4.e-29",
+              "0.e-29",
+              "0.e-30",
+              "0.e-32",
+              "0.e-48",
+              "0.e-49",
+              "0.e-50",
+              "0.e-51",
+              "0.e-52",
+              "0.e-54",
+              "0.e-55",
+              "0.e-57"
+            ],
+            "policy": "Outside-string decimal syntax only; original bytes and numeric values retained"
+          },
+          "configuration": {
+            "a": 0.8771530275949366,
+            "rp": 20.0,
+            "m": 1,
+            "lmax": 10,
+            "radii": [
+              2.0,
+              10.0,
+              30.0
+            ],
+            "protected_output_ells": [
+              1,
+              2,
+              3
+            ],
+            "inford": 6,
+            "horord": 5,
+            "rinf": 10000
+          },
+          "maximum_protected_metric_relative": 8.191043268333072e-07,
+          "maximum_protected_relative_by_sector": {
+            "0": 1.1580133702435377e-07,
+            "1": 1.9735015665941346e-12,
+            "2": 3.8776189959183425e-08
+          }
+        },
+        {
+          "classification": "original_author_run",
+          "path": "docs/environment_reproduction/sam_actual_metric_i7_h6_comparison.json",
+          "exists": true,
+          "scope": "Completed original Sam full radiative metric code path, boundary-refined inford7/horord6/rinf20000, at actual a=.8771530275949366,rp20,m1,L10,r2/10/30 and protected spherical ell1..3. Each of ten component vectors compared over these three ell values: maximum relativeL2 8.191043e-07. Earlier i6/h5 author result changes by at most 3.336806e-12 under refinement. This is bounded full metric validation, not full-grid/high-ell/all-m/source/flux validation.",
+          "raw_reference_sha256": "dd917471c3edbe804215fa3f9dc838185ed78bea679dc9c0ea5f50289d04d6cd",
+          "reference_json_normalization": {
+            "decimal_exponent_repairs": 65,
+            "unique_tokens": [
+              "-1.e-30",
+              "-4.e-29",
+              "0.e-29",
+              "0.e-30",
+              "0.e-32",
+              "0.e-48",
+              "0.e-49",
+              "0.e-50",
+              "0.e-51",
+              "0.e-52",
+              "0.e-54",
+              "0.e-55",
+              "0.e-57"
+            ],
+            "policy": "Outside-string decimal syntax only; original bytes and numeric values retained"
+          },
+          "configuration": {
+            "a": 0.8771530275949366,
+            "rp": 20.0,
+            "m": 1,
+            "lmax": 10,
+            "radii": [
+              2.0,
+              10.0,
+              30.0
+            ],
+            "protected_output_ells": [
+              1,
+              2,
+              3
+            ],
+            "inford": 7,
+            "horord": 6,
+            "rinf": 20000
+          },
+          "maximum_protected_metric_relative": 8.191043293525246e-07,
+          "maximum_protected_relative_by_sector": {
+            "0": 1.1580133333387867e-07,
+            "1": 1.9735015665941346e-12,
+            "2": 3.8776189959183425e-08
+          },
+          "boundary_refinement_report": "docs/environment_reproduction/sam_actual_metric_boundary_convergence.json"
+        },
+        {
+          "classification": "original_author_run",
+          "path": "docs/environment_reproduction/sam_actual_metric_boundary_convergence.json",
+          "exists": true,
+          "scope": "Both actual original-author metric runs completed. Boundary controls6/5/rinf10000 ->7/6/rinf20000 at fixed xhor1e-4,WP50,goal24. Maximum author relative change at r2/r10/r30=6.83e-14/2.06e-14/3.34e-12, while local-vs-fine maximum remains8.191e-7. Hence the residual sampled local difference is not explained by these author boundary settings. This is not horizon-limit/high-L convergence or a final flux test."
+        }
+      ],
+      "missing": "Full radial-domain and high-ell original vector/metric checks plus additional m. Official actual spin±1 radial samples and actual low-ell Sam jumps pass; original full spin1 metric sector at three actual radii now agrees to2e-12. Final covariant source still needs direct original data."
+    },
+    {
+      "module": "Massless spin0 trace and chi",
+      "implementation": [
+        {
+          "path": "src/lorenz_trace.py",
+          "exists": true
+        },
+        {
+          "path": "src/lorenz_chi.py",
+          "exists": true
+        },
+        {
+          "path": "src/lorenz_mode_jet.py",
+          "exists": true
+        }
+      ],
+      "original_formula": "DDKW eq:radial-h,eq:hsol,eq:jumps-h; WDK2024 eq:chi-DKW and eq:teuk-s0",
+      "comparison_inputs": "a,rp,l,m,In/Up side,frequency,angular convention",
+      "comparison_outputs": "h,chi and radial derivatives/source amplitudes",
+      "evidence": [
+        {
+          "classification": "published_author_numeric_table",
+          "path": "docs/environment_reproduction/lorenz_trace_validation.json",
+          "exists": true,
+          "scope": "Original WDK2024 amplitudes.dat"
+        },
+        {
+          "classification": "published_author_numeric_table",
+          "path": "docs/environment_reproduction/lorenz_chi_validation.json",
+          "exists": true,
+          "scope": "Original table with -i/(2omega) bridge"
+        },
+        {
+          "classification": "independent_reimplementation",
+          "path": "docs/environment_reproduction/trace_kappa_radial_precision_audit.json",
+          "exists": true,
+          "scope": "Fixed source trace/kappa endpoint/tolerance/variation alternatives"
+        },
+        {
+          "classification": "original_author_dataset",
+          "path": "docs/environment_reproduction/author_hdf5_metric_aligned_comparison.json",
+          "exists": true,
+          "scope": "Original 2026 HDF5 trace after documented basis conversion matches local complex trace at six points to <=9.75e-11"
+        },
+        {
+          "classification": "original_author_run",
+          "path": "docs/lorenz_public_code_manifest_20260915.json",
+          "exists": true,
+          "scope": "Mathematica Kernel14 executed verbatim Sam and Conor scalar/kappa operators and ConstructSolution-style matching helpers. Scalar/kappa operator differences exactly0; three complex basis scalings through1e±25 preserve exact jumps; local matrix-form difference2.66e-16. This is operator/helper algebra, not full physical kappa integration by this helper test alone."
+        },
+        {
+          "classification": "official_dependency_run",
+          "path": "docs/environment_reproduction/wolfram/official_bhpt_AUTO_comparison.json",
+          "exists": true,
+          "scope": "Executed official Mathematica BHPT code, not the complete 2025 environmental code release. 11cases: a=.6,rp8,ell2,m1,s=-2..2; actual a=.8771530275949366,rp20,ell1,s0±1,m±1. Three radii/case and In/Up; 66samples. No fitted scale or phase. R max relative3.0065e-14,Rprime3.3356e-14; angular lambda absolute1.3172e-13,S5.8009e-15,dS1.3989e-14; massless Green sample relative2.1763e-14.",
+          "manifest": "docs/environment_reproduction/wolfram/official_bhpt_manifest.json",
+          "readable_report": "docs/environment_reproduction/OFFICIAL_BHPT_FUNCTION_AUDIT_20260915.md",
+          "maximum_errors": {
+            "maximum_R_relative": 3.006501476662272e-14,
+            "maximum_dR_relative": 3.335647065658562e-14,
+            "maximum_angular_eigen_absolute": 1.3171755353091896e-13,
+            "maximum_angular_S_absolute": 5.800915303666443e-15,
+            "maximum_angular_dS_absolute": 1.3988810110276972e-14,
+            "maximum_official_W_drift": 4.471020973513945e-16,
+            "maximum_physical_G_relative": 2.1762763510572937e-14
+          }
+        },
+        {
+          "classification": "original_author_run",
+          "path": "docs/environment_reproduction/sam_actual_metric_i6_h5_comparison.json",
+          "exists": true,
+          "scope": "Original Sam radiative reconstruction executed through all three spin sectors and the ten weighted metric projections at actual a=.8771530275949366,rp20,m1,L10,r=2,10,30. Protected ell1..3 component vector-relative maximum 8.191043e-07. Sector0/1/2 maxima 1.158013e-07,1.973502e-12,3.877619e-08. This is a completed full metric code path at three sampled radii and one m, not a full radial grid/high-ell/environmental source/flux verification. No scale/phase fitting; trace transformed by original Bmat0.",
+          "raw_reference_sha256": "b1b2a6d7d64b93581fbf9d050cc5fe1c714f9fa9e809097c0cc174041aa4801b",
+          "reference_json_normalization": {
+            "decimal_exponent_repairs": 65,
+            "unique_tokens": [
+              "-1.e-30",
+              "-4.e-29",
+              "0.e-29",
+              "0.e-30",
+              "0.e-32",
+              "0.e-48",
+              "0.e-49",
+              "0.e-50",
+              "0.e-51",
+              "0.e-52",
+              "0.e-54",
+              "0.e-55",
+              "0.e-57"
+            ],
+            "policy": "Outside-string decimal syntax only; original bytes and numeric values retained"
+          },
+          "configuration": {
+            "a": 0.8771530275949366,
+            "rp": 20.0,
+            "m": 1,
+            "lmax": 10,
+            "radii": [
+              2.0,
+              10.0,
+              30.0
+            ],
+            "protected_output_ells": [
+              1,
+              2,
+              3
+            ],
+            "inford": 6,
+            "horord": 5,
+            "rinf": 10000
+          },
+          "maximum_protected_metric_relative": 8.191043268333072e-07,
+          "maximum_protected_relative_by_sector": {
+            "0": 1.1580133702435377e-07,
+            "1": 1.9735015665941346e-12,
+            "2": 3.8776189959183425e-08
+          }
+        },
+        {
+          "classification": "original_author_run",
+          "path": "docs/environment_reproduction/sam_actual_metric_i7_h6_comparison.json",
+          "exists": true,
+          "scope": "Completed original Sam full radiative metric code path, boundary-refined inford7/horord6/rinf20000, at actual a=.8771530275949366,rp20,m1,L10,r2/10/30 and protected spherical ell1..3. Each of ten component vectors compared over these three ell values: maximum relativeL2 8.191043e-07. Earlier i6/h5 author result changes by at most 3.336806e-12 under refinement. This is bounded full metric validation, not full-grid/high-ell/all-m/source/flux validation.",
+          "raw_reference_sha256": "dd917471c3edbe804215fa3f9dc838185ed78bea679dc9c0ea5f50289d04d6cd",
+          "reference_json_normalization": {
+            "decimal_exponent_repairs": 65,
+            "unique_tokens": [
+              "-1.e-30",
+              "-4.e-29",
+              "0.e-29",
+              "0.e-30",
+              "0.e-32",
+              "0.e-48",
+              "0.e-49",
+              "0.e-50",
+              "0.e-51",
+              "0.e-52",
+              "0.e-54",
+              "0.e-55",
+              "0.e-57"
+            ],
+            "policy": "Outside-string decimal syntax only; original bytes and numeric values retained"
+          },
+          "configuration": {
+            "a": 0.8771530275949366,
+            "rp": 20.0,
+            "m": 1,
+            "lmax": 10,
+            "radii": [
+              2.0,
+              10.0,
+              30.0
+            ],
+            "protected_output_ells": [
+              1,
+              2,
+              3
+            ],
+            "inford": 7,
+            "horord": 6,
+            "rinf": 20000
+          },
+          "maximum_protected_metric_relative": 8.191043293525246e-07,
+          "maximum_protected_relative_by_sector": {
+            "0": 1.1580133333387867e-07,
+            "1": 1.9735015665941346e-12,
+            "2": 3.8776189959183425e-08
+          },
+          "boundary_refinement_report": "docs/environment_reproduction/sam_actual_metric_boundary_convergence.json"
+        },
+        {
+          "classification": "original_author_run",
+          "path": "docs/environment_reproduction/sam_actual_metric_boundary_convergence.json",
+          "exists": true,
+          "scope": "Both actual original-author metric runs completed. Boundary controls6/5/rinf10000 ->7/6/rinf20000 at fixed xhor1e-4,WP50,goal24. Maximum author relative change at r2/r10/r30=6.83e-14/2.06e-14/3.34e-12, while local-vs-fine maximum remains8.191e-7. Hence the residual sampled local difference is not explained by these author boundary settings. This is not horizon-limit/high-L convergence or a final flux test."
+        }
+      ],
+      "missing": "Original full chi and kappa radial profiles at production parameters. Official original massless trace radial samples and author HDF5 trace now pass; massive scalar Green and full metric/source are separate checks."
+    },
+    {
+      "module": "Kappa inhomogeneous resolvent and Taylor series",
+      "implementation": [
+        {
+          "path": "src/lorenz_kappa.py",
+          "exists": true
+        },
+        {
+          "path": "src/environment_trace_variation.py",
+          "exists": true
+        },
+        {
+          "path": "src/environment_radial_variation.py",
+          "exists": true
+        },
+        {
+          "path": "src/paper_kappa_radial.py",
+          "exists": true
+        }
+      ],
+      "original_formula": "DDKW eq:Box-kappa,eq:kappa-lj,eq:kappa-ll,eq:radial-kappa and In/Up asymptotics; WDK2024 eq:kappa",
+      "comparison_inputs": "a,rp,l,m,trace mode; boundary orders/radii; inhomogeneous normalization",
+      "comparison_outputs": "kappa and derivatives,homogeneous constants and source response",
+      "evidence": [
+        {
+          "classification": "independent_reimplementation",
+          "path": "docs/environment_reproduction/paper_kappa_radial_audit.json",
+          "exists": true,
+          "scope": "Our implementation of alternative published formula, not original code"
+        },
+        {
+          "classification": "internal_identity",
+          "path": "docs/environment_reproduction/dipole_kappa_flux_boundary_audit.json",
+          "exists": true,
+          "scope": "Actual source propagation of boundary/analytic variation"
+        },
+        {
+          "classification": "independent_reimplementation",
+          "path": "docs/environment_reproduction/trace_kappa_radial_precision_audit.json",
+          "exists": true,
+          "scope": "Nine-node complex source comparison; endpoint extremely close to horizon can fail integration"
+        },
+        {
+          "classification": "original_author_run",
+          "path": "docs/lorenz_public_code_manifest_20260915.json",
+          "exists": true,
+          "scope": "Mathematica Kernel14 executed verbatim Sam and Conor scalar/kappa operators and ConstructSolution-style matching helpers. Scalar/kappa operator differences exactly0; three complex basis scalings through1e±25 preserve exact jumps; local matrix-form difference2.66e-16. This is operator/helper algebra, not full physical kappa integration by this helper test alone."
+        },
+        {
+          "classification": "original_author_run",
+          "path": "docs/environment_reproduction/sam_vs_production_jumps_ell1to3.json",
+          "exists": true,
+          "scope": "Original Sam matching phase executed at a=.6,rp8,m1,L10,WP50. Four complex spin1/kappa jumps per ell1/2/3 agree with production at row-scaled1.98e-14,1.23e-12,1.15e-13. Modes ell4..10 are excluded as cutoff-edge diagnostics; not a full metric or flux comparison."
+        },
+        {
+          "classification": "original_author_run",
+          "path": "docs/environment_reproduction/sam_actual_vs_production_jumps_ell1to3.json",
+          "exists": true,
+          "scope": "Original Sam matching executed at actual discrepancy a=.8771530275949366,rp20,m1,L10. Four spin1/kappa jump entries for ell1/2/3 agree with production at row-scaled errors 2.2993e-14,3.3554e-12,2.1032e-13. Six-mode cutoff guard; symmetry-zero entries use row scaling. Full metric completion is reported separately; this matching report alone has no source/flux conclusion."
+        },
+        {
+          "classification": "original_author_run",
+          "path": "docs/environment_reproduction/sam_actual_metric_i6_h5_comparison.json",
+          "exists": true,
+          "scope": "Original Sam radiative reconstruction executed through all three spin sectors and the ten weighted metric projections at actual a=.8771530275949366,rp20,m1,L10,r=2,10,30. Protected ell1..3 component vector-relative maximum 8.191043e-07. Sector0/1/2 maxima 1.158013e-07,1.973502e-12,3.877619e-08. This is a completed full metric code path at three sampled radii and one m, not a full radial grid/high-ell/environmental source/flux verification. No scale/phase fitting; trace transformed by original Bmat0.",
+          "raw_reference_sha256": "b1b2a6d7d64b93581fbf9d050cc5fe1c714f9fa9e809097c0cc174041aa4801b",
+          "reference_json_normalization": {
+            "decimal_exponent_repairs": 65,
+            "unique_tokens": [
+              "-1.e-30",
+              "-4.e-29",
+              "0.e-29",
+              "0.e-30",
+              "0.e-32",
+              "0.e-48",
+              "0.e-49",
+              "0.e-50",
+              "0.e-51",
+              "0.e-52",
+              "0.e-54",
+              "0.e-55",
+              "0.e-57"
+            ],
+            "policy": "Outside-string decimal syntax only; original bytes and numeric values retained"
+          },
+          "configuration": {
+            "a": 0.8771530275949366,
+            "rp": 20.0,
+            "m": 1,
+            "lmax": 10,
+            "radii": [
+              2.0,
+              10.0,
+              30.0
+            ],
+            "protected_output_ells": [
+              1,
+              2,
+              3
+            ],
+            "inford": 6,
+            "horord": 5,
+            "rinf": 10000
+          },
+          "maximum_protected_metric_relative": 8.191043268333072e-07,
+          "maximum_protected_relative_by_sector": {
+            "0": 1.1580133702435377e-07,
+            "1": 1.9735015665941346e-12,
+            "2": 3.8776189959183425e-08
+          }
+        },
+        {
+          "classification": "original_author_run",
+          "path": "docs/environment_reproduction/sam_actual_metric_i7_h6_comparison.json",
+          "exists": true,
+          "scope": "Completed original Sam full radiative metric code path, boundary-refined inford7/horord6/rinf20000, at actual a=.8771530275949366,rp20,m1,L10,r2/10/30 and protected spherical ell1..3. Each of ten component vectors compared over these three ell values: maximum relativeL2 8.191043e-07. Earlier i6/h5 author result changes by at most 3.336806e-12 under refinement. This is bounded full metric validation, not full-grid/high-ell/all-m/source/flux validation.",
+          "raw_reference_sha256": "dd917471c3edbe804215fa3f9dc838185ed78bea679dc9c0ea5f50289d04d6cd",
+          "reference_json_normalization": {
+            "decimal_exponent_repairs": 65,
+            "unique_tokens": [
+              "-1.e-30",
+              "-4.e-29",
+              "0.e-29",
+              "0.e-30",
+              "0.e-32",
+              "0.e-48",
+              "0.e-49",
+              "0.e-50",
+              "0.e-51",
+              "0.e-52",
+              "0.e-54",
+              "0.e-55",
+              "0.e-57"
+            ],
+            "policy": "Outside-string decimal syntax only; original bytes and numeric values retained"
+          },
+          "configuration": {
+            "a": 0.8771530275949366,
+            "rp": 20.0,
+            "m": 1,
+            "lmax": 10,
+            "radii": [
+              2.0,
+              10.0,
+              30.0
+            ],
+            "protected_output_ells": [
+              1,
+              2,
+              3
+            ],
+            "inford": 7,
+            "horord": 6,
+            "rinf": 20000
+          },
+          "maximum_protected_metric_relative": 8.191043293525246e-07,
+          "maximum_protected_relative_by_sector": {
+            "0": 1.1580133333387867e-07,
+            "1": 1.9735015665941346e-12,
+            "2": 3.8776189959183425e-08
+          },
+          "boundary_refinement_report": "docs/environment_reproduction/sam_actual_metric_boundary_convergence.json"
+        },
+        {
+          "classification": "original_author_run",
+          "path": "docs/environment_reproduction/sam_actual_metric_boundary_convergence.json",
+          "exists": true,
+          "scope": "Both actual original-author metric runs completed. Boundary controls6/5/rinf10000 ->7/6/rinf20000 at fixed xhor1e-4,WP50,goal24. Maximum author relative change at r2/r10/r30=6.83e-14/2.06e-14/3.34e-12, while local-vs-fine maximum remains8.191e-7. Hence the residual sampled local difference is not explained by these author boundary settings. This is not horizon-limit/high-L convergence or a final flux test."
+        }
+      ],
+      "missing": "Isolated original physical kappa profiles/derivatives over the full actual source grid and boundary/high-ell convergence. Original operator/helper normalization and low-ell matching pass; complete spin0 contribution at three actual radii now agrees to1.16e-7, with a small r2 h_l-l- component increasing relative error. This is not yet the full environment source."
+    },
+    {
+      "module": "Lorenz metric reconstruction and tetrad projection",
+      "implementation": [
+        {
+          "path": "src/lorenz_metric.py",
+          "exists": true
+        },
+        {
+          "path": "src/lorenz_ghp.py",
+          "exists": true
+        },
+        {
+          "path": "src/lorenz_tensor.py",
+          "exists": true
+        },
+        {
+          "path": "src/paper_full_tetrad.py",
+          "exists": true
+        },
+        {
+          "path": "src/environment_lorenz_mode.py",
+          "exists": true
+        }
+      ],
+      "original_formula": "DDKW eq:mp-s2,eq:mp-s1,eq:mp-s0,eq:h-projections; WDK2024 eq:hL and eq:H-DKW",
+      "comparison_inputs": "all spin-sector radial jets and angular factors; a,r,theta,m,omega",
+      "comparison_outputs": "ten weighted tetrad components and BL metric,split sectors",
+      "evidence": [
+        {
+          "classification": "original_author_symbolic_code",
+          "path": "outputs/lorenz_reference/Operators.nb",
+          "exists": true,
+          "scope": "Byte-identical WDK2024 source archive symbolic notebook; no local execution asserted"
+        },
+        {
+          "classification": "independent_reimplementation",
+          "path": "docs/environment_reproduction/full_tetrad_formula_audit.json",
+          "exists": true,
+          "scope": "Independent local derivation from published formulas"
+        },
+        {
+          "classification": "internal_identity",
+          "path": "docs/environment_reproduction/reconstruction_conditioning_audit.json",
+          "exists": true,
+          "scope": "High ell cancellation and perturbation sensitivity"
+        },
+        {
+          "classification": "original_author_dataset",
+          "path": "docs/environment_reproduction/author_hdf5_schema.json",
+          "exists": true,
+          "scope": "Original 2026 a=.6,rp8,ell<=4 HDF5; several coefficients fail orbit-side continuity"
+        },
+        {
+          "classification": "original_author_dataset",
+          "path": "docs/environment_reproduction/author_hdf5_metric_aligned_comparison.json",
+          "exists": true,
+          "scope": "Original-vs-local metric sample comparison; trace agrees, other differences need author-path/truncation diagnosis"
+        },
+        {
+          "classification": "original_author_run",
+          "path": "docs/environment_reproduction/sam_vs_production_jumps_ell1to3.json",
+          "exists": true,
+          "scope": "This report validates the matching phase only; the completed actual-parameter full metric comparison is recorded separately below."
+        },
+        {
+          "classification": "original_author_run",
+          "path": "docs/environment_reproduction/sam_actual_metric_i6_h5_comparison.json",
+          "exists": true,
+          "scope": "Original Sam radiative reconstruction executed through all three spin sectors and the ten weighted metric projections at actual a=.8771530275949366,rp20,m1,L10,r=2,10,30. Protected ell1..3 component vector-relative maximum 8.191043e-07. Sector0/1/2 maxima 1.158013e-07,1.973502e-12,3.877619e-08. This is a completed full metric code path at three sampled radii and one m, not a full radial grid/high-ell/environmental source/flux verification. No scale/phase fitting; trace transformed by original Bmat0.",
+          "raw_reference_sha256": "b1b2a6d7d64b93581fbf9d050cc5fe1c714f9fa9e809097c0cc174041aa4801b",
+          "reference_json_normalization": {
+            "decimal_exponent_repairs": 65,
+            "unique_tokens": [
+              "-1.e-30",
+              "-4.e-29",
+              "0.e-29",
+              "0.e-30",
+              "0.e-32",
+              "0.e-48",
+              "0.e-49",
+              "0.e-50",
+              "0.e-51",
+              "0.e-52",
+              "0.e-54",
+              "0.e-55",
+              "0.e-57"
+            ],
+            "policy": "Outside-string decimal syntax only; original bytes and numeric values retained"
+          },
+          "configuration": {
+            "a": 0.8771530275949366,
+            "rp": 20.0,
+            "m": 1,
+            "lmax": 10,
+            "radii": [
+              2.0,
+              10.0,
+              30.0
+            ],
+            "protected_output_ells": [
+              1,
+              2,
+              3
+            ],
+            "inford": 6,
+            "horord": 5,
+            "rinf": 10000
+          },
+          "maximum_protected_metric_relative": 8.191043268333072e-07,
+          "maximum_protected_relative_by_sector": {
+            "0": 1.1580133702435377e-07,
+            "1": 1.9735015665941346e-12,
+            "2": 3.8776189959183425e-08
+          }
+        },
+        {
+          "classification": "original_author_input_propagation",
+          "path": "docs/environment_reproduction/sam_actual_metric_i6_h5_source_propagation.json",
+          "exists": true,
+          "scope": "Saved actual original Sam/local metric coefficients, identically truncated to output spherical j1..3, reconstructed with spin-weighted spherical harmonics and converted to BL. m_g=-1 is conjugate of positive-m1 BL metric. Shared ThresholdCloud(alpha=.3),Hessian and scalar00 projection give J relative differences r2=2.4781e-9,r10=1.3254e-9,r30=1.8344e-7. Angular48->96 changes<=5.9e-15. Weighted-component cancellation max47.30 at r30 does not amplify this input error to percent scale. Neither result is fullJ or original author environmental-source code.",
+          "implementation": "src/report_author_metric_source_propagation.py",
+          "input_comparison": "docs/environment_reproduction/sam_actual_metric_i6_h5_comparison.json",
+          "input_sha256": "474182c3995cb3a0adbb6d240df104eeb5189f57bbf012a4a5ca819f002bce66"
+        },
+        {
+          "classification": "original_author_run",
+          "path": "docs/environment_reproduction/sam_actual_metric_i7_h6_comparison.json",
+          "exists": true,
+          "scope": "Completed original Sam full radiative metric code path, boundary-refined inford7/horord6/rinf20000, at actual a=.8771530275949366,rp20,m1,L10,r2/10/30 and protected spherical ell1..3. Each of ten component vectors compared over these three ell values: maximum relativeL2 8.191043e-07. Earlier i6/h5 author result changes by at most 3.336806e-12 under refinement. This is bounded full metric validation, not full-grid/high-ell/all-m/source/flux validation.",
+          "raw_reference_sha256": "dd917471c3edbe804215fa3f9dc838185ed78bea679dc9c0ea5f50289d04d6cd",
+          "reference_json_normalization": {
+            "decimal_exponent_repairs": 65,
+            "unique_tokens": [
+              "-1.e-30",
+              "-4.e-29",
+              "0.e-29",
+              "0.e-30",
+              "0.e-32",
+              "0.e-48",
+              "0.e-49",
+              "0.e-50",
+              "0.e-51",
+              "0.e-52",
+              "0.e-54",
+              "0.e-55",
+              "0.e-57"
+            ],
+            "policy": "Outside-string decimal syntax only; original bytes and numeric values retained"
+          },
+          "configuration": {
+            "a": 0.8771530275949366,
+            "rp": 20.0,
+            "m": 1,
+            "lmax": 10,
+            "radii": [
+              2.0,
+              10.0,
+              30.0
+            ],
+            "protected_output_ells": [
+              1,
+              2,
+              3
+            ],
+            "inford": 7,
+            "horord": 6,
+            "rinf": 20000
+          },
+          "maximum_protected_metric_relative": 8.191043293525246e-07,
+          "maximum_protected_relative_by_sector": {
+            "0": 1.1580133333387867e-07,
+            "1": 1.9735015665941346e-12,
+            "2": 3.8776189959183425e-08
+          },
+          "boundary_refinement_report": "docs/environment_reproduction/sam_actual_metric_boundary_convergence.json"
+        },
+        {
+          "classification": "original_author_run",
+          "path": "docs/environment_reproduction/sam_actual_metric_boundary_convergence.json",
+          "exists": true,
+          "scope": "Both actual original-author metric runs completed. Boundary controls6/5/rinf10000 ->7/6/rinf20000 at fixed xhor1e-4,WP50,goal24. Maximum author relative change at r2/r10/r30=6.83e-14/2.06e-14/3.34e-12, while local-vs-fine maximum remains8.191e-7. Hence the residual sampled local difference is not explained by these author boundary settings. This is not horizon-limit/high-L convergence or a final flux test."
+        },
+        {
+          "classification": "original_author_input_propagation",
+          "path": "docs/environment_reproduction/sam_actual_metric_i7_h6_source_propagation.json",
+          "exists": true,
+          "scope": "Refined original author/local metric coefficients truncated identically to protected sphericalj1..3 and propagated through the SAME LOCAL ThresholdCloud/Hessian/scalar00 projection. Relative J differences r2/r10/r30=2.4781e-9/1.3254e-9/1.8344e-7;48/96 angular changes remain below6e-15. Weighted-component cancellation max47.30; no percent-scale amplification observed in these three truncated contractions. This is not original-author environmental source code and neither J is fullJ.",
+          "implementation": "src/report_author_metric_source_propagation.py",
+          "input_comparison": "docs/environment_reproduction/sam_actual_metric_i7_h6_comparison.json",
+          "input_sha256": "e7763c34fca6b8cba3e9328891e28418515d360199680397c30fa935f0a009b3",
+          "coarse_fine_author_J_changes": [
+            {
+              "r": 2.0,
+              "relative_author_J_boundary_change": 7.708425704393159e-16
+            },
+            {
+              "r": 10.0,
+              "relative_author_J_boundary_change": 2.3440098617991618e-15
+            },
+            {
+              "r": 30.0,
+              "relative_author_J_boundary_change": 1.3537303644010817e-13
+            }
+          ]
+        }
+      ],
+      "missing": "Still missing original converged high-ell/full-source-grid metric data,additional m and original2025 environmental production settings. Both actual-parameter i6/h5 and refinedi7/h6 full metric code paths now pass ten component vectors at three radii for protectedell1..3 to8.2e-7. No remaining wait for the abandoned inford10 experiments."
+    },
+    {
+      "module": "Source jumps and coupled matching",
+      "implementation": [
+        {
+          "path": "src/paper_all_component_matching.py",
+          "exists": true
+        },
+        {
+          "path": "src/paper_sourced_matching.py",
+          "exists": true
+        },
+        {
+          "path": "src/paper_jump_basis.py",
+          "exists": true
+        },
+        {
+          "path": "src/paper_analytic_jumps.py",
+          "exists": true
+        }
+      ],
+      "original_formula": "DDKW eq:Jumps,eq:C0,eq:C1,eq:system",
+      "comparison_inputs": "orbit data,selected spherical projections and spin2/trace jumps",
+      "comparison_outputs": "spin1/kappa jump constants; all metric continuity and derivative jumps",
+      "evidence": [
+        {
+          "classification": "independent_reimplementation",
+          "path": "docs/environment_reproduction/all_component_matching_L8_q28_precise.json",
+          "exists": true,
+          "scope": "Independent matching solve in local code"
+        },
+        {
+          "classification": "internal_identity",
+          "path": "docs/environment_reproduction/full_gauge_closure_L8_precise.json",
+          "exists": true,
+          "scope": "Full closure check, no original jump arrays"
+        },
+        {
+          "classification": "original_author_dataset",
+          "path": "docs/environment_reproduction/author_hdf5_schema.json",
+          "exists": true,
+          "scope": "Direct raw orbit-side continuity diagnostic; no interpolation"
+        },
+        {
+          "classification": "original_author_run",
+          "path": "docs/environment_reproduction/sam_vs_production_jumps_ell1to3.json",
+          "exists": true,
+          "scope": "Original Sam matching phase executed at a=.6,rp8,m1,L10,WP50. Four complex spin1/kappa jumps per ell1/2/3 agree with production at row-scaled1.98e-14,1.23e-12,1.15e-13. Modes ell4..10 are excluded as cutoff-edge diagnostics; not a full metric or flux comparison."
+        },
+        {
+          "classification": "original_author_run",
+          "path": "docs/environment_reproduction/sam_actual_vs_production_jumps_ell1to3.json",
+          "exists": true,
+          "scope": "Original Sam matching executed at actual discrepancy a=.8771530275949366,rp20,m1,L10. Four spin1/kappa jump entries for ell1/2/3 agree with production at row-scaled errors 2.2993e-14,3.3554e-12,2.1032e-13. Six-mode cutoff guard; symmetry-zero entries use row scaling. Full metric completion is reported separately; this matching report alone has no source/flux conclusion."
+        },
+        {
+          "classification": "independent_reimplementation",
+          "path": "docs/environment_reproduction/sam_vs_local_matching_L10_q32.json",
+          "exists": true,
+          "comparison_reference_classification": "original_author_run",
+          "scope": "High-precision independent local L10/q32 matching assembled with original Sam lmlm supplementary equation compared to the executed original Sam a=.6,rp8,m1 result: ell1/2/3 relative2.33e-15,4.39e-16,4.01e-15. Same-matrix mixed-condition control4.76e-13,2.91e-14,4.03e-15. Cutoff-edge ell8/9/10 reach1.02e-8,1.70e-7,3.44e-6; only guarded ell1..3 validated. Absolute unused residual2.81 must not be reported as low-mode relative error."
+        }
+      ],
+      "missing": "Full angular-cutoff convergence and high-ell matching remain. Original L10 matching passes guarded ell1..3 at both sample and actual parameters; first full metric code path has also completed at three actual radii, but this does not validate all high-ell/source-grid entries."
+    },
+    {
+      "module": "Static sector and completion",
+      "implementation": [
+        {
+          "path": "src/environment_static_lorenz.py",
+          "exists": true
+        },
+        {
+          "path": "src/lorenz_static_trace.py",
+          "exists": true
+        },
+        {
+          "path": "src/lorenz_static_spin2.py",
+          "exists": true
+        },
+        {
+          "path": "src/lorenz_static_gauge.py",
+          "exists": true
+        }
+      ],
+      "original_formula": "DDKW static eq:hm0,eq:Delta-c-def,eq:EG; Dyson completion discussion",
+      "comparison_inputs": "a,rp,m=0,energy/angular momentum charge choices",
+      "comparison_outputs": "static metric and charges,regularity across boundaries",
+      "evidence": [
+        {
+          "classification": "internal_identity",
+          "path": "docs/environment_reproduction/static_matching_convergence.json",
+          "exists": true,
+          "scope": "Local static refinement"
+        },
+        {
+          "classification": "original_author_code",
+          "path": "outputs/paper_metric_reference/srd24_KerrLorenzCirc/metric_reconstruction_calc_static.nb",
+          "exists": true,
+          "scope": "Author static notebook, not an execution record; special completion gauge convention described in README"
+        }
+      ],
+      "missing": "Raw author static completion data in same gauge at production parameters. Nonstatic gravitational m=1 produces dominant scalar m_s=0; these must not be confused."
+    },
+    {
+      "module": "Covariant scalar source",
+      "implementation": [
+        {
+          "path": "src/environment_source.py",
+          "exists": true
+        },
+        {
+          "path": "src/report_independent_scalar00_response.py",
+          "exists": true
+        },
+        {
+          "path": "src/report_environment_forced_mode.py",
+          "exists": true
+        },
+        {
+          "path": "src/source_provenance.py",
+          "exists": true
+        }
+      ],
+      "original_formula": "Dyson eq:operators2,eq:rhs_lead,eq:EOM_sourced: (Box-mu^2)phi11=h^{ab} nabla_a nabla_b phi10",
+      "comparison_inputs": "normalized cloud,metric/Hessian,frequency mixing,angular quadrature,one-sided radial samples",
+      "comparison_outputs": "complex scalar source projected onto output spheroidal harmonics",
+      "evidence": [
+        {
+          "classification": "independent_reimplementation",
+          "path": "docs/environment_reproduction/independent_scalar00_response_audit.json",
+          "exists": true,
+          "scope": "Alternative contraction/quadrature, but still shares our metric input"
+        },
+        {
+          "classification": "internal_identity",
+          "path": "docs/environment_reproduction/scalar_source_orbit_limits_comparison.json",
+          "exists": true,
+          "scope": "One-sided source limits"
+        },
+        {
+          "classification": "original_author_code",
+          "path": "docs/CONOR_ENVIRONMENT_SOURCE_SEARCH_20260915.md",
+          "exists": true,
+          "scope": "Complete fixed-commit readable-text search:2111files,2069texts,47.35MB,Git blob checked; no identifiable full massive cloud/Klein-Gordon environment source/flux pipeline found. Old notebooks contain real boson-tagged metric output paths, so this is not a claim of no environment-related artifacts. CompressedData/binary contents and unpublished local referenced files excluded.",
+          "manifest": "docs/CONOR_ENVIRONMENT_SOURCE_SEARCH_20260915_manifest.json"
+        },
+        {
+          "classification": "original_author_input_propagation",
+          "path": "docs/environment_reproduction/sam_actual_metric_i6_h5_source_propagation.json",
+          "exists": true,
+          "scope": "Saved actual original Sam/local metric coefficients, identically truncated to output spherical j1..3, reconstructed with spin-weighted spherical harmonics and converted to BL. m_g=-1 is conjugate of positive-m1 BL metric. Shared ThresholdCloud(alpha=.3),Hessian and scalar00 projection give J relative differences r2=2.4781e-9,r10=1.3254e-9,r30=1.8344e-7. Angular48->96 changes<=5.9e-15. Weighted-component cancellation max47.30 at r30 does not amplify this input error to percent scale. Neither result is fullJ or original author environmental-source code.",
+          "implementation": "src/report_author_metric_source_propagation.py",
+          "input_comparison": "docs/environment_reproduction/sam_actual_metric_i6_h5_comparison.json",
+          "input_sha256": "474182c3995cb3a0adbb6d240df104eeb5189f57bbf012a4a5ca819f002bce66"
+        },
+        {
+          "classification": "original_author_input_propagation",
+          "path": "docs/environment_reproduction/sam_actual_metric_i7_h6_source_propagation.json",
+          "exists": true,
+          "scope": "Refined original author/local metric coefficients truncated identically to protected sphericalj1..3 and propagated through the SAME LOCAL ThresholdCloud/Hessian/scalar00 projection. Relative J differences r2/r10/r30=2.4781e-9/1.3254e-9/1.8344e-7;48/96 angular changes remain below6e-15. Weighted-component cancellation max47.30; no percent-scale amplification observed in these three truncated contractions. This is not original-author environmental source code and neither J is fullJ.",
+          "implementation": "src/report_author_metric_source_propagation.py",
+          "input_comparison": "docs/environment_reproduction/sam_actual_metric_i7_h6_comparison.json",
+          "input_sha256": "e7763c34fca6b8cba3e9328891e28418515d360199680397c30fa935f0a009b3",
+          "coarse_fine_author_J_changes": [
+            {
+              "r": 2.0,
+              "relative_author_J_boundary_change": 7.708425704393159e-16
+            },
+            {
+              "r": 10.0,
+              "relative_author_J_boundary_change": 2.3440098617991618e-15
+            },
+            {
+              "r": 30.0,
+              "relative_author_J_boundary_change": 1.3537303644010817e-13
+            }
+          ]
+        }
+      ],
+      "missing": "Original author spline grids,derivative order,boundary extrapolation,source values and exact angular projection output; this is not supplied by public metric HDF5."
+    },
+    {
+      "module": "Massive scalar radial Green solver",
+      "implementation": [
+        {
+          "path": "src/environment_radial.py",
+          "exists": true
+        },
+        {
+          "path": "src/paper_leaver_radial.py",
+          "exists": true
+        },
+        {
+          "path": "src/report_environment_forced_mode.py",
+          "exists": true
+        }
+      ],
+      "original_formula": "Dyson numerical appendix In/Up asymptotics,variation-of-parameters,Wronskian equations",
+      "comparison_inputs": "mu,omega_s,l_s,m_s,angular eigenvalue,k,source grid,boundary/ODE controls",
+      "comparison_outputs": "massive In/Up radial functions,Green kernel,Z_H,Z_infinity",
+      "evidence": [
+        {
+          "classification": "independent_reimplementation",
+          "path": "docs/environment_reproduction/leaver_radial_full_audit.json",
+          "exists": true,
+          "scope": "Our Leaver recurrence vs our ODE"
+        },
+        {
+          "classification": "independent_reimplementation",
+          "path": "docs/environment_reproduction/leaver_green_kernel_audit.json",
+          "exists": true,
+          "scope": "Independent kernel normalization"
+        },
+        {
+          "classification": "internal_identity",
+          "path": "docs/environment_reproduction/massive_radial_precision_audit.json",
+          "exists": true,
+          "scope": "21 fixed sources,endpoint/tolerance/Coulomb changes; not original code"
+        },
+        {
+          "classification": "original_author_code",
+          "path": "docs/CONOR_ENVIRONMENT_SOURCE_SEARCH_20260915.md",
+          "exists": true,
+          "scope": "Complete fixed-commit readable-text search:2111files,2069texts,47.35MB,Git blob checked; no identifiable full massive cloud/Klein-Gordon environment source/flux pipeline found. Old notebooks contain real boson-tagged metric output paths, so this is not a claim of no environment-related artifacts. CompressedData/binary contents and unpublished local referenced files excluded.",
+          "manifest": "docs/CONOR_ENVIRONMENT_SOURCE_SEARCH_20260915_manifest.json"
+        }
+      ],
+      "missing": "Original author massive radial functions and normalization at threshold/superradiant regimes. Massless MST/GSN cannot be transferred unchanged to massive Klein-Gordon."
+    },
+    {
+      "module": "Flux, mode sum and comparison target",
+      "implementation": [
+        {
+          "path": "src/environment_cloud.py",
+          "exists": true
+        },
+        {
+          "path": "src/report_flux_coverage.py",
+          "exists": true
+        },
+        {
+          "path": "src/report_full_reference_audit.py",
+          "exists": true
+        },
+        {
+          "path": "src/extract_paper_flux_markers.py",
+          "exists": true
+        }
+      ],
+      "original_formula": "Dyson eq:enery_flux_ind,eq:Noether_ind,eq:scalar_flux,eq:energy_angmom",
+      "comparison_inputs": "normalized Z_H,Z_infinity,omega_s,omega_c,m,cloud mass,mode coverage",
+      "comparison_outputs": "per-mode and summed energy/angular-momentum/Noether fluxes;paper plotted normalization",
+      "evidence": [
+        {
+          "classification": "plot_digitization",
+          "path": "docs/environment_reproduction/full_reference_audit_20260915.json",
+          "exists": true,
+          "scope": "Quantitative comparison to PDF markers; not raw author arrays"
+        },
+        {
+          "classification": "plot_digitization",
+          "path": "docs/environment_reproduction/paper_v1_flux_markers.json",
+          "exists": true,
+          "scope": "Values extracted from original vector PDF figure"
+        },
+        {
+          "classification": "original_author_document",
+          "path": "outputs/environment_reference/Flux_Inf_Hor_TwoPanels_2.pdf",
+          "exists": true,
+          "scope": "Original author figure in arXiv source; graph coordinates are not original table"
+        },
+        {
+          "classification": "original_author_code",
+          "path": "docs/CONOR_ENVIRONMENT_SOURCE_SEARCH_20260915.md",
+          "exists": true,
+          "scope": "Complete fixed-commit readable-text search:2111files,2069texts,47.35MB,Git blob checked; no identifiable full massive cloud/Klein-Gordon environment source/flux pipeline found. Old notebooks contain real boson-tagged metric output paths, so this is not a claim of no environment-related artifacts. CompressedData/binary contents and unpublished local referenced files excluded.",
+          "manifest": "docs/CONOR_ENVIRONMENT_SOURCE_SEARCH_20260915_manifest.json"
+        }
+      ],
+      "missing": "Original 2025 numeric per-mode fluxes,total flux arrays,mode cutoffs,error bars and exact settings for plotted points."
+    }
+  ],
+  "critical_distinctions": [
+    "Original 2025 arXiv source contains the paper and figures, not cloud/source/radial/flux raw arrays or numerical solver.",
+    "Original 2024 arXiv source contains amplitudes.dat and Operators.nb; these are real author reference artifacts.",
+    "New srd24 and ConorDyson repository artifacts include real author source and HDF5, but current commits and 2026 fork sample are not demonstrated to be the 2025 production run.",
+    "Original HDF5 trace has raw spheroidal basis; after explicit conversion to spherical, local trace agrees to <=9.75e-11 at six sampled points.",
+    "HDF5 first-nine component discontinuities and inconsistent generator paths prevent using every number as ground truth.",
+    "ConvolveSource.m from BHPTK/Teukolsky is a third-party upstream file, not Dyson adapted code; diagnose_*.py and src/paper_*.py are our implementations.",
+    "Local metric/source/forced-mode caches and the patched MST bridge are not original author arrays/code.",
+    "Original scalar/kappa operator helpers and original Sam matching have now actually run and passed bounded comparisons. The full original metric and environmental flux are separate milestones and must not be inferred from these module runs.",
+    "Official BHPT Mathematica dependency code has been executed for11cases and matches AUTO radial R/Rprime to3.34e-14. These are official_dependency_run results, not the original environmental pipeline or a historical dependency lockfile.",
+    "The first complete original Sam radiative metric execution at actual parameters has now finished. Ten protected ell1..3 components at three radii agree within8.2e-7; do not describe full metric accuracy as1e-14 or infer full environment source/flux validation.",
+    "A full readable-text search of the Conor fixed commit found boson-tagged metric-output history but no identifiable complete massive environmental pipeline. This bounded absence of located code is not a claim that the authors do not possess it.",
+    "The same bounded author/local metric inputs have been propagated through a SHARED LOCAL cloud/Hessian source. J differences<=1.84e-7 at three radii rule out percent-scale amplification for that truncated diagnostic only; they do not validate original author cloud/source code or the complete source.",
+    "Both i6/h5 and i7/h6 original full metric sample runs completed; boundary refinement changes author values by<=3.34e-12 but local-vs-author error remains<=8.2e-7. Inford10 symbolic-expansion experiments were abandoned as complete-run candidates, with their completed matching outputs retained; they are not waiting tasks."
+  ],
+  "execution_status": {
+    "original_operator_and_matching_helpers": "completed",
+    "sam_matching_a06_rp8_m1_L10": "completed",
+    "sam_full_metric": "completed: actual-parameter full metric i6/h5 and refinedi7/h6 at r2/10/30,m1,L10,protectedell1..3",
+    "sam_actual_a0877_rp20": "matching and both full-metric sampled comparisons completed",
+    "environmental_source_and_flux_original_run": "not available",
+    "official_Mathematica_BHPT_11cases": "completed: orbit, SWSH, massless MST In/Up R/Rprime and sampled Green kernel",
+    "bounded_original_metric_input_source_propagation": "completed for both i6/h5 and i7/h6: same local cloud/Hessian, j1..3/scalar00; not original environment-source execution",
+    "author_boundary_refinement": "completed: maximum author change3.34e-12; local-vs-fine maximum8.191e-7",
+    "inford10_symbolic_expansion_experiments": "abandoned as full-metric run candidates; completed original matching outputs remain valid and recorded; not pending work"
+  },
+  "original_code_runs": [
+    {
+      "id": "original_scalar_kappa_helpers",
+      "origin": "srd24/KerrLorenzCirc and ConorDyson/KerrLorenzMSF",
+      "status": "completed",
+      "evidence": {
+        "classification": "original_author_run",
+        "path": "docs/lorenz_public_code_manifest_20260915.json",
+        "exists": true,
+        "scope": "Mathematica Kernel14 executed verbatim Sam and Conor scalar/kappa operators and ConstructSolution-style matching helpers. Scalar/kappa operator differences exactly0; three complex basis scalings through1e±25 preserve exact jumps; local matrix-form difference2.66e-16. This is operator/helper algebra, not full physical kappa integration by this helper test alone."
+      },
+      "raw_output": "outputs/paper_metric_reference/radial_author_modules.json",
+      "driver": "outputs/paper_metric_reference/radial_author_modules.wls",
+      "provenance": "outputs/paper_metric_reference/code_audit.json"
+    },
+    {
+      "id": "sam_matching_a06_rp8",
+      "origin": "srd24/KerrLorenzCirc",
+      "status": "completed_matching_phase",
+      "evidence": {
+        "classification": "original_author_run",
+        "path": "docs/environment_reproduction/sam_vs_production_jumps_ell1to3.json",
+        "exists": true,
+        "scope": "Original Sam matching phase executed at a=.6,rp8,m1,L10,WP50. Four complex spin1/kappa jumps per ell1/2/3 agree with production at row-scaled1.98e-14,1.23e-12,1.15e-13. Modes ell4..10 are excluded as cutoff-edge diagnostics; not a full metric or flux comparison."
+      },
+      "raw_output": "outputs/paper_metric_reference/sam_L10_m1/matching.json",
+      "driver": "outputs/paper_metric_reference/sam_L10_m1/run_sam.wls",
+      "provenance": "docs/environment_reproduction/sam_minimal_driver_manifest_20260915.json",
+      "manifest_status_note": "Driver manifest records initial prepared state; matching.json and comparison report are the subsequent execution evidence. Full metric completion is recorded separately in the later actual-parameter run."
+    },
+    {
+      "id": "official_BHPT_dependency_11cases",
+      "origin": "BlackHolePerturbationToolkit official Teukolsky, SpinWeightedSpheroidalHarmonics, KerrGeodesics packages",
+      "status": "completed_dependency_functions",
+      "evidence": {
+        "classification": "official_dependency_run",
+        "path": "docs/environment_reproduction/wolfram/official_bhpt_AUTO_comparison.json",
+        "exists": true,
+        "scope": "Executed official Mathematica BHPT code, not the complete 2025 environmental code release. 11cases: a=.6,rp8,ell2,m1,s=-2..2; actual a=.8771530275949366,rp20,ell1,s0±1,m±1. Three radii/case and In/Up; 66samples. No fitted scale or phase. R max relative3.0065e-14,Rprime3.3356e-14; angular lambda absolute1.3172e-13,S5.8009e-15,dS1.3989e-14; massless Green sample relative2.1763e-14.",
+        "manifest": "docs/environment_reproduction/wolfram/official_bhpt_manifest.json",
+        "readable_report": "docs/environment_reproduction/OFFICIAL_BHPT_FUNCTION_AUDIT_20260915.md",
+        "maximum_errors": {
+          "maximum_R_relative": 3.006501476662272e-14,
+          "maximum_dR_relative": 3.335647065658562e-14,
+          "maximum_angular_eigen_absolute": 1.3171755353091896e-13,
+          "maximum_angular_S_absolute": 5.800915303666443e-15,
+          "maximum_angular_dS_absolute": 1.3988810110276972e-14,
+          "maximum_official_W_drift": 4.471020973513945e-16,
+          "maximum_physical_G_relative": 2.1762763510572937e-14
+        }
+      },
+      "raw_output": "outputs/paper_metric_reference/wolfram_dependencies/official_results",
+      "driver": "docs/environment_reproduction/wolfram/bhpt_official_probe.wls",
+      "provenance": "docs/environment_reproduction/wolfram/official_bhpt_manifest.json"
+    },
+    {
+      "id": "sam_matching_actual_a0877_rp20",
+      "origin": "srd24/KerrLorenzCirc",
+      "status": "completed_matching_phase",
+      "evidence": {
+        "classification": "original_author_run",
+        "path": "docs/environment_reproduction/sam_actual_vs_production_jumps_ell1to3.json",
+        "exists": true,
+        "scope": "Original Sam matching executed at actual discrepancy a=.8771530275949366,rp20,m1,L10. Four spin1/kappa jump entries for ell1/2/3 agree with production at row-scaled errors 2.2993e-14,3.3554e-12,2.1032e-13. Six-mode cutoff guard; symmetry-zero entries use row scaling. Full metric completion is reported separately; this matching report alone has no source/flux conclusion."
+      },
+      "raw_output": "outputs/paper_metric_reference/sam_actual_L10_m1/matching.json",
+      "driver": "outputs/paper_metric_reference/sam_actual_L10_m1/run_sam.wls",
+      "provenance": "docs/environment_reproduction/sam_actual_minimal_driver_manifest_20260915.json",
+      "manifest_status_note": "Initial driver setup manifest; subsequent matching output/report establishes completed matching phase only."
+    },
+    {
+      "id": "sam_actual_full_metric_i6_h5",
+      "origin": "srd24/KerrLorenzCirc",
+      "status": "completed_full_reconstruction_at_bounded_samples",
+      "evidence": {
+        "classification": "original_author_run",
+        "path": "docs/environment_reproduction/sam_actual_metric_i6_h5_comparison.json",
+        "exists": true,
+        "scope": "Original Sam radiative reconstruction executed through all three spin sectors and the ten weighted metric projections at actual a=.8771530275949366,rp20,m1,L10,r=2,10,30. Protected ell1..3 component vector-relative maximum 8.191043e-07. Sector0/1/2 maxima 1.158013e-07,1.973502e-12,3.877619e-08. This is a completed full metric code path at three sampled radii and one m, not a full radial grid/high-ell/environmental source/flux verification. No scale/phase fitting; trace transformed by original Bmat0.",
+        "raw_reference_sha256": "b1b2a6d7d64b93581fbf9d050cc5fe1c714f9fa9e809097c0cc174041aa4801b",
+        "reference_json_normalization": {
+          "decimal_exponent_repairs": 65,
+          "unique_tokens": [
+            "-1.e-30",
+            "-4.e-29",
+            "0.e-29",
+            "0.e-30",
+            "0.e-32",
+            "0.e-48",
+            "0.e-49",
+            "0.e-50",
+            "0.e-51",
+            "0.e-52",
+            "0.e-54",
+            "0.e-55",
+            "0.e-57"
+          ],
+          "policy": "Outside-string decimal syntax only; original bytes and numeric values retained"
+        },
+        "configuration": {
+          "a": 0.8771530275949366,
+          "rp": 20.0,
+          "m": 1,
+          "lmax": 10,
+          "radii": [
+            2.0,
+            10.0,
+            30.0
+          ],
+          "protected_output_ells": [
+            1,
+            2,
+            3
+          ],
+          "inford": 6,
+          "horord": 5,
+          "rinf": 10000
+        },
+        "maximum_protected_metric_relative": 8.191043268333072e-07,
+        "maximum_protected_relative_by_sector": {
+          "0": 1.1580133702435377e-07,
+          "1": 1.9735015665941346e-12,
+          "2": 3.8776189959183425e-08
+        }
+      },
+      "raw_output": "outputs/paper_metric_reference/sam_actual_L10_i6_h5/metric_samples.json",
+      "driver": "outputs/paper_metric_reference/sam_actual_L10_i6_h5/run_sam.wls",
+      "provenance": "outputs/paper_metric_reference/sam_actual_L10_i6_h5/driver_manifest.json"
+    },
+    {
+      "id": "sam_actual_full_metric_i7_h6",
+      "origin": "srd24/KerrLorenzCirc",
+      "status": "completed_boundary_refined_full_reconstruction_at_bounded_samples",
+      "evidence": {
+        "classification": "original_author_run",
+        "path": "docs/environment_reproduction/sam_actual_metric_i7_h6_comparison.json",
+        "exists": true,
+        "scope": "Completed original Sam full radiative metric code path, boundary-refined inford7/horord6/rinf20000, at actual a=.8771530275949366,rp20,m1,L10,r2/10/30 and protected spherical ell1..3. Each of ten component vectors compared over these three ell values: maximum relativeL2 8.191043e-07. Earlier i6/h5 author result changes by at most 3.336806e-12 under refinement. This is bounded full metric validation, not full-grid/high-ell/all-m/source/flux validation.",
+        "raw_reference_sha256": "dd917471c3edbe804215fa3f9dc838185ed78bea679dc9c0ea5f50289d04d6cd",
+        "reference_json_normalization": {
+          "decimal_exponent_repairs": 65,
+          "unique_tokens": [
+            "-1.e-30",
+            "-4.e-29",
+            "0.e-29",
+            "0.e-30",
+            "0.e-32",
+            "0.e-48",
+            "0.e-49",
+            "0.e-50",
+            "0.e-51",
+            "0.e-52",
+            "0.e-54",
+            "0.e-55",
+            "0.e-57"
+          ],
+          "policy": "Outside-string decimal syntax only; original bytes and numeric values retained"
+        },
+        "configuration": {
+          "a": 0.8771530275949366,
+          "rp": 20.0,
+          "m": 1,
+          "lmax": 10,
+          "radii": [
+            2.0,
+            10.0,
+            30.0
+          ],
+          "protected_output_ells": [
+            1,
+            2,
+            3
+          ],
+          "inford": 7,
+          "horord": 6,
+          "rinf": 20000
+        },
+        "maximum_protected_metric_relative": 8.191043293525246e-07,
+        "maximum_protected_relative_by_sector": {
+          "0": 1.1580133333387867e-07,
+          "1": 1.9735015665941346e-12,
+          "2": 3.8776189959183425e-08
+        },
+        "boundary_refinement_report": "docs/environment_reproduction/sam_actual_metric_boundary_convergence.json"
+      },
+      "raw_output": "outputs/paper_metric_reference/sam_actual_L10_i7_h6/metric_samples.json",
+      "driver": "outputs/paper_metric_reference/sam_actual_L10_i7_h6/run_sam.wls",
+      "provenance": "outputs/paper_metric_reference/sam_actual_L10_i7_h6/driver_manifest.json"
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "original_source_sha256": "124fc609fb36f46d4f28378ac040655c8ae7d3cff9346ec62134c358ce223ca9",
+  "original_commit": "5c1b42793ff893fd0c65a5b48ceecc02d34c5e35",
+  "status": "launched",
+  "phase_sources": {
+    "01_matching.m": {
+      "original_line_spans": [
+        [
+          43,
+          951
+        ]
+      ],
+      "sha256": "f653aa85155c050002b738d5bd44385512f9d5cfed49cf23ef6a8677ad3c0636"
+    },
+    "02_radial.m": {
+      "original_line_spans": [
+        [
+          954,
+          1274
+        ]
+      ],
+      "sha256": "40d5ce0389a07ec5296768b81d8b5e3a6b982bc9412e4789022c0e75d03d48ad"
+    },
+    "03_fields.m": {
+      "original_line_spans": [
+        [
+          1354,
+          1437
+        ],
+        [
+          1444,
+          1464
+        ],
+        [
+          1472,
+          1487
+        ],
+        [
+          1491,
+          1494
+        ],
+        [
+          1500,
+          1500
+        ],
+        [
+          1504,
+          1857
+        ],
+        [
+          1875,
+          2055
+        ],
+        [
+          2085,
+          2191
+        ],
+        [
+          2217,
+          2248
+        ]
+      ],
+      "sha256": "2a0da09b1d07317bd0e618022701bc2aea219ba284ee6e4b66f46733d2f294ca"
+    }
+  },
+  "omissions": "Original CLI/directory code; dense radial grid; demonstration evaluations; bulk binary export. All matching and physical function definitions retained unchanged.",
+  "config": {
+    "a": "8771530275949366/10000000000000000",
+    "r0": "20",
+    "m": "1",
+    "n": "1",
+    "angres": "8",
+    "lmax": "10",
+    "lplot": "3",
+    "nterms": "12",
+    "inford": "6",
+    "horord": "5",
+    "rinf": "10000",
+    "xhor": "1/10000",
+    "rmax": "50",
+    "accgoal": "24",
+    "kapord": "10",
+    "prec": "50",
+    "rgrid": "1",
+    "rstmin": "3",
+    "rstmax": "12",
+    "dformat": "\"Real64\""
+  },
+  "driver_sha256": "daf38fb084ac11a5b7b08620a694db2ec04055480349b012af6a37bbcd393aa6",
+  "kernel": "14.0.0 Windows 64-bit",
+  "changes_from_sam_original": [
+    {
+      "original_line": 219,
+      "before": "a0=SetPrecision[Round[GetParam[\"a\"]*iround]/iround,prec];",
+      "after": "a0=SetPrecision[GetParam[\"a\"],prec]",
+      "reason": "Preserve exact decimal spin; original rounds to 3 decimals."
+    }
+  ],
+  "points": [
+    2,
+    10,
+    30
+  ],
+  "changes_in_this_run": {
+    "numerical_controls": {
+      "inford": [
+        10,
+        6
+      ],
+      "horord": [
+        8,
+        5
+      ],
+      "rinf": [
+        4000,
+        10000
+      ]
+    },
+    "logging_insertions": [
+      {
+        "before_source_line": 954,
+        "added": "AuthorAudit`mark[\"radial_begin\"];"
+      },
+      {
+        "before_source_line": 958,
+        "added": "AuthorAudit`mark[\"tortoise_phase\"];"
+      },
+      {
+        "before_source_line": 974,
+        "added": "AuthorAudit`mark[\"infinity_scalar_operator\"];"
+      },
+      {
+        "before_source_line": 978,
+        "added": "AuthorAudit`mark[\"infinity_scalar_prefactor\"];"
+      },
+      {
+        "before_source_line": 980,
+        "added": "AuthorAudit`mark[\"infinity_scalar_simplify\"];"
+      },
+      {
+        "before_source_line": 983,
+        "added": "AuthorAudit`mark[\"infinity_scalar_series\"];"
+      },
+      {
+        "before_source_line": 986,
+        "added": "AuthorAudit`mark[\"infinity_scalar_coefficients\"];"
+      },
+      {
+        "after_source_line": 986,
+        "added": "AuthorAudit`mark[\"up_h_coeff_\"<>ToString[kk]];"
+      },
+      {
+        "before_source_line": 996,
+        "added": "AuthorAudit`mark[\"infinity_kappa2_operator\"];"
+      },
+      {
+        "before_source_line": 1001,
+        "added": "AuthorAudit`mark[\"infinity_kappa2_series\"];"
+      },
+      {
+        "before_source_line": 1005,
+        "added": "AuthorAudit`mark[\"infinity_kappa2_coefficients\"];"
+      },
+      {
+        "after_source_line": 1005,
+        "added": "AuthorAudit`mark[\"up_kappa2_coeff_\"<>ToString[kk]];"
+      },
+      {
+        "before_source_line": 1019,
+        "added": "AuthorAudit`mark[\"infinity_kappa0_operator\"];"
+      },
+      {
+        "before_source_line": 1024,
+        "added": "AuthorAudit`mark[\"infinity_kappa0_series\"];"
+      },
+      {
+        "before_source_line": 1026,
+        "added": "AuthorAudit`mark[\"infinity_kappa0_coefficients\"];"
+      },
+      {
+        "after_source_line": 1026,
+        "added": "AuthorAudit`mark[\"up_kappa0_coeff_\"<>ToString[kk]];"
+      },
+      {
+        "before_source_line": 1036,
+        "added": "AuthorAudit`mark[\"up_ode_construct\"];"
+      },
+      {
+        "before_source_line": 1038,
+        "added": "AuthorAudit`mark[\"up_initial_conditions_simplify\"];"
+      },
+      {
+        "before_source_line": 1041,
+        "added": "AuthorAudit`mark[\"up_ode_test\"];"
+      },
+      {
+        "before_source_line": 1046,
+        "added": "AuthorAudit`mark[\"up_teukolsky_check\"];"
+      },
+      {
+        "before_source_line": 1063,
+        "added": "AuthorAudit`mark[\"up_ode_all_ell\"];"
+      },
+      {
+        "after_source_line": 1066,
+        "added": "AuthorAudit`mark[\"up_ode_ell_\"<>ToString[ll]];"
+      },
+      {
+        "before_source_line": 1094,
+        "added": "AuthorAudit`mark[\"horizon_scalar_operator\"];"
+      },
+      {
+        "before_source_line": 1100,
+        "added": "AuthorAudit`mark[\"horizon_scalar_series\"];"
+      },
+      {
+        "before_source_line": 1109,
+        "added": "AuthorAudit`mark[\"horizon_scalar_coefficients\"];"
+      },
+      {
+        "after_source_line": 1109,
+        "added": "AuthorAudit`mark[\"in_h_coeff_\"<>ToString[kk]];"
+      },
+      {
+        "before_source_line": 1118,
+        "added": "AuthorAudit`mark[\"horizon_kappa2_operator\"];"
+      },
+      {
+        "before_source_line": 1121,
+        "added": "AuthorAudit`mark[\"horizon_kappa2_series\"];"
+      },
+      {
+        "before_source_line": 1123,
+        "added": "AuthorAudit`mark[\"horizon_kappa2_coefficients\"];"
+      },
+      {
+        "after_source_line": 1123,
+        "added": "AuthorAudit`mark[\"in_kappa2_coeff_\"<>ToString[kk]];"
+      },
+      {
+        "before_source_line": 1132,
+        "added": "AuthorAudit`mark[\"horizon_kappa0_operator\"];"
+      },
+      {
+        "before_source_line": 1135,
+        "added": "AuthorAudit`mark[\"horizon_kappa0_series\"];"
+      },
+      {
+        "before_source_line": 1137,
+        "added": "AuthorAudit`mark[\"horizon_kappa0_coefficients\"];"
+      },
+      {
+        "after_source_line": 1137,
+        "added": "AuthorAudit`mark[\"in_kappa0_coeff_\"<>ToString[kk]];"
+      },
+      {
+        "before_source_line": 1152,
+        "added": "AuthorAudit`mark[\"horizon_ode_test\"];"
+      },
+      {
+        "before_source_line": 1166,
+        "added": "AuthorAudit`mark[\"horizon_ode_all_ell\"];"
+      },
+      {
+        "after_source_line": 1168,
+        "added": "AuthorAudit`mark[\"in_ode_ell_\"<>ToString[ll]];"
+      },
+      {
+        "before_source_line": 1187,
+        "added": "AuthorAudit`mark[\"spin2_amplitudes\"];"
+      },
+      {
+        "after_source_line": 1189,
+        "added": "AuthorAudit`mark[\"spin2_amp_ell_\"<>ToString[ll]];"
+      },
+      {
+        "before_source_line": 1205,
+        "added": "AuthorAudit`mark[\"spin1_amplitudes\"];"
+      },
+      {
+        "after_source_line": 1207,
+        "added": "AuthorAudit`mark[\"spin1_amp_ell_\"<>ToString[ll]];"
+      },
+      {
+        "before_source_line": 1223,
+        "added": "AuthorAudit`mark[\"trace_amplitudes\"];"
+      },
+      {
+        "after_source_line": 1225,
+        "added": "AuthorAudit`mark[\"trace_amp_ell_\"<>ToString[ll]];"
+      },
+      {
+        "before_source_line": 1243,
+        "added": "AuthorAudit`mark[\"kappa_amplitudes\"];"
+      },
+      {
+        "after_source_line": 1245,
+        "added": "AuthorAudit`mark[\"kappa_amp_ell_\"<>ToString[ll]];"
+      },
+      {
+        "before_source_line": 1268,
+        "added": "AuthorAudit`mark[\"amplitudes_export\"];"
+      }
+    ],
+    "checkpoint": "DumpSave Global` after successful matching; no physical expression changes",
+    "interpretation": "Same original algorithm with changed asymptotic truncation controls; boundary accuracy must be checked against high-order references."
+  },
+  "windows_kernel_pid": 40264
+}

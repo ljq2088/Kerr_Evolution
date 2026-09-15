@@ -1,0 +1,488 @@
+{
+  "pybhpt": "1.0.0",
+  "method": "AUTO",
+  "case_count": 11,
+  "kernel_definition": "R_In(r_min) R_Up(r_max) / [Delta^(s+1) (R_In R_Up_prime - R_Up R_In_prime)] evaluated at middle radius",
+  "maximum_R_relative": 3.006501476662272e-14,
+  "maximum_dR_relative": 3.335647065658562e-14,
+  "maximum_angular_eigen_absolute": 1.3171755353091896e-13,
+  "maximum_angular_S_absolute": 5.800915303666443e-15,
+  "maximum_angular_dS_absolute": 1.3988810110276972e-14,
+  "maximum_official_W_drift": 4.471020973513945e-16,
+  "maximum_physical_G_relative": 2.1762763510572937e-14,
+  "cases": [
+    {
+      "case": "actual_r20_s-1_m-1",
+      "angular_eigen_abs": 4.440892098500626e-16,
+      "angular_S_abs_max": 1.1518563880486e-15,
+      "angular_dS_abs_max": 7.105427357601002e-15,
+      "angular_ratio_at_max_sample": {
+        "re": 0.9999999999999986,
+        "im": -0.0
+      },
+      "radial": {
+        "In": {
+          "R_rel_max": 5.452411789484849e-16,
+          "dR_rel_max": 3.933853598857738e-16,
+          "rescaled_R_rel_max": 3.0181006589989747e-16,
+          "rescaled_dR_rel_max": 5.894703134397497e-16,
+          "normalization_ratio_at_middle": {
+            "re": 1.0,
+            "im": 5.441303783311208e-16
+          },
+          "official_transmission": {
+            "re": 1.0,
+            "im": 0.0
+          }
+        },
+        "Up": {
+          "R_rel_max": 2.3123171422891625e-15,
+          "dR_rel_max": 2.462333031196822e-15,
+          "rescaled_R_rel_max": 8.8167360083382995e-16,
+          "rescaled_dR_rel_max": 6.420452825374563e-16,
+          "normalization_ratio_at_middle": {
+            "re": 0.9999999999999978,
+            "im": -4.0823289770664793e-16
+          },
+          "official_transmission": {
+            "re": 1.0,
+            "im": 0.0
+          }
+        }
+      },
+      "official_W_drift": 2.270712694879357e-16,
+      "native_W_drift": 1.0764472545996131e-15,
+      "physical_G_rel": 1.1218410778188261e-15
+    },
+    {
+      "case": "actual_r20_s-1_m1",
+      "angular_eigen_abs": 5.728750807065808e-14,
+      "angular_S_abs_max": 2.4702462297909733e-15,
+      "angular_dS_abs_max": 3.802513859341161e-15,
+      "angular_ratio_at_max_sample": {
+        "re": 0.9999999999999978,
+        "im": -0.0
+      },
+      "radial": {
+        "In": {
+          "R_rel_max": 5.452411789484849e-16,
+          "dR_rel_max": 3.933853598857738e-16,
+          "rescaled_R_rel_max": 3.0181006589989747e-16,
+          "rescaled_dR_rel_max": 5.894703134397497e-16,
+          "normalization_ratio_at_middle": {
+            "re": 1.0,
+            "im": -5.441303783311208e-16
+          },
+          "official_transmission": {
+            "re": 1.0,
+            "im": 0.0
+          }
+        },
+        "Up": {
+          "R_rel_max": 2.3123171422891625e-15,
+          "dR_rel_max": 2.462333031196822e-15,
+          "rescaled_R_rel_max": 8.8167360083382995e-16,
+          "rescaled_dR_rel_max": 6.420452825374563e-16,
+          "normalization_ratio_at_middle": {
+            "re": 0.9999999999999978,
+            "im": 4.0823289770664793e-16
+          },
+          "official_transmission": {
+            "re": 1.0,
+            "im": 0.0
+          }
+        }
+      },
+      "official_W_drift": 2.270712694879357e-16,
+      "native_W_drift": 1.0764472545996131e-15,
+      "physical_G_rel": 1.1218410778188261e-15
+    },
+    {
+      "case": "actual_r20_s0_m-1",
+      "angular_eigen_abs": 5.928590951498336e-14,
+      "angular_S_abs_max": 5.800915303666443e-15,
+      "angular_dS_abs_max": 9.18709552877317e-15,
+      "angular_ratio_at_max_sample": {
+        "re": 0.9999999999999994,
+        "im": 0.0
+      },
+      "radial": {
+        "In": {
+          "R_rel_max": 2.187100711932557e-14,
+          "dR_rel_max": 2.7610660620575426e-14,
+          "rescaled_R_rel_max": 1.2624232927584551e-14,
+          "rescaled_dR_rel_max": 8.900190106631186e-15,
+          "normalization_ratio_at_middle": {
+            "re": 0.9999999999999816,
+            "im": -4.461818376922231e-15
+          },
+          "official_transmission": {
+            "re": 1.0,
+            "im": 0.0
+          }
+        },
+        "Up": {
+          "R_rel_max": 2.8509987933809855e-14,
+          "dR_rel_max": 3.090243571752009e-14,
+          "rescaled_R_rel_max": 1.2969961035497652e-14,
+          "rescaled_dR_rel_max": 1.5401497516017213e-14,
+          "normalization_ratio_at_middle": {
+            "re": 0.9999999999999855,
+            "im": 7.350557747957146e-15
+          },
+          "official_transmission": {
+            "re": 1.0,
+            "im": 0.0
+          }
+        }
+      },
+      "official_W_drift": 1.1102230246251565e-16,
+      "native_W_drift": 2.000230044160417e-15,
+      "physical_G_rel": 2.1762763510572937e-14
+    },
+    {
+      "case": "actual_r20_s0_m1",
+      "angular_eigen_abs": 4.796163466380676e-14,
+      "angular_S_abs_max": 8.326672684688674e-16,
+      "angular_dS_abs_max": 6.966649479522857e-15,
+      "angular_ratio_at_max_sample": {
+        "re": 0.9999999999999997,
+        "im": -0.0
+      },
+      "radial": {
+        "In": {
+          "R_rel_max": 2.187100711932557e-14,
+          "dR_rel_max": 2.7610660620575426e-14,
+          "rescaled_R_rel_max": 1.2624232927584551e-14,
+          "rescaled_dR_rel_max": 8.900190106631186e-15,
+          "normalization_ratio_at_middle": {
+            "re": 0.9999999999999816,
+            "im": 4.461818376922231e-15
+          },
+          "official_transmission": {
+            "re": 1.0,
+            "im": 0.0
+          }
+        },
+        "Up": {
+          "R_rel_max": 2.8509987933809855e-14,
+          "dR_rel_max": 3.090243571752009e-14,
+          "rescaled_R_rel_max": 1.2969961035497652e-14,
+          "rescaled_dR_rel_max": 1.5401497516017213e-14,
+          "normalization_ratio_at_middle": {
+            "re": 0.9999999999999855,
+            "im": -7.350557747957146e-15
+          },
+          "official_transmission": {
+            "re": 1.0,
+            "im": 0.0
+          }
+        }
+      },
+      "official_W_drift": 1.1102230246251565e-16,
+      "native_W_drift": 2.000230044160417e-15,
+      "physical_G_rel": 2.1762763510572937e-14
+    },
+    {
+      "case": "actual_r20_s1_m-1",
+      "angular_eigen_abs": 4.104702688856321e-14,
+      "angular_S_abs_max": 3.885780586188048e-15,
+      "angular_dS_abs_max": 7.91033905045424e-15,
+      "angular_ratio_at_max_sample": {
+        "re": 1.0000000000000058,
+        "im": -0.0
+      },
+      "radial": {
+        "In": {
+          "R_rel_max": 6.722381951076409e-16,
+          "dR_rel_max": 2.707875265387563e-15,
+          "rescaled_R_rel_max": 2.3767209316660915e-16,
+          "rescaled_dR_rel_max": 2.7983418636732118e-15,
+          "normalization_ratio_at_middle": {
+            "re": 1.0000000000000004,
+            "im": 3.310372912531319e-16
+          },
+          "official_transmission": {
+            "re": 1.0,
+            "im": 0.0
+          }
+        },
+        "Up": {
+          "R_rel_max": 6.922646430103532e-16,
+          "dR_rel_max": 7.257242553504245e-16,
+          "rescaled_R_rel_max": 4.3604212128091585e-16,
+          "rescaled_dR_rel_max": 5.181456762422949e-16,
+          "normalization_ratio_at_middle": {
+            "re": 1.0000000000000002,
+            "im": -5.968213050623286e-16
+          },
+          "official_transmission": {
+            "re": 1.0,
+            "im": 0.0
+          }
+        }
+      },
+      "official_W_drift": 4.471020973513945e-16,
+      "native_W_drift": 5.421045616232311e-16,
+      "physical_G_rel": 3.4039965296642045e-16
+    },
+    {
+      "case": "actual_r20_s1_m1",
+      "angular_eigen_abs": 1.3171755353091896e-13,
+      "angular_S_abs_max": 4.6629367034256575e-15,
+      "angular_dS_abs_max": 6.467049118441537e-15,
+      "angular_ratio_at_max_sample": {
+        "re": 1.000000000000006,
+        "im": -0.0
+      },
+      "radial": {
+        "In": {
+          "R_rel_max": 6.722381951076409e-16,
+          "dR_rel_max": 2.707875265387563e-15,
+          "rescaled_R_rel_max": 2.3767209316660915e-16,
+          "rescaled_dR_rel_max": 2.7983418636732118e-15,
+          "normalization_ratio_at_middle": {
+            "re": 1.0000000000000004,
+            "im": -3.310372912531319e-16
+          },
+          "official_transmission": {
+            "re": 1.0,
+            "im": 0.0
+          }
+        },
+        "Up": {
+          "R_rel_max": 6.922646430103532e-16,
+          "dR_rel_max": 7.257242553504245e-16,
+          "rescaled_R_rel_max": 4.3604212128091585e-16,
+          "rescaled_dR_rel_max": 5.181456762422949e-16,
+          "normalization_ratio_at_middle": {
+            "re": 1.0000000000000002,
+            "im": 5.968213050623286e-16
+          },
+          "official_transmission": {
+            "re": 1.0,
+            "im": 0.0
+          }
+        }
+      },
+      "official_W_drift": 4.471020973513945e-16,
+      "native_W_drift": 5.421045616232311e-16,
+      "physical_G_rel": 3.4039965296642045e-16
+    },
+    {
+      "case": "sam_a06_r8_s-1_m1",
+      "angular_eigen_abs": 8.881784197001252e-16,
+      "angular_S_abs_max": 2.7755575615628914e-16,
+      "angular_dS_abs_max": 3.219646771412954e-15,
+      "angular_ratio_at_max_sample": {
+        "re": 1.0000000000000004,
+        "im": 0.0
+      },
+      "radial": {
+        "In": {
+          "R_rel_max": 7.035910619620238e-16,
+          "dR_rel_max": 6.744979097195663e-16,
+          "rescaled_R_rel_max": 1.0908716328724867e-15,
+          "rescaled_dR_rel_max": 9.011773586309085e-16,
+          "normalization_ratio_at_middle": {
+            "re": 1.0000000000000004,
+            "im": 2.3103940880446484e-16
+          },
+          "official_transmission": {
+            "re": 1.0,
+            "im": 0.0
+          }
+        },
+        "Up": {
+          "R_rel_max": 8.363335814270116e-16,
+          "dR_rel_max": 1.4246145606102887e-15,
+          "rescaled_R_rel_max": 1.2514718416163256e-15,
+          "rescaled_dR_rel_max": 2.168373024314596e-15,
+          "normalization_ratio_at_middle": {
+            "re": 0.9999999999999992,
+            "im": -0.0
+          },
+          "official_transmission": {
+            "re": 1.0,
+            "im": 0.0
+          }
+        }
+      },
+      "official_W_drift": 1.168057817280417e-16,
+      "native_W_drift": 1.1155509470288735e-15,
+      "physical_G_rel": 4.10935345613704e-16
+    },
+    {
+      "case": "sam_a06_r8_s-2_m1",
+      "angular_eigen_abs": 3.6415315207705135e-14,
+      "angular_S_abs_max": 1.2212453270876722e-15,
+      "angular_dS_abs_max": 1.0602629885170245e-14,
+      "angular_ratio_at_max_sample": {
+        "re": 0.9999999999999999,
+        "im": 0.0
+      },
+      "radial": {
+        "In": {
+          "R_rel_max": 8.258294896698126e-16,
+          "dR_rel_max": 7.521217111437187e-16,
+          "rescaled_R_rel_max": 8.258294896698126e-16,
+          "rescaled_dR_rel_max": 7.521217111437187e-16,
+          "normalization_ratio_at_middle": {
+            "re": 1.0,
+            "im": 0.0
+          },
+          "official_transmission": {
+            "re": 1.0,
+            "im": 0.0
+          }
+        },
+        "Up": {
+          "R_rel_max": 4.713366905421078e-15,
+          "dR_rel_max": 5.531059392764633e-15,
+          "rescaled_R_rel_max": 7.188174834592929e-16,
+          "rescaled_dR_rel_max": 3.3787952948198396e-15,
+          "normalization_ratio_at_middle": {
+            "re": 1.0000000000000007,
+            "im": -4.664357875586753e-15
+          },
+          "official_transmission": {
+            "re": 1.0,
+            "im": 0.0
+          }
+        }
+      },
+      "official_W_drift": 1.1102230246251565e-16,
+      "native_W_drift": 1.040816630550284e-15,
+      "physical_G_rel": 8.4683620572476e-16
+    },
+    {
+      "case": "sam_a06_r8_s0_m1",
+      "angular_eigen_abs": 2.398081733190338e-14,
+      "angular_S_abs_max": 3.716602611310484e-15,
+      "angular_dS_abs_max": 5.6296554061269904e-15,
+      "angular_ratio_at_max_sample": {
+        "re": 1.000000000000002,
+        "im": -0.0
+      },
+      "radial": {
+        "In": {
+          "R_rel_max": 2.898122500176639e-14,
+          "dR_rel_max": 3.335647065658562e-14,
+          "rescaled_R_rel_max": 1.0998230023340402e-14,
+          "rescaled_dR_rel_max": 1.1484682714460447e-14,
+          "normalization_ratio_at_middle": {
+            "re": 1.0000000000000218,
+            "im": -1.6955081629440115e-15
+          },
+          "official_transmission": {
+            "re": 1.0,
+            "im": 0.0
+          }
+        },
+        "Up": {
+          "R_rel_max": 3.006501476662272e-14,
+          "dR_rel_max": 3.3056457331962085e-14,
+          "rescaled_R_rel_max": 1.1717127361059359e-14,
+          "rescaled_dR_rel_max": 1.4906483049228384e-14,
+          "normalization_ratio_at_middle": {
+            "re": 1.0000000000000162,
+            "im": 1.1073363991328543e-14
+          },
+          "official_transmission": {
+            "re": 1.0,
+            "im": 0.0
+          }
+        }
+      },
+      "official_W_drift": 2.302576165301453e-16,
+      "native_W_drift": 3.6377273392210856e-15,
+      "physical_G_rel": 1.839012461686059e-14
+    },
+    {
+      "case": "sam_a06_r8_s1_m1",
+      "angular_eigen_abs": 3.064215547965432e-14,
+      "angular_S_abs_max": 2.525757381022231e-15,
+      "angular_dS_abs_max": 1.3988810110276972e-14,
+      "angular_ratio_at_max_sample": {
+        "re": 0.9999999999999938,
+        "im": -0.0
+      },
+      "radial": {
+        "In": {
+          "R_rel_max": 1.7247437614600319e-15,
+          "dR_rel_max": 1.0544484616367026e-14,
+          "rescaled_R_rel_max": 6.972405367876508e-16,
+          "rescaled_dR_rel_max": 1.0477875519140923e-14,
+          "normalization_ratio_at_middle": {
+            "re": 1.000000000000001,
+            "im": 5.186384738293016e-16
+          },
+          "official_transmission": {
+            "re": 1.0,
+            "im": 0.0
+          }
+        },
+        "Up": {
+          "R_rel_max": 4.868337027719146e-15,
+          "dR_rel_max": 5.263950461876276e-15,
+          "rescaled_R_rel_max": 1.9287056086698517e-15,
+          "rescaled_dR_rel_max": 1.7307762503160553e-15,
+          "normalization_ratio_at_middle": {
+            "re": 1.0000000000000036,
+            "im": -8.973857693978025e-17
+          },
+          "official_transmission": {
+            "re": 1.0,
+            "im": 0.0
+          }
+        }
+      },
+      "official_W_drift": 2.2971478154189527e-16,
+      "native_W_drift": 2.0602708550324266e-15,
+      "physical_G_rel": 3.0141602662601418e-15
+    },
+    {
+      "case": "sam_a06_r8_s2_m1",
+      "angular_eigen_abs": 7.777112287499222e-14,
+      "angular_S_abs_max": 1.27675647831893e-15,
+      "angular_dS_abs_max": 8.326672684688674e-15,
+      "angular_ratio_at_max_sample": {
+        "re": 0.999999999999998,
+        "im": -0.0
+      },
+      "radial": {
+        "In": {
+          "R_rel_max": 1.360791234216861e-15,
+          "dR_rel_max": 1.4747818435027793e-14,
+          "rescaled_R_rel_max": 6.147428171595624e-16,
+          "rescaled_dR_rel_max": 1.5529365316892108e-14,
+          "normalization_ratio_at_middle": {
+            "re": 0.9999999999999994,
+            "im": 3.8952203128765997e-16
+          },
+          "official_transmission": {
+            "re": 1.0,
+            "im": 0.0
+          }
+        },
+        "Up": {
+          "R_rel_max": 4.834504016323047e-15,
+          "dR_rel_max": 4.7314049078933906e-15,
+          "rescaled_R_rel_max": 2.616911444914417e-16,
+          "rescaled_dR_rel_max": 2.4615627544560284e-16,
+          "normalization_ratio_at_middle": {
+            "re": 1.0000000000000004,
+            "im": -4.601341997383708e-15
+          },
+          "official_transmission": {
+            "re": 1.0,
+            "im": 0.0
+          }
+        }
+      },
+      "official_W_drift": 1.229782742946609e-16,
+      "native_W_drift": 1.3050101881262613e-15,
+      "physical_G_rel": 2.67845254781525e-16
+    }
+  ]
+}

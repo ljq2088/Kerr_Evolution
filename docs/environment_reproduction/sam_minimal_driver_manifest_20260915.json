@@ -1,0 +1,113 @@
+{
+  "original_source_sha256": "124fc609fb36f46d4f28378ac040655c8ae7d3cff9346ec62134c358ce223ca9",
+  "original_commit": "5c1b42793ff893fd0c65a5b48ceecc02d34c5e35",
+  "status": "driver_prepared_not_executed",
+  "phase_sources": {
+    "01_matching.m": {
+      "original_line_spans": [
+        [
+          43,
+          951
+        ]
+      ],
+      "sha256": "d95fd98e2a34974dcd9dc17deab83f112844567b6bdb04675357a81db0c01687"
+    },
+    "02_radial.m": {
+      "original_line_spans": [
+        [
+          954,
+          1274
+        ]
+      ],
+      "sha256": "dfda2b7f9fa49852e148bf29dbb52ec6142b0054ef913ea15185f26ffe4dae3f"
+    },
+    "03_fields.m": {
+      "original_line_spans": [
+        [
+          1354,
+          1437
+        ],
+        [
+          1444,
+          1464
+        ],
+        [
+          1472,
+          1487
+        ],
+        [
+          1491,
+          1494
+        ],
+        [
+          1500,
+          1500
+        ],
+        [
+          1504,
+          1857
+        ],
+        [
+          1875,
+          2055
+        ],
+        [
+          2085,
+          2191
+        ],
+        [
+          2217,
+          2248
+        ]
+      ],
+      "sha256": "2a0da09b1d07317bd0e618022701bc2aea219ba284ee6e4b66f46733d2f294ca"
+    }
+  },
+  "omissions": "Original CLI/directory code; dense radial grid; demonstration evaluations; bulk binary export. All matching and physical function definitions retained unchanged.",
+  "config": {
+    "a": "3/5",
+    "r0": "8",
+    "m": "1",
+    "n": "1",
+    "angres": "8",
+    "lmax": "10",
+    "lplot": "3",
+    "nterms": "12",
+    "inford": "10",
+    "horord": "8",
+    "rinf": "4000",
+    "xhor": "1/10000",
+    "rmax": "50",
+    "accgoal": "24",
+    "kapord": "10",
+    "prec": "50",
+    "rgrid": "1",
+    "rstmin": "3",
+    "rstmax": "12",
+    "dformat": "\"Real64\""
+  },
+  "driver_sha256": "ad9bfc1c06fd8752eafd3959a2793e6d2d10d1d2a0a02b47fb6c3f8321b8036b",
+  "syntax_check": [
+    {
+      "file": "01_matching.m",
+      "parsed": true,
+      "expression_count": 413
+    },
+    {
+      "file": "02_radial.m",
+      "parsed": true,
+      "expression_count": 146
+    },
+    {
+      "file": "03_fields.m",
+      "parsed": true,
+      "expression_count": 335
+    },
+    {
+      "file": "run_sam.wls",
+      "parsed": true,
+      "expression_count": 27
+    }
+  ],
+  "kernel": "14.0.0 Windows 64-bit"
+}

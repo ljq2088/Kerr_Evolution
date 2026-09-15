@@ -1,0 +1,445 @@
+{
+  "retrieved_utc": "2026-09-15",
+  "repositories": [
+    {
+      "repository": "srd24/KerrLorenzCirc",
+      "commit": "5c1b42793ff893fd0c65a5b48ceecc02d34c5e35",
+      "archive_url": "https://codeload.github.com/srd24/KerrLorenzCirc/zip/5c1b42793ff893fd0c65a5b48ceecc02d34c5e35",
+      "archive_sha256": "29d9a95d30cc1917f99c27679e411aa358345b2676a676897406dadcd499334a",
+      "created_at": "2025-04-07T09:05:29Z",
+      "pushed_at": "2025-04-07T17:05:47Z",
+      "html_url": "https://github.com/srd24/KerrLorenzCirc",
+      "fork": false,
+      "selected_files": [
+        {
+          "path": "srd24_KerrLorenzCirc/README.md",
+          "sha256": "808de4aaef5ffb8e579f5872c67fd090c3b358ae10bea07e74a0eadac5b04820",
+          "bytes": 11046
+        },
+        {
+          "path": "srd24_KerrLorenzCirc/metric_reconstruction_calc_radiative.m",
+          "sha256": "124fc609fb36f46d4f28378ac040655c8ae7d3cff9346ec62134c358ce223ca9",
+          "bytes": 109956
+        }
+      ]
+    },
+    {
+      "repository": "ConorDyson/KerrLorenzMSF",
+      "commit": "6b469f0835e42d3fa531b4997d7a912257119f60",
+      "archive_url": "https://codeload.github.com/ConorDyson/KerrLorenzMSF/zip/6b469f0835e42d3fa531b4997d7a912257119f60",
+      "archive_sha256": "7116496826b3fda3f3e365fe1535e64d0af65608d4942c4c05a880fbc8e0c890",
+      "created_at": "2026-01-15T12:24:30Z",
+      "pushed_at": "2026-06-07T08:59:08Z",
+      "html_url": "https://github.com/ConorDyson/KerrLorenzMSF",
+      "fork": true,
+      "selected_files": [
+        {
+          "path": "ConorDyson_KerrLorenzMSF/GenerationCodes/Numerics-Asymptotics/h1-Radial-gen/LoadData.wl",
+          "sha256": "db345e8f004b8e950d67aad8fdd1a61521d898d4f0de5e28ca4a55228de2438a",
+          "bytes": 2254
+        },
+        {
+          "path": "ConorDyson_KerrLorenzMSF/GenerationCodes/Numerics-Asymptotics/h1-Radial-gen/MetricReconstructRadiative.wl",
+          "sha256": "0037e4587fe57af9b46d7fc4fc7ad1ba7e521920169c3cfe1ca19d7d762d31a6",
+          "bytes": 143057
+        },
+        {
+          "path": "ConorDyson_KerrLorenzMSF/GenerationCodes/Numerics-Asymptotics/h1-mmode-gen/h1mmodedat/data600/data600-80/data/h1_a0.6_rp8.0_l4_m1.h5",
+          "sha256": "ed422af67afeba957b72eb065a2e191489505bad8572c0e6d1eb0e8c78c8dd48",
+          "bytes": 3294744
+        },
+        {
+          "path": "ConorDyson_KerrLorenzMSF/GenerationCodes/Numerics-Asymptotics/static/README.md",
+          "sha256": "808de4aaef5ffb8e579f5872c67fd090c3b358ae10bea07e74a0eadac5b04820",
+          "bytes": 11046
+        },
+        {
+          "path": "ConorDyson_KerrLorenzMSF/GenerationCodes/Numerics-WorldTube/h1-radial-gen/MetricReconstructRadiative.wl",
+          "sha256": "58973b88500511de01f051e15fc9ee65c650c0285da176fabc62b0e7ec7ca67c",
+          "bytes": 143066
+        },
+        {
+          "path": "ConorDyson_KerrLorenzMSF/GenerationCodes/Numerics-WorldTube/static/README.md",
+          "sha256": "808de4aaef5ffb8e579f5872c67fd090c3b358ae10bea07e74a0eadac5b04820",
+          "bytes": 11046
+        },
+        {
+          "path": "ConorDyson_KerrLorenzMSF/Ret-Numerics/BIGRUN-h1-radial-gen-session/MetricReconstructRadiative.wl",
+          "sha256": "58973b88500511de01f051e15fc9ee65c650c0285da176fabc62b0e7ec7ca67c",
+          "bytes": 143066
+        },
+        {
+          "path": "ConorDyson_KerrLorenzMSF/Ret-Numerics/h1-radial-gen/MetricReconstructRadiative.wl",
+          "sha256": "2682cf87cf558ff3ada3a0dfa0e8fa3ca12fd73f3f5f069de7d219dccb9c6071",
+          "bytes": 143065
+        },
+        {
+          "path": "ConorDyson_KerrLorenzMSF/Ret-Numerics/static/README.md",
+          "sha256": "808de4aaef5ffb8e579f5872c67fd090c3b358ae10bea07e74a0eadac5b04820",
+          "bytes": 11046
+        },
+        {
+          "path": "ConorDyson_KerrLorenzMSF/old/Numerics-Asymptotics/h1-Radial-gen/LoadData.wl",
+          "sha256": "db345e8f004b8e950d67aad8fdd1a61521d898d4f0de5e28ca4a55228de2438a",
+          "bytes": 2254
+        },
+        {
+          "path": "ConorDyson_KerrLorenzMSF/old/Numerics-Asymptotics/h1-Radial-gen/MetricReconstructRadiative.wl",
+          "sha256": "0037e4587fe57af9b46d7fc4fc7ad1ba7e521920169c3cfe1ca19d7d762d31a6",
+          "bytes": 143057
+        },
+        {
+          "path": "ConorDyson_KerrLorenzMSF/old/Numerics-Asymptotics/h1-mmode-gen/h1mmodedat/data600/data600-80/data/h1_a0.6_rp8.0_l4_m1.h5",
+          "sha256": "ed422af67afeba957b72eb065a2e191489505bad8572c0e6d1eb0e8c78c8dd48",
+          "bytes": 3294744
+        },
+        {
+          "path": "ConorDyson_KerrLorenzMSF/old/Numerics-Asymptotics/static/README.md",
+          "sha256": "808de4aaef5ffb8e579f5872c67fd090c3b358ae10bea07e74a0eadac5b04820",
+          "bytes": 11046
+        },
+        {
+          "path": "ConorDyson_KerrLorenzMSF/old/README.md",
+          "sha256": "808de4aaef5ffb8e579f5872c67fd090c3b358ae10bea07e74a0eadac5b04820",
+          "bytes": 11046
+        },
+        {
+          "path": "ConorDyson_KerrLorenzMSF/old/Radiative/metric_reconstruction_calc_radiative.m",
+          "sha256": "124fc609fb36f46d4f28378ac040655c8ae7d3cff9346ec62134c358ce223ca9",
+          "bytes": 109956
+        },
+        {
+          "path": "ConorDyson_KerrLorenzMSF/old/metric_reconstruction_calc_radiative.m",
+          "sha256": "124fc609fb36f46d4f28378ac040655c8ae7d3cff9346ec62134c358ce223ca9",
+          "bytes": 109956
+        }
+      ]
+    }
+  ],
+  "original_file_manifest": "outputs/paper_metric_reference/manifest.json",
+  "original_file_manifest_sha256": "5bd9cb750cb0b5235b526b1ad94050abf39a4547d4acbf6ca29ad3e9a0ba33a1",
+  "code_audit": {
+    "sam_commit": "5c1b42793ff893fd0c65a5b48ceecc02d34c5e35",
+    "fork_commit": "6b469f0835e42d3fa531b4997d7a912257119f60",
+    "cutoff_variants": [
+      {
+        "path": "ConorDyson_KerrLorenzMSF/GenerationCodes/Numerics-Asymptotics/h1-Radial-gen/MetricReconstructRadiative.wl",
+        "sha256": "0037e4587fe57af9b46d7fc4fc7ad1ba7e521920169c3cfe1ca19d7d762d31a6",
+        "condition_line": 2422,
+        "condition": " If[ll>=lmins2,",
+        "block": "Monitor[{MMm1gridL,MMm1gridR}=\n Transpose@Table[\n If[ll>=lmins2,\n With[\n {MM=MMm1vec[[ll+1]]},\n ConstructSolution[{MSTRhor[MM]/MSTAhor[MM],MSTRinf[MM]/MST\\[Beta]inf[MM]}, {Pm1j0[ll],Pm1j1[ll]}/.s1\\[Kappa]jumps]\n ]\n ,\n {{0,0,0}lNGrid,{0,0,0}rNGrid}\n ] \n ,{ll,0,lmax}]\n ,"
+      },
+      {
+        "path": "ConorDyson_KerrLorenzMSF/GenerationCodes/Numerics-WorldTube/h1-radial-gen/MetricReconstructRadiative.wl",
+        "sha256": "58973b88500511de01f051e15fc9ee65c650c0285da176fabc62b0e7ec7ca67c",
+        "condition_line": 2431,
+        "condition": " If[ll>=lmins2,",
+        "block": "Monitor[{MMm1gridL,MMm1gridR}=\n Transpose@Table[\n If[ll>=lmins2,\n With[\n {MM=MMm1vec[[ll+1]]},\n ConstructSolution[{MSTRhor[MM]/MSTAhor[MM],MSTRinf[MM]/MST\\[Beta]inf[MM]}, {Pm1j0[ll],Pm1j1[ll]}/.s1\\[Kappa]jumps]\n ]\n ,\n {{0,0,0}lNGrid,{0,0,0}rNGrid}\n ] \n ,{ll,0,lmax}]\n ,"
+      },
+      {
+        "path": "ConorDyson_KerrLorenzMSF/Ret-Numerics/BIGRUN-h1-radial-gen-session/MetricReconstructRadiative.wl",
+        "sha256": "58973b88500511de01f051e15fc9ee65c650c0285da176fabc62b0e7ec7ca67c",
+        "condition_line": 2431,
+        "condition": " If[ll>=lmins2,",
+        "block": "Monitor[{MMm1gridL,MMm1gridR}=\n Transpose@Table[\n If[ll>=lmins2,\n With[\n {MM=MMm1vec[[ll+1]]},\n ConstructSolution[{MSTRhor[MM]/MSTAhor[MM],MSTRinf[MM]/MST\\[Beta]inf[MM]}, {Pm1j0[ll],Pm1j1[ll]}/.s1\\[Kappa]jumps]\n ]\n ,\n {{0,0,0}lNGrid,{0,0,0}rNGrid}\n ] \n ,{ll,0,lmax}]\n ,"
+      },
+      {
+        "path": "ConorDyson_KerrLorenzMSF/Ret-Numerics/h1-radial-gen/MetricReconstructRadiative.wl",
+        "sha256": "2682cf87cf558ff3ada3a0dfa0e8fa3ca12fd73f3f5f069de7d219dccb9c6071",
+        "condition_line": 2430,
+        "condition": " If[ll>=lmins1,",
+        "block": "Monitor[{MMm1gridL,MMm1gridR}=\n Transpose@Table[\n If[ll>=lmins1,\n With[\n {MM=MMm1vec[[ll+1]]},\n ConstructSolution[{MSTRhor[MM]/MSTAhor[MM],MSTRinf[MM]/MST\\[Beta]inf[MM]}, {Pm1j0[ll],Pm1j1[ll]}/.s1\\[Kappa]jumps]\n ]\n ,\n {{0,0,0}lNGrid,{0,0,0}rNGrid}\n ] \n ,{ll,0,lmax}]\n ,"
+      },
+      {
+        "path": "ConorDyson_KerrLorenzMSF/old/Numerics-Asymptotics/h1-Radial-gen/MetricReconstructRadiative.wl",
+        "sha256": "0037e4587fe57af9b46d7fc4fc7ad1ba7e521920169c3cfe1ca19d7d762d31a6",
+        "condition_line": 2422,
+        "condition": " If[ll>=lmins2,",
+        "block": "Monitor[{MMm1gridL,MMm1gridR}=\n Transpose@Table[\n If[ll>=lmins2,\n With[\n {MM=MMm1vec[[ll+1]]},\n ConstructSolution[{MSTRhor[MM]/MSTAhor[MM],MSTRinf[MM]/MST\\[Beta]inf[MM]}, {Pm1j0[ll],Pm1j1[ll]}/.s1\\[Kappa]jumps]\n ]\n ,\n {{0,0,0}lNGrid,{0,0,0}rNGrid}\n ] \n ,{ll,0,lmax}]\n ,"
+      }
+    ],
+    "executed_source_excerpts": [
+      {
+        "path": "srd24_KerrLorenzCirc/metric_reconstruction_calc_radiative.m",
+        "line_start": 43,
+        "line_end": 59,
+        "file_sha256": "124fc609fb36f46d4f28378ac040655c8ae7d3cff9346ec62134c358ce223ca9",
+        "excerpt_sha256": "fcee68ab8953079aa87fd9621e8093bccc4f3911a2b95de26ed9140e97bbe16e"
+      },
+      {
+        "path": "srd24_KerrLorenzCirc/metric_reconstruction_calc_radiative.m",
+        "line_start": 162,
+        "line_end": 186,
+        "file_sha256": "124fc609fb36f46d4f28378ac040655c8ae7d3cff9346ec62134c358ce223ca9",
+        "excerpt_sha256": "90a432d8e96fa0a3edf7811bc413804107a8bc8c8850a05242be4b162c8c7857"
+      },
+      {
+        "path": "ConorDyson_KerrLorenzMSF/Ret-Numerics/h1-radial-gen/MetricReconstructRadiative.wl",
+        "line_start": 64,
+        "line_end": 88,
+        "file_sha256": "2682cf87cf558ff3ada3a0dfa0e8fa3ca12fd73f3f5f069de7d219dccb9c6071",
+        "excerpt_sha256": "edcc665334f9e967f18915810750d4659dc31dcf2a745ca4cfe3cc0f7716de86"
+      }
+    ],
+    "driver_sha256": "317a2f4daabf8c6133dce3749d8069a163e38c9001db384df65d1e145890c924",
+    "limitations": [
+      "Algebraic/operator and manufactured jump tests only; does not load BHPT or solve the physical Lorenz source.",
+      "No provenance statement equating repository HDF5 data to any current code variant."
+    ]
+  },
+  "executed_module_result": {
+    "kernel_version": "14.0.0 for Microsoft Windows (64-bit) (December 13, 2023)",
+    "scalar_operator_difference": "0",
+    "kappa_operator_difference": "0",
+    "homogeneous_particular_shift_invariant": true,
+    "rows": [
+      {
+        "basis_scale": [
+          [
+            1.0,
+            0
+          ],
+          [
+            1.0,
+            0
+          ]
+        ],
+        "simple_fields": [
+          [
+            [
+              -0.3482428115015974,
+              0.2939297124600639
+            ],
+            [
+              -0.1329073482428115,
+              -0.7226837060702875
+            ]
+          ],
+          [
+            [
+              -0.3482428115015974,
+              0.2939297124600639
+            ],
+            [
+              0.5670926517571885,
+              0.17731629392971246
+            ]
+          ]
+        ],
+        "coupled_fields": [
+          [
+            [
+              -0.3482428115015974,
+              0.2939297124600639
+            ],
+            [
+              -0.1329073482428115,
+              -0.7226837060702875
+            ]
+          ],
+          [
+            [
+              -0.3482428115015974,
+              0.2939297124600639
+            ],
+            [
+              0.5670926517571885,
+              0.17731629392971246
+            ]
+          ],
+          [
+            [
+              -0.18864283599914258,
+              0.15373740673070052
+            ],
+            [
+              0.13076177158080618,
+              -0.17009309067153897
+            ]
+          ],
+          [
+            [
+              0.011357164000857414,
+              -0.6462625932692995
+            ],
+            [
+              -0.8692382284191938,
+              0.22990690932846103
+            ]
+          ]
+        ],
+        "exact_jump_residual_zero": true
+      },
+      {
+        "basis_scale": [
+          [
+            2e+25,
+            1e+25
+          ],
+          [
+            1e-25,
+            -3e-25
+          ]
+        ],
+        "simple_fields": [
+          [
+            [
+              -0.3482428115015974,
+              0.2939297124600639
+            ],
+            [
+              -0.1329073482428115,
+              -0.7226837060702875
+            ]
+          ],
+          [
+            [
+              -0.3482428115015974,
+              0.2939297124600639
+            ],
+            [
+              0.5670926517571885,
+              0.17731629392971246
+            ]
+          ]
+        ],
+        "coupled_fields": [
+          [
+            [
+              -0.3482428115015974,
+              0.2939297124600639
+            ],
+            [
+              -0.1329073482428115,
+              -0.7226837060702875
+            ]
+          ],
+          [
+            [
+              -0.3482428115015974,
+              0.2939297124600639
+            ],
+            [
+              0.5670926517571885,
+              0.17731629392971246
+            ]
+          ],
+          [
+            [
+              -0.18864283599914258,
+              0.15373740673070052
+            ],
+            [
+              0.13076177158080618,
+              -0.17009309067153897
+            ]
+          ],
+          [
+            [
+              0.011357164000857414,
+              -0.6462625932692995
+            ],
+            [
+              -0.8692382284191938,
+              0.22990690932846103
+            ]
+          ]
+        ],
+        "exact_jump_residual_zero": true
+      },
+      {
+        "basis_scale": [
+          [
+            1e-18,
+            1e-18
+          ],
+          [
+            2e+18,
+            -1e+18
+          ]
+        ],
+        "simple_fields": [
+          [
+            [
+              -0.3482428115015974,
+              0.2939297124600639
+            ],
+            [
+              -0.1329073482428115,
+              -0.7226837060702875
+            ]
+          ],
+          [
+            [
+              -0.3482428115015974,
+              0.2939297124600639
+            ],
+            [
+              0.5670926517571885,
+              0.17731629392971246
+            ]
+          ]
+        ],
+        "coupled_fields": [
+          [
+            [
+              -0.3482428115015974,
+              0.2939297124600639
+            ],
+            [
+              -0.1329073482428115,
+              -0.7226837060702875
+            ]
+          ],
+          [
+            [
+              -0.3482428115015974,
+              0.2939297124600639
+            ],
+            [
+              0.5670926517571885,
+              0.17731629392971246
+            ]
+          ],
+          [
+            [
+              -0.18864283599914258,
+              0.15373740673070052
+            ],
+            [
+              0.13076177158080618,
+              -0.17009309067153897
+            ]
+          ],
+          [
+            [
+              0.011357164000857414,
+              -0.6462625932692995
+            ],
+            [
+              -0.8692382284191938,
+              0.22990690932846103
+            ]
+          ]
+        ],
+        "exact_jump_residual_zero": true
+      }
+    ],
+    "comparison_to_local_PaperKappaRadial_matching_formula": {
+      "numpy_double_relative_max": [
+        2.655487576756887e-16,
+        2.655487576756887e-16,
+        2.655487576756887e-16
+      ],
+      "implementation_reference": "src/paper_kappa_radial.py:105-110",
+      "note": "Same matrix form and generated inputs, executed independently of physical source and radial ODE. Basis invariance tested exactly in original Mathematica helper."
+    }
+  },
+  "completed_source_jump_comparison_artifacts": {
+    "docs/environment_reproduction/sam_vs_production_jumps_ell1to3.json": "98a1a533234e60b9df9739ffc3615b8dddda2e099468223979dd9c0be67a831a",
+    "docs/environment_reproduction/sam_actual_vs_production_jumps_ell1to3.json": "9f0522df220e78cb7b3d59c0d8a557b4e0bf82be38b5a2bfec20cdf737a8ddcf",
+    "docs/environment_reproduction/sam_vs_local_matching_L10_q32.json": "981827e3caa151bd3849193a9581ca8647d9764a561bf0f21657ee63a3dd02cd",
+    "docs/environment_reproduction/sam_local_matching_L10_q32.json": "dfb73c071550bc9270d15f7fed855a5f65511fe8f30483446ea1a3e975134255",
+    "src/report_author_sam_jump_comparison.py": "69ac7e3ec864a945aeb23914cd727f61850b332cabfbde1ce2a4f1c30e1fa4ab"
+  }
+}

@@ -1,0 +1,11 @@
+ClearAll["Global`*"];
+Get[FileNameJoin[{DirectoryName[$InputFileName],"bhpt_paths.wl"}]];
+outdir=FileNameJoin[{DirectoryName[$InputFileName],"bhpt_official"}];
+wp=40;
+Do[
+{caseid,a,p}=par;a=N[a,wp];p=N[p,wp];
+orb=KerrGeoOrbit[a,p,0,1];freq=KerrGeoFrequencies[a,p,0,1];vel=Map[#[0]&,orb["FourVelocity"]];
+raw=<|"id"->caseid,"a"->a,"p"->p,"energy"->orb["Energy"],"angular_momentum"->orb["AngularMomentum"],"frequencies"->freq,"fourvelocity_at_zero"->vel,"omega_phi"->Last[Values[freq]]|>;
+Export[FileNameJoin[{outdir,caseid<>"_orbit.json"}],Join[N[raw],<|"raw_input_form"->ToString[raw,InputForm]|>],"RawJSON"];
+,{par,{{"sam_a06_r8",3/5,8},{"actual_r20",8771530275949366/10^16,20}}}];
+Exit[];

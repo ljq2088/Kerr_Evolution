@@ -1,0 +1,51 @@
+ClearAll["Global`*"];
+AuthorAudit`base=DirectoryName[$InputFileName];
+SetDirectory[AuthorAudit`base];
+AuthorAudit`pathfile=FileNameJoin[{DirectoryName[AuthorAudit`base],"bhpt_paths.wl"}];
+If[FileExistsQ[AuthorAudit`pathfile],$Path=Join[Get[AuthorAudit`pathfile],$Path]];
+AuthorAudit`log=OpenWrite[FileNameJoin[{AuthorAudit`base,"run.log"}]];
+$Output={AuthorAudit`log};$Messages={AuthorAudit`log};
+AuthorAudit`status[phase_]:=Export[FileNameJoin[{AuthorAudit`base,"status.json"}],<|"phase"->phase,"utc"->DateString[Now,TimeZone->0],"kernel"->$Version|>,"RawJSON"];
+AuthorAudit`mark[name_]:=(Print[DateString[Now,TimeZone->0]," ",name];AuthorAudit`status[name]);
+AuthorAudit`status["checking_dependencies"];
+If[!And@@(StringQ[FindFile[#]]&/@{"Teukolsky`","SpinWeightedSpheroidalHarmonics`"}),AuthorAudit`status["missing_dependencies"];Quit[2]];
+<<SpinWeightedSpheroidalHarmonics`
+<<Teukolsky`
+Off[ClebschGordan::phy];Off[ClebschGordan::tri];
+iConfig="audit";directory=AuthorAudit`base<>"/";
+AuthorAudit`enc[z_?NumberQ]:=N[{Re[z],Im[z]},17];
+AuthorAudit`enc[z_]:=ToString[z,InputForm];
+AuthorAudit`load[file_,phase_]:=(AuthorAudit`status[phase];CheckAbort[Get[FileNameJoin[{AuthorAudit`base,file}]],AuthorAudit`status["aborted_"<>phase];Quit[3]];);
+AuthorAudit`syntax=Table[AuthorAudit`held=Quiet[Check[ReadList[FileNameJoin[{AuthorAudit`base,f}],Hold[Expression]],$Failed]];<|"file"->f,"parsed"->(AuthorAudit`held=!=$Failed),"count"->If[AuthorAudit`held===$Failed,0,Length[AuthorAudit`held]]|>,{f,{"01_matching.m","02_radial.m","03_fields.m"}}];
+Export[FileNameJoin[{AuthorAudit`base,"syntax.json"}],AuthorAudit`syntax,"RawJSON"];
+If[!And@@Lookup[AuthorAudit`syntax,"parsed"],AuthorAudit`status["syntax_failed"];Quit[4]];
+AuthorAudit`mark["verifying_matching_checkpoint"];
+AuthorAudit`expectedCheckpointSHA="f094abaee11d4f061fc6b0d4564c69fefd9182f9e7cb6420429189c27cb8d578";
+AuthorAudit`checkpoint=FileNameJoin[{AuthorAudit`base,"matching_state.mx"}];
+AuthorAudit`actualCheckpointSHA=IntegerString[FileHash[AuthorAudit`checkpoint,"SHA256"],16,64];
+If[AuthorAudit`actualCheckpointSHA=!=AuthorAudit`expectedCheckpointSHA,AuthorAudit`status["checkpoint_sha_failed"];Quit[5]];
+AuthorAudit`mark["restoring_matching_checkpoint"];
+Get[AuthorAudit`checkpoint];
+AuthorAudit`checks=<|"a"->TrueQ[Abs[a0-SetPrecision[8771530275949366/10000000000000000,50]]<10^-40],"r0"->TrueQ[r0==20],"m"->TrueQ[mm==1],"lmax"->TrueQ[lmax==10],"prec"->TrueQ[prec==50],"accgoal"->TrueQ[accgoal==24],"nterms"->TrueQ[nterms==12],"kapord"->TrueQ[\[Kappa]ord==10],"xhor"->TrueQ[Abs[xhor-SetPrecision[1/10000,50]]<10^-40],"rmax"->TrueQ[rmax==50],"source_inford"->TrueQ[inford==6],"source_horord"->TrueQ[horord==5],"source_rinf"->TrueQ[rinf==10000]|>;
+Export[FileNameJoin[{AuthorAudit`base,"checkpoint_validation.json"}],<|"expected_sha256"->AuthorAudit`expectedCheckpointSHA,"actual_sha256"->AuthorAudit`actualCheckpointSHA,"checks"->AuthorAudit`checks|>,"RawJSON"];
+If[!And@@Values[AuthorAudit`checks],AuthorAudit`status["checkpoint_parameter_failed"];Quit[6]];
+inford=7;horord=6;rinf=SetPrecision[20000,prec];directory=AuthorAudit`base<>"/";
+AuthorAudit`mark["matching_checkpoint_validated"];
+
+AuthorAudit`jumps=Table[{Pm1j0[ll],Pm1j1[ll],\[Kappa]j0[ll],\[Kappa]j1[ll]}/.knowns,{ll,1,lmax}];
+Export[FileNameJoin[{AuthorAudit`base,"matching.json"}],<|"a"->N[a0,17],"r0"->N[r0,17],"m"->mm,"lmax"->lmax,"omega"->N[\[Omega]0,17],"precision"->prec,"unknown_order"->{"Pm1j0","Pm1j1","kappaj0","kappaj1"},"jumps"->Map[AuthorAudit`enc,AuthorAudit`jumps,{2}],"linear_residual_abs_max"->N[Max[Abs[Mmat.sol-brhs]],17],"eigenvalues_spin0"->N[eigs0,17],"Bmat0"->N[Bmat0,17]|>,"RawJSON"];
+AuthorAudit`load["02_radial.m","radial_functions"];
+AuthorAudit`load["03_fields.m","component_definitions"];
+AuthorAudit`points=SetPrecision[{2,10,30},50];
+AuthorAudit`rows=Table[
+ AuthorAudit`status["sample_"<>ToString[ri]];
+ AuthorAudit`r=AuthorAudit`points[[ri]];
+ AuthorAudit`s0=GetComp[0,AuthorAudit`r];AuthorAudit`s1=GetComp[1,AuthorAudit`r];AuthorAudit`s2=GetComp[2,AuthorAudit`r];
+ AuthorAudit`total=AuthorAudit`s0+AuthorAudit`s1+AuthorAudit`s2;
+ AuthorAudit`row=<|"r"->N[AuthorAudit`r,17],"side"->If[AuthorAudit`r<r0,"In","Up"],"all_numeric"->And@@(NumberQ/@Flatten[AuthorAudit`total]),"spin0"->Map[AuthorAudit`enc,AuthorAudit`s0,{2}],"spin1"->Map[AuthorAudit`enc,AuthorAudit`s1,{2}],"spin2"->Map[AuthorAudit`enc,AuthorAudit`s2,{2}],"total_author_basis"->Map[AuthorAudit`enc,AuthorAudit`total,{2}],"trace_spherical"->(AuthorAudit`enc/@(AuthorAudit`s0[[10]].Bmat0))|>;
+ Export[FileNameJoin[{AuthorAudit`base,"sample_"<>ToString[ri]<>".json"}],AuthorAudit`row,"RawJSON"];
+ AuthorAudit`row,
+ {ri,Length[AuthorAudit`points]}];
+Export[FileNameJoin[{AuthorAudit`base,"metric_samples.json"}],<|"a"->N[a0,17],"rp"->N[r0,17],"m"->mm,"lmax"->lmax,"prec"->prec,"basis"->"Components 1-9 spherical; component10 trace spheroidal; explicit trace_spherical supplied", "components"->{"h_l+l+","h_l-l-","h_m+m+","h_m-m-","rho_h_l+m+","rhob_h_l+m-","rhob_h_l-m+","rho_h_l-m-","sigma_delta_h_l+l-","h"},"rows"->AuthorAudit`rows|>,"RawJSON"];
+AuthorAudit`status[If[And@@Lookup[AuthorAudit`rows,"all_numeric"],"completed","completed_with_nonnumeric_values"]];
+Close[AuthorAudit`log];Quit[];

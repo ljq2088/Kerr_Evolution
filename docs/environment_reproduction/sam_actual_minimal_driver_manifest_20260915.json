@@ -1,0 +1,106 @@
+{
+  "original_source_sha256": "124fc609fb36f46d4f28378ac040655c8ae7d3cff9346ec62134c358ce223ca9",
+  "original_commit": "5c1b42793ff893fd0c65a5b48ceecc02d34c5e35",
+  "status": "launched",
+  "phase_sources": {
+    "01_matching.m": {
+      "original_line_spans": [
+        [
+          43,
+          951
+        ]
+      ],
+      "sha256": "f653aa85155c050002b738d5bd44385512f9d5cfed49cf23ef6a8677ad3c0636"
+    },
+    "02_radial.m": {
+      "original_line_spans": [
+        [
+          954,
+          1274
+        ]
+      ],
+      "sha256": "dfda2b7f9fa49852e148bf29dbb52ec6142b0054ef913ea15185f26ffe4dae3f"
+    },
+    "03_fields.m": {
+      "original_line_spans": [
+        [
+          1354,
+          1437
+        ],
+        [
+          1444,
+          1464
+        ],
+        [
+          1472,
+          1487
+        ],
+        [
+          1491,
+          1494
+        ],
+        [
+          1500,
+          1500
+        ],
+        [
+          1504,
+          1857
+        ],
+        [
+          1875,
+          2055
+        ],
+        [
+          2085,
+          2191
+        ],
+        [
+          2217,
+          2248
+        ]
+      ],
+      "sha256": "2a0da09b1d07317bd0e618022701bc2aea219ba284ee6e4b66f46733d2f294ca"
+    }
+  },
+  "omissions": "Original CLI/directory code; dense radial grid; demonstration evaluations; bulk binary export. All matching and physical function definitions retained unchanged.",
+  "config": {
+    "a": "8771530275949366/10000000000000000",
+    "r0": "20",
+    "m": "1",
+    "n": "1",
+    "angres": "8",
+    "lmax": "10",
+    "lplot": "3",
+    "nterms": "12",
+    "inford": "10",
+    "horord": "8",
+    "rinf": "4000",
+    "xhor": "1/10000",
+    "rmax": "50",
+    "accgoal": "24",
+    "kapord": "10",
+    "prec": "50",
+    "rgrid": "1",
+    "rstmin": "3",
+    "rstmax": "12",
+    "dformat": "\"Real64\""
+  },
+  "driver_sha256": "ba9750e847b0ed0bdbd7848511827575258811240f2913438bf9500e3cbddaf6",
+  "kernel": "14.0.0 Windows 64-bit",
+  "changes_from_sam_original": [
+    {
+      "original_line": 219,
+      "before": "a0=SetPrecision[Round[GetParam[\"a\"]*iround]/iround,prec];",
+      "after": "a0=SetPrecision[GetParam[\"a\"],prec]",
+      "reason": "Preserve exact decimal spin; original rounds to 3 decimals."
+    }
+  ],
+  "points": [
+    2,
+    10,
+    30
+  ],
+  "windows_kernel_pid": 1968,
+  "launched_date": "2026-09-15"
+}

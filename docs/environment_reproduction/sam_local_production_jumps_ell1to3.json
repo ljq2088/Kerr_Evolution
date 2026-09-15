@@ -1,0 +1,111 @@
+{
+  "status": "local_production_mapped_jumps",
+  "a": 0.6,
+  "r0": 8.0,
+  "m": 1,
+  "L": 3,
+  "unknown_order": [
+    "Pm1j0",
+    "Pm1j1",
+    "kappaj0",
+    "kappaj1"
+  ],
+  "rows": [
+    {
+      "ell": 1,
+      "jumps": [
+        [
+          1646.6218769482537,
+          -619.8925249960976
+        ],
+        [
+          -263.6977264091372,
+          -14.57323530083454
+        ],
+        [
+          164.98413634987097,
+          -9.541416866874734e-14
+        ],
+        [
+          -54.565157944460374,
+          2.4820577660451167e-14
+        ]
+      ],
+      "spin1_basis_fit_relative_residual": 5.631474376847288e-15,
+      "kappa_angular_contact_correction": 0.0010370588321742004
+    },
+    {
+      "ell": 2,
+      "jumps": [
+        [
+          -123.69208551976988,
+          809.5508904231518
+        ],
+        [
+          -57.543612167125005,
+          461.5884253669551
+        ],
+        [
+          1.7149872217288025e-12,
+          3.1146793556093656e-12
+        ],
+        [
+          2.0816587107550151e-13,
+          -7.14552136583328e-13
+        ]
+      ],
+      "spin1_basis_fit_relative_residual": 9.564490905817191e-12,
+      "kappa_angular_contact_correction": -9.43181965620581e-19
+    },
+    {
+      "ell": 3,
+      "jumps": [
+        [
+          -3623.624302161252,
+          232.66246788135285
+        ],
+        [
+          695.0166390697468,
+          -129.26595491926219
+        ],
+        [
+          -154.33157944104502,
+          3.156403850014777e-12
+        ],
+        [
+          302.82333906062814,
+          1.4183187234543525e-12
+        ]
+      ],
+      "spin1_basis_fit_relative_residual": 6.133490883668341e-14,
+      "kappa_angular_contact_correction": 0.0004670796501135115
+    }
+  ],
+  "implementation_sha256": {
+    "environment_angular_diagnostic": "74c1ae7536df0ef1b6193c81a38f289b18c5dfc7371490e9fd1c3257da559307",
+    "environment_angular_variation": "2775ca7474e465b87cf89265b57aa904f8bcec04f5739861abaf07700802dcd2",
+    "environment_cloud": "13f9628f4513c00022ce7ebe69fc3d74db19a8e9fb610ece93ef9095866c8549",
+    "environment_radial": "b392c3ffdbc0ed022441e050a8c25b641533ed65630d6dff8e81d26cdaf28b5a",
+    "environment_source": "f8ed45cc7200b9738fa3406d0b8a03552f4847340cabdc92eec97b219c4cebb2",
+    "lorenz_chi": "7cd9321f8abe514b6649d54f9c9bc1258753f2e506573288b427fd7c01eb73b9",
+    "lorenz_corrector": "e97fba97ec3cc61fb3e9e990de2e5ddf14da6595bec9f52b3e2fc12da2c11632",
+    "lorenz_ghp": "598f52a92d2ba3c2b9edc51d8c08240a128a8ba714fb379578dbaff63b87a2fc",
+    "lorenz_jet": "8a68ebf0c27ba0a444f07851a6a5eb03623ff328e920a91f3824c332c635af65",
+    "lorenz_kappa": "6c5b5d8eccc119dc7aaf6ac7ac04d1aca6be52ea5bb03d682a3f891f52461d92",
+    "lorenz_metric": "e356a13729114412ffba238807ca1b4b612fc64c78c4a920a101e05baf02e91b",
+    "lorenz_mode_jet": "e8fe89e3a0d13f89ffbf4666fee552d8df3678f8c09f5866c456d9e9c68a6ccc",
+    "lorenz_spin1": "baf3b91c7ce4d316d75394288cbc218279b21be435ce9c696601f3fe39bafe98",
+    "lorenz_spin1_chiral": "e0c14b1f38f01d2f468c5fa439f527dd3b84b819b05e679334d390da2c581449",
+    "lorenz_tensor": "03bd09d77eb50a087cf20dfd9ddf04fb9514efe2311fff1b3a57c4b423551070",
+    "lorenz_weyl": "85668a281b4f351b57cce1a9ac56ddc4e07119918545e24685643f7195f012fd",
+    "paper_jump_basis": "672be1fdc4be0bd94bcd730b37a47930bce470f13c17f9827a3dac6c1e9f4545",
+    "paper_sourced_matching": "ac87ceb41a604dac05c3493147291bd7d6f68f7e1712c4a3b81c00b533d9eeba",
+    "report_paper_dipole_closure": "7a45f6a3b5e0558787d330611916869382217f3bf9cca02b7603f540fa981b27",
+    "report_paper_kappa_tables": "bbd88b5d6f3b05271aa30cf1cccf88140313c911d31e41fcc138097c0915ff3f"
+  },
+  "limitations": [
+    "Spin1 jumps extracted from production full-current gauge vector with quadratic orbit extrapolation and recorded basis-fit residual",
+    "Kappa23 mapping includes angular source-projector derivative and chi; not direct kappa24",
+    "No original author data consumed and no environmental flux evaluated"
+  ]
+}

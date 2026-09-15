@@ -1,0 +1,158 @@
+{
+  "original_source_sha256": "124fc609fb36f46d4f28378ac040655c8ae7d3cff9346ec62134c358ce223ca9",
+  "original_commit": "5c1b42793ff893fd0c65a5b48ceecc02d34c5e35",
+  "status": "launched",
+  "phase_sources": {
+    "01_matching.m": {
+      "original_line_spans": [
+        [
+          43,
+          951
+        ]
+      ],
+      "sha256": "f653aa85155c050002b738d5bd44385512f9d5cfed49cf23ef6a8677ad3c0636"
+    },
+    "02_radial.m": {
+      "original_line_spans": [
+        [
+          954,
+          1274
+        ]
+      ],
+      "sha256": "40d5ce0389a07ec5296768b81d8b5e3a6b982bc9412e4789022c0e75d03d48ad"
+    },
+    "03_fields.m": {
+      "original_line_spans": [
+        [
+          1354,
+          1437
+        ],
+        [
+          1444,
+          1464
+        ],
+        [
+          1472,
+          1487
+        ],
+        [
+          1491,
+          1494
+        ],
+        [
+          1500,
+          1500
+        ],
+        [
+          1504,
+          1857
+        ],
+        [
+          1875,
+          2055
+        ],
+        [
+          2085,
+          2191
+        ],
+        [
+          2217,
+          2248
+        ]
+      ],
+      "sha256": "2a0da09b1d07317bd0e618022701bc2aea219ba284ee6e4b66f46733d2f294ca"
+    }
+  },
+  "omissions": "Original CLI/directory code; dense radial grid; demonstration evaluations; bulk binary export. All matching and physical function definitions retained unchanged.",
+  "config": {
+    "a": "8771530275949366/10000000000000000",
+    "r0": "20",
+    "m": "1",
+    "n": "1",
+    "angres": "8",
+    "lmax": "10",
+    "lplot": "3",
+    "nterms": "12",
+    "inford": "7",
+    "horord": "6",
+    "rinf": "20000",
+    "xhor": "1/10000",
+    "rmax": "50",
+    "accgoal": "24",
+    "kapord": "10",
+    "prec": "50",
+    "rgrid": "1",
+    "rstmin": "3",
+    "rstmax": "12",
+    "dformat": "\"Real64\""
+  },
+  "driver_sha256": "acfd0aa436de265e979e6e7560eabf91f46b94855c75cf33be417e8956fc7419",
+  "kernel": "14.0.0 Windows 64-bit",
+  "changes_from_sam_original": [
+    {
+      "original_line": 219,
+      "before": "a0=SetPrecision[Round[GetParam[\"a\"]*iround]/iround,prec];",
+      "after": "a0=SetPrecision[GetParam[\"a\"],prec]",
+      "reason": "Preserve exact decimal spin; original rounds to 3 decimals."
+    }
+  ],
+  "points": [
+    2,
+    10,
+    30
+  ],
+  "changes_in_this_run": {
+    "runtime_overrides": [
+      "inford=7",
+      "horord=6",
+      "rinf=SetPrecision[20000,prec]",
+      "directory=new output path"
+    ],
+    "phase02_03": "Exact byte copies of instrumented i6/h5 source; no changed physical expressions or new logging",
+    "matching": "Restored checked DumpSave; not re-evaluated"
+  },
+  "restored_matching_state": {
+    "source": "sam_actual_L10_i6_h5/matching_state.mx",
+    "sha256": "f094abaee11d4f061fc6b0d4564c69fefd9182f9e7cb6420429189c27cb8d578",
+    "bytes": 1220475,
+    "matching_json_sha256": "33f3c42f791ec242d946569788e9529dd38fb9d313a3c97f96f14892306d71eb",
+    "parameter_validation": "Exact rational spin to tolerance 1e-40, rp20,m1,L10,prec50,accgoal24,nterms12,kapord10,xhor1e-4,rmax50 and original i6/h5/rinf10000"
+  },
+  "windows_kernel_pid": 37072,
+  "checkpoint_validation": {
+    "expected_sha256": "f094abaee11d4f061fc6b0d4564c69fefd9182f9e7cb6420429189c27cb8d578",
+    "actual_sha256": "f094abaee11d4f061fc6b0d4564c69fefd9182f9e7cb6420429189c27cb8d578",
+    "checks": {
+      "a": true,
+      "r0": true,
+      "m": true,
+      "lmax": true,
+      "prec": true,
+      "accgoal": true,
+      "nterms": true,
+      "kapord": true,
+      "xhor": true,
+      "rmax": true,
+      "source_inford": true,
+      "source_horord": true,
+      "source_rinf": true
+    }
+  },
+  "syntax_check": [
+    {
+      "file": "01_matching.m",
+      "parsed": true,
+      "count": 413
+    },
+    {
+      "file": "02_radial.m",
+      "parsed": true,
+      "count": 180
+    },
+    {
+      "file": "03_fields.m",
+      "parsed": true,
+      "count": 335
+    }
+  ]
+}

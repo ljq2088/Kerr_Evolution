@@ -1,0 +1,577 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-09-15",
+  "paper": {
+    "arxiv": "2501.09806v1",
+    "doi": "10.1103/PhysRevLett.134.211403"
+  },
+  "scope": "Primary public sources only; no contact with authors; no authenticated code search; no claim that undiscovered code/data do not exist",
+  "summary": {
+    "original_environment_executable_release_located": false,
+    "original_flux_numeric_table_located": false,
+    "arxiv_plot_pdfs_preserved": 7,
+    "public_lorenz_author_code_located": true,
+    "lorenz_download_audit_owner": "radial_backend; this manifest records metadata only"
+  },
+  "repositories": [
+    {
+      "repository": "ConorDyson/KerrLorenzMSF",
+      "url": "https://github.com/ConorDyson/KerrLorenzMSF",
+      "commit": "6b469f0835e42d3fa531b4997d7a912257119f60",
+      "created_at": "2026-01-15T12:24:30Z",
+      "default_branch": "main",
+      "is_fork": true
+    },
+    {
+      "repository": "ConorDyson/SpiralDensityWavesInKerr",
+      "url": "https://github.com/ConorDyson/SpiralDensityWavesInKerr",
+      "commit": "78de2c1ae06abdc563c5995504e53a62908e2bf0",
+      "created_at": "2025-11-21T15:36:26Z",
+      "default_branch": "main",
+      "is_fork": false
+    },
+    {
+      "repository": "richbrito/Tidal_Grav_Atoms",
+      "url": "https://github.com/richbrito/Tidal_Grav_Atoms",
+      "commit": "b96b71348dffd61253fa482e7cf3586a2e4ddab1",
+      "created_at": "2024-09-20T16:01:26Z",
+      "default_branch": "main",
+      "is_fork": false
+    },
+    {
+      "repository": "richbrito/gw_superradiance",
+      "url": "https://github.com/richbrito/gw_superradiance",
+      "commit": "6f482a2adecd7dad0a36546397e116e89915ada8",
+      "created_at": "2021-01-11T17:06:31Z",
+      "default_branch": "main",
+      "is_fork": false
+    },
+    {
+      "repository": "srd24/KerrLorenzCirc",
+      "url": "https://github.com/srd24/KerrLorenzCirc",
+      "commit": "5c1b42793ff893fd0c65a5b48ceecc02d34c5e35",
+      "created_at": "2025-04-07T09:05:29Z",
+      "default_branch": "main",
+      "is_fork": false
+    },
+    {
+      "repository": "thomasspieksma/GrAB",
+      "url": "https://github.com/thomasspieksma/GrAB",
+      "commit": "648ec51659e327f49125f3897566bd9c6cd9282d",
+      "created_at": "2024-02-27T01:51:11Z",
+      "default_branch": "main",
+      "is_fork": false
+    }
+  ],
+  "requests": [
+    {
+      "file": "outputs/paper_original_reference/zenodo_doi_search_20260915.json",
+      "url": "https://zenodo.org/api/records?q=%2210.1103%2FPhysRevLett.134.211403%22&size=25",
+      "http_status": 200,
+      "finding": "zero exact DOI matches"
+    },
+    {
+      "file": "outputs/paper_original_reference/zenodo_arxiv_search_20260915.json",
+      "url": "https://zenodo.org/api/records?q=%222501.09806%22&size=25",
+      "http_status": 200,
+      "finding": "zero exact arXiv matches"
+    },
+    {
+      "file": "outputs/paper_original_reference/zenodo_title_search_20260915.json",
+      "url": "https://zenodo.org/api/records?q=%22Environmental+effects+in+extreme+mass+ratio+inspirals%22&size=25",
+      "http_status": 200,
+      "finding": "zero exact title-phrase matches"
+    },
+    {
+      "file": "outputs/paper_original_reference/datacite_search_20260915.json",
+      "url": "https://api.datacite.org/dois?query=%222501.09806%22&page%5Bsize%5D=25",
+      "http_status": 200,
+      "finding": "zero exact arXiv matches"
+    },
+    {
+      "file": "outputs/paper_original_reference/datacite_doi_search_20260915.json",
+      "url": "https://api.datacite.org/dois?query=%2210.1103%2FPhysRevLett.134.211403%22&page%5Bsize%5D=25",
+      "http_status": 200,
+      "finding": "zero exact DOI matches"
+    },
+    {
+      "file": "outputs/paper_original_reference/figshare_title_search_20260915.json",
+      "url": "https://api.figshare.com/v2/articles?order=published_date&order_direction=desc&page_size=10&resource_doi=10.1103%2FPhysRevLett.134.211403",
+      "http_status": 200,
+      "finding": "empty resource_doi-filtered article list; filename says title but this is a DOI query"
+    },
+    {
+      "file": "outputs/paper_original_reference/github_arxiv_repository_search_20260915.json",
+      "url": "https://api.github.com/search/repositories?q=2501.09806&per_page=100",
+      "http_status": 200,
+      "finding": "zero repository metadata matches; NOT authenticated code search"
+    },
+    {
+      "file": "outputs/paper_original_reference/github_environment_kerr_repository_search_20260915.json",
+      "url": "https://api.github.com/search/repositories?q=environment+Kerr&per_page=100",
+      "http_status": 200,
+      "finding": "five unrelated repository metadata matches"
+    },
+    {
+      "file": "outputs/paper_original_reference/crossref_doi_20260915.json",
+      "url": "https://api.crossref.org/works/10.1103/PhysRevLett.134.211403",
+      "http_status": 200,
+      "finding": "relation={} and update-to absent/null; no linked dataset DOI"
+    },
+    {
+      "file": "outputs/paper_original_reference/mpg_item_3633555_3_metadata_20260915.json",
+      "url": "https://pure.mpg.de/rest/items/item_3633555_3",
+      "http_status": 200,
+      "finding": "preprint PUBLIC; publisher PDF AUDIENCE; no additional data attachments"
+    },
+    {
+      "file": "outputs/paper_original_reference/mmeent_gitlab_user_20260915.json",
+      "url": "https://git.aei.mpg.de/api/v4/users?username=mmeent",
+      "http_status": 200,
+      "finding": "user id64"
+    },
+    {
+      "file": "outputs/paper_original_reference/mmeent_gitlab_projects_20260915.json",
+      "url": "https://git.aei.mpg.de/api/v4/users/64/projects?per_page=100",
+      "http_status": 200,
+      "finding": "one public project, course materials"
+    },
+    {
+      "file": "outputs/paper_original_reference/conor_public_repos_20260915.json",
+      "url": "https://api.github.com/users/ConorDyson/repos?per_page=100",
+      "http_status": 200,
+      "finding": "complete single-page public-repository list; fewer than100 entries"
+    },
+    {
+      "file": "outputs/paper_original_reference/thomasspieksma_public_repos_20260915.json",
+      "url": "https://api.github.com/users/thomasspieksma/repos?per_page=100",
+      "http_status": 200,
+      "finding": "complete single-page public-repository list; fewer than100 entries"
+    },
+    {
+      "file": "outputs/paper_original_reference/richbrito_public_repos_20260915.json",
+      "url": "https://api.github.com/users/richbrito/repos?per_page=100",
+      "http_status": 200,
+      "finding": "complete single-page public-repository list; fewer than100 entries"
+    },
+    {
+      "file": "outputs/paper_original_reference/srd24_public_repos_20260915.json",
+      "url": "https://api.github.com/users/srd24/repos?per_page=100",
+      "http_status": 200,
+      "finding": "complete single-page public-repository list; fewer than100 entries"
+    },
+    {
+      "file": "outputs/paper_original_reference/ConorDyson__KerrLorenzMSF_repo_20260915.json",
+      "url": "https://api.github.com/repos/ConorDyson/KerrLorenzMSF",
+      "http_status": 200
+    },
+    {
+      "file": "outputs/paper_original_reference/ConorDyson__KerrLorenzMSF_commit_20260915.json",
+      "url": "https://api.github.com/repos/ConorDyson/KerrLorenzMSF/commits/main",
+      "http_status": 200,
+      "resolved_commit": "6b469f0835e42d3fa531b4997d7a912257119f60"
+    },
+    {
+      "file": "outputs/paper_original_reference/ConorDyson__KerrLorenzMSF_tree_20260915.json",
+      "url": "https://api.github.com/repos/ConorDyson/KerrLorenzMSF/git/trees/6b469f0835e42d3fa531b4997d7a912257119f60?recursive=1",
+      "http_status": 200
+    },
+    {
+      "file": "outputs/paper_original_reference/ConorDyson__SpiralDensityWavesInKerr_repo_20260915.json",
+      "url": "https://api.github.com/repos/ConorDyson/SpiralDensityWavesInKerr",
+      "http_status": 200
+    },
+    {
+      "file": "outputs/paper_original_reference/ConorDyson__SpiralDensityWavesInKerr_commit_20260915.json",
+      "url": "https://api.github.com/repos/ConorDyson/SpiralDensityWavesInKerr/commits/main",
+      "http_status": 200,
+      "resolved_commit": "78de2c1ae06abdc563c5995504e53a62908e2bf0"
+    },
+    {
+      "file": "outputs/paper_original_reference/ConorDyson__SpiralDensityWavesInKerr_README.md",
+      "url": "https://raw.githubusercontent.com/ConorDyson/SpiralDensityWavesInKerr/78de2c1ae06abdc563c5995504e53a62908e2bf0/README.md",
+      "http_status": 200
+    },
+    {
+      "file": "outputs/paper_original_reference/richbrito__Tidal_Grav_Atoms_repo_20260915.json",
+      "url": "https://api.github.com/repos/richbrito/Tidal_Grav_Atoms",
+      "http_status": 200
+    },
+    {
+      "file": "outputs/paper_original_reference/richbrito__Tidal_Grav_Atoms_commit_20260915.json",
+      "url": "https://api.github.com/repos/richbrito/Tidal_Grav_Atoms/commits/main",
+      "http_status": 200,
+      "resolved_commit": "b96b71348dffd61253fa482e7cf3586a2e4ddab1"
+    },
+    {
+      "file": "outputs/paper_original_reference/richbrito__Tidal_Grav_Atoms_README.md",
+      "url": "https://raw.githubusercontent.com/richbrito/Tidal_Grav_Atoms/b96b71348dffd61253fa482e7cf3586a2e4ddab1/README.md",
+      "http_status": 200
+    },
+    {
+      "file": "outputs/paper_original_reference/richbrito__gw_superradiance_repo_20260915.json",
+      "url": "https://api.github.com/repos/richbrito/gw_superradiance",
+      "http_status": 200
+    },
+    {
+      "file": "outputs/paper_original_reference/richbrito__gw_superradiance_commit_20260915.json",
+      "url": "https://api.github.com/repos/richbrito/gw_superradiance/commits/main",
+      "http_status": 200,
+      "resolved_commit": "6f482a2adecd7dad0a36546397e116e89915ada8"
+    },
+    {
+      "file": "outputs/paper_original_reference/richbrito__gw_superradiance_README.md",
+      "url": "https://raw.githubusercontent.com/richbrito/gw_superradiance/6f482a2adecd7dad0a36546397e116e89915ada8/README.md",
+      "http_status": 200
+    },
+    {
+      "file": "outputs/paper_original_reference/srd24__KerrLorenzCirc_repo_20260915.json",
+      "url": "https://api.github.com/repos/srd24/KerrLorenzCirc",
+      "http_status": 200
+    },
+    {
+      "file": "outputs/paper_original_reference/srd24__KerrLorenzCirc_commit_20260915.json",
+      "url": "https://api.github.com/repos/srd24/KerrLorenzCirc/commits/main",
+      "http_status": 200,
+      "resolved_commit": "5c1b42793ff893fd0c65a5b48ceecc02d34c5e35"
+    },
+    {
+      "file": "outputs/paper_original_reference/srd24__KerrLorenzCirc_tree_20260915.json",
+      "url": "https://api.github.com/repos/srd24/KerrLorenzCirc/git/trees/5c1b42793ff893fd0c65a5b48ceecc02d34c5e35?recursive=1",
+      "http_status": 200
+    },
+    {
+      "file": "outputs/paper_original_reference/thomasspieksma__GrAB_repo_20260915.json",
+      "url": "https://api.github.com/repos/thomasspieksma/GrAB",
+      "http_status": 200
+    },
+    {
+      "file": "outputs/paper_original_reference/thomasspieksma__GrAB_commit_20260915.json",
+      "url": "https://api.github.com/repos/thomasspieksma/GrAB/commits/main",
+      "http_status": 200,
+      "resolved_commit": "648ec51659e327f49125f3897566bd9c6cd9282d"
+    },
+    {
+      "file": "outputs/paper_original_reference/thomasspieksma__GrAB_README.md",
+      "url": "https://raw.githubusercontent.com/thomasspieksma/GrAB/648ec51659e327f49125f3897566bd9c6cd9282d/README.md",
+      "http_status": 200
+    },
+    {
+      "file": "outputs/paper_original_reference/2501.09806v1.tar",
+      "url": "https://arxiv.org/src/2501.09806v1",
+      "http_status": 200,
+      "provenance": "copied from existing outputs/environment_reference then byte-for-byte verified by fresh download20260915"
+    },
+    {
+      "file": "outputs/paper_original_reference/accepted_2025.pdf",
+      "url": "https://eprints.whiterose.ac.uk/id/eprint/227286/8/Self_force_and_environments%20%282%29.pdf",
+      "http_status": 200,
+      "provenance": "copied from existing outputs/environment_reference then byte-for-byte verified by fresh download20260915"
+    },
+    {
+      "file": "outputs/paper_original_reference/arxiv_v1_MPG_preprint.pdf",
+      "url": "https://pure.mpg.de/rest/items/item_3633555_3/component/file_3633556/content",
+      "http_status": 200,
+      "provenance": "newly downloaded public institutional preprint; MD5 checked against institution metadata9a5e1e363e508fe9889f897e03547d90"
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.09806",
+      "finding": "onlyv1 listed; submitted2025-01-16T19:32:12UTC"
+    },
+    {
+      "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.134.211403",
+      "finding": "publisher says Supplemental Material (Subscription Required); authorization required for full article"
+    },
+    {
+      "url": "https://journals.aps.org/prl/supplemental/10.1103/PhysRevLett.134.211403",
+      "finding": "web fetch unavailable; no supplement file URL verified"
+    },
+    {
+      "url": "https://researchprofiles.ku.dk/da/publications/environmental-effects-in-extreme-mass-ratio-inspirals-perturbatio/",
+      "finding": "institution page lists submitted and publisher PDFs"
+    },
+    {
+      "url": "https://researchprofiles.ku.dk/files/454207414/PhysRevLett.134.211403.pdf",
+      "http_status": 403,
+      "finding": "publisher PDF download unavailable; not bypassed"
+    },
+    {
+      "url": "https://researchprofiles.ku.dk/files/539795708/2501.09806v1.pdf",
+      "http_status": 403,
+      "finding": "submitted PDF download unavailable via this institution; public arXiv/MPG used instead"
+    },
+    {
+      "url": "https://pure.mpg.de/rest/items/item_3633555_3/component/file_3653088/content",
+      "finding": "NOT REQUESTED: metadata visibility=AUDIENCE; restricted publisher PDF"
+    }
+  ],
+  "files": [
+    {
+      "path": "outputs/paper_original_reference/2501.09806v1.tar",
+      "bytes": 3381880,
+      "sha256": "c07028320ab015cb3dc8c113614a9ad785de77169e421c608a9f72efd0039665"
+    },
+    {
+      "path": "outputs/paper_original_reference/ConorDyson__KerrLorenzMSF_commit_20260915.json",
+      "bytes": 560173,
+      "sha256": "452d81a808a854884bd341595cfb5e8e4b134cdf926b3665315e227a844f9c49"
+    },
+    {
+      "path": "outputs/paper_original_reference/ConorDyson__KerrLorenzMSF_repo_20260915.json",
+      "bytes": 15772,
+      "sha256": "0231f6cbc36287c2609130c1120b12577b37a4c73f0015129a4299b21ef1c347"
+    },
+    {
+      "path": "outputs/paper_original_reference/ConorDyson__KerrLorenzMSF_tree_20260915.json",
+      "bytes": 603928,
+      "sha256": "644ef2aae57df652f808099ea4f5be1a5cbe272bc29eeabd8eb3e3231e4ba1ab"
+    },
+    {
+      "path": "outputs/paper_original_reference/ConorDyson__SpiralDensityWavesInKerr_README.md",
+      "bytes": 130,
+      "sha256": "0565963d4a1dd4a071451223379e322b201d996e249bd0225140f473c04d4cb0"
+    },
+    {
+      "path": "outputs/paper_original_reference/ConorDyson__SpiralDensityWavesInKerr_commit_20260915.json",
+      "bytes": 5441,
+      "sha256": "76c40db3a0285c84fd4bc98b2336b8930441f241c1d70da022bf3e6d3f1ab0ca"
+    },
+    {
+      "path": "outputs/paper_original_reference/ConorDyson__SpiralDensityWavesInKerr_repo_20260915.json",
+      "bytes": 6329,
+      "sha256": "357a5b319678c313a125dc73e4b3748fe4f1bc7a79b262938c3b5ee865d1954e"
+    },
+    {
+      "path": "outputs/paper_original_reference/accepted_2025.pdf",
+      "bytes": 2537467,
+      "sha256": "69a6ad0fc933bae8774b1673e001016d2a4c82c8c61984665d118c368158099c"
+    },
+    {
+      "path": "outputs/paper_original_reference/arxiv_v1_MPG_preprint.pdf",
+      "bytes": 4110090,
+      "sha256": "6f41f28f1e89e518b4bd252390d017e552d80bbd762586aa7c2d64a141eb6486"
+    },
+    {
+      "path": "outputs/paper_original_reference/arxiv_v1_source/Figures/BosonEMRIsFieldPlots.pdf",
+      "bytes": 1938478,
+      "sha256": "18ceb64b3ed72e3383bcbd5c23edc632da52d52fac5c4c746fa56fa74658ddc2",
+      "parent_archive": "outputs/paper_original_reference/2501.09806v1.tar",
+      "tar_member": "Figures/BosonEMRIsFieldPlots.pdf"
+    },
+    {
+      "path": "outputs/paper_original_reference/arxiv_v1_source/Figures/Flux_Inf_Hor_TwoPanels_2.pdf",
+      "bytes": 155555,
+      "sha256": "edb692b0bb709680165c5c90300d0bd68596813e48dfcf687af900271e4edfe7",
+      "parent_archive": "outputs/paper_original_reference/2501.09806v1.tar",
+      "tar_member": "Figures/Flux_Inf_Hor_TwoPanels_2.pdf"
+    },
+    {
+      "path": "outputs/paper_original_reference/arxiv_v1_source/Figures/Flux_l_mode_convergence_inf.pdf",
+      "bytes": 80483,
+      "sha256": "5c5c62e8831e8a734a4efdcc1256373c6a426b0efb0b3128d72bb1ea1ac298d3",
+      "parent_archive": "outputs/paper_original_reference/2501.09806v1.tar",
+      "tar_member": "Figures/Flux_l_mode_convergence_inf.pdf"
+    },
+    {
+      "path": "outputs/paper_original_reference/arxiv_v1_source/Figures/Flux_l_mode_convergence_particle.pdf",
+      "bytes": 46467,
+      "sha256": "57c8eabfe99a7815a5ecf0586358ba3ec00c5065c3c37eed7a8c40a1ee100fba",
+      "parent_archive": "outputs/paper_original_reference/2501.09806v1.tar",
+      "tar_member": "Figures/Flux_l_mode_convergence_particle.pdf"
+    },
+    {
+      "path": "outputs/paper_original_reference/arxiv_v1_source/Figures/RelDiffFlux_Inf_Hor_TwoPanels.pdf",
+      "bytes": 106172,
+      "sha256": "e538b74b258b7955e61ad26d24509d7f7fb659d280b64f90d8a10ce6f9256f37",
+      "parent_archive": "outputs/paper_original_reference/2501.09806v1.tar",
+      "tar_member": "Figures/RelDiffFlux_Inf_Hor_TwoPanels.pdf"
+    },
+    {
+      "path": "outputs/paper_original_reference/arxiv_v1_source/Figures/ResonanceBosonEMRIsFieldPlot.pdf",
+      "bytes": 1150680,
+      "sha256": "22612b95f3467901352abf129d37cc2f6819c48d70ce3415c2429b53fc241aea",
+      "parent_archive": "outputs/paper_original_reference/2501.09806v1.tar",
+      "tar_member": "Figures/ResonanceBosonEMRIsFieldPlot.pdf"
+    },
+    {
+      "path": "outputs/paper_original_reference/arxiv_v1_source/Figures/plotTotal_onepanelSM_Ratio.pdf",
+      "bytes": 113969,
+      "sha256": "487a431da3bfd1c5e1ffc53ddd27baf25181b16e161f293741df5597618337dc",
+      "parent_archive": "outputs/paper_original_reference/2501.09806v1.tar",
+      "tar_member": "Figures/plotTotal_onepanelSM_Ratio.pdf"
+    },
+    {
+      "path": "outputs/paper_original_reference/arxiv_v1_source/main_PRL.bbl",
+      "bytes": 84980,
+      "sha256": "b75f9933ecfd652cb60486c161ce74862fc8eeb4a943de5ef14284c1a8c1558d",
+      "parent_archive": "outputs/paper_original_reference/2501.09806v1.tar",
+      "tar_member": "main_PRL.bbl"
+    },
+    {
+      "path": "outputs/paper_original_reference/arxiv_v1_source/main_PRL.tex",
+      "bytes": 67351,
+      "sha256": "cc1434ceb6eec54b3dbfbf69cbda528bc787ba8e8571eaa9278a2b23bef884b1",
+      "parent_archive": "outputs/paper_original_reference/2501.09806v1.tar",
+      "tar_member": "main_PRL.tex"
+    },
+    {
+      "path": "outputs/paper_original_reference/arxiv_v1_source/ref.bib",
+      "bytes": 55520,
+      "sha256": "90c5cd8d314f70601d5277ed6d592ccd0bdf8b2e3306052ca464458484549a56",
+      "parent_archive": "outputs/paper_original_reference/2501.09806v1.tar",
+      "tar_member": "ref.bib"
+    },
+    {
+      "path": "outputs/paper_original_reference/arxiv_v1_source/references.bib",
+      "bytes": 6826,
+      "sha256": "d8ca2d2fa2c47d4f0dcb70e3df5d5311a1934f9ff15c154859ed7d0610ab75a4",
+      "parent_archive": "outputs/paper_original_reference/2501.09806v1.tar",
+      "tar_member": "references.bib"
+    },
+    {
+      "path": "outputs/paper_original_reference/conor_public_repos_20260915.json",
+      "bytes": 22287,
+      "sha256": "dbdc890c144dc0333301df86d2ca407ad112aa4d97bd985a7afd2c40b800aafb"
+    },
+    {
+      "path": "outputs/paper_original_reference/crossref_doi_20260915.json",
+      "bytes": 23546,
+      "sha256": "4d523af26a7d08750e8799a5e8e1ca365d030c622d0d299901f6a3d5bfa06ea2"
+    },
+    {
+      "path": "outputs/paper_original_reference/datacite_doi_search_20260915.json",
+      "bytes": 171,
+      "sha256": "9ad3880c9cad78747d416e7e53fc90d68d15ff32a5495bf7c46afaf94285aea2"
+    },
+    {
+      "path": "outputs/paper_original_reference/datacite_search_20260915.json",
+      "bytes": 149,
+      "sha256": "e4698ee1e3820f5580e99ed3ffcba8a370c79c5ace01eef935bf230cd18245b1"
+    },
+    {
+      "path": "outputs/paper_original_reference/figshare_title_search_20260915.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "outputs/paper_original_reference/github_arxiv_repository_search_20260915.json",
+      "bytes": 55,
+      "sha256": "4af480b8ee5b87b369a76c49bd22c9a783908272ebffbe97898f8ab0f0772a5f"
+    },
+    {
+      "path": "outputs/paper_original_reference/github_environment_kerr_repository_search_20260915.json",
+      "bytes": 32385,
+      "sha256": "25399fd11e99950ebb4ade89271874548872119f21151a8748414679903d60b0"
+    },
+    {
+      "path": "outputs/paper_original_reference/mmeent_gitlab_projects_20260915.json",
+      "bytes": 1030,
+      "sha256": "3c77adad2793996710fa9bf96895837c3c36ba1281a1a6502e998262ce6d7bd6"
+    },
+    {
+      "path": "outputs/paper_original_reference/mmeent_gitlab_user_20260915.json",
+      "bytes": 171,
+      "sha256": "89d5b6157656428c7d58df50e8475c358d599360c37d1451da56944bf039c42e"
+    },
+    {
+      "path": "outputs/paper_original_reference/mpg_item_3633555_3_metadata_20260915.json",
+      "bytes": 5418,
+      "sha256": "01c5e65469926c51ca1c00c22ad796f318bfbd88ab5dfd10eaf83a4f9b07585b"
+    },
+    {
+      "path": "outputs/paper_original_reference/richbrito__Tidal_Grav_Atoms_README.md",
+      "bytes": 1772,
+      "sha256": "277c7b83aa75e249b8f3159182cc8610823d990065003080dd9011f842f96059"
+    },
+    {
+      "path": "outputs/paper_original_reference/richbrito__Tidal_Grav_Atoms_commit_20260915.json",
+      "bytes": 7009,
+      "sha256": "fcd68dc9c5737294d895458404e16dcea22e3342542bc8c7def900f8db378bd7"
+    },
+    {
+      "path": "outputs/paper_original_reference/richbrito__Tidal_Grav_Atoms_repo_20260915.json",
+      "bytes": 6092,
+      "sha256": "2437e5b6686c18e851681651ae90face74e315eaff24d5459cc71ca655b2a75a"
+    },
+    {
+      "path": "outputs/paper_original_reference/richbrito__gw_superradiance_README.md",
+      "bytes": 1811,
+      "sha256": "4e1f024ffd03abcba4f9c9bc947b07d08a45e2d663a227ef06665fda8dedcfd6"
+    },
+    {
+      "path": "outputs/paper_original_reference/richbrito__gw_superradiance_commit_20260915.json",
+      "bytes": 33113,
+      "sha256": "199d424ffd4f18c8e05015bc0f933bffaed4c7f57208afe450875bc32abf5a90"
+    },
+    {
+      "path": "outputs/paper_original_reference/richbrito__gw_superradiance_repo_20260915.json",
+      "bytes": 6090,
+      "sha256": "5a9f4a5dc63e48b640201284d33aa139d74e7f4c69f704689a1207a7cf6f6fe3"
+    },
+    {
+      "path": "outputs/paper_original_reference/richbrito_public_repos_20260915.json",
+      "bytes": 26320,
+      "sha256": "e7a6a9510389ac1e4c609119a71708a55f0abde10ff15d6031986b74612e5344"
+    },
+    {
+      "path": "outputs/paper_original_reference/source_download_verification_20260915.json",
+      "bytes": 714,
+      "sha256": "3b62d30714f3ed47d69f33565c04063a1a91b2af7b6db40e3dfc6014e28a776f"
+    },
+    {
+      "path": "outputs/paper_original_reference/srd24__KerrLorenzCirc_commit_20260915.json",
+      "bytes": 7101,
+      "sha256": "040f793e3517b714ea3ed3a10f360c8ca6c36baad94f269639e6e72c4a0a7463"
+    },
+    {
+      "path": "outputs/paper_original_reference/srd24__KerrLorenzCirc_repo_20260915.json",
+      "bytes": 5216,
+      "sha256": "0b030e1a7a69f52e5038622c4a9b402ab0e9329238a8024dc9f38fb31e10bf61"
+    },
+    {
+      "path": "outputs/paper_original_reference/srd24__KerrLorenzCirc_tree_20260915.json",
+      "bytes": 15714,
+      "sha256": "19ce522681774d702877a5bbcd87ae0c2d4d5d3250cd1f8b3c3df22a6ef4f264"
+    },
+    {
+      "path": "outputs/paper_original_reference/srd24_public_repos_20260915.json",
+      "bytes": 19719,
+      "sha256": "a47d86dccd6010c54a652cd753d6efe89271bd6994fa0ef44bc68c0c9c9b409c"
+    },
+    {
+      "path": "outputs/paper_original_reference/thomasspieksma__GrAB_README.md",
+      "bytes": 3545,
+      "sha256": "452d4854ac96a533d05d6c73e14cb44ec0c873bd84c460d053b83c67fcf372a9"
+    },
+    {
+      "path": "outputs/paper_original_reference/thomasspieksma__GrAB_commit_20260915.json",
+      "bytes": 6278,
+      "sha256": "52d7b1a359a287690dc4859ac1bccc2972edd78674fefda970530b87254a6df8"
+    },
+    {
+      "path": "outputs/paper_original_reference/thomasspieksma__GrAB_repo_20260915.json",
+      "bytes": 5759,
+      "sha256": "15e16808f99cf143c08742e261b90b2d9bc84b8cf6ed454c3be8b91d74a34e6f"
+    },
+    {
+      "path": "outputs/paper_original_reference/thomasspieksma_public_repos_20260915.json",
+      "bytes": 38953,
+      "sha256": "bc2cf23b369db56ef0e0e9b0e3632512d0b6bc2327e9e0d0890cd284591eb58e"
+    },
+    {
+      "path": "outputs/paper_original_reference/zenodo_arxiv_search_20260915.json",
+      "bytes": 442,
+      "sha256": "01af87341825c3a9220deef5f3165619d76f5248391d295a6366ab46e7a8df51"
+    },
+    {
+      "path": "outputs/paper_original_reference/zenodo_doi_search_20260915.json",
+      "bytes": 462,
+      "sha256": "fedaa6b234c2f657b913e09d2a337e8a861bfd8af0c1e2c113f84435e3ebd3dc"
+    },
+    {
+      "path": "outputs/paper_original_reference/zenodo_title_search_20260915.json",
+      "bytes": 485,
+      "sha256": "9ad57d12c470ca69d4fca1bc6e06f2ca1aaa550f51607c8cfb42e1cace78f519"
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "author_repository": "https://github.com/srd24/KerrLorenzCirc",
+  "author_commit": "5c1b42793ff893fd0c65a5b48ceecc02d34c5e35",
+  "scope": "Run bookkeeping; incomplete inford10 trials do not count as metric validation",
+  "runs": [
+    {
+      "run": "sam_L10_m1",
+      "state": {
+        "processId": 16132,
+        "status": "terminated_incomplete_symbolic_order10_trial",
+        "originalStatusPreserved": true,
+        "reason": "Symbolic inford=10 cost; replaced by completed original-author inford6/horord5/rinf10000 and inford7/horord6/rinf20000 runs, which agree within 3.34e-12 on protected low modes",
+        "utc": "2026-09-15T17:30:54.7937236Z",
+        "lastCompleted": "matching"
+      },
+      "files": [
+        {
+          "path": "outputs/paper_metric_reference/sam_L10_m1/01_matching.m",
+          "bytes": 46869,
+          "sha256": "d95fd98e2a34974dcd9dc17deab83f112844567b6bdb04675357a81db0c01687"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_L10_m1/02_radial.m",
+          "bytes": 13549,
+          "sha256": "dfda2b7f9fa49852e148bf29dbb52ec6142b0054ef913ea15185f26ffe4dae3f"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_L10_m1/03_fields.m",
+          "bytes": 40905,
+          "sha256": "2a0da09b1d07317bd0e618022701bc2aea219ba284ee6e4b66f46733d2f294ca"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_L10_m1/driver_manifest.json",
+          "bytes": 2355,
+          "sha256": "9daccd987003de93b5c12dd4ec64a830c65f2479a79370397a4375f981677b3a"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_L10_m1/execution_termination.json",
+          "bytes": 391,
+          "sha256": "d7be27d934e344a44357888b64a53faf03f62f8118e9eddc3e1a10a376b0c272"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_L10_m1/matching.json",
+          "bytes": 5369,
+          "sha256": "455e9eba52a9e9c35fdf061c8f4b3164e8c6c5479e2029f42c52f50d7e085378"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_L10_m1/run.log",
+          "bytes": 73,
+          "sha256": "40dfd75052f16a8333ea995f5faae28cc254b73068899d189e10cff6998cb1cd"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_L10_m1/run_sam.wls",
+          "bytes": 3272,
+          "sha256": "ad9bfc1c06fd8752eafd3959a2793e6d2d10d1d2a0a02b47fb6c3f8321b8036b"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_L10_m1/status.json",
+          "bytes": 141,
+          "sha256": "83a0725c3e4c65e346da4c5bbd3a6779230c3c93e16dfa9d3529add32cc1bb4d"
+        }
+      ]
+    },
+    {
+      "run": "sam_actual_L10_m1",
+      "state": {
+        "processId": 1968,
+        "status": "terminated_incomplete_symbolic_order10_trial",
+        "originalStatusPreserved": true,
+        "reason": "Symbolic inford=10 cost; replaced by completed original-author inford6/horord5/rinf10000 and inford7/horord6/rinf20000 runs, which agree within 3.34e-12 on protected low modes",
+        "utc": "2026-09-15T17:30:55.1083004Z",
+        "lastCompleted": "matching"
+      },
+      "files": [
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_m1/01_matching.m",
+          "bytes": 46916,
+          "sha256": "f653aa85155c050002b738d5bd44385512f9d5cfed49cf23ef6a8677ad3c0636"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_m1/02_radial.m",
+          "bytes": 13549,
+          "sha256": "dfda2b7f9fa49852e148bf29dbb52ec6142b0054ef913ea15185f26ffe4dae3f"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_m1/03_fields.m",
+          "bytes": 40905,
+          "sha256": "2a0da09b1d07317bd0e618022701bc2aea219ba284ee6e4b66f46733d2f294ca"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_m1/driver_manifest.json",
+          "bytes": 2322,
+          "sha256": "283e18cbca918172c0a584c26831831c6becb5dadd4c0cfbb435ac43ced6c794"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_m1/execution_termination.json",
+          "bytes": 390,
+          "sha256": "a065486ece04a7404db05ae3bb54b55e913b8cb343dec775c6ddd853c44b75c9"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_m1/matching.json",
+          "bytes": 4800,
+          "sha256": "33f3c42f791ec242d946569788e9529dd38fb9d313a3c97f96f14892306d71eb"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_m1/run.log",
+          "bytes": 76,
+          "sha256": "c92812010b48553077d4be436eecb319084783a5626e4abc3f00ffa881b533c2"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_m1/run_sam.wls",
+          "bytes": 3254,
+          "sha256": "ba9750e847b0ed0bdbd7848511827575258811240f2913438bf9500e3cbddaf6"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_m1/status.json",
+          "bytes": 141,
+          "sha256": "97324ec34f718165a533ea81356a4c388200b4442eb5f5622eeba82be2ca98c8"
+        }
+      ]
+    },
+    {
+      "run": "sam_actual_L10_i6_h5",
+      "state": {
+        "phase": "completed",
+        "utc": "Tue 15 Sep 2026 17:20:34",
+        "kernel": "14.0.0 for Microsoft Windows (64-bit) (December 13, 2023)"
+      },
+      "files": [
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i6_h5/01_matching.m",
+          "bytes": 46916,
+          "sha256": "f653aa85155c050002b738d5bd44385512f9d5cfed49cf23ef6a8677ad3c0636"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i6_h5/02_radial.m",
+          "bytes": 15608,
+          "sha256": "40d5ce0389a07ec5296768b81d8b5e3a6b982bc9412e4789022c0e75d03d48ad"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i6_h5/03_fields.m",
+          "bytes": 40905,
+          "sha256": "2a0da09b1d07317bd0e618022701bc2aea219ba284ee6e4b66f46733d2f294ca"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i6_h5/driver_manifest.json",
+          "bytes": 8256,
+          "sha256": "aee380694ee5092e994e749ac1f12662b595a7c3f3ad16416d50c2720a49a5ec"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i6_h5/matching.json",
+          "bytes": 4800,
+          "sha256": "33f3c42f791ec242d946569788e9529dd38fb9d313a3c97f96f14892306d71eb"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i6_h5/metric_samples.json",
+          "bytes": 88584,
+          "sha256": "b1b2a6d7d64b93581fbf9d050cc5fe1c714f9fa9e809097c0cc174041aa4801b"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i6_h5/run.log",
+          "bytes": 7326,
+          "sha256": "a9da6b17532c4773f2db22d615536c552107db2312eb0df946c5879e05c66f48"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i6_h5/run_sam.wls",
+          "bytes": 3948,
+          "sha256": "daf38fb084ac11a5b7b08620a694db2ec04055480349b012af6a37bbcd393aa6"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i6_h5/sample_1.json",
+          "bytes": 25970,
+          "sha256": "bcace03d1db0ea2064e0e25e8757cc233837082f276dab87e58e8820e64b698a"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i6_h5/sample_2.json",
+          "bytes": 25427,
+          "sha256": "0a50916fa152a62e5a79a0905f6b9523c7f8681ddea48814fb029b11b3841fcc"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i6_h5/sample_3.json",
+          "bytes": 25398,
+          "sha256": "c63e90f36c1f49b9bce8cad3e9b3a93861587dab3affabe223ad0d1547535d1d"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i6_h5/status.json",
+          "bytes": 134,
+          "sha256": "f438d41d1407385d63db543a5d74dc910d34a6252c925e8269c6069c41ded791"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i6_h5/syntax.json",
+          "bytes": 206,
+          "sha256": "19e6b864bce9569b563fdcb5e4a3a3ebbd12f240984106556d5579f2068d4f33"
+        }
+      ]
+    },
+    {
+      "run": "sam_actual_L10_i7_h6",
+      "state": {
+        "phase": "completed",
+        "utc": "Tue 15 Sep 2026 17:27:04",
+        "kernel": "14.0.0 for Microsoft Windows (64-bit) (December 13, 2023)"
+      },
+      "files": [
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i7_h6/01_matching.m",
+          "bytes": 46916,
+          "sha256": "f653aa85155c050002b738d5bd44385512f9d5cfed49cf23ef6a8677ad3c0636"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i7_h6/02_radial.m",
+          "bytes": 15608,
+          "sha256": "40d5ce0389a07ec5296768b81d8b5e3a6b982bc9412e4789022c0e75d03d48ad"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i7_h6/03_fields.m",
+          "bytes": 40905,
+          "sha256": "2a0da09b1d07317bd0e618022701bc2aea219ba284ee6e4b66f46733d2f294ca"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i7_h6/checkpoint_validation.json",
+          "bytes": 426,
+          "sha256": "b02a6990f936dbbf57d3d743384ea74b2e8e5b49174d83a420d6ca49f78d72c9"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i7_h6/driver_manifest.json",
+          "bytes": 3127,
+          "sha256": "6697be8cd168f946eb882f1917a67a5f6d1cc3e039ae6c6d94fea067afb9f646"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i7_h6/matching.json",
+          "bytes": 4800,
+          "sha256": "33f3c42f791ec242d946569788e9529dd38fb9d313a3c97f96f14892306d71eb"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i7_h6/matching_state.mx",
+          "bytes": 1220475,
+          "sha256": "f094abaee11d4f061fc6b0d4564c69fefd9182f9e7cb6420429189c27cb8d578"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i7_h6/metric_samples.json",
+          "bytes": 88580,
+          "sha256": "dd917471c3edbe804215fa3f9dc838185ed78bea679dc9c0ea5f50289d04d6cd"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i7_h6/run.log",
+          "bytes": 7707,
+          "sha256": "6fda8a5152c94f47b0eb234ce0fd35359f67a35e474b3e307234afed2b9dae52"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i7_h6/run_sam.wls",
+          "bytes": 5218,
+          "sha256": "acfd0aa436de265e979e6e7560eabf91f46b94855c75cf33be417e8956fc7419"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i7_h6/sample_1.json",
+          "bytes": 25964,
+          "sha256": "e2aea1d4d37b0032f5f2b6816d97b0968356046c5ddaefb9dfc9d7733310efe8"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i7_h6/sample_2.json",
+          "bytes": 25407,
+          "sha256": "836b701f4e44190c510dc492e9075eccb1583b93469fcbd9403ec69e98d686c5"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i7_h6/sample_3.json",
+          "bytes": 25420,
+          "sha256": "1cbd576efe9ad11eb8ddfbc44dab7504fe7ddc3c4a593f619ac278d044b20ab8"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i7_h6/status.json",
+          "bytes": 134,
+          "sha256": "8116f2337c2bd7708cc3226918ce1cf76880b8df4aa3dcba728a7786fc8322a2"
+        },
+        {
+          "path": "outputs/paper_metric_reference/sam_actual_L10_i7_h6/syntax.json",
+          "bytes": 206,
+          "sha256": "19e6b864bce9569b563fdcb5e4a3a3ebbd12f240984106556d5579f2068d4f33"
+        }
+      ]
+    }
+  ]
+}
