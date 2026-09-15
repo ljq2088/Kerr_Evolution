@@ -1,0 +1,46 @@
+{
+  "sources": {
+    "dyson": {
+      "path": "/mnt/c/Users/赖景祺/Zotero/storage/JIYFXWEA/Dyson 等 - 2025 - Environmental effects in extreme mass ratio inspirals perturbations to the environment in Kerr.pdf",
+      "sha256": "764fb98d044a6b3ae9fa0d8679d9c0c66e3a1d28d31daf80aae6488cbf1e5c26"
+    },
+    "spieksma": {
+      "path": "/home/ljq/code/kerr-hyperboloidal/outputs/environment_reference/Spieksma_2025_thesis.pdf",
+      "sha256": "549053c3875b13adfb6ebf3520f8bb5744588f684a0482a76a9bbcf1b0ec37e5"
+    },
+    "lorenz_2023_tex": {
+      "path": "/home/ljq/code/kerr-hyperboloidal/outputs/lorenz_reference/LorenzGaugeKerrCirc.tex",
+      "sha256": "30791a1b1558a5602b04bed43dc44fb79617c345b0e91cdce3a02fba2f44cd05"
+    }
+  },
+  "findings": [
+    {
+      "source": "dyson",
+      "pdf_page": 9,
+      "equation": "26",
+      "finding": "Printed cloud-mass formula uses r^2 and omits the energy-density minus sign."
+    },
+    {
+      "source": "spieksma",
+      "pdf_page": 207,
+      "printed_page": 180,
+      "equation": "9.4.3",
+      "finding": "Author thesis explicitly uses minus T^t_t times Sigma; agrees with covariant Killing-mass normalization in current implementation."
+    },
+    {
+      "source": "dyson",
+      "pdf_page": 12,
+      "section": "S5",
+      "finding": "Environmental calculation uses 2023 Lorenz construction and spherical-harmonic metric data through ell=18. Independent metric comparison stated for Schwarzschild."
+    },
+    {
+      "source": "lorenz_2023_tex",
+      "section": "Determining the jumps",
+      "finding": "Analytic curvature/trace jumps; eliminate higher derivatives using vacuum equations and TS identities; solve four equations per degree and verify the remaining sixteen. Discard |ellmax-ell|<=6 near cutoff."
+    }
+  ],
+  "limitations": [
+    "No author metric or scalar source arrays are available.",
+    "The thesis equation is primary corroboration, not a formal published erratum or evidence that plotted fluxes changed."
+  ]
+}
