@@ -1,0 +1,419 @@
+{
+  "status": "independent_In_series_and_horizon_current_audit",
+  "rows": [
+    {
+      "input": "forced_mode_nr8_nt18_L18_mg-1_sl0_inner0.0005_outer320_log_h32.json",
+      "input_sha256": "a42b1ff487ebe7d542cd261277115d285fb6122a44a8840d7ffdb73053906794",
+      "alpha": 0.3,
+      "a": 0.8771530275949366,
+      "omega": 0.2852214878976851,
+      "ell": 0,
+      "m": 0,
+      "expected_inward_charge_current": 1.6887518897460103,
+      "cases": [
+        {
+          "terms": 200,
+          "samples": [
+            {
+              "r": 1.4812109600800842,
+              "relative_state_max": 4.7575917897338234e-12,
+              "flux_current_relative": 6.750155989720952e-14
+            },
+            {
+              "r": 3.0,
+              "relative_state_max": 8.552483178998626e-13,
+              "flux_current_relative": 2.220446049250313e-16
+            },
+            {
+              "r": 10.0,
+              "relative_state_max": 7.362059512510997e-07,
+              "flux_current_relative": -9.40229963997119e-07
+            },
+            {
+              "r": 20.0,
+              "relative_state_max": 0.041304387870533074,
+              "flux_current_relative": -0.029093720045142213
+            },
+            {
+              "r": 40.0,
+              "relative_state_max": 1.4623531955580034,
+              "flux_current_relative": -0.7276274331450177
+            }
+          ]
+        },
+        {
+          "terms": 800,
+          "samples": [
+            {
+              "r": 1.4812109600800842,
+              "relative_state_max": 4.7575917897338234e-12,
+              "flux_current_relative": 6.750155989720952e-14
+            },
+            {
+              "r": 3.0,
+              "relative_state_max": 8.552483178998626e-13,
+              "flux_current_relative": 2.220446049250313e-16
+            },
+            {
+              "r": 10.0,
+              "relative_state_max": 1.592557365647004e-12,
+              "flux_current_relative": 2.220446049250313e-16
+            },
+            {
+              "r": 20.0,
+              "relative_state_max": 1.575460607345569e-10,
+              "flux_current_relative": -9.569489645144813e-11
+            },
+            {
+              "r": 40.0,
+              "relative_state_max": 0.019486054230465975,
+              "flux_current_relative": -0.005648912280749596
+            }
+          ]
+        },
+        {
+          "terms": 3200,
+          "samples": [
+            {
+              "r": 1.4812109600800842,
+              "relative_state_max": 4.7575917897338234e-12,
+              "flux_current_relative": 6.750155989720952e-14
+            },
+            {
+              "r": 3.0,
+              "relative_state_max": 8.552483178998626e-13,
+              "flux_current_relative": 2.220446049250313e-16
+            },
+            {
+              "r": 10.0,
+              "relative_state_max": 1.592557365647004e-12,
+              "flux_current_relative": 2.220446049250313e-16
+            },
+            {
+              "r": 20.0,
+              "relative_state_max": 1.3594203907219078e-12,
+              "flux_current_relative": 2.220446049250313e-16
+            },
+            {
+              "r": 40.0,
+              "relative_state_max": 1.7463416916380703e-12,
+              "flux_current_relative": 2.220446049250313e-16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "input": "forced_mode_nr8_nt18_L18_mg1_sl2_inner0.0005_outer320_log_h32.json",
+      "input_sha256": "506b02c1a67c1572fe0a3a73d862d71afc7b949025a9327f6290df03d7c1c05c",
+      "alpha": 0.3,
+      "a": 0.8771530275949366,
+      "omega": 0.3073650090618292,
+      "ell": 2,
+      "m": 2,
+      "expected_inward_charge_current": -1.6887518897460103,
+      "cases": [
+        {
+          "terms": 200,
+          "samples": [
+            {
+              "r": 1.4812109600800842,
+              "relative_state_max": 5.66504262177474e-12,
+              "flux_current_relative": 6.727951529228449e-14
+            },
+            {
+              "r": 3.0,
+              "relative_state_max": 1.585072313105919e-12,
+              "flux_current_relative": 1.6653345369377348e-14
+            },
+            {
+              "r": 10.0,
+              "relative_state_max": 7.988767887171764e-06,
+              "flux_current_relative": 0.8475043084133671
+            },
+            {
+              "r": 20.0,
+              "relative_state_max": 0.23152432020257602,
+              "flux_current_relative": -649871.5401579279
+            },
+            {
+              "r": 40.0,
+              "relative_state_max": 9.208520012125588,
+              "flux_current_relative": 249453250.95885718
+            }
+          ]
+        },
+        {
+          "terms": 800,
+          "samples": [
+            {
+              "r": 1.4812109600800842,
+              "relative_state_max": 5.66504262177474e-12,
+              "flux_current_relative": 6.727951529228449e-14
+            },
+            {
+              "r": 3.0,
+              "relative_state_max": 1.585072313105919e-12,
+              "flux_current_relative": 1.6653345369377348e-14
+            },
+            {
+              "r": 10.0,
+              "relative_state_max": 1.819907307937601e-12,
+              "flux_current_relative": -6.0891292008591336e-12
+            },
+            {
+              "r": 20.0,
+              "relative_state_max": 3.176158336407161e-11,
+              "flux_current_relative": 0.00010306618250677246
+            },
+            {
+              "r": 40.0,
+              "relative_state_max": 0.0100727426887761,
+              "flux_current_relative": -130597.59906032859
+            }
+          ]
+        },
+        {
+          "terms": 3200,
+          "samples": [
+            {
+              "r": 1.4812109600800842,
+              "relative_state_max": 5.66504262177474e-12,
+              "flux_current_relative": 6.727951529228449e-14
+            },
+            {
+              "r": 3.0,
+              "relative_state_max": 1.585072313105919e-12,
+              "flux_current_relative": 1.6653345369377348e-14
+            },
+            {
+              "r": 10.0,
+              "relative_state_max": 1.819907307937601e-12,
+              "flux_current_relative": -6.0891292008591336e-12
+            },
+            {
+              "r": 20.0,
+              "relative_state_max": 2.013995245349472e-11,
+              "flux_current_relative": -1.108311220576752e-10
+            },
+            {
+              "r": 40.0,
+              "relative_state_max": 8.800820304776751e-12,
+              "flux_current_relative": 4.398816866313382e-10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "input": "forced_mode_nr8_nt18_L18_alpha0.2_rp20_mg-1_sl0_inner0.0005_outer320_log_h32.json",
+      "input_sha256": "18bb693434b979e9f13925b503b8da140d4f08732c98e026f36c66d7fc1dee63",
+      "alpha": 0.2,
+      "a": 0.6870453082262991,
+      "omega": 0.1878622322253645,
+      "ell": 0,
+      "m": 0,
+      "expected_inward_charge_current": 1.2974626749959486,
+      "cases": [
+        {
+          "terms": 200,
+          "samples": [
+            {
+              "r": 1.7276145776436294,
+              "relative_state_max": 3.25816231181587e-12,
+              "flux_current_relative": -2.9687363678476686e-13
+            },
+            {
+              "r": 3.0,
+              "relative_state_max": 3.3049298356472952e-12,
+              "flux_current_relative": -2.220446049250313e-16
+            },
+            {
+              "r": 10.0,
+              "relative_state_max": 1.941067816823586e-10,
+              "flux_current_relative": -9.832401559606296e-11
+            },
+            {
+              "r": 20.0,
+              "relative_state_max": 0.0036694783941075733,
+              "flux_current_relative": -0.0008634690926218047
+            },
+            {
+              "r": 40.0,
+              "relative_state_max": 1.0618481005850477,
+              "flux_current_relative": -0.29940009273726
+            }
+          ]
+        },
+        {
+          "terms": 800,
+          "samples": [
+            {
+              "r": 1.7276145776436294,
+              "relative_state_max": 3.25816231181587e-12,
+              "flux_current_relative": -2.9687363678476686e-13
+            },
+            {
+              "r": 3.0,
+              "relative_state_max": 3.3049298356472952e-12,
+              "flux_current_relative": -2.220446049250313e-16
+            },
+            {
+              "r": 10.0,
+              "relative_state_max": 2.6775802996799394e-12,
+              "flux_current_relative": -2.220446049250313e-16
+            },
+            {
+              "r": 20.0,
+              "relative_state_max": 3.653817019154842e-12,
+              "flux_current_relative": 0.0
+            },
+            {
+              "r": 40.0,
+              "relative_state_max": 3.067885791214651e-05,
+              "flux_current_relative": -4.403284174836486e-06
+            }
+          ]
+        },
+        {
+          "terms": 3200,
+          "samples": [
+            {
+              "r": 1.7276145776436294,
+              "relative_state_max": 3.25816231181587e-12,
+              "flux_current_relative": -2.9687363678476686e-13
+            },
+            {
+              "r": 3.0,
+              "relative_state_max": 3.3049298356472952e-12,
+              "flux_current_relative": -2.220446049250313e-16
+            },
+            {
+              "r": 10.0,
+              "relative_state_max": 2.6775802996799394e-12,
+              "flux_current_relative": -2.220446049250313e-16
+            },
+            {
+              "r": 20.0,
+              "relative_state_max": 3.653731543715992e-12,
+              "flux_current_relative": -3.3306690738754696e-16
+            },
+            {
+              "r": 40.0,
+              "relative_state_max": 3.622031134143228e-12,
+              "flux_current_relative": 4.440892098500626e-16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "input": "forced_mode_nr8_nt18_L18_schwarzschild_frozen_mg-1_sl0_inner0.0005_outer320_log_h32.json",
+      "input_sha256": "1e80e062e64e5335a62b7677b65cbab351a07f3aa7b2fc7507449891d2f92650",
+      "alpha": 0.3,
+      "a": 0.0,
+      "omega": 0.28501200651150205,
+      "ell": 0,
+      "m": 0,
+      "expected_inward_charge_current": 2.2800960520920164,
+      "cases": [
+        {
+          "terms": 200,
+          "samples": [
+            {
+              "r": 2.001,
+              "relative_state_max": 1.294640448770333e-12,
+              "flux_current_relative": -1.1002310174035301e-13
+            },
+            {
+              "r": 3.0,
+              "relative_state_max": 2.8548062040319266e-12,
+              "flux_current_relative": 0.0
+            },
+            {
+              "r": 10.0,
+              "relative_state_max": 2.142357401824491e-12,
+              "flux_current_relative": -8.992806499463768e-15
+            },
+            {
+              "r": 20.0,
+              "relative_state_max": 8.4594230337066e-05,
+              "flux_current_relative": -5.403433340578356e-05
+            },
+            {
+              "r": 40.0,
+              "relative_state_max": 0.5911324156748708,
+              "flux_current_relative": -0.21462171660885898
+            }
+          ]
+        },
+        {
+          "terms": 800,
+          "samples": [
+            {
+              "r": 2.001,
+              "relative_state_max": 1.294640448770333e-12,
+              "flux_current_relative": -1.1002310174035301e-13
+            },
+            {
+              "r": 3.0,
+              "relative_state_max": 2.8548062040319266e-12,
+              "flux_current_relative": 0.0
+            },
+            {
+              "r": 10.0,
+              "relative_state_max": 2.1467411496645517e-12,
+              "flux_current_relative": -2.220446049250313e-16
+            },
+            {
+              "r": 20.0,
+              "relative_state_max": 2.215626706910186e-12,
+              "flux_current_relative": 0.0
+            },
+            {
+              "r": 40.0,
+              "relative_state_max": 2.483311180433708e-07,
+              "flux_current_relative": -5.596220109538308e-08
+            }
+          ]
+        },
+        {
+          "terms": 3200,
+          "samples": [
+            {
+              "r": 2.001,
+              "relative_state_max": 1.294640448770333e-12,
+              "flux_current_relative": -1.1002310174035301e-13
+            },
+            {
+              "r": 3.0,
+              "relative_state_max": 2.8548062040319266e-12,
+              "flux_current_relative": 0.0
+            },
+            {
+              "r": 10.0,
+              "relative_state_max": 2.1467411496645517e-12,
+              "flux_current_relative": -2.220446049250313e-16
+            },
+            {
+              "r": 20.0,
+              "relative_state_max": 2.215626706910186e-12,
+              "flux_current_relative": 0.0
+            },
+            {
+              "r": 40.0,
+              "relative_state_max": 2.251948900302046e-12,
+              "flux_current_relative": -2.220446049250313e-16
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Checks In solution, not independently the Up solution or full forced Green response",
+    "Series convergence slows near x=1; low term counts are retained as unconverged evidence",
+    "Analytic unit horizon normalization; no fit to radial ODE data",
+    "Wronskian current evaluated in double after high-precision series summation"
+  ]
+}

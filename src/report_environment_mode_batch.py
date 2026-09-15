@@ -19,7 +19,7 @@ def main():
     parser.add_argument('--workers',type=int,default=1)
     batch,remaining=parser.parse_known_args()
     args=argument_parser().parse_args(remaining)
-    if args.scalar_ell is not None or args.reuse_source or args.extend_metric_source:
+    if args.scalar_ell is not None or args.reuse_source or args.extend_metric_source or args.output:
         raise ValueError('Specify --scalar-ells; scalar-specific reuse/extension belongs in the single-channel command')
     if len(set(batch.scalar_ells))!=len(batch.scalar_ells) or len(set(batch.conjugate_ells))!=len(batch.conjugate_ells):
         raise ValueError('Duplicate scalar multipoles')
@@ -35,6 +35,7 @@ def main():
     if batch.conjugate_ells and min(batch.conjugate_ells)<abs(cloud.m-args.metric_m):
         raise ValueError('Opposite metric branch requires ell >= |m_cloud-m_g|')
     parameters=dict(vars(args),scalar_ells=batch.scalar_ells,conjugate_ells=batch.conjugate_ells)
+    parameters.pop('output',None)
     if not parameters.get('dense_angular'):
         parameters.pop('dense_angular',None)
     fingerprint=hashlib.sha256(json.dumps(parameters,sort_keys=True,default=str).encode()).hexdigest()[:12]

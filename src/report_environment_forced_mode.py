@@ -11,6 +11,7 @@ from environment_source import ThresholdCloud,project_source
 from environment_lorenz_mode import LorenzMetricMode
 from environment_radial import RadialGreen
 from environment_cloud import mode_flux
+from source_provenance import source_fingerprint,samples_hash,validate_saved_samples
 
 
 def encode(z):
@@ -19,6 +20,7 @@ def encode(z):
 
 def argument_parser():
     parser=argparse.ArgumentParser()
+    parser.add_argument('--output',type=Path,help='Separate result file for a fresh or versioned resumable run')
     parser.add_argument('--alpha',type=float,default=.3)
     parser.add_argument('--background',choices=('threshold-kerr','schwarzschild-frozen'),default='threshold-kerr')
     parser.add_argument('--orbital-radius',type=float,default=20.)
@@ -165,6 +167,11 @@ def run(args,cloud=None,metric=None):
         metadata['horizon_log_first_panel']=True
     if args.horizon_order is not None:
         metadata['horizon_quadrature_order']=args.horizon_order
+    output_override=getattr(args,'output',None)
+    if output_override is not None:
+        out=Path(output_override)
+    out.parent.mkdir(parents=True,exist_ok=True)
+    provenance=source_fingerprint()
     reused={}
     extended={}
     additional_metric=None
@@ -173,6 +180,7 @@ def run(args,cloud=None,metric=None):
     source_parameters=lambda p:{k:v for k,v in p.items() if k not in grid_keys}
     for cache_path in args.reuse_source or []:
         cached=json.loads(cache_path.read_text())
+        validate_saved_samples(cached,provenance)
         if source_parameters(cached['parameters'])!=source_parameters(metadata):
             raise ValueError('Reusable samples have different source physics or angular truncation')
         for row in cached['samples']:
@@ -182,6 +190,7 @@ def run(args,cloud=None,metric=None):
             reused[row['r']]=row['source']
     if args.extend_metric_source:
         cached=json.loads(args.extend_metric_source.read_text())
+        validate_saved_samples(cached,provenance)
         lower=source_parameters(cached['parameters'])
         upper=source_parameters(metadata)
         lower=json.loads(json.dumps(lower))
@@ -196,16 +205,18 @@ def run(args,cloud=None,metric=None):
     samples=[]
     if out.exists():
         previous=json.loads(out.read_text())
+        validate_saved_samples(previous,provenance)
         if previous['parameters']!=metadata:
             raise ValueError('Saved source samples have different physical or numerical parameters')
         samples=previous['samples']
         if len(samples)>len(radii) or any(row['r']!=float(radii[i]) for i,row in enumerate(samples)):
             raise ValueError('Saved quadrature nodes differ')
     def save():
+        result['source_samples_sha256']=samples_hash(result['samples'])
         temporary=out.with_suffix('.tmp')
         temporary.write_text(json.dumps(result,indent=2)+'\n')
         temporary.replace(out)
-    result=dict(status='source_sampling_in_progress',parameters=metadata,samples=samples)
+    result=dict(status='source_sampling_in_progress',parameters=metadata,samples=samples,source_provenance=provenance)
     for index in range(len(samples),len(radii)):
         r=float(radii[index])
         if r in reused:

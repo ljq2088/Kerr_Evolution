@@ -1,0 +1,113 @@
+{
+  "status": "fresh_source_response_comparison_not_paper_reproduction",
+  "rows": [
+    {
+      "scalar_ell": 2,
+      "scalar_m": 2,
+      "new_file": "fresh_20260915_L18_mg1_sl2.json",
+      "metric_cache": {
+        "workers": 4,
+        "cached_radii": 0,
+        "reconstructed_radii": 88,
+        "elapsed_seconds": 1051.8627143190097,
+        "cache_key": "3e11f952b001947a3ee962e3",
+        "source_hash": "8e36758457feebbd4d4c08d88de31d41d0b9a55438a65ffc7c73cf25d5f7aea6"
+      },
+      "old_file": "forced_mode_nr8_nt18_L18_mg1_sl2_inner0.0005_outer320_log_h32.json",
+      "old_sha256": "506b02c1a67c1572fe0a3a73d862d71afc7b949025a9327f6290df03d7c1c05c",
+      "relative_source_max": 3.15631601768566e-06,
+      "horizon_flux_relative_change": 8.494054792862471e-09,
+      "infinity_flux_relative_change": 5.131110296652253e-07
+    },
+    {
+      "scalar_ell": 4,
+      "scalar_m": 2,
+      "new_file": "fresh_20260915_L18_mg1_sl4.json",
+      "metric_cache": {
+        "workers": 4,
+        "cached_radii": 0,
+        "reconstructed_radii": 88,
+        "elapsed_seconds": 1051.8627143190097,
+        "cache_key": "3e11f952b001947a3ee962e3",
+        "source_hash": "8e36758457feebbd4d4c08d88de31d41d0b9a55438a65ffc7c73cf25d5f7aea6"
+      },
+      "old_file": "forced_mode_nr8_nt18_L18_mg1_sl4_inner0.0005_outer320_log_h32.json",
+      "old_sha256": "8085c9e3ab577bb928380411964cf5ad8437d37a0563a3df7e96cae9c252e658",
+      "relative_source_max": 9.160609286016102e-06,
+      "horizon_flux_relative_change": 2.5371378331584538e-08,
+      "infinity_flux_relative_change": 5.1352700980444865e-08
+    },
+    {
+      "scalar_ell": 6,
+      "scalar_m": 2,
+      "new_file": "fresh_20260915_L18_mg1_sl6.json",
+      "metric_cache": {
+        "workers": 4,
+        "cached_radii": 0,
+        "reconstructed_radii": 88,
+        "elapsed_seconds": 1051.8627143190097,
+        "cache_key": "3e11f952b001947a3ee962e3",
+        "source_hash": "8e36758457feebbd4d4c08d88de31d41d0b9a55438a65ffc7c73cf25d5f7aea6"
+      },
+      "old_file": "forced_mode_nr8_nt18_L18_mg1_sl6_inner0.0005_outer320_log_h32.json",
+      "old_sha256": "bbcd002280b2ebfe6da29de19957018bf71c9aac6857d0fccd7fb6c868d2ec3f",
+      "relative_source_max": 1.6856563375126717e-05,
+      "horizon_flux_relative_change": 6.882714287392844e-08,
+      "infinity_flux_relative_change": 1.6945563174886047e-07
+    },
+    {
+      "scalar_ell": 0,
+      "scalar_m": 0,
+      "new_file": "fresh_20260915_L18_mg-1_sl0.json",
+      "metric_cache": {
+        "workers": 4,
+        "cached_radii": 0,
+        "reconstructed_radii": 88,
+        "elapsed_seconds": 1051.8627143190097,
+        "cache_key": "3e11f952b001947a3ee962e3",
+        "source_hash": "8e36758457feebbd4d4c08d88de31d41d0b9a55438a65ffc7c73cf25d5f7aea6"
+      },
+      "old_file": "forced_mode_nr8_nt18_L18_mg-1_sl0_inner0.0005_outer320_log_h32.json",
+      "old_sha256": "a42b1ff487ebe7d542cd261277115d285fb6122a44a8840d7ffdb73053906794",
+      "relative_source_max": 2.9425363785431732e-06,
+      "horizon_flux_relative_change": 5.7854733448436946e-08,
+      "infinity_flux_relative_change": null
+    },
+    {
+      "scalar_ell": 2,
+      "scalar_m": 0,
+      "new_file": "fresh_20260915_L18_mg-1_sl2.json",
+      "metric_cache": {
+        "workers": 4,
+        "cached_radii": 0,
+        "reconstructed_radii": 88,
+        "elapsed_seconds": 1051.8627143190097,
+        "cache_key": "3e11f952b001947a3ee962e3",
+        "source_hash": "8e36758457feebbd4d4c08d88de31d41d0b9a55438a65ffc7c73cf25d5f7aea6"
+      },
+      "old_file": "forced_mode_nr8_nt18_L18_mg-1_sl2_inner0.0005_outer320_log_h32.json",
+      "old_sha256": "13cb770453f63b39a21af45534e3c60f5a00afe2794cb0337eea70245f729517",
+      "relative_source_max": 8.1658094678725e-06,
+      "horizon_flux_relative_change": 1.2633657453520186e-08,
+      "infinity_flux_relative_change": null
+    },
+    {
+      "scalar_ell": 4,
+      "scalar_m": 0,
+      "new_file": "fresh_20260915_L18_mg-1_sl4.json",
+      "metric_cache": {
+        "workers": 4,
+        "cached_radii": 0,
+        "reconstructed_radii": 88,
+        "elapsed_seconds": 1051.8627143190097,
+        "cache_key": "3e11f952b001947a3ee962e3",
+        "source_hash": "8e36758457feebbd4d4c08d88de31d41d0b9a55438a65ffc7c73cf25d5f7aea6"
+      },
+      "old_file": "forced_mode_nr8_nt18_L18_mg-1_sl4_inner0.0005_outer320_log_h32.json",
+      "old_sha256": "a40740e79f07e728f128c6528d5bb5c59b61838871454cc3a996ca19a5ca57b0",
+      "relative_source_max": 9.26884751821577e-06,
+      "horizon_flux_relative_change": -8.228635550722174e-10,
+      "infinity_flux_relative_change": null
+    }
+  ]
+}

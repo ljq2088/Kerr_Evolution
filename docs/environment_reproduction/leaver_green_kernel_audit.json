@@ -1,0 +1,122 @@
+{
+  "status": "independent_bound_scalar00_Up_over_W_check",
+  "a": 0.8771530275949366,
+  "mu": 0.3,
+  "omega": 0.2852214878976851,
+  "rows": [
+    {
+      "match": 150,
+      "asymptotic_order": 20,
+      "last_term_relative": 1.456335307908333e-15,
+      "samples": [
+        {
+          "r": 1.4812109600800842,
+          "relative_kernel_error": 4.216651804003817e-12
+        },
+        {
+          "r": 3.0,
+          "relative_kernel_error": 1.7359564209001162e-11
+        },
+        {
+          "r": 10.0,
+          "relative_kernel_error": 2.18276555663324e-11
+        },
+        {
+          "r": 20.0,
+          "relative_kernel_error": 1.6716412221489217e-11
+        },
+        {
+          "r": 40.0,
+          "relative_kernel_error": 1.5836449817212552e-11
+        }
+      ]
+    },
+    {
+      "match": 200,
+      "asymptotic_order": 24,
+      "last_term_relative": 3.8528395119469983e-19,
+      "samples": [
+        {
+          "r": 1.4812109600800842,
+          "relative_kernel_error": 4.216651804003817e-12
+        },
+        {
+          "r": 3.0,
+          "relative_kernel_error": 1.7359564209001162e-11
+        },
+        {
+          "r": 10.0,
+          "relative_kernel_error": 2.18276555663324e-11
+        },
+        {
+          "r": 20.0,
+          "relative_kernel_error": 1.6716412221489217e-11
+        },
+        {
+          "r": 40.0,
+          "relative_kernel_error": 1.5836449817212552e-11
+        }
+      ]
+    },
+    {
+      "match": 200,
+      "asymptotic_order": 32,
+      "last_term_relative": 2.1366403868698647e-20,
+      "samples": [
+        {
+          "r": 1.4812109600800842,
+          "relative_kernel_error": 4.216651804003817e-12
+        },
+        {
+          "r": 3.0,
+          "relative_kernel_error": 1.7359564209001162e-11
+        },
+        {
+          "r": 10.0,
+          "relative_kernel_error": 2.18276555663324e-11
+        },
+        {
+          "r": 20.0,
+          "relative_kernel_error": 1.6716412221489217e-11
+        },
+        {
+          "r": 40.0,
+          "relative_kernel_error": 1.5836449817212552e-11
+        }
+      ]
+    },
+    {
+      "match": 250,
+      "asymptotic_order": 40,
+      "last_term_relative": 1.355422480138148e-24,
+      "samples": [
+        {
+          "r": 1.4812109600800842,
+          "relative_kernel_error": 4.216651804003817e-12
+        },
+        {
+          "r": 3.0,
+          "relative_kernel_error": 1.7359564209001162e-11
+        },
+        {
+          "r": 10.0,
+          "relative_kernel_error": 2.18276555663324e-11
+        },
+        {
+          "r": 20.0,
+          "relative_kernel_error": 1.6716412221489217e-11
+        },
+        {
+          "r": 40.0,
+          "relative_kernel_error": 1.5836449817212552e-11
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "One dominant bound scalar00 channel; not all propagating modes",
+    "Finite distant matching asymptotics need cutoff/order variation",
+    "No production Up integrator, radial boundary helper or source used",
+    "No flux fit or adjustable amplitude normalization"
+  ]
+}

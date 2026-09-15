@@ -1,0 +1,46 @@
+{
+  "status": "Up_over_W_far_node_series_resolution",
+  "a": 0.8771530275949366,
+  "mu": 0.3,
+  "omega": 0.2852214878976851,
+  "match": 250,
+  "asymptotic_order": 40,
+  "dps": 90,
+  "rows": [
+    {
+      "terms": 60000,
+      "r": 316.8231885198029,
+      "kernel": [
+        "-0.00000000001779836917078492086656578793090553444808",
+        "0.000000000008227649718206675538910675076446155938679"
+      ],
+      "relative_to_production": 237.3000262063516,
+      "relative_to_120000": 237.30002621525307
+    },
+    {
+      "terms": 90000,
+      "r": 316.8231885198029,
+      "kernel": [
+        "7.532106303945912811310132280146865355405e-14",
+        "-3.481865766156053097773336684107429946427e-14"
+      ],
+      "relative_to_production": 3.7670314077820465e-11,
+      "relative_to_120000": 4.946125410851521e-18
+    },
+    {
+      "terms": 120000,
+      "r": 316.8231885198029,
+      "kernel": [
+        "7.532106303945912848564874667328673552038e-14",
+        "-3.481865766156053114995081427265883501306e-14"
+      ],
+      "relative_to_production": 3.7670314077820465e-11,
+      "relative_to_120000": 0.0
+    }
+  ],
+  "explanation": "Up is obtained by cancellation of growing In and conjugate In. Relative accuracy of In alone does not guarantee accuracy of Up/W.",
+  "limitations": [
+    "Checks largest source radius for one bound scalar00 mode; no all-mode coverage",
+    "The insufficient 60000-term diagnostic never generated historical production fluxes"
+  ]
+}
