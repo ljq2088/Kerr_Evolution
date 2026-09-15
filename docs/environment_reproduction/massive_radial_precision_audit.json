@@ -1,0 +1,2501 @@
+{
+  "status": "completed_fixed_source_algorithm_precision_diagnostic",
+  "configurations": {
+    "baseline": {
+      "rmax": 1000.0,
+      "offset": 0.0001,
+      "rtol": 1e-11,
+      "order": 6,
+      "method": "series"
+    },
+    "tight_tolerance": {
+      "rmax": 1000.0,
+      "offset": 0.0001,
+      "rtol": 5e-14,
+      "order": 6,
+      "method": "series"
+    },
+    "boundary_refined": {
+      "rmax": 2000.0,
+      "offset": 1e-05,
+      "rtol": 1e-12,
+      "order": 12,
+      "method": "series"
+    },
+    "coulomb_propagating": {
+      "rmax": 4000.0,
+      "offset": 1e-05,
+      "rtol": 1e-12,
+      "order": 12,
+      "method": "coulomb"
+    }
+  },
+  "rows": [
+    {
+      "file": "forced_mode_nr8_nt18_L18_mg1_sl2_inner0.0005_outer320_log_h32.json",
+      "sha256": "506b02c1a67c1572fe0a3a73d862d71afc7b949025a9327f6290df03d7c1c05c",
+      "ell": 2,
+      "m": 2,
+      "omega": 0.3073650090618292,
+      "metrics": {
+        "baseline": {
+          "z_h": [
+            0.008603877014113288,
+            0.00236612981202474
+          ],
+          "z_inf": [
+            0.015718442940546182,
+            -0.025661870525691216
+          ],
+          "horizon_flux": -1.4887900298264185e-06,
+          "infinity_flux": 1.341204878806812e-06,
+          "wronskian_spread": 1.3991692570087318e-10,
+          "wronskian_max_subtraction_condition": 1.6774598517579278,
+          "horizon_integral_cancellation": 1.5071893753338201,
+          "infinity_integral_cancellation": 1.553673774063578,
+          "boundary_last_term_relative": 5.43698473463262e-10,
+          "k": [
+            0.06688235040411139,
+            0.0
+          ],
+          "horizon_frequency": -0.2852214878976851,
+          "beta_over_k2_rmax": 0.022119605260713885,
+          "max_In_magnitude": 484.3100435903602,
+          "max_Up_magnitude": 1337.692703902441,
+          "In_evaluations": 6674,
+          "Up_evaluations": 6662,
+          "stored_horizon_flux_relative_change": -4.440892098500626e-16,
+          "seconds": 0.13485870200383943
+        },
+        "tight_tolerance": {
+          "z_h": [
+            0.008603877014240662,
+            0.0023661298120490545
+          ],
+          "z_inf": [
+            0.01571844294242848,
+            -0.025661870524347843
+          ],
+          "horizon_flux": -1.4887900298695513e-06,
+          "infinity_flux": 1.3412048787923376e-06,
+          "wronskian_spread": 9.838561290955455e-13,
+          "wronskian_max_subtraction_condition": 1.6774598517553323,
+          "horizon_integral_cancellation": 1.5071893753383543,
+          "infinity_integral_cancellation": 1.553673774031097,
+          "boundary_last_term_relative": 5.43698473463262e-10,
+          "k": [
+            0.06688235040411139,
+            0.0
+          ],
+          "horizon_frequency": -0.2852214878976851,
+          "beta_over_k2_rmax": 0.022119605260713885,
+          "max_In_magnitude": 484.3100435898011,
+          "max_Up_magnitude": 1337.6927039571012,
+          "In_evaluations": 12821,
+          "Up_evaluations": 12653,
+          "horizon_flux_relative_change": 2.897171391680331e-11,
+          "infinity_flux_relative_change": -1.0792144955473759e-11,
+          "kh_max_relative_change": 6.741923478986195e-11,
+          "ki_max_relative_change": 2.952562962012008e-10,
+          "seconds": 0.2831452099926537
+        },
+        "boundary_refined": {
+          "z_h": [
+            0.00860387701447074,
+            0.0023661298118550665
+          ],
+          "z_inf": [
+            0.015718442942639587,
+            -0.025661870525009345
+          ],
+          "horizon_flux": -1.4887900299264122e-06,
+          "infinity_flux": 1.341204878852448e-06,
+          "wronskian_spread": 8.0978934345805e-12,
+          "wronskian_max_subtraction_condition": 1.6774598517564012,
+          "horizon_integral_cancellation": 1.5071893753383234,
+          "infinity_integral_cancellation": 1.5536737740326187,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.06688235040411139,
+            0.0
+          ],
+          "horizon_frequency": -0.2852214878976851,
+          "beta_over_k2_rmax": 0.011059802630356943,
+          "max_In_magnitude": 484.3100435802706,
+          "max_Up_magnitude": 1337.6927039256773,
+          "In_evaluations": 14999,
+          "Up_evaluations": 14240,
+          "horizon_flux_relative_change": 6.716449618693332e-11,
+          "infinity_flux_relative_change": 3.402589321410687e-11,
+          "kh_max_relative_change": 9.275534008482008e-11,
+          "ki_max_relative_change": 2.746209633883061e-10,
+          "seconds": 0.3135265970049659
+        },
+        "coulomb_propagating": {
+          "z_h": [
+            0.00860387701447643,
+            0.00236612981187553
+          ],
+          "z_inf": [
+            0.015718514413517893,
+            -0.025661826660919308
+          ],
+          "horizon_flux": -1.4887900299300534e-06,
+          "infinity_flux": 1.341204872276285e-06,
+          "wronskian_spread": 1.0110950923293801e-11,
+          "wronskian_max_subtraction_condition": 1.6774598460506878,
+          "horizon_integral_cancellation": 1.5071893753409091,
+          "infinity_integral_cancellation": 1.5536737740326187,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.06688235040411139,
+            0.0
+          ],
+          "horizon_frequency": -0.2852214878976851,
+          "beta_over_k2_rmax": 0.005529901315178471,
+          "max_In_magnitude": 484.3100435802706,
+          "max_Up_magnitude": 1337.6927072049798,
+          "In_evaluations": 26219,
+          "Up_evaluations": 23396,
+          "horizon_flux_relative_change": 6.961009546557761e-11,
+          "infinity_flux_relative_change": -4.869149528019534e-09,
+          "kh_max_relative_change": 2.078022287244689e-08,
+          "ki_max_relative_change": 2.7866794763162474e-06,
+          "seconds": 0.6659958849922987
+        }
+      }
+    },
+    {
+      "file": "forced_mode_nr8_nt18_L18_inner0.0005_outer320_log_h32.json",
+      "sha256": "d5549cee14d7434185cb044b5f15c18d3add7daacd8271ab5f8bc40f3dcd2736",
+      "ell": 3,
+      "m": 3,
+      "omega": 0.3184367696439012,
+      "metrics": {
+        "baseline": {
+          "z_h": [
+            -1.1660269858356385e-06,
+            2.5101995385142226e-06
+          ],
+          "z_inf": [
+            0.01881205288728418,
+            -0.049273988585191775
+          ],
+          "horizon_flux": -5.729439680528307e-13,
+          "infinity_flux": 1.3155145535414752e-05,
+          "wronskian_spread": 7.158015278143178e-11,
+          "wronskian_max_subtraction_condition": 1.625221073525471,
+          "horizon_integral_cancellation": 2.0466521690125647,
+          "infinity_integral_cancellation": 1.1468671666232482,
+          "boundary_last_term_relative": 2.7427578726621623e-11,
+          "k": [
+            0.10678003681045914,
+            0.0
+          ],
+          "horizon_frequency": -0.5704429757953702,
+          "beta_over_k2_rmax": 0.009893368477351002,
+          "max_In_magnitude": 12882.034804697303,
+          "max_Up_magnitude": 28253.154052764137,
+          "In_evaluations": 9257,
+          "Up_evaluations": 9299,
+          "stored_horizon_flux_relative_change": 6.661338147750939e-16,
+          "seconds": 0.21052456500183325
+        },
+        "tight_tolerance": {
+          "z_h": [
+            -1.1660269858633285e-06,
+            2.5101995385778594e-06
+          ],
+          "z_inf": [
+            0.01881205289297009,
+            -0.04927398858175336
+          ],
+          "horizon_flux": -5.72943968081554e-13,
+          "infinity_flux": 1.3155145534823998e-05,
+          "wronskian_spread": 1.0846608587178726e-12,
+          "wronskian_max_subtraction_condition": 1.625221073523343,
+          "horizon_integral_cancellation": 2.0466521690118045,
+          "infinity_integral_cancellation": 1.1468671666230374,
+          "boundary_last_term_relative": 2.7427578726621623e-11,
+          "k": [
+            0.10678003681045914,
+            0.0
+          ],
+          "horizon_frequency": -0.5704429757953702,
+          "beta_over_k2_rmax": 0.009893368477351002,
+          "max_In_magnitude": 12882.03480464854,
+          "max_Up_magnitude": 28253.15405390523,
+          "In_evaluations": 17921,
+          "Up_evaluations": 17852,
+          "horizon_flux_relative_change": 5.013278681076372e-11,
+          "infinity_flux_relative_change": -4.490674498924818e-11,
+          "kh_max_relative_change": 1.17776308601269e-10,
+          "ki_max_relative_change": 1.458659633099329e-10,
+          "seconds": 0.4214530390017899
+        },
+        "boundary_refined": {
+          "z_h": [
+            -1.1660269858453904e-06,
+            2.510199538533415e-06
+          ],
+          "z_inf": [
+            0.01881205289129245,
+            -0.04927398858279802
+          ],
+          "horizon_flux": -5.729439680617376e-13,
+          "infinity_flux": 1.3155145535012354e-05,
+          "wronskian_spread": 5.8371478035860105e-12,
+          "wronskian_max_subtraction_condition": 1.6252210735233505,
+          "horizon_integral_cancellation": 2.046652169011353,
+          "infinity_integral_cancellation": 1.1468671666231163,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.10678003681045914,
+            0.0
+          ],
+          "horizon_frequency": -0.5704429757953702,
+          "beta_over_k2_rmax": 0.004946684238675501,
+          "max_In_magnitude": 12882.034804874862,
+          "max_Up_magnitude": 28253.1540536972,
+          "In_evaluations": 21860,
+          "Up_evaluations": 20663,
+          "horizon_flux_relative_change": 1.5546008924616217e-11,
+          "infinity_flux_relative_change": -3.058864272986739e-11,
+          "kh_max_relative_change": 9.618430376168017e-11,
+          "ki_max_relative_change": 1.0868107388123672e-10,
+          "seconds": 0.40900433699425776
+        },
+        "coulomb_propagating": {
+          "z_h": [
+            -1.166026984104262e-06,
+            2.510199539883474e-06
+          ],
+          "z_inf": [
+            0.0188122333307861,
+            -0.04927391949689971
+          ],
+          "horizon_flux": -5.729439682649737e-13,
+          "infinity_flux": 1.3155145443442424e-05,
+          "wronskian_spread": 4.875164488188601e-12,
+          "wronskian_max_subtraction_condition": 1.62522106753169,
+          "horizon_integral_cancellation": 2.0466521680004472,
+          "infinity_integral_cancellation": 1.1468671666231165,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.10678003681045914,
+            0.0
+          ],
+          "horizon_frequency": -0.5704429757953702,
+          "beta_over_k2_rmax": 0.0024733421193377505,
+          "max_In_magnitude": 12882.034804874862,
+          "max_Up_magnitude": 28253.154152084695,
+          "In_evaluations": 39710,
+          "Up_evaluations": 35309,
+          "horizon_flux_relative_change": 3.7026848254129163e-10,
+          "infinity_flux_relative_change": -6.991357714980495e-09,
+          "kh_max_relative_change": 1.6964805233194186e-08,
+          "ki_max_relative_change": 3.6633868564340105e-06,
+          "seconds": 0.7237493810098385
+        }
+      }
+    },
+    {
+      "file": "forced_mode_nr8_nt18_L18_mg1_sl4_inner0.0005_outer320_log_h32.json",
+      "sha256": "8085c9e3ab577bb928380411964cf5ad8437d37a0563a3df7e96cae9c252e658",
+      "ell": 4,
+      "m": 2,
+      "omega": 0.3073650090618292,
+      "metrics": {
+        "baseline": {
+          "z_h": [
+            -0.00043555447102125645,
+            -0.00012306483327719685
+          ],
+          "z_inf": [
+            0.002088279248519166,
+            0.005318101607841957
+          ],
+          "horizon_flux": -3.830223541736956e-09,
+          "infinity_flux": 4.8344803854931106e-08,
+          "wronskian_spread": 5.000785224193008e-11,
+          "wronskian_max_subtraction_condition": 1.615929271800518,
+          "horizon_integral_cancellation": 1.5699872682866567,
+          "infinity_integral_cancellation": 1.0117297300687582,
+          "boundary_last_term_relative": 5.289646283700567e-09,
+          "k": [
+            0.06688235040411139,
+            0.0
+          ],
+          "horizon_frequency": -0.2852214878976851,
+          "beta_over_k2_rmax": 0.022119605260713885,
+          "max_In_magnitude": 32286265.647083268,
+          "max_Up_magnitude": 160039806.6716492,
+          "In_evaluations": 6845,
+          "Up_evaluations": 7235,
+          "stored_horizon_flux_relative_change": 2.220446049250313e-16,
+          "seconds": 0.15521027699287515
+        },
+        "tight_tolerance": {
+          "z_h": [
+            -0.0004355544710172899,
+            -0.00012306483328333124
+          ],
+          "z_inf": [
+            0.0020882792480120386,
+            0.0053181016077892065
+          ],
+          "horizon_flux": -3.8302235417005804e-09,
+          "infinity_flux": 4.834480385096332e-08,
+          "wronskian_spread": 7.280427978478013e-13,
+          "wronskian_max_subtraction_condition": 1.6159292718016054,
+          "horizon_integral_cancellation": 1.569987268287109,
+          "infinity_integral_cancellation": 1.0117297300686081,
+          "boundary_last_term_relative": 5.289646283700567e-09,
+          "k": [
+            0.06688235040411139,
+            0.0
+          ],
+          "horizon_frequency": -0.2852214878976851,
+          "beta_over_k2_rmax": 0.022119605260713885,
+          "max_In_magnitude": 32286265.647586193,
+          "max_Up_magnitude": 160039806.67896143,
+          "In_evaluations": 13295,
+          "Up_evaluations": 13799,
+          "horizon_flux_relative_change": -9.496958774946052e-12,
+          "infinity_flux_relative_change": -8.207268198390238e-11,
+          "kh_max_relative_change": 2.5247311254289636e-10,
+          "ki_max_relative_change": 1.6731739482982343e-10,
+          "seconds": 0.3179372550075641
+        },
+        "boundary_refined": {
+          "z_h": [
+            -0.0004355544710121949,
+            -0.0001230648332844723
+          ],
+          "z_inf": [
+            0.002088279247489042,
+            0.0053181016071028545
+          ],
+          "horizon_flux": -3.830223541622848e-09,
+          "infinity_flux": 4.834480383691666e-08,
+          "wronskian_spread": 3.3617548294474988e-12,
+          "wronskian_max_subtraction_condition": 1.6159292718129559,
+          "horizon_integral_cancellation": 1.5699872682870022,
+          "infinity_integral_cancellation": 1.0117297300686088,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.06688235040411139,
+            0.0
+          ],
+          "horizon_frequency": -0.2852214878976851,
+          "beta_over_k2_rmax": 0.011059802630356943,
+          "max_In_magnitude": 32286265.64789949,
+          "max_Up_magnitude": 160039806.70193458,
+          "In_evaluations": 15284,
+          "Up_evaluations": 14933,
+          "horizon_flux_relative_change": -2.9791502598186526e-11,
+          "infinity_flux_relative_change": -3.7262426477724375e-10,
+          "kh_max_relative_change": 2.625712467095947e-10,
+          "ki_max_relative_change": 3.054403355338186e-10,
+          "seconds": 0.3400402419938473
+        },
+        "coulomb_propagating": {
+          "z_h": [
+            -0.0004355544710121974,
+            -0.00012306483328465003
+          ],
+          "z_inf": [
+            0.002088229557323926,
+            0.005318120929054464
+          ],
+          "horizon_flux": -3.8302235416237056e-09,
+          "infinity_flux": 4.83448008470004e-08,
+          "wronskian_spread": 3.3573306439719582e-12,
+          "wronskian_max_subtraction_condition": 1.6159292085193024,
+          "horizon_integral_cancellation": 1.5699872682870253,
+          "infinity_integral_cancellation": 1.0117297300686088,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.06688235040411139,
+            0.0
+          ],
+          "horizon_frequency": -0.2852214878976851,
+          "beta_over_k2_rmax": 0.005529901315178471,
+          "max_In_magnitude": 32286265.64789949,
+          "max_Up_magnitude": 160039811.6508463,
+          "In_evaluations": 26504,
+          "Up_evaluations": 24101,
+          "horizon_flux_relative_change": -2.956745959181717e-11,
+          "infinity_flux_relative_change": -6.22182834142393e-08,
+          "kh_max_relative_change": 6.901042963203759e-08,
+          "ki_max_relative_change": 9.331608927482918e-06,
+          "seconds": 0.5941799029969843
+        }
+      }
+    },
+    {
+      "file": "forced_mode_nr8_nt18_L18_mg3_sl4_inner0.0005_outer320_log_h32.json",
+      "sha256": "1f9dfd94b0e9cd0a0139fdbb7221a7b790923dc71fae39b31ba31955bd991065",
+      "ell": 4,
+      "m": 4,
+      "omega": 0.32950853022597326,
+      "metrics": {
+        "baseline": {
+          "z_h": [
+            3.074769632060556e-08,
+            -1.0377011496979556e-09
+          ],
+          "z_inf": [
+            0.015236544604122881,
+            0.012517166891634242
+          ],
+          "horizon_flux": -1.592738890996039e-16,
+          "infinity_flux": 3.520499319547388e-06,
+          "wronskian_spread": 5.917840757506953e-11,
+          "wronskian_max_subtraction_condition": 1.61060467336327,
+          "horizon_integral_cancellation": 2.715726568816714,
+          "infinity_integral_cancellation": 1.0875743155156727,
+          "boundary_last_term_relative": 1.7310470630460212e-11,
+          "k": [
+            0.13629332885978365,
+            0.0
+          ],
+          "horizon_frequency": -0.8556644636930553,
+          "beta_over_k2_rmax": 0.006844994757866669,
+          "max_In_magnitude": 339151.5170642384,
+          "max_Up_magnitude": 629749.0841500777,
+          "In_evaluations": 11294,
+          "Up_evaluations": 11726,
+          "stored_horizon_flux_relative_change": 4.440892098500626e-16,
+          "seconds": 0.2566097310045734
+        },
+        "tight_tolerance": {
+          "z_h": [
+            3.0747696320936205e-08,
+            -1.0377011495764825e-09
+          ],
+          "z_inf": [
+            0.015236544601468487,
+            0.012517166893577665
+          ],
+          "horizon_flux": -1.5927388910298307e-16,
+          "infinity_flux": 3.520499319255528e-06,
+          "wronskian_spread": 1.0711537835407031e-12,
+          "wronskian_max_subtraction_condition": 1.6106046733631185,
+          "horizon_integral_cancellation": 2.715726568817492,
+          "infinity_integral_cancellation": 1.0875743155170448,
+          "boundary_last_term_relative": 1.7310470630460212e-11,
+          "k": [
+            0.13629332885978365,
+            0.0
+          ],
+          "horizon_frequency": -0.8556644636930553,
+          "beta_over_k2_rmax": 0.006844994757866669,
+          "max_In_magnitude": 339151.5170665245,
+          "max_Up_magnitude": 629749.0841796506,
+          "In_evaluations": 21974,
+          "Up_evaluations": 21830,
+          "horizon_flux_relative_change": 2.1216139955981816e-11,
+          "infinity_flux_relative_change": -8.290301778401954e-11,
+          "kh_max_relative_change": 1.2901009461734592e-10,
+          "ki_max_relative_change": 2.325407295557512e-10,
+          "seconds": 0.47054540099634323
+        },
+        "boundary_refined": {
+          "z_h": [
+            3.074769632176427e-08,
+            -1.0377011489637501e-09
+          ],
+          "z_inf": [
+            0.015236544602145886,
+            0.012517166892965012
+          ],
+          "horizon_flux": -1.5927388911133814e-16,
+          "infinity_flux": 3.5204993193035603e-06,
+          "wronskian_spread": 6.371976892262051e-12,
+          "wronskian_max_subtraction_condition": 1.6106046733631298,
+          "horizon_integral_cancellation": 2.715726568817476,
+          "infinity_integral_cancellation": 1.0875743155170357,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.13629332885978365,
+            0.0
+          ],
+          "horizon_frequency": -0.8556644636930553,
+          "beta_over_k2_rmax": 0.0034224973789333344,
+          "max_In_magnitude": 339151.5170569731,
+          "max_Up_magnitude": 629749.0841750174,
+          "In_evaluations": 27170,
+          "Up_evaluations": 26309,
+          "horizon_flux_relative_change": 7.367351173570569e-11,
+          "infinity_flux_relative_change": -6.925937601209853e-11,
+          "kh_max_relative_change": 1.4306911094275436e-10,
+          "ki_max_relative_change": 1.8898288787046862e-10,
+          "seconds": 0.5440174149989616
+        },
+        "coulomb_propagating": {
+          "z_h": [
+            3.0747696306727644e-08,
+            -1.0377011776257684e-09
+          ],
+          "z_inf": [
+            0.015236484231777803,
+            0.01251724052420593
+          ],
+          "horizon_flux": -1.5927388896574511e-16,
+          "infinity_flux": 3.520499352319276e-06,
+          "wronskian_spread": 5.200643394598105e-12,
+          "wronskian_max_subtraction_condition": 1.6106046826137619,
+          "horizon_integral_cancellation": 2.7157265697785635,
+          "infinity_integral_cancellation": 1.0875743155170354,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.13629332885978365,
+            0.0
+          ],
+          "horizon_frequency": -0.8556644636930553,
+          "beta_over_k2_rmax": 0.0017112486894666672,
+          "max_In_magnitude": 339151.5170569731,
+          "max_Up_magnitude": 629749.0812217483,
+          "In_evaluations": 49940,
+          "Up_evaluations": 44891,
+          "horizon_flux_relative_change": -8.404313911469785e-10,
+          "infinity_flux_relative_change": 9.308875004165884e-09,
+          "kh_max_relative_change": 1.7676204870759774e-08,
+          "ki_max_relative_change": 4.828856939611287e-06,
+          "seconds": 1.050339317007456
+        }
+      }
+    },
+    {
+      "file": "forced_mode_nr8_nt18_L18_mg2_sl5_inner0.0005_outer320_log_h32.json",
+      "sha256": "1925fbd05a140f4e0fe3c3b294cda08b9f38ddcd2b9f74a56a01eb3c6b5b3088",
+      "ell": 5,
+      "m": 3,
+      "omega": 0.3184367696439012,
+      "metrics": {
+        "baseline": {
+          "z_h": [
+            3.378661573310489e-08,
+            -1.1495107214688432e-07
+          ],
+          "z_inf": [
+            -0.00036462466697366984,
+            -0.002226773600841048
+          ],
+          "horizon_flux": -1.0736292278141873e-15,
+          "infinity_flux": 2.4077427713301184e-08,
+          "wronskian_spread": 6.791865611534131e-11,
+          "wronskian_max_subtraction_condition": 1.5862845853368939,
+          "horizon_integral_cancellation": 2.1142310244768114,
+          "infinity_integral_cancellation": 1.0152105920349157,
+          "boundary_last_term_relative": 4.842880328568303e-10,
+          "k": [
+            0.10678003681045914,
+            0.0
+          ],
+          "horizon_frequency": -0.5704429757953702,
+          "beta_over_k2_rmax": 0.009893368477351002,
+          "max_In_magnitude": 556492568.2473944,
+          "max_Up_magnitude": 1875716427.8252954,
+          "In_evaluations": 9230,
+          "Up_evaluations": 9794,
+          "stored_horizon_flux_relative_change": -5.551115123125783e-16,
+          "seconds": 0.25075976000516675
+        },
+        "tight_tolerance": {
+          "z_h": [
+            3.37866157345359e-08,
+            -1.1495107214807165e-07
+          ],
+          "z_inf": [
+            -0.0003646246666723229,
+            -0.002226773600794031
+          ],
+          "horizon_flux": -1.0736292278418347e-15,
+          "infinity_flux": 2.4077427711271742e-08,
+          "wronskian_spread": 1.2555727752023816e-12,
+          "wronskian_max_subtraction_condition": 1.5862845853368674,
+          "horizon_integral_cancellation": 2.1142310244857825,
+          "infinity_integral_cancellation": 1.0152105920350878,
+          "boundary_last_term_relative": 4.842880328568303e-10,
+          "k": [
+            0.10678003681045914,
+            0.0
+          ],
+          "horizon_frequency": -0.5704429757953702,
+          "beta_over_k2_rmax": 0.009893368477351002,
+          "max_In_magnitude": 556492568.2421447,
+          "max_Up_magnitude": 1875716427.9143777,
+          "In_evaluations": 17843,
+          "Up_evaluations": 18815,
+          "horizon_flux_relative_change": 2.575140101157558e-11,
+          "infinity_flux_relative_change": -8.428813202954188e-11,
+          "kh_max_relative_change": 7.357092327935075e-11,
+          "ki_max_relative_change": 1.7935451113425674e-10,
+          "seconds": 0.3764953530044295
+        },
+        "boundary_refined": {
+          "z_h": [
+            3.378661574135399e-08,
+            -1.1495107214884863e-07
+          ],
+          "z_inf": [
+            -0.00036462466674051433,
+            -0.002226773600807399
+          ],
+          "horizon_flux": -1.0736292278896515e-15,
+          "infinity_flux": 2.407742771178846e-08,
+          "wronskian_spread": 5.683665804302154e-12,
+          "wronskian_max_subtraction_condition": 1.5862845853365195,
+          "horizon_integral_cancellation": 2.114231024484818,
+          "infinity_integral_cancellation": 1.0152105920350796,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.10678003681045914,
+            0.0
+          ],
+          "horizon_frequency": -0.5704429757953702,
+          "beta_over_k2_rmax": 0.004946684238675501,
+          "max_In_magnitude": 556492568.2288771,
+          "max_Up_magnitude": 1875716427.8895993,
+          "In_evaluations": 21770,
+          "Up_evaluations": 21416,
+          "horizon_flux_relative_change": 7.028888582283344e-11,
+          "infinity_flux_relative_change": -6.282752096353761e-11,
+          "kh_max_relative_change": 9.78155340318713e-11,
+          "ki_max_relative_change": 1.5465506468130892e-10,
+          "seconds": 0.588395874001435
+        },
+        "coulomb_propagating": {
+          "z_h": [
+            3.3786615741313676e-08,
+            -1.1495107214901748e-07
+          ],
+          "z_inf": [
+            -0.000364604778728354,
+            -0.0022267768834401277
+          ],
+          "horizon_flux": -1.0736292278923514e-15,
+          "infinity_flux": 2.4077428262460688e-08,
+          "wronskian_spread": 5.480560133367271e-12,
+          "wronskian_max_subtraction_condition": 1.5862846008338922,
+          "horizon_integral_cancellation": 2.114231024485271,
+          "infinity_integral_cancellation": 1.01521059203508,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.10678003681045914,
+            0.0
+          ],
+          "horizon_frequency": -0.5704429757953702,
+          "beta_over_k2_rmax": 0.0024733421193377505,
+          "max_In_magnitude": 556492568.2288771,
+          "max_Up_magnitude": 1875716406.4417331,
+          "In_evaluations": 39620,
+          "Up_evaluations": 35987,
+          "horizon_flux_relative_change": 7.280354097360942e-11,
+          "infinity_flux_relative_change": 2.2808063659951472e-08,
+          "kh_max_relative_change": 4.134575534352375e-08,
+          "ki_max_relative_change": 8.933335656854225e-06,
+          "seconds": 0.9063577830092981
+        }
+      }
+    },
+    {
+      "file": "forced_mode_nr8_nt18_L18_mg4_sl5_inner0.0005_outer320_log_h32.json",
+      "sha256": "f4bfa2d133178247906193d93a92c9fbe8371fdab0ec4da2e0693f31c6c76265",
+      "ell": 5,
+      "m": 5,
+      "omega": 0.3405802908080453,
+      "metrics": {
+        "baseline": {
+          "z_h": [
+            -1.4509103743738324e-10,
+            -6.296469565086956e-10
+          ],
+          "z_inf": [
+            -0.005687498913500048,
+            0.005527666647869525
+          ],
+          "horizon_flux": -1.2490101419047117e-19,
+          "infinity_flux": 8.982983810518522e-07,
+          "wronskian_spread": 1.8244098397545312e-10,
+          "wronskian_max_subtraction_condition": 1.5925673969249285,
+          "horizon_integral_cancellation": 3.352928679911646,
+          "infinity_integral_cancellation": 1.054835120612793,
+          "boundary_last_term_relative": 2.3707818562427333e-11,
+          "k": [
+            0.16122944671148853,
+            0.0
+          ],
+          "horizon_frequency": -1.1408859515907404,
+          "beta_over_k2_rmax": 0.005462212995588821,
+          "max_In_magnitude": 9258885.186165653,
+          "max_Up_magnitude": 16504977.641393514,
+          "In_evaluations": 13208,
+          "Up_evaluations": 13613,
+          "stored_horizon_flux_relative_change": 0.0,
+          "seconds": 0.3167288889962947
+        },
+        "tight_tolerance": {
+          "z_h": [
+            -1.4509103743581966e-10,
+            -6.296469565069236e-10
+          ],
+          "z_inf": [
+            -0.00568749891437913,
+            0.005527666646629147
+          ],
+          "horizon_flux": -1.2490101418966786e-19,
+          "infinity_flux": 8.982983809988241e-07,
+          "wronskian_spread": 2.844455842563212e-12,
+          "wronskian_max_subtraction_condition": 1.592567396926073,
+          "horizon_integral_cancellation": 3.352928679919855,
+          "infinity_integral_cancellation": 1.0548351206122957,
+          "boundary_last_term_relative": 2.3707818562427333e-11,
+          "k": [
+            0.16122944671148853,
+            0.0
+          ],
+          "horizon_frequency": -1.1408859515907404,
+          "beta_over_k2_rmax": 0.005462212995588821,
+          "max_In_magnitude": 9258885.18625029,
+          "max_Up_magnitude": 16504977.642229808,
+          "In_evaluations": 25571,
+          "Up_evaluations": 25364,
+          "horizon_flux_relative_change": -6.431521981653532e-12,
+          "infinity_flux_relative_change": -5.90316684423442e-11,
+          "kh_max_relative_change": 6.769263775981999e-10,
+          "ki_max_relative_change": 4.3057947171920835e-10,
+          "seconds": 0.5612519800051814
+        },
+        "boundary_refined": {
+          "z_h": [
+            -1.4509103751076967e-10,
+            -6.296469564640782e-10
+          ],
+          "z_inf": [
+            -0.005687498914134242,
+            0.0055276666469729905
+          ],
+          "horizon_flux": -1.2490101418003325e-19,
+          "infinity_flux": 8.982983810133295e-07,
+          "wronskian_spread": 5.475782434989848e-12,
+          "wronskian_max_subtraction_condition": 1.5925673969260816,
+          "horizon_integral_cancellation": 3.3529286799164453,
+          "infinity_integral_cancellation": 1.054835120612312,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.16122944671148853,
+            0.0
+          ],
+          "horizon_frequency": -1.1408859515907404,
+          "beta_over_k2_rmax": 0.0027311064977944104,
+          "max_In_magnitude": 9258885.186617507,
+          "max_Up_magnitude": 16504977.64209044,
+          "In_evaluations": 31952,
+          "Up_evaluations": 30206,
+          "horizon_flux_relative_change": -8.356948466570202e-11,
+          "infinity_flux_relative_change": -4.288402966068361e-11,
+          "kh_max_relative_change": 6.142292881181949e-10,
+          "ki_max_relative_change": 3.7335023818307637e-10,
+          "seconds": 0.7073834050097503
+        },
+        "coulomb_propagating": {
+          "z_h": [
+            -1.4509103800447024e-10,
+            -6.296469565553875e-10
+          ],
+          "z_inf": [
+            -0.005687532801794573,
+            0.005527631746605594
+          ],
+          "horizon_flux": -1.2490101425729056e-19,
+          "infinity_flux": 8.982983758613407e-07,
+          "wronskian_spread": 4.812330809563181e-12,
+          "wronskian_max_subtraction_condition": 1.5925673892848857,
+          "horizon_integral_cancellation": 3.3529286782089023,
+          "infinity_integral_cancellation": 1.054835120612312,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.16122944671148853,
+            0.0
+          ],
+          "horizon_frequency": -1.1408859515907404,
+          "beta_over_k2_rmax": 0.0013655532488972052,
+          "max_In_magnitude": 9258885.186617507,
+          "max_Up_magnitude": 16504977.68940408,
+          "In_evaluations": 58877,
+          "Up_evaluations": 52244,
+          "horizon_flux_relative_change": 5.349787279840257e-10,
+          "infinity_flux_relative_change": -5.778159728464516e-09,
+          "kh_max_relative_change": 1.8855503627910484e-08,
+          "ki_max_relative_change": 6.133745624606277e-06,
+          "seconds": 1.2814033569884486
+        }
+      }
+    },
+    {
+      "file": "forced_mode_nr8_nt18_L18_mg1_sl6_inner0.0005_outer320_log_h32.json",
+      "sha256": "bbcd002280b2ebfe6da29de19957018bf71c9aac6857d0fccd7fb6c868d2ec3f",
+      "ell": 6,
+      "m": 2,
+      "omega": 0.3073650090618292,
+      "metrics": {
+        "baseline": {
+          "z_h": [
+            2.8714822232764557e-05,
+            8.177899788426322e-06
+          ],
+          "z_inf": [
+            5.382703519153674e-05,
+            3.9054938894229604e-05
+          ],
+          "horizon_flux": -1.6667269207046457e-11,
+          "infinity_flux": 6.549974339459972e-12,
+          "wronskian_spread": 3.669097928365679e-11,
+          "wronskian_max_subtraction_condition": 1.583086649173533,
+          "horizon_integral_cancellation": 1.6045755200914191,
+          "infinity_integral_cancellation": 1.000929159596891,
+          "boundary_last_term_relative": 2.6117877197579784e-07,
+          "k": [
+            0.06688235040411139,
+            0.0
+          ],
+          "horizon_frequency": -0.2852214878976851,
+          "beta_over_k2_rmax": 0.022119605260713885,
+          "max_In_magnitude": 8896635508096.21,
+          "max_Up_magnitude": 62463757683186.74,
+          "In_evaluations": 6743,
+          "Up_evaluations": 7835,
+          "stored_horizon_flux_relative_change": 0.0,
+          "seconds": 0.18745634899823926
+        },
+        "tight_tolerance": {
+          "z_h": [
+            2.87148222324901e-05,
+            8.177899788631558e-06
+          ],
+          "z_inf": [
+            5.382703518627587e-05,
+            3.9054938896912544e-05
+          ],
+          "horizon_flux": -1.666726920681451e-11,
+          "infinity_flux": 6.5499743389315615e-12,
+          "wronskian_spread": 5.741289955313779e-13,
+          "wronskian_max_subtraction_condition": 1.5830866491746602,
+          "horizon_integral_cancellation": 1.6045755200924976,
+          "infinity_integral_cancellation": 1.0009291595968823,
+          "boundary_last_term_relative": 2.6117877197579784e-07,
+          "k": [
+            0.06688235040411139,
+            0.0
+          ],
+          "horizon_frequency": -0.2852214878976851,
+          "beta_over_k2_rmax": 0.022119605260713885,
+          "max_In_magnitude": 8896635508208.432,
+          "max_Up_magnitude": 62463757686179.125,
+          "In_evaluations": 13046,
+          "Up_evaluations": 15014,
+          "horizon_flux_relative_change": -1.391631254676895e-11,
+          "infinity_flux_relative_change": -8.067357892826976e-11,
+          "kh_max_relative_change": 1.0465315689237574e-10,
+          "ki_max_relative_change": 1.3820660229900485e-10,
+          "seconds": 0.3662518600031035
+        },
+        "boundary_refined": {
+          "z_h": [
+            2.8714822232519684e-05,
+            8.177899788450443e-06
+          ],
+          "z_inf": [
+            5.3827035393541e-05,
+            3.905493869136639e-05
+          ],
+          "horizon_flux": -1.666726920679089e-11,
+          "infinity_flux": 6.5499743481993586e-12,
+          "wronskian_spread": 2.666619844472144e-12,
+          "wronskian_max_subtraction_condition": 1.5830866489220703,
+          "horizon_integral_cancellation": 1.604575520092463,
+          "infinity_integral_cancellation": 1.0009291595968812,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.06688235040411139,
+            0.0
+          ],
+          "horizon_frequency": -0.2852214878976851,
+          "beta_over_k2_rmax": 0.011059802630356943,
+          "max_In_magnitude": 8896635508197.092,
+          "max_Up_magnitude": 62463757641864.11,
+          "In_evaluations": 15140,
+          "Up_evaluations": 15749,
+          "horizon_flux_relative_change": -1.53334012154005e-11,
+          "infinity_flux_relative_change": 1.3342627003254393e-09,
+          "kh_max_relative_change": 4.831992895738944e-10,
+          "ki_max_relative_change": 4.324586123403586e-09,
+          "seconds": 0.3452164069894934
+        },
+        "coulomb_propagating": {
+          "z_h": [
+            2.871482223266519e-05,
+            8.177899788402047e-06
+          ],
+          "z_inf": [
+            5.382626834211971e-05,
+            3.9055995428336104e-05
+          ],
+          "horizon_flux": -1.6667269206932332e-11,
+          "infinity_flux": 6.549974299462529e-12,
+          "wronskian_spread": 7.22440694708013e-12,
+          "wronskian_max_subtraction_condition": 1.5830866258101608,
+          "horizon_integral_cancellation": 1.6045755200923653,
+          "infinity_integral_cancellation": 1.0009291595968814,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.06688235040411139,
+            0.0
+          ],
+          "horizon_frequency": -0.2852214878976851,
+          "beta_over_k2_rmax": 0.005529901315178471,
+          "max_In_magnitude": 8896635508197.092,
+          "max_Up_magnitude": 62463757874518.984,
+          "In_evaluations": 26345,
+          "Up_evaluations": 24926,
+          "horizon_flux_relative_change": -6.847300504375653e-12,
+          "infinity_flux_relative_change": -6.106503747105307e-09,
+          "kh_max_relative_change": 1.438749343555426e-07,
+          "ki_max_relative_change": 1.9630672987906146e-05,
+          "seconds": 0.6653320009936579
+        }
+      }
+    },
+    {
+      "file": "forced_mode_nr8_nt18_L18_mg3_sl6_inner0.0005_outer320_log_h32.json",
+      "sha256": "910e1fd603f7e9fed65685d02427a96fa3c6d85e90085b00056edead884694cd",
+      "ell": 6,
+      "m": 4,
+      "omega": 0.32950853022597326,
+      "metrics": {
+        "baseline": {
+          "z_h": [
+            -1.306151849910112e-09,
+            5.457158058503825e-10
+          ],
+          "z_inf": [
+            0.0008486056878937671,
+            0.00027509476589526494
+          ],
+          "horizon_flux": -3.372001330507578e-19,
+          "infinity_flux": 7.20528629633175e-09,
+          "wronskian_spread": 1.3759084104419404e-10,
+          "wronskian_max_subtraction_condition": 1.5090401904374278,
+          "horizon_integral_cancellation": 2.2732859314460736,
+          "infinity_integral_cancellation": 1.0130881842275687,
+          "boundary_last_term_relative": 1.4753102554090244e-09,
+          "k": [
+            0.13629332885978365,
+            0.0
+          ],
+          "horizon_frequency": -0.8556644636930553,
+          "beta_over_k2_rmax": 0.006844994757866669,
+          "max_In_magnitude": 12915879429.69376,
+          "max_Up_magnitude": 35028471704.60005,
+          "In_evaluations": 11228,
+          "Up_evaluations": 12209,
+          "stored_horizon_flux_relative_change": 0.0,
+          "seconds": 0.2736843430029694
+        },
+        "tight_tolerance": {
+          "z_h": [
+            -1.3061518499082699e-09,
+            5.457158058606521e-10
+          ],
+          "z_inf": [
+            0.0008486056878197015,
+            0.00027509476602207133
+          ],
+          "horizon_flux": -3.372001330518342e-19,
+          "infinity_flux": 7.205286295825291e-09,
+          "wronskian_spread": 2.3006979927485314e-12,
+          "wronskian_max_subtraction_condition": 1.509040190438256,
+          "horizon_integral_cancellation": 2.273285931453201,
+          "infinity_integral_cancellation": 1.0130881842275572,
+          "boundary_last_term_relative": 1.4753102554090244e-09,
+          "k": [
+            0.13629332885978365,
+            0.0
+          ],
+          "horizon_frequency": -0.8556644636930553,
+          "beta_over_k2_rmax": 0.006844994757866669,
+          "max_In_magnitude": 12915879429.730618,
+          "max_Up_magnitude": 35028471706.4699,
+          "In_evaluations": 21734,
+          "Up_evaluations": 22781,
+          "horizon_flux_relative_change": 3.19211324040225e-12,
+          "infinity_flux_relative_change": -7.028999604585806e-11,
+          "kh_max_relative_change": 3.231840969915182e-10,
+          "ki_max_relative_change": 2.0798911081927252e-10,
+          "seconds": 0.617344194004545
+        },
+        "boundary_refined": {
+          "z_h": [
+            -1.3061518498251368e-09,
+            5.457158059012658e-10
+          ],
+          "z_inf": [
+            0.000848605687842871,
+            0.0002750947659836701
+          ],
+          "horizon_flux": -3.3720013302274883e-19,
+          "infinity_flux": 7.205286295990032e-09,
+          "wronskian_spread": 4.197702794103175e-12,
+          "wronskian_max_subtraction_condition": 1.509040190438297,
+          "horizon_integral_cancellation": 2.2732859314535245,
+          "infinity_integral_cancellation": 1.0130881842275719,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.13629332885978365,
+            0.0
+          ],
+          "horizon_frequency": -0.8556644636930553,
+          "beta_over_k2_rmax": 0.0034224973789333344,
+          "max_In_magnitude": 12915879430.285276,
+          "max_Up_magnitude": 35028471706.05057,
+          "In_evaluations": 27062,
+          "Up_evaluations": 26969,
+          "horizon_flux_relative_change": -8.306344501107787e-11,
+          "infinity_flux_relative_change": -4.742606307672759e-11,
+          "kh_max_relative_change": 2.6251006715686315e-10,
+          "ki_max_relative_change": 1.7162836013191167e-10,
+          "seconds": 0.8371712859952822
+        },
+        "coulomb_propagating": {
+          "z_h": [
+            -1.3061518498265403e-09,
+            5.457158059017749e-10
+          ],
+          "z_inf": [
+            0.0008486029883205833,
+            0.0002751031431054226
+          ],
+          "horizon_flux": -3.372001330234594e-19,
+          "infinity_flux": 7.205286544272022e-09,
+          "wronskian_spread": 7.854823110196261e-12,
+          "wronskian_max_subtraction_condition": 1.5090402198778181,
+          "horizon_integral_cancellation": 2.2732859314520066,
+          "infinity_integral_cancellation": 1.0130881842275719,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.13629332885978365,
+            0.0
+          ],
+          "horizon_frequency": -0.8556644636930553,
+          "beta_over_k2_rmax": 0.0017112486894666672,
+          "max_In_magnitude": 12915879430.285276,
+          "max_Up_magnitude": 35028471102.55806,
+          "In_evaluations": 49832,
+          "Up_evaluations": 45587,
+          "horizon_flux_relative_change": -8.095613068803686e-11,
+          "infinity_flux_relative_change": 3.4410884142133114e-08,
+          "kh_max_relative_change": 3.602854432432712e-08,
+          "ki_max_relative_change": 9.86621493963815e-06,
+          "seconds": 1.2501538790093036
+        }
+      }
+    },
+    {
+      "file": "forced_mode_nr8_nt18_L18_mg5_sl6_inner0.0005_outer320_log_h32.json",
+      "sha256": "aaeeb9f38ab4e90fa56735baa3b0e59e0dbf2baab71f76c7399a900e9aea3231",
+      "ell": 6,
+      "m": 6,
+      "omega": 0.35165205139011735,
+      "metrics": {
+        "baseline": {
+          "z_h": [
+            -1.7688500582677997e-11,
+            6.014974058737109e-12
+          ],
+          "z_inf": [
+            -0.0021953267248946465,
+            -0.002406729468633758
+          ],
+          "horizon_flux": -1.6316474138898612e-22,
+          "infinity_flux": 2.1555478355247862e-07,
+          "wronskian_spread": 3.586209931632695e-11,
+          "wronskian_max_subtraction_condition": 1.5442550753944864,
+          "horizon_integral_cancellation": 3.8508770520979443,
+          "infinity_integral_cancellation": 1.0351048792609532,
+          "boundary_last_term_relative": 2.03406192210981e-10,
+          "k": [
+            0.18346434325742356,
+            0.0
+          ],
+          "horizon_frequency": -1.4261074394884254,
+          "beta_over_k2_rmax": 0.004673863102066932,
+          "max_In_magnitude": 268998712.14586115,
+          "max_Up_magnitude": 446131530.6287231,
+          "In_evaluations": 14963,
+          "Up_evaluations": 15194,
+          "stored_horizon_flux_relative_change": -1.1102230246251565e-15,
+          "seconds": 0.3738880200107815
+        },
+        "tight_tolerance": {
+          "z_h": [
+            -1.7688500582776403e-11,
+            6.014974058755805e-12
+          ],
+          "z_inf": [
+            -0.002195326724250398,
+            -0.002406729468970602
+          ],
+          "horizon_flux": -1.6316474139071858e-22,
+          "infinity_flux": 2.1555478352795538e-07,
+          "wronskian_spread": 1.710396776403803e-12,
+          "wronskian_max_subtraction_condition": 1.5442550753951167,
+          "horizon_integral_cancellation": 3.8508770520942477,
+          "infinity_integral_cancellation": 1.0351048792609168,
+          "boundary_last_term_relative": 2.03406192210981e-10,
+          "k": [
+            0.18346434325742356,
+            0.0
+          ],
+          "horizon_frequency": -1.4261074394884254,
+          "beta_over_k2_rmax": 0.004673863102066932,
+          "max_In_magnitude": 268998712.1463696,
+          "max_Up_magnitude": 446131530.6530608,
+          "In_evaluations": 29003,
+          "Up_evaluations": 29150,
+          "horizon_flux_relative_change": 1.0617950962910072e-11,
+          "infinity_flux_relative_change": -1.1376799502471613e-10,
+          "kh_max_relative_change": 2.4182486691644933e-10,
+          "ki_max_relative_change": 5.261492765853014e-10,
+          "seconds": 0.663342672996805
+        },
+        "boundary_refined": {
+          "z_h": [
+            -1.768850058268557e-11,
+            6.014974057285244e-12
+          ],
+          "z_inf": [
+            -0.002195326724423156,
+            -0.0024067294688674373
+          ],
+          "horizon_flux": -1.6316474138094722e-22,
+          "infinity_flux": 2.1555478353327607e-07,
+          "wronskian_spread": 6.123102152199105e-12,
+          "wronskian_max_subtraction_condition": 1.5442550753950464,
+          "horizon_integral_cancellation": 3.8508770520958415,
+          "infinity_integral_cancellation": 1.0351048792608963,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.18346434325742356,
+            0.0
+          ],
+          "horizon_frequency": -1.4261074394884254,
+          "beta_over_k2_rmax": 0.002336931551033466,
+          "max_In_magnitude": 268998712.1548684,
+          "max_Up_magnitude": 446131530.6487265,
+          "In_evaluations": 36293,
+          "Up_evaluations": 34427,
+          "horizon_flux_relative_change": -4.92685892083955e-11,
+          "infinity_flux_relative_change": -8.908429549592256e-11,
+          "kh_max_relative_change": 2.784328983085189e-10,
+          "ki_max_relative_change": 4.575268760152247e-10,
+          "seconds": 0.765549651987385
+        },
+        "coulomb_propagating": {
+          "z_h": [
+            -1.7688500575003897e-11,
+            6.014974057091162e-12
+          ],
+          "z_inf": [
+            -0.002195308616630028,
+            -0.002406746028965978
+          ],
+          "horizon_flux": -1.6316474125282788e-22,
+          "infinity_flux": 2.155547877362265e-07,
+          "wronskian_spread": 4.105284783591037e-12,
+          "wronskian_max_subtraction_condition": 1.5442550899799485,
+          "horizon_integral_cancellation": 3.850877053635257,
+          "infinity_integral_cancellation": 1.0351048792608963,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.18346434325742356,
+            0.0
+          ],
+          "horizon_frequency": -1.4261074394884254,
+          "beta_over_k2_rmax": 0.001168465775516733,
+          "max_In_magnitude": 268998712.1548684,
+          "max_Up_magnitude": 446131526.29792845,
+          "In_evaluations": 66938,
+          "Up_evaluations": 59561,
+          "horizon_flux_relative_change": -8.344832602702468e-10,
+          "infinity_flux_relative_change": 1.9409209128795624e-08,
+          "kh_max_relative_change": 2.0461532665796383e-08,
+          "ki_max_relative_change": 7.532887052918259e-06,
+          "seconds": 1.5100002469989704
+        }
+      }
+    },
+    {
+      "file": "forced_mode_nr8_nt18_L18_mg-1_sl0_inner0.0005_outer320_log_h32.json",
+      "sha256": "a42b1ff487ebe7d542cd261277115d285fb6122a44a8840d7ffdb73053906794",
+      "ell": 0,
+      "m": 0,
+      "omega": 0.2852214878976851,
+      "metrics": {
+        "baseline": {
+          "z_h": [
+            -0.04961013806775563,
+            0.03350537832680543
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -6.700749953420402e-05,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 5.071282105514743e-11,
+          "wronskian_max_subtraction_condition": 2.1714295835287207,
+          "horizon_integral_cancellation": 1.6167429841838326,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 1.778882768757132e-14,
+          "k": [
+            0.0,
+            0.09299840235956029
+          ],
+          "horizon_frequency": 0.2852214878976851,
+          "beta_over_k2_rmax": 0.008406184794425448,
+          "max_In_magnitude": 667805672.157248,
+          "max_Up_magnitude": 7.143604689425105e+40,
+          "In_evaluations": 7616,
+          "Up_evaluations": 8048,
+          "stored_horizon_flux_relative_change": -2.220446049250313e-16,
+          "seconds": 0.18426393900881521
+        },
+        "tight_tolerance": {
+          "z_h": [
+            -0.04961013806642435,
+            0.03350537832609551
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -6.70074995308448e-05,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 1.0543093567283297e-12,
+          "wronskian_max_subtraction_condition": 2.171429583520102,
+          "horizon_integral_cancellation": 1.6167429841815368,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 1.778882768757132e-14,
+          "k": [
+            0.0,
+            0.09299840235956029
+          ],
+          "horizon_frequency": 0.2852214878976851,
+          "beta_over_k2_rmax": 0.008406184794425448,
+          "max_In_magnitude": 667805672.170959,
+          "max_Up_magnitude": 7.143604689921432e+40,
+          "In_evaluations": 14741,
+          "Up_evaluations": 15263,
+          "horizon_flux_relative_change": -5.013200965464648e-11,
+          "infinity_flux_relative_change": null,
+          "kh_max_relative_change": 1.9953817208042004e-10,
+          "seconds": 0.4056545510102296
+        },
+        "boundary_refined": {
+          "z_h": [
+            -0.049610138066106625,
+            0.03350537832479564
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -6.70074995286267e-05,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 8.25862762287913e-12,
+          "wronskian_max_subtraction_condition": 2.171429583453228,
+          "horizon_integral_cancellation": 1.616742984181887,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.0,
+            0.09299840235956029
+          ],
+          "horizon_frequency": 0.2852214878976851,
+          "beta_over_k2_rmax": 0.004203092397212724,
+          "max_In_magnitude": 667805672.1820432,
+          "max_Up_magnitude": 2.0323473627153946e+81,
+          "In_evaluations": 18191,
+          "Up_evaluations": 18710,
+          "horizon_flux_relative_change": -8.323419731226522e-11,
+          "infinity_flux_relative_change": null,
+          "kh_max_relative_change": 2.011899678405937e-10,
+          "seconds": 0.503361192997545
+        }
+      }
+    },
+    {
+      "file": "forced_mode_nr8_nt18_L18_mg-2_sl1_inner0.0005_outer320_log_h32.json",
+      "sha256": "c405f15552b78a51e44f9ef19fc96576804534f25bfd35859197c2885a605e82",
+      "ell": 1,
+      "m": -1,
+      "omega": 0.27414972731561305,
+      "metrics": {
+        "baseline": {
+          "z_h": [
+            -0.0003880429668855271,
+            0.0002301227509616003
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -1.5222259417522308e-08,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 1.492944753118174e-10,
+          "wronskian_max_subtraction_condition": 1.4128737525864943,
+          "horizon_integral_cancellation": 1.0271123361794008,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 4.0311924757038106e-14,
+          "k": [
+            0.0,
+            0.12182744769868163
+          ],
+          "horizon_frequency": 0.5704429757953702,
+          "beta_over_k2_rmax": 0.004063902613355637,
+          "max_In_magnitude": 409660226844598.0,
+          "max_Up_magnitude": 1.4908649308481248e+55,
+          "In_evaluations": 9401,
+          "Up_evaluations": 10148,
+          "stored_horizon_flux_relative_change": 0.0,
+          "seconds": 0.2574077149911318
+        },
+        "tight_tolerance": {
+          "z_h": [
+            -0.0003880429668933302,
+            0.00023012275096818258
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -1.5222259418201797e-08,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 1.1917855722009335e-12,
+          "wronskian_max_subtraction_condition": 1.4128737525919042,
+          "horizon_integral_cancellation": 1.0271123361793693,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 4.0311924757038106e-14,
+          "k": [
+            0.0,
+            0.12182744769868163
+          ],
+          "horizon_frequency": 0.5704429757953702,
+          "beta_over_k2_rmax": 0.004063902613355637,
+          "max_In_magnitude": 409660226852782.9,
+          "max_Up_magnitude": 1.4908649310020476e+55,
+          "In_evaluations": 18281,
+          "Up_evaluations": 19826,
+          "horizon_flux_relative_change": 4.463784897268397e-11,
+          "infinity_flux_relative_change": null,
+          "kh_max_relative_change": 1.4422496730046087e-10,
+          "seconds": 0.4543498989951331
+        },
+        "boundary_refined": {
+          "z_h": [
+            -0.0003880429668766812,
+            0.0002301227509701951
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -1.5222259417304707e-08,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 9.25168755213351e-12,
+          "wronskian_max_subtraction_condition": 1.4128737525701702,
+          "horizon_integral_cancellation": 1.0271123361793537,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.0,
+            0.12182744769868163
+          ],
+          "horizon_frequency": 0.5704429757953702,
+          "beta_over_k2_rmax": 0.0020319513066778187,
+          "max_In_magnitude": 409660226864557.5,
+          "max_Up_magnitude": 1.7224470087643247e+108,
+          "In_evaluations": 22991,
+          "Up_evaluations": 24206,
+          "horizon_flux_relative_change": -1.4294898598166128e-11,
+          "infinity_flux_relative_change": null,
+          "kh_max_relative_change": 1.80530610438353e-10,
+          "seconds": 0.5359195950004505
+        }
+      }
+    },
+    {
+      "file": "forced_mode_nr8_nt18_L18_mg-3_sl2_inner0.0005_outer320_log_h32.json",
+      "sha256": "a69182cf00537f41f6f3714370846341fc4bae15eef23f425783147a853fadb8",
+      "ell": 2,
+      "m": -2,
+      "omega": 0.263077966733541,
+      "metrics": {
+        "baseline": {
+          "z_h": [
+            4.245983908334093e-06,
+            8.46776258872244e-06
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -1.5099737692549738e-11,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 3.7643443919210526e-11,
+          "wronskian_max_subtraction_condition": 1.414339896466585,
+          "horizon_integral_cancellation": 1.0236211847063936,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 4.871070991006867e-14,
+          "k": [
+            0.0,
+            0.14418732059146494
+          ],
+          "horizon_frequency": 0.8556644636930553,
+          "beta_over_k2_rmax": 0.0023290077815190315,
+          "max_In_magnitude": 2.43646941825153e+19,
+          "max_Up_magnitude": 3.979592205992084e+66,
+          "In_evaluations": 11024,
+          "Up_evaluations": 12437,
+          "stored_horizon_flux_relative_change": 6.661338147750939e-16,
+          "seconds": 0.2749619570095092
+        },
+        "tight_tolerance": {
+          "z_h": [
+            4.245983908310054e-06,
+            8.467762588600371e-06
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -1.5099737692167503e-11,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 8.351950435595608e-13,
+          "wronskian_max_subtraction_condition": 1.4143398964747051,
+          "horizon_integral_cancellation": 1.0236211847064354,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 4.871070991006867e-14,
+          "k": [
+            0.0,
+            0.14418732059146494
+          ],
+          "horizon_frequency": 0.8556644636930553,
+          "beta_over_k2_rmax": 0.0023290077815190315,
+          "max_In_magnitude": 2.4364694183177978e+19,
+          "max_Up_magnitude": 3.979592206478278e+66,
+          "In_evaluations": 21536,
+          "Up_evaluations": 23351,
+          "horizon_flux_relative_change": -2.531397313987327e-11,
+          "infinity_flux_relative_change": null,
+          "kh_max_relative_change": 1.245441996769303e-09,
+          "seconds": 0.48827099399932195
+        },
+        "boundary_refined": {
+          "z_h": [
+            4.245983908757402e-06,
+            8.467762588213573e-06
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -1.5099737691704447e-11,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 8.629333867543278e-12,
+          "wronskian_max_subtraction_condition": 1.4143398964674665,
+          "horizon_integral_cancellation": 1.0236211847064267,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.0,
+            0.14418732059146494
+          ],
+          "horizon_frequency": 0.8556644636930553,
+          "beta_over_k2_rmax": 0.0011645038907595157,
+          "max_In_magnitude": 2.4364694183456776e+19,
+          "max_Up_magnitude": 2.655002490604901e+129,
+          "In_evaluations": 27176,
+          "Up_evaluations": 29255,
+          "horizon_flux_relative_change": -5.598055352606934e-11,
+          "infinity_flux_relative_change": null,
+          "kh_max_relative_change": 1.069748003866469e-09,
+          "seconds": 0.6121588820096804
+        }
+      }
+    },
+    {
+      "file": "forced_mode_nr8_nt18_L18_mg-1_sl2_inner0.0005_outer320_log_h32.json",
+      "sha256": "13cb770453f63b39a21af45534e3c60f5a00afe2794cb0337eea70245f729517",
+      "ell": 2,
+      "m": 0,
+      "omega": 0.2852214878976851,
+      "metrics": {
+        "baseline": {
+          "z_h": [
+            -0.002452182727516882,
+            -0.0014378228522730079
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -1.5108544659913492e-07,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 2.945454991021279e-11,
+          "wronskian_max_subtraction_condition": 1.4246728765477754,
+          "horizon_integral_cancellation": 1.2396132922545802,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 4.1165709993572803e-13,
+          "k": [
+            0.0,
+            0.09299840235956029
+          ],
+          "horizon_frequency": 0.2852214878976851,
+          "beta_over_k2_rmax": 0.008406184794425448,
+          "max_In_magnitude": 12884874632720.506,
+          "max_Up_magnitude": 1.5348113672086064e+45,
+          "In_evaluations": 7451,
+          "Up_evaluations": 8357,
+          "stored_horizon_flux_relative_change": -5.551115123125783e-16,
+          "seconds": 0.20175446099892724
+        },
+        "tight_tolerance": {
+          "z_h": [
+            -0.0024521827275468225,
+            -0.0014378228522900923
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -1.5108544660279903e-07,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 7.432207959089685e-13,
+          "wronskian_max_subtraction_condition": 1.4246728765486176,
+          "horizon_integral_cancellation": 1.2396132922545722,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 4.1165709993572803e-13,
+          "k": [
+            0.0,
+            0.09299840235956029
+          ],
+          "horizon_frequency": 0.2852214878976851,
+          "beta_over_k2_rmax": 0.008406184794425448,
+          "max_In_magnitude": 12884874632986.668,
+          "max_Up_magnitude": 1.534811367338499e+45,
+          "In_evaluations": 14456,
+          "Up_evaluations": 16229,
+          "horizon_flux_relative_change": 2.4251933794516845e-11,
+          "infinity_flux_relative_change": null,
+          "kh_max_relative_change": 3.1152891912514114e-11,
+          "seconds": 0.37525610098964535
+        },
+        "boundary_refined": {
+          "z_h": [
+            -0.0024521827275377434,
+            -0.0014378228523081373
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -1.510854466029367e-07,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 3.0247162261005665e-12,
+          "wronskian_max_subtraction_condition": 1.4246728765428316,
+          "horizon_integral_cancellation": 1.239613292254501,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.0,
+            0.09299840235956029
+          ],
+          "horizon_frequency": 0.2852214878976851,
+          "beta_over_k2_rmax": 0.004203092397212724,
+          "max_In_magnitude": 12884874632965.086,
+          "max_Up_magnitude": 4.4375114745552546e+85,
+          "In_evaluations": 17981,
+          "Up_evaluations": 19274,
+          "horizon_flux_relative_change": 2.5162982808524248e-11,
+          "infinity_flux_relative_change": null,
+          "kh_max_relative_change": 3.182316849595087e-11,
+          "seconds": 0.40705073600111064
+        }
+      }
+    },
+    {
+      "file": "forced_mode_nr8_nt18_L18_mg-4_sl3_inner0.0005_outer320_log_h32.json",
+      "sha256": "c581ec8c3b0892a40e4f1a3d439ed24a0c3943bbbd3948db8e84a980a11268d1",
+      "ell": 3,
+      "m": -3,
+      "omega": 0.25200620615146896,
+      "metrics": {
+        "baseline": {
+          "z_h": [
+            2.937285642811068e-07,
+            -8.171341794720803e-08
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -2.7807920122036863e-14,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 1.7118197412211847e-10,
+          "wronskian_max_subtraction_condition": 1.4080180187319147,
+          "horizon_integral_cancellation": 1.0239952725029147,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 1.2110535034144848e-13,
+          "k": [
+            0.0,
+            0.16276631119842744
+          ],
+          "horizon_frequency": 1.1408859515907404,
+          "beta_over_k2_rmax": 0.0013971401738659193,
+          "max_In_magnitude": 3.439643500723286e+23,
+          "max_Up_magnitude": 1.891992370342504e+76,
+          "In_evaluations": 12719,
+          "Up_evaluations": 13976,
+          "stored_horizon_flux_relative_change": 0.0,
+          "seconds": 0.3853547020116821
+        },
+        "tight_tolerance": {
+          "z_h": [
+            2.937285642811588e-07,
+            -8.171341794154645e-08
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -2.7807920121769203e-14,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 9.925529687839018e-13,
+          "wronskian_max_subtraction_condition": 1.4080180187424063,
+          "horizon_integral_cancellation": 1.0239952725029524,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 1.2110535034144848e-13,
+          "k": [
+            0.0,
+            0.16276631119842744
+          ],
+          "horizon_frequency": 1.1408859515907404,
+          "beta_over_k2_rmax": 0.0013971401738659193,
+          "max_In_magnitude": 3.439643500896648e+23,
+          "max_Up_magnitude": 1.891992370606812e+76,
+          "In_evaluations": 24881,
+          "Up_evaluations": 26477,
+          "horizon_flux_relative_change": -9.62530055659272e-12,
+          "infinity_flux_relative_change": null,
+          "kh_max_relative_change": 2.1416994493553452e-10,
+          "seconds": 0.6245028960111085
+        },
+        "boundary_refined": {
+          "z_h": [
+            2.937285642651576e-07,
+            -8.171341792688391e-08
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -2.7807920118240227e-14,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 1.690345274700601e-11,
+          "wronskian_max_subtraction_condition": 1.4080180186456377,
+          "horizon_integral_cancellation": 1.0239952725029409,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.0,
+            0.16276631119842744
+          ],
+          "horizon_frequency": 1.1408859515907404,
+          "beta_over_k2_rmax": 0.0006985700869329597,
+          "max_In_magnitude": 3.439643501103736e+23,
+          "max_Up_magnitude": 1.6071053234540927e+147,
+          "In_evaluations": 31151,
+          "Up_evaluations": 32471,
+          "horizon_flux_relative_change": -1.3653078667630325e-10,
+          "infinity_flux_relative_change": null,
+          "kh_max_relative_change": 2.765699380138364e-10,
+          "seconds": 0.7477611909998814
+        }
+      }
+    },
+    {
+      "file": "forced_mode_nr8_nt18_L18_mg-2_sl3_inner0.0005_outer320_log_h32.json",
+      "sha256": "3155342d0eab716d9d560dfcf19a3d803ac8446ba34865a567a6b2e88c9bee29",
+      "ell": 3,
+      "m": -1,
+      "omega": 0.27414972731561305,
+      "metrics": {
+        "baseline": {
+          "z_h": [
+            1.3061505379774388e-07,
+            -5.442777671150006e-07
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -2.3431546420881407e-14,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 1.867526905233801e-10,
+          "wronskian_max_subtraction_condition": 1.4249404140579596,
+          "horizon_integral_cancellation": 1.7090167700983692,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 9.201572597898136e-13,
+          "k": [
+            0.0,
+            0.12182744769868163
+          ],
+          "horizon_frequency": 0.5704429757953702,
+          "beta_over_k2_rmax": 0.004063902613355637,
+          "max_In_magnitude": 6.968194090891428e+18,
+          "max_Up_magnitude": 2.990139867840377e+59,
+          "In_evaluations": 9611,
+          "Up_evaluations": 10601,
+          "stored_horizon_flux_relative_change": 2.220446049250313e-16,
+          "seconds": 0.23757454501173925
+        },
+        "tight_tolerance": {
+          "z_h": [
+            1.3061505379652783e-07,
+            -5.442777671096626e-07
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -2.343154642042307e-14,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 7.704604932924395e-13,
+          "wronskian_max_subtraction_condition": 1.4249404140555622,
+          "horizon_integral_cancellation": 1.709016770097425,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 9.201572597898136e-13,
+          "k": [
+            0.0,
+            0.12182744769868163
+          ],
+          "horizon_frequency": 0.5704429757953702,
+          "beta_over_k2_rmax": 0.004063902613355637,
+          "max_In_magnitude": 6.968194091184854e+18,
+          "max_Up_magnitude": 2.9901398681666004e+59,
+          "In_evaluations": 18701,
+          "Up_evaluations": 20795,
+          "horizon_flux_relative_change": -1.9560686403963246e-11,
+          "infinity_flux_relative_change": null,
+          "kh_max_relative_change": 2.672963638587416e-10,
+          "seconds": 0.47433911700500175
+        },
+        "boundary_refined": {
+          "z_h": [
+            1.3061505382071446e-07,
+            -5.442777671111e-07
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -2.3431546421012632e-14,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 4.451260642258779e-12,
+          "wronskian_max_subtraction_condition": 1.4249404140570505,
+          "horizon_integral_cancellation": 1.7090167700974896,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.0,
+            0.12182744769868163
+          ],
+          "horizon_frequency": 0.5704429757953702,
+          "beta_over_k2_rmax": 0.0020319513066778187,
+          "max_In_magnitude": 6.968194091068833e+18,
+          "max_Up_magnitude": 3.5261313239918373e+112,
+          "In_evaluations": 23276,
+          "Up_evaluations": 24836,
+          "horizon_flux_relative_change": 5.60040902541914e-12,
+          "infinity_flux_relative_change": null,
+          "kh_max_relative_change": 2.7439172808493324e-10,
+          "seconds": 0.5311222839955008
+        }
+      }
+    },
+    {
+      "file": "forced_mode_nr8_nt18_L18_mg-5_sl4_inner0.0005_outer320_log_h32.json",
+      "sha256": "f571181bfd6b8d8dac7dacc1e9002de185484e5c8ee58c02d42901f4daf1ea56",
+      "ell": 4,
+      "m": -4,
+      "omega": 0.24093444556939692,
+      "metrics": {
+        "baseline": {
+          "z_h": [
+            -5.391121309363765e-10,
+            -1.1806402919301996e-08
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -6.529235601186427e-17,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 1.1957212997515533e-10,
+          "wronskian_max_subtraction_condition": 1.4350480477509895,
+          "horizon_integral_cancellation": 1.0239041916084959,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 1.5602516377528623e-12,
+          "k": [
+            0.0,
+            0.17874728791835504
+          ],
+          "horizon_frequency": 1.4261074394884254,
+          "beta_over_k2_rmax": 0.0008168491324769259,
+          "max_In_magnitude": 2.0617195796640103e+27,
+          "max_Up_magnitude": 6.502920937847777e+84,
+          "In_evaluations": 14174,
+          "Up_evaluations": 15332,
+          "stored_horizon_flux_relative_change": -5.551115123125783e-16,
+          "seconds": 0.37894397499621846
+        },
+        "tight_tolerance": {
+          "z_h": [
+            -5.391121308322045e-10,
+            -1.1806402919243164e-08
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -6.52923560111624e-17,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 1.4061820656467703e-12,
+          "wronskian_max_subtraction_condition": 1.4350480477552958,
+          "horizon_integral_cancellation": 1.0239041916087213,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 1.5602516377528623e-12,
+          "k": [
+            0.0,
+            0.17874728791835504
+          ],
+          "horizon_frequency": 1.4261074394884254,
+          "beta_over_k2_rmax": 0.0008168491324769259,
+          "max_In_magnitude": 2.0617195798146574e+27,
+          "max_Up_magnitude": 6.502920938853366e+84,
+          "In_evaluations": 27746,
+          "Up_evaluations": 29891,
+          "horizon_flux_relative_change": -1.0749512391328153e-11,
+          "infinity_flux_relative_change": null,
+          "kh_max_relative_change": 3.5657802577414465e-10,
+          "seconds": 0.6638597340061096
+        },
+        "boundary_refined": {
+          "z_h": [
+            -5.391121311745872e-10,
+            -1.1806402919286643e-08
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -6.529235601181489e-17,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 7.621014930244193e-12,
+          "wronskian_max_subtraction_condition": 1.4350480477655083,
+          "horizon_integral_cancellation": 1.0239041916087102,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.0,
+            0.17874728791835504
+          ],
+          "horizon_frequency": 1.4261074394884254,
+          "beta_over_k2_rmax": 0.00040842456623846297,
+          "max_In_magnitude": 2.061719579796293e+27,
+          "max_Up_magnitude": 5.144481301688467e+162,
+          "In_evaluations": 34601,
+          "Up_evaluations": 36095,
+          "horizon_flux_relative_change": -7.562839243746566e-13,
+          "infinity_flux_relative_change": null,
+          "kh_max_relative_change": 3.505252471215171e-10,
+          "seconds": 0.8676619499892695
+        }
+      }
+    },
+    {
+      "file": "forced_mode_nr8_nt18_L18_mg-3_sl4_inner0.0005_outer320_log_h32.json",
+      "sha256": "30a0fba92cd9c85e5b0e67dfa645b33b0f346599f3cc880477f93271b0d6844e",
+      "ell": 4,
+      "m": -2,
+      "omega": 0.263077966733541,
+      "metrics": {
+        "baseline": {
+          "z_h": [
+            -3.769179040272699e-09,
+            -1.1440706013124767e-09
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -2.6109216956557238e-18,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 7.281419911468155e-11,
+          "wronskian_max_subtraction_condition": 1.427837745484546,
+          "horizon_integral_cancellation": 3.033385458181299,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 5.023948359099414e-12,
+          "k": [
+            0.0,
+            0.14418732059146494
+          ],
+          "horizon_frequency": 0.8556644636930553,
+          "beta_over_k2_rmax": 0.0023290077815190315,
+          "max_In_magnitude": 3.6147407736477126e+23,
+          "max_Up_magnitude": 6.932429353484008e+70,
+          "In_evaluations": 11204,
+          "Up_evaluations": 12851,
+          "stored_horizon_flux_relative_change": 0.0,
+          "seconds": 0.27458246900641825
+        },
+        "tight_tolerance": {
+          "z_h": [
+            -3.769179040198951e-09,
+            -1.1440706013449613e-09
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -2.6109216955746784e-18,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 7.618981064528127e-13,
+          "wronskian_max_subtraction_condition": 1.4278377454824902,
+          "horizon_integral_cancellation": 3.0333854582142514,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 5.023948359099414e-12,
+          "k": [
+            0.0,
+            0.14418732059146494
+          ],
+          "horizon_frequency": 0.8556644636930553,
+          "beta_over_k2_rmax": 0.0023290077815190315,
+          "max_In_magnitude": 3.614740773796204e+23,
+          "max_Up_magnitude": 6.932429354358593e+70,
+          "In_evaluations": 21896,
+          "Up_evaluations": 24386,
+          "horizon_flux_relative_change": -3.1040947590099677e-11,
+          "infinity_flux_relative_change": null,
+          "kh_max_relative_change": 1.6104104870700205e-10,
+          "seconds": 0.5033824919955805
+        },
+        "boundary_refined": {
+          "z_h": [
+            -3.769179040246391e-09,
+            -1.1440706013944275e-09
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -2.6109216956539053e-18,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 8.674838629122991e-12,
+          "wronskian_max_subtraction_condition": 1.427837745501606,
+          "horizon_integral_cancellation": 3.0333854582169053,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.0,
+            0.14418732059146494
+          ],
+          "horizon_frequency": 0.8556644636930553,
+          "beta_over_k2_rmax": 0.0011645038907595157,
+          "max_In_magnitude": 3.614740773724107e+23,
+          "max_Up_magnitude": 4.738432221894726e+133,
+          "In_evaluations": 27416,
+          "Up_evaluations": 29786,
+          "horizon_flux_relative_change": -6.964429033473607e-13,
+          "infinity_flux_relative_change": null,
+          "kh_max_relative_change": 1.8402869573574243e-10,
+          "seconds": 0.634886228988762
+        }
+      }
+    },
+    {
+      "file": "forced_mode_nr8_nt18_L18_mg-1_sl4_inner0.0005_outer320_log_h32.json",
+      "sha256": "a40740e79f07e728f128c6528d5bb5c59b61838871454cc3a996ca19a5ca57b0",
+      "ell": 4,
+      "m": 0,
+      "omega": 0.2852214878976851,
+      "metrics": {
+        "baseline": {
+          "z_h": [
+            0.00018837466359718347,
+            0.00010773027887040463
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -8.804786919484139e-10,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 1.1032175173401801e-10,
+          "wronskian_max_subtraction_condition": 1.4255934758364912,
+          "horizon_integral_cancellation": 1.4366726354119832,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 7.531081448414774e-11,
+          "k": [
+            0.0,
+            0.09299840235956029
+          ],
+          "horizon_frequency": 0.2852214878976851,
+          "beta_over_k2_rmax": 0.008406184794425448,
+          "max_In_magnitude": 1.6836908083745152e+18,
+          "max_Up_magnitude": 2.3874842391586337e+50,
+          "In_evaluations": 7796,
+          "Up_evaluations": 9032,
+          "stored_horizon_flux_relative_change": 0.0,
+          "seconds": 0.17747398499341216
+        },
+        "tight_tolerance": {
+          "z_h": [
+            0.00018837466358572635,
+            0.00010773027886340928
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -8.804786918395258e-10,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 4.1621168380599315e-13,
+          "wronskian_max_subtraction_condition": 1.4255934758382696,
+          "horizon_integral_cancellation": 1.4366726354131163,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 7.531081448414774e-11,
+          "k": [
+            0.0,
+            0.09299840235956029
+          ],
+          "horizon_frequency": 0.2852214878976851,
+          "beta_over_k2_rmax": 0.008406184794425448,
+          "max_In_magnitude": 1.683690808415308e+18,
+          "max_Up_magnitude": 2.387484239370153e+50,
+          "In_evaluations": 15146,
+          "Up_evaluations": 17678,
+          "horizon_flux_relative_change": -1.236691860029282e-10,
+          "infinity_flux_relative_change": null,
+          "kh_max_relative_change": 1.0351594653880032e-10,
+          "seconds": 0.36554338900896255
+        },
+        "boundary_refined": {
+          "z_h": [
+            0.00018837466358713503,
+            0.00010773027886509389
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -8.804786918562352e-10,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 3.82471832231396e-12,
+          "wronskian_max_subtraction_condition": 1.4255934758508506,
+          "horizon_integral_cancellation": 1.4366726354130412,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.0,
+            0.09299840235956029
+          ],
+          "horizon_frequency": 0.2852214878976851,
+          "beta_over_k2_rmax": 0.004203092397212724,
+          "max_In_magnitude": 1.6836908083935987e+18,
+          "max_Up_magnitude": 7.167348570477804e+90,
+          "In_evaluations": 18446,
+          "Up_evaluations": 20189,
+          "horizon_flux_relative_change": -1.0469158873149809e-10,
+          "infinity_flux_relative_change": null,
+          "kh_max_relative_change": 1.0680795197291542e-10,
+          "seconds": 0.4480573120090412
+        }
+      }
+    },
+    {
+      "file": "forced_mode_nr8_nt18_L18_mg-6_sl5_inner0.0005_outer320_log_h32.json",
+      "sha256": "ffd11c1d16ccdb8971f00f1fa891ebc691f937d9daa6a190af1dae437d7f165e",
+      "ell": 5,
+      "m": -5,
+      "omega": 0.22986268498732487,
+      "metrics": {
+        "baseline": {
+          "z_h": [
+            -4.99526675002146e-10,
+            -9.779961690500203e-11
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -1.7439678527521426e-19,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 6.627793869285916e-10,
+          "wronskian_max_subtraction_condition": 1.4496870814819796,
+          "horizon_integral_cancellation": 1.0239976531916677,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 2.889966249518181e-11,
+          "k": [
+            0.0,
+            0.19277745213177253
+          ],
+          "horizon_frequency": 1.7113289273861105,
+          "beta_over_k2_rmax": 0.0004217540645751671,
+          "max_In_magnitude": 6.810370649086169e+30,
+          "max_Up_magnitude": 3.2618286267569534e+92,
+          "In_evaluations": 15491,
+          "Up_evaluations": 17033,
+          "stored_horizon_flux_relative_change": -2.220446049250313e-16,
+          "seconds": 0.3802869650098728
+        },
+        "tight_tolerance": {
+          "z_h": [
+            -4.99526674959813e-10,
+            -9.779961689902133e-11
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -1.743967852459591e-19,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 9.902967335795399e-12,
+          "wronskian_max_subtraction_condition": 1.449687081475649,
+          "horizon_integral_cancellation": 1.0239976531918757,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 2.889966249518181e-11,
+          "k": [
+            0.0,
+            0.19277745213177253
+          ],
+          "horizon_frequency": 1.7113289273861105,
+          "beta_over_k2_rmax": 0.0004217540645751671,
+          "max_In_magnitude": 6.810370650053643e+30,
+          "max_Up_magnitude": 3.2618286273031407e+92,
+          "In_evaluations": 30338,
+          "Up_evaluations": 33299,
+          "horizon_flux_relative_change": -1.6775059119567004e-10,
+          "infinity_flux_relative_change": null,
+          "kh_max_relative_change": 1.3645446805535536e-10,
+          "seconds": 0.786403671008884
+        },
+        "boundary_refined": {
+          "z_h": [
+            -4.995266750046218e-10,
+            -9.779961697690576e-11
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -1.7439678528634596e-19,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 7.15301151643744e-11,
+          "wronskian_max_subtraction_condition": 1.449687081628017,
+          "horizon_integral_cancellation": 1.023997653191861,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.0,
+            0.19277745213177253
+          ],
+          "horizon_frequency": 1.7113289273861105,
+          "beta_over_k2_rmax": 0.00021087703228758354,
+          "max_In_magnitude": 6.810370649235846e+30,
+          "max_Up_magnitude": 3.381798153182197e+176,
+          "In_evaluations": 37688,
+          "Up_evaluations": 39929,
+          "horizon_flux_relative_change": 6.38298303101692e-11,
+          "infinity_flux_relative_change": null,
+          "kh_max_relative_change": 1.5673992611939583e-10,
+          "seconds": 0.9551249390060548
+        }
+      }
+    },
+    {
+      "file": "forced_mode_nr8_nt18_L18_mg-4_sl5_inner0.0005_outer320_log_h32.json",
+      "sha256": "f9c64ba982a0566c363b0f6ef9487b3941f71d478ab261492471a7785ba14c39",
+      "ell": 5,
+      "m": -3,
+      "omega": 0.25200620615146896,
+      "metrics": {
+        "baseline": {
+          "z_h": [
+            1.2184755681023229e-11,
+            8.482658534023933e-11
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -2.1970312814463886e-21,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 1.3021788092261324e-09,
+          "wronskian_max_subtraction_condition": 1.4143348785241512,
+          "horizon_integral_cancellation": 3.4475169325400947,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 8.254228392120057e-11,
+          "k": [
+            0.0,
+            0.16276631119842744
+          ],
+          "horizon_frequency": 1.1408859515907404,
+          "beta_over_k2_rmax": 0.0013971401738659193,
+          "max_In_magnitude": 5.357096670390726e+27,
+          "max_Up_magnitude": 3.3955855641431147e+80,
+          "In_evaluations": 12773,
+          "Up_evaluations": 14441,
+          "stored_horizon_flux_relative_change": 0.0,
+          "seconds": 0.3100527650094591
+        },
+        "tight_tolerance": {
+          "z_h": [
+            1.2184755678493335e-11,
+            8.482658533387443e-11
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -2.1970312811049043e-21,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 5.814460025142213e-12,
+          "wronskian_max_subtraction_condition": 1.4143348785228729,
+          "horizon_integral_cancellation": 3.447516932543833,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 8.254228392120057e-11,
+          "k": [
+            0.0,
+            0.16276631119842744
+          ],
+          "horizon_frequency": 1.1408859515907404,
+          "beta_over_k2_rmax": 0.0013971401738659193,
+          "max_In_magnitude": 5.357096671070941e+27,
+          "max_Up_magnitude": 3.395585564631157e+80,
+          "In_evaluations": 24968,
+          "Up_evaluations": 27572,
+          "horizon_flux_relative_change": -1.5542989117989237e-10,
+          "infinity_flux_relative_change": null,
+          "kh_max_relative_change": 4.2206345559969087e-10,
+          "seconds": 0.5823162760061678
+        },
+        "boundary_refined": {
+          "z_h": [
+            1.2184755677318816e-11,
+            8.482658534053515e-11
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -2.197031281434396e-21,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 3.276729998448551e-10,
+          "wronskian_max_subtraction_condition": 1.4143348785990586,
+          "horizon_integral_cancellation": 3.4475169325450374,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.0,
+            0.16276631119842744
+          ],
+          "horizon_frequency": 1.1408859515907404,
+          "beta_over_k2_rmax": 0.0006985700869329597,
+          "max_In_magnitude": 5.357096670633728e+27,
+          "max_Up_magnitude": 2.964985363901309e+151,
+          "In_evaluations": 31208,
+          "Up_evaluations": 33179,
+          "horizon_flux_relative_change": -5.458633545174507e-12,
+          "infinity_flux_relative_change": null,
+          "kh_max_relative_change": 2.1586492550474903e-10,
+          "seconds": 0.8173049110046122
+        }
+      }
+    },
+    {
+      "file": "forced_mode_nr8_nt18_L18_mg-2_sl5_inner0.0005_outer320_log_h32.json",
+      "sha256": "9f60157caf5e7a674c4738425413bbc39ba9b05c6366824b602f9cc563b04306",
+      "ell": 5,
+      "m": -1,
+      "omega": 0.27414972731561305,
+      "metrics": {
+        "baseline": {
+          "z_h": [
+            -1.972665054245042e-08,
+            3.649302657293714e-08
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -1.287044458872472e-16,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 2.496766127180645e-10,
+          "wronskian_max_subtraction_condition": 1.441438455554669,
+          "horizon_integral_cancellation": 1.893873350337255,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 5.333466261180556e-10,
+          "k": [
+            0.0,
+            0.12182744769868163
+          ],
+          "horizon_frequency": 0.5704429757953702,
+          "beta_over_k2_rmax": 0.004063902613355637,
+          "max_In_magnitude": 4.744573499889023e+23,
+          "max_Up_magnitude": 2.3956228344518866e+64,
+          "In_evaluations": 9635,
+          "Up_evaluations": 11285,
+          "stored_horizon_flux_relative_change": 4.440892098500626e-16,
+          "seconds": 0.28379905500332825
+        },
+        "tight_tolerance": {
+          "z_h": [
+            -1.9726650541360683e-08,
+            3.649302657000728e-08
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -1.2870444586803872e-16,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 2.695843548655889e-12,
+          "wronskian_max_subtraction_condition": 1.4414384555556237,
+          "horizon_integral_cancellation": 1.89387335033931,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 5.333466261180556e-10,
+          "k": [
+            0.0,
+            0.12182744769868163
+          ],
+          "horizon_frequency": 0.5704429757953702,
+          "beta_over_k2_rmax": 0.004063902613355637,
+          "max_In_magnitude": 4.7445735004562904e+23,
+          "max_Up_magnitude": 2.3956228347163964e+64,
+          "In_evaluations": 18743,
+          "Up_evaluations": 22073,
+          "horizon_flux_relative_change": -1.4924494973200808e-10,
+          "infinity_flux_relative_change": null,
+          "kh_max_relative_change": 1.235151438209259e-10,
+          "seconds": 0.5278537810081616
+        },
+        "boundary_refined": {
+          "z_h": [
+            -1.972665054265875e-08,
+            3.6493026569729014e-08
+          ],
+          "z_inf": [
+            0.0,
+            0.0
+          ],
+          "horizon_flux": -1.2870444587034998e-16,
+          "infinity_flux": -0.0,
+          "wronskian_spread": 2.9740876428495656e-11,
+          "wronskian_max_subtraction_condition": 1.4414384555248225,
+          "horizon_integral_cancellation": 1.8938733503385103,
+          "infinity_integral_cancellation": null,
+          "boundary_last_term_relative": 0.0,
+          "k": [
+            0.0,
+            0.12182744769868163
+          ],
+          "horizon_frequency": 0.5704429757953702,
+          "beta_over_k2_rmax": 0.0020319513066778187,
+          "max_In_magnitude": 4.7445735003979305e+23,
+          "max_Up_magnitude": 2.9311317350383064e+117,
+          "In_evaluations": 23303,
+          "Up_evaluations": 25691,
+          "horizon_flux_relative_change": -1.3128709230869617e-10,
+          "infinity_flux_relative_change": null,
+          "kh_max_relative_change": 1.182185706914098e-10,
+          "seconds": 0.7933902209915686
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "Source arrays and finite quadrature remain shared; no claim of independent metric/source validation.",
+    "Coulomb has only r^-2 far potential; rmax convergence remains necessary.",
+    "Relative changes are dimensionless ratios, not percent."
+  ],
+  "implementation_sha256": {
+    "src/report_massive_radial_precision_audit.py": "08ec51f8cd4262d521a87025692fc2deaf2264d66d0797cdb38a3c48340d5c58",
+    "src/environment_radial.py": "b392c3ffdbc0ed022441e050a8c25b641533ed65630d6dff8e81d26cdaf28b5a",
+    "src/environment_cloud.py": "13f9628f4513c00022ce7ebe69fc3d74db19a8e9fb610ece93ef9095866c8549"
+  },
+  "totals_all_21_both_boundaries": {
+    "baseline": {
+      "horizon_flux": -6.866734036490126e-05,
+      "infinity_flux": 1.9210336966212187e-05
+    },
+    "tight_tolerance": {
+      "horizon_flux": -6.866734036158937e-05,
+      "infinity_flux": 1.921033696523104e-05,
+      "horizon_relative_change": -4.823086374727836e-11,
+      "infinity_relative_change": -5.1073811846436e-11
+    },
+    "boundary_refined": {
+      "horizon_flux": -6.866734035942733e-05,
+      "infinity_flux": 1.9210336965534012e-05,
+      "horizon_relative_change": -7.971667770334534e-11,
+      "infinity_relative_change": -3.53026496924258e-11
+    },
+    "coulomb_propagating_mixed": {
+      "horizon_flux": -6.866734036500479e-05,
+      "horizon_relative_change": 1.5076828674409626e-12,
+      "infinity_flux": 1.9210336897263587e-05,
+      "infinity_relative_change": -3.5891406513499646e-09
+    }
+  },
+  "paper_coverage_totals": {
+    "baseline": {
+      "horizon_flux": -6.866732369763171e-05,
+      "infinity_flux": 1.9210336966212187e-05
+    },
+    "tight_tolerance": {
+      "horizon_flux": -6.866732369431983e-05,
+      "infinity_flux": 1.921033696523104e-05,
+      "horizon_relative_change": -4.823086374727836e-11,
+      "infinity_relative_change": -5.1073811846436e-11
+    },
+    "boundary_refined": {
+      "horizon_flux": -6.866732369215778e-05,
+      "infinity_flux": 1.9210336965534012e-05,
+      "horizon_relative_change": -7.971667770334534e-11,
+      "infinity_relative_change": -3.53026496924258e-11
+    },
+    "coulomb_propagating": {
+      "horizon_flux": -6.866732369773524e-05,
+      "infinity_flux": 1.9210336897263587e-05,
+      "horizon_relative_change": 1.5076828674409626e-12,
+      "infinity_relative_change": -3.5891406513499646e-09
+    }
+  },
+  "coverage_sha256": "94da7a50218e90d2b0b21345f42e5a44ade1ae042e2ecf5fdf3f521f9669ef2c",
+  "coverage_note": "Original published-comparison report includes only ell<=5 at horizon, ell<=6 at infinity; all-21 sum additionally includes scalar (6,2) horizon flux."
+}

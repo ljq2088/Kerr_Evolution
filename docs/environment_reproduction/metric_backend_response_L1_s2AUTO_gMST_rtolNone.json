@@ -1,0 +1,53 @@
+{
+  "status": "backend_or_sampling_failed",
+  "ellmax": 1,
+  "spin2_method": "AUTO",
+  "gauge_method": "MST",
+  "rtol": null,
+  "angular_backend": "DenseRealHarmonic",
+  "grid_reference_sha256": "b58da0ebd0240420da60d3d22bfc276828bf67b8342d0c41672d57f1b0bbc8d7",
+  "package_artifacts": {
+    "pybhpt.radial": {
+      "path": "/home/ljq/code/kerr-hyperboloidal/.venv/lib/python3.12/site-packages/pybhpt/radial.py",
+      "sha256": "1f2ad155f25283dbc9128956ae065c7c9daa8835245682ba68d7f4927fe6fdd1"
+    },
+    "pybhpt.teuk": {
+      "path": "/home/ljq/code/kerr-hyperboloidal/.venv/lib/python3.12/site-packages/pybhpt/teuk.py",
+      "sha256": "08689386e6d7c3f637eb4dd584b8d38664e11b6d20d0b9eb368f558d855dc4a2"
+    },
+    "cybhpt_full": {
+      "path": "/home/ljq/code/kerr-hyperboloidal/.venv/lib/python3.12/site-packages/cybhpt_full.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "881fda734cd938ccf2017f436dfd57138373309c33391b81469cae356fd1e898"
+    }
+  },
+  "implementation_sha256": {
+    "environment_angular_diagnostic": "74c1ae7536df0ef1b6193c81a38f289b18c5dfc7371490e9fd1c3257da559307",
+    "environment_cloud": "13f9628f4513c00022ce7ebe69fc3d74db19a8e9fb610ece93ef9095866c8549",
+    "environment_lorenz_mode": "79ca9a4a27c608381291808f3200b752b99495be853d96b8cea0f39bcb5802b6",
+    "environment_radial": "b392c3ffdbc0ed022441e050a8c25b641533ed65630d6dff8e81d26cdaf28b5a",
+    "environment_radial_backend_diagnostic": "5c7e96128b958be2e8fe7b06be74742b566cf9d56da9050b414bf9c71f17399f",
+    "environment_source": "f8ed45cc7200b9738fa3406d0b8a03552f4847340cabdc92eec97b219c4cebb2",
+    "lorenz_chi": "7cd9321f8abe514b6649d54f9c9bc1258753f2e506573288b427fd7c01eb73b9",
+    "lorenz_corrector": "e97fba97ec3cc61fb3e9e990de2e5ddf14da6595bec9f52b3e2fc12da2c11632",
+    "lorenz_ghp": "598f52a92d2ba3c2b9edc51d8c08240a128a8ba714fb379578dbaff63b87a2fc",
+    "lorenz_jet": "8a68ebf0c27ba0a444f07851a6a5eb03623ff328e920a91f3824c332c635af65",
+    "lorenz_kappa": "6c5b5d8eccc119dc7aaf6ac7ac04d1aca6be52ea5bb03d682a3f891f52461d92",
+    "lorenz_metric": "e356a13729114412ffba238807ca1b4b612fc64c78c4a920a101e05baf02e91b",
+    "lorenz_mode_jet": "e8fe89e3a0d13f89ffbf4666fee552d8df3678f8c09f5866c456d9e9c68a6ccc",
+    "lorenz_spin1": "baf3b91c7ce4d316d75394288cbc218279b21be435ce9c696601f3fe39bafe98",
+    "lorenz_spin1_chiral": "e0c14b1f38f01d2f468c5fa439f527dd3b84b819b05e679334d390da2c581449",
+    "lorenz_tensor": "03bd09d77eb50a087cf20dfd9ddf04fb9514efe2311fff1b3a57c4b423551070",
+    "lorenz_weyl": "85668a281b4f351b57cce1a9ac56ddc4e07119918545e24685643f7195f012fd",
+    "report_metric_backend_response": "7b42317ca2738f6d6abb3d01625c78d17097a6a173fb187de8a4f21e97ba0fe7",
+    "source_provenance": "bd857ee008868fc3dbd880b276cd59acf025a38e13326674981d80fa3377a1b9"
+  },
+  "samples": [],
+  "limitations": [
+    "Finite 88x18 grid and specified metric ell cutoff; not a new full L18 total",
+    "Trace/kappa resolvent and massive scalar Green solver unchanged",
+    "Weyl source interface accepts method but does not expose radial ODE rtol"
+  ],
+  "error": "ArithmeticError('MST returned invalid radial data: s=1,ell=1,m=1,bc=In')",
+  "radial_calls": [],
+  "elapsed_seconds": 0.12883223699463997
+}

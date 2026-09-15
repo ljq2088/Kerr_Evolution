@@ -1,0 +1,51 @@
+--- a/cpp/src/nusolver.cpp
++++ b/cpp/src/nusolver.cpp
+@@ -454,7 +454,7 @@
+ 	double q = params.getMstQ(), eps = params.getMstEpsilon(), la = params.getSpinWeightedSpheroidalEigenvalue();
+ 
+ 	// for low frequencies we can just make use of analytic low-frequency expansions
+-	if(eps < low_frequency_max_epsilon(q, l, m)){
++	if((s == 0 || std::abs(s) == 2) && std::abs(eps) < low_frequency_max_epsilon(q, l, m)){
+ 	  	params.setRenormalizedAngularMomentum(nu_solver_low_freq(q, s, l, m, eps));
+ 	}else{
+ 		// otherwise try to make use of monodromy techniques to get an initial guess for nu.
+@@ -463,7 +463,7 @@
+ 		// leads to an inaccurate numerical result.
+ 	  	if(std::abs(params.getRenormalizedAngularMomentum()) != 0.){
+ 			nu_solver_guess(params);
+-	  	}else if(eps < 0.5){
++	  	}else if((s == 0 || std::abs(s) == 2) && std::abs(eps) < 0.5){
+ 	  		params.setRenormalizedAngularMomentum(nu_solver_low_freq(q, s, l, m, eps));
+ 			nu_solver_guess(params);
+ 	  	}else{
+@@ -480,8 +480,8 @@
+ int nu_solver_guess(MstParameters &params){
+ 	Complex nu0 = params.getRenormalizedAngularMomentum();
+ 	double nuTest = std::abs(nu_eqn_136(params)/nu0);
+-	if(params.getMstEpsilon() < 1.e-2){
+-		nuTest *= params.getMstEpsilon()/2.;
++	if(std::abs(params.getMstEpsilon()) < 1.e-2){
++		nuTest *= std::abs(params.getMstEpsilon())/2.;
+ 	}
+ 	Complex cl = Complex(params.getSpinWeightedSpheroidalModeNumber());
+ 	if( nuTest > 1.e-4 ){
+@@ -1227,12 +1227,16 @@
+ }
+ 
+ double nu_solver_low_freq_s0(double q, int l, int m, double eps){
+-	if( l == 2 ){
++	if( l == 0 ){
+ 		return nu_solver_low_freq_s0_l0(q, eps);
++	}else if( l == 1 ){
++		return nu_solver_low_freq_s0_l1(q, m, eps);
++	}else if( l == 2 ){
++		return nu_solver_low_freq_s0_l2(q, m, eps);
+ 	}else if( l == 3 ){
+-		return nu_solver_low_freq_s0_l1(q, m, eps);
++		return nu_solver_low_freq_s0_l3(q, m, eps);
+ 	}else if( l == 4 ){
+-		return nu_solver_low_freq_s0_l2(q, m, eps);
++		return nu_solver_low_freq_s0_l4(q, m, eps);
+ 	}else if( l == 5 ){
+ 		return nu_solver_low_freq_s0_l5(q, m, eps);
+ 	}else if( l == 6 ){

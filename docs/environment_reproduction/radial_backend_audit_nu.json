@@ -1,0 +1,365 @@
+{
+  "status": "bounded_radial_comparison_not_full_flux_validation",
+  "a": 0.8771530275949366,
+  "rp": 20.0,
+  "pybhpt_version": "1.0.0",
+  "radii": [
+    1.4812109600800842,
+    2.0,
+    10.0,
+    20.0,
+    40.0,
+    120.0,
+    316.0
+  ],
+  "binary_sha256": "881fda734cd938ccf2017f436dfd57138373309c33391b81469cae356fd1e898",
+  "report_sha256": "869b4eace50eec4041e2282a017b84f17046d4077ecc80b10d8a68d689a5975c",
+  "reference_source_commit": "9fe9c57e2d1c92d944ba70ba3c1b81b665e9d274",
+  "reference_source_url": "https://github.com/znasipak/pybhpt/blob/9fe9c57e2d1c92d944ba70ba3c1b81b665e9d274/cpp/src/radialsolver.cpp",
+  "reference_source_sha256": "8cc89b20cbcd897665090898c1c554a19dbee797f97bab1e29919ae204c9ae5e",
+  "normalization": "Common pybhpt In/Up asymptotic normalization; raw and invariant Green products compared.",
+  "default_ode_relative_tolerance": 1e-14,
+  "actual_algorithm_from_versioned_source": {
+    "AUTO": "ASYMP only if abs(omega*r_min)>100; otherwise HBL with stable spin flip. MST block commented out. No auto GSN.",
+    "MST": "Direct analytic MST series; not guaranteed to succeed for every mode/radius.",
+    "GSN": "Only abs(spin)=2. Positive spin uses spin flip.",
+    "HBL": "Hyperboloidally transformed ODE. In s>0 and Up s<0 use spin flip."
+  },
+  "limitations": [
+    "No amplitude/source reconstruction or scalar flux calculated here.",
+    "Wronskian constancy does not check asymptotic amplitude normalization.",
+    "Cross-method agreement is evidence, not an exact true-error estimate.",
+    "Boundary generation is shared by HBL/GSN; MST is independent of ODE propagation.",
+    "GSN is not called for unsupported spin 0 or 1.",
+    "Selection inferred from exact version tag; wrapper bytes match installed version. Binary branch not instrumented."
+  ],
+  "rows": [
+    {
+      "spin": 0,
+      "ell": 1,
+      "m": 1,
+      "method": "NU",
+      "rtol": null,
+      "status": "ok",
+      "omega": 0.011071760582072043,
+      "eigenvalue": 1.980652195908211,
+      "selected_nu": [
+        null,
+        0.0
+      ],
+      "monodromy_nu": [
+        0.9996911721643033,
+        0.0
+      ],
+      "selected_nu_finite": false,
+      "selected_nu_abs_difference_from_monodromy": null,
+      "elapsed_seconds": 0.002065655993646942,
+      "diagnostic_output": "",
+      "stderr": ""
+    },
+    {
+      "spin": 0,
+      "ell": 2,
+      "m": 1,
+      "method": "NU",
+      "rtol": null,
+      "status": "ok",
+      "omega": 0.011071760582072043,
+      "eigenvalue": 5.980630638034409,
+      "selected_nu": [
+        -0.0005723431189082152,
+        0.0
+      ],
+      "monodromy_nu": [
+        1.9998159310177508,
+        0.0
+      ],
+      "selected_nu_finite": true,
+      "selected_nu_abs_difference_from_monodromy": 2.000388274136659,
+      "elapsed_seconds": 0.0009596200106898323,
+      "diagnostic_output": "",
+      "stderr": ""
+    },
+    {
+      "spin": 0,
+      "ell": 3,
+      "m": 1,
+      "method": "NU",
+      "rtol": null,
+      "status": "ok",
+      "omega": 0.011071760582072043,
+      "eigenvalue": 11.980627045101135,
+      "selected_nu": [
+        0.9996911721643061,
+        0.0
+      ],
+      "monodromy_nu": [
+        2.9998686030964437,
+        0.0
+      ],
+      "selected_nu_finite": true,
+      "selected_nu_abs_difference_from_monodromy": 2.0001774309321374,
+      "elapsed_seconds": 0.0007732829981250688,
+      "diagnostic_output": "",
+      "stderr": ""
+    },
+    {
+      "spin": 0,
+      "ell": 4,
+      "m": 1,
+      "method": "NU",
+      "rtol": null,
+      "status": "ok",
+      "omega": 0.011071760582072043,
+      "eigenvalue": 19.98062573856149,
+      "selected_nu": [
+        1.999815931017752,
+        0.0
+      ],
+      "monodromy_nu": [
+        3.9998978221766928,
+        0.0
+      ],
+      "selected_nu_finite": true,
+      "selected_nu_abs_difference_from_monodromy": 2.000081891158941,
+      "elapsed_seconds": 0.0015905790060060099,
+      "diagnostic_output": "",
+      "stderr": ""
+    },
+    {
+      "spin": 0,
+      "ell": 5,
+      "m": 1,
+      "method": "NU",
+      "rtol": null,
+      "status": "ok",
+      "omega": 0.011071760582072043,
+      "eigenvalue": 29.980625110415374,
+      "selected_nu": [
+        4.999916407199529,
+        0.0
+      ],
+      "monodromy_nu": [
+        4.999916407199528,
+        0.0
+      ],
+      "selected_nu_finite": true,
+      "selected_nu_abs_difference_from_monodromy": 8.881784197001252e-16,
+      "elapsed_seconds": 0.0009712309984024614,
+      "diagnostic_output": "",
+      "stderr": ""
+    },
+    {
+      "spin": 0,
+      "ell": 6,
+      "m": 1,
+      "method": "NU",
+      "rtol": null,
+      "status": "ok",
+      "omega": 0.011071760582072043,
+      "eigenvalue": 41.98062475865311,
+      "selected_nu": [
+        5.999929270924038,
+        0.0
+      ],
+      "monodromy_nu": [
+        5.999929270924043,
+        0.0
+      ],
+      "selected_nu_finite": true,
+      "selected_nu_abs_difference_from_monodromy": 5.329070518200751e-15,
+      "elapsed_seconds": 0.0008405529952142388,
+      "diagnostic_output": "",
+      "stderr": ""
+    },
+    {
+      "spin": -1,
+      "ell": 1,
+      "m": 1,
+      "method": "NU",
+      "rtol": null,
+      "status": "ok",
+      "omega": 0.011071760582072043,
+      "eigenvalue": 1.9709074883441373,
+      "selected_nu": [
+        0.0,
+        0.0
+      ],
+      "monodromy_nu": [
+        0.9996175886816846,
+        0.0
+      ],
+      "selected_nu_finite": true,
+      "selected_nu_abs_difference_from_monodromy": 0.9996175886816846,
+      "elapsed_seconds": 0.0012760920071741566,
+      "diagnostic_output": "NUSOLVER: No low-frequency expansions for s = -1",
+      "stderr": ""
+    },
+    {
+      "spin": -1,
+      "ell": 6,
+      "m": 1,
+      "method": "NU",
+      "rtol": null,
+      "status": "ok",
+      "omega": 0.011071760582072043,
+      "eigenvalue": 41.98016434637412,
+      "selected_nu": [
+        0.0,
+        0.0
+      ],
+      "monodromy_nu": [
+        5.999928593599899,
+        0.0
+      ],
+      "selected_nu_finite": true,
+      "selected_nu_abs_difference_from_monodromy": 5.999928593599899,
+      "elapsed_seconds": 0.0010677000100258738,
+      "diagnostic_output": "NUSOLVER: No low-frequency expansions for s = -1",
+      "stderr": ""
+    },
+    {
+      "spin": -1,
+      "ell": 18,
+      "m": 1,
+      "method": "NU",
+      "rtol": null,
+      "status": "ok",
+      "omega": 0.011071760582072043,
+      "eigenvalue": 341.9805674845037,
+      "selected_nu": [
+        0.0,
+        0.0
+      ],
+      "monodromy_nu": [
+        17.999975122522414,
+        0.0
+      ],
+      "selected_nu_finite": true,
+      "selected_nu_abs_difference_from_monodromy": 17.999975122522414,
+      "elapsed_seconds": 0.0012684300018008798,
+      "diagnostic_output": "NUSOLVER: No low-frequency expansions for s = -1",
+      "stderr": ""
+    },
+    {
+      "spin": 1,
+      "ell": 1,
+      "m": 1,
+      "method": "NU",
+      "rtol": null,
+      "status": "ok",
+      "omega": 0.011071760582072043,
+      "eigenvalue": -0.029092511655862362,
+      "selected_nu": [
+        0.0,
+        0.0
+      ],
+      "monodromy_nu": [
+        0.9996175886816919,
+        0.0
+      ],
+      "selected_nu_finite": true,
+      "selected_nu_abs_difference_from_monodromy": 0.9996175886816919,
+      "elapsed_seconds": 0.0010508670093258843,
+      "diagnostic_output": "NUSOLVER: No low-frequency expansions for s = 1",
+      "stderr": ""
+    },
+    {
+      "spin": 1,
+      "ell": 6,
+      "m": 1,
+      "method": "NU",
+      "rtol": null,
+      "status": "ok",
+      "omega": 0.011071760582072043,
+      "eigenvalue": 39.980164346374146,
+      "selected_nu": [
+        0.0,
+        0.0
+      ],
+      "monodromy_nu": [
+        5.999928593599899,
+        0.0
+      ],
+      "selected_nu_finite": true,
+      "selected_nu_abs_difference_from_monodromy": 5.999928593599899,
+      "elapsed_seconds": 0.0012855829991167411,
+      "diagnostic_output": "NUSOLVER: No low-frequency expansions for s = 1",
+      "stderr": ""
+    },
+    {
+      "spin": 1,
+      "ell": 18,
+      "m": 1,
+      "method": "NU",
+      "rtol": null,
+      "status": "ok",
+      "omega": 0.011071760582072043,
+      "eigenvalue": 339.9805674845037,
+      "selected_nu": [
+        0.0,
+        0.0
+      ],
+      "monodromy_nu": [
+        17.999975122522187,
+        0.0
+      ],
+      "selected_nu_finite": true,
+      "selected_nu_abs_difference_from_monodromy": 17.999975122522187,
+      "elapsed_seconds": 0.002338354999665171,
+      "diagnostic_output": "NUSOLVER: No low-frequency expansions for s = 1",
+      "stderr": ""
+    },
+    {
+      "spin": -2,
+      "ell": 2,
+      "m": 1,
+      "method": "NU",
+      "rtol": null,
+      "status": "ok",
+      "omega": 0.011071760582072043,
+      "eigenvalue": 3.96766778446468,
+      "selected_nu": [
+        1.9997509168118333,
+        0.0
+      ],
+      "monodromy_nu": [
+        1.9997509168118315,
+        0.0
+      ],
+      "selected_nu_finite": true,
+      "selected_nu_abs_difference_from_monodromy": 1.7763568394002505e-15,
+      "elapsed_seconds": 0.0015329099987866357,
+      "diagnostic_output": "",
+      "stderr": ""
+    },
+    {
+      "spin": 2,
+      "ell": 2,
+      "m": 1,
+      "method": "NU",
+      "rtol": null,
+      "status": "ok",
+      "omega": 0.011071760582072043,
+      "eigenvalue": -0.0323322155353214,
+      "selected_nu": [
+        1.9997509168118333,
+        0.0
+      ],
+      "monodromy_nu": [
+        1.9997509168118088,
+        0.0
+      ],
+      "selected_nu_finite": true,
+      "selected_nu_abs_difference_from_monodromy": 2.4424906541753444e-14,
+      "elapsed_seconds": 0.0032660059951012954,
+      "diagnostic_output": "",
+      "stderr": ""
+    }
+  ],
+  "nonfinite_json_encoding": "null denotes a nonfinite or undefined numerical value; inspect finite/status flags",
+  "serialization_only_update": {
+    "script_sha256": "fd5a719c0119b53d014efd58aea2e6d4beff0436f539e2ea930ccc66f08d39fa",
+    "note": "Converted non-standard NaN/Infinity tokens to null; finite numerical values and original execution hash preserved"
+  }
+}

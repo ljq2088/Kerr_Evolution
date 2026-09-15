@@ -1,0 +1,1637 @@
+{
+  "status": "completed_local_reconstruction_conditioning_audit",
+  "rows": [
+    {
+      "a": 0.0,
+      "ell": 1,
+      "m": 1,
+      "r": 2.001,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 9.391337063080682,
+        "s0_kappa": 20.92336908870117,
+        "s0_compact_chi": 160.4914439947913,
+        "s1": 16.166562602484777
+      },
+      "all_terms": {
+        "sum_term_norms": 206.97271274905793,
+        "total_norm": 192.78189208007362,
+        "norm_condition": 1.0736107552211909,
+        "max_component_condition_nonzero": 1.0760335120602673,
+        "excluded_small_components": 2,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.0736107552211908e-12
+      },
+      "sector_sum": {
+        "sum_term_norms": 197.8445161814173,
+        "total_norm": 192.78189208007362,
+        "norm_condition": 1.026260890204568,
+        "max_component_condition_nonzero": 1.026321166048122,
+        "excluded_small_components": 2,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.026260890204568e-12
+      },
+      "scalar_parts": {
+        "sum_term_norms": 190.80615014657315,
+        "total_norm": 181.67795357893252,
+        "norm_condition": 1.0502438319445004,
+        "max_component_condition_nonzero": 1.0527553636493674,
+        "excluded_small_components": 2,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.0502438319445005e-12
+      },
+      "tensor_parts": null,
+      "seconds": 1.9314550900016911
+    },
+    {
+      "a": 0.0,
+      "ell": 1,
+      "m": 1,
+      "r": 3.0,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 0.2336401283123233,
+        "s0_kappa": 0.45576390327168703,
+        "s0_compact_chi": 3.575349390275332,
+        "s1": 0.3596034119560867
+      },
+      "all_terms": {
+        "sum_term_norms": 4.62435683381543,
+        "total_norm": 4.268430278880103,
+        "norm_condition": 1.083385819067123,
+        "max_component_condition_nonzero": 16.962555578309992,
+        "excluded_small_components": 2,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.083385819067123e-12
+      },
+      "sector_sum": {
+        "sum_term_norms": 4.3712222980685755,
+        "total_norm": 4.268430278880103,
+        "norm_condition": 1.0240819253150462,
+        "max_component_condition_nonzero": 1.751446640147983,
+        "excluded_small_components": 2,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.0240819253150463e-12
+      },
+      "scalar_parts": {
+        "sum_term_norms": 4.264753421859343,
+        "total_norm": 4.011618886112489,
+        "norm_condition": 1.0631003450061423,
+        "max_component_condition_nonzero": 13.270952663129743,
+        "excluded_small_components": 2,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.0631003450061424e-12
+      },
+      "tensor_parts": null,
+      "seconds": 0.16012700699502602
+    },
+    {
+      "a": 0.0,
+      "ell": 1,
+      "m": 1,
+      "r": 19.9995,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 0.48213064975540615,
+        "s0_kappa": 0.13530574644015989,
+        "s0_compact_chi": 0.36320271039440577,
+        "s1": 0.028247925349459625
+      },
+      "all_terms": {
+        "sum_term_norms": 1.0088870319394314,
+        "total_norm": 0.11361660879558635,
+        "norm_condition": 8.879749559807522,
+        "max_component_condition_nonzero": 58.555468293905356,
+        "excluded_small_components": 2,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 8.879749559807524e-12
+      },
+      "sector_sum": {
+        "sum_term_norms": 0.14521733967476588,
+        "total_norm": 0.11361660879558635,
+        "norm_condition": 1.2781347834103558,
+        "max_component_condition_nonzero": 4.58815171232177,
+        "excluded_small_components": 2,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.2781347834103557e-12
+      },
+      "scalar_parts": {
+        "sum_term_norms": 0.9806391065899718,
+        "total_norm": 0.11696941432530626,
+        "norm_condition": 8.38372246494023,
+        "max_component_condition_nonzero": 24.72543327121435,
+        "excluded_small_components": 2,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 8.38372246494023e-12
+      },
+      "tensor_parts": null,
+      "seconds": 0.15605897900240961
+    },
+    {
+      "a": 0.0,
+      "ell": 1,
+      "m": 1,
+      "r": 20.0005,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 1.3176157809304179,
+        "s0_kappa": 0.13530205320130956,
+        "s0_compact_chi": 31.053513126863297,
+        "s1": 31.006442563754746
+      },
+      "all_terms": {
+        "sum_term_norms": 63.51287352474977,
+        "total_norm": 0.113608785315051,
+        "norm_condition": 559.0489621785924,
+        "max_component_condition_nonzero": 5042.5999940619695,
+        "excluded_small_components": 2,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 5.590489621785924e-10
+      },
+      "sector_sum": {
+        "sum_term_norms": 62.02501569297342,
+        "total_norm": 0.113608785315051,
+        "norm_condition": 545.9526349214146,
+        "max_component_condition_nonzero": 4999.028376464939,
+        "excluded_small_components": 2,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 5.459526349214147e-10
+      },
+      "scalar_parts": {
+        "sum_term_norms": 32.506430960995026,
+        "total_norm": 31.018573129218673,
+        "norm_condition": 1.0479666755004546,
+        "max_component_condition_nonzero": 15.723888786950036,
+        "excluded_small_components": 2,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.0479666755004545e-12
+      },
+      "tensor_parts": null,
+      "seconds": 0.15721104700060096
+    },
+    {
+      "a": 0.0,
+      "ell": 1,
+      "m": 1,
+      "r": 40.0,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 0.15880549738850466,
+        "s0_kappa": 0.04824740674969824,
+        "s0_compact_chi": 1.9117220730206241,
+        "s1": 1.9321980444632125
+      },
+      "all_terms": {
+        "sum_term_norms": 4.050973021622039,
+        "total_norm": 0.031242839241561335,
+        "norm_condition": 129.66084773221127,
+        "max_component_condition_nonzero": 2552.5970143313843,
+        "excluded_small_components": 2,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.2966084773221128e-10
+      },
+      "sector_sum": {
+        "sum_term_norms": 3.866499818278062,
+        "total_norm": 0.031242839241561335,
+        "norm_condition": 123.75635224389538,
+        "max_component_condition_nonzero": 2464.674730671824,
+        "excluded_small_components": 2,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.237563522438954e-10
+      },
+      "scalar_parts": {
+        "sum_term_norms": 2.118774977158827,
+        "total_norm": 1.9343017738148494,
+        "norm_condition": 1.095369401941951,
+        "max_component_condition_nonzero": 1.0713719446348997,
+        "excluded_small_components": 2,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.0953694019419513e-12
+      },
+      "tensor_parts": null,
+      "seconds": 0.16345507399819326
+    },
+    {
+      "a": 0.0,
+      "ell": 2,
+      "m": 1,
+      "r": 2.001,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 0.0,
+        "s0_kappa": 0.0,
+        "s0_compact_chi": 1.8718175059052256e-12,
+        "s1": 0.006145971851893059,
+        "s2_AAB": 0.2100740917366602,
+        "s2_DKW_vector": 12.633388878020819,
+        "s2_chi": 12.628218224983595
+      },
+      "all_terms": {
+        "sum_term_norms": 25.47782716659484,
+        "total_norm": 9.191964168904324e-05,
+        "norm_condition": 277175.0052375561,
+        "max_component_condition_nonzero": 167916102.89531088,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 2.771750052375561e-07
+      },
+      "sector_sum": {
+        "sum_term_norms": 0.012213815426178037,
+        "total_norm": 9.19196416890397e-05,
+        "norm_condition": 132.87492424629835,
+        "max_component_condition_nonzero": 156.72854054272142,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.3287492424629835e-10
+      },
+      "scalar_parts": {
+        "sum_term_norms": 1.8718175059052256e-12,
+        "total_norm": 1.8718175059052256e-12,
+        "norm_condition": 1.0,
+        "max_component_condition_nonzero": 1.0,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1e-12
+      },
+      "tensor_parts": {
+        "sum_term_norms": 25.471681194741073,
+        "total_norm": 0.00606784357241316,
+        "norm_condition": 4197.814411456734,
+        "max_component_condition_nonzero": 167923243.46566287,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 4.197814411456733e-09
+      },
+      "seconds": 2.0054497009987244
+    },
+    {
+      "a": 0.0,
+      "ell": 2,
+      "m": 1,
+      "r": 3.0,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 0.0,
+        "s0_kappa": 0.0,
+        "s0_compact_chi": 6.322150745550917e-13,
+        "s1": 0.017676443537650504,
+        "s2_AAB": 0.07744810983793224,
+        "s2_DKW_vector": 6.526874177095571,
+        "s2_chi": 6.526656110169816
+      },
+      "all_terms": {
+        "sum_term_norms": 13.148654840641603,
+        "total_norm": 0.0002891683262272771,
+        "norm_condition": 45470.59151391006,
+        "max_component_condition_nonzero": 111582.66163226977,
+        "excluded_small_components": 4,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 4.5470591513910066e-08
+      },
+      "sector_sum": {
+        "sum_term_norms": 0.035124486916323014,
+        "total_norm": 0.00028916832622727763,
+        "norm_condition": 121.467269166666,
+        "max_component_condition_nonzero": 160.7027748686193,
+        "excluded_small_components": 4,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.2146726916666597e-10
+      },
+      "scalar_parts": {
+        "sum_term_norms": 6.322150745550917e-13,
+        "total_norm": 6.322150745550917e-13,
+        "norm_condition": 1.0,
+        "max_component_condition_nonzero": 1.0,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1e-12
+      },
+      "tensor_parts": {
+        "sum_term_norms": 13.13097839710332,
+        "total_norm": 0.017448043378040297,
+        "norm_condition": 752.5759830256764,
+        "max_component_condition_nonzero": 2320.183147434019,
+        "excluded_small_components": 4,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 7.525759830256764e-10
+      },
+      "seconds": 0.22049178599263541
+    },
+    {
+      "a": 0.0,
+      "ell": 2,
+      "m": 1,
+      "r": 19.9995,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 0.0,
+        "s0_kappa": 0.0,
+        "s0_compact_chi": 1.145212203442516e-12,
+        "s1": 0.21360715393085455,
+        "s2_AAB": 5.750745153436231,
+        "s2_DKW_vector": 87.30922169085962,
+        "s2_chi": 87.04891917258362
+      },
+      "all_terms": {
+        "sum_term_norms": 180.32249317081147,
+        "total_norm": 0.013361462039313427,
+        "norm_condition": 13495.71571136816,
+        "max_component_condition_nonzero": 247900.9028600272,
+        "excluded_small_components": 4,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.3495715711368159e-08
+      },
+      "sector_sum": {
+        "sum_term_norms": 0.4236118847332687,
+        "total_norm": 0.013361462039313427,
+        "norm_condition": 31.70400690335201,
+        "max_component_condition_nonzero": 275.6822022942713,
+        "excluded_small_components": 4,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 3.170400690335201e-11
+      },
+      "scalar_parts": {
+        "sum_term_norms": 1.145212203442516e-12,
+        "total_norm": 1.145212203442516e-12,
+        "norm_condition": 1.0,
+        "max_component_condition_nonzero": 1.0,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1e-12
+      },
+      "tensor_parts": {
+        "sum_term_norms": 180.10888601687947,
+        "total_norm": 0.21000473080126894,
+        "norm_condition": 857.6420413467713,
+        "max_component_condition_nonzero": 4677.176008620681,
+        "excluded_small_components": 4,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 8.576420413467714e-10
+      },
+      "seconds": 0.20457288199395407
+    },
+    {
+      "a": 0.0,
+      "ell": 2,
+      "m": 1,
+      "r": 20.0005,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 0.0,
+        "s0_kappa": 0.0,
+        "s0_compact_chi": 4.4036110177539605e-13,
+        "s1": 0.09254400687545919,
+        "s2_AAB": 4.713864986750222,
+        "s2_DKW_vector": 34.942516181875476,
+        "s2_chi": 34.67782585938096
+      },
+      "all_terms": {
+        "sum_term_norms": 74.42675103488256,
+        "total_norm": 0.013361108280421329,
+        "norm_condition": 5570.402505003543,
+        "max_component_condition_nonzero": 104558.02673735116,
+        "excluded_small_components": 4,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 5.570402505003543e-09
+      },
+      "sector_sum": {
+        "sum_term_norms": 0.18782648833161467,
+        "total_norm": 0.013361108280421318,
+        "norm_condition": 14.057702728661061,
+        "max_component_condition_nonzero": 275.6675778337141,
+        "excluded_small_components": 4,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.405770272866106e-11
+      },
+      "scalar_parts": {
+        "sum_term_norms": 4.4036110177539605e-13,
+        "total_norm": 4.4036110177539605e-13,
+        "norm_condition": 1.0,
+        "max_component_condition_nonzero": 1.0,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1e-12
+      },
+      "tensor_parts": {
+        "sum_term_norms": 74.33420702800666,
+        "total_norm": 0.09528248145571512,
+        "norm_condition": 780.1455828221194,
+        "max_component_condition_nonzero": 981.8190665818952,
+        "excluded_small_components": 4,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 7.801455828221195e-10
+      },
+      "seconds": 0.18418432099861093
+    },
+    {
+      "a": 0.0,
+      "ell": 2,
+      "m": 1,
+      "r": 40.0,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 0.0,
+        "s0_kappa": 0.0,
+        "s0_compact_chi": 1.30323688174544e-14,
+        "s1": 0.005540008716631101,
+        "s2_AAB": 0.5772991765674537,
+        "s2_DKW_vector": 2.241127884643551,
+        "s2_chi": 2.1863295262714217
+      },
+      "all_terms": {
+        "sum_term_norms": 5.010296596199071,
+        "total_norm": 0.0017269878120536955,
+        "norm_condition": 2901.176581113759,
+        "max_component_condition_nonzero": 16928.543960747465,
+        "excluded_small_components": 4,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 2.9011765811137588e-09
+      },
+      "sector_sum": {
+        "sum_term_norms": 0.011663427048955113,
+        "total_norm": 0.0017269878120536944,
+        "norm_condition": 6.753624413298686,
+        "max_component_condition_nonzero": 39.98563460481594,
+        "excluded_small_components": 4,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 6.753624413298686e-12
+      },
+      "scalar_parts": {
+        "sum_term_norms": 1.30323688174544e-14,
+        "total_norm": 1.30323688174544e-14,
+        "norm_condition": 1.0,
+        "max_component_condition_nonzero": 1.0,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1e-12
+      },
+      "tensor_parts": {
+        "sum_term_norms": 5.004756587482426,
+        "total_norm": 0.00612341833231098,
+        "norm_condition": 817.3141725552546,
+        "max_component_condition_nonzero": 964.4531029993789,
+        "excluded_small_components": 4,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 8.173141725552546e-10
+      },
+      "seconds": 0.1911115140101174
+    },
+    {
+      "a": 0.0,
+      "ell": 18,
+      "m": 1,
+      "r": 2.001,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 7.598633188594895e-42,
+        "s0_kappa": 2.3284953848452723e-42,
+        "s0_compact_chi": 1.1749003699240972e-32,
+        "s1": 3.6459588800640276e-27,
+        "s2_AAB": 6.704625582419722e-25,
+        "s2_DKW_vector": 5.4400891724941135e-21,
+        "s2_chi": 5.440089189111779e-21
+      },
+      "all_terms": {
+        "sum_term_norms": 1.0880852470134764e-20,
+        "total_norm": 1.6084836385350053e-30,
+        "norm_condition": 6764664687.571807,
+        "max_component_condition_nonzero": 55487678882.06173,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 0.006764664687571807
+      },
+      "sector_sum": {
+        "sum_term_norms": 7.29192833746954e-27,
+        "total_norm": 1.608483654029465e-30,
+        "norm_condition": 4533.417743601119,
+        "max_component_condition_nonzero": 511835.37734794396,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 4.533417743601119e-09
+      },
+      "scalar_parts": {
+        "sum_term_norms": 1.17490037091681e-32,
+        "total_norm": 1.1749003696903822e-32,
+        "norm_condition": 1.0000000010438568,
+        "max_component_condition_nonzero": 1.0000000068128079,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.0000000010438567e-12
+      },
+      "tensor_parts": {
+        "sum_term_norms": 1.0880848824164135e-20,
+        "total_norm": 3.6459577084018164e-27,
+        "norm_condition": 2984359.5824192073,
+        "max_component_condition_nonzero": 26208143811.00813,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 2.9843595824192075e-06
+      },
+      "seconds": 2.958345815000939
+    },
+    {
+      "a": 0.0,
+      "ell": 18,
+      "m": 1,
+      "r": 3.0,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 3.5984044693735616e-32,
+        "s0_kappa": 3.3134134991485526e-33,
+        "s0_compact_chi": 1.7244613067209068e-23,
+        "s1": 7.038289838935369e-18,
+        "s2_AAB": 2.4425765431042657e-15,
+        "s2_DKW_vector": 1.1970729664558656e-11,
+        "s2_chi": 1.1970729435106278e-11
+      },
+      "all_terms": {
+        "sum_term_norms": 2.394390871451512e-11,
+        "total_norm": 1.4670521301555936e-21,
+        "norm_condition": 16321102858.134743,
+        "max_component_condition_nonzero": 474306149614.9871,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 0.01632110285813474
+      },
+      "sector_sum": {
+        "sum_term_norms": 1.4076508433900106e-17,
+        "total_norm": 1.4670521293504776e-21,
+        "norm_condition": 9595.09764668849,
+        "max_component_condition_nonzero": 169142.36190997102,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 9.59509764668849e-09
+      },
+      "scalar_parts": {
+        "sum_term_norms": 1.7244613106506526e-23,
+        "total_norm": 1.7244613063924207e-23,
+        "norm_condition": 1.0000000024693114,
+        "max_component_condition_nonzero": 1.0000000052088986,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.0000000024693112e-12
+      },
+      "tensor_parts": {
+        "sum_term_norms": 2.394390167620804e-11,
+        "total_norm": 7.038201350351672e-18,
+        "norm_condition": 3401991.572038736,
+        "max_component_condition_nonzero": 388300061517.11664,
+        "excluded_small_components": 3,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 3.4019915720387362e-06
+      },
+      "seconds": 0.19245260699244682
+    },
+    {
+      "a": 0.0,
+      "ell": 18,
+      "m": 1,
+      "r": 19.9995,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 7.225204967164122e-15,
+        "s0_kappa": 6.6812505214495844e-18,
+        "s0_compact_chi": 5.013821251581107e-07,
+        "s1": 1.3483318517378442,
+        "s2_AAB": 3124.487672469281,
+        "s2_DKW_vector": 2322131.179134874,
+        "s2_chi": 2322129.1027223403
+      },
+      "all_terms": {
+        "sum_term_norms": 4647386.117862036,
+        "total_norm": 0.001849946272465823,
+        "norm_condition": 2512173562.569177,
+        "max_component_condition_nonzero": 3716712737842.5767,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 0.0025121735625691774
+      },
+      "sector_sum": {
+        "sum_term_norms": 2.6966306032960112,
+        "total_norm": 0.0018499462725053057,
+        "norm_condition": 1457.6804977390375,
+        "max_component_condition_nonzero": 1683456.8650534356,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.4576804977390377e-09
+      },
+      "scalar_parts": {
+        "sum_term_norms": 5.013821323899969e-07,
+        "total_norm": 5.013821251630957e-07,
+        "norm_condition": 1.0000000144139587,
+        "max_component_condition_nonzero": 1.0000000079965956,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.0000000144139586e-12
+      },
+      "tensor_parts": {
+        "sum_term_norms": 4647384.7695296835,
+        "total_norm": 1.348298250176042,
+        "norm_condition": 3446852.184910047,
+        "max_component_condition_nonzero": 79467958.2887322,
+        "excluded_small_components": 4,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 3.446852184910047e-06
+      },
+      "seconds": 0.19592391900368966
+    },
+    {
+      "a": 0.0,
+      "ell": 18,
+      "m": 1,
+      "r": 20.0005,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 7.832661905018301e-15,
+        "s0_kappa": 6.6811048945743534e-18,
+        "s0_compact_chi": 6.209065136897275e-07,
+        "s1": 1.2508360071957403,
+        "s2_AAB": 3054.8903931166687,
+        "s2_DKW_vector": 2093279.7480476808,
+        "s2_chi": 2093277.658516525
+      },
+      "all_terms": {
+        "sum_term_norms": 4189613.547793951,
+        "total_norm": 0.0018498941482162213,
+        "norm_condition": 2264785556.4243107,
+        "max_component_condition_nonzero": 3274054588431.883,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 0.0022647855564243103
+      },
+      "sector_sum": {
+        "sum_term_norms": 2.5017047245043944,
+        "total_norm": 0.0018498941481272855,
+        "norm_condition": 1352.3502017869293,
+        "max_component_condition_nonzero": 1724594.3258471887,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.3523502017869294e-09
+      },
+      "scalar_parts": {
+        "sum_term_norms": 6.209065215290704e-07,
+        "total_norm": 6.209065136941938e-07,
+        "norm_condition": 1.0000000126184483,
+        "max_component_condition_nonzero": 1.00000212148317,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.0000000126184482e-12
+      },
+      "tensor_parts": {
+        "sum_term_norms": 4189612.2969573224,
+        "total_norm": 1.2508680964021404,
+        "norm_condition": 3349363.7810476287,
+        "max_component_condition_nonzero": 60570111.07154388,
+        "excluded_small_components": 4,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 3.349363781047628e-06
+      },
+      "seconds": 0.201933096992434
+    },
+    {
+      "a": 0.0,
+      "ell": 18,
+      "m": 1,
+      "r": 40.0,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 4.52308663030835e-21,
+        "s0_kappa": 8.490705273387545e-23,
+        "s0_compact_chi": 1.7963714463303252e-13,
+        "s1": 7.243667010659967e-07,
+        "s2_AAB": 0.003538078480229176,
+        "s2_DKW_vector": 1.211394407758691,
+        "s2_chi": 1.2113895819895484
+      },
+      "all_terms": {
+        "sum_term_norms": 2.426322792595349,
+        "total_norm": 2.144041492072088e-09,
+        "norm_condition": 1131658506.408126,
+        "max_component_condition_nonzero": 5608116718576.427,
+        "excluded_small_components": 1,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 0.001131658506408126
+      },
+      "sector_sum": {
+        "sum_term_norms": 1.4487810626731478e-06,
+        "total_norm": 2.144041492069794e-09,
+        "norm_condition": 675.7243588950033,
+        "max_component_condition_nonzero": 83437.65181562357,
+        "excluded_small_components": 1,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 6.757243588950032e-10
+      },
+      "scalar_parts": {
+        "sum_term_norms": 1.796371492410262e-13,
+        "total_norm": 1.7963714455385575e-13,
+        "norm_condition": 1.0000000260924347,
+        "max_component_condition_nonzero": 1.0000021800891141,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.0000000260924346e-12
+      },
+      "tensor_parts": {
+        "sum_term_norms": 2.4263220682284685,
+        "total_norm": 7.244141819700064e-07,
+        "norm_condition": 3349357.4927401515,
+        "max_component_condition_nonzero": 60499916.885122545,
+        "excluded_small_components": 4,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 3.3493574927401514e-06
+      },
+      "seconds": 0.2816517690080218
+    },
+    {
+      "a": 0.8771530275949366,
+      "ell": 1,
+      "m": 1,
+      "r": 1.4812109600800842,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 433.80677826378115,
+        "s0_kappa": 1290.1344341840195,
+        "s0_compact_chi": 11106.004077530308,
+        "s1": 779.5876872353463
+      },
+      "all_terms": {
+        "sum_term_norms": 13609.532977213454,
+        "total_norm": 12007.598076630977,
+        "norm_condition": 1.1334101033661461,
+        "max_component_condition_nonzero": 1.193284501560053,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.1334101033661462e-12
+      },
+      "sector_sum": {
+        "sum_term_norms": 13178.430333620685,
+        "total_norm": 12007.598076630977,
+        "norm_condition": 1.0975076155545518,
+        "max_component_condition_nonzero": 1.1001858953525767,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.0975076155545517e-12
+      },
+      "scalar_parts": {
+        "sum_term_norms": 12829.945289978108,
+        "total_norm": 12398.84264638534,
+        "norm_condition": 1.034769587443587,
+        "max_component_condition_nonzero": 1.0901166847225716,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.034769587443587e-12
+      },
+      "tensor_parts": null,
+      "seconds": 2.2123748140002135
+    },
+    {
+      "a": 0.8771530275949366,
+      "ell": 1,
+      "m": 1,
+      "r": 3.0,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 0.2702446601803271,
+        "s0_kappa": 0.45663274659205694,
+        "s0_compact_chi": 4.013962747631587,
+        "s1": 0.2819249646124766
+      },
+      "all_terms": {
+        "sum_term_norms": 5.022765119016448,
+        "total_norm": 4.356382944723906,
+        "norm_condition": 1.1529668495051861,
+        "max_component_condition_nonzero": 1.3628263503941505,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.1529668495051861e-12
+      },
+      "sector_sum": {
+        "sum_term_norms": 4.77406021496879,
+        "total_norm": 4.356382944723906,
+        "norm_condition": 1.0958770786555254,
+        "max_component_condition_nonzero": 1.1061845187559751,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.0958770786555255e-12
+      },
+      "scalar_parts": {
+        "sum_term_norms": 4.740840154403971,
+        "total_norm": 4.492135250356314,
+        "norm_condition": 1.0553645182495184,
+        "max_component_condition_nonzero": 1.2479701703273798,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.0553645182495184e-12
+      },
+      "tensor_parts": null,
+      "seconds": 0.21871446700242814
+    },
+    {
+      "a": 0.8771530275949366,
+      "ell": 1,
+      "m": 1,
+      "r": 19.9995,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 0.4894850882559446,
+        "s0_kappa": 0.1351422938559791,
+        "s0_compact_chi": 0.40424035876727415,
+        "s1": 0.021818620173381976
+      },
+      "all_terms": {
+        "sum_term_norms": 1.0506863610525798,
+        "total_norm": 0.11397284882042914,
+        "norm_condition": 9.218742638503292,
+        "max_component_condition_nonzero": 85.31814582806275,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 9.218742638503292e-12
+      },
+      "sector_sum": {
+        "sum_term_norms": 0.13682643434537273,
+        "total_norm": 0.11397284882042914,
+        "norm_condition": 1.200517805437598,
+        "max_component_condition_nonzero": 3.5539888365030614,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.200517805437598e-12
+      },
+      "scalar_parts": {
+        "sum_term_norms": 1.028867740879198,
+        "total_norm": 0.11500781417199074,
+        "norm_condition": 8.946068128384365,
+        "max_component_condition_nonzero": 80.39510034266952,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 8.946068128384364e-12
+      },
+      "tensor_parts": null,
+      "seconds": 0.2566127409954788
+    },
+    {
+      "a": 0.8771530275949366,
+      "ell": 1,
+      "m": 1,
+      "r": 20.0005,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 1.3284281392210495,
+        "s0_kappa": 0.13512240183221833,
+        "s0_compact_chi": 31.257028663577213,
+        "s1": 31.301237294911086
+      },
+      "all_terms": {
+        "sum_term_norms": 64.02181649954157,
+        "total_norm": 0.11435721583461027,
+        "norm_condition": 559.8406364853571,
+        "max_component_condition_nonzero": 5180.974181617539,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 5.598406364853571e-10
+      },
+      "sector_sum": {
+        "sum_term_norms": 62.61402745506794,
+        "total_norm": 0.11435721583461027,
+        "norm_condition": 547.5301842397406,
+        "max_component_condition_nonzero": 5136.509639903127,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 5.475301842397406e-10
+      },
+      "scalar_parts": {
+        "sum_term_norms": 32.72057920463048,
+        "total_norm": 31.312790160156855,
+        "norm_condition": 1.044958914145726,
+        "max_component_condition_nonzero": 59.592984849580596,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.0449589141457261e-12
+      },
+      "tensor_parts": null,
+      "seconds": 0.19100001400511246
+    },
+    {
+      "a": 0.8771530275949366,
+      "ell": 1,
+      "m": 1,
+      "r": 40.0,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 0.1597598565366271,
+        "s0_kappa": 0.048124183481286595,
+        "s0_compact_chi": 1.9266209581644942,
+        "s1": 1.952761580225558
+      },
+      "all_terms": {
+        "sum_term_norms": 4.0872665784079665,
+        "total_norm": 0.031359566785821566,
+        "norm_condition": 130.33555617407063,
+        "max_component_condition_nonzero": 2597.4082426473324,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.3033555617407065e-10
+      },
+      "sector_sum": {
+        "sum_term_norms": 3.90753932908648,
+        "total_norm": 0.031359566785821566,
+        "norm_condition": 124.60437849075055,
+        "max_component_condition_nonzero": 2508.62890254285,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.2460437849075056e-10
+      },
+      "scalar_parts": {
+        "sum_term_norms": 2.134504998182408,
+        "total_norm": 1.9547777488609221,
+        "norm_condition": 1.0919425491855612,
+        "max_component_condition_nonzero": 1.0708043686863018,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.091942549185561e-12
+      },
+      "tensor_parts": null,
+      "seconds": 0.18024691099708434
+    },
+    {
+      "a": 0.8771530275949366,
+      "ell": 2,
+      "m": 1,
+      "r": 1.4812109600800842,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 1.1959979851726182e-15,
+        "s0_kappa": 2.339709728721491e-12,
+        "s0_compact_chi": 2.8853454247440087e-11,
+        "s1": 0.7112686445025831,
+        "s2_AAB": 4.979207756595675,
+        "s2_DKW_vector": 351.0825428670494,
+        "s2_chi": 352.44245001837623
+      },
+      "all_terms": {
+        "sum_term_norms": 709.2154692865552,
+        "total_norm": 0.013541905863859725,
+        "norm_condition": 52371.909568452276,
+        "max_component_condition_nonzero": 66496.51304909642,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 5.2371909568452276e-08
+      },
+      "sector_sum": {
+        "sum_term_norms": 1.411254110336762,
+        "total_norm": 0.013541905863860962,
+        "norm_condition": 104.21384733613827,
+        "max_component_condition_nonzero": 185.83358768204994,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.0421384733613827e-10
+      },
+      "scalar_parts": {
+        "sum_term_norms": 3.119435997414675e-11,
+        "total_norm": 2.8050316198521167e-11,
+        "norm_condition": 1.1120858586182831,
+        "max_component_condition_nonzero": 1.1121035368572765,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.1120858586182831e-12
+      },
+      "tensor_parts": {
+        "sum_term_norms": 708.5042006420213,
+        "total_norm": 0.6999854658061286,
+        "norm_condition": 1012.1698738788557,
+        "max_component_condition_nonzero": 1015.4470397547337,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.0121698738788557e-09
+      },
+      "seconds": 2.1357608679973055
+    },
+    {
+      "a": 0.8771530275949366,
+      "ell": 2,
+      "m": 1,
+      "r": 3.0,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 1.1877077047859295e-17,
+        "s0_kappa": 2.1170148240525203e-14,
+        "s0_compact_chi": 2.610615319337218e-13,
+        "s1": 0.016347508250623168,
+        "s2_AAB": 0.07280341152877252,
+        "s2_DKW_vector": 6.087796517755075,
+        "s2_chi": 6.08018009101084
+      },
+      "all_terms": {
+        "sum_term_norms": 12.257127528545594,
+        "total_norm": 0.00032793352947087934,
+        "norm_condition": 37376.86581888246,
+        "max_component_condition_nonzero": 11879542.649831899,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 3.737686581888246e-08
+      },
+      "sector_sum": {
+        "sum_term_norms": 0.032438308639221994,
+        "total_norm": 0.000327933529470863,
+        "norm_condition": 98.91732843409703,
+        "max_component_condition_nonzero": 687.3490299190131,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 9.891732843409703e-11
+      },
+      "scalar_parts": {
+        "sum_term_norms": 2.8224355725129486e-13,
+        "total_norm": 2.537841123736312e-13,
+        "norm_condition": 1.1121403724271144,
+        "max_component_condition_nonzero": 1.1131408195435752,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.1121403724271144e-12
+      },
+      "tensor_parts": {
+        "sum_term_norms": 12.240780020294688,
+        "total_norm": 0.01609080038834504,
+        "norm_condition": 760.7315810816337,
+        "max_component_condition_nonzero": 34515.061649127376,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 7.607315810816338e-10
+      },
+      "seconds": 0.20554832099878695
+    },
+    {
+      "a": 0.8771530275949366,
+      "ell": 2,
+      "m": 1,
+      "r": 19.9995,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 1.877008309863294e-16,
+        "s0_kappa": 3.653282277386009e-14,
+        "s0_compact_chi": 4.499833136539358e-13,
+        "s1": 0.18389658771354683,
+        "s2_AAB": 4.921125711395784,
+        "s2_DKW_vector": 75.47713095740949,
+        "s2_chi": 75.1588429404512
+      },
+      "all_terms": {
+        "sum_term_norms": 155.7409961969705,
+        "total_norm": 0.011633350536335995,
+        "norm_condition": 13387.458386173776,
+        "max_component_condition_nonzero": 838008.2994519083,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.3387458386173775e-08
+      },
+      "sector_sum": {
+        "sum_term_norms": 0.3641945653725547,
+        "total_norm": 0.011633350536335975,
+        "norm_condition": 31.306076803498517,
+        "max_component_condition_nonzero": 921.9529427427917,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 3.130607680349851e-11
+      },
+      "scalar_parts": {
+        "sum_term_norms": 4.867038372587823e-13,
+        "total_norm": 4.3742074031793615e-13,
+        "norm_condition": 1.1126674901263829,
+        "max_component_condition_nonzero": 1.1155124075435885,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.1126674901263828e-12
+      },
+      "tensor_parts": {
+        "sum_term_norms": 155.55709960925645,
+        "total_norm": 0.1802979776585704,
+        "norm_condition": 862.7778393822828,
+        "max_component_condition_nonzero": 269686.9072122976,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 8.627778393822828e-10
+      },
+      "seconds": 0.2015828279982088
+    },
+    {
+      "a": 0.8771530275949366,
+      "ell": 2,
+      "m": 1,
+      "r": 20.0005,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 3.691883129104653e-16,
+        "s0_kappa": 1.275357917738176e-13,
+        "s0_compact_chi": 6.431397224392136e-13,
+        "s1": 0.06543826317062809,
+        "s2_AAB": 3.3233377754894797,
+        "s2_DKW_vector": 24.52151272057316,
+        "s2_chi": 24.446558995376368
+      },
+      "all_terms": {
+        "sum_term_norms": 52.356847754610406,
+        "total_norm": 0.009341493736585348,
+        "norm_condition": 5604.761854044632,
+        "max_component_condition_nonzero": 335617.23090063216,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 5.604761854044632e-09
+      },
+      "sector_sum": {
+        "sum_term_norms": 0.13244101470211198,
+        "total_norm": 0.009341493736585353,
+        "norm_condition": 14.177712733822789,
+        "max_component_condition_nonzero": 841.912969768534,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.4177712733822788e-11
+      },
+      "scalar_parts": {
+        "sum_term_norms": 7.710447025259416e-13,
+        "total_norm": 7.647428591800014e-13,
+        "norm_condition": 1.0082404736053336,
+        "max_component_condition_nonzero": 1.0238794391830954,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.0082404736053337e-12
+      },
+      "tensor_parts": {
+        "sum_term_norms": 52.29140949143901,
+        "total_norm": 0.06700275153071913,
+        "norm_condition": 780.4367476978116,
+        "max_component_condition_nonzero": 3477630.552007119,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 7.804367476978116e-10
+      },
+      "seconds": 0.20543269900372252
+    },
+    {
+      "a": 0.8771530275949366,
+      "ell": 2,
+      "m": 1,
+      "r": 40.0,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 2.1474398717095078e-17,
+        "s0_kappa": 3.774414317299981e-15,
+        "s0_compact_chi": 1.9063889633344014e-14,
+        "s1": 0.003922508207570882,
+        "s2_AAB": 0.4069302967544468,
+        "s2_DKW_vector": 1.5745184405363606,
+        "s2_chi": 1.5426256321435576
+      },
+      "all_terms": {
+        "sum_term_norms": 3.527996877641959,
+        "total_norm": 0.001207845558680979,
+        "norm_condition": 2920.9006501581944,
+        "max_component_condition_nonzero": 329144.9478133502,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 2.920900650158194e-09
+      },
+      "sector_sum": {
+        "sum_term_norms": 0.008231697533862239,
+        "total_norm": 0.0012078455586809764,
+        "norm_condition": 6.815190464293826,
+        "max_component_condition_nonzero": 45.225425262024906,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 6.815190464293825e-12
+      },
+      "scalar_parts": {
+        "sum_term_norms": 2.2859778349361092e-14,
+        "total_norm": 2.2663316737165008e-14,
+        "norm_condition": 1.0086687052241525,
+        "max_component_condition_nonzero": 1.0553522133411628,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.0086687052241525e-12
+      },
+      "tensor_parts": {
+        "sum_term_norms": 3.524074369434365,
+        "total_norm": 0.004309189326268693,
+        "norm_condition": 817.804487714594,
+        "max_component_condition_nonzero": 2087406.0002443609,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 8.17804487714594e-10
+      },
+      "seconds": 0.21611047501210123
+    },
+    {
+      "a": 0.8771530275949366,
+      "ell": 18,
+      "m": 1,
+      "r": 1.4812109600800842,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 9.17360121027753e-46,
+        "s0_kappa": 3.5590376772401815e-41,
+        "s0_compact_chi": 8.679022814015411e-37,
+        "s1": 6.834819619680906e-32,
+        "s2_AAB": 2.1375446207634404e-29,
+        "s2_DKW_vector": 1.6164463615049025e-25,
+        "s2_chi": 1.6164910184550251e-25
+      },
+      "all_terms": {
+        "sum_term_norms": 3.2331518179126453e-25,
+        "total_norm": 1.286552246290004e-32,
+        "norm_condition": 25130357.723411527,
+        "max_component_condition_nonzero": 487863842.0862061,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 2.5130357723411526e-05
+      },
+      "sector_sum": {
+        "sum_term_norms": 1.4050844149511646e-31,
+        "total_norm": 1.2865522460372673e-32,
+        "norm_condition": 10.921316404203486,
+        "max_component_condition_nonzero": 4229.550404741377,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.0921316404203485e-11
+      },
+      "scalar_parts": {
+        "sum_term_norms": 8.679378726956736e-37,
+        "total_norm": 8.678738708468061e-37,
+        "norm_condition": 1.0000737455649,
+        "max_component_condition_nonzero": 1.0000737520463283,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.0000737455649e-12
+      },
+      "tensor_parts": {
+        "sum_term_norms": 3.233151134422004e-25,
+        "total_norm": 7.215937742443655e-32,
+        "norm_condition": 4480569.608305832,
+        "max_component_condition_nonzero": 30293159.08570304,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 4.480569608305833e-06
+      },
+      "seconds": 3.1444307829951867
+    },
+    {
+      "a": 0.8771530275949366,
+      "ell": 18,
+      "m": 1,
+      "r": 3.0,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 8.858501050175665e-32,
+        "s0_kappa": 2.7557351060714508e-27,
+        "s0_compact_chi": 6.720100717898375e-23,
+        "s1": 1.480313850920268e-17,
+        "s2_AAB": 5.1894011034309936e-15,
+        "s2_DKW_vector": 2.4803994052672438e-11,
+        "s2_chi": 2.4803935334684043e-11
+      },
+      "all_terms": {
+        "sum_term_norms": 4.961313359166562e-11,
+        "total_norm": 3.2479836788097726e-21,
+        "norm_condition": 15275056311.196247,
+        "max_component_condition_nonzero": 38591220278.74546,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 0.015275056311196246
+      },
+      "sector_sum": {
+        "sum_term_norms": 2.960623028401434e-17,
+        "total_norm": 3.2479837767595916e-21,
+        "norm_condition": 9115.264212788501,
+        "max_component_condition_nonzero": 173063.67056881328,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 9.115264212788501e-09
+      },
+      "scalar_parts": {
+        "sum_term_norms": 6.720376300267484e-23,
+        "total_norm": 6.719880733325157e-23,
+        "norm_condition": 1.0000737463895557,
+        "max_component_condition_nonzero": 1.0000739470461324,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.0000737463895557e-12
+      },
+      "tensor_parts": {
+        "sum_term_norms": 4.9613118788459914e-11,
+        "total_norm": 1.4803024576004328e-17,
+        "norm_condition": 3351552.821771483,
+        "max_component_condition_nonzero": 733434943.763539,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 3.3515528217714828e-06
+      },
+      "seconds": 0.2063857530010864
+    },
+    {
+      "a": 0.8771530275949366,
+      "ell": 18,
+      "m": 1,
+      "r": 19.9995,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 6.8020011536275945e-15,
+        "s0_kappa": 3.168606811197375e-11,
+        "s0_compact_chi": 7.726954274768222e-07,
+        "s1": 1.0862035907468484,
+        "s2_AAB": 2517.308411772923,
+        "s2_DKW_vector": 1886107.846059979,
+        "s2_chi": 1886098.8721520316
+      },
+      "all_terms": {
+        "sum_term_norms": 3774725.1128281467,
+        "total_norm": 0.0014741689506433363,
+        "norm_condition": 2560578359.2042375,
+        "max_component_condition_nonzero": 264345211018.84518,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 0.0025605783592042375
+      },
+      "sector_sum": {
+        "sum_term_norms": 2.1723875423740724,
+        "total_norm": 0.0014741689507652806,
+        "norm_condition": 1473.6353938578939,
+        "max_component_condition_nonzero": 1550148.0054273757,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.4736353938578939e-09
+      },
+      "scalar_parts": {
+        "sum_term_norms": 7.727271203469353e-07,
+        "total_norm": 7.726701331640237e-07,
+        "norm_condition": 1.0000737535727935,
+        "max_component_condition_nonzero": 1.0000738799783397,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.0000737535727935e-12
+      },
+      "tensor_parts": {
+        "sum_term_norms": 3774724.0266237836,
+        "total_norm": 1.086183178957091,
+        "norm_condition": 3475218.636922844,
+        "max_component_condition_nonzero": 9637037054.704699,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 3.475218636922844e-06
+      },
+      "seconds": 0.21394725400023162
+    },
+    {
+      "a": 0.8771530275949366,
+      "ell": 18,
+      "m": 1,
+      "r": 20.0005,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 7.376141048152262e-15,
+        "s0_kappa": 3.6978678965321394e-11,
+        "s0_compact_chi": 5.565782057889531e-07,
+        "s1": 0.982438516380375,
+        "s2_AAB": 2399.5788841546487,
+        "s2_DKW_vector": 1657844.0173624686,
+        "s2_chi": 1657849.656022061
+      },
+      "all_terms": {
+        "sum_term_norms": 3318094.234707757,
+        "total_norm": 0.001452628393934747,
+        "norm_condition": 2284200314.796275,
+        "max_component_condition_nonzero": 1527988097946.2786,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 0.002284200314796275
+      },
+      "sector_sum": {
+        "sum_term_norms": 1.9649089551546757,
+        "total_norm": 0.0014526283942252584,
+        "norm_condition": 1352.6576810462498,
+        "max_component_condition_nonzero": 16690314.647669867,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.3526576810462496e-09
+      },
+      "scalar_parts": {
+        "sum_term_norms": 5.566151918440595e-07,
+        "total_norm": 5.565442537934577e-07,
+        "norm_condition": 1.000127461653082,
+        "max_component_condition_nonzero": 1.00013134133207,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.000127461653082e-12
+      },
+      "tensor_parts": {
+        "sum_term_norms": 3318093.252268684,
+        "total_norm": 0.9824698822300467,
+        "norm_condition": 3377297.678313713,
+        "max_component_condition_nonzero": 10917190620.472958,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 3.377297678313713e-06
+      },
+      "seconds": 0.24083998800779227
+    },
+    {
+      "a": 0.8771530275949366,
+      "ell": 18,
+      "m": 1,
+      "r": 40.0,
+      "theta": 1.1,
+      "order": 6,
+      "term_norms": {
+        "s0_CKY": 4.2892243229939765e-21,
+        "s0_kappa": 1.0786392605641673e-17,
+        "s0_compact_chi": 1.6234789217187642e-13,
+        "s1": 5.729528189322426e-07,
+        "s2_AAB": 0.0027984565593307136,
+        "s2_DKW_vector": 0.967135107932532,
+        "s2_chi": 0.9671356899903772
+      },
+      "all_terms": {
+        "sum_term_norms": 1.9370698274352214,
+        "total_norm": 1.6835140023681868e-09,
+        "norm_condition": 1150611058.0074532,
+        "max_component_condition_nonzero": 554195815110.1023,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 0.001150611058007453
+      },
+      "sector_sum": {
+        "sum_term_norms": 1.145946442729854e-06,
+        "total_norm": 1.6835140023641942e-09,
+        "norm_condition": 680.6872061180229,
+        "max_component_condition_nonzero": 51596.17461307767,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 6.806872061180229e-10
+      },
+      "scalar_parts": {
+        "sum_term_norms": 1.6235868285370638e-13,
+        "total_norm": 1.6233798864250315e-13,
+        "norm_condition": 1.0001274760847803,
+        "max_component_condition_nonzero": 1.0001298057029815,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 1.0001274760847802e-12
+      },
+      "tensor_parts": {
+        "sum_term_norms": 1.9370692544822399,
+        "total_norm": 5.729934614596228e-07,
+        "norm_condition": 3380613.1915498995,
+        "max_component_condition_nonzero": 8583973310.939459,
+        "excluded_small_components": 0,
+        "estimated_relative_norm_error_if_each_term_has_1e_minus12_relative_error": 3.3806131915499e-06
+      },
+      "seconds": 0.2523320830077864
+    }
+  ],
+  "limitations": [
+    "Finite local sample, individual ell=1,2,18; not a summed ell<=18 metric or final flux.",
+    "Term norm condition numbers do not bound internal cancellation inside each Taylor differential operator.",
+    "Componentwise ratios exclude components smaller than 1e-6 of total Frobenius norm.",
+    "The error estimate assumes independent 1e-12 relative errors of already reconstructed terms, not unprocessed radial data."
+  ],
+  "source_sha256": {
+    "src/report_reconstruction_conditioning_audit.py": "5c61afc12f27851932373ac260d33d3fd88ad14c2aab2ca5e476f987278ae545",
+    "src/lorenz_metric.py": "e356a13729114412ffba238807ca1b4b612fc64c78c4a920a101e05baf02e91b",
+    "src/lorenz_jet.py": "8a68ebf0c27ba0a444f07851a6a5eb03623ff328e920a91f3824c332c635af65",
+    "src/lorenz_kappa.py": "6c5b5d8eccc119dc7aaf6ac7ac04d1aca6be52ea5bb03d682a3f891f52461d92"
+  },
+  "radial_input_sensitivity": [
+    {
+      "a": 0.0,
+      "ell": 1,
+      "r": 19.9995,
+      "trial": [
+        {
+          "seed": 11,
+          "epsilon": 1e-12,
+          "relative_metric_norm_change": 2.040655187330457e-11,
+          "amplification": 20.40655187330457
+        },
+        {
+          "seed": 29,
+          "epsilon": 1e-12,
+          "relative_metric_norm_change": 2.9354497212109406e-11,
+          "amplification": 29.354497212109408
+        },
+        {
+          "seed": 53,
+          "epsilon": 1e-12,
+          "relative_metric_norm_change": 3.008042836377871e-11,
+          "amplification": 30.080428363778708
+        }
+      ],
+      "partition_vs_production_relative_norm_change": 1.2528314052450894e-15,
+      "extended_Jet_relative_metric_norm_change": 1.4236001540727243e-12
+    },
+    {
+      "a": 0.0,
+      "ell": 1,
+      "r": 20.0005,
+      "trial": [
+        {
+          "seed": 11,
+          "epsilon": 1e-12,
+          "relative_metric_norm_change": 2.487769256261293e-10,
+          "amplification": 248.7769256261293
+        },
+        {
+          "seed": 29,
+          "epsilon": 1e-12,
+          "relative_metric_norm_change": 9.66313492221373e-11,
+          "amplification": 96.6313492221373
+        },
+        {
+          "seed": 53,
+          "epsilon": 1e-12,
+          "relative_metric_norm_change": 1.5650564367201196e-10,
+          "amplification": 156.50564367201196
+        }
+      ],
+      "partition_vs_production_relative_norm_change": 2.390143320670047e-14,
+      "extended_Jet_relative_metric_norm_change": 2.7182378478059526e-12
+    },
+    {
+      "a": 0.0,
+      "ell": 18,
+      "r": 19.9995,
+      "trial": [
+        {
+          "seed": 11,
+          "epsilon": 1e-12,
+          "relative_metric_norm_change": 0.2609460926012939,
+          "amplification": 260946092601.2939
+        },
+        {
+          "seed": 29,
+          "epsilon": 1e-12,
+          "relative_metric_norm_change": 0.3534114790501792,
+          "amplification": 353411479050.1792
+        },
+        {
+          "seed": 53,
+          "epsilon": 1e-12,
+          "relative_metric_norm_change": 0.2818602883422146,
+          "amplification": 281860288342.2146
+        }
+      ],
+      "partition_vs_production_relative_norm_change": 1.210744288675395e-07,
+      "extended_Jet_relative_metric_norm_change": 8.7370187831817e-05
+    },
+    {
+      "a": 0.0,
+      "ell": 18,
+      "r": 20.0005,
+      "trial": [
+        {
+          "seed": 11,
+          "epsilon": 1e-12,
+          "relative_metric_norm_change": 0.2444745798886413,
+          "amplification": 244474579888.6413
+        },
+        {
+          "seed": 29,
+          "epsilon": 1e-12,
+          "relative_metric_norm_change": 0.3966628233446702,
+          "amplification": 396662823344.67017
+        },
+        {
+          "seed": 53,
+          "epsilon": 1e-12,
+          "relative_metric_norm_change": 0.29985692344969456,
+          "amplification": 299856923449.6946
+        }
+      ],
+      "partition_vs_production_relative_norm_change": 1.7387248604279258e-07,
+      "extended_Jet_relative_metric_norm_change": 0.00013146004672874082
+    },
+    {
+      "a": 0.8771530275949366,
+      "ell": 1,
+      "r": 19.9995,
+      "trial": [
+        {
+          "seed": 11,
+          "epsilon": 1e-12,
+          "relative_metric_norm_change": 2.2908085224558267e-11,
+          "amplification": 22.908085224558267
+        },
+        {
+          "seed": 29,
+          "epsilon": 1e-12,
+          "relative_metric_norm_change": 3.3360864524060894e-11,
+          "amplification": 33.360864524060894
+        },
+        {
+          "seed": 53,
+          "epsilon": 1e-12,
+          "relative_metric_norm_change": 3.218993769545393e-11,
+          "amplification": 32.189937695453935
+        }
+      ],
+      "partition_vs_production_relative_norm_change": 1.9477627202669151e-13,
+      "extended_Jet_relative_metric_norm_change": 1.5159262900735922e-12
+    },
+    {
+      "a": 0.8771530275949366,
+      "ell": 1,
+      "r": 20.0005,
+      "trial": [
+        {
+          "seed": 11,
+          "epsilon": 1e-12,
+          "relative_metric_norm_change": 2.459199785176028e-10,
+          "amplification": 245.91997851760277
+        },
+        {
+          "seed": 29,
+          "epsilon": 1e-12,
+          "relative_metric_norm_change": 9.580439277790671e-11,
+          "amplification": 95.80439277790671
+        },
+        {
+          "seed": 53,
+          "epsilon": 1e-12,
+          "relative_metric_norm_change": 1.5660762296076966e-10,
+          "amplification": 156.60762296076967
+        }
+      ],
+      "partition_vs_production_relative_norm_change": 1.908976861248741e-12,
+      "extended_Jet_relative_metric_norm_change": 6.654999977140125e-12
+    },
+    {
+      "a": 0.8771530275949366,
+      "ell": 18,
+      "r": 19.9995,
+      "trial": [
+        {
+          "seed": 11,
+          "epsilon": 1e-12,
+          "relative_metric_norm_change": 0.2675820240205654,
+          "amplification": 267582024020.56543
+        },
+        {
+          "seed": 29,
+          "epsilon": 1e-12,
+          "relative_metric_norm_change": 0.3630768924268758,
+          "amplification": 363076892426.8758
+        },
+        {
+          "seed": 53,
+          "epsilon": 1e-12,
+          "relative_metric_norm_change": 0.2910349136168502,
+          "amplification": 291034913616.8502
+        }
+      ],
+      "partition_vs_production_relative_norm_change": 0.0042115601423851345,
+      "extended_Jet_relative_metric_norm_change": 0.002642294959246973
+    },
+    {
+      "a": 0.8771530275949366,
+      "ell": 18,
+      "r": 20.0005,
+      "trial": [
+        {
+          "seed": 11,
+          "epsilon": 1e-12,
+          "relative_metric_norm_change": 0.24628993302629154,
+          "amplification": 246289933026.29153
+        },
+        {
+          "seed": 29,
+          "epsilon": 1e-12,
+          "relative_metric_norm_change": 0.4010681858326253,
+          "amplification": 401068185832.6253
+        },
+        {
+          "seed": 53,
+          "epsilon": 1e-12,
+          "relative_metric_norm_change": 0.2977032103217393,
+          "amplification": 297703210321.7393
+        }
+      ],
+      "partition_vs_production_relative_norm_change": 0.00350581275796543,
+      "extended_Jet_relative_metric_norm_change": 0.0021134482560028088
+    }
+  ],
+  "radial_input_sensitivity_limit": "Perturbs value and first derivative independently by <=sqrt(2)*1e-12 inside homogeneous_field_jet, holding sourced amplitudes, trace/kappa radial data, and angular inputs fixed. This probes conditioning, not the actual error of a valid radial solve.",
+  "extended_Jet_limit": "Changes only Taylor coefficient arithmetic to complex long double; pybhpt radial/angular inputs and mass-variation data remain double."
+}

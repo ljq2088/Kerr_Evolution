@@ -1,0 +1,61 @@
+{
+  "status": "runtime_AUTO_equals_HBL_same_default_tolerance",
+  "radii": [
+    1.4812109600800842,
+    2.0,
+    10.0,
+    20.0,
+    40.0,
+    120.0,
+    316.0
+  ],
+  "rows": [
+    {
+      "spin": 0,
+      "ell": 1,
+      "m": 1,
+      "all_values_and_derivatives_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "spin": -1,
+      "ell": 1,
+      "m": 1,
+      "all_values_and_derivatives_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "spin": 1,
+      "ell": 1,
+      "m": 1,
+      "all_values_and_derivatives_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "spin": -2,
+      "ell": 2,
+      "m": 1,
+      "all_values_and_derivatives_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "spin": 2,
+      "ell": 2,
+      "m": 1,
+      "all_values_and_derivatives_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "spin": -2,
+      "ell": 6,
+      "m": 6,
+      "all_values_and_derivatives_bitwise_identical": true,
+      "max_absolute_difference": 0.0
+    }
+  ],
+  "nonfinite_json_encoding": "null denotes a nonfinite or undefined numerical value; inspect finite/status flags",
+  "serialization_only_update": {
+    "script_sha256": "fd5a719c0119b53d014efd58aea2e6d4beff0436f539e2ea930ccc66f08d39fa",
+    "note": "Converted non-standard NaN/Infinity tokens to null; finite numerical values and original execution hash preserved"
+  }
+}

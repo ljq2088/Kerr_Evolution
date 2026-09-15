@@ -1,0 +1,30 @@
+{
+  "status": "completed_dominant_dipole_backend_comparison_not_full_discrepancy_resolution",
+  "a": 0.8771530275949366,
+  "rp": 20.0,
+  "metric_ellmax": 1,
+  "metric_m": -1,
+  "scalar_ell": 0,
+  "scalar_m": 0,
+  "radial_nodes": 88,
+  "angular_nodes": 18,
+  "horizon_flux_auto": -6.805625878766075e-05,
+  "horizon_flux_teuk": -6.805625878772487e-05,
+  "horizon_flux_relative_change": 9.421352586969078e-13,
+  "z_h_relative_change": 4.728264660986522e-13,
+  "source_weighted_relative_l2": 6.0902763497572e-13,
+  "source_max_relative_change": 3.9016504880707486e-11,
+  "limitations": [
+    "Finite 88x18 grid and specified metric ell cutoff; not a new full L18 total",
+    "Trace/kappa resolvent and massive scalar Green solver unchanged",
+    "Weyl source interface accepts method but does not expose radial ODE rtol",
+    "HBL and TEUK may share boundary expansion and normalization conventions; this is not an independent physics validation",
+    "Both use the same Lorenz reconstruction and trace/kappa resolvent",
+    "Finite-grid L1 result cannot replace the full L18 scalar multipole sum"
+  ],
+  "evidence": [
+    "metric_backend_response_L1_s2AUTO_gAUTO_rtolNone.json",
+    "metric_backend_response_L1_s2AUTO_gTEUK_rtolNone.json",
+    "metric_backend_response_L1_s2AUTO_gMST_rtolNone.json"
+  ]
+}
