@@ -1,0 +1,4 @@
+background,alpha,cloud_n,cloud_ell,cloud_m,scalar_m,metric_m,a_over_M,M_omega_cloud_real,M_omega_cloud_imag,computed_rcrit_over_M,paper_printed_rcrit_over_M,computed_minus_printed_over_M,paper_last_decimal_half_unit_M,within_paper_rounding_bin,method
+Schwarzschild,0.3,2,1,1,2,1,0.0,0.29619234639899916,-9.45565166959826e-06,41.010498225545916,41.01,0.0004982255459182738,0.005,True,Independent two-sided shooting; real part of complex frequency frozen
+Kerr,0.3,2,1,1,2,1,0.8771530275949366,0.29629324847975713,0.0,41.66084841792264,41.66,0.0008484179226400101,0.005,True,Independent two-sided shooting of the synchronized |211> cloud
+Newtonian,0.3,2,1,1,2,1,0.0,0.29662499999999997,0.0,44.44444444444429,44.44,0.00444444444428882,0.005,True,Leading hydrogenic n=2 energy; not a relativistic eigenfrequency

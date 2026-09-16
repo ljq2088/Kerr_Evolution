@@ -1,0 +1,62 @@
+{
+  "status": "local_physical_normalization_companion_not_original_figure4_replication",
+  "q": 1e-06,
+  "eta": 0.1,
+  "alpha": 0.3,
+  "epsilon_squared": 7.289999999999998e-05,
+  "scalar_factor": 1e-13,
+  "GW_factor": 1e-12,
+  "scalar_cutoffs": {
+    "infinity": 6,
+    "horizon": 5
+  },
+  "GW_ellmax": 12,
+  "GW_m_signs": "both, no second doubling",
+  "rows": [
+    {
+      "rp_over_M": 10,
+      "infinity": {
+        "scalar_effective_orbital_signed": 7.332063442091087e-19,
+        "GW_signed": 5.0709873524357536e-17,
+        "scalar_over_GW": 0.014458847818993805
+      },
+      "horizon": {
+        "scalar_effective_orbital_signed": -6.357677060534488e-18,
+        "GW_signed": -1.1514431063142317e-19,
+        "scalar_over_GW": 55.21486060119294
+      }
+    },
+    {
+      "rp_over_M": 20,
+      "infinity": {
+        "scalar_effective_orbital_signed": 1.9210336966561033e-18,
+        "GW_signed": 1.758906004524407e-18,
+        "scalar_over_GW": 1.0921753019858125
+      },
+      "horizon": {
+        "scalar_effective_orbital_signed": -6.866732369741026e-18,
+        "GW_signed": -7.620383587329189e-22,
+        "scalar_over_GW": 9011.006192862393
+      }
+    },
+    {
+      "rp_over_M": 30,
+      "infinity": {
+        "scalar_effective_orbital_signed": 2.7420088677119204e-18,
+        "GW_signed": 2.405919827072863e-19,
+        "scalar_over_GW": 11.396925354108564
+      },
+      "horizon": {
+        "scalar_effective_orbital_signed": -1.445175580555133e-18,
+        "GW_signed": -3.7993765991886067e-23,
+        "scalar_over_GW": 38037.1764374125
+      }
+    }
+  ],
+  "limitations": [
+    "Scalar reference discrepancies and numerical limits remain.",
+    "Paper caption epsilon^2=0.1 alpha^3 differs from eta=.1; our parameters are explicit.",
+    "Earlier cross-figure audit found old scalar scaling and single +22 GW fingerprints; not corrected here by empirical factors.",
+    "No inspiral or floating-orbit conclusion inferred from these stationary finite sums."
+  ]
+}

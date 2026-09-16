@@ -1,0 +1,63 @@
+{
+  "status": "all_radius_cache_ready",
+  "radius": 15.0,
+  "worker_count": 4,
+  "all_radii": 96,
+  "tail_radii": 48,
+  "driver_sha256": "1b720e7ff13c5d81a836d26e795d789d81f05887215d268933cef5d91ae41ff6",
+  "audit": {
+    "workers": 4,
+    "cached_radii": 0,
+    "reconstructed_radii": 48,
+    "elapsed_seconds": 837.0719307639993,
+    "cache_key": "25193bc94656d65042c06de7",
+    "source_hash": "4b3aa366551ace4902f9d9c3669859363645ec57a14cd8650b1ddbecdd39b863"
+  },
+  "copied": 21,
+  "already_present": 27,
+  "metadata": {
+    "libraries": {
+      "mpmath": "1.3.0",
+      "numpy": "1.26.4",
+      "pybhpt": "1.0.0",
+      "scipy": "1.14.1"
+    },
+    "metric": {
+      "a": 0.8771530275949366,
+      "coordinates": "Boyer-Lindquist",
+      "ellmax": 18,
+      "field": "covariant h_ab; particle mass stripped",
+      "kappa_mass_squared_step": 2.8754757655139126e-06,
+      "m_g": 1,
+      "maxwell_chiralities": "both; full complex compact current",
+      "nonstatic_dipole_included": true,
+      "orbital_radius": 15.0,
+      "static_and_low_modes_included": false,
+      "status": "development_not_production_validated"
+    },
+    "source_hash": "4b3aa366551ace4902f9d9c3669859363645ec57a14cd8650b1ddbecdd39b863",
+    "theta": [
+      3.011617917170116,
+      2.843246575380561,
+      2.6738813390569645,
+      2.504292147719174,
+      2.3346187605109736,
+      2.16490554314581,
+      1.995171172533151,
+      1.8254251588717705,
+      1.6556732131971401,
+      1.485919440392653,
+      1.3161674947180226,
+      1.1464214810566422,
+      0.9766871104439833,
+      0.8069738930788195,
+      0.6373005058706191,
+      0.4677113145328287,
+      0.29834607820923226,
+      0.12997473641967722
+    ],
+    "version": 1
+  },
+  "missing_primary_radii": [],
+  "standard_cache": "outputs/metric_cache/25193bc94656d65042c06de7"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "partial_sum_not_total_accuracy",
+  "reference_magnitudes_per_q2_eta": {
+    "li_horizon": 9.249498275296206e-05,
+    "li_infinity": 1.3328880696418779e-05,
+    "dyson_horizon": 9.681557947626305e-05,
+    "dyson_infinity": 1.2858078808078395e-05
+  },
+  "H_partial_over_later_Dyson_minus_one": -0.0025275084413476367,
+  "H_partial_over_Li_minus_one": 0.04406611480545686,
+  "limitation": "Ratios compare a partial local sum to reference totals; they are NOT errors of a computed total."
+}

@@ -1,0 +1,345 @@
+{
+  "status": "complete_finite_mode_range_not_full_convergence",
+  "normalization": "per q^2 eta",
+  "modes": [
+    {
+      "ell": 2,
+      "m": 2,
+      "file": "forced_mode_nr8_nt18_L18_mg1_sl2_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "computed": 1.341204879161883e-06,
+      "digitized": 1.2777284288186083e-06,
+      "ratio": 1.0496791406621244
+    },
+    {
+      "ell": 3,
+      "m": 3,
+      "file": "forced_mode_nr8_nt18_L18_inner0.0005_outer320_log_h32.json",
+      "computed": 1.3155145535414752e-05,
+      "digitized": 1.2517190009296099e-05,
+      "ratio": 1.0509663531227749
+    },
+    {
+      "ell": 4,
+      "m": 2,
+      "file": "forced_mode_nr8_nt18_L18_mg1_sl4_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "computed": 4.8344803848697864e-08,
+      "digitized": 4.594494783286693e-08,
+      "ratio": 1.052233295041728
+    },
+    {
+      "ell": 4,
+      "m": 4,
+      "file": "forced_mode_nr8_nt18_L18_mg3_sl4_inner0.0005_outer320_log_h32.json",
+      "computed": 3.5204993195473868e-06,
+      "digitized": 3.3547841868696594e-06,
+      "ratio": 1.049396659649918
+    },
+    {
+      "ell": 5,
+      "m": 3,
+      "file": "forced_mode_nr8_nt18_L18_mg2_sl5_inner0.0005_outer320_log_h32.json",
+      "computed": 2.4077427713301184e-08,
+      "digitized": 2.2915713437700764e-08,
+      "ratio": 1.0506950952567409
+    },
+    {
+      "ell": 5,
+      "m": 5,
+      "file": "forced_mode_nr8_nt18_L18_mg4_sl5_inner0.0005_outer320_log_h32.json",
+      "computed": 8.982983810518522e-07,
+      "digitized": 8.571090731208459e-07,
+      "ratio": 1.0480560867020468
+    },
+    {
+      "ell": 6,
+      "m": 2,
+      "file": "forced_mode_nr8_nt18_L18_mg1_sl6_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "computed": 6.549974350006465e-12,
+      "digitized": 6.2232911628054575e-12,
+      "ratio": 1.0524936369928317
+    },
+    {
+      "ell": 6,
+      "m": 4,
+      "file": "forced_mode_nr8_nt18_L18_mg3_sl6_inner0.0005_outer320_log_h32.json",
+      "computed": 7.20528629633175e-09,
+      "digitized": 6.864491320153966e-09,
+      "ratio": 1.0496460641121679
+    },
+    {
+      "ell": 6,
+      "m": 6,
+      "file": "forced_mode_nr8_nt18_L18_mg5_sl6_inner0.0005_outer320_log_h32.json",
+      "computed": 2.1555478355247862e-07,
+      "digitized": 2.0587954296004627e-07,
+      "ratio": 1.0469946671404353
+    },
+    {
+      "ell": 7,
+      "m": 3,
+      "file": "forced_mode_nr8_nt18_L18_mg2_sl7_inner0.0005_outer320_log_h32.json",
+      "computed": 1.1068887450540066e-11,
+      "digitized": 1.0532649109435135e-11,
+      "ratio": 1.0509120104100467
+    },
+    {
+      "ell": 7,
+      "m": 5,
+      "file": "forced_mode_nr8_nt18_L18_mg4_sl7_inner0.0005_outer320_log_h32.json",
+      "computed": 1.7913687261205092e-09,
+      "digitized": 1.708265096375114e-09,
+      "ratio": 1.0486479703423892
+    },
+    {
+      "ell": 7,
+      "m": 7,
+      "file": "forced_mode_nr8_nt18_L18_mg6_sl7_inner0.0005_outer320_log_h32.json",
+      "computed": 4.8569828469717736e-08,
+      "digitized": 4.644113961680458e-08,
+      "ratio": 1.0458362751318637
+    },
+    {
+      "ell": 8,
+      "m": 2,
+      "file": "forced_mode_nr8_nt18_L18_mg1_sl8_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "computed": 2.4825498837235456e-16,
+      "digitized": 2.358491918681448e-16,
+      "ratio": 1.0526005470103346
+    },
+    {
+      "ell": 8,
+      "m": 4,
+      "file": "forced_mode_nr8_nt18_L18_mg3_sl8_inner0.0005_outer320_log_h32.json",
+      "computed": 5.1235938029224826e-12,
+      "digitized": 4.879332227975806e-12,
+      "ratio": 1.0500604516220877
+    },
+    {
+      "ell": 8,
+      "m": 6,
+      "file": "forced_mode_nr8_nt18_L18_mg5_sl8_inner0.0005_outer320_log_h32.json",
+      "computed": 3.9868067000640646e-10,
+      "digitized": 3.804666063126787e-10,
+      "ratio": 1.0478729628080918
+    },
+    {
+      "ell": 8,
+      "m": 8,
+      "file": "forced_mode_nr8_nt18_L18_mg7_sl8_inner0.0005_outer320_log_h32.json",
+      "computed": 1.0308732590403061e-08,
+      "digitized": 9.866903815251853e-09,
+      "ratio": 1.044778867152657
+    },
+    {
+      "ell": 9,
+      "m": 3,
+      "file": "forced_mode_nr8_nt18_L18_mg2_sl9_inner0.0005_outer320_log_h32.json",
+      "computed": 1.7597771725900695e-15,
+      "digitized": 1.6903784794288288e-15,
+      "ratio": 1.041055121090213
+    },
+    {
+      "ell": 9,
+      "m": 5,
+      "file": "forced_mode_nr8_nt18_L18_mg4_sl9_inner0.0005_outer320_log_h32.json",
+      "computed": 1.5432451732671743e-12,
+      "digitized": 1.4835332176698066e-12,
+      "ratio": 1.0402498271600265
+    },
+    {
+      "ell": 9,
+      "m": 7,
+      "file": "forced_mode_nr8_nt18_L18_mg6_sl9_inner0.0005_outer320_log_h32.json",
+      "computed": 8.182943176804197e-11,
+      "digitized": 7.880049406984535e-11,
+      "ratio": 1.0384380546587932
+    },
+    {
+      "ell": 9,
+      "m": 9,
+      "file": "forced_mode_nr8_nt18_L18_mg8_sl9_inner0.0005_outer320_log_h32.json",
+      "computed": 2.069667587582929e-09,
+      "digitized": 1.997435759828428e-09,
+      "ratio": 1.0361622782605562
+    },
+    {
+      "ell": 10,
+      "m": 2,
+      "file": "forced_mode_nr8_nt18_L18_mg1_sl10_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "computed": 3.702198155384351e-21,
+      "digitized": null,
+      "ratio": null
+    },
+    {
+      "ell": 10,
+      "m": 4,
+      "file": "forced_mode_nr8_nt18_L18_mg3_sl10_inner0.0005_outer320_log_h32.json",
+      "computed": 1.448079029566845e-15,
+      "digitized": 1.3994508465868232e-15,
+      "ratio": 1.0347480464202248
+    },
+    {
+      "ell": 10,
+      "m": 6,
+      "file": "forced_mode_nr8_nt18_L18_mg5_sl10_inner0.0005_outer320_log_h32.json",
+      "computed": 3.737974549705777e-13,
+      "digitized": 3.6033988702654406e-13,
+      "ratio": 1.0373468728513042
+    },
+    {
+      "ell": 10,
+      "m": 8,
+      "file": "forced_mode_nr8_nt18_L18_mg7_sl10_inner0.0005_outer320_log_h32.json",
+      "computed": 1.5735324269453662e-11,
+      "digitized": 1.518272043925862e-11,
+      "ratio": 1.0363968916114763
+    },
+    {
+      "ell": 10,
+      "m": 10,
+      "file": "forced_mode_nr8_nt18_L18_mg9_sl10_inner0.0005_outer320_log_h32.json",
+      "computed": 3.9487273444890734e-10,
+      "digitized": 3.818211294282396e-10,
+      "ratio": 1.0341825111674987
+    },
+    {
+      "ell": 11,
+      "m": 3,
+      "file": "forced_mode_nr8_nt18_L18_mg2_sl11_inner0.0005_outer320_log_h32.json",
+      "computed": 1.2177729252652086e-19,
+      "digitized": null,
+      "ratio": null
+    },
+    {
+      "ell": 11,
+      "m": 5,
+      "file": "forced_mode_nr8_nt18_L18_mg4_sl11_inner0.0005_outer320_log_h32.json",
+      "computed": 5.892218936247729e-16,
+      "digitized": 5.702790406333915e-16,
+      "ratio": 1.033216814299088
+    },
+    {
+      "ell": 11,
+      "m": 7,
+      "file": "forced_mode_nr8_nt18_L18_mg6_sl11_inner0.0005_outer320_log_h32.json",
+      "computed": 7.904239547798779e-14,
+      "digitized": 7.632269353597989e-14,
+      "ratio": 1.0356342499983413
+    },
+    {
+      "ell": 11,
+      "m": 9,
+      "file": "forced_mode_nr8_nt18_L18_mg8_sl11_inner0.0005_outer320_log_h32.json",
+      "computed": 2.8633913517229202e-12,
+      "digitized": 2.7666231352696076e-12,
+      "ratio": 1.034977014115037
+    },
+    {
+      "ell": 11,
+      "m": 11,
+      "file": "forced_mode_nr8_nt18_L18_mg10_sl11_inner0.0005_outer320_log_h32.json",
+      "computed": 7.189778965312985e-11,
+      "digitized": 6.959542278511802e-11,
+      "ratio": 1.0330821593701727
+    },
+    {
+      "ell": 12,
+      "m": 2,
+      "file": "forced_mode_nr8_nt18_L18_mg1_sl12_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+      "computed": 2.622040946345618e-26,
+      "digitized": null,
+      "ratio": null
+    },
+    {
+      "ell": 12,
+      "m": 4,
+      "file": "forced_mode_nr8_nt18_L18_mg3_sl12_inner0.0005_outer320_log_h32.json",
+      "computed": 1.9290204840300767e-19,
+      "digitized": null,
+      "ratio": null
+    },
+    {
+      "ell": 12,
+      "m": 6,
+      "file": "forced_mode_nr8_nt18_L18_mg5_sl12_inner0.0005_outer320_log_h32.json",
+      "computed": 1.6965420409740824e-16,
+      "digitized": 1.2802158134573393e-16,
+      "ratio": 1.3252000351350264
+    },
+    {
+      "ell": 12,
+      "m": 8,
+      "file": "forced_mode_nr8_nt18_L18_mg7_sl12_inner0.0005_outer320_log_h32.json",
+      "computed": 1.5189728984473025e-14,
+      "digitized": 1.2034944682128945e-14,
+      "ratio": 1.2621353388544208
+    },
+    {
+      "ell": 12,
+      "m": 10,
+      "file": "forced_mode_nr8_nt18_L18_mg9_sl12_inner0.0005_outer320_log_h32.json",
+      "computed": 4.966088741511509e-13,
+      "digitized": 4.2351006917415707e-13,
+      "ratio": 1.1726022833873495
+    },
+    {
+      "ell": 12,
+      "m": 12,
+      "file": "forced_mode_nr8_nt18_L18_mg11_sl12_inner0.0005_outer320_log_h32.json",
+      "computed": 1.2543675923565872e-11,
+      "digitized": 1.1636738340061715e-11,
+      "ratio": 1.0779374389111982
+    }
+  ],
+  "cumulative": [
+    {
+      "ellmax": 2,
+      "finite_infinity_flux_per_q2_eta": 1.341204879161883e-06
+    },
+    {
+      "ellmax": 3,
+      "finite_infinity_flux_per_q2_eta": 1.4496350414576636e-05
+    },
+    {
+      "ellmax": 4,
+      "finite_infinity_flux_per_q2_eta": 1.806519453797272e-05
+    },
+    {
+      "ellmax": 5,
+      "finite_infinity_flux_per_q2_eta": 1.8987570346737872e-05
+    },
+    {
+      "ellmax": 6,
+      "finite_infinity_flux_per_q2_eta": 1.9210336966561032e-05
+    },
+    {
+      "ellmax": 7,
+      "finite_infinity_flux_per_q2_eta": 1.9260709232644322e-05
+    },
+    {
+      "ellmax": 8,
+      "finite_infinity_flux_per_q2_eta": 1.927142176974679e-05
+    },
+    {
+      "ellmax": 9,
+      "finite_infinity_flux_per_q2_eta": 1.927357481177109e-05
+    },
+    {
+      "ellmax": 10,
+      "finite_infinity_flux_per_q2_eta": 1.9273985795075348e-05
+    },
+    {
+      "ellmax": 11,
+      "finite_infinity_flux_per_q2_eta": 1.927406063588809e-05
+    },
+    {
+      "ellmax": 12,
+      "finite_infinity_flux_per_q2_eta": 1.9274073691532465e-05
+    }
+  ],
+  "limitations": [
+    "Original mode reference has not been replaced by corrected author modal data.",
+    "Agreement of the total with Li does not establish mode-by-mode agreement.",
+    "No arbitrary 5% renormalization applied."
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "normalization": "per q^2 eta, eta=M_c/M; signed local orbital-effective scalar flux",
+  "rows": [
+    {
+      "rp_over_M": 10,
+      "alpha": 0.3,
+      "a_over_M": 0.8771530275949366,
+      "infinity": {
+        "signed_local_Dyson_cutoff_per_q2_eta": 7.332063442091086e-06,
+        "signed_local_ell_le5_per_q2_eta": 7.2678159901636e-06,
+        "dyson_later_magnitude_per_q2_eta": 7.010104073019558e-06,
+        "li_magnitude_per_q2_eta": 7.263213740857369e-06,
+        "vs_Dyson_later_percent": 4.59279014573668,
+        "vs_Li_same_ellmax5_percent": 0.06336381484055575,
+        "computed_channels": 9
+      },
+      "horizon": {
+        "signed_local_Dyson_cutoff_per_q2_eta": -6.357677060534488e-05,
+        "signed_local_ell_le5_per_q2_eta": -6.357677060534488e-05,
+        "dyson_later_magnitude_per_q2_eta": 6.124334749366147e-05,
+        "li_magnitude_per_q2_eta": 6.26219840866162e-05,
+        "vs_Dyson_later_percent": 3.8100842086153275,
+        "vs_Li_same_ellmax5_percent": 1.524682637662922,
+        "computed_channels": 18
+      }
+    },
+    {
+      "rp_over_M": 20,
+      "alpha": 0.3,
+      "a_over_M": 0.8771530275949366,
+      "infinity": {
+        "signed_local_Dyson_cutoff_per_q2_eta": 1.9210336966561032e-05,
+        "signed_local_ell_le5_per_q2_eta": 1.8987570346737872e-05,
+        "dyson_later_magnitude_per_q2_eta": 1.8287031083734548e-05,
+        "li_magnitude_per_q2_eta": 1.8943078476349247e-05,
+        "vs_Dyson_later_percent": 5.048965458628896,
+        "vs_Li_same_ellmax5_percent": 0.2348713829390281,
+        "computed_channels": 9
+      },
+      "horizon": {
+        "signed_local_Dyson_cutoff_per_q2_eta": -6.866732369741025e-05,
+        "signed_local_ell_le5_per_q2_eta": -6.866732369741025e-05,
+        "dyson_later_magnitude_per_q2_eta": 7.018128423756745e-05,
+        "li_magnitude_per_q2_eta": 6.615228308272457e-05,
+        "vs_Dyson_later_percent": -2.1572140729604894,
+        "vs_Li_same_ellmax5_percent": 3.801895410836509,
+        "computed_channels": 18
+      }
+    },
+    {
+      "rp_over_M": 30,
+      "alpha": 0.3,
+      "a_over_M": 0.8771530275949366,
+      "infinity": {
+        "signed_local_Dyson_cutoff_per_q2_eta": 2.7420088677119204e-05,
+        "signed_local_ell_le5_per_q2_eta": 2.706614697500746e-05,
+        "dyson_later_magnitude_per_q2_eta": 2.6056525092154276e-05,
+        "li_magnitude_per_q2_eta": 2.6918828856677258e-05,
+        "vs_Dyson_later_percent": 5.233098351151599,
+        "vs_Li_same_ellmax5_percent": 0.5472679332171548,
+        "computed_channels": 9
+      },
+      "horizon": {
+        "signed_local_Dyson_cutoff_per_q2_eta": -1.445175580555133e-05,
+        "signed_local_ell_le5_per_q2_eta": -1.445175580555133e-05,
+        "dyson_later_magnitude_per_q2_eta": 1.4839139968633363e-05,
+        "li_magnitude_per_q2_eta": 1.4915742665753187e-05,
+        "vs_Dyson_later_percent": -2.610556702752842,
+        "vs_Li_same_ellmax5_percent": -3.1107191281006696,
+        "computed_channels": 18
+      }
+    }
+  ],
+  "status": "basic_agreement_at_sampled_orbits_not_full_radial_scan",
+  "reference_provenance": "li_reference_comparison_20260916.json; original vector PDF, not raw author tables",
+  "limitations": [
+    "Local a/M=.8771530275949366 vs Li .88; cloud imaginary-frequency convention not aligned.",
+    "Finite numerical settings; no certified all-mode numerical error bar.",
+    "Local infinity ell<=6 vs Dyson; ell<=5 vs Li. Horizon ell<=5 for both.",
+    "PDF interpolation has no rigorous error bound."
+  ]
+}

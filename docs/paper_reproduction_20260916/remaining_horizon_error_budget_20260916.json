@@ -1,0 +1,471 @@
+{
+  "status": "controlled_low_ell_radial_test_and_evidence_budget_not_global_error_bound",
+  "parameters": {
+    "alpha": 0.3,
+    "a": 0.8771530275949366,
+    "rp": 20,
+    "scalar_ell": 0,
+    "scalar_m": 0,
+    "metric_m": -1,
+    "inner_source_offset": 0.0005,
+    "outer_source_radius": 320
+  },
+  "new_radial_comparison": {
+    "z_before": [
+      -0.04961005400623556,
+      0.03350534019744728
+    ],
+    "z_after": [
+      -0.049610053315870234,
+      0.03350533998106924
+    ],
+    "delta_z": [
+      6.903653274048516e-10,
+      -2.1637804048513232e-10
+    ],
+    "relative_complex_amplitude_change": 1.2085285930210233e-08,
+    "flux_before": -6.700729581277756e-05,
+    "flux_after": -6.700729426093051e-05,
+    "relative_flux_change": -2.3159374307191172e-08,
+    "changed_parameters": {
+      "radial_order": [
+        8,
+        16
+      ],
+      "horizon_quadrature_order": [
+        32,
+        64
+      ]
+    },
+    "sample_counts": [
+      88,
+      176
+    ],
+    "angular_order": 10,
+    "metric_ellmax": 4,
+    "source_fingerprint": "56fd49b5c0bcf008ff51e306777ba3d36134fd03ac8d9262b60b2cba43c2d5db",
+    "source_hashes_match": true,
+    "current_provenance_validation": "passed",
+    "limitation": "Includes spin0/1 dipole and ell2..4 reconstruction. Not a full L18 new-grid convergence certificate."
+  },
+  "historical_bridge": {
+    "old_unversioned_to_fresh_L4": {
+      "z_before": [
+        -0.049610054008075825,
+        0.033505340194908154
+      ],
+      "z_after": [
+        -0.04961005400623556,
+        0.03350534019744728
+      ],
+      "delta_z": [
+        1.840264052255236e-12,
+        2.5391286295750604e-12
+      ],
+      "relative_complex_amplitude_change": 5.238292122691911e-11,
+      "flux_before": -6.700729581301019e-05,
+      "flux_after": -6.700729581277756e-05,
+      "relative_flux_change": -3.4716673980028645e-12
+    },
+    "fresh_L4_to_pre_guard_fresh_L18": {
+      "z_before": [
+        -0.04961005400623556,
+        0.03350534019744728
+      ],
+      "z_after": [
+        -0.049610141592376984,
+        0.03350537620213901
+      ],
+      "delta_z": [
+        -8.758614142290178e-08,
+        3.6004691728042104e-08
+      ],
+      "relative_complex_amplitude_change": 1.58186723342413e-06,
+      "flux_before": -6.700729581277756e-05,
+      "flux_after": -6.700750341090506e-05,
+      "relative_flux_change": 3.098142149937644e-06
+    },
+    "source_file_hash_changes_since_L18": {
+      "lorenz_kappa": [
+        "6c5b5d8eccc119dc7aaf6ac7ac04d1aca6be52ea5bb03d682a3f891f52461d92",
+        "1a7a906260ac790b2c1c170cca277cb0e9c77b8b54cc5330e1660d3588b4b8e1"
+      ]
+    },
+    "guard_actual_point_equality": true,
+    "interpretation": "This is an explicit historical bridge, not rebadging older source samples with current provenance. Guard equality was checked at one valid point; current fresh pair has its own identical provenance. Historical comparisons are not rigorous error bounds.",
+    "sensitivity_if_only_measured_L4_delta_is_transferred_to_full_L18": {
+      "delta_z": [
+        6.903653274048516e-10,
+        -2.1637804048513232e-10
+      ],
+      "relative_H00_flux_change": -2.3159340556411223e-08,
+      "relative_total_flux_change": -2.259953508842757e-08
+    }
+  },
+  "historical_convergence": [
+    {
+      "name": "L4 old nr4 to old nr8; q10, h32",
+      "kind": "historical_unversioned",
+      "z_before": [
+        -0.04961124943481522,
+        0.03350577579853228
+      ],
+      "z_after": [
+        -0.049610054008075825,
+        0.033505340194908154
+      ],
+      "delta_z": [
+        1.1954267393962659e-06,
+        -4.3560362412292664e-07
+      ],
+      "relative_complex_amplitude_change": 2.1252854757773668e-05,
+      "flux_before": -6.701005933606647e-05,
+      "flux_after": -6.700729581301019e-05,
+      "relative_flux_change": -4.124042097053415e-05
+    },
+    {
+      "name": "L4 to L6; same nr8/q10/h32",
+      "kind": "historical_unversioned",
+      "z_before": [
+        -0.049610054008075825,
+        0.033505340194908154
+      ],
+      "z_after": [
+        -0.04961004734996963,
+        0.03350533711870666
+      ],
+      "delta_z": [
+        6.658106198320635e-09,
+        -3.0762014949226035e-09
+      ],
+      "relative_complex_amplitude_change": 1.2251653154589717e-07,
+      "flux_before": -6.700729581301019e-05,
+      "flux_after": -6.700727960687155e-05,
+      "relative_flux_change": -2.418563297412746e-07
+    },
+    {
+      "name": "L6/q10 to L18/q18; two controls changed",
+      "kind": "historical_unversioned_combined",
+      "z_before": [
+        -0.04961004734996963,
+        0.03350533711870666
+      ],
+      "z_after": [
+        -0.04961013806775564,
+        0.03350537832680543
+      ],
+      "delta_z": [
+        -9.071778601238423e-08,
+        4.120809877355969e-08
+      ],
+      "relative_complex_amplitude_change": 1.6643984805425825e-06,
+      "flux_before": -6.700727960687155e-05,
+      "flux_after": -6.700749953420403e-05,
+      "relative_flux_change": 3.282140892180152e-06
+    },
+    {
+      "name": "L18 old to independently refreshed same grid",
+      "kind": "historical_to_pre_guard_versioned",
+      "z_before": [
+        -0.04961013806775564,
+        0.03350537832680543
+      ],
+      "z_after": [
+        -0.049610141592376984,
+        0.03350537620213901
+      ],
+      "delta_z": [
+        -3.5246213447859276e-09,
+        -2.1246664219654043e-09
+      ],
+      "relative_complex_amplitude_change": 6.874638958888656e-08,
+      "flux_before": -6.700749953420403e-05,
+      "flux_after": -6.700750341090506e-05,
+      "relative_flux_change": 5.7854733448436946e-08
+    },
+    {
+      "name": "L1 q10 to q18; fixed radial grid",
+      "kind": "historical_dipole_only",
+      "z_before": [
+        -0.05003928029431636,
+        0.03370367360131248
+      ],
+      "z_after": [
+        -0.050039280298797034,
+        0.033703673606802174
+      ],
+      "delta_z": [
+        -4.480672777251726e-12,
+        5.489692034288396e-12
+      ],
+      "relative_complex_amplitude_change": 1.174534971949046e-10,
+      "flux_before": -6.805625877223406e-05,
+      "flux_after": -6.805625878753728e-05,
+      "relative_flux_change": 2.2486146278311026e-10
+    },
+    {
+      "name": "L1 radial88 to176; q18",
+      "kind": "historical_dipole_only",
+      "z_before": [
+        -0.050039280298797034,
+        0.033703673606802174
+      ],
+      "z_after": [
+        -0.05003928027578332,
+        0.033703673609542045
+      ],
+      "delta_z": [
+        2.3013715932940215e-11,
+        2.7398708302150965e-12
+      ],
+      "relative_complex_amplitude_change": 3.841494144925378e-10,
+      "flux_before": -6.805625878753728e-05,
+      "flux_after": -6.805625874792685e-05,
+      "relative_flux_change": -5.820248727417265e-10
+    }
+  ],
+  "baseline": {
+    "total_horizon": -6.866732369741025e-05,
+    "fresh_H00": -6.700750341090506e-05,
+    "H00_fraction_total": 0.9758280911919713,
+    "coverage_identity": "total uses historical complete coverage; fresh H00 differs only about6e-8 relative from its matching historical mode"
+  },
+  "horizon_mode_weights": [
+    {
+      "ell": 0,
+      "m": 0,
+      "flux": -6.700749953395336e-05,
+      "fraction_total": 0.9758280347320499
+    },
+    {
+      "ell": 2,
+      "m": 2,
+      "flux": -1.4887900298509183e-06,
+      "fraction_total": 0.02168120074711849
+    },
+    {
+      "ell": 2,
+      "m": 0,
+      "flux": -1.5108544660406e-07,
+      "fraction_total": 0.00220025244131887
+    },
+    {
+      "ell": 1,
+      "m": -1,
+      "flux": -1.5222259417522308e-08,
+      "fraction_total": 0.00022168126843854856
+    },
+    {
+      "ell": 4,
+      "m": 2,
+      "flux": -3.830223541616237e-09,
+      "fraction_total": 5.577942076925144e-05
+    },
+    {
+      "ell": 4,
+      "m": 0,
+      "flux": -8.804786918263359e-10,
+      "fraction_total": 1.2822382530972918e-05
+    },
+    {
+      "ell": 2,
+      "m": -2,
+      "flux": -1.5099737692549728e-11,
+      "fraction_total": 2.1989698854564805e-07
+    },
+    {
+      "ell": 3,
+      "m": 3,
+      "flux": -5.729439680528303e-13,
+      "fraction_total": 8.343764358395091e-09
+    },
+    {
+      "ell": 3,
+      "m": -3,
+      "flux": -2.7807920122036863e-14,
+      "fraction_total": 4.0496583563639927e-10
+    },
+    {
+      "ell": 3,
+      "m": -1,
+      "flux": -2.34315464208814e-14,
+      "fraction_total": 3.4123284787004316e-10
+    },
+    {
+      "ell": 5,
+      "m": 3,
+      "flux": -1.073629227814188e-15,
+      "fraction_total": 1.5635227499840353e-11
+    },
+    {
+      "ell": 4,
+      "m": 4,
+      "flux": -1.5927388909960381e-16,
+      "fraction_total": 2.3195004628615044e-12
+    },
+    {
+      "ell": 5,
+      "m": -1,
+      "flux": -1.2870444588724716e-16,
+      "fraction_total": 1.8743186563436894e-12
+    },
+    {
+      "ell": 4,
+      "m": -4,
+      "flux": -6.529235601186431e-17,
+      "fraction_total": 9.508504554448911e-13
+    },
+    {
+      "ell": 4,
+      "m": -2,
+      "flux": -2.6109216956557238e-18,
+      "fraction_total": 3.8022767672743785e-14
+    },
+    {
+      "ell": 5,
+      "m": -5,
+      "flux": -1.743967852752143e-19,
+      "fraction_total": 2.539734707642197e-15
+    },
+    {
+      "ell": 5,
+      "m": 5,
+      "flux": -1.2490101419047117e-19,
+      "fraction_total": 1.8189294043388173e-15
+    },
+    {
+      "ell": 5,
+      "m": -3,
+      "flux": -2.1970312814463886e-21,
+      "fraction_total": 3.1995295042047025e-17
+    }
+  ],
+  "scalar_cutoff": {
+    "ell5_total": -6.866732369741025e-05,
+    "ell12_total": -6.866734547709699e-05,
+    "relative_total_change": 3.1717686906444254e-07,
+    "added_modes_flux": -2.177968673778791e-11,
+    "common_modes_changed_flux": 0.0,
+    "notes": "Additional modes and changed Green outer radii are separated; scalar cutoff and metric reconstruction cutoff are distinct."
+  },
+  "source_outer_sequence": [
+    {
+      "cutoff": 80.0,
+      "z_h": [
+        -0.04961045679641951,
+        0.033506728398977184
+      ],
+      "relative_flux_to_full": 3.40111314545144e-05
+    },
+    {
+      "cutoff": 160.0,
+      "z_h": [
+        -0.049610141538175605,
+        0.03350537625869166
+      ],
+      "relative_flux_to_full": -4.4317483016698134e-10
+    },
+    {
+      "cutoff": 320.0,
+      "z_h": [
+        -0.049610141592376984,
+        0.03350537620213901
+      ],
+      "relative_flux_to_full": 0.0
+    }
+  ],
+  "observed_sensitivities": [
+    {
+      "label": "New L4 radial 88 -> 176",
+      "scope": "new controlled source pair; transfer only of measured L4 delta",
+      "relative_total_change": -2.259953508842757e-08
+    },
+    {
+      "label": "Dipole inner source tail",
+      "scope": "previous round; reused result, not recomputed; dipole only",
+      "relative_total_change": -0.00044261872008094814
+    },
+    {
+      "label": "L4 -> L6 metric cutoff",
+      "scope": "historical same-grid H00 sensitivity",
+      "relative_total_change": -2.36010200594124e-07
+    },
+    {
+      "label": "L6/q10 -> L18/q18",
+      "scope": "historical combined controls; not isolated angular/metric bound",
+      "relative_total_change": 3.2028052818392716e-06
+    },
+    {
+      "label": "Scalar ell 5 -> 12 sum",
+      "scope": "complete 18-channel vs85-channel historical sums; includes common-channel Green boundary changes",
+      "relative_total_change": 3.1717686906444254e-07
+    },
+    {
+      "label": "Source outer 160 -> 320",
+      "scope": "same pre-guard freshL18 source; 320->infinity not tested by this increment",
+      "relative_total_change": 4.3246244858617145e-10
+    },
+    {
+      "label": "Orbit contact projection",
+      "scope": "maximum observed fullL18 contact diagnostic sensitivity; not a full bulk Lorenz norm bound",
+      "relative_total_change": 1.5181986369974246e-06
+    },
+    {
+      "label": "Independent cloud/source/Green",
+      "scope": "same metric, same source grid; shared-model errors excluded",
+      "relative_total_change": -1.095464627807405e-09
+    }
+  ],
+  "observed_absolute_sum_not_error_bound": 0.00044791703853160823,
+  "reference_comparison": [
+    {
+      "reference": "Updated Dyson",
+      "target_total": -7.018128423756745e-05,
+      "local_relative_difference": -0.021572140729604894,
+      "needed_total_fraction": 0.022047758069451327,
+      "needed_H00_flux_fraction_if_others_fixed": 0.022593895654838193,
+      "needed_H00_amplitude_fraction_if_phase_unchanged": 0.011233848155231652
+    },
+    {
+      "reference": "Li independent",
+      "target_total": -6.615228308272457e-05,
+      "local_relative_difference": 0.03801895410836509,
+      "needed_total_fraction": -0.03662645461134433,
+      "needed_H00_flux_fraction_if_others_fixed": -0.03753371617597647,
+      "needed_H00_amplitude_fraction_if_phase_unchanged": -0.018946339987448213
+    }
+  ],
+  "reference_interpolation_sensitivities": {
+    "updated_dyson": 0.00028264234612307426,
+    "li": 0.00024869422685225295,
+    "interpretation": "Difference between two interpolants on published vector curves, not a rigorous digitization uncertainty or numerical source error."
+  },
+  "unresolved": [
+    "No fresh fullL18 q18->q24 and radial88->176 combined source study exists at rp20.",
+    "No certified extrapolation of high-ell reconstruction cancellation into the inner source shell.",
+    "Published reference curves are not author numerical arrays; their radial sampling/interpolation uncertainty is not rigorously bounded.",
+    "Li uses a=.88 and a quasi-bound cloud frequency, while current calculation uses the exact synchronous a=.8771530275949366. Cloud imaginary-frequency treatment is not fully specified.",
+    "Independent module agreement cannot exclude shared source/matching/gauge/model assumptions."
+  ],
+  "interpretation": "Observed numerical sensitivities are much smaller than2-4%; their sum is only a scale comparison, not a confidence interval. Current evidence does not support attributing the remaining differences solely to demonstrated numerical error. Full paper reproduction remains incomplete.",
+  "inputs_sha256": {
+    "remaining_horizon_L4_nr8_q10_h32_20260916.json": "63cdb36dac0ffbbe7ed0cd2c1dedec6dae6283f047d13c6e512b32b6745179e7",
+    "remaining_horizon_L4_nr16_q10_h64_20260916.json": "57cb42858018a79affef4f16ed56fe92fe27e498e5fc8074b2c0f1fa668525b0",
+    "fresh_20260915_L18_mg-1_sl0.json": "b58da0ebd0240420da60d3d22bfc276828bf67b8342d0c41672d57f1b0bbc8d7",
+    "forced_mode_nr8_nt10_L4_mg-1_sl0_inner0.0005_outer320_log_h32.json": "00f7ffc84d1ca0f7c853d99e09f9acb3fa47b90a1169e68a62fb1f530f88d9fc",
+    "forced_mode_nr4_nt10_L4_mg-1_sl0_inner0.0005_outer320_log_h32.json": "2426d66ad378211c86390418be68b82073b98b80472335a8676aac70b03a666f",
+    "forced_mode_nr8_nt10_L6_mg-1_sl0_inner0.0005_outer320_log_h32.json": "985fac66a760a8fee312ec1af9f65358e0c584c060124062dfb455b90387921c",
+    "forced_mode_nr8_nt18_L18_mg-1_sl0_inner0.0005_outer320_log_h32.json": "a42b1ff487ebe7d542cd261277115d285fb6122a44a8840d7ffdb73053906794",
+    "forced_mode_nr8_nt10_L1_mg-1_sl0_inner0.0005_outer320_log_h32.json": "9255d9f235e0416a6a57760330f6210cb5dc247366d30827e48d8c165cb42000",
+    "forced_mode_nr8_nt18_L1_mg-1_sl0_inner0.0005_outer320_log_h32.json": "34e589bfe6316d0f75163b83422f86326d6f785354e23a01f82c5da7cf165199",
+    "forced_mode_nr16_nt18_L1_mg-1_sl0_inner0.0005_outer320_log_h64.json": "6093bddab811ec30bb13df994aa78123a29c83401bb6591f74aa7cc471a0f119",
+    "flux_coverage_L18_nt18_i6_h5_f5_m0go4000_m2go4000.json": "95a5012642e94c8add80b55315850dd20c894a3184d96e216e8a3384ad4437ba",
+    "flux_coverage_L18_nt18_i12_h12_f12_m0go4000_m1go4000_m2go4000.json": "19c290e3496cd2ee7d49e87bf809ab388c7b894c3bfb095bb577207b44e386cc",
+    "horizon_source_cutoff_r20_audit.json": "812b7383e03064a7dc8f4d9bd994c91796f6d2225b965dd0a6db4a589fa03b45",
+    "orbit_source_matching_summary_20260916.json": "67a2bdc2580640d34446b03cd16790446d6b471194ad5850f307f53af88849e4",
+    "independent_scalar00_response_audit.json": "889ad2c8524094daf80e91259661e118757cc4776b47b03fc864845a659b801b",
+    "li_reference_comparison_20260916.json": "1636cef80590c359d7e2162c8e1f6abf005d468bdc9dcf97e7665341c66fead0",
+    "trace_kappa_domain_guard_validation.json": "f2274dfd66e283032798848f4e195842542428b15c70718515f3074f1c536e57"
+  },
+  "implementation_sha256": "aa19ddd035aa061a825313e7e53d2fb275d75f3f3bea27d5837bcad505960a96"
+}

@@ -1,0 +1,3 @@
+rp_over_M,M_Omega_p,M_omega_scalar,M2_k_infinity_squared,asymptotic_branch,M_k_infinity_real,M_k_infinity_imag,asymptotic_length_over_M,length_definition
+41.6,0.0037148607942846714,0.3000081092740418,4.86563018541053e-06,radiative,0.0022058173508725807,0.0,2848.4612765848788,wavelength 2*pi/k
+41.8,0.0036883171844868316,0.29998156566424394,-1.1060261628892398e-05,evanescent,0.0,0.0033256971643389898,300.68883322356214,decay length 1/abs(k)

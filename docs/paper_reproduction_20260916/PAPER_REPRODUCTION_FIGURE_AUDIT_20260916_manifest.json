@@ -1,0 +1,46 @@
+{
+  "status": "figure_inventory_and_independent_threshold_reconstruction_not_complete_paper_reproduction",
+  "date": "2026-09-16",
+  "inputs_sha256": {
+    "outputs/paper_original_reference/arxiv_v1_source/main_PRL.tex": "cc1434ceb6eec54b3dbfbf69cbda528bc787ba8e8571eaa9278a2b23bef884b1",
+    "docs/environment_reproduction/cloud_211.json": "eedb1e0ba850f487555ca3fce6b9eebd7a3d8216c42aba0c06d88262e8d26735",
+    "docs/environment_reproduction/schwarzschild_cloud_spectrum.json": "ef693747b71a6f0b0ac2e277165a384cc64885d9c5b0207b321a3539622883ed",
+    "docs/environment_reproduction/leaver_cloud_full_audit.json": "858257e94cbe6d093b4b95d5f60dc82140e749de056c332dc31eeeaa2cb570ce",
+    "docs/environment_reproduction/figure6_progress_L18.json": "dcb8bfbe52e968899a7cf82c8c2d70eb344de700cc18c25f563cb8bcb1c2fdd4",
+    "docs/environment_reproduction/figure5_threshold_wakes.json": "131ed94c027fc4b82a274b708156b44d42ca79d9001d5fe239e2ec373839cf53",
+    "docs/environment_reproduction/figure5_static_split.json": "e54e8c6681ff9dea295bf346be74cb2cb714180cf1ad297512a1a238edfecefd",
+    "docs/environment_reproduction/figure4_normalization_audit.json": "8e8b133b26e2277d3f847b0ec258a240ff232a865c1b7c912e4e8e726d8612fa",
+    "docs/environment_reproduction/particle_field_L18.json": "76230e421f10d76e2bf5754622f393f1ea6cb524a43659b78a1f44a5c6cc0775",
+    "docs/environment_reproduction/particle_field_cutoff_comparison.json": "41ba1a1ce8c294d335c902c1d05d6b749d43686731ffb93869e5ad1de4bb1505",
+    "docs/environment_reproduction/particle_spherical_projection.json": "6be0cec55134a871c5166a5edadfa35075d22611e6b4629e5a8d769c13844039",
+    "docs/environment_reproduction/wake_diagnostic_rp3.5_L18_sl12_mixed_wide_linear_eps.json": "b63727a7cf8e1b7e7be6d3b599f9648b5a3360cfbf63a8d24dfcf591d1861198",
+    "docs/environment_reproduction/flux_coverage_L18_nt18_i6_h5_f5_alpha0.2_schwarzschild_frozen.json": "fbe41400f13b815012e5b8d79e64aec243f10459f86ff53c6ba17b8a41f2ff44",
+    "docs/environment_reproduction/li_2025_figure2_readout_20260916.json": "7a66de11f5c47561de2f299708859623681316fa4c1c664739ffb578f8fab107"
+  },
+  "outputs_sha256": {
+    "docs/environment_reproduction/paper_threshold_comparison_20260916.csv": "e31582e1066a4e014c9cb84160042ce3c8a5421ab238579193ffbda6a91b7c4f",
+    "docs/environment_reproduction/paper_threshold_comparison_20260916.json": "136f98238db15ac568238748a162823e00678c34a0539aacbe697cb7c4bdef3f",
+    "docs/environment_reproduction/paper_threshold_comparison_20260916.pdf": "46c3ad591f4ac981c1f35c7fd9db0b7b6eeeecd0e6ddb0e4b489d5a8ef4af12b",
+    "docs/environment_reproduction/paper_threshold_comparison_20260916.png": "4603171d11fdf40046e6621fb669362cfcb4fd2de0ed9a179a9df8be0861031d",
+    "docs/environment_reproduction/paper_threshold_comparison_20260916_curves.csv": "364035dc5a1b34ec532d81ac825c67282233ca49450c610d88398437a6b692a2",
+    "docs/environment_reproduction/paper_threshold_comparison_20260916_figure5_orbits.csv": "2551b8a6d293e25ce1dfbdd82227c1ddc5dedd0a140f85bc1671041a3c992724",
+    "docs/PAPER_REPRODUCTION_FIGURE_AUDIT_20260916.md": "6007d328507daace69277f0c86460d5c1c9b354f02ae31fce6d23e96e9c95241",
+    "src/report_paper_threshold_comparison_20260916.py": "4cda73ffe6564a102472e7c86083bff5c701ba4cdb7bcafbeb21248866a395ac"
+  },
+  "checks": {
+    "threshold_formula_assertions": "passed",
+    "all_three_computed_thresholds_in_printed_rounding_bins": true,
+    "figure5_41p6_radiative_and_41p8_evanescent": true,
+    "cached_400term_leaver_agreement_threshold_M": -4.715872137239785e-11,
+    "png_visual_review": "passed; label overlap corrected",
+    "new_physics_solves": 0,
+    "production_files_changed": false
+  },
+  "limitations": [
+    "Field figures 1 and 5 are not quantitatively reproduced.",
+    "Several-percent residuals are not proved to be numerical error.",
+    "Fig4 source plotting conventions remain unresolved.",
+    "No author numerical arrays, fitted amplitudes, or added mode filtering used."
+  ],
+  "postprocess": "CSV line endings normalized to LF; numerical values unchanged."
+}

@@ -110,3 +110,5 @@ OPENBLAS_NUM_THREADS=1 .venv/bin/python src/plot_3d.py
 ## 环境效应论文的频域对照
 
 Dyson 等（2025）的环境效应复现另外采用频域 Lorenz 度规与质量标量源。2026-09-15 已取得并实际运行原作者公开 Kerr–Lorenz 代码；实际 Kerr 参数的受保护低阶度规、源匹配及边界精化结果见 [原作者代码数值对照](docs/AUTHOR_CODE_MODULE_COMPARISON_20260915.md) 和 [13 模块清单](docs/MODULE_ORIGINAL_REFERENCE_MATRIX_20260915.md)。2026-09-16 查到 Li 等后续研究明确修正 Dyson 的视界归一化及分离常数。保持本地解不变，rp=20M 的视界差异由相对旧图 +32.66% 变为相对后续 Dyson 曲线 −2.16%；与 Li 使用相同 ℓ≤5 截断时，三个半径的无穷远差异约 0.06%–0.55%。见 [参考结果修正与剩余误差](docs/KERR_HORIZON_REFERENCE_CORRECTION_20260916.md)。原始环境程序和数值表仍未公开取得，自旋及云频率处理尚未完全对齐；这些频域检查不属于上文双曲切片时域示例的验收。
+
+2026-09-16 本轮新增源积分加密检查，并整理 [论文对应图与数值结果](docs/paper_reproduction_20260916/README.md)：三个通量点达到百分之几一致，传播阈值与印刷精度一致；场图绝对幅度等仍未复现，不能把余差一概称为数值误差。

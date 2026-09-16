@@ -1,0 +1,128 @@
+{
+  "status": "independent_background_threshold_agreement_not_full_figure5_reproduction",
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2501.09806v1",
+    "source_url": "https://arxiv.org/src/2501.09806v1",
+    "tex": "outputs/paper_original_reference/arxiv_v1_source/main_PRL.tex",
+    "equation_tex_lines": [
+      366,
+      374
+    ],
+    "figure5_tex_lines": [
+      654,
+      662
+    ],
+    "paper_equation": "rcrit=[(m-mb)/(mu-Re(omega_cloud))-a]^(2/3) M"
+  },
+  "input_sha256": {
+    "docs/environment_reproduction/cloud_211.json": "eedb1e0ba850f487555ca3fce6b9eebd7a3d8216c42aba0c06d88262e8d26735",
+    "docs/environment_reproduction/schwarzschild_cloud_spectrum.json": "ef693747b71a6f0b0ac2e277165a384cc64885d9c5b0207b321a3539622883ed",
+    "docs/environment_reproduction/leaver_cloud_full_audit.json": "858257e94cbe6d093b4b95d5f60dc82140e749de056c332dc31eeeaa2cb570ce",
+    "outputs/paper_original_reference/arxiv_v1_source/main_PRL.tex": "cc1434ceb6eec54b3dbfbf69cbda528bc787ba8e8571eaa9278a2b23bef884b1"
+  },
+  "generator_sha256": "2fda7aac907d1fbcdb50cf9072580c0baf158023ecb0688459231ed7fb207244",
+  "threshold_rows": [
+    {
+      "background": "Schwarzschild",
+      "alpha": 0.3,
+      "cloud_n": 2,
+      "cloud_ell": 1,
+      "cloud_m": 1,
+      "scalar_m": 2,
+      "metric_m": 1,
+      "a_over_M": 0.0,
+      "M_omega_cloud_real": 0.29619234639899916,
+      "M_omega_cloud_imag": -9.45565166959826e-06,
+      "computed_rcrit_over_M": 41.010498225545916,
+      "paper_printed_rcrit_over_M": 41.01,
+      "computed_minus_printed_over_M": 0.0004982255459182738,
+      "paper_last_decimal_half_unit_M": 0.005,
+      "within_paper_rounding_bin": true,
+      "method": "Independent two-sided shooting; real part of complex frequency frozen"
+    },
+    {
+      "background": "Kerr",
+      "alpha": 0.3,
+      "cloud_n": 2,
+      "cloud_ell": 1,
+      "cloud_m": 1,
+      "scalar_m": 2,
+      "metric_m": 1,
+      "a_over_M": 0.8771530275949366,
+      "M_omega_cloud_real": 0.29629324847975713,
+      "M_omega_cloud_imag": 0.0,
+      "computed_rcrit_over_M": 41.66084841792264,
+      "paper_printed_rcrit_over_M": 41.66,
+      "computed_minus_printed_over_M": 0.0008484179226400101,
+      "paper_last_decimal_half_unit_M": 0.005,
+      "within_paper_rounding_bin": true,
+      "method": "Independent two-sided shooting of the synchronized |211> cloud"
+    },
+    {
+      "background": "Newtonian",
+      "alpha": 0.3,
+      "cloud_n": 2,
+      "cloud_ell": 1,
+      "cloud_m": 1,
+      "scalar_m": 2,
+      "metric_m": 1,
+      "a_over_M": 0.0,
+      "M_omega_cloud_real": 0.29662499999999997,
+      "M_omega_cloud_imag": 0.0,
+      "computed_rcrit_over_M": 44.44444444444429,
+      "paper_printed_rcrit_over_M": 44.44,
+      "computed_minus_printed_over_M": 0.00444444444428882,
+      "paper_last_decimal_half_unit_M": 0.005,
+      "within_paper_rounding_bin": true,
+      "method": "Leading hydrogenic n=2 energy; not a relativistic eigenfrequency"
+    }
+  ],
+  "figure5_orbits": [
+    {
+      "rp_over_M": 41.6,
+      "M_Omega_p": 0.0037148607942846714,
+      "M_omega_scalar": 0.3000081092740418,
+      "M2_k_infinity_squared": 4.86563018541053e-06,
+      "asymptotic_branch": "radiative",
+      "M_k_infinity_real": 0.0022058173508725807,
+      "M_k_infinity_imag": 0.0,
+      "asymptotic_length_over_M": 2848.4612765848788,
+      "length_definition": "wavelength 2*pi/k"
+    },
+    {
+      "rp_over_M": 41.8,
+      "M_Omega_p": 0.0036883171844868316,
+      "M_omega_scalar": 0.29998156566424394,
+      "M2_k_infinity_squared": -1.1060261628892398e-05,
+      "asymptotic_branch": "evanescent",
+      "M_k_infinity_real": 0.0,
+      "M_k_infinity_imag": 0.0033256971643389898,
+      "asymptotic_length_over_M": 300.68883322356214,
+      "length_definition": "decay length 1/abs(k)"
+    }
+  ],
+  "independent_cloud_crosscheck": {
+    "method": "400-term Leaver continued fraction at 50 digits (cached)",
+    "a": "0.877153027594927651460305982759529711024",
+    "omega": "0.2962932484797508338705691945489856474538",
+    "continued_fraction_residual": "3.4345027e-49",
+    "threshold_over_M": 41.66084841787548,
+    "threshold_difference_from_shooting_M": -4.715872137239785e-11,
+    "shooting_boundary_cutoff_change_M": 2.7623769938145415e-10
+  },
+  "limitations": [
+    "The 0.005 M band is the last printed decimal's half-unit, not a measured or rigorous uncertainty.",
+    "This tests a propagation threshold, not a quasi-bound pole resonance or the flux amplitude.",
+    "Schwarzschild uses Re(omega_cloud) in the paper's frozen-background threshold convention; Im(omega_cloud) is retained in metadata only.",
+    "The exact Kerr spin comes from synchronization; the paper prints rounded a=0.88.",
+    "No flux or field amplitude is fitted, recomputed, or claimed reproduced by this plot.",
+    "The large-r lengths describe asymptotic waves; the long-range Coulomb phase is not represented by a plane wave over the entire numerical domain."
+  ],
+  "output_sha256": {
+    "docs/environment_reproduction/paper_threshold_comparison_20260916.csv": "f45ce08884375656e0c984e333a92499f5ca3d5674f7859f3eed083c15825c6d",
+    "docs/environment_reproduction/paper_threshold_comparison_20260916.pdf": "46c3ad591f4ac981c1f35c7fd9db0b7b6eeeecd0e6ddb0e4b489d5a8ef4af12b",
+    "docs/environment_reproduction/paper_threshold_comparison_20260916.png": "4603171d11fdf40046e6621fb669362cfcb4fd2de0ed9a179a9df8be0861031d",
+    "docs/environment_reproduction/paper_threshold_comparison_20260916_curves.csv": "12983cff46c0161b2ca080ad7a1150ea052f34465cdfb06519849f578e4f61f9",
+    "docs/environment_reproduction/paper_threshold_comparison_20260916_figure5_orbits.csv": "4d57a233b28dc4bcbc0aa222141878d27593fe2c4ecf2ce3c6a4778275e252c7"
+  }
+}
