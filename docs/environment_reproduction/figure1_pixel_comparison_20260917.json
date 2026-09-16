@@ -1,0 +1,358 @@
+{
+  "status": "fixed_original_legend_pixel_comparison_not_author_raw_data",
+  "calibration": {
+    "legend_tick_rows": [
+      553.5,
+      1046.5,
+      1538.5,
+      2031.5
+    ],
+    "legend_tick_values": [
+      0.02,
+      0.015,
+      0.01,
+      0.005
+    ],
+    "legend_value_polynomial": [
+      -1.0150221631717156e-05,
+      0.02561916145899443
+    ],
+    "LUT_range": [
+      0.00011165449848921788,
+      0.02555826012920413
+    ],
+    "x_tick_pixels": [
+      750.0,
+      1104.5,
+      1458.5,
+      1812.5,
+      2167.0
+    ],
+    "x_tick_values": [
+      -100,
+      -50,
+      0,
+      50,
+      100
+    ],
+    "x_polynomial": [
+      0.1411631733895861,
+      -205.88648838871129
+    ],
+    "y_tick_pixels": {
+      "equatorial": [
+        701,
+        1055,
+        1409,
+        1763.5,
+        2117.5
+      ],
+      "meridional": [
+        2533.5,
+        2887.5,
+        3242
+      ]
+    },
+    "y_tick_values": {
+      "equatorial": [
+        100,
+        50,
+        0,
+        -50,
+        -100
+      ],
+      "meridional": [
+        50,
+        0,
+        -50
+      ]
+    },
+    "y_polynomials": {
+      "equatorial": [
+        -0.14118310605703635,
+        198.95523305557572
+      ],
+      "meridional": [
+        -0.1411432369778679,
+        407.574620646423
+      ]
+    }
+  },
+  "points": [
+    {
+      "plane": "equatorial",
+      "x_over_M": -100,
+      "y_or_z_over_M": 0,
+      "pixel_x": 750.0999435347262,
+      "pixel_y": 1409.2000000000007,
+      "pixel_accepted": true,
+      "max_RGB_distance": 1.0,
+      "paper_value": 0.0012383290996098237,
+      "paper_RGB_tolerance_interval": [
+        0.0010759255535023465,
+        0.0013702819808221467
+      ],
+      "local_interpolated_abs_field": 0.0001792891609305735,
+      "local_over_pixel": 0.14478312831949475
+    },
+    {
+      "plane": "equatorial",
+      "x_over_M": 100,
+      "y_or_z_over_M": 0,
+      "pixel_x": 2166.900056465274,
+      "pixel_y": 1409.2000000000007,
+      "pixel_accepted": true,
+      "max_RGB_distance": 0.0,
+      "paper_value": 0.0015225353052979035,
+      "paper_RGB_tolerance_interval": [
+        0.001431183310612448,
+        0.0016341877432467927
+      ],
+      "local_interpolated_abs_field": 0.0003323383532166287,
+      "local_over_pixel": 0.2182795709631196
+    },
+    {
+      "plane": "equatorial",
+      "x_over_M": 0,
+      "y_or_z_over_M": 100,
+      "pixel_x": 1458.4999999999998,
+      "pixel_y": 700.8999576450666,
+      "pixel_accepted": true,
+      "max_RGB_distance": 0.0,
+      "paper_value": 0.000903371785763156,
+      "paper_RGB_tolerance_interval": [
+        0.0008323202343411377,
+        0.0010048740020803283
+      ],
+      "local_interpolated_abs_field": 0.0003452468898377165,
+      "local_over_pixel": 0.3821758607903131
+    },
+    {
+      "plane": "equatorial",
+      "x_over_M": 0,
+      "y_or_z_over_M": -100,
+      "pixel_x": 1458.4999999999998,
+      "pixel_y": 2117.500042354935,
+      "pixel_accepted": true,
+      "max_RGB_distance": 0.0,
+      "paper_value": 0.003075519214950629,
+      "paper_RGB_tolerance_interval": [
+        0.002913115668843152,
+        0.003146570766372647
+      ],
+      "local_interpolated_abs_field": 0.00040333775942199933,
+      "local_over_pixel": 0.1311446072134113
+    },
+    {
+      "plane": "equatorial",
+      "x_over_M": -50,
+      "y_or_z_over_M": 50,
+      "pixel_x": 1104.299971767363,
+      "pixel_y": 1055.0499788225336,
+      "pixel_accepted": true,
+      "max_RGB_distance": 0.0,
+      "paper_value": 0.003197321874531235,
+      "paper_RGB_tolerance_interval": [
+        0.002913115668843152,
+        0.003481528080219315
+      ],
+      "local_interpolated_abs_field": 0.0004279172312116445,
+      "local_over_pixel": 0.13383614412433287
+    },
+    {
+      "plane": "equatorial",
+      "x_over_M": -50,
+      "y_or_z_over_M": -50,
+      "pixel_x": 1104.299971767363,
+      "pixel_y": 1763.3500211774676,
+      "pixel_accepted": true,
+      "max_RGB_distance": 1.0,
+      "paper_value": 0.0037758845075391116,
+      "paper_RGB_tolerance_interval": [
+        0.003491678301851032,
+        0.004080391156490625
+      ],
+      "local_interpolated_abs_field": 0.0008596906936445595,
+      "local_over_pixel": 0.2276792873108433
+    },
+    {
+      "plane": "equatorial",
+      "x_over_M": 50,
+      "y_or_z_over_M": -50,
+      "pixel_x": 1812.7000282326367,
+      "pixel_y": 1763.3500211774676,
+      "pixel_accepted": true,
+      "max_RGB_distance": 1.4142135623730951,
+      "paper_value": 0.0024563556954158815,
+      "paper_RGB_tolerance_interval": [
+        0.0023041023709401247,
+        0.0026086090198916383
+      ],
+      "local_interpolated_abs_field": 0.0006479403361779739,
+      "local_over_pixel": 0.2637811524557205
+    },
+    {
+      "plane": "equatorial",
+      "x_over_M": 20,
+      "y_or_z_over_M": 20,
+      "pixel_x": 1600.1800112930546,
+      "pixel_y": 1267.5399915290138,
+      "pixel_accepted": true,
+      "max_RGB_distance": 2.449489742783178,
+      "paper_value": 0.006557045234629612,
+      "paper_RGB_tolerance_interval": [
+        0.004973610660081736,
+        0.008028827371228599
+      ],
+      "local_interpolated_abs_field": 0.0008688368637943272,
+      "local_over_pixel": 0.1325043266753375
+    },
+    {
+      "plane": "meridional",
+      "x_over_M": -100,
+      "y_or_z_over_M": 20,
+      "pixel_x": 750.0999435347262,
+      "pixel_y": 2745.966643142788,
+      "pixel_accepted": true,
+      "max_RGB_distance": 0.0,
+      "paper_value": 0.001563136191824771,
+      "paper_RGB_tolerance_interval": [
+        0.0014616339755075987,
+        0.001695089073037094
+      ],
+      "local_interpolated_abs_field": 0.0003192908945967602,
+      "local_over_pixel": 0.20426300425174532
+    },
+    {
+      "plane": "meridional",
+      "x_over_M": 100,
+      "y_or_z_over_M": 20,
+      "pixel_x": 2166.900056465274,
+      "pixel_y": 2745.966643142788,
+      "pixel_accepted": true,
+      "max_RGB_distance": 0.0,
+      "paper_value": 0.001349981537558713,
+      "paper_RGB_tolerance_interval": [
+        0.0012890802077684081,
+        0.0014514837538758818
+      ],
+      "local_interpolated_abs_field": 0.00016424705821811684,
+      "local_over_pixel": 0.12166615146095912
+    },
+    {
+      "plane": "meridional",
+      "x_over_M": -50,
+      "y_or_z_over_M": 20,
+      "pixel_x": 1104.299971767363,
+      "pixel_y": 2745.966643142788,
+      "pixel_accepted": true,
+      "max_RGB_distance": 1.4142135623730951,
+      "paper_value": 0.002771012565999112,
+      "paper_RGB_tolerance_interval": [
+        0.002618759241523355,
+        0.002892815225579718
+      ],
+      "local_interpolated_abs_field": 0.0003962171498233708,
+      "local_over_pixel": 0.14298641395027792
+    },
+    {
+      "plane": "meridional",
+      "x_over_M": 50,
+      "y_or_z_over_M": 20,
+      "pixel_x": 1812.7000282326367,
+      "pixel_y": 2745.966643142788,
+      "pixel_accepted": true,
+      "max_RGB_distance": 2.23606797749979,
+      "paper_value": 0.002283801927676691,
+      "paper_RGB_tolerance_interval": [
+        0.0022026001546229523,
+        0.0023954543656255767
+      ],
+      "local_interpolated_abs_field": 0.0007325631556624916,
+      "local_over_pixel": 0.32076475056123943
+    },
+    {
+      "plane": "meridional",
+      "x_over_M": -20,
+      "y_or_z_over_M": 40,
+      "pixel_x": 1316.8199887069452,
+      "pixel_y": 2604.2666196189116,
+      "pixel_accepted": true,
+      "max_RGB_distance": 0.0,
+      "paper_value": 0.0018473423975128508,
+      "paper_RGB_tolerance_interval": [
+        0.001705239294668811,
+        0.0020503468301471955
+      ],
+      "local_interpolated_abs_field": 0.00022164831103917805,
+      "local_over_pixel": 0.11998225739721657
+    },
+    {
+      "plane": "meridional",
+      "x_over_M": 20,
+      "y_or_z_over_M": 40,
+      "pixel_x": 1600.1800112930546,
+      "pixel_y": 2604.2666196189116,
+      "pixel_accepted": true,
+      "max_RGB_distance": 0.0,
+      "paper_value": 0.0008830713424997222,
+      "paper_RGB_tolerance_interval": [
+        0.0006496162449702268,
+        0.0011266766616609344
+      ],
+      "local_interpolated_abs_field": 0.0003720249091349497,
+      "local_over_pixel": 0.4212852249081639
+    },
+    {
+      "plane": "meridional",
+      "x_over_M": -50,
+      "y_or_z_over_M": -20,
+      "pixel_x": 1104.299971767363,
+      "pixel_y": 3029.366690190542,
+      "pixel_accepted": true,
+      "max_RGB_distance": 1.4142135623730951,
+      "paper_value": 0.002771012565999112,
+      "paper_RGB_tolerance_interval": [
+        0.002618759241523355,
+        0.0029232658904748687
+      ],
+      "local_interpolated_abs_field": 0.00039621714982337086,
+      "local_over_pixel": 0.14298641395027792
+    },
+    {
+      "plane": "meridional",
+      "x_over_M": 50,
+      "y_or_z_over_M": -20,
+      "pixel_x": 1812.7000282326367,
+      "pixel_y": 3029.366690190542,
+      "pixel_accepted": true,
+      "max_RGB_distance": 2.23606797749979,
+      "paper_value": 0.002283801927676691,
+      "paper_RGB_tolerance_interval": [
+        0.0022026001546229523,
+        0.0023954543656255767
+      ],
+      "local_interpolated_abs_field": 0.0007325631556624918,
+      "local_over_pixel": 0.32076475056123954
+    }
+  ],
+  "inputs_sha256": {
+    "docs/environment_reproduction/wake_diagnostic_rp3.5_L18_sl12_mixed_wide_linear_eps.npz": "b44272f947722af6d81cbd0b5c7b58c4f68ae816f70a85b631099fe0d8f2c598",
+    "outputs/paper_original_reference/arxiv_v1_source/Figures/BosonEMRIsFieldPlots.pdf": "18ceb64b3ed72e3383bcbd5c23edc632da52d52fac5c4c746fa56fa74658ddc2",
+    "outputs/paper_field_digitization_20260916/figure1_xref6.png": "3c041320e925e52603254505e5a7be921350521f9de40a39277af2c449464d14",
+    "outputs/paper_field_digitization_20260916/figure1_xref7.png": "acd366074d1435d6bd0e6b8c1ec6969b9f70acd31c125e158b2378bcb7deae97",
+    "src/report_paper_figure1_pixels_20260917.py": "83ccd9315a683d048cb07d86431b3bbaa4deef45574ca5fc9d7d9a5bc7c792ac"
+  },
+  "outputs_sha256": {
+    "docs/environment_reproduction/figure1_fixed_legend_20260917.png": "acb2432496e02e4f476f54092410d6878809e2b6f65794d3e32c1c245aa80dca",
+    "docs/environment_reproduction/figure1_pixel_comparison_20260917.csv": "ba6d87d7e2a40c243147ca0f58357cbc69abddc1916a9b3146287975e6ad4f17",
+    "docs/environment_reproduction/figure1_original_legend_lut_20260917.csv": "8b105f493cef8ecb3245d0d27018fa99fe3cb2d413250cc467bc3c8e6cf05e4d"
+  },
+  "limitations": [
+    "Printed-pixel inversion, not original field arrays; colors outside the observed legend rejected.",
+    "Original inset excluded. Original rightmost -100 label is visibly inconsistent with ordered ticks; physical +100 follows tick order and central origin, with no fit to local data.",
+    "Local Cartesian embedding as in cached reconstruction remains an assumption; original image does not define a full coordinate map.",
+    "Local complex polar values interpolated before modulus. No amplitude, phase, or angular mode fitting.",
+    "Colorbar endpoint is not a recovered global field maximum."
+  ]
+}

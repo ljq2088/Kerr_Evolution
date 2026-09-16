@@ -1,0 +1,173 @@
+{
+  "status": "original_pdf_pixel_evidence_no_amplitude_fit",
+  "observed_date": "2026-09-17",
+  "source_urls": [
+    "https://arxiv.org/abs/2501.09806",
+    "https://arxiv.org/src/2501.09806v1",
+    "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.134.211403",
+    "https://eprints.whiterose.ac.uk/id/eprint/227286/8/Self_force_and_environments%20%282%29.pdf",
+    "https://arxiv.org/html/2507.02045v2"
+  ],
+  "metadata": {
+    "BosonEMRIsFieldPlots.pdf": {
+      "sha256": "18ceb64b3ed72e3383bcbd5c23edc632da52d52fac5c4c746fa56fa74658ddc2",
+      "metadata": {
+        "format": "PDF 1.5",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "Wolfram",
+        "producer": "macOS Version 15.1.1 (Build 24B91) Quartz PDFContext, AppendMode 1.1",
+        "creationDate": "20241220173226Z",
+        "modDate": "D:20241220173247Z00'00'",
+        "trapped": "",
+        "encryption": null
+      },
+      "images": [
+        [
+          6,
+          8,
+          2500,
+          3864,
+          8,
+          "DeviceRGB",
+          "",
+          "x6",
+          "FlateDecode",
+          0
+        ],
+        [
+          7,
+          11,
+          375,
+          2593,
+          8,
+          "DeviceRGB",
+          "",
+          "x7",
+          "FlateDecode",
+          0
+        ]
+      ],
+      "text_characters": 0,
+      "vector_drawings": 0,
+      "embedded_files": 0,
+      "xml_metadata_characters": 0
+    },
+    "ResonanceBosonEMRIsFieldPlot.pdf": {
+      "sha256": "22612b95f3467901352abf129d37cc2f6819c48d70ce3415c2429b53fc241aea",
+      "metadata": {
+        "format": "PDF 1.5",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "Wolfram",
+        "producer": "cairo 1.16.0 (https://cairographics.org)",
+        "creationDate": "20250112101942Z",
+        "modDate": "20250112101942Z",
+        "trapped": "",
+        "encryption": null
+      },
+      "images": [
+        [
+          6,
+          8,
+          2500,
+          4746,
+          8,
+          "DeviceRGB",
+          "",
+          "x6",
+          "FlateDecode",
+          0
+        ],
+        [
+          7,
+          11,
+          375,
+          3618,
+          8,
+          "DeviceRGB",
+          "",
+          "x7",
+          "FlateDecode",
+          0
+        ]
+      ],
+      "text_characters": 0,
+      "vector_drawings": 0,
+      "embedded_files": 0,
+      "xml_metadata_characters": 0
+    },
+    "plotTotal_onepanelSM_Ratio.pdf": {
+      "sha256": "487a431da3bfd1c5e1ffc53ddd27baf25181b16e161f293741df5597618337dc",
+      "metadata": {
+        "format": "PDF 1.5",
+        "title": "",
+        "author": "",
+        "subject": "",
+        "keywords": "",
+        "creator": "TeX",
+        "producer": "pdfTeX-1.40.24",
+        "creationDate": "D:20250102091627+01'00'",
+        "modDate": "D:20250102091627+01'00'",
+        "trapped": "",
+        "encryption": null
+      },
+      "images": [],
+      "text_characters": 99,
+      "vector_drawings": 20,
+      "embedded_files": 0,
+      "xml_metadata_characters": 0
+    }
+  },
+  "accepted_manuscript_comparison": {
+    "figure5_field_raw_RGB_sha256": "d3287160558565067fab75e3454cc2f8bcf00bfcf4ef3425815a71ffce5f1718",
+    "figure5_legend_raw_RGB_sha256": "916a60613575dc2142c9743d82daebbdaa2b0a2dadb33613d16c1230c8a7594e",
+    "figure5_RGB_identical_to_arxiv_v1": true,
+    "figure1_legend_identical": true,
+    "figure1_field_accepted_filter": "DCTDecode",
+    "figure1_field_RGB_absdiff_percentiles_50_90_99_99p9_max": [
+      0,
+      2,
+      6,
+      21,
+      109
+    ]
+  },
+  "inputs_sha256": {
+    "outputs/paper_original_reference/arxiv_v1_source/Figures/BosonEMRIsFieldPlots.pdf": "18ceb64b3ed72e3383bcbd5c23edc632da52d52fac5c4c746fa56fa74658ddc2",
+    "outputs/paper_original_reference/arxiv_v1_source/Figures/ResonanceBosonEMRIsFieldPlot.pdf": "22612b95f3467901352abf129d37cc2f6819c48d70ce3415c2429b53fc241aea",
+    "outputs/paper_original_reference/arxiv_v1_source/Figures/plotTotal_onepanelSM_Ratio.pdf": "487a431da3bfd1c5e1ffc53ddd27baf25181b16e161f293741df5597618337dc",
+    "outputs/paper_original_reference/arxiv_v1_source/main_PRL.tex": "cc1434ceb6eec54b3dbfbf69cbda528bc787ba8e8571eaa9278a2b23bef884b1",
+    "outputs/paper_original_reference/accepted_2025.pdf": "69a6ad0fc933bae8774b1673e001016d2a4c82c8c61984665d118c368158099c",
+    "docs/environment_reproduction/figure5_threshold_wakes.npz": "37d14ca4a6c6eebe56fc0db50fce5efc0a2f488027791a3c57ca41c5eb64da72",
+    "docs/environment_reproduction/figure4_normalization_audit.json": "8e8b133b26e2277d3f847b0ec258a240ff232a865c1b7c912e4e8e726d8612fa",
+    "outputs/paper_original_reference/li_2507_02045v2/source/scalar_radiation_11.png": "202392306a12abe01713c3bf81b9c63556146ea9ddcad4ae52cef5d440ba1ae4",
+    "outputs/paper_original_reference/li_2507_02045v2/source/main.tex": "4535abc53b9d8cd1ea1919bfcf8847ab3a065137ee21df4cc6f20c38acf092a4",
+    "docs/environment_reproduction/wake_diagnostic_rp3.5_L18_sl12_mixed_wide_linear_eps.npz": "b44272f947722af6d81cbd0b5c7b58c4f68ae816f70a85b631099fe0d8f2c598"
+  },
+  "outputs_sha256": {
+    "docs/PAPER_FIELD_PIXEL_AND_FIGURE4_AUDIT_20260917.md": "0af0c2c8735208f86110e3d35a9a3f1bc73046d2d86d3ab9ba490cd2b3b58a22",
+    "src/report_paper_field_pixels_20260917.py": "07475de862e1b69f791369481c8ed2a438764aba9bc97c6be03c2fb4c3347d81",
+    "docs/environment_reproduction/figure5_fixed_legend_20260917.png": "5f1895d3028436d3cb4730357315adea86e0abcb12816663823d924c287851c7",
+    "docs/environment_reproduction/figure5_pixel_comparison_20260917.json": "ef3133ec1161375ebd3fe89f5ff256a554b3e301586d96e071b0bc5c584a4e16",
+    "docs/environment_reproduction/figure5_pixel_comparison_20260917.csv": "953925bfd6c6e13542708de073ae1f061019e324a969746a6098059cf49d6a32",
+    "docs/environment_reproduction/figure5_original_legend_lut_20260917.csv": "d2186dc2430d60977b55151af3e11893f4465022f365c7af4115d219bfec47b1",
+    "docs/environment_reproduction/figure1_fixed_legend_20260917.png": "acb2432496e02e4f476f54092410d6878809e2b6f65794d3e32c1c245aa80dca",
+    "docs/environment_reproduction/figure1_pixel_comparison_20260917.csv": "ba6d87d7e2a40c243147ca0f58357cbc69abddc1916a9b3146287975e6ad4f17",
+    "docs/environment_reproduction/figure1_pixel_comparison_20260917.json": "bd7dfea65709adfe090bb2666646a687271aa02343160c74551a98bff6014944",
+    "docs/environment_reproduction/figure1_original_legend_lut_20260917.csv": "8b105f493cef8ecb3245d0d27018fa99fe3cb2d413250cc467bc3c8e6cf05e4d",
+    "docs/environment_reproduction/li_field_pixel_reference_20260917.json": "01385d9afb76722d9b79eef3bb10fe352c2b10afbed128f1ab753a2e088722d1",
+    "docs/environment_reproduction/li_field_pixel_reference_20260917.csv": "e3538665afdd7349d3ec9b991331687e502e57772536210241201c53dbbebd9b",
+    "docs/environment_reproduction/li_field_polar_reference_20260917.npz": "e9ce5b2b66a229822c311ee05696503f3ea53ccf3abbc720d263fdbcf036a96d",
+    "src/report_paper_figure1_pixels_20260917.py": "83ccd9315a683d048cb07d86431b3bbaa4deef45574ca5fc9d7d9a5bc7c792ac",
+    "src/report_li_field_pixels_20260917.py": "057e893658354171691607da32f9f5ebe88e05817583911c5ec723c403847e23"
+  },
+  "no_production_solver_change": true,
+  "no_amplitude_phase_or_mode_fitting": true,
+  "pixel_comparison_statements_conditional_on_paper_legend_correspondence": true,
+  "Li_field_reference_scope": "Different a/orbits/cutoff; no local agreement inferred. Full printed-colorband intervals and 2x9x72 polar array delivered."
+}

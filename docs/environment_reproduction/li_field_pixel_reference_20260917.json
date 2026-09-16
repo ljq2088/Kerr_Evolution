@@ -1,0 +1,438 @@
+{
+  "status": "Li_original_field_pixel_reference_different_parameters_not_local_agreement",
+  "source_url": "https://arxiv.org/html/2507.02045v2",
+  "source_tex_lines": [
+    148,
+    164,
+    534,
+    535,
+    626
+  ],
+  "normalization": {
+    "epsilon_Li": "q=m_p/M",
+    "zeta_Li": "alpha^3 sqrt(Mc/M)",
+    "figure_quantity": "abs(Phi^(1,1))=abs(delta Phi)/(q alpha^3 sqrt(Mc/M))",
+    "no_additional_alpha_factor": true
+  },
+  "parameters": {
+    "a": 0.88,
+    "alpha": 0.3,
+    "orbits": [
+      41.1,
+      42.1
+    ],
+    "time": 0,
+    "r_max": 200,
+    "scalar_ell_min": 2,
+    "scalar_ell_max": 5
+  },
+  "mode_scope": {
+    "caption": "all (ell,m) with 2<=ell<=5",
+    "body": "modes that contribute to infinity flux",
+    "interpretation": "Likely allowed positive m>=2: (2,2),(3,3),(4,2),(4,4),(5,3),(5,5); retain both textual statements as a scope ambiguity."
+  },
+  "calibration": {
+    "image_shape": [
+      1079,
+      2109,
+      4
+    ],
+    "bar_column": 1760,
+    "bar_row_top": 125,
+    "bar_row_bottom": 988,
+    "nominal_colorbar_maximum": 0.37,
+    "maximum_interval_from_rounded_tick_labels": [
+      0.36875,
+      0.375
+    ],
+    "printed_ticks": [
+      0.0,
+      0.07,
+      0.15,
+      0.22,
+      0.3,
+      0.37
+    ],
+    "panels": [
+      {
+        "rp": 41.1,
+        "cx": 461.5,
+        "cy": 556.5,
+        "radius_pixels": 402.0
+      },
+      {
+        "rp": 42.1,
+        "cx": 1315.0,
+        "cy": 556.5,
+        "radius_pixels": 401.75
+      }
+    ]
+  },
+  "points": [
+    {
+      "rp": 41.1,
+      "x_over_M": -100,
+      "y_over_M": 0,
+      "pixel_accepted": true,
+      "max_RGB_distance": 0.0,
+      "fraction_of_colorbar_maximum": 0.11935110081112399,
+      "nominal_field_if_max_0p37": 0.044159907300115875,
+      "interval_from_colorband_and_tick_rounding": [
+        0.04230156431054461,
+        0.04649478563151796
+      ]
+    },
+    {
+      "rp": 41.1,
+      "x_over_M": 100,
+      "y_over_M": 0,
+      "pixel_accepted": true,
+      "max_RGB_distance": 0.0,
+      "fraction_of_colorbar_maximum": 0.03360370799536501,
+      "nominal_field_if_max_0p37": 0.012433371958285054,
+      "interval_from_colorband_and_tick_rounding": [
+        0.010682213209733489,
+        0.014339513325608342
+      ]
+    },
+    {
+      "rp": 41.1,
+      "x_over_M": 0,
+      "y_over_M": 100,
+      "pixel_accepted": true,
+      "max_RGB_distance": 0.0,
+      "fraction_of_colorbar_maximum": 0.11935110081112399,
+      "nominal_field_if_max_0p37": 0.044159907300115875,
+      "interval_from_colorband_and_tick_rounding": [
+        0.04230156431054461,
+        0.04649478563151796
+      ]
+    },
+    {
+      "rp": 41.1,
+      "x_over_M": 0,
+      "y_over_M": -100,
+      "pixel_accepted": true,
+      "max_RGB_distance": 0.0,
+      "fraction_of_colorbar_maximum": 0.10892236384704519,
+      "nominal_field_if_max_0p37": 0.04030127462340672,
+      "interval_from_colorband_and_tick_rounding": [
+        0.03845596755504056,
+        0.04258400926998841
+      ]
+    },
+    {
+      "rp": 41.1,
+      "x_over_M": -50,
+      "y_over_M": 50,
+      "pixel_accepted": true,
+      "max_RGB_distance": 0.0,
+      "fraction_of_colorbar_maximum": 0.16222479721900346,
+      "nominal_field_if_max_0p37": 0.06002317497103128,
+      "interval_from_colorband_and_tick_rounding": [
+        0.058111239860950174,
+        0.06257242178447277
+      ]
+    },
+    {
+      "rp": 41.1,
+      "x_over_M": 50,
+      "y_over_M": -50,
+      "pixel_accepted": true,
+      "max_RGB_distance": 0.0,
+      "fraction_of_colorbar_maximum": 0.14078794901506375,
+      "nominal_field_if_max_0p37": 0.052091541135573585,
+      "interval_from_colorband_and_tick_rounding": [
+        0.04999275782155273,
+        0.05475086906141367
+      ]
+    },
+    {
+      "rp": 41.1,
+      "x_over_M": -150,
+      "y_over_M": 0,
+      "pixel_accepted": true,
+      "max_RGB_distance": 0.0,
+      "fraction_of_colorbar_maximum": 0.06604866743916571,
+      "nominal_field_if_max_0p37": 0.024438006952491313,
+      "interval_from_colorband_and_tick_rounding": [
+        0.022646292004634996,
+        0.026506373117033605
+      ]
+    },
+    {
+      "rp": 41.1,
+      "x_over_M": 150,
+      "y_over_M": 0,
+      "pixel_accepted": true,
+      "max_RGB_distance": 0.0,
+      "fraction_of_colorbar_maximum": 0.0869061413673233,
+      "nominal_field_if_max_0p37": 0.03215527230590962,
+      "interval_from_colorband_and_tick_rounding": [
+        0.03033748551564311,
+        0.0343279258400927
+      ]
+    },
+    {
+      "rp": 42.1,
+      "x_over_M": -100,
+      "y_over_M": 0,
+      "pixel_accepted": true,
+      "max_RGB_distance": 0.0,
+      "fraction_of_colorbar_maximum": 0.11935110081112399,
+      "nominal_field_if_max_0p37": 0.044159907300115875,
+      "interval_from_colorband_and_tick_rounding": [
+        0.04230156431054461,
+        0.04649478563151796
+      ]
+    },
+    {
+      "rp": 42.1,
+      "x_over_M": 100,
+      "y_over_M": 0,
+      "pixel_accepted": true,
+      "max_RGB_distance": 0.0,
+      "fraction_of_colorbar_maximum": 0.022595596755504058,
+      "nominal_field_if_max_0p37": 0.008360370799536502,
+      "interval_from_colorband_and_tick_rounding": [
+        0.002563731170336037,
+        0.010428736964078795
+      ]
+    },
+    {
+      "rp": 42.1,
+      "x_over_M": 0,
+      "y_over_M": 100,
+      "pixel_accepted": true,
+      "max_RGB_distance": 0.0,
+      "fraction_of_colorbar_maximum": 0.11935110081112399,
+      "nominal_field_if_max_0p37": 0.044159907300115875,
+      "interval_from_colorband_and_tick_rounding": [
+        0.04230156431054461,
+        0.04649478563151796
+      ]
+    },
+    {
+      "rp": 42.1,
+      "x_over_M": 0,
+      "y_over_M": -100,
+      "pixel_accepted": true,
+      "max_RGB_distance": 0.0,
+      "fraction_of_colorbar_maximum": 0.10892236384704519,
+      "nominal_field_if_max_0p37": 0.04030127462340672,
+      "interval_from_colorband_and_tick_rounding": [
+        0.03845596755504056,
+        0.04258400926998841
+      ]
+    },
+    {
+      "rp": 42.1,
+      "x_over_M": -50,
+      "y_over_M": 50,
+      "pixel_accepted": true,
+      "max_RGB_distance": 0.0,
+      "fraction_of_colorbar_maximum": 0.07647740440324449,
+      "nominal_field_if_max_0p37": 0.02829663962920046,
+      "interval_from_colorband_and_tick_rounding": [
+        0.02649188876013905,
+        0.0343279258400927
+      ]
+    },
+    {
+      "rp": 42.1,
+      "x_over_M": 50,
+      "y_over_M": -50,
+      "pixel_accepted": true,
+      "max_RGB_distance": 0.0,
+      "fraction_of_colorbar_maximum": 0.0869061413673233,
+      "nominal_field_if_max_0p37": 0.03215527230590962,
+      "interval_from_colorband_and_tick_rounding": [
+        0.03033748551564311,
+        0.0343279258400927
+      ]
+    },
+    {
+      "rp": 42.1,
+      "x_over_M": -150,
+      "y_over_M": 0,
+      "pixel_accepted": true,
+      "max_RGB_distance": 0.0,
+      "fraction_of_colorbar_maximum": 0.022595596755504058,
+      "nominal_field_if_max_0p37": 0.008360370799536502,
+      "interval_from_colorband_and_tick_rounding": [
+        0.006409327925840093,
+        0.010428736964078795
+      ]
+    },
+    {
+      "rp": 42.1,
+      "x_over_M": 150,
+      "y_over_M": 0,
+      "pixel_accepted": true,
+      "max_RGB_distance": 0.0,
+      "fraction_of_colorbar_maximum": 0.09791425260718424,
+      "nominal_field_if_max_0p37": 0.03622827346465817,
+      "interval_from_colorband_and_tick_rounding": [
+        0.034183082271147164,
+        0.038673232908458866
+      ]
+    }
+  ],
+  "ring_statistics": [
+    {
+      "rp": 41.1,
+      "r_over_M": 10,
+      "accepted_fraction": 1.0,
+      "nominal_colorbar_maximum": 0.37,
+      "field_min": 0.11554461181923524,
+      "field_median": 0.14727114716106604,
+      "field_max": 0.17899768250289685,
+      "angular_amplitude_rms": 0.14964992705171445
+    },
+    {
+      "rp": 41.1,
+      "r_over_M": 20,
+      "accepted_fraction": 1.0,
+      "nominal_colorbar_maximum": 0.37,
+      "field_min": 0.09968134414831982,
+      "field_median": 0.1431981460023175,
+      "field_max": 0.17899768250289685,
+      "angular_amplitude_rms": 0.14505528017654293
+    },
+    {
+      "rp": 41.1,
+      "r_over_M": 50,
+      "accepted_fraction": 1.0,
+      "nominal_colorbar_maximum": 0.37,
+      "field_min": 0.008360370799536502,
+      "field_median": 0.07202780996523754,
+      "field_max": 0.10761297798377753,
+      "angular_amplitude_rms": 0.07150901757279268
+    },
+    {
+      "rp": 41.1,
+      "r_over_M": 100,
+      "accepted_fraction": 1.0,
+      "nominal_colorbar_maximum": 0.37,
+      "field_min": 0.001286210892236385,
+      "field_median": 0.044159907300115875,
+      "field_max": 0.044159907300115875,
+      "angular_amplitude_rms": 0.038466491312596184
+    },
+    {
+      "rp": 41.1,
+      "r_over_M": 150,
+      "accepted_fraction": 1.0,
+      "nominal_colorbar_maximum": 0.37,
+      "field_min": 0.001286210892236385,
+      "field_median": 0.02829663962920046,
+      "field_max": 0.03215527230590962,
+      "angular_amplitude_rms": 0.024614516670542323
+    },
+    {
+      "rp": 41.1,
+      "r_over_M": 180,
+      "accepted_fraction": 1.0,
+      "nominal_colorbar_maximum": 0.37,
+      "field_min": 0.001286210892236385,
+      "field_median": 0.024438006952491313,
+      "field_max": 0.02829663962920046,
+      "angular_amplitude_rms": 0.021222282735358
+    },
+    {
+      "rp": 42.1,
+      "r_over_M": 10,
+      "accepted_fraction": 1.0,
+      "nominal_colorbar_maximum": 0.37,
+      "field_min": 0.12347624565469294,
+      "field_median": 0.1590614136732329,
+      "field_max": 0.1907879490150637,
+      "angular_amplitude_rms": 0.16113636994282385
+    },
+    {
+      "rp": 42.1,
+      "r_over_M": 20,
+      "accepted_fraction": 1.0,
+      "nominal_colorbar_maximum": 0.37,
+      "field_min": 0.12347624565469294,
+      "field_median": 0.16720741599073,
+      "field_max": 0.20686558516801856,
+      "angular_amplitude_rms": 0.16971584955921482
+    },
+    {
+      "rp": 42.1,
+      "r_over_M": 50,
+      "accepted_fraction": 1.0,
+      "nominal_colorbar_maximum": 0.37,
+      "field_min": 0.004287369640787949,
+      "field_median": 0.07974507531865585,
+      "field_max": 0.11961761297798378,
+      "angular_amplitude_rms": 0.08058620923919717
+    },
+    {
+      "rp": 42.1,
+      "r_over_M": 100,
+      "accepted_fraction": 1.0,
+      "nominal_colorbar_maximum": 0.37,
+      "field_min": 0.001286210892236385,
+      "field_median": 0.04030127462340672,
+      "field_max": 0.044159907300115875,
+      "angular_amplitude_rms": 0.03746699677685159
+    },
+    {
+      "rp": 42.1,
+      "r_over_M": 150,
+      "accepted_fraction": 1.0,
+      "nominal_colorbar_maximum": 0.37,
+      "field_min": 0.004287369640787949,
+      "field_median": 0.020365005793742758,
+      "field_max": 0.03622827346465817,
+      "angular_amplitude_rms": 0.0224204393833536
+    },
+    {
+      "rp": 42.1,
+      "r_over_M": 180,
+      "accepted_fraction": 1.0,
+      "nominal_colorbar_maximum": 0.37,
+      "field_min": 0.008360370799536502,
+      "field_median": 0.012433371958285054,
+      "field_max": 0.012433371958285054,
+      "angular_amplitude_rms": 0.01209285216561314
+    }
+  ],
+  "polar_array": {
+    "path": "docs/environment_reproduction/li_field_polar_reference_20260917.npz",
+    "sha256": "e9ce5b2b66a229822c311ee05696503f3ea53ccf3abbc720d263fdbcf036a96d",
+    "shape": [
+      2,
+      9,
+      72
+    ],
+    "radii": [
+      10.0,
+      20.0,
+      30.0,
+      40.0,
+      50.0,
+      70.0,
+      100.0,
+      150.0,
+      180.0
+    ],
+    "phi_convention": "0=right, pi/2=up, radians, no rotation or phase fit"
+  },
+  "inputs_sha256": {
+    "outputs/paper_original_reference/li_2507_02045v2/source/scalar_radiation_11.png": "202392306a12abe01713c3bf81b9c63556146ea9ddcad4ae52cef5d440ba1ae4",
+    "outputs/paper_original_reference/li_2507_02045v2/source/main.tex": "4535abc53b9d8cd1ea1919bfcf8847ab3a065137ee21df4cc6f20c38acf092a4",
+    "src/report_li_field_pixels_20260917.py": "057e893658354171691607da32f9f5ebe88e05817583911c5ec723c403847e23"
+  },
+  "limitations": [
+    "Printed colorbar has rounded tick values; nominal values use .37 and carry <=1.4% endpoint uncertainty from labels.",
+    "The image and colorbar are discretized into color bands. Exact matching RGB rows give a value interval, combined with rounded tick endpoint bounds; midpoints are nominal estimates only.",
+    "Pixel inversion is not original author numerical data, nor proof that the plotted maximum equals the continuous field maximum.",
+    "No local comparison performed because spin, orbits, and scalar cutoff differ.",
+    "Circle centres and radii come from colored-pixel bounds; orientation is assumed as conventional x right and y up.",
+    "Caption says equatorial theta=0 despite polar angular conventions. This is inconsistent wording, not permission to evaluate at the pole.",
+    "Ring RMS refers to the magnitude displayed in the PNG, not the missing complex field phase."
+  ]
+}

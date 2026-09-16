@@ -1,0 +1,143 @@
+{
+  "status": "independent_visual_and_particle_position_crosscheck_no_factor_four_digitization_error_found",
+  "input_report_sha256": "ef3133ec1161375ebd3fe89f5ff256a554b3e301586d96e071b0bc5c584a4e16",
+  "visual_checks": {
+    "colorbar_scientific_multiplier": "explicit x10^-2; tick labels0.5 through3.5 mean.005 through.035; input report correctly includes it",
+    "axes": "X,Y ticks spacing90; no alpha^2 multiplier or rescaled-radius label visible",
+    "quantity": "main_PRL.tex:661 explicitly absolute value |phi^(1,1)| for ell>=2, not phi squared",
+    "normalization": "main_PRL.tex:285,288: physical perturbation epsilon q phi^(1,1), epsilon=alpha^3 sqrt(Mc/M)",
+    "limitations": "Exact Cartesian Kerr embedding not stated, but marked particle positions exclude multiplying axes by alpha^2."
+  },
+  "particle_centroids": [
+    {
+      "rp": 41.6,
+      "pixels": 464,
+      "pixel_x": 1458.4956896551723,
+      "pixel_y": 1409.2737068965516,
+      "X_M": -0.001029814194453138,
+      "Y_M": 0.0062810325643454235
+    },
+    {
+      "rp": 41.6,
+      "pixels": 112,
+      "pixel_x": 1632.580357142857,
+      "pixel_y": 1409.25,
+      "X_M": 41.59073809072487,
+      "Y_M": 0.011944258646849448
+    },
+    {
+      "rp": 41.8,
+      "pixels": 462,
+      "pixel_x": 1458.5714285714287,
+      "pixel_y": 3328.5670995670994,
+      "X_M": 0.01706549236968158,
+      "Y_M": 0.007860468104468055
+    },
+    {
+      "rp": 41.8,
+      "pixels": 113,
+      "pixel_x": 1633.4778761061948,
+      "pixel_y": 3328.548672566372,
+      "X_M": 41.80517053300787,
+      "Y_M": 0.012262989248370104
+    }
+  ],
+  "axis_r100_points": [
+    {
+      "rp": 41.6,
+      "x_M": -100,
+      "y_M": 0,
+      "paper_value": 0.012372389791183293,
+      "local": 0.04789888313780761,
+      "ratio": 3.8714334050436157,
+      "ratio_allowed_by_RGB_tolerance": [
+        3.7723926235532357,
+        4.041981132138047
+      ]
+    },
+    {
+      "rp": 41.6,
+      "x_M": 100,
+      "y_M": 0,
+      "paper_value": 0.0032308584686774958,
+      "local": 0.011961079005593485,
+      "ratio": 3.702136482162147,
+      "ratio_allowed_by_RGB_tolerance": [
+        3.288819809512466,
+        4.216953007288993
+      ]
+    },
+    {
+      "rp": 41.6,
+      "x_M": 0,
+      "y_M": 100,
+      "paper_value": 0.012488399071925754,
+      "local": 0.047551167765071414,
+      "ratio": 3.8076271819314034,
+      "ratio_allowed_by_RGB_tolerance": [
+        3.7077437009038046,
+        3.973737916964766
+      ]
+    },
+    {
+      "rp": 41.6,
+      "x_M": 0,
+      "y_M": -100,
+      "paper_value": 0.011154292343387471,
+      "local": 0.04205638225601459,
+      "ratio": 3.7704213733421295,
+      "ratio_allowed_by_RGB_tolerance": [
+        3.619830404861165,
+        3.959869088441788
+      ]
+    },
+    {
+      "rp": 41.8,
+      "x_M": -100,
+      "y_M": 0,
+      "paper_value": 0.011966357308584686,
+      "local": 0.05219917597159499,
+      "ratio": 4.362160900389228,
+      "ratio_allowed_by_RGB_tolerance": [
+        4.1489801463821925,
+        4.448412228128016
+      ]
+    },
+    {
+      "rp": 41.8,
+      "x_M": 100,
+      "y_M": 0,
+      "paper_value": 0.002674013921113688,
+      "local": 0.011203406658387722,
+      "ratio": 4.189733856629163,
+      "ratio_allowed_by_RGB_tolerance": [
+        3.518155387807001,
+        5.2916912545370955
+      ]
+    },
+    {
+      "rp": 41.8,
+      "x_M": 0,
+      "y_M": 100,
+      "paper_value": 0.011966357308584686,
+      "local": 0.050816478403519466,
+      "ratio": 4.2466121554855825,
+      "ratio_allowed_by_RGB_tolerance": [
+        4.039078320316623,
+        4.369456796392397
+      ]
+    },
+    {
+      "rp": 41.8,
+      "x_M": 0,
+      "y_M": -100,
+      "paper_value": 0.011154292343387471,
+      "local": 0.04692368036332042,
+      "ratio": 4.206782368505689,
+      "ratio_allowed_by_RGB_tolerance": [
+        4.079496971576621,
+        4.370417339079654
+      ]
+    }
+  ]
+}

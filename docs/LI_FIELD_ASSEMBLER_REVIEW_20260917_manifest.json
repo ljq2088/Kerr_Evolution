@@ -1,0 +1,11 @@
+{
+  "status": "report_code_review_and_reference_integrity_checks_passed_no_field_recompute",
+  "files": {
+    "docs/LI_FIELD_ASSEMBLER_REVIEW_20260917.md": "5bab06faaf74d92aeea32a4137c5e2735431126df081dca1ae8151d2fc088cc0",
+    "src/report_li_field_alignment_plot.py": "dc5b5dbdd5912896d9aa5c6b29ef2f1330486bc8a334e3079eee055b235e0426"
+  },
+  "reference_npz_sha256": "e9ce5b2b66a229822c311ee05696503f3ea53ccf3abbc720d263fdbcf036a96d",
+  "reference_png_sha256": "202392306a12abe01713c3bf81b9c63556146ea9ddcad4ae52cef5d440ba1ae4",
+  "reference_cells": 1296,
+  "colorbar_entries": 864
+}

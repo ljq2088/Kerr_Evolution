@@ -1,0 +1,45 @@
+{
+  "status": "finite_resolution_nonstatic_channels_completed",
+  "started_utc": "2026-09-16T22:15:53.951164+00:00",
+  "orbits": [
+    41.1,
+    42.1
+  ],
+  "metric_groups_parallel": 2,
+  "metric_radius_workers_per_group": 4,
+  "output_directory": "docs/field_alignment_20260917/nonstatic",
+  "results": [
+    {
+      "orbital_radius": 42.1,
+      "exit_code": 0,
+      "log": "docs/field_alignment_20260917/nonstatic_rp42p1.log",
+      "completed_utc": "2026-09-16T22:48:32.663042+00:00",
+      "command": [
+        "/home/ljq/code/kerr-hyperboloidal/.venv/bin/python",
+        "-u",
+        "/home/ljq/code/kerr-hyperboloidal/src/report_li_field_alignment_runs.py",
+        "--worker-rp",
+        "42.1",
+        "--workers",
+        "4"
+      ]
+    },
+    {
+      "orbital_radius": 41.1,
+      "exit_code": 0,
+      "log": "docs/field_alignment_20260917/nonstatic_rp41p1.log",
+      "completed_utc": "2026-09-16T22:48:39.108219+00:00",
+      "command": [
+        "/home/ljq/code/kerr-hyperboloidal/.venv/bin/python",
+        "-u",
+        "/home/ljq/code/kerr-hyperboloidal/src/report_li_field_alignment_runs.py",
+        "--worker-rp",
+        "41.1",
+        "--workers",
+        "4"
+      ]
+    }
+  ],
+  "implementation_sha256": "da961d7fb25ee839140d3de71337f9f9df5ebc4d50966fd3da8e14faf4d9ff9f",
+  "completed_utc": "2026-09-16T22:48:39.110420+00:00"
+}

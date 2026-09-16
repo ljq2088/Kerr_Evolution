@@ -1,0 +1,884 @@
+{
+  "status": "two_mode_radial_source_comparison_vector_digitization_not_author_arrays",
+  "source_url": "https://arxiv.org/html/2507.02045v2",
+  "paper_source_pdf": "outputs/paper_original_reference/li_2507_02045v2/source/source_l2l3.pdf",
+  "exact_variable_relation": {
+    "local": "J_lm=integral S_lm* Sigma h^{ab} Hessian_ab(phi_cloud) dOmega",
+    "Li": "mathscr S_lm in d_r(Delta d_r R)+V R=mathscr S",
+    "equation_relation": "For the same normalized h and physical cloud, the coefficient in the literal expansion Phi=zeta Phi10+epsilon*zeta Phi11 is J_local/(alpha^3 sqrt(eta)); identification with the plotted source normalization is unresolved",
+    "extra_Delta_factor": false,
+    "extra_sqrt_r2_plus_a2_factor": false,
+    "angular_normalization": "integral |S(theta)|^2 sin(theta) dtheta=1/(2*pi)",
+    "tex_lines": [
+      148,
+      164,
+      371,
+      373,
+      438,
+      448,
+      491,
+      511,
+      851
+    ]
+  },
+  "paper_parameters": {
+    "a": 0.88,
+    "alpha": 0.3,
+    "rp": 20,
+    "cloud_ell": 1,
+    "cloud_m": 1,
+    "cloud_n": 0
+  },
+  "local_parameters": {
+    "2": {
+      "alpha": 0.3,
+      "cloud_mass": 1.0,
+      "metric": {
+        "status": "development_not_production_validated",
+        "coordinates": "Boyer-Lindquist",
+        "field": "covariant h_ab; particle mass stripped",
+        "m_g": 1,
+        "ellmax": 18,
+        "orbital_radius": 20.0,
+        "a": 0.8771530275949366,
+        "static_and_low_modes_included": false,
+        "kappa_mass_squared_step": 1.2258388238672426e-06,
+        "maxwell_chiralities": "both; full complex compact current",
+        "nonstatic_dipole_included": true
+      },
+      "scalar_ell": 2,
+      "scalar_m": 2,
+      "omega": 0.3073650090618292,
+      "radial_order": 8,
+      "angular_order": 18,
+      "source_panels": [
+        1.4807109600800843,
+        3.0,
+        6.0,
+        12.0,
+        20.0,
+        40.0,
+        80.0,
+        160.0,
+        320.0
+      ],
+      "green_outer_radius": 4000.0,
+      "green_horizon_offset": 0.0001,
+      "horizon_log_first_panel": true,
+      "horizon_quadrature_order": 32
+    },
+    "3": {
+      "alpha": 0.3,
+      "cloud_mass": 1.0,
+      "metric": {
+        "status": "development_not_production_validated",
+        "coordinates": "Boyer-Lindquist",
+        "field": "covariant h_ab; particle mass stripped",
+        "m_g": 2,
+        "ellmax": 18,
+        "orbital_radius": 20.0,
+        "a": 0.8771530275949366,
+        "static_and_low_modes_included": false,
+        "kappa_mass_squared_step": 4.9033552954689705e-06,
+        "maxwell_chiralities": "both; full complex compact current"
+      },
+      "scalar_ell": 3,
+      "scalar_m": 3,
+      "omega": 0.3184367696439012,
+      "radial_order": 8,
+      "angular_order": 18,
+      "source_panels": [
+        1.4807109600800843,
+        3.0,
+        6.0,
+        12.0,
+        20.0,
+        40.0,
+        80.0,
+        160.0,
+        320.0
+      ],
+      "green_outer_radius": 1000.0,
+      "green_horizon_offset": 0.0001,
+      "horizon_log_first_panel": true,
+      "horizon_quadrature_order": 32
+    }
+  },
+  "normalization_status": "UNRESOLVED: literal zeta-stripped source is about 21.6 times the plotted source; no fitted factor was applied",
+  "cloud_normalization_check": {
+    "status": "cloud_profile_is_consistent_with_literal_zeta_units_but_source_figure_is_not",
+    "cloud_profile_pdf_sha256": "c8cf14efb7d24dff82ae989b78fbd4683f9c2f581b412d32f1eff7f99adb879b",
+    "raw_Leaver_ansatz": "exp(-k*r)*(r-r_minus)^beta*sum a_n*((r-r_plus)/(r-r_minus))^n with a0=1",
+    "raw_Leaver_unit_a0_cloud_mass": 629353.2252952765,
+    "raw_Leaver_horizon_R": 0.9023829385783333,
+    "raw_Leaver_to_literal_zeta_amplitude": 0.04668625144409363,
+    "horizon_unit_to_unit_mass_amplitude": 0.001137479673320728,
+    "horizon_unit_to_literal_zeta_amplitude": 0.0421288767896566,
+    "samples": [
+      {
+        "r": 5.0,
+        "local_R_literal_zeta_units": 0.23078697079558638,
+        "paper_R_pdf_polyline": 0.22903893603074235,
+        "local_over_paper": 1.0076320419363518,
+        "raw_a0_1_Leaver_R": 4.943360487221695
+      },
+      {
+        "r": 10.0,
+        "local_R_literal_zeta_units": 0.3619507066514332,
+        "paper_R_pdf_polyline": 0.36139084497104806,
+        "local_over_paper": 1.0015491861185084,
+        "raw_a0_1_Leaver_R": 7.752832906509446
+      },
+      {
+        "r": 20.0,
+        "local_R_literal_zeta_units": 0.4214477143064502,
+        "paper_R_pdf_polyline": 0.4212650953587112,
+        "local_over_paper": 1.0004335012555063,
+        "raw_a0_1_Leaver_R": 9.027233951431718
+      },
+      {
+        "r": 50.0,
+        "local_R_literal_zeta_units": 0.22495490599307072,
+        "paper_R_pdf_polyline": 0.22519204452468244,
+        "local_over_paper": 0.9989469497818528,
+        "raw_a0_1_Leaver_R": 4.818440095601764
+      },
+      {
+        "r": 100.0,
+        "local_R_literal_zeta_units": 0.038241669662432136,
+        "paper_R_pdf_polyline": 0.03835508747105267,
+        "local_over_paper": 0.9970429526798463,
+        "raw_a0_1_Leaver_R": 0.8191205859040055
+      }
+    ],
+    "limitation": "Cloud a is synchronized locally vs 0.88 in reference. Raw a0=1 convention is not identified as the author source plot convention."
+  },
+  "curve_calibration": {
+    "2": {
+      "curves": {
+        "Li": 2,
+        "Dyson_replotted_by_Li": 3
+      },
+      "xticks": [
+        105.03203582763672,
+        174.45848083496094
+      ],
+      "yticks": [
+        139.0921173095703,
+        120.44125366210938,
+        101.79039764404297,
+        83.13954162597656,
+        64.48867797851562,
+        45.83781433105469,
+        27.186965942382812
+      ],
+      "ylog": [
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1
+      ],
+      "xmap": [
+        0.014403733330930354,
+        -0.5128534352660019
+      ],
+      "ymap": [
+        -0.05361683336827132,
+        0.4576787743613107
+      ]
+    },
+    "3": {
+      "curves": {
+        "Li": 29,
+        "Dyson_replotted_by_Li": 30
+      },
+      "xticks": [
+        352.7120361328125,
+        422.13848876953125
+      ],
+      "yticks": [
+        135.60842895507812,
+        115.2350082397461,
+        94.8615951538086,
+        74.4881820678711,
+        54.114768981933594,
+        33.741363525390625
+      ],
+      "ylog": [
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2
+      ],
+      "xmap": [
+        0.014403731748078852,
+        -4.080369552775724
+      ],
+      "ymap": [
+        -0.04908357749297428,
+        -0.3438534183348855
+      ]
+    }
+  },
+  "rows": [
+    {
+      "ell": 2,
+      "m": 2,
+      "r": 3.5,
+      "local_source_real": -0.020789566504981552,
+      "local_source_imag": 0.0006432726246527927,
+      "cloud_amplitude_conversion": 37.03703703703704,
+      "local_abs_source_literal_zeta_units": 0.7703524527249278,
+      "local_interpolation": "same panel degree N-1 complex Legendre; log r-r+ on first panel",
+      "panel_bounds": [
+        3.0,
+        6.0
+      ],
+      "interpolation_method_change": 0.00026460010743500613,
+      "Li_abs_source": 0.035748415865982985,
+      "local_over_Li": 21.549275235380986,
+      "Dyson_replotted_by_Li_abs_source": 0.035674802979662315,
+      "local_over_Dyson_replotted_by_Li": 21.593740914675674,
+      "Li_over_Dyson": 1.0020634419862846,
+      "shape_ratio_relative_to_r10_Li": 0.9980413741271859,
+      "shape_ratio_relative_to_r10_Dyson_replotted_by_Li": 0.9937479624390058
+    },
+    {
+      "ell": 2,
+      "m": 2,
+      "r": 5.0,
+      "local_source_real": -0.01845967897513528,
+      "local_source_imag": 0.00020858810531333266,
+      "cloud_amplitude_conversion": 37.03703703703704,
+      "local_abs_source_literal_zeta_units": 0.6837354601817265,
+      "local_interpolation": "same panel degree N-1 complex Legendre; log r-r+ on first panel",
+      "panel_bounds": [
+        3.0,
+        6.0
+      ],
+      "interpolation_method_change": 0.00011685312479078822,
+      "Li_abs_source": 0.031785556474805486,
+      "local_over_Li": 21.510885320622993,
+      "Dyson_replotted_by_Li_abs_source": 0.031626500997481544,
+      "local_over_Dyson_replotted_by_Li": 21.619067510382294,
+      "Li_over_Dyson": 1.0050291835108982,
+      "shape_ratio_relative_to_r10_Li": 0.9962633689340096,
+      "shape_ratio_relative_to_r10_Dyson_replotted_by_Li": 0.9949134970713984
+    },
+    {
+      "ell": 2,
+      "m": 2,
+      "r": 8.0,
+      "local_source_real": -0.018128241855141867,
+      "local_source_imag": 0.000271037780485548,
+      "cloud_amplitude_conversion": 37.03703703703704,
+      "local_abs_source_literal_zeta_units": 0.6714914038172825,
+      "local_interpolation": "same panel degree N-1 complex Legendre; log r-r+ on first panel",
+      "panel_bounds": [
+        6.0,
+        12.0
+      ],
+      "interpolation_method_change": 0.00016340737428089658,
+      "Li_abs_source": 0.03067259533430289,
+      "local_over_Li": 21.8922264809563,
+      "Dyson_replotted_by_Li_abs_source": 0.030814372437158056,
+      "local_over_Dyson_replotted_by_Li": 21.791500222394685,
+      "Li_over_Dyson": 0.9953989943120114,
+      "shape_ratio_relative_to_r10_Li": 1.0139249492662068,
+      "shape_ratio_relative_to_r10_Dyson_replotted_by_Li": 1.0028488824637316
+    },
+    {
+      "ell": 2,
+      "m": 2,
+      "r": 10.0,
+      "local_source_real": -0.01751745442786907,
+      "local_source_imag": 0.00028914743371548737,
+      "cloud_amplitude_conversion": 37.03703703703704,
+      "local_abs_source_literal_zeta_units": 0.6488829864762986,
+      "local_interpolation": "same panel degree N-1 complex Legendre; log r-r+ on first panel",
+      "panel_bounds": [
+        6.0,
+        12.0
+      ],
+      "interpolation_method_change": 7.38858221336758e-05,
+      "Li_abs_source": 0.030052614781552654,
+      "local_over_Li": 21.591565033289736,
+      "Dyson_replotted_by_Li_abs_source": 0.02986171540262937,
+      "local_over_Dyson_replotted_by_Li": 21.729595159799942,
+      "Li_over_Dyson": 1.0063927800646868,
+      "shape_ratio_relative_to_r10_Li": 1.0,
+      "shape_ratio_relative_to_r10_Dyson_replotted_by_Li": 1.0
+    },
+    {
+      "ell": 2,
+      "m": 2,
+      "r": 15.0,
+      "local_source_real": -0.011633372134030602,
+      "local_source_imag": 0.00023624536699921262,
+      "cloud_amplitude_conversion": 37.03703703703704,
+      "local_abs_source_literal_zeta_units": 0.4309544692551788,
+      "local_interpolation": "same panel degree N-1 complex Legendre; log r-r+ on first panel",
+      "panel_bounds": [
+        12.0,
+        20.0
+      ],
+      "interpolation_method_change": 0.00022843112202433922,
+      "Li_abs_source": 0.01993493733072843,
+      "local_over_Li": 21.61804986418944,
+      "Dyson_replotted_by_Li_abs_source": 0.01983278404439018,
+      "local_over_Dyson_replotted_by_Li": 21.729398570095192,
+      "Li_over_Dyson": 1.0051507285164607,
+      "shape_ratio_relative_to_r10_Li": 1.0012266285866203,
+      "shape_ratio_relative_to_r10_Dyson_replotted_by_Li": 0.9999909529053209
+    },
+    {
+      "ell": 2,
+      "m": 2,
+      "r": 25.0,
+      "local_source_real": 0.0007739052439491797,
+      "local_source_imag": -4.4141219087660946e-05,
+      "cloud_amplitude_conversion": 37.03703703703704,
+      "local_abs_source_literal_zeta_units": 0.028709743064399704,
+      "local_interpolation": "same panel degree N-1 complex Legendre; log r-r+ on first panel",
+      "panel_bounds": [
+        20.0,
+        40.0
+      ],
+      "interpolation_method_change": 0.0008835534807938244,
+      "Li_abs_source": 0.0013268512210946274,
+      "local_over_Li": 21.63749982512335,
+      "Dyson_replotted_by_Li_abs_source": 0.0013196803611053626,
+      "local_over_Dyson_replotted_by_Li": 21.75507335757612,
+      "Li_over_Dyson": 1.0054337854836746,
+      "shape_ratio_relative_to_r10_Li": 1.0021274415153691,
+      "shape_ratio_relative_to_r10_Dyson_replotted_by_Li": 1.0011725113877552
+    },
+    {
+      "ell": 2,
+      "m": 2,
+      "r": 50.0,
+      "local_source_real": -0.000924377887227295,
+      "local_source_imag": -0.0006464697526615045,
+      "cloud_amplitude_conversion": 37.03703703703704,
+      "local_abs_source_literal_zeta_units": 0.04177800137024854,
+      "local_interpolation": "same panel degree N-1 complex Legendre; log r-r+ on first panel",
+      "panel_bounds": [
+        40.0,
+        80.0
+      ],
+      "interpolation_method_change": 0.001510285358508275,
+      "Li_abs_source": 0.0019365908713598326,
+      "local_over_Li": 21.57296204794817,
+      "Dyson_replotted_by_Li_abs_source": 0.0019223828029578819,
+      "local_over_Dyson_replotted_by_Li": 21.732404860242536,
+      "Li_over_Dyson": 1.0073908632453896,
+      "shape_ratio_relative_to_r10_Li": 0.9991384142227354,
+      "shape_ratio_relative_to_r10_Dyson_replotted_by_Li": 1.0001293029355554
+    },
+    {
+      "ell": 2,
+      "m": 2,
+      "r": 100.0,
+      "local_source_real": -0.00022013830804809044,
+      "local_source_imag": -0.0004408575268817927,
+      "cloud_amplitude_conversion": 37.03703703703704,
+      "local_abs_source_literal_zeta_units": 0.01825051378266984,
+      "local_interpolation": "same panel degree N-1 complex Legendre; log r-r+ on first panel",
+      "panel_bounds": [
+        80.0,
+        160.0
+      ],
+      "interpolation_method_change": 0.0009345932425287353,
+      "Li_abs_source": 0.000843873825625493,
+      "local_over_Li": 21.627064649318,
+      "Dyson_replotted_by_Li_abs_source": 0.0008404887057653814,
+      "local_over_Dyson_replotted_by_Li": 21.714168979879652,
+      "Li_over_Dyson": 1.0040275613900473,
+      "shape_ratio_relative_to_r10_Li": 1.0016441427924994,
+      "shape_ratio_relative_to_r10_Dyson_replotted_by_Li": 0.9992900843385786
+    },
+    {
+      "ell": 2,
+      "m": 2,
+      "r": 200.0,
+      "local_source_real": 9.63969189896416e-06,
+      "local_source_imag": -1.3140447797715134e-05,
+      "cloud_amplitude_conversion": 37.03703703703704,
+      "local_abs_source_literal_zeta_units": 0.0006035957961178385,
+      "local_interpolation": "same panel degree N-1 complex Legendre; log r-r+ on first panel",
+      "panel_bounds": [
+        160.0,
+        320.0
+      ],
+      "interpolation_method_change": 0.008924972891703123,
+      "Li_abs_source": 2.80008575002348e-05,
+      "local_over_Li": 21.556332555628952,
+      "Dyson_replotted_by_Li_abs_source": 2.76691589045956e-05,
+      "local_over_Dyson_replotted_by_Li": 21.814750430219497,
+      "Li_over_Dyson": 1.01198802597444,
+      "shape_ratio_relative_to_r10_Li": 0.9983682295560112,
+      "shape_ratio_relative_to_r10_Dyson_replotted_by_Li": 1.0039188613406427
+    },
+    {
+      "ell": 3,
+      "m": 3,
+      "r": 3.5,
+      "local_source_real": -2.4738328977996113e-05,
+      "local_source_imag": -9.016140879600477e-06,
+      "cloud_amplitude_conversion": 37.03703703703704,
+      "local_abs_source_literal_zeta_units": 0.0009751899797214887,
+      "local_interpolation": "same panel degree N-1 complex Legendre; log r-r+ on first panel",
+      "panel_bounds": [
+        3.0,
+        6.0
+      ],
+      "interpolation_method_change": 0.00023403151694476596,
+      "Li_abs_source": 4.5308137656126536e-05,
+      "local_over_Li": 21.52350615518235,
+      "Dyson_replotted_by_Li_abs_source": 4.513620053268761e-05,
+      "local_over_Dyson_replotted_by_Li": 21.605495549304305,
+      "Li_over_Dyson": 1.0038092954526467,
+      "shape_ratio_relative_to_r10_Li": 0.9987020310036084,
+      "shape_ratio_relative_to_r10_Dyson_replotted_by_Li": 0.9949341218015241
+    },
+    {
+      "ell": 3,
+      "m": 3,
+      "r": 5.0,
+      "local_source_real": -5.317899321872622e-05,
+      "local_source_imag": -1.3156374146915104e-05,
+      "cloud_amplitude_conversion": 37.03703703703704,
+      "local_abs_source_literal_zeta_units": 0.00202897242010614,
+      "local_interpolation": "same panel degree N-1 complex Legendre; log r-r+ on first panel",
+      "panel_bounds": [
+        3.0,
+        6.0
+      ],
+      "interpolation_method_change": 7.995259500197726e-05,
+      "Li_abs_source": 9.433561000541459e-05,
+      "local_over_Li": 21.508022474118555,
+      "Dyson_replotted_by_Li_abs_source": 9.381181566296593e-05,
+      "local_over_Dyson_replotted_by_Li": 21.62811161651055,
+      "Li_over_Dyson": 1.0055834581043657,
+      "shape_ratio_relative_to_r10_Li": 0.9979835800405389,
+      "shape_ratio_relative_to_r10_Dyson_replotted_by_Li": 0.9959755927973225
+    },
+    {
+      "ell": 3,
+      "m": 3,
+      "r": 8.0,
+      "local_source_real": -0.0003036548020568056,
+      "local_source_imag": -2.2815388123367563e-05,
+      "cloud_amplitude_conversion": 37.03703703703704,
+      "local_abs_source_literal_zeta_units": 0.0112781749457145,
+      "local_interpolation": "same panel degree N-1 complex Legendre; log r-r+ on first panel",
+      "panel_bounds": [
+        6.0,
+        12.0
+      ],
+      "interpolation_method_change": 0.0014053899610286572,
+      "Li_abs_source": 0.00052353154562495,
+      "local_over_Li": 21.542493551656985,
+      "Dyson_replotted_by_Li_abs_source": 0.0005225084599210796,
+      "local_over_Dyson_replotted_by_Li": 21.584674336981973,
+      "Li_over_Dyson": 1.001958027060509,
+      "shape_ratio_relative_to_r10_Li": 0.9995830562086085,
+      "shape_ratio_relative_to_r10_Dyson_replotted_by_Li": 0.9939753039605036
+    },
+    {
+      "ell": 3,
+      "m": 3,
+      "r": 10.0,
+      "local_source_real": -0.0007885251715603352,
+      "local_source_imag": -2.9244197767974818e-05,
+      "cloud_amplitude_conversion": 37.03703703703704,
+      "local_abs_source_literal_zeta_units": 0.029224714001807553,
+      "local_interpolation": "same panel degree N-1 complex Legendre; log r-r+ on first panel",
+      "panel_bounds": [
+        6.0,
+        12.0
+      ],
+      "interpolation_method_change": 6.960101319936368e-05,
+      "Li_abs_source": 0.0013560421345235759,
+      "local_over_Li": 21.551479307149403,
+      "Dyson_replotted_by_Li_abs_source": 0.0013457995024430424,
+      "local_over_Dyson_replotted_by_Li": 21.71550364579245,
+      "Li_over_Dyson": 1.007610815773033,
+      "shape_ratio_relative_to_r10_Li": 1.0,
+      "shape_ratio_relative_to_r10_Dyson_replotted_by_Li": 1.0
+    },
+    {
+      "ell": 3,
+      "m": 3,
+      "r": 15.0,
+      "local_source_real": -0.0045436400869433595,
+      "local_source_imag": -4.171880964314979e-05,
+      "cloud_amplitude_conversion": 37.03703703703704,
+      "local_abs_source_literal_zeta_units": 0.16829005962441912,
+      "local_interpolation": "same panel degree N-1 complex Legendre; log r-r+ on first panel",
+      "panel_bounds": [
+        12.0,
+        20.0
+      ],
+      "interpolation_method_change": 0.00046533879507052963,
+      "Li_abs_source": 0.007722497073255834,
+      "local_over_Li": 21.79218172930526,
+      "Dyson_replotted_by_Li_abs_source": 0.007623529185516718,
+      "local_over_Dyson_replotted_by_Li": 22.07508563673355,
+      "Li_over_Dyson": 1.0129818992399395,
+      "shape_ratio_relative_to_r10_Li": 1.0111687192663386,
+      "shape_ratio_relative_to_r10_Dyson_replotted_by_Li": 1.016558768187298
+    },
+    {
+      "ell": 3,
+      "m": 3,
+      "r": 25.0,
+      "local_source_real": -0.01079647982372468,
+      "local_source_imag": -4.171948423079894e-05,
+      "cloud_amplitude_conversion": 37.03703703703704,
+      "local_abs_source_literal_zeta_units": 0.39987260848561507,
+      "local_interpolation": "same panel degree N-1 complex Legendre; log r-r+ on first panel",
+      "panel_bounds": [
+        20.0,
+        40.0
+      ],
+      "interpolation_method_change": 0.00014659461703898612,
+      "Li_abs_source": 0.018562711915811752,
+      "local_over_Li": 21.541712778777914,
+      "Dyson_replotted_by_Li_abs_source": 0.0183539435713818,
+      "local_over_Dyson_replotted_by_Li": 21.78674064951972,
+      "Li_over_Dyson": 1.0113745770012865,
+      "shape_ratio_relative_to_r10_Li": 0.999546827935461,
+      "shape_ratio_relative_to_r10_Dyson_replotted_by_Li": 1.00328046748946
+    },
+    {
+      "ell": 3,
+      "m": 3,
+      "r": 50.0,
+      "local_source_real": -0.002700128266749361,
+      "local_source_imag": 3.222019328321029e-05,
+      "cloud_amplitude_conversion": 37.03703703703704,
+      "local_abs_source_literal_zeta_units": 0.10001187033631313,
+      "local_interpolation": "same panel degree N-1 complex Legendre; log r-r+ on first panel",
+      "panel_bounds": [
+        40.0,
+        80.0
+      ],
+      "interpolation_method_change": 0.0004472437062577034,
+      "Li_abs_source": 0.004625824291257405,
+      "local_over_Li": 21.62033489368175,
+      "Dyson_replotted_by_Li_abs_source": 0.004617522355667626,
+      "local_over_Dyson_replotted_by_Li": 21.659206525238982,
+      "Li_over_Dyson": 1.0017979199558371,
+      "shape_ratio_relative_to_r10_Li": 1.003194935510042,
+      "shape_ratio_relative_to_r10_Dyson_replotted_by_Li": 0.9974075148579676
+    },
+    {
+      "ell": 3,
+      "m": 3,
+      "r": 100.0,
+      "local_source_real": -0.00035880160212429005,
+      "local_source_imag": -1.1614509420543493e-05,
+      "cloud_amplitude_conversion": 37.03703703703704,
+      "local_abs_source_literal_zeta_units": 0.013295908717968074,
+      "local_interpolation": "same panel degree N-1 complex Legendre; log r-r+ on first panel",
+      "panel_bounds": [
+        80.0,
+        160.0
+      ],
+      "interpolation_method_change": 0.0007193745867974759,
+      "Li_abs_source": 0.0006163737383870399,
+      "local_over_Li": 21.571179772781246,
+      "Dyson_replotted_by_Li_abs_source": 0.0006111841063989014,
+      "local_over_Dyson_replotted_by_Li": 21.7543430510777,
+      "Li_over_Dyson": 1.0084911108351882,
+      "shape_ratio_relative_to_r10_Li": 1.0009141119897653,
+      "shape_ratio_relative_to_r10_Dyson_replotted_by_Li": 1.0017885565040892
+    },
+    {
+      "ell": 3,
+      "m": 3,
+      "r": 200.0,
+      "local_source_real": -1.2110667845335917e-06,
+      "local_source_imag": -1.0651978559203758e-05,
+      "cloud_amplitude_conversion": 37.03703703703704,
+      "local_abs_source_literal_zeta_units": 0.0003970593726137629,
+      "local_interpolation": "same panel degree N-1 complex Legendre; log r-r+ on first panel",
+      "panel_bounds": [
+        160.0,
+        320.0
+      ],
+      "interpolation_method_change": 0.013796225559762553,
+      "Li_abs_source": 1.8310620808046018e-05,
+      "local_over_Li": 21.68464831292273,
+      "Dyson_replotted_by_Li_abs_source": 1.8210357443050934e-05,
+      "local_over_Dyson_replotted_by_Li": 21.804040577209022,
+      "Li_over_Dyson": 1.005505842777037,
+      "shape_ratio_relative_to_r10_Li": 1.0061791120635115,
+      "shape_ratio_relative_to_r10_Dyson_replotted_by_Li": 1.0040771300017133
+    }
+  ],
+  "raw_node_rows": [
+    {
+      "ell": 2,
+      "m": 2,
+      "requested_near_r": 3.5,
+      "r": 3.30500028387956,
+      "local_abs_source_literal_zeta_units": 0.7997840317663624,
+      "local_interpolation": "none: original cached Gauss sample",
+      "Li_abs_source": 0.037153535791355455,
+      "local_over_Li": 21.52645810772198,
+      "Dyson_replotted_by_Li_abs_source": 0.03699178309234412,
+      "local_over_Dyson_replotted_by_Li": 21.620586111510992,
+      "Li_over_Dyson": 1.0043726656432739
+    },
+    {
+      "ell": 2,
+      "m": 2,
+      "requested_near_r": 5.0,
+      "r": 4.7751519637434745,
+      "local_abs_source_literal_zeta_units": 0.6883809277064883,
+      "local_interpolation": "none: original cached Gauss sample",
+      "Li_abs_source": 0.03193572335752329,
+      "local_over_Li": 21.555200738683826,
+      "Dyson_replotted_by_Li_abs_source": 0.031885385759285484,
+      "local_over_Dyson_replotted_by_Li": 21.589230028556948,
+      "Li_over_Dyson": 1.0015787043825601
+    },
+    {
+      "ell": 2,
+      "m": 2,
+      "requested_near_r": 8.0,
+      "r": 8.449696072513051,
+      "local_abs_source_literal_zeta_units": 0.6688233861214885,
+      "local_interpolation": "none: original cached Gauss sample",
+      "Li_abs_source": 0.030562316531140547,
+      "local_over_Li": 21.883923145682076,
+      "Dyson_replotted_by_Li_abs_source": 0.030730317978412122,
+      "local_over_Dyson_replotted_by_Li": 21.76428459319338,
+      "Li_over_Dyson": 0.9945330390857134
+    },
+    {
+      "ell": 2,
+      "m": 2,
+      "requested_near_r": 10.0,
+      "r": 9.550303927486949,
+      "local_abs_source_literal_zeta_units": 0.6565833447988112,
+      "local_interpolation": "none: original cached Gauss sample",
+      "Li_abs_source": 0.030316849860210902,
+      "local_over_Li": 21.657373633021766,
+      "Dyson_replotted_by_Li_abs_source": 0.03020936585850813,
+      "local_over_Dyson_replotted_by_Li": 21.734429907402106,
+      "Li_over_Dyson": 1.0035579694789423
+    },
+    {
+      "ell": 2,
+      "m": 2,
+      "requested_near_r": 15.0,
+      "r": 15.266261430017401,
+      "local_abs_source_literal_zeta_units": 0.41172600092954065,
+      "local_interpolation": "none: original cached Gauss sample",
+      "Li_abs_source": 0.019048203720872098,
+      "local_over_Li": 21.614951570388303,
+      "Dyson_replotted_by_Li_abs_source": 0.018979154392480876,
+      "local_over_Dyson_replotted_by_Li": 21.693590368423234,
+      "Li_over_Dyson": 1.0036381667467007
+    },
+    {
+      "ell": 2,
+      "m": 2,
+      "requested_near_r": 25.0,
+      "r": 24.74467590083671,
+      "local_abs_source_literal_zeta_units": 0.0305608578502936,
+      "local_interpolation": "none: original cached Gauss sample",
+      "Li_abs_source": 0.0014143618990991621,
+      "local_over_Li": 21.607523413744726,
+      "Dyson_replotted_by_Li_abs_source": 0.0014027385589259218,
+      "local_over_Dyson_replotted_by_Li": 21.78656718019791,
+      "Li_over_Dyson": 1.0082861771349183
+    },
+    {
+      "ell": 2,
+      "m": 2,
+      "requested_near_r": 50.0,
+      "r": 49.48935180167342,
+      "local_abs_source_literal_zeta_units": 0.041604833590600354,
+      "local_interpolation": "none: original cached Gauss sample",
+      "Li_abs_source": 0.0019257841169866585,
+      "local_over_Li": 21.604100492687046,
+      "Dyson_replotted_by_Li_abs_source": 0.001914680360555658,
+      "local_over_Dyson_replotted_by_Li": 21.729388595455298,
+      "Li_over_Dyson": 1.005799274207721
+    },
+    {
+      "ell": 2,
+      "m": 2,
+      "requested_near_r": 100.0,
+      "r": 98.97870360334684,
+      "local_abs_source_literal_zeta_units": 0.018771083508859438,
+      "local_interpolation": "none: original cached Gauss sample",
+      "Li_abs_source": 0.0008678730152659096,
+      "local_over_Li": 21.6288364526556,
+      "Dyson_replotted_by_Li_abs_source": 0.0008658770838942056,
+      "local_over_Dyson_replotted_by_Li": 21.678693036242684,
+      "Li_over_Dyson": 1.002305097812183
+    },
+    {
+      "ell": 2,
+      "m": 2,
+      "requested_near_r": 200.0,
+      "r": 197.9574072066937,
+      "local_abs_source_literal_zeta_units": 0.000652146146248875,
+      "local_interpolation": "none: original cached Gauss sample",
+      "Li_abs_source": 3.0215229334727713e-05,
+      "local_over_Li": 21.583359140661372,
+      "Dyson_replotted_by_Li_abs_source": 2.9875181629128554e-05,
+      "local_over_Dyson_replotted_by_Li": 21.829026994534722,
+      "Li_over_Dyson": 1.0113822807780894
+    },
+    {
+      "ell": 3,
+      "m": 3,
+      "requested_near_r": 3.5,
+      "r": 3.30500028387956,
+      "local_abs_source_literal_zeta_units": 0.0009122604425326134,
+      "local_interpolation": "none: original cached Gauss sample",
+      "Li_abs_source": 4.2345317310719836e-05,
+      "local_over_Li": 21.543360646908464,
+      "Dyson_replotted_by_Li_abs_source": 4.214464005634626e-05,
+      "local_over_Dyson_replotted_by_Li": 21.64594219604072,
+      "Li_over_Dyson": 1.004761631707028
+    },
+    {
+      "ell": 3,
+      "m": 3,
+      "requested_near_r": 5.0,
+      "r": 4.7751519637434745,
+      "local_abs_source_literal_zeta_units": 0.0017875166521241154,
+      "local_interpolation": "none: original cached Gauss sample",
+      "Li_abs_source": 8.308409689753385e-05,
+      "local_over_Li": 21.514546331635863,
+      "Dyson_replotted_by_Li_abs_source": 8.284120097575066e-05,
+      "local_over_Dyson_replotted_by_Li": 21.5776284152056,
+      "Li_over_Dyson": 1.0029320666398147
+    },
+    {
+      "ell": 3,
+      "m": 3,
+      "requested_near_r": 8.0,
+      "r": 8.449696072513051,
+      "local_abs_source_literal_zeta_units": 0.014194602785527324,
+      "local_interpolation": "none: original cached Gauss sample",
+      "Li_abs_source": 0.0006610319800041426,
+      "local_over_Li": 21.47339798210424,
+      "Dyson_replotted_by_Li_abs_source": 0.0006581321685472599,
+      "local_over_Dyson_replotted_by_Li": 21.56801242045354,
+      "Li_over_Dyson": 1.004406123261356
+    },
+    {
+      "ell": 3,
+      "m": 3,
+      "requested_near_r": 10.0,
+      "r": 9.550303927486949,
+      "local_abs_source_literal_zeta_units": 0.023959816934532526,
+      "local_interpolation": "none: original cached Gauss sample",
+      "Li_abs_source": 0.0011142339753087366,
+      "local_over_Li": 21.503398267759373,
+      "Dyson_replotted_by_Li_abs_source": 0.0011053761955255544,
+      "local_over_Dyson_replotted_by_Li": 21.675712785854557,
+      "Li_over_Dyson": 1.0080133621648788
+    },
+    {
+      "ell": 3,
+      "m": 3,
+      "requested_near_r": 15.0,
+      "r": 15.266261430017401,
+      "local_abs_source_literal_zeta_units": 0.1814040779173262,
+      "local_interpolation": "none: original cached Gauss sample",
+      "Li_abs_source": 0.008328021094708043,
+      "local_over_Li": 21.78237493089416,
+      "Dyson_replotted_by_Li_abs_source": 0.008219396646244699,
+      "local_over_Dyson_replotted_by_Li": 22.070242588938278,
+      "Li_over_Dyson": 1.0132156231337215
+    },
+    {
+      "ell": 3,
+      "m": 3,
+      "requested_near_r": 25.0,
+      "r": 24.74467590083671,
+      "local_abs_source_literal_zeta_units": 0.40654062476232433,
+      "local_interpolation": "none: original cached Gauss sample",
+      "Li_abs_source": 0.01885933209387402,
+      "local_over_Li": 21.55646990777467,
+      "Dyson_replotted_by_Li_abs_source": 0.01865360405636595,
+      "local_over_Dyson_replotted_by_Li": 21.794213254118226,
+      "Li_over_Dyson": 1.0110288626737447
+    },
+    {
+      "ell": 3,
+      "m": 3,
+      "requested_near_r": 50.0,
+      "r": 49.48935180167342,
+      "local_abs_source_literal_zeta_units": 0.10256257730236229,
+      "local_interpolation": "none: original cached Gauss sample",
+      "Li_abs_source": 0.0047447414347536404,
+      "local_over_Li": 21.616051941445278,
+      "Dyson_replotted_by_Li_abs_source": 0.004730713866687022,
+      "local_over_Dyson_replotted_by_Li": 21.68014811138602,
+      "Li_over_Dyson": 1.002965211691495
+    },
+    {
+      "ell": 3,
+      "m": 3,
+      "requested_near_r": 100.0,
+      "r": 98.97870360334684,
+      "local_abs_source_literal_zeta_units": 0.013771116785882501,
+      "local_interpolation": "none: original cached Gauss sample",
+      "Li_abs_source": 0.0006376958929713408,
+      "local_over_Li": 21.595116006966975,
+      "Dyson_replotted_by_Li_abs_source": 0.0006330794309161047,
+      "local_over_Dyson_replotted_by_Li": 21.752589190830054,
+      "Li_over_Dyson": 1.0072920739954476
+    },
+    {
+      "ell": 3,
+      "m": 3,
+      "requested_near_r": 200.0,
+      "r": 197.9574072066937,
+      "local_abs_source_literal_zeta_units": 0.0004285659097832804,
+      "local_interpolation": "none: original cached Gauss sample",
+      "Li_abs_source": 1.9752501657399693e-05,
+      "local_over_Li": 21.696791485787866,
+      "Dyson_replotted_by_Li_abs_source": 1.969575902148027e-05,
+      "local_over_Dyson_replotted_by_Li": 21.75929901030393,
+      "Li_over_Dyson": 1.0028809570556554
+    }
+  ],
+  "inputs_sha256": {
+    "outputs/paper_original_reference/li_2507_02045v2/source/source_l2l3.pdf": "e7f726546defc4d7785221be4fc9218c3236a71ab520035d838e05c8d7d23b8c",
+    "src/report_li_source22_33_comparison_20260917.py": "a3bbfd0482518273ef68419e407aa263c83039d6c785268706407a0a9b2af31a",
+    "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg1_sl2_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "901be8306b526e3e6df1f9b461ca4ceea112d358491afae6142cc364e3f8de7f",
+    "docs/environment_reproduction/forced_mode_nr8_nt18_L18_inner0.0005_outer320_log_h32.json": "d5549cee14d7434185cb044b5f15c18d3add7daacd8271ab5f8bc40f3dcd2736"
+  },
+  "outputs_sha256": {
+    "docs/environment_reproduction/li_source22_33_comparison_20260917.png": "588cf289495b678710e1e450d9986559d268485a75e1e53a744e55b207f99e55",
+    "docs/environment_reproduction/li_source22_33_vector_vertices_20260917.csv": "eb37dbd2c36b61c29bb66692bd3445d78ba4ff21e00b884d41d4baf51e0276c8",
+    "docs/environment_reproduction/li_source22_33_comparison_20260917.csv": "05d942ee12789e0de8a7dcab9c05decf6da92295b08b03ab2e5a73592dab3b13",
+    "docs/environment_reproduction/li_source22_33_raw_nodes_20260917.csv": "461d1a915d153b18fd005e130843d12aa0aebbaf29d022a660d101171db200af"
+  },
+  "limitations": [
+    "Absolute source-plot normalization is not established by the public plotting code, which is unavailable; an amplitude mismatch is not proof of a source error.",
+    "Ratios use the literal alpha^-3 amplitude convention. Shape ratios relative to r10 are separately labeled and never applied to the absolute data.",
+    "Reference is the absolute value of a vector curve, not complex source samples; phase is untested.",
+    "Reference interpolation is exactly linear on the log-log PDF polyline, not assumed true author data between vertices.",
+    "Local polynomial interpolation follows recorded source panels; PCHIP change is an interpolation diagnostic, not a rigorous solver error.",
+    "Original Gauss-node comparison avoids local interpolation and is included separately.",
+    "Spin/cloud frequencies differ between local synchronized a=.877153... and Li a=.88; Dyson source is the curve replotted in Li, not an independently downloaded author array.",
+    "Metric/angular/source convergence is not inferred from agreement of these two low-order source magnitudes."
+  ]
+}

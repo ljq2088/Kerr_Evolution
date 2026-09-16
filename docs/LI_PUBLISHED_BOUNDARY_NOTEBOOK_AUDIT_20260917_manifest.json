@@ -1,0 +1,34 @@
+{
+  "status": "public_coefficients_verified_actual_author_endpoints_not_published_in_this_artifact",
+  "date": "2026-09-17",
+  "repository": "https://github.com/dongjun826/EMRI-in-scalar-clouds",
+  "commit": "da78d2c96af5854e0feea0421af1ebb6c45c6bc0",
+  "commit_date": "2025-06-24T23:53:05-05:00",
+  "tracked_files": [
+    "Boundary Coefficients.nb"
+  ],
+  "commit_count": 1,
+  "files_sha256": {
+    "docs/LI_PUBLISHED_BOUNDARY_NOTEBOOK_AUDIT_20260917.md": "e96f6b7dfa6765e9f4f0df1a2d9bd97c2f00e5e08ceb8d4f07f00488ce0a5d93",
+    "outputs/paper_original_reference/dongjun826_EMRI_in_scalar_clouds/Boundary Coefficients.nb": "706c5aa8a01e6e1bec123d3101819211cdf46c1e8855e3bfb06aaee9509ef24e",
+    "outputs/paper_original_reference/li_boundary_audit_20260917/coefficients.wl": "514cb60d26f6b2a93971fb97e0aa99c46069a3b0fd223955acae5d7de51badea",
+    "outputs/paper_original_reference/li_boundary_audit_20260917/coefficients_inputform.json": "749d4a288edde43914007fc6f3a5acb002cae5a469b2f5682086f64089353b9b",
+    "outputs/paper_original_reference/li_boundary_audit_20260917/verify_author_coefficients.py": "5c17f915d1617c7fca393986de9de2d3d4f3a823b2691a1c63ac21cd8c295e1d",
+    "docs/field_alignment_20260917/li_author_boundary_coefficients_check.json": "e93c84efdf027cb98a66d08e263e0c1362fabd16ad870221dea2685d0c02f50e"
+  },
+  "notebook_text_search_counts": {
+    "NDSolve": 0,
+    "NIntegrate": 0,
+    "Rout": 0,
+    "Rmax": 0,
+    "Rmin": 0,
+    "RUp": 0,
+    "WorkingPrecision": 0,
+    "PrecisionGoal": 0,
+    "AccuracyGoal": 0,
+    "4000": 0,
+    "1000": 0
+  },
+  "max_coefficient_relative_difference": 1.4333154088720774e-45,
+  "execution": "Original formulas parsed and evaluated independently; no original Mathematica kernel execution claimed"
+}

@@ -1,0 +1,27 @@
+{
+  "status": "complete_two_mode_source_comparison_normalization_unresolved",
+  "date": "2026-09-17",
+  "files": {
+    "docs/LI_SOURCE22_33_CONVENTION_AUDIT_20260917.md": "f230829b41f5fbcb13641e181a3a7100bd43b20bf615d7d9d0413b3be075316c",
+    "src/report_li_source22_33_comparison_20260917.py": "a3bbfd0482518273ef68419e407aa263c83039d6c785268706407a0a9b2af31a",
+    "docs/environment_reproduction/li_source22_33_comparison_20260917.json": "ba3abaf119a7708ed8f691fbf1a1a68e599c3d44134c8e37eec22928b5d043d7",
+    "docs/environment_reproduction/li_source22_33_comparison_20260917.csv": "05d942ee12789e0de8a7dcab9c05decf6da92295b08b03ab2e5a73592dab3b13",
+    "docs/environment_reproduction/li_source22_33_comparison_20260917.png": "588cf289495b678710e1e450d9986559d268485a75e1e53a744e55b207f99e55",
+    "docs/environment_reproduction/li_source22_33_raw_nodes_20260917.csv": "461d1a915d153b18fd005e130843d12aa0aebbaf29d022a660d101171db200af",
+    "docs/environment_reproduction/li_source22_33_vector_vertices_20260917.csv": "eb37dbd2c36b61c29bb66692bd3445d78ba4ff21e00b884d41d4baf51e0276c8"
+  },
+  "source_pdf": "e7f726546defc4d7785221be4fc9218c3236a71ab520035d838e05c8d7d23b8c",
+  "input_manifests": {
+    "outputs/paper_original_reference/li_2507_02045v2/source/source_l2l3.pdf": "e7f726546defc4d7785221be4fc9218c3236a71ab520035d838e05c8d7d23b8c",
+    "src/report_li_source22_33_comparison_20260917.py": "a3bbfd0482518273ef68419e407aa263c83039d6c785268706407a0a9b2af31a",
+    "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg1_sl2_gh0.0001_go4000_inner0.0005_outer320_log_h32.json": "901be8306b526e3e6df1f9b461ca4ceea112d358491afae6142cc364e3f8de7f",
+    "docs/environment_reproduction/forced_mode_nr8_nt18_L18_inner0.0005_outer320_log_h32.json": "d5549cee14d7434185cb044b5f15c18d3add7daacd8271ab5f8bc40f3dcd2736"
+  },
+  "cloud_validation_dependencies": {
+    "src/environment_source.py": "f8ed45cc7200b9738fa3406d0b8a03552f4847340cabdc92eec97b219c4cebb2",
+    "src/environment_cloud.py": "13f9628f4513c00022ce7ebe69fc3d74db19a8e9fb610ece93ef9095866c8549",
+    "src/paper_leaver_cloud.py": "7c84d92c17dc4d2615f0b26af8b506c9bf4ac0ddd0293ac86506bcc25d328602",
+    "outputs/paper_original_reference/li_2507_02045v2/source/scalar_profile.pdf": "c8cf14efb7d24dff82ae989b78fbd4683f9c2f581b412d32f1eff7f99adb879b",
+    "outputs/paper_original_reference/li_2507_02045v2/source/main.tex": "4535abc53b9d8cd1ea1919bfcf8847ab3a065137ee21df4cc6f20c38acf092a4"
+  }
+}

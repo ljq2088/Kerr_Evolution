@@ -1,0 +1,189 @@
+{
+  "status": "author_B1_to_B4_agree_with_independent_recurrence_at_two_near_threshold_parameters",
+  "method": "Restricted arithmetic parser, mpmath 80 digits, principal square-root and fractional-power branches; not original Mathematica execution",
+  "rows": [
+    {
+      "orbit": 41.1,
+      "coefficient": "B1",
+      "author_expression_value": [
+        "-988.2926541279915303652208102616468459254958094878430805",
+        "13599.40799370032751928980977179578533255939858863238585"
+      ],
+      "independent_recurrence_value": [
+        "-988.292654127991530365220810261646845925495809",
+        "13599.4079937003275192898097717957853325593986"
+      ],
+      "relative_difference": 8.344591842399675e-46,
+      "parameters": {
+        "M": "1.0",
+        "m": "2.0",
+        "chi": "0.8771530275949366",
+        "mu": "0.3",
+        "omega": "0.30007587885635806",
+        "Lambda": "5.999994995279286"
+      },
+      "source_file": "docs/field_alignment_20260917/nonstatic/rp41p1_sl2_sm2_L6_q12_nr8_h32.json"
+    },
+    {
+      "orbit": 41.1,
+      "coefficient": "B2",
+      "author_expression_value": [
+        "-89997199.71071001032193027551645323216447754306331238837",
+        "-26820210.44986085567940789055096813195345648385223046094"
+      ],
+      "independent_recurrence_value": [
+        "-89997199.7107100103219302755164532321644775431",
+        "-26820210.4498608556794078905509681319534564839"
+      ],
+      "relative_difference": 6.4139121106200955e-46,
+      "parameters": {
+        "M": "1.0",
+        "m": "2.0",
+        "chi": "0.8771530275949366",
+        "mu": "0.3",
+        "omega": "0.30007587885635806",
+        "Lambda": "5.999994995279286"
+      },
+      "source_file": "docs/field_alignment_20260917/nonstatic/rp41p1_sl2_sm2_L6_q12_nr8_h32.json"
+    },
+    {
+      "orbit": 41.1,
+      "coefficient": "B3",
+      "author_expression_value": [
+        "265958002017.8171603586281195096059797924734285411498146",
+        "-350410998315.7306408870929645091330508513521789619255601"
+      ],
+      "independent_recurrence_value": [
+        "265958002017.817160358628119509605979792473429",
+        "-350410998315.730640887092964509133050851352179"
+      ],
+      "relative_difference": 1.0466374714160337e-45,
+      "parameters": {
+        "M": "1.0",
+        "m": "2.0",
+        "chi": "0.8771530275949366",
+        "mu": "0.3",
+        "omega": "0.30007587885635806",
+        "Lambda": "5.999994995279286"
+      },
+      "source_file": "docs/field_alignment_20260917/nonstatic/rp41p1_sl2_sm2_L6_q12_nr8_h32.json"
+    },
+    {
+      "orbit": 41.1,
+      "coefficient": "B4",
+      "author_expression_value": [
+        "653039773070243.424851723182470978374225360046728773501",
+        "1451618127974130.230728844194093651044148188889186898563"
+      ],
+      "independent_recurrence_value": [
+        "653039773070243.424851723182470978374225360047",
+        "1451618127974130.23072884419409365104414818889"
+      ],
+      "relative_difference": 5.384935697659221e-46,
+      "parameters": {
+        "M": "1.0",
+        "m": "2.0",
+        "chi": "0.8771530275949366",
+        "mu": "0.3",
+        "omega": "0.30007587885635806",
+        "Lambda": "5.999994995279286"
+      },
+      "source_file": "docs/field_alignment_20260917/nonstatic/rp41p1_sl2_sm2_L6_q12_nr8_h32.json"
+    },
+    {
+      "orbit": 42.1,
+      "coefficient": "B1",
+      "author_expression_value": [
+        "-18124.52445645958444361257762879637338707571017899560233",
+        "0.0"
+      ],
+      "independent_recurrence_value": [
+        "-18124.5244564595844436125776287963733870757102",
+        "0.0"
+      ],
+      "relative_difference": 1.1588937252162427e-45,
+      "parameters": {
+        "M": "1.0",
+        "m": "2.0",
+        "chi": "0.8771530275949366",
+        "mu": "0.3",
+        "omega": "0.2999423381255306",
+        "Lambda": "6.000003802338735"
+      },
+      "source_file": "docs/field_alignment_20260917/nonstatic/rp42p1_sl2_sm2_L6_q12_nr8_h32.json"
+    },
+    {
+      "orbit": 42.1,
+      "coefficient": "B2",
+      "author_expression_value": [
+        "142230831.9204035231292429626392547416559484929240960225",
+        "0.0"
+      ],
+      "independent_recurrence_value": [
+        "142230831.920403523129242962639254741655948493",
+        "0.0"
+      ],
+      "relative_difference": 5.3366753550373154e-46,
+      "parameters": {
+        "M": "1.0",
+        "m": "2.0",
+        "chi": "0.8771530275949366",
+        "mu": "0.3",
+        "omega": "0.2999423381255306",
+        "Lambda": "6.000003802338735"
+      },
+      "source_file": "docs/field_alignment_20260917/nonstatic/rp42p1_sl2_sm2_L6_q12_nr8_h32.json"
+    },
+    {
+      "orbit": 42.1,
+      "coefficient": "B3",
+      "author_expression_value": [
+        "-636966127612.3760039977566253820792424977073242431239279",
+        "0.0"
+      ],
+      "independent_recurrence_value": [
+        "-636966127612.376003997756625382079242497707324",
+        "0.0"
+      ],
+      "relative_difference": 3.816905127485115e-46,
+      "parameters": {
+        "M": "1.0",
+        "m": "2.0",
+        "chi": "0.8771530275949366",
+        "mu": "0.3",
+        "omega": "0.2999423381255306",
+        "Lambda": "6.000003802338735"
+      },
+      "source_file": "docs/field_alignment_20260917/nonstatic/rp42p1_sl2_sm2_L6_q12_nr8_h32.json"
+    },
+    {
+      "orbit": 42.1,
+      "coefficient": "B4",
+      "author_expression_value": [
+        "1806683389324662.363303773221536078886299888252589547141",
+        "0.0"
+      ],
+      "independent_recurrence_value": [
+        "1806683389324662.36330377322153607888629988825",
+        "0.0"
+      ],
+      "relative_difference": 1.4333154088720774e-45,
+      "parameters": {
+        "M": "1.0",
+        "m": "2.0",
+        "chi": "0.8771530275949366",
+        "mu": "0.3",
+        "omega": "0.2999423381255306",
+        "Lambda": "6.000003802338735"
+      },
+      "source_file": "docs/field_alignment_20260917/nonstatic/rp42p1_sl2_sm2_L6_q12_nr8_h32.json"
+    }
+  ],
+  "max_relative_difference": 1.4333154088720774e-45,
+  "inputs_sha256": {
+    "outputs/paper_original_reference/li_boundary_audit_20260917/coefficients_inputform.json": "749d4a288edde43914007fc6f3a5acb002cae5a469b2f5682086f64089353b9b",
+    "outputs/paper_original_reference/li_boundary_audit_20260917/coefficients.wl": "514cb60d26f6b2a93971fb97e0aa99c46069a3b0fd223955acae5d7de51badea",
+    "docs/field_alignment_20260917/scalar22_Li_order4_boundary_control.json": "9e386e440820c0631fc4ef419e4f9067598aca8e6f2bd810fcc94dd19763a107",
+    "outputs/paper_original_reference/li_boundary_audit_20260917/verify_author_coefficients.py": "5c17f915d1617c7fca393986de9de2d3d4f3a823b2691a1c63ac21cd8c295e1d"
+  }
+}

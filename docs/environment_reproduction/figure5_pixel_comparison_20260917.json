@@ -1,0 +1,779 @@
+{
+  "status": "fixed_original_legend_pixel_comparison_not_author_raw_data",
+  "inputs_sha256": {
+    "outputs/paper_original_reference/arxiv_v1_source/Figures/ResonanceBosonEMRIsFieldPlot.pdf": "22612b95f3467901352abf129d37cc2f6819c48d70ce3415c2429b53fc241aea",
+    "docs/environment_reproduction/figure5_threshold_wakes.npz": "37d14ca4a6c6eebe56fc0db50fce5efc0a2f488027791a3c57ca41c5eb64da72",
+    "src/report_paper_field_pixels_20260917.py": "07475de862e1b69f791369481c8ed2a438764aba9bc97c6be03c2fb4c3347d81"
+  },
+  "paper_pdf": {
+    "metadata": {
+      "format": "PDF 1.5",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "Wolfram",
+      "producer": "cairo 1.16.0 (https://cairographics.org)",
+      "creationDate": "20250112101942Z",
+      "modDate": "20250112101942Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "embedded_file_count": 0,
+    "xml_metadata": "",
+    "text_characters": 0,
+    "vector_drawing_count": 0,
+    "raw_field_dimensions": [
+      4746,
+      2500,
+      4
+    ],
+    "raw_legend_dimensions": [
+      3618,
+      375,
+      4
+    ]
+  },
+  "calibration": {
+    "legend_tick_rows": [
+      512.5,
+      943.5,
+      1374.5,
+      1805.5,
+      2236.5,
+      2667.5,
+      3098.5
+    ],
+    "legend_tick_values": [
+      0.035,
+      0.030000000000000002,
+      0.025,
+      0.020000000000000004,
+      0.015000000000000003,
+      0.010000000000000002,
+      0.0050000000000000044
+    ],
+    "value_polynomial_slope_intercept": [
+      -1.1600928074245937e-05,
+      0.04094547563805104
+    ],
+    "LUT_range": [
+      0.00011020881670534277,
+      0.04087587006960556
+    ],
+    "LUT_RGB_distance_limit": 3,
+    "x_tick_pixels": [
+      705.0,
+      1082.0,
+      1458.5,
+      1835.0,
+      2212.0
+    ],
+    "x_tick_values": [
+      -180,
+      -90,
+      0,
+      90,
+      180
+    ],
+    "x_polynomial": [
+      0.2389168931713165,
+      -348.46028869036485
+    ],
+    "y_tick_pixels": {
+      "416": [
+        656.0,
+        1032.5,
+        1409.0,
+        1786.0,
+        2163.0
+      ],
+      "418": [
+        2575,
+        2952,
+        3329,
+        3705,
+        4082
+      ]
+    },
+    "y_tick_values": [
+      180,
+      90,
+      0,
+      -90,
+      -180
+    ],
+    "y_polynomials": {
+      "416": [
+        -0.23888517293644987,
+        336.66087421933884
+      ],
+      "418": [
+        -0.2389168594980286,
+        795.2586585251378
+      ]
+    },
+    "patch_side_pixels": 5
+  },
+  "panel_statistics": [
+    {
+      "rp": 41.6,
+      "full_cached_max": 0.3448598217022998,
+      "observed_legend_max": 0.04087587006960556,
+      "plot_sample_count": 391373,
+      "fraction_with_RGB_distance_le_3": 0.9940491551537791,
+      "fraction_outside_observed_LUT": 0.005950844846220869,
+      "recovered_pixel_quantiles": {
+        "0.1": 0.0025928074245939667,
+        "0.5": 0.006699535962877035,
+        "0.9": 0.013312064965197216,
+        "0.99": 0.03281322505800464
+      },
+      "maximum_recoverable_in_legend_pixel": 0.04087587006960556,
+      "maximum_is_not_recovered": true,
+      "local_polar_cells_above_legend_fraction": 0.7751025390625
+    },
+    {
+      "rp": 41.8,
+      "full_cached_max": 0.34664805016022937,
+      "observed_legend_max": 0.04087587006960556,
+      "plot_sample_count": 390938,
+      "fraction_with_RGB_distance_le_3": 0.9916380602550788,
+      "fraction_outside_observed_LUT": 0.00836193974492119,
+      "recovered_pixel_quantiles": {
+        "0.1": 0.0024303944315545237,
+        "0.5": 0.005458236658932719,
+        "0.9": 0.011966357308584686,
+        "0.99": 0.033010440835266816
+      },
+      "maximum_recoverable_in_legend_pixel": 0.04087587006960556,
+      "maximum_is_not_recovered": true,
+      "local_polar_cells_above_legend_fraction": 0.7729248046875
+    }
+  ],
+  "points": [
+    {
+      "rp": 41.6,
+      "x_over_M": -100,
+      "y_over_M": 0,
+      "pixel_x": 1039.9444149485287,
+      "pixel_y": 1409.3000000000002,
+      "paper_value": 0.012372389791183293,
+      "paper_patch_min": 0.012267981438515083,
+      "paper_patch_max": 0.012372389791183293,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.011850348027842229,
+        0.01269721577726218
+      ],
+      "local_interpolated_abs_field": 0.04789888313780761,
+      "local_over_pixel": 3.8714334050436157,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.6,
+      "x_over_M": 100,
+      "y_over_M": 0,
+      "pixel_x": 1877.055585051469,
+      "pixel_y": 1409.3000000000002,
+      "paper_value": 0.0032308584686774958,
+      "paper_patch_min": 0.003033642691415317,
+      "paper_patch_max": 0.0034512761020881674,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.002836426914153131,
+        0.0036368909512761033
+      ],
+      "local_interpolated_abs_field": 0.011961079005593485,
+      "local_over_pixel": 3.702136482162147,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.6,
+      "x_over_M": 0,
+      "y_over_M": 100,
+      "pixel_x": 1458.4999999999989,
+      "pixel_y": 990.6888372778885,
+      "paper_value": 0.012488399071925754,
+      "paper_patch_min": 0.012372389791183293,
+      "paper_patch_max": 0.012488399071925754,
+      "max_RGB_distance": 1.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.011966357308584686,
+        0.012824825986078887
+      ],
+      "local_interpolated_abs_field": 0.047551167765071414,
+      "local_over_pixel": 3.8076271819314034,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.6,
+      "x_over_M": 0,
+      "y_over_M": -100,
+      "pixel_x": 1458.4999999999989,
+      "pixel_y": 1827.9111627221118,
+      "paper_value": 0.011154292343387471,
+      "paper_patch_min": 0.011038283062645014,
+      "paper_patch_max": 0.011223897911832946,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.01062064965197216,
+        0.01161832946635731
+      ],
+      "local_interpolated_abs_field": 0.04205638225601459,
+      "local_over_pixel": 3.7704213733421295,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.6,
+      "x_over_M": -50,
+      "y_over_M": 50,
+      "pixel_x": 1249.2222074742638,
+      "pixel_y": 1199.9944186389444,
+      "paper_value": 0.018451276102088167,
+      "paper_patch_min": 0.0183584686774942,
+      "paper_patch_max": 0.01857888631090487,
+      "max_RGB_distance": 1.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.01789443155452436,
+        0.0190661252900232
+      ],
+      "local_interpolated_abs_field": 0.06669242348053561,
+      "local_over_pixel": 3.6145155007998553,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.6,
+      "x_over_M": -50,
+      "y_over_M": -50,
+      "pixel_x": 1249.2222074742638,
+      "pixel_y": 1618.605581361056,
+      "paper_value": 0.01678074245939675,
+      "paper_patch_min": 0.016757540603248258,
+      "paper_patch_max": 0.016850348027842226,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.01630510440835267,
+        0.017244779582366587
+      ],
+      "local_interpolated_abs_field": 0.06366437125715019,
+      "local_over_pixel": 3.7938947821405784,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.6,
+      "x_over_M": 50,
+      "y_over_M": 50,
+      "pixel_x": 1667.777792525734,
+      "pixel_y": 1199.9944186389444,
+      "paper_value": 0.011223897911832946,
+      "paper_patch_min": 0.011154292343387471,
+      "paper_patch_max": 0.011490719257540603,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.010841067285382831,
+        0.011745939675174014
+      ],
+      "local_interpolated_abs_field": 0.04634801573321871,
+      "local_over_pixel": 4.129404605895042,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.6,
+      "x_over_M": 50,
+      "y_over_M": -50,
+      "pixel_x": 1667.777792525734,
+      "pixel_y": 1618.605581361056,
+      "paper_value": 0.015330626450116007,
+      "paper_patch_min": 0.01504060324825986,
+      "paper_patch_max": 0.015493039443155453,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.014715777262180974,
+        0.01581786542923434
+      ],
+      "local_interpolated_abs_field": 0.053872834712702974,
+      "local_over_pixel": 3.5140661008210343,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.6,
+      "x_over_M": -150,
+      "y_over_M": 0,
+      "pixel_x": 830.6666224227935,
+      "pixel_y": 1409.3000000000002,
+      "paper_value": 0.00794083526682135,
+      "paper_patch_min": 0.007859628770301628,
+      "paper_patch_max": 0.00794083526682135,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.007488399071925757,
+        0.008265661252900236
+      ],
+      "local_interpolated_abs_field": 0.029871633284243377,
+      "local_over_pixel": 3.7617747101559935,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.6,
+      "x_over_M": 150,
+      "y_over_M": 0,
+      "pixel_x": 2086.3333775772044,
+      "pixel_y": 1409.3000000000002,
+      "paper_value": 0.009309744779582366,
+      "paper_patch_min": 0.009309744779582366,
+      "paper_patch_max": 0.009309744779582366,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.009054524361948958,
+        0.009715777262180977
+      ],
+      "local_interpolated_abs_field": 0.03513327488588293,
+      "local_over_pixel": 3.7738171902344035,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.6,
+      "x_over_M": 0,
+      "y_over_M": 150,
+      "pixel_x": 1458.4999999999989,
+      "pixel_y": 781.3832559168327,
+      "paper_value": 0.009158932714617173,
+      "paper_patch_min": 0.00899651972157773,
+      "paper_patch_max": 0.009158932714617173,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.008602088167053365,
+        0.009379350348027844
+      ],
+      "local_interpolated_abs_field": 0.03378659397689733,
+      "local_over_pixel": 3.6889226102704864,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.6,
+      "x_over_M": 0,
+      "y_over_M": -150,
+      "pixel_x": 1458.4999999999989,
+      "pixel_y": 2037.2167440831677,
+      "paper_value": 0.0034512761020881674,
+      "paper_patch_min": 0.003370069605568446,
+      "paper_patch_max": 0.003509280742459396,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.0031032482598607886,
+        0.0037296983758700747
+      ],
+      "local_interpolated_abs_field": 0.012998094897179452,
+      "local_over_pixel": 3.766170689535693,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.6,
+      "x_over_M": -20,
+      "y_over_M": 20,
+      "pixel_x": 1374.7888829897047,
+      "pixel_y": 1325.5777674555777,
+      "paper_value": 0.03497099767981438,
+      "paper_patch_min": 0.034274941995359624,
+      "paper_patch_max": 0.03536542923433874,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.033706496519721574,
+        0.035759860788863104
+      ],
+      "local_interpolated_abs_field": 0.15084619962350895,
+      "local_over_pixel": 4.313465718210805,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.6,
+      "x_over_M": -20,
+      "y_over_M": -20,
+      "pixel_x": 1374.7888829897047,
+      "pixel_y": 1493.0222325444224,
+      "paper_value": 0.03497099767981438,
+      "paper_patch_min": 0.034274941995359624,
+      "paper_patch_max": 0.03559744779582366,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.033706496519721574,
+        0.03608468677494199
+      ],
+      "local_interpolated_abs_field": 0.13053740184655174,
+      "local_over_pixel": 3.7327331362324636,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.6,
+      "x_over_M": 20,
+      "y_over_M": 20,
+      "pixel_x": 1542.2111170102928,
+      "pixel_y": 1325.5777674555777,
+      "paper_value": 0.02803364269141531,
+      "paper_patch_min": 0.02717517401392111,
+      "paper_patch_max": 0.029031322505800462,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.0269199535962877,
+        0.02922853828306264
+      ],
+      "local_interpolated_abs_field": 0.11523428864821934,
+      "local_over_pixel": 4.110571355876892,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.6,
+      "x_over_M": 20,
+      "y_over_M": -20,
+      "pixel_x": 1542.2111170102928,
+      "pixel_y": 1493.0222325444224,
+      "paper_value": 0.023416473317865425,
+      "paper_patch_min": 0.022824825986078885,
+      "paper_patch_max": 0.024182134570765658,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.02243039443155452,
+        0.02463457076566125
+      ],
+      "local_interpolated_abs_field": 0.1126520876917524,
+      "local_over_pixel": 4.810805032959653,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.8,
+      "x_over_M": -100,
+      "y_over_M": 0,
+      "pixel_x": 1039.9444149485287,
+      "pixel_y": 3328.599999999999,
+      "paper_value": 0.011966357308584686,
+      "paper_patch_min": 0.011966357308584686,
+      "paper_patch_max": 0.012151972157772622,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.011734338747099768,
+        0.012581206496519722
+      ],
+      "local_interpolated_abs_field": 0.05219917597159499,
+      "local_over_pixel": 4.362160900389228,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.8,
+      "x_over_M": 100,
+      "y_over_M": 0,
+      "pixel_x": 1877.055585051469,
+      "pixel_y": 3328.599999999999,
+      "paper_value": 0.002674013921113688,
+      "paper_patch_min": 0.002372389791183295,
+      "paper_patch_max": 0.0029524361948955954,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.0021171693735498875,
+        0.00318445475638051
+      ],
+      "local_interpolated_abs_field": 0.011203406658387722,
+      "local_over_pixel": 4.189733856629163,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.8,
+      "x_over_M": 0,
+      "y_over_M": 100,
+      "pixel_x": 1458.4999999999989,
+      "pixel_y": 2910.044355956699,
+      "paper_value": 0.011966357308584686,
+      "paper_patch_min": 0.011850348027842229,
+      "paper_patch_max": 0.012151972157772622,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.011629930394431554,
+        0.012581206496519722
+      ],
+      "local_interpolated_abs_field": 0.050816478403519466,
+      "local_over_pixel": 4.2466121554855825,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.8,
+      "x_over_M": 0,
+      "y_over_M": -100,
+      "pixel_x": 1458.4999999999989,
+      "pixel_y": 3747.155644043299,
+      "paper_value": 0.011154292343387471,
+      "paper_patch_min": 0.01107308584686775,
+      "paper_patch_max": 0.011154292343387471,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.010736658932714617,
+        0.01150232018561485
+      ],
+      "local_interpolated_abs_field": 0.04692368036332042,
+      "local_over_pixel": 4.206782368505689,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.8,
+      "x_over_M": -50,
+      "y_over_M": 50,
+      "pixel_x": 1249.2222074742638,
+      "pixel_y": 3119.322177978349,
+      "paper_value": 0.007685614849187936,
+      "paper_patch_min": 0.007430394431554528,
+      "paper_patch_max": 0.00794083526682135,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.007151972157772621,
+        0.008265661252900236
+      ],
+      "local_interpolated_abs_field": 0.09254976306364766,
+      "local_over_pixel": 12.041946529941779,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.8,
+      "x_over_M": -50,
+      "y_over_M": -50,
+      "pixel_x": 1249.2222074742638,
+      "pixel_y": 3537.877822021649,
+      "paper_value": 0.004147331786542925,
+      "paper_patch_min": 0.0039385150812064965,
+      "paper_patch_max": 0.00439095127610209,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.0037412993039443176,
+        0.004634570765661254
+      ],
+      "local_interpolated_abs_field": 0.11180820813425037,
+      "local_over_pixel": 26.95907004523742,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.8,
+      "x_over_M": 50,
+      "y_over_M": 50,
+      "pixel_x": 1667.777792525734,
+      "pixel_y": 3119.322177978349,
+      "paper_value": 0.012267981438515083,
+      "paper_patch_min": 0.011792343387470997,
+      "paper_patch_max": 0.012755220417633412,
+      "max_RGB_distance": 1.4142135623730951,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.011513921113689096,
+        0.01312645011600928
+      ],
+      "local_interpolated_abs_field": 0.05435560864491917,
+      "local_over_pixel": 4.430688855973553,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.8,
+      "x_over_M": 50,
+      "y_over_M": -50,
+      "pixel_x": 1667.777792525734,
+      "pixel_y": 3537.877822021649,
+      "paper_value": 0.009576566125290023,
+      "paper_patch_min": 0.009309744779582366,
+      "paper_patch_max": 0.009773781902552205,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.009054524361948958,
+        0.010052204176334106
+      ],
+      "local_interpolated_abs_field": 0.12930199293118153,
+      "local_over_pixel": 13.501916160712112,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.8,
+      "x_over_M": -150,
+      "y_over_M": 0,
+      "pixel_x": 830.6666224227935,
+      "pixel_y": 3328.599999999999,
+      "paper_value": 0.0022447795823665948,
+      "paper_patch_min": 0.0021055684454756377,
+      "paper_patch_max": 0.002372389791183295,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.0018387470997679872,
+        0.002558004640371231
+      ],
+      "local_interpolated_abs_field": 0.05463819667434917,
+      "local_over_pixel": 24.34011655467125,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.8,
+      "x_over_M": 150,
+      "y_over_M": 0,
+      "pixel_x": 2086.3333775772044,
+      "pixel_y": 3328.599999999999,
+      "paper_value": 0.009158932714617173,
+      "paper_patch_min": 0.008892111368909515,
+      "paper_patch_max": 0.009263341067285387,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.008544083526682136,
+        0.009599767981438516
+      ],
+      "local_interpolated_abs_field": 0.028652878150286273,
+      "local_over_pixel": 3.128407975370077,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.8,
+      "x_over_M": 0,
+      "y_over_M": 150,
+      "pixel_x": 1458.4999999999989,
+      "pixel_y": 2700.7665339350488,
+      "paper_value": 0.00509860788863109,
+      "paper_patch_min": 0.00497099767981439,
+      "paper_patch_max": 0.0052378190255220405,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.0047389791183294686,
+        0.005446635730858469
+      ],
+      "local_interpolated_abs_field": 0.04626943531408744,
+      "local_over_pixel": 9.074915413138424,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.8,
+      "x_over_M": 0,
+      "y_over_M": -150,
+      "pixel_x": 1458.4999999999989,
+      "pixel_y": 3956.4334660649492,
+      "paper_value": 0.004274941995359632,
+      "paper_patch_min": 0.004193735498839911,
+      "paper_patch_max": 0.004298143851508125,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.004008120649651975,
+        0.00454176334106729
+      ],
+      "local_interpolated_abs_field": 0.05520752871868134,
+      "local_over_pixel": 12.91421702998732,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.8,
+      "x_over_M": -20,
+      "y_over_M": 20,
+      "pixel_x": 1374.7888829897047,
+      "pixel_y": 3244.888871191339,
+      "paper_value": 0.040783062645011595,
+      "paper_patch_min": 0.04013341067285382,
+      "paper_patch_max": 0.04087587006960556,
+      "max_RGB_distance": 2.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.03969257540603248,
+        0.04087587006960556
+      ],
+      "local_interpolated_abs_field": 0.057869330041169224,
+      "local_over_pixel": 1.4189549849377863,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.8,
+      "x_over_M": -20,
+      "y_over_M": -20,
+      "pixel_x": 1374.7888829897047,
+      "pixel_y": 3412.3111288086593,
+      "paper_value": 0.03714037122969837,
+      "paper_patch_min": 0.03644431554524361,
+      "paper_patch_max": 0.037894431554524356,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.03609628770301623,
+        0.03831206496519721
+      ],
+      "local_interpolated_abs_field": 0.04065204326619695,
+      "local_over_pixel": 1.0945513445404274,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.8,
+      "x_over_M": 20,
+      "y_over_M": 20,
+      "pixel_x": 1542.2111170102928,
+      "pixel_y": 3244.888871191339,
+      "paper_value": 0.03497099767981438,
+      "paper_patch_min": 0.034274941995359624,
+      "paper_patch_max": 0.03544663573085846,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.033706496519721574,
+        0.03592227378190255
+      ],
+      "local_interpolated_abs_field": 0.056655820720036144,
+      "local_over_pixel": 1.620080194416028,
+      "amplitude_fitted": false
+    },
+    {
+      "rp": 41.8,
+      "x_over_M": 20,
+      "y_over_M": -20,
+      "pixel_x": 1542.2111170102928,
+      "pixel_y": 3412.3111288086593,
+      "paper_value": 0.02772041763341067,
+      "paper_patch_min": 0.026629930394431553,
+      "paper_patch_max": 0.02866009280742459,
+      "max_RGB_distance": 0.0,
+      "pixel_accepted": true,
+      "paper_RGB_tolerance_interval": [
+        0.02635150812064965,
+        0.028926914153132248
+      ],
+      "local_interpolated_abs_field": 0.025724120526930416,
+      "local_over_pixel": 0.9279845948614364,
+      "amplitude_fitted": false
+    }
+  ],
+  "limitations": [
+    "Recovering a value from the printed colorbar is digitization, not an original scalar array.",
+    "Legend tick values were read from the visible labels; calibration uses only original pixels.",
+    "Pixels more than 3 RGB units from the observed legend LUT are rejected, never extrapolated.",
+    "The brightest field colors extend beyond the independent legend's LUT; its upper endpoint is not the global field maximum.",
+    "Axes use original tick registration; BL-label embedding is assumed for local Cartesian comparison and remains unconfirmed in the paper.",
+    "Local values are complex bilinear interpolations on the cached polar grid before modulus, no amplitude, phase, or mode-selection fitting.",
+    "The fraction of local polar cells above the legend is not a Cartesian area fraction.",
+    "Unequal definitions or source truncation can still affect pointwise values; this plot is not evidence of solver convergence."
+  ],
+  "outputs_sha256": {
+    "docs/environment_reproduction/figure5_fixed_legend_20260917.png": "5f1895d3028436d3cb4730357315adea86e0abcb12816663823d924c287851c7",
+    "docs/environment_reproduction/figure5_pixel_comparison_20260917.csv": "953925bfd6c6e13542708de073ae1f061019e324a969746a6098059cf49d6a32",
+    "docs/environment_reproduction/figure5_original_legend_lut_20260917.csv": "d2186dc2430d60977b55151af3e11893f4465022f365c7af4115d219bfec47b1"
+  }
+}

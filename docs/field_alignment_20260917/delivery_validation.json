@@ -1,0 +1,18 @@
+{
+  "status": "partial_alignment_with_explicit_unresolved_discrepancies",
+  "production_physics_modified": false,
+  "fresh_response_channels": 36,
+  "amplitude_fitted": false,
+  "phase_fitted": false,
+  "inputs_sha256": {
+    "li_field_alignment.json": "7cb5e9c89a6b2e5a2928924ef774bc3fafd92d78a07150f70489cc37c1ec162f",
+    "li_new_radius_flux.json": "298d5741fb3f6a7acde9c1795a9abbc997d2f07626954573ab777ce2c7ff7394",
+    "scalar22_outer_boundary_control.json": "5dc24421d4545a631f214a1b2edd9f6e9745090a98e5fa214dd6deafe34bc4e5",
+    "scalar22_Li_order4_boundary_control.json": "9e386e440820c0631fc4ef419e4f9067598aca8e6f2bd810fcc94dd19763a107",
+    "fixed_source_exact_spin088.json": "b7c6184e0fac8acec973d22df7b8e0216b79d1e3b624b8264b46e24e5d65e294"
+  },
+  "implementation_sha256": "310511dfd589281f4aebfea86c875a6d1a366f71a96d019e41d82d4f1777303c",
+  "field_input_and_dependency_hashes_verified": true,
+  "new_report_python_ast_check": "24 report modules parsed successfully",
+  "git_whitespace_check": "Python, Markdown and JSON passed; generated CSV CRLF and Matplotlib SVG formatting preserved to retain recorded raw-data hashes."
+}

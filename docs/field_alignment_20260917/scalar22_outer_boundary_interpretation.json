@@ -1,0 +1,162 @@
+{
+  "status": "analytic_interpretation_of_deliberately_finite_boundary_controls",
+  "transform": "y=sqrt(Delta) R; y''+Q y=0",
+  "exact_Q": "Q=(K^2+1-a^2)/Delta^2-(mu^2 r^2+A+a^2 omega^2-2 a m omega)/Delta",
+  "expansion": "Q=k^2+2 beta/r+C2/r^2+O(r^-3), beta=2 omega^2-mu^2, C2=12 omega^2-4 mu^2-a^2 k^2-A",
+  "leading_current_ratio": "N_actual/(2 k |ZI|^2)=(Delta/Rout^2)*(1+beta/(k^2 Rout)), for R_up=exp(i k r) r^(-1+i beta/k) exp(-2ik log2)",
+  "finite_order_warning": "The 0/6 controls use the leading asymptotic prefactor. A separate control correctly uses the published exact tortoise prefactor with fourth-order coefficients independently derived from the ODE.",
+  "rows": [
+    {
+      "orbit": 41.1,
+      "a": 0.8771530275949366,
+      "mu": 0.3,
+      "omega": 0.30007587885635806,
+      "k_squared": 4.5533071415679305e-05,
+      "beta": 0.09009106614283136,
+      "angular_A": 5.999994995279286,
+      "C2": -5.279483631450598,
+      "long_range_scale_2beta_over_abs_k2": 3957.170616511871,
+      "approximate_turning_points": [
+        29.087013849287715
+      ],
+      "tests": [
+        {
+          "radius": 1000.0,
+          "Q_truncated": 0.0002204357200698914,
+          "Q_exact": 0.00022042361726319626,
+          "region": "oscillatory",
+          "beta_over_abs_k2_r": 1.9785853082559353
+        },
+        {
+          "radius": 4000.0,
+          "Q_truncated": 9.024863676012932e-05,
+          "Q_exact": 9.024844788670106e-05,
+          "region": "oscillatory",
+          "beta_over_abs_k2_r": 0.4946463270639838
+        },
+        {
+          "radius": 8000.0,
+          "Q_truncated": 6.797334601964574e-05,
+          "Q_exact": 6.797332241530174e-05,
+          "region": "oscillatory",
+          "beta_over_abs_k2_r": 0.2473231635319919
+        },
+        {
+          "radius": 32000.0,
+          "Q_truncated": 5.115860730387243e-05,
+          "Q_exact": 5.115860693508112e-05,
+          "region": "oscillatory",
+          "beta_over_abs_k2_r": 0.06183079088299798
+        },
+        {
+          "radius": 64000.0,
+          "Q_truncated": 4.8347128296209326e-05,
+          "Q_exact": 4.8347128250122995e-05,
+          "region": "oscillatory",
+          "beta_over_abs_k2_r": 0.03091539544149899
+        }
+      ],
+      "leading_order_current_normalization": [
+        {
+          "radius": 1000.0,
+          "analytic_factor": 2.972630429355316,
+          "numerical_factor": 2.972630429266796,
+          "relative_difference": -2.9778290944193486e-11
+        },
+        {
+          "radius": 4000.0,
+          "analytic_factor": 1.4938990757740176,
+          "numerical_factor": 1.4938990755428356,
+          "relative_difference": -1.5475076775572916e-10
+        },
+        {
+          "radius": 8000.0,
+          "analytic_factor": 1.2470113477362221,
+          "numerical_factor": 1.2470113473524376,
+          "relative_difference": -3.0776348136640763e-10
+        }
+      ]
+    },
+    {
+      "orbit": 42.1,
+      "a": 0.8771530275949366,
+      "mu": 0.3,
+      "omega": 0.2999423381255306,
+      "k_squared": -3.459379978985877e-05,
+      "beta": 0.08993081240042028,
+      "angular_A": 6.000003802338735,
+      "C2": -5.280392311555429,
+      "long_range_scale_2beta_over_abs_k2": 5199.244543629674,
+      "approximate_turning_points": [
+        29.52575436920775,
+        5169.718789260466
+      ],
+      "tests": [
+        {
+          "radius": 1000.0,
+          "Q_truncated": 0.00013998743269942637,
+          "Q_exact": 0.00013997532861705075,
+          "region": "oscillatory",
+          "beta_over_abs_k2_r": 2.599622271814837
+        },
+        {
+          "radius": 4000.0,
+          "Q_truncated": 1.0041581890879156e-05,
+          "Q_exact": 1.0041392997553467e-05,
+          "region": "oscillatory",
+          "beta_over_abs_k2_r": 0.6499055679537092
+        },
+        {
+          "radius": 8000.0,
+          "Q_truncated": -1.2193602819621753e-05,
+          "Q_exact": -1.2193626426418303e-05,
+          "region": "evanescent",
+          "beta_over_abs_k2_r": 0.3249527839768546
+        },
+        {
+          "radius": 32000.0,
+          "Q_truncated": -2.8978280647949256e-05,
+          "Q_exact": -2.897828101677824e-05,
+          "region": "evanescent",
+          "beta_over_abs_k2_r": 0.08123819599421366
+        },
+        {
+          "radius": 64000.0,
+          "Q_truncated": -3.1784751060624825e-05,
+          "Q_exact": -3.1784751106739284e-05,
+          "region": "evanescent",
+          "beta_over_abs_k2_r": 0.04061909799710683
+        }
+      ],
+      "exact_outer_turning_point": 5169.705639622879
+    }
+  ],
+  "source_sha256": "5dc24421d4545a631f214a1b2edd9f6e9745090a98e5fa214dd6deafe34bc4e5",
+  "li_exact_order4_result_sha256": "9e386e440820c0631fc4ef419e4f9067598aca8e6f2bd810fcc94dd19763a107",
+  "Li_method_evidence": {
+    "main_tex": "outputs/paper_original_reference/li_2507_02045v2/source/main.tex",
+    "main_tex_sha256": "4535abc53b9d8cd1ea1919bfcf8847ab3a065137ee21df4cc6f20c38acf092a4",
+    "boundary_equation_lines": [
+      568,
+      575
+    ],
+    "expansion_lines": [
+      592,
+      604
+    ],
+    "specified_highest_order": 4,
+    "cutoff_comment_line": 729,
+    "explicit_outer_cutoff_found_in_local_main_tex": false,
+    "supplementary_boundary_repository": "https://github.com/dongjun826/EMRI-in-scalar-clouds.git",
+    "bibliography_file": "outputs/paper_original_reference/li_2507_02045v2/source/reference.bib",
+    "bibliography_sha256": "743a100d67585d460f3c34cd76a6213d8e678d09b4619fbe72807d566bae4960",
+    "conclusion": "Expansion order is known. This local text search does not establish the numerical outer endpoint or the actual implementation parameters."
+  },
+  "interpretation": "Finite external asymptotics can alter the bound-mode nodes and the formal radiation normalization. This demonstrates a plausible failure class, not the original authors' actual boundary choice or a proved explanation of their plotted discrepancy.",
+  "implementation_sha256": "0323621fa0eff9fc43898422f8d4fd0753652fcb7659206a19063a6c506a0251",
+  "independent_author_coefficient_check": {
+    "file": "docs/field_alignment_20260917/li_author_boundary_coefficients_check.json",
+    "sha256": "e93c84efdf027cb98a66d08e263e0c1362fabd16ad870221dea2685d0c02f50e",
+    "scope": "Original author B1 through B4 expressions independently evaluated on propagating and bound branches; eight values agree to max relative 1.4333e-45. Not a Mathematica notebook execution."
+  }
+}

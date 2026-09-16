@@ -1,0 +1,294 @@
+{
+  "status": "fixed_spin_complex_Leaver_spectrum_completed",
+  "physical_parameters": {
+    "a": ".88",
+    "mu": ".3",
+    "ell": 1,
+    "m": 1,
+    "radial_overtone": 0
+  },
+  "precision_decimal_digits": 65,
+  "angular_terms": 10,
+  "cases": [
+    {
+      "radial_terms": 150,
+      "omega": [
+        "0.296293534728112268467448364656702928134503389624",
+        "0.00000000221661280224737123008437019251344609342966814453"
+      ],
+      "angular_eigenvalue": [
+        "2.00034229329049877790158598935126707116327754427",
+        "-0.000000000203424552380032793259471112080934447798583681209"
+      ],
+      "continued_fraction_residual": [
+        "-1.16320704885557534656547217802133975139206831462e-64",
+        "1.29822215274059748500610734154167382967864767257e-66"
+      ],
+      "radial_reduction_linearity_residual": [
+        "-2.3738919364399496868683105673904892885552414584e-66",
+        "0.0"
+      ],
+      "elapsed_seconds": 0.5395947319993866
+    },
+    {
+      "radial_terms": 300,
+      "omega": [
+        "0.296293534725615956779176759003578214224652082674",
+        "0.00000000221660940302402644387865344513405658509970154186"
+      ],
+      "angular_eigenvalue": [
+        "2.00034229329072787117726565698242740954480888278",
+        "-0.000000000203424240422387658794996644746323481599212351788"
+      ],
+      "continued_fraction_residual": [
+        "-4.53413359860030390191847318371583454114051118555e-64",
+        "5.11870448794864151230979466093574252844723939469e-66"
+      ],
+      "radial_reduction_linearity_residual": [
+        "0.0",
+        "2.78190461301556603929880144616072963502567358407e-68"
+      ],
+      "elapsed_seconds": 0.5319606350021786,
+      "change_from_previous_complex_omega": [
+        "-0.00000000000249631168827160565312471390985130694991291912126",
+        "-0.00000000000000339922334478620571674737938950832996660267670646"
+      ]
+    },
+    {
+      "radial_terms": 500,
+      "omega": [
+        "0.296293534725611462814885674586177920848684457918",
+        "0.000000002216609396445794947297395311284597461286131867"
+      ],
+      "angular_eigenvalue": [
+        "2.00034229329072828360052396398156379850381547415",
+        "-0.000000000203424239818682456921258660439961509654513667673"
+      ],
+      "continued_fraction_residual": [
+        "2.39763085580434918373699367306439418144079387299e-64",
+        "-2.70772049000181761158416674092977684475832228849e-66"
+      ],
+      "radial_reduction_linearity_residual": [
+        "-3.56083790465992453030246585108573393283286218761e-66",
+        "-9.27301537671855346432933815386909878341891194689e-69"
+      ],
+      "elapsed_seconds": 0.5191684210003586,
+      "change_from_previous_complex_omega": [
+        "-0.00000000000000449396429108441740029337596762475643343683478805",
+        "-6.57823149658125813384945912381356967485974416066e-18"
+      ]
+    }
+  ],
+  "recurrence": "General x=(r-r+)/(r-r-) Frobenius reduction from paper_leaver_radial; minimal-solution backwards continued fraction from paper_leaver_cloud.",
+  "limitations": [
+    "Spectrum and derived threshold scales only; no cloud normalization, metric source, or forced radial field recomputed.",
+    "Complex angular matrix is diagonalized rather than using the real symmetric eigensolver.",
+    "Finite radial continued-fraction truncation is explicitly varied; numerical root residual alone is not truncation accuracy.",
+    "No production module modified."
+  ],
+  "synchronous_generalization_check": {
+    "threshold_spin": "0.877153027594927453870378937240047040367844310904",
+    "threshold_omega": "0.296293248479750694881987980546548061592691778563",
+    "specialized_cf_residual": "-3.7744881789395200021e-64",
+    "generalized_cf_residual": [
+      "-3.28784033196933031631261013583582766464900941989e-64",
+      "6.63622743754038893879991599127671421518276990862e-70"
+    ],
+    "difference": [
+      "4.86647846970189685808003666315050304153824498973e-65",
+      "6.63622743754038893879991599127671421518276990862e-70"
+    ]
+  },
+  "fixed_spin_minus_stationary_cloud": {
+    "real_frequency_difference": "0.000000286245860767932897694039629859255992679354842437",
+    "imaginary_frequency": "0.000000002216609396445794947297395311284597461286131867",
+    "spin_difference": "0.00284697240507254612962106275995295963215568909609",
+    "fixed_spin_horizon_omega": "0.29831040711277460830288823635426867095648806878",
+    "rounding_error_using_0p296294": "0.000000465274388537185114325413822079151315542082303423"
+  },
+  "threshold_scales": [
+    {
+      "orbital_radius": "42.1",
+      "stationary": {
+        "a": "0.877153027594927453870378937240047040367844311",
+        "cloud_omega": [
+          "0.296293248479750694881987980546548061592691778563",
+          "0.0"
+        ],
+        "orbital_omega": "0.00364908964577351259861813053401487702647862376",
+        "scalar_m": 2,
+        "metric_m": 1,
+        "scalar_real_omega": "0.299942338125524207480606111080562938619170402",
+        "mu_minus_scalar_real_omega": "0.0000576618744757925193938889194370613808295976749",
+        "decay_kappa": "0.00588164941098221609935565325683081285998661177",
+        "coulomb_beta": "0.0899308124004125851008329997856355190152686203",
+        "coulomb_eta": "15.2900668020936044414101269159154639125669894",
+        "complex_decay_kappa": [
+          "0.00588164941098221609935565325683081285998661176982",
+          "0.0"
+        ],
+        "frequency_prescription": "Real cloud frequency for forced stationary response; complex kappa reported separately."
+      },
+      "fixed_spin_complex_spectrum": {
+        "a": "0.88",
+        "cloud_omega": [
+          "0.296293534725611462814885674586177920848684457918",
+          "0.000000002216609396445794947297395311284597461286131867"
+        ],
+        "orbital_omega": "0.00364905173629492231797359572469570346743122252",
+        "scalar_m": 2,
+        "metric_m": 1,
+        "scalar_real_omega": "0.29994258646190638513285927031087362431611568",
+        "mu_minus_scalar_real_omega": "0.0000574135380936148671407296891263756838843195605",
+        "decay_kappa": "0.00586897150630436212539285370986031908841952608",
+        "coulomb_beta": "0.0899311103469163750133620696974764662737098941",
+        "coulomb_eta": "15.3231465258118412083256509505618754920521106",
+        "complex_decay_kappa": [
+          "0.0058689715073980788427812489895672355901874594551",
+          "-0.000000113283145898329772766452459677844615102774911787"
+        ],
+        "frequency_prescription": "Real cloud frequency for forced stationary response; complex kappa reported separately."
+      },
+      "change_cloud_frequency_only": {
+        "a": "0.877153027594927453870378937240047040367844311",
+        "cloud_omega": [
+          "0.296293534725611462814885674586177920848684457918",
+          "0.000000002216609396445794947297395311284597461286131867"
+        ],
+        "orbital_omega": "0.00364908964577351259861813053401487702647862376",
+        "scalar_m": 2,
+        "metric_m": 1,
+        "scalar_real_omega": "0.299942624371384975413503805120192797875163082",
+        "mu_minus_scalar_real_omega": "0.00005737562861502458649619487980720212483691832",
+        "decay_kappa": "0.00586703376556295120403576197780093224077893115",
+        "coulomb_beta": "0.0899311558295874884346608652927187043721536472",
+        "coulomb_eta": "15.32821514637362092329643033344923326819205",
+        "complex_decay_kappa": [
+          "0.00586703376665775196469220179766091099450035382686",
+          "-0.000000113320574930825548219264356134778614593076052069"
+        ],
+        "frequency_prescription": "Real cloud frequency for forced stationary response; complex kappa reported separately."
+      },
+      "six_digit_cloud_frequency": {
+        "a": "0.88",
+        "cloud_omega": [
+          "0.296294",
+          "0.0"
+        ],
+        "orbital_omega": "0.00364905173629492231797359572469570346743122252",
+        "scalar_m": 2,
+        "metric_m": 1,
+        "scalar_real_omega": "0.299943051736294922317973595724695703467431223",
+        "mu_minus_scalar_real_omega": "0.0000569482637050776820264042753042965325687774782",
+        "decay_kappa": "0.00584514457633920173574227026443074556811962021",
+        "coulomb_beta": "0.0899316685697633848277043950188846850293622411",
+        "coulomb_eta": "15.3857047324032737623862569654990407940524881",
+        "complex_decay_kappa": [
+          "0.00584514457633920173574227026443074556811962020532",
+          "0.0"
+        ],
+        "frequency_prescription": "Real cloud frequency for forced stationary response; complex kappa reported separately."
+      },
+      "decay_kappa_relative_change_fixed_spin_vs_stationary": "-0.002155501593512491523268948578303862663609",
+      "decay_kappa_relative_change_six_digit_vs_exact": "-0.004059813536250066124275999843905424370932",
+      "coulomb_eta_relative_change_fixed_spin_vs_stationary": "0.002163478037499960411377722196521488985314",
+      "coulomb_eta_relative_change_six_digit_vs_exact": "0.004082595339413693619767284111649646015039",
+      "scalar_real_omega_relative_change_fixed_spin_vs_stationary": "0.0000008279470771936333058076492008102321926555",
+      "scalar_real_omega_relative_change_six_digit_vs_exact": "0.000001551211496925183605652352479723201880694"
+    },
+    {
+      "orbital_radius": "41.8",
+      "stationary": {
+        "a": "0.877153027594927453870378937240047040367844311",
+        "cloud_omega": [
+          "0.296293248479750694881987980546548061592691778563",
+          "0.0"
+        ],
+        "orbital_omega": "0.0036883171844868317080900360508551658835813398",
+        "scalar_m": 2,
+        "metric_m": 1,
+        "scalar_real_omega": "0.299981565664237526590078016597403227476273118",
+        "mu_minus_scalar_real_omega": "0.000018434335762473409921983402596772523726881637",
+        "decay_kappa": "0.00332569716491881478512008421041765864584743685",
+        "coulomb_beta": "0.0899778794767345019153058510249491807205020044",
+        "coulomb_eta": "27.0553435910725791530080673690498956417028003",
+        "complex_decay_kappa": [
+          "0.00332569716491881478512008421041765864584743685438",
+          "0.0"
+        ],
+        "frequency_prescription": "Real cloud frequency for forced stationary response; complex kappa reported separately."
+      },
+      "fixed_spin_complex_spectrum": {
+        "a": "0.88",
+        "cloud_omega": [
+          "0.296293534725611462814885674586177920848684457918",
+          "0.000000002216609396445794947297395311284597461286131867"
+        ],
+        "orbital_omega": "0.00368827845558153750879027794594560028547499306",
+        "scalar_m": 2,
+        "metric_m": 1,
+        "scalar_real_omega": "0.299981813181193000323675952532123521134159451",
+        "mu_minus_scalar_real_omega": "0.0000181868188069996763240474678764788658405490202",
+        "decay_kappa": "0.00330329540365700372178716249635012708700514621",
+        "coulomb_beta": "0.0899781764789523570256854029929446861172203465",
+        "coulomb_eta": "27.2389131106287225788765452313134736637817583",
+        "complex_decay_kappa": [
+          "0.00330329540979107209353585093655283102122386340995",
+          "-0.000000201296712334406668245974953473154624702173089415"
+        ],
+        "frequency_prescription": "Real cloud frequency for forced stationary response; complex kappa reported separately."
+      },
+      "change_cloud_frequency_only": {
+        "a": "0.877153027594927453870378937240047040367844311",
+        "cloud_omega": [
+          "0.296293534725611462814885674586177920848684457918",
+          "0.000000002216609396445794947297395311284597461286131867"
+        ],
+        "orbital_omega": "0.0036883171844868317080900360508551658835813398",
+        "scalar_m": 2,
+        "metric_m": 1,
+        "scalar_real_omega": "0.299981851910098294522975710637033086732265798",
+        "mu_minus_scalar_real_omega": "0.0000181480899017054770242893629669132677342022822",
+        "decay_kappa": "0.00329977644513324657289702270218820901536166983",
+        "coulomb_beta": "0.0899782229508242875883394742070083787885675914",
+        "coulomb_eta": "27.2679754058887232633920144965798771588047107",
+        "complex_decay_kappa": [
+          "0.00329977645128696042054804190927108663999431278724",
+          "-0.000000201511405855326234951717049226981561643733177071"
+        ],
+        "frequency_prescription": "Real cloud frequency for forced stationary response; complex kappa reported separately."
+      },
+      "six_digit_cloud_frequency": {
+        "a": "0.88",
+        "cloud_omega": [
+          "0.296294",
+          "0.0"
+        ],
+        "orbital_omega": "0.00368827845558153750879027794594560028547499306",
+        "scalar_m": 2,
+        "metric_m": 1,
+        "scalar_real_omega": "0.299982278455581537508790277945945600285474993",
+        "mu_minus_scalar_real_omega": "0.0000177215444184624912097220540543997145250069379",
+        "decay_kappa": "0.00326076871273338231942340020594967990339151012",
+        "coulomb_beta": "0.0899787347748041181616264850476582540176764468",
+        "coulomb_eta": "27.5943321044007008614726621704038892550838374",
+        "complex_decay_kappa": [
+          "0.00326076871273338231942340020594967990339151011709",
+          "0.0"
+        ],
+        "frequency_prescription": "Real cloud frequency for forced stationary response; complex kappa reported separately."
+      },
+      "decay_kappa_relative_change_fixed_spin_vs_stationary": "-0.006735959454792367918045668738687785758996",
+      "decay_kappa_relative_change_six_digit_vs_exact": "-0.01287401994884897775005511266732370707102",
+      "coulomb_eta_relative_change_fixed_spin_vs_stationary": "0.006784963529966614459554739811141497432722",
+      "coulomb_eta_relative_change_six_digit_vs_exact": "0.01304820762592368282083152463289885568545",
+      "scalar_real_omega_relative_change_fixed_spin_vs_stationary": "0.0000008251072192575114388936137918561516447617",
+      "scalar_real_omega_relative_change_six_digit_vs_exact": "0.000001551008654835195634436131685587938526901"
+    }
+  ],
+  "implementation_sha256": {
+    "src/report_fixed_spin_cloud_frequency.py": "8dcb4fa869911f1e3b96a945a1a8cf58d273beb842c7d0baa6b35a7617941da0",
+    "src/paper_leaver_cloud.py": "7c84d92c17dc4d2615f0b26af8b506c9bf4ac0ddd0293ac86506bcc25d328602",
+    "src/paper_leaver_radial.py": "e64c7709a02bd180024dd6f98fa67dc888179ca371675ca4d355f08afb5af493"
+  }
+}

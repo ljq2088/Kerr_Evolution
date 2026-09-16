@@ -1,0 +1,169 @@
+{
+  "status": "independent_two_ended_complex_shooting_completed_not_production_cloud_replacement",
+  "method": "ingoing Frobenius / decaying inverse-r boundaries + DOP853 + complex log-derivative matching; complex angular eig; no continued fraction",
+  "rows": [
+    {
+      "a": 0.88,
+      "mu": 0.3,
+      "ell": 1,
+      "m": 1,
+      "omega": [
+        0.2962935347256112,
+        2.2166094137915084e-09
+      ],
+      "Omega_H": 0.2983104071127746,
+      "superradiant_gap": 0.0020168723871634153,
+      "growth_or_damping": "growth",
+      "amplitude_timescale_M": 451139471.7436938,
+      "m2_ionization_radius_using_real_omega": 41.662706284232854,
+      "shooting": {
+        "rmin": 1.4749836834815166,
+        "rmax": 1000.0,
+        "match_radius": 22.22222222222222,
+        "outer_efolds": 45.0,
+        "horizon_offset": 1e-05,
+        "rtol": 2e-11,
+        "atol": 2e-14,
+        "horizon_order": 4,
+        "infinity_order": 6,
+        "angular_size": 20
+      },
+      "initial_scipy_success": true,
+      "initial_scipy_message": "The solution converged.",
+      "initial_nfev": 8,
+      "shooting_calls": 10,
+      "polish_steps": [],
+      "final": {
+        "angular_A": [
+          2.0003422932907293,
+          -2.0342424141054555e-10
+        ],
+        "angular_eigenpair_residual": 8.881793926273264e-16,
+        "log_derivative_mismatch": [
+          -7.61196661258623e-15,
+          -1.3841140397955907e-16
+        ],
+        "left_nfev": 1610,
+        "right_nfev": 2042,
+        "left_match_state": [
+          [
+            10.016296131811218,
+            -0.1174681256718839
+          ],
+          [
+            -0.07990982612014765,
+            0.0009383618001728427
+          ]
+        ],
+        "right_match_state": [
+          [
+            3.86883409303102e+18,
+            -66297565496575.47
+          ],
+          [
+            -3.0865492603314656e+16,
+            993619483473.2896
+          ]
+        ]
+      },
+      "elapsed_seconds": 0.35766749200047343
+    },
+    {
+      "a": 0.88,
+      "mu": 0.3,
+      "ell": 1,
+      "m": 1,
+      "omega": [
+        0.29629353472561143,
+        2.216609396778975e-09
+      ],
+      "Omega_H": 0.2983104071127746,
+      "superradiant_gap": 0.0020168723871631933,
+      "growth_or_damping": "growth",
+      "amplitude_timescale_M": 451139475.2062008,
+      "m2_ionization_radius_using_real_omega": 41.66270628423452,
+      "shooting": {
+        "rmin": 1.4749746834815165,
+        "rmax": 1555.5555555555557,
+        "match_radius": 25.0,
+        "outer_efolds": 70.0,
+        "horizon_offset": 1e-06,
+        "rtol": 2e-13,
+        "atol": 2.0000000000000002e-16,
+        "horizon_order": 6,
+        "infinity_order": 8,
+        "angular_size": 28
+      },
+      "initial_scipy_success": true,
+      "initial_scipy_message": "The solution converged.",
+      "initial_nfev": 6,
+      "shooting_calls": 8,
+      "polish_steps": [],
+      "final": {
+        "angular_A": [
+          2.000342293290726,
+          -2.0342423984925983e-10
+        ],
+        "angular_eigenpair_residual": 1.776356864452433e-15,
+        "log_derivative_mismatch": [
+          -8.465450562766819e-16,
+          -1.7022529973394055e-17
+        ],
+        "left_nfev": 3230,
+        "right_nfev": 5642,
+        "left_match_state": [
+          [
+            9.732448492806752,
+            -0.11413635489805188
+          ],
+          [
+            -0.12197039849196711,
+            0.0014313255668799436
+          ]
+        ],
+        "right_match_state": [
+          [
+            5.759197115138287e+29,
+            -1.4323467425807986e+25
+          ],
+          [
+            -7.217624940722346e+27,
+            2.3449852685958887e+23
+          ]
+        ]
+      },
+      "elapsed_seconds": 0.7139927089992852
+    }
+  ],
+  "refinement_difference": {
+    "real": 2.220446049250313e-16,
+    "imaginary": -1.7012533495691352e-17,
+    "absolute": 2.2269538134468633e-16,
+    "imaginary_relative": 7.675025433174109e-09
+  },
+  "input_sha256": {
+    "src/report_fixed_spin_kerr_cloud_shooting.py": "930ee9f03a2422ef751658bcfab1a6697308ea92e099c79834d5440875d65e08",
+    "src/environment_radial.py": "b392c3ffdbc0ed022441e050a8c25b641533ed65630d6dff8e81d26cdaf28b5a",
+    "src/environment_cloud.py": "13f9628f4513c00022ce7ebe69fc3d74db19a8e9fb610ece93ef9095866c8549",
+    "src/environment_schwarzschild_cloud.py": "0658e39d28ecade112d9dc34d06510f15252a79d58901a5111a9edb1c8e051ab"
+  },
+  "limitations": [
+    "Two numerical settings, not a certified analytic error bound.",
+    "Independent from Leaver continued fractions, but reuses local polynomial boundary expansions and primitive radial ODE coefficients.",
+    "Complex growing background is not exactly stationary or synchronized at fixed a=.88; no cloud normalization or environmental source is replaced here."
+  ],
+  "independent_leaver_comparison": {
+    "file": "docs/environment_reproduction/fixed_spin_cloud_frequency_20260917.json",
+    "sha256": "088c91a4ce63353b0862b6c21190a20c7e2e3d889d0326d12da0ef7fade535a7",
+    "radial_terms": 500,
+    "omega": [
+      "0.296293534725611462814885674586177920848684457918",
+      "0.000000002216609396445794947297395311284597461286131867"
+    ],
+    "shooting_minus_leaver_reported_decimal": [
+      "-3.2814885674586177920848684457918E-17",
+      "3.33180052702604688715402538713868133E-19"
+    ],
+    "scope": "Both independent roots were computed before exchanging their numerical answers; decimal differences are not certified error bounds."
+  }
+}

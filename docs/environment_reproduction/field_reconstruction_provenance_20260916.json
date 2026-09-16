@@ -1,0 +1,3472 @@
+{
+  "status": "field_input_version_audit_not_physical_source_validation",
+  "plots": [
+    {
+      "plot": "docs/environment_reproduction/figure5_threshold_wakes.json",
+      "plot_sha256": "131ed94c027fc4b82a274b708156b44d42ca79d9001d5fe239e2ec373839cf53",
+      "orbit": 41.6,
+      "counts": {
+        "inputs": 88,
+        "unversioned": 88,
+        "saved_input_hash_matches": 88
+      },
+      "inputs": [
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "9bf5e0daceb1f29daac1bd25ba00fde29fe3ee98d848de0fcc0766518e3f1af6",
+          "saved_plot_input_hash_matches": true,
+          "ell": 3,
+          "m": 3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-10_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "28e1c21ca583731bb86e3358d4e3f84ae75a50310d84ac7bccc101c8b0c6dd75",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": -9,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-10_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "23c194a3139841970c00d873eec788e4c5573142929d578f58a7597c850340a2",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": -9,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-11_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "e177e4d5bf3f5a650ea956265f2625ef570fdc1f0af59de2083dacda241a1a8b",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": -10,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-11_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "39c92bdb2037341243baf06771c0eb9309091672a9dbfc5bf946ddd5b0f500f7",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": -10,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-12_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "a84324c0677237893b8c35a8a9bc4f78880a361e54610ed5b108011e544776c6",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": -11,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-13_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "8661433cb2415c5129fe1c96b479ce0b04ec85a4c693d6bafe0fdf1a9246dff5",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": -12,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-1_sl10_gh0.0001_go4000_coulomb_inner0.0005_outer320_log_h32.json",
+          "sha256": "3e2e44b40cb0be77f1389525ef30cd48b9fa03fd1d7044b09dc49c4936033e5b",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": 0,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-1_sl12_gh0.0001_go4000_coulomb_inner0.0005_outer320_log_h32.json",
+          "sha256": "4ac69c89aa3ccc89b9e42e4fc45faff6822714a2325fa6fb6c3697071fb55ba9",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 0,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-1_sl2_gh0.0001_go4000_coulomb_inner0.0005_outer320_log_h32.json",
+          "sha256": "831bff90bcf1a73ad968b627593c6bfad4362d47d29b7e55a4c3db8b5b556789",
+          "saved_plot_input_hash_matches": true,
+          "ell": 2,
+          "m": 0,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-1_sl4_gh0.0001_go4000_coulomb_inner0.0005_outer320_log_h32.json",
+          "sha256": "28772016389edae89b885136185da5d96a57fc66ef09abcc8395099e33cced8f",
+          "saved_plot_input_hash_matches": true,
+          "ell": 4,
+          "m": 0,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-1_sl6_gh0.0001_go4000_coulomb_inner0.0005_outer320_log_h32.json",
+          "sha256": "621f599c81ee256907523f8f6d4cfd069771606919b459d6a0c3aa2c974e69d7",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": 0,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-1_sl8_gh0.0001_go4000_coulomb_inner0.0005_outer320_log_h32.json",
+          "sha256": "2e3337dba8e2dc78b9e3609950e1958aa8a4f3e8ea05bd2f0bae4f214848a9bb",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": 0,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-2_sl11_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "fce6c2334ba3b0bffaef3798ac89378ce6065f2af687f1141a15b896f2191f62",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": -1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-2_sl3_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "9829ceddf14153d11aa7597e52a100a1d9312040ce3bd5b18c6b75d1436fefe2",
+          "saved_plot_input_hash_matches": true,
+          "ell": 3,
+          "m": -1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-2_sl5_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "89a266a6337600040f2313286ec76818ccaa7172041a700d5c214a04f1f19103",
+          "saved_plot_input_hash_matches": true,
+          "ell": 5,
+          "m": -1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-2_sl7_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "7eaaa760a7f8dc1d8c663809045f08e5cfe161f25534d46df94c3fd72a9c63dc",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": -1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-2_sl9_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "95a241e8fd4649071937216cba56bbd059dd5472d5ab10885656fe6464500424",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": -1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-3_sl10_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "eb78f2602864ebe5268b0b99cb3363616f51bd0235669616b9b664d6220e0b85",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": -2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-3_sl12_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "201f9645ac65ef96013efd718543e42cd3a8a8eb2c9d98982e9e76a3424ed007",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": -2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-3_sl2_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "f2fca07b8fc3ac9e0b69b1717c36d91b69cfdf519b9257e7e5ec272f868829cd",
+          "saved_plot_input_hash_matches": true,
+          "ell": 2,
+          "m": -2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-3_sl4_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "f2a19a5c5a6a7745d4f2605c59dfb542e6632b99b6ae53b2c11155f6b8848416",
+          "saved_plot_input_hash_matches": true,
+          "ell": 4,
+          "m": -2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-3_sl6_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "cee361f395a943d59664d13a24c038e1cf8a2dd542a6eef90cfadba016a0d789",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": -2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-3_sl8_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "2991fb34eaf4c908c69ae81f52d49a208ce6df709b4e24927d702b5f267c1bd2",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": -2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-4_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "79df0584cc4685dd1d5f28a5e2a926a949e36d499128152c36346fe2e7e8fec7",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": -3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-4_sl3_inner0.0005_outer320_log_h32.json",
+          "sha256": "15f2802908c48b2cfcdef2d3d009bfed98382c49befd0f34007b3da277923f75",
+          "saved_plot_input_hash_matches": true,
+          "ell": 3,
+          "m": -3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-4_sl5_inner0.0005_outer320_log_h32.json",
+          "sha256": "4857140a096dd7afcb3808272e32721dd41b3bd6cbf08e888c0b2a88e9555f99",
+          "saved_plot_input_hash_matches": true,
+          "ell": 5,
+          "m": -3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-4_sl7_inner0.0005_outer320_log_h32.json",
+          "sha256": "b09b1276e4bb6132d5307a8797ccc416e9344e4a38227d334f99fd0b31d411b2",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": -3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-4_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "8532baac14e4a85afa65b574a7dc2c0acd5ae52c550cd959287458a8fb0cf6b3",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": -3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-5_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "399dad9d20f0eda6b8773b937b431f49f4a63f09c34be4c898fe7da12ac26add",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": -4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-5_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "6885d10d671c27b4540f8788e730c274d8f01912f6311f93e55fd3f7472664cd",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": -4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-5_sl4_inner0.0005_outer320_log_h32.json",
+          "sha256": "6ff2f20b850ceac4bf10df3e6d0215133451200d19ecfd3d20fba42895aec50a",
+          "saved_plot_input_hash_matches": true,
+          "ell": 4,
+          "m": -4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-5_sl6_inner0.0005_outer320_log_h32.json",
+          "sha256": "9c69dbcb4043dec00a72348925045be8735240d13493377729b8dcfebc6b2a32",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": -4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-5_sl8_inner0.0005_outer320_log_h32.json",
+          "sha256": "e0532f33a8fbab8f26d31e8fdc447da3d18cfbedbd9719d31cd974a1bded2b06",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": -4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-6_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "928c70226867cddf6ce166eecaa3150fc793ed70f7c97f2a2ac22a13818215e1",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": -5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-6_sl5_inner0.0005_outer320_log_h32.json",
+          "sha256": "d0935876208572f3c80ac8977a10b9bd65d8d9ad6a688bdb26c1661a2d50dc89",
+          "saved_plot_input_hash_matches": true,
+          "ell": 5,
+          "m": -5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-6_sl7_inner0.0005_outer320_log_h32.json",
+          "sha256": "1b7253911375929a809ad0b7b6f33cc0b2fe39cc1d7366fae1e102b713a259d4",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": -5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-6_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "00e8f6e9707543156732098e3c24d32f250af3536f16689939fcbca875427a4a",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": -5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-7_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "deb4de9df27d6dc4ccdd46c3aa265c4006a49ed23b7c4389e14f83b6d8e43ab1",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": -6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-7_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "30871ce2340bedc91d0d1dbdb279c2ac387abd4a8632c7d916a0b663d35ea863",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": -6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-7_sl6_inner0.0005_outer320_log_h32.json",
+          "sha256": "61a726392e5303f56b15266dfc1a94f6fc204e746a71930d22837975a75f44b0",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": -6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-7_sl8_inner0.0005_outer320_log_h32.json",
+          "sha256": "4f58826f00160fb8d4c738f161774d2a1faf8647a1afbd3d88f0219e0b056173",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": -6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-8_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "765f737fe8500b9174aa0e1bbf92583a793bde62be342e8350263dc1005aecc0",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": -7,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-8_sl7_inner0.0005_outer320_log_h32.json",
+          "sha256": "30cd3f6b8395814347d00160831d94bc8dba9429753402a1ece32e1382058123",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": -7,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-8_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "d1bce2e32c6c75084f726a533667280c42a35cc7176ae8d4ede524e5825e4e71",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": -7,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-9_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "4dc7d4f48d0912ac97e86e56480f7b97f58f47c4bc3ba88459be558dd12a3a7d",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": -8,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-9_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "1a8992c190ead91afd8e72dfabac6a31043e82bd2fa769dc793fc059a780d9ef",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": -8,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg-9_sl8_inner0.0005_outer320_log_h32.json",
+          "sha256": "5fe5b2c7e982de1559d36bf472d65ba322cd0ce9830f71e16cac150d8ba590b8",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": -8,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg0_sl11_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "b850bb02613502a6f030b9bc54efd44b6131843cf623050826a6d9ec62fe0b6a",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": 1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg0_sl3_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "21aa54ca3ac03723c5eb61a99365189d50483c27784487cc10fe8cc9c07490d1",
+          "saved_plot_input_hash_matches": true,
+          "ell": 3,
+          "m": 1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg0_sl5_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "0c1fb8bd771d6f79750ff9507d426f5318ce1e1a66719eeeb2fb8ee948601763",
+          "saved_plot_input_hash_matches": true,
+          "ell": 5,
+          "m": 1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg0_sl7_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "64e290531feeb1e1e46bc45b6aca9cf32b29af98841ceaa0485149db145a8f5f",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": 1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg0_sl9_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "79233194b2bd2255e038009fa602dfa90e93539b464f8ff594edaf70a2f18d0e",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": 1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg10_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "008b5dce6047f85dad6f497a59b5d7f0bb3c3c04231cb77781aee18533ad85d1",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": 11,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg11_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "6e291359272f612e502e00ce0ec57182a675c278a8c6d87a2e1070319b676e08",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 12,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg1_sl10_gh0.0001_go32000_coulomb_inner0.0005_outer320_log_h32.json",
+          "sha256": "76713b463b45362a673e10c6cf3abd4ac4693d1aac079267ef110263544ad94a",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": 2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg1_sl12_gh0.0001_go32000_coulomb_inner0.0005_outer320_log_h32.json",
+          "sha256": "ba2862f11614e587e1fd1c899e4a4a9921a4710464ee59d8e1e1bfd064072fd7",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg1_sl2_gh0.0001_go32000_coulomb_inner0.0005_outer320_log_h32.json",
+          "sha256": "871494771adf9d4ffe9e7b2424e18dc30da413ce86c4467f94e2ea8d4e9c031e",
+          "saved_plot_input_hash_matches": true,
+          "ell": 2,
+          "m": 2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg1_sl4_gh0.0001_go32000_coulomb_inner0.0005_outer320_log_h32.json",
+          "sha256": "268aeb765f1dc2419cf4fd9352d8c0c191263c36a50f4b0fa8046f0810de2ef5",
+          "saved_plot_input_hash_matches": true,
+          "ell": 4,
+          "m": 2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg1_sl6_gh0.0001_go32000_coulomb_inner0.0005_outer320_log_h32.json",
+          "sha256": "3679c044dc7d23aba8a5ce64335399f5d6cdc6d3f84299487864b21209721d41",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": 2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg1_sl8_gh0.0001_go32000_coulomb_inner0.0005_outer320_log_h32.json",
+          "sha256": "06846fe2fbbd879f67c6d2640be1932510648e2fe1905aa57cee1e266f040fd3",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": 2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg2_sl11_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "cbe423bb16b5f84efd3284184cfc56d12d4e7ce9f0f1ea6fe994d9970972d835",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": 3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg2_sl5_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "e6e13130ef82fed8e0ec2b693aa5071a2a7fab5e03d6f4202422e3c2a0f90924",
+          "saved_plot_input_hash_matches": true,
+          "ell": 5,
+          "m": 3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg2_sl7_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "ab5d2a6493407d23f5fbdcfd9883c2b66f8f270374027896ac66a0342a225ea8",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": 3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg2_sl9_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "01d015401efa77b7e394f39ea03b098c64b52ccf359d80c16360fb6346be2174",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": 3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg3_sl10_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "74719f7d691428e9bf63e7beabe81d3ef638abc7f6c246d98300c4fa80694975",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": 4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg3_sl12_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "2918349423d22d22b3708d306621f3b3ebad56a9389eeb375d1dc41f0ab76201",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg3_sl4_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "d05051cacc9040de1ac2a49aeafeddc236c982a8e461ad5b1726eb64f97527a6",
+          "saved_plot_input_hash_matches": true,
+          "ell": 4,
+          "m": 4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg3_sl6_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "a9b554cc96fb8291dbb6bad1c538351e8b37430b8e3c151e87c1ba5697f2aa05",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": 4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg3_sl8_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "fa90e2f993a13c23b9c6a22487f735f52906ea071c3599c4d73c62019f9b1227",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": 4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg4_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "ed198d0d42c67068f3f08d211b91322290792c6dc766b38641e1a97230325c6f",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": 5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg4_sl5_inner0.0005_outer320_log_h32.json",
+          "sha256": "6c2b67483996bd504b5b0cc2435d9dd1739f096c49aac526fc0406e832073caf",
+          "saved_plot_input_hash_matches": true,
+          "ell": 5,
+          "m": 5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg4_sl7_inner0.0005_outer320_log_h32.json",
+          "sha256": "9b31e560751194d8d6ee94e46d1f12722ce0b99b42ab7d1222b8ffe2c36d7f98",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": 5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg4_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "7b6001d99b104cc4ee033a075ad0d98abd25040c3113e46c1ec5349bfcedd7e4",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": 5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg5_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "8c53b3893a39f38ab5a588c16879395f64a1941b7e1c8167d56a82abb65181b7",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": 6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg5_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "ba1a7087f71221b863d7744d9a25239db5fd41e92bedac43419922006c5254d7",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg5_sl6_inner0.0005_outer320_log_h32.json",
+          "sha256": "38b3220d450f5bb3ffcece6887560c0b244676f2cb34dde6cd1b3213c4cc13c8",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": 6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg5_sl8_inner0.0005_outer320_log_h32.json",
+          "sha256": "53b660956ebe816f3a6b02b291acaeb808d11d74ac039bd360718950b77e076c",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": 6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg6_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "2691736712643f0c7186708fc41c95783191f506a2539276357e5baac00c0667",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": 7,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg6_sl7_inner0.0005_outer320_log_h32.json",
+          "sha256": "c099526a25aa5002300a48659dc940f26cc8cce4f36435231099a5c88d8ca7d8",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": 7,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg6_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "7b1b00ad168093669342be43208eff20497f9f00d505e58ed519c7bf783dea05",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": 7,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg7_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "9283bd5de656adb637b87cb96d1bbba11cc3e868f96466bd4c9c81df5a3392d5",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": 8,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg7_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "76dc7984bfa3dd84b42618ecfa1667a7acd10305943dbf5f0f10d8196d8814b9",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 8,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg7_sl8_inner0.0005_outer320_log_h32.json",
+          "sha256": "a3fce258aae1671045374c032e5bef0df74f87ee86b7b695f307cb2ef94c3ef5",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": 8,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg8_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "2ba20b3f4b5ec8e288e1192b86a73e96ccf10df033a20460500885c3c3a98a06",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": 9,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg8_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "1e984d06c1380330df885caee60cfab534e74e162ece51c5c67fe7c5bf21b91a",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": 9,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg9_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "3821601bc5519f10427819de4bb61c13d7363ef39712f444cde6b4b516aa513b",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": 10,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg9_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "d4e09d1a7b28f161ba86e69a435b3ec259f0ca99b067a6cf5b939029569bf931",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 10,
+          "versioned": false,
+          "refresh_candidates": []
+        }
+      ]
+    },
+    {
+      "plot": "docs/environment_reproduction/figure5_threshold_wakes.json",
+      "plot_sha256": "131ed94c027fc4b82a274b708156b44d42ca79d9001d5fe239e2ec373839cf53",
+      "orbit": 41.8,
+      "counts": {
+        "inputs": 88,
+        "unversioned": 88,
+        "saved_input_hash_matches": 88
+      },
+      "inputs": [
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "aa9d13c1747a215283ad79a5e3f6be6c0f65143fdc6f504e815ab869c20980e1",
+          "saved_plot_input_hash_matches": true,
+          "ell": 3,
+          "m": 3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-10_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "177c0eb71f6dbf7cfe69c7e5245fff2031c7e4ed232f964a3e0f4dce5eafd31b",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": -9,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-10_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "c438d1e4006b2eafbd69f7e57390e7aca1dad4aa0625e3d08c285684312c87dd",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": -9,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-11_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "52b3945782133f722c447ccd3602e7b390d0ba35a3aaa3315252ebbbac5ed8d0",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": -10,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-11_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "db2936c032a4bccb00be3650feefe88ab570ead6957a3e85fc5c469e7511aa2e",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": -10,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-12_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "5469a9400164ef254ed8bf86e2346b4daa043591bbb0277a7693553300642f8f",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": -11,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-13_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "4fd4b11c3a1a568cdd8dad300fec15ee227e0451d566aaacd86583fd1fadac0d",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": -12,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-1_sl10_gh0.0001_go4000_coulomb_inner0.0005_outer320_log_h32.json",
+          "sha256": "310f06d4a6e73a95ba8fa7d64be70ae292e5a51617ce1ce14d41a0a3a7ea686e",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": 0,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-1_sl12_gh0.0001_go4000_coulomb_inner0.0005_outer320_log_h32.json",
+          "sha256": "f6cd20978895f06fb1e298d358cefbbb2668fe9d692786987403603c33853338",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 0,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-1_sl2_gh0.0001_go4000_coulomb_inner0.0005_outer320_log_h32.json",
+          "sha256": "adf155d63eea0211f914824cd28a3e89596e13e55770f97d923b47fb58ad8703",
+          "saved_plot_input_hash_matches": true,
+          "ell": 2,
+          "m": 0,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-1_sl4_gh0.0001_go4000_coulomb_inner0.0005_outer320_log_h32.json",
+          "sha256": "ef1260f9846d66fcb1fc4471332a3e12a7cb43f73f214506ef4caa6d67c38a0a",
+          "saved_plot_input_hash_matches": true,
+          "ell": 4,
+          "m": 0,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-1_sl6_gh0.0001_go4000_coulomb_inner0.0005_outer320_log_h32.json",
+          "sha256": "0741c0755ed0c1caa410623a33bc432518b8412ba7dccaebf6f55b50b8465b5a",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": 0,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-1_sl8_gh0.0001_go4000_coulomb_inner0.0005_outer320_log_h32.json",
+          "sha256": "ea487c882a177e5a4ed7dcdee12eb295f516c42a021a7a413c4f7bfebad2d5e3",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": 0,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-2_sl11_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "0f342ad40dc2feed8723ade67c13eeaa018d59fd25597d88ab1b6d3f727b83c3",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": -1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-2_sl3_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "961f53660036eac9fcf123bab9fe83e2277f61ed746889ab68fb88b8cd1073f0",
+          "saved_plot_input_hash_matches": true,
+          "ell": 3,
+          "m": -1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-2_sl5_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "6975ab77b870ac39fa87ab6fea277cae48c7143eae1ea8d097c9447fc2c4bcf7",
+          "saved_plot_input_hash_matches": true,
+          "ell": 5,
+          "m": -1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-2_sl7_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "5bc8272e0efe15965be1e72b71109f2dbf3ccd450ccd31c7bcc09826804b615d",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": -1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-2_sl9_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "59c3305e6fe8993d857ef56c9b3a7c7eb2943b5d81a02f01d579d5b5b9b72407",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": -1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-3_sl10_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "f5faf55382b5a0d84fb2c2ea65693f575a5b266c5f1496e1f95f396341f4e3ad",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": -2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-3_sl12_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "d5db376fb8c6759444dcab9776835c9704761ee3570a0244469413b4608090b2",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": -2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-3_sl2_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "ab6d97191cd8198014c4451d1e62edfd42b7246038a80ea59c872b1e3d0df6dc",
+          "saved_plot_input_hash_matches": true,
+          "ell": 2,
+          "m": -2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-3_sl4_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "d6078597c46e176e63e76a58cc19383cb2bb87e6c457ee25d1b7b8335242a6e6",
+          "saved_plot_input_hash_matches": true,
+          "ell": 4,
+          "m": -2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-3_sl6_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "a9bcaef567a5fa69ea6826313c9cee6fb497fd2b3802a4c3bcd72d1a121be0e2",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": -2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-3_sl8_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "97ac5df74523e7555e4aa8299ba7a23f41a26307cc8a49818b167cb26a530c81",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": -2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-4_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "554404633eb78729c40ead671cdc8316e10993e5350e71891468459b2850d2df",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": -3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-4_sl3_inner0.0005_outer320_log_h32.json",
+          "sha256": "98706fcc161c2188455a54a5d7f5894ffbd7be9183727f39d1b9957171f65e04",
+          "saved_plot_input_hash_matches": true,
+          "ell": 3,
+          "m": -3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-4_sl5_inner0.0005_outer320_log_h32.json",
+          "sha256": "9ec825086b58e0420094cdabc65935c0fe138d7c3bb58e47d108ddb3b78d2872",
+          "saved_plot_input_hash_matches": true,
+          "ell": 5,
+          "m": -3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-4_sl7_inner0.0005_outer320_log_h32.json",
+          "sha256": "6c99ccf7c9b5387369722cd8253310d17a56906950414e6534be75cbb1197e1e",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": -3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-4_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "f0757afa6e75278e4780e10288556beff30379c0e11f729ba2d81dc3a03581cf",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": -3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-5_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "5c512fa8f776eb566045123c9756674147d9a4da1570d8edf7cb579560558709",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": -4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-5_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "33d919b79229451ad5a6da2e59f65310decebb2980ef36062b74bbf640349c0a",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": -4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-5_sl4_inner0.0005_outer320_log_h32.json",
+          "sha256": "18a87efbcbdf7d88d6d99954db070f4faf3ce1c7b8bfff80f1ce5169e303c677",
+          "saved_plot_input_hash_matches": true,
+          "ell": 4,
+          "m": -4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-5_sl6_inner0.0005_outer320_log_h32.json",
+          "sha256": "485184017308234ae8a41a20cbce8bfb2e0399fd7502d37e57f60a576fdaf4e4",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": -4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-5_sl8_inner0.0005_outer320_log_h32.json",
+          "sha256": "c1709ee6fef12825770be133ee226bfe7ca741ec2db3160bc18e3a5ad7eac9af",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": -4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-6_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "b2636cfba75ac0646aaada3773bb37a5f282862c46ef06f368239e0c60833e84",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": -5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-6_sl5_inner0.0005_outer320_log_h32.json",
+          "sha256": "446273e192bbca7465182a5a44d6bbf1b5ff2ea90ee733b7161794d0cf7a1523",
+          "saved_plot_input_hash_matches": true,
+          "ell": 5,
+          "m": -5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-6_sl7_inner0.0005_outer320_log_h32.json",
+          "sha256": "8e25ac921360d95de0da308b3dbfdfff23aba8d6745fcee91ed55882188bf600",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": -5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-6_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "a5717ce87bb3324568ec5a4dd6600f5da0ef120641f887418d5a01966167a9f9",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": -5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-7_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "ec7dbdfe409fc9d2027cdf83834644c522af5089e8ba86b346d74499b83bad69",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": -6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-7_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "b01e453cc9400cb8e6c2b394fd46d49adaad61f0c63b58595856613e42d86a35",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": -6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-7_sl6_inner0.0005_outer320_log_h32.json",
+          "sha256": "b61e2c12bf65f162d23a654ba7f29daec37c002e63ad5a4894d248234fd8478e",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": -6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-7_sl8_inner0.0005_outer320_log_h32.json",
+          "sha256": "967d59d39e50fe95ac305ce14031fd8aa2c0f947789b4c4c285e817163dd7292",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": -6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-8_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "66085a3438a650fd8c349070cb45a1e8c51761d888c0779e3e29c59ab223429b",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": -7,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-8_sl7_inner0.0005_outer320_log_h32.json",
+          "sha256": "9960172c9e2b3f856ccd874c83f0bdf311e2e7ade431a12e2d1c047a34bf2c2b",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": -7,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-8_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "7ef69a637d0b3864a88ed6ab23a92c279e4aad7ef7cfd05f884c0723742aef51",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": -7,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-9_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "6c45a383db763a02331d213ae9fec95c8aafc5187ae9f02c82e5f7efb8b49bb5",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": -8,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-9_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "6fb3c1af3b20f5e41b2b7f0bb37416f6cb9887386e1fc2e5e137d01e83802a3c",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": -8,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg-9_sl8_inner0.0005_outer320_log_h32.json",
+          "sha256": "f84008113cfcc5f03bd4291c5c4c056f6b9e9bfb20038ced3fef7e4626b15dd2",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": -8,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg0_sl11_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "459000a7679ac2d8db5bd37e9ae80b648e308469ecf0e117371a83bbf422aee3",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": 1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg0_sl3_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "dd875cbb6aa071aef1a1c2a71889cf9c3ad43f5495d1416c3a7786186e0e106b",
+          "saved_plot_input_hash_matches": true,
+          "ell": 3,
+          "m": 1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg0_sl5_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "7d7ce29acb668811730caff56f7f84bcebe842a2e3be3e2bbcaea0ffdf66d3fc",
+          "saved_plot_input_hash_matches": true,
+          "ell": 5,
+          "m": 1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg0_sl7_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "7bb6e24febbb004614c8bb5ae528ab1f46daa09228c624463d34e3d0c10fc1ae",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": 1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg0_sl9_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "2acb075a7778548ed31433aae59500c52fad3693803d8a08d279853b4b225f26",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": 1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg10_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "86e15106f5440c97a4b87cae8cb735c2f02ec4d95085f2fb26ddb4aa35c86fde",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": 11,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg11_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "c6bb40a28296d35125644396ee5cafb779c22de8f822911b210d242ca3168974",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 12,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg1_sl10_gh0.0001_go32000_coulomb_inner0.0005_outer320_log_h32.json",
+          "sha256": "c9fd2ec6a65e27415220022196746023006e7f9a6c6dd0453e4544af0def2651",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": 2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg1_sl12_gh0.0001_go32000_coulomb_inner0.0005_outer320_log_h32.json",
+          "sha256": "0e264ea3e8c2b244668acbab8e2e3bfcdc556cf06060e0043007e6593c1e02b4",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg1_sl2_gh0.0001_go32000_coulomb_inner0.0005_outer320_log_h32.json",
+          "sha256": "df1d2cae004147fb549652b31bbea1b12afb3c33e50d7868dca70775bae41071",
+          "saved_plot_input_hash_matches": true,
+          "ell": 2,
+          "m": 2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg1_sl4_gh0.0001_go32000_coulomb_inner0.0005_outer320_log_h32.json",
+          "sha256": "ae3a5a88170146f0380d9e5c1e73d90dc2327cf92108346b002c168e44f1e52d",
+          "saved_plot_input_hash_matches": true,
+          "ell": 4,
+          "m": 2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg1_sl6_gh0.0001_go32000_coulomb_inner0.0005_outer320_log_h32.json",
+          "sha256": "d5a2d1299dcb38c0f48d3ecdff8949a47c927edec0cb4e7f08cfde78e53229fd",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": 2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg1_sl8_gh0.0001_go32000_coulomb_inner0.0005_outer320_log_h32.json",
+          "sha256": "c942b701074e42cde38864aaca5f7c07b4e86ab917edc89a45e9fe96f4f95b29",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": 2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg2_sl11_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "31258177445e118ff0425add765ba4d52927ef3f5721c18b6bc31de47b09906e",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": 3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg2_sl5_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "4319ba4d7ae8215a92bfa40a12464c87493592a92071a0d25e1df9476d740b5b",
+          "saved_plot_input_hash_matches": true,
+          "ell": 5,
+          "m": 3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg2_sl7_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "037f085579c4df31702552e279fcf8ffd876369d6dc4d1bf177265d37bbfb65a",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": 3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg2_sl9_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "e085b77668956f24049980ecf1c241339a1db7ff7ab9aa7bbc0bbefb1cb6022e",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": 3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg3_sl10_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "39a4dc67d0d4a1dacd5eca6c00537e3874f153859ebaf5c98cfbc331e3028240",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": 4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg3_sl12_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "dfc13ce860b44738ea3821a61e58dbbbd99fa2c7adfa1ece2de180b64c047ee1",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg3_sl4_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "bb1f8fbd049ba6a15f96ac19063e6740c2c341832c731300c332cad77724c076",
+          "saved_plot_input_hash_matches": true,
+          "ell": 4,
+          "m": 4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg3_sl6_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "0a4a0dacc50986c0fe539a53649faf9a2adcf3538293b8a2487725648cc6478c",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": 4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg3_sl8_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "9a953e27e16b85251a44738ca21643004c8dfd19eeefce73e9bed68ae7b31618",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": 4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg4_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "33f25f51dc273a4b26cc141ca8edaa3b5d1df14a43460f09119b6dc86bb13fd7",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": 5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg4_sl5_inner0.0005_outer320_log_h32.json",
+          "sha256": "9cb95efb431b4239acfb8de02e0e524ede63c19ce69373f3591f1e7480457172",
+          "saved_plot_input_hash_matches": true,
+          "ell": 5,
+          "m": 5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg4_sl7_inner0.0005_outer320_log_h32.json",
+          "sha256": "af53b23922a5c0f3ad5bc669272ad56f165555f0eb52f2b85388b63e2c2298e4",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": 5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg4_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "81748fe645cd9e49acf0fb9846650a8da2dbf75669cc7bad85bc034e5f25719d",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": 5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg5_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "091f44b92bafddc427b64d3664bbe01d9be2d64459f38a600ee541b69d5d21e1",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": 6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg5_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "735035c2d368e06c604fc35b440c363f1249fcff2f77d065b7f73f3de9accac6",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg5_sl6_inner0.0005_outer320_log_h32.json",
+          "sha256": "5422b20253d3898d15a5cefebaff667259dbe691213a3850d9a8cc73893dfeeb",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": 6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg5_sl8_inner0.0005_outer320_log_h32.json",
+          "sha256": "f5e43acdf4cfbddf4641766a4f7b3f7c58b8e6cdc867622c90421745d87fc8c4",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": 6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg6_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "f62ffd1d85549bb24c3a7ccb9a951f7e818ead7cdaa2bac479352bd6fb8dc48a",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": 7,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg6_sl7_inner0.0005_outer320_log_h32.json",
+          "sha256": "5b8b867d23f5138585ed8227a68d974a53c8bc7271dfb7f391997c8631d714ff",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": 7,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg6_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "debf0789f526a736e4c2e78dbc5aca2606756301632787307e89e2ea07336efb",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": 7,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg7_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "490f0ddfd08f2254e775a53f0b8135465375ff0489fc7507ee17aad115483aae",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": 8,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg7_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "97aed387d64ce4e177741d18fc74e5f0cbba71e4d52c93b8506df9e56749843c",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 8,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg7_sl8_inner0.0005_outer320_log_h32.json",
+          "sha256": "a33b8eb11195f3e5e791a6cec9d934a2d68e363af58aa27cf9f3fb23fc7f17b2",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": 8,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg8_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "eb0f76a5da44ddae40320b2a54fea593930706e9b112eff208d90a915144df45",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": 9,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg8_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "e6d6f74b90f3a5b269eb2a0e23739d6c1a799f043d7c97bd066f0bc001a3ef0b",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": 9,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg9_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "2e735876fc9fc4e13af6f8885b32db8272858eea7d3e1203560baa1c70acdcc8",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": 10,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.8_mg9_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "4b9abc4a07c6fb17408d80940f02f768afdad611645064970d63d336d5b4ca18",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 10,
+          "versioned": false,
+          "refresh_candidates": []
+        }
+      ]
+    },
+    {
+      "plot": "docs/environment_reproduction/wake_diagnostic_rp20_L18_sl12_mixed_wide_linear_eps.json",
+      "plot_sha256": "037c0410c17c45e4b8a1e00f0b20c7eabc56e1653662d29a72e7e44b8befd013",
+      "orbit": 20.0,
+      "counts": {
+        "inputs": 88,
+        "unversioned": 88,
+        "saved_input_hash_matches": 88,
+        "inputs_with_versioned_refresh": 5
+      },
+      "inputs": [
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_inner0.0005_outer320_log_h32.json",
+          "sha256": "d5549cee14d7434185cb044b5f15c18d3add7daacd8271ab5f8bc40f3dcd2736",
+          "saved_plot_input_hash_matches": true,
+          "ell": 3,
+          "m": 3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-10_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "177963b865dd4377f8f47c32b9c15e3df4a2a7fb6598cad370c0e8d3b5921ac9",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": -9,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-10_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "76db13aa3d46346e05f0ce0bbbc5ff8f9da0504425e0ee14e56ef42e285b2811",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": -9,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-11_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "7579354d6f5cb0248c72076b60389c5c273418c41216260de26935a13c47d769",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": -10,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-11_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "dd6981248e1e7c7cbce58bdd9a25418436707689ab63dd4ef36a5ee681bb7f32",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": -10,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-12_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "b49b311b4ef4d0fe65d54c62030c3ab77e96144d5fee2e6d956ae5518ae6cc1a",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": -11,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-13_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "f67a9b4eb1c967cc5d123654b20094984d9f97eb8b4de7fcbdaab9bf88d7bda7",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": -12,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-1_sl10_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "aa399f45d42502b2fb3bc9b1d6494c4adabc775b3800a0188addf9f47e27bdaa",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": 0,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-1_sl12_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "099638cbc149cca5576bd6790ede2dcdeb7853bd265503cb8970a4eb888afc2c",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 0,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-1_sl2_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "fb30d727cdb754c5dca3f7906b7383fe939d81949341953bb3787bc5d79b1162",
+          "saved_plot_input_hash_matches": true,
+          "ell": 2,
+          "m": 0,
+          "versioned": false,
+          "refresh_candidates": [
+            {
+              "file": "docs/environment_reproduction/fresh_20260915_L18_mg-1_sl2.json",
+              "sha256": "d328bb080c717d94d7859a7aaff91efe54cc825341e5fb3494fa2c721a5904fe",
+              "same_discretization": false,
+              "same_source_discretization": true,
+              "parameter_changes": {
+                "green_outer_radius": [
+                  4000.0,
+                  1000.0
+                ]
+              },
+              "source_samples_hash_valid": true,
+              "current_source_file_mismatches": [
+                "lorenz_kappa"
+              ],
+              "current_runtime_matches": true,
+              "version_scope": "versioned historical; original hashes retained",
+              "relative_orbit_complex_field_change": 1.9772390833367086e-06,
+              "relative_ZH_change": 7.520574883748776e-09,
+              "relative_source_max_norm": 8.1658094678725e-06
+            }
+          ]
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-1_sl4_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "588835460137dbf2011e15d91414f5045a046045fcf916a55826d9df709be8c3",
+          "saved_plot_input_hash_matches": true,
+          "ell": 4,
+          "m": 0,
+          "versioned": false,
+          "refresh_candidates": [
+            {
+              "file": "docs/environment_reproduction/fresh_20260915_L18_mg-1_sl4.json",
+              "sha256": "c83aa10f3aa072d41578c1d410d60d60fea5ccd9d3062d3164cbfe7796f4b412",
+              "same_discretization": false,
+              "same_source_discretization": true,
+              "parameter_changes": {
+                "green_outer_radius": [
+                  4000.0,
+                  1000.0
+                ]
+              },
+              "source_samples_hash_valid": true,
+              "current_source_file_mismatches": [
+                "lorenz_kappa"
+              ],
+              "current_runtime_matches": true,
+              "version_scope": "versioned historical; original hashes retained",
+              "relative_orbit_complex_field_change": 4.088331949795841e-07,
+              "relative_ZH_change": 2.91574240813525e-08,
+              "relative_source_max_norm": 9.26884751821577e-06
+            }
+          ]
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-1_sl6_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "42837ca4e2250c7df2fefff60b80de2372d26be4a5007ae8f22906ceb3525811",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": 0,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-1_sl8_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "7e87f8d4724edbd6b3f8d86e46c76ef8465e37dada6911b6edb109e4d130f2cc",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": 0,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-2_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "ed746f21a9f13403822fe7331da31abee1c4330778fcbad437dfc8504d8da9e6",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": -1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-2_sl3_inner0.0005_outer320_log_h32.json",
+          "sha256": "3155342d0eab716d9d560dfcf19a3d803ac8446ba34865a567a6b2e88c9bee29",
+          "saved_plot_input_hash_matches": true,
+          "ell": 3,
+          "m": -1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-2_sl5_inner0.0005_outer320_log_h32.json",
+          "sha256": "9f60157caf5e7a674c4738425413bbc39ba9b05c6366824b602f9cc563b04306",
+          "saved_plot_input_hash_matches": true,
+          "ell": 5,
+          "m": -1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-2_sl7_inner0.0005_outer320_log_h32.json",
+          "sha256": "cb939ba658a0a055c691eb0d205658d6aa87ea89706aec0782a62294a092b771",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": -1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-2_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "64dbea0d828f4968c7a158b91960e6f9fca137e9ab59bdd86c790586010128fa",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": -1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-3_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "84aaf2306ef3c9f60c3afaec5895fca935021605e49e2376fb1eedbe4032b43b",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": -2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-3_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "9d47785ba8e7b8dedbd07a3a1623edadb507b0104303ec359a548df98d6b0ccc",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": -2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-3_sl2_inner0.0005_outer320_log_h32.json",
+          "sha256": "a69182cf00537f41f6f3714370846341fc4bae15eef23f425783147a853fadb8",
+          "saved_plot_input_hash_matches": true,
+          "ell": 2,
+          "m": -2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-3_sl4_inner0.0005_outer320_log_h32.json",
+          "sha256": "30a0fba92cd9c85e5b0e67dfa645b33b0f346599f3cc880477f93271b0d6844e",
+          "saved_plot_input_hash_matches": true,
+          "ell": 4,
+          "m": -2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-3_sl6_inner0.0005_outer320_log_h32.json",
+          "sha256": "cb24cb02fd48dd12b1d2f9c9869274c8ed287d5e9324a23460324bbe44b31c64",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": -2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-3_sl8_inner0.0005_outer320_log_h32.json",
+          "sha256": "9f29dff1c0c6776168de636f895b74538fe8db1ae89b864be0537a074da9662c",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": -2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-4_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "c8e7ef7d9d7f59a10d3edae6a86e017bcc51dd81267876f3808eaabe8a65fb5f",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": -3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-4_sl3_inner0.0005_outer320_log_h32.json",
+          "sha256": "c581ec8c3b0892a40e4f1a3d439ed24a0c3943bbbd3948db8e84a980a11268d1",
+          "saved_plot_input_hash_matches": true,
+          "ell": 3,
+          "m": -3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-4_sl5_inner0.0005_outer320_log_h32.json",
+          "sha256": "f9c64ba982a0566c363b0f6ef9487b3941f71d478ab261492471a7785ba14c39",
+          "saved_plot_input_hash_matches": true,
+          "ell": 5,
+          "m": -3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-4_sl7_inner0.0005_outer320_log_h32.json",
+          "sha256": "9543ec2a1f7dd07387c8c157ac62753f4b944b37b00f5a3b73bbe35393b86c76",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": -3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-4_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "5726f3fdd2be5f4b0bc8306bd954ca941a8af411f1dea492dba9b446b05fa643",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": -3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-5_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "0c374dd688dd1a15b0fee9a9c3030f0841eb9f5b4e79838ff9d852f0a0e72ddc",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": -4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-5_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "27c67bd9f2b5ce2135f0ad9e0cd98b5ec355960b525aa0970baaa5443cef1eaf",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": -4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-5_sl4_inner0.0005_outer320_log_h32.json",
+          "sha256": "f571181bfd6b8d8dac7dacc1e9002de185484e5c8ee58c02d42901f4daf1ea56",
+          "saved_plot_input_hash_matches": true,
+          "ell": 4,
+          "m": -4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-5_sl6_inner0.0005_outer320_log_h32.json",
+          "sha256": "2d070274c06351f5431fca9a6abcc363f743cbca41b4921c6db078e147032878",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": -4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-5_sl8_inner0.0005_outer320_log_h32.json",
+          "sha256": "63d1625e8a35582ed9b3c18a467fc24f6e857fd88fd95426d14c064cf3790290",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": -4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-6_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "05e473f756a226b143ac26835b8f47b13d09dfd60e533e9cda026ac75aba846a",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": -5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-6_sl5_inner0.0005_outer320_log_h32.json",
+          "sha256": "ffd11c1d16ccdb8971f00f1fa891ebc691f937d9daa6a190af1dae437d7f165e",
+          "saved_plot_input_hash_matches": true,
+          "ell": 5,
+          "m": -5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-6_sl7_inner0.0005_outer320_log_h32.json",
+          "sha256": "b0d915f78355a2c40b9ce7a00939c49ec7a64194ba22c2a1c937614760ed538c",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": -5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-6_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "573d2ab69da02677e406614691228e3a8e1a24a1798cdeb47c77c486065adbae",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": -5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-7_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "b539606f1d868f6700d1517efac58ec90f3c9dd0756a3881aaf8275b5d29d8f3",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": -6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-7_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "2c0b7d06b978b87277f40183284474d727da7b16dd67992987ec71229187326f",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": -6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-7_sl6_inner0.0005_outer320_log_h32.json",
+          "sha256": "22eae0a1b2c56eb1e524f31b683a84cd7e865ec7930ed3a2095c874090bc960f",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": -6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-7_sl8_inner0.0005_outer320_log_h32.json",
+          "sha256": "7b5ce1623d7b899a9792592edfa694d1537154450d98baa4b73a440ff96cf583",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": -6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-8_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "fcc2a5f08c87ed93598ac2545e0f7c732be3f9c9a3fa9a1255d4b3eb5d8eb95b",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": -7,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-8_sl7_inner0.0005_outer320_log_h32.json",
+          "sha256": "ab671311ba78224d559e4b2a2bfd8b7677ca97d1a7dcde2fcfc06ce8854f594a",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": -7,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-8_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "363cf0fe4c6d92f6f7fc1d5285471acdcbd31cb206e34bc1b276552bad8a4e3b",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": -7,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-9_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "b57d9956e0a98619abf4e6bf66ba982b431ae6eb2f6eaebdc2d81fcd5d7b799a",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": -8,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-9_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "55ccb4456f853bb00dfa0fad07bd30aa7d918b7bfd8fe2543fdf868d0b43c2dd",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": -8,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg-9_sl8_inner0.0005_outer320_log_h32.json",
+          "sha256": "53f0c60d4dd5a1abf926d9c41e542e2ecdde3932c17a122b570202df007e520d",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": -8,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg0_sl11_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "826baf13ac6532939dd265647eaea3277e58ec30a12e413a3ba4e35d845d6f03",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": 1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg0_sl3_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "800928338bb93ce51154465a6744ed29b6d0cddc2be27572e5aea81258e7883e",
+          "saved_plot_input_hash_matches": true,
+          "ell": 3,
+          "m": 1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg0_sl5_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "d73972aa3fd7cc515b604f99d2aab48005c6ae52fed19db10ccd5559b3d37cfe",
+          "saved_plot_input_hash_matches": true,
+          "ell": 5,
+          "m": 1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg0_sl7_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "2d0d7772565f4e50f3b38f0f30c1b6ded26e5fa0973bdafb95bbc6b264018c2a",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": 1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg0_sl9_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "07c344da45edca3e94c47b17b00e0470625dc56add8c29a5897d609d0298d095",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": 1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg10_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "4fd354c194e790351734c214f7d2dcd4616bba1d51970ab96c8ff6c50dff2c4d",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": 11,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg11_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "03a6998760d1f7459036697d2ebc584911779a82b769f1d94519e9ee779e235b",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 12,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg1_sl10_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "a183833a8a100ea8d7ba171070bd97000d36099a64b419433b6ab5983b13907c",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": 2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg1_sl12_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "c91980a16e3df1b3d37f9b3436ccc4737624a6c4e2f7cf742053ca2d91c643ae",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg1_sl2_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "901be8306b526e3e6df1f9b461ca4ceea112d358491afae6142cc364e3f8de7f",
+          "saved_plot_input_hash_matches": true,
+          "ell": 2,
+          "m": 2,
+          "versioned": false,
+          "refresh_candidates": [
+            {
+              "file": "docs/environment_reproduction/fresh_20260915_L18_mg1_sl2.json",
+              "sha256": "f447f86032ca8861e39dfec394d6b24b69c167af103e7e36ba205e1f1f28df79",
+              "same_discretization": false,
+              "same_source_discretization": true,
+              "parameter_changes": {
+                "green_outer_radius": [
+                  4000.0,
+                  1000.0
+                ]
+              },
+              "source_samples_hash_valid": true,
+              "current_source_file_mismatches": [
+                "lorenz_kappa"
+              ],
+              "current_runtime_matches": true,
+              "version_scope": "versioned historical; original hashes retained",
+              "relative_orbit_complex_field_change": 4.012950300640097e-07,
+              "relative_ZH_change": 4.249748032037572e-09,
+              "relative_source_max_norm": 3.15631601768566e-06
+            }
+          ]
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg1_sl4_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "ce0b019b1f4c5e5836a60e18114cc7e9f01e55e740a7a2c99c58abc763f01992",
+          "saved_plot_input_hash_matches": true,
+          "ell": 4,
+          "m": 2,
+          "versioned": false,
+          "refresh_candidates": [
+            {
+              "file": "docs/environment_reproduction/fresh_20260915_L18_mg1_sl4.json",
+              "sha256": "a265861544a39b6edf9e77417db2718d77b8e73271ba1c79ca4133b1996a6b61",
+              "same_discretization": false,
+              "same_source_discretization": true,
+              "parameter_changes": {
+                "green_outer_radius": [
+                  4000.0,
+                  1000.0
+                ]
+              },
+              "source_samples_hash_valid": true,
+              "current_source_file_mismatches": [
+                "lorenz_kappa"
+              ],
+              "current_runtime_matches": true,
+              "version_scope": "versioned historical; original hashes retained",
+              "relative_orbit_complex_field_change": 8.381724966493051e-07,
+              "relative_ZH_change": 2.1545068557420783e-08,
+              "relative_source_max_norm": 9.160609286016102e-06
+            }
+          ]
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg1_sl6_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "f09527cb53aacb41a9d790b423fdd20b41f27efcd20b13ef1a881b7da307822b",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": 2,
+          "versioned": false,
+          "refresh_candidates": [
+            {
+              "file": "docs/environment_reproduction/fresh_20260915_L18_mg1_sl6.json",
+              "sha256": "8d027aefd87001d9a37a16acaecaa93f5ac72502337a0387f752026c06a45684",
+              "same_discretization": false,
+              "same_source_discretization": true,
+              "parameter_changes": {
+                "green_outer_radius": [
+                  4000.0,
+                  1000.0
+                ]
+              },
+              "source_samples_hash_valid": true,
+              "current_source_file_mismatches": [
+                "lorenz_kappa"
+              ],
+              "current_runtime_matches": true,
+              "version_scope": "versioned historical; original hashes retained",
+              "relative_orbit_complex_field_change": 5.2014348909322225e-06,
+              "relative_ZH_change": 4.45240555238414e-07,
+              "relative_source_max_norm": 1.6856563375126717e-05
+            }
+          ]
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg1_sl8_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "fa1f0fe651a3a0b68e09e06106fcfb2bdc05a68eccc7e83d40d94b7b7978ffe0",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": 2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg2_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "01c1d9e0aa688f8cf5521ddaa89ddc3eb3a0cfc8f3f3f1b988c529d7fd6c815e",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": 3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg2_sl5_inner0.0005_outer320_log_h32.json",
+          "sha256": "1925fbd05a140f4e0fe3c3b294cda08b9f38ddcd2b9f74a56a01eb3c6b5b3088",
+          "saved_plot_input_hash_matches": true,
+          "ell": 5,
+          "m": 3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg2_sl7_inner0.0005_outer320_log_h32.json",
+          "sha256": "e9ce78c8e82b7e1c35b8ad2c498922ae750b69efab848eb6c88f68c1c4e10c2e",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": 3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg2_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "77ac01c5c67addecca4f455f35f88dddcbb93548bf5b4420345e88ee7f6bbae9",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": 3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg3_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "70bb18f2dd224a84883206b173c7ff990927fc877a32ad9758cbe7eff2e78ae5",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": 4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg3_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "aad0103a7853204c4d8798ab5e7b5cf13ae004f3c6c8892c8ecd5a3680e33753",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg3_sl4_inner0.0005_outer320_log_h32.json",
+          "sha256": "1f9dfd94b0e9cd0a0139fdbb7221a7b790923dc71fae39b31ba31955bd991065",
+          "saved_plot_input_hash_matches": true,
+          "ell": 4,
+          "m": 4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg3_sl6_inner0.0005_outer320_log_h32.json",
+          "sha256": "910e1fd603f7e9fed65685d02427a96fa3c6d85e90085b00056edead884694cd",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": 4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg3_sl8_inner0.0005_outer320_log_h32.json",
+          "sha256": "819afff3412ad0691e3400bf6f37876fb03ccdc611cb3e7625056b2b3d3778ac",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": 4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg4_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "87a89e517f0b76452cb2e268c072b5c748c83acac968fc6c2f28226754ef5d03",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": 5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg4_sl5_inner0.0005_outer320_log_h32.json",
+          "sha256": "f4bfa2d133178247906193d93a92c9fbe8371fdab0ec4da2e0693f31c6c76265",
+          "saved_plot_input_hash_matches": true,
+          "ell": 5,
+          "m": 5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg4_sl7_inner0.0005_outer320_log_h32.json",
+          "sha256": "ff8f2a48b9a291b82d65e9963240108453ccc2d38bfe2e7b87b10999ec3f04cf",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": 5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg4_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "2ec745d5a0045d373eaaaae76db13e5b48e420889ff1b55bd71048db7f9069b7",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": 5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg5_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "feee46d1c681780f16b26c0880cf6a53ee1fe96f6043fe1d49899b36e2e57fe8",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": 6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg5_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "e2615b206c99e8890776fad66dcbf53626063a4bc55a22d06ac855e6e6ca3dbb",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg5_sl6_inner0.0005_outer320_log_h32.json",
+          "sha256": "aaeeb9f38ab4e90fa56735baa3b0e59e0dbf2baab71f76c7399a900e9aea3231",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": 6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg5_sl8_inner0.0005_outer320_log_h32.json",
+          "sha256": "66d1f67143e78c782a70592b742097f71f373dc01072c4ed815900aa0141bbbf",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": 6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg6_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "79b90c5659c44aafbef227dbaf8ed090dab6c8c4bb609378dec6de1a24a960d3",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": 7,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg6_sl7_inner0.0005_outer320_log_h32.json",
+          "sha256": "f65cbca990b3fd80677042bfe480402d9a47c4537b64014daead23fb4178a904",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": 7,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg6_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "090bc3e2175f20a4a0ffbe2ea6e6a2955d9ffc0a3fe4ca4e8a1271fed4c9b3cd",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": 7,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg7_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "02e7866c1557bb7799e995fd510e96005c2bdd9acecc235e227648550c361547",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": 8,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg7_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "6a403509c3ea61fbef91472e404daee2321bcfe510631d9b53631904b1b46198",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 8,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg7_sl8_inner0.0005_outer320_log_h32.json",
+          "sha256": "4b8f121292a7b01f00c3a81333c86e2e96c0d81b8036646d35116d9818773061",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": 8,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg8_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "c11ede88eed79cc0037f44fc95c3260b62833a4fe11d6fc6bddad275b25619b7",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": 9,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg8_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "ddc3d83317979710794ccbdb6522fba294730d19a147ec2356354a9b0d2256dd",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": 9,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg9_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "3bc36f7cb602c5fe1a9bcfeb9d8880ff72be52aa49ce9ea39342058f982f3808",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": 10,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_mg9_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "8b5f6769293ba9bbec79a5efe1b91cfe9b7d2ce3f8b5b8a59e31f8dd20df1fa3",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 10,
+          "versioned": false,
+          "refresh_candidates": []
+        }
+      ]
+    },
+    {
+      "plot": "docs/environment_reproduction/wake_diagnostic_rp3.5_L18_sl12_mixed_wide_linear_eps.json",
+      "plot_sha256": "b63727a7cf8e1b7e7be6d3b599f9648b5a3360cfbf63a8d24dfcf591d1861198",
+      "orbit": 3.5,
+      "counts": {
+        "inputs": 88,
+        "unversioned": 88,
+        "saved_input_hash_matches": 88
+      },
+      "inputs": [
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_inner0.0005_outer320_log_h32.json",
+          "sha256": "78570caa60788c17e71e208c3c551370a245326f42baca122653c134da4f6bbf",
+          "saved_plot_input_hash_matches": true,
+          "ell": 3,
+          "m": 3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-10_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "88c7112d0c7ecb36d031ec6df22b1d58f03150d88d50224dce48ec08e518560f",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": -9,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-10_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "597cd02eddc4d025fd2909a5b2e60fc8a598052d3b6bd20c0a6e45a4971e0cd9",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": -9,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-11_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "a97478c339fe0a2873cc6f6284b58cbda5d38153a0ccb14771c884b0335a193e",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": -10,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-11_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "28296252238ab4a93ab2228d7f2e60ef4e709118326bb7513dd62b45f3887b45",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": -10,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-12_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "8b4fe0e2d09c4a939479a6a64760ef84c02cf827786a9be7087711761679277d",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": -11,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-13_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "dbe4074e6630e9f972a748dfb1f35e19f74599d98012eebf8f72927268913f35",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": -12,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-1_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "24a96db0c871ff3358da73d60aa8c7f8a836401b8e01561aa100438558867a2f",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": 0,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-1_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "3dd6e06f646d332ddb6c0b28cd20822235930cc7b09e84aada0a25ab4cadf047",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 0,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-1_sl2_inner0.0005_outer320_log_h32.json",
+          "sha256": "1e2024db673fe45deff4e33b5874529b8515e4d08eefbe2cdd90706536eb8d4e",
+          "saved_plot_input_hash_matches": true,
+          "ell": 2,
+          "m": 0,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-1_sl4_inner0.0005_outer320_log_h32.json",
+          "sha256": "43749c93972143e91f516034c469489bcc4af2e721849e0eee118baa3d1ede26",
+          "saved_plot_input_hash_matches": true,
+          "ell": 4,
+          "m": 0,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-1_sl6_inner0.0005_outer320_log_h32.json",
+          "sha256": "3b8068260c7996c177bb119a442bb86e7195a5e3c515415e0d262f94700cfe15",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": 0,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-1_sl8_inner0.0005_outer320_log_h32.json",
+          "sha256": "de4bb9a3726d8425a4ca293737875ffc9a9d7ddabfa3d04af416b95015b7faca",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": 0,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-2_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "6e51ea838d4a4c07c9cd98aa239bccc1cab429cf623748580f2e3e700e4d31c4",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": -1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-2_sl3_inner0.0005_outer320_log_h32.json",
+          "sha256": "25b015ed3c73c57f03f8e96de0d6f71fc19854b7fed560d7e6a7f03579a84ee0",
+          "saved_plot_input_hash_matches": true,
+          "ell": 3,
+          "m": -1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-2_sl5_inner0.0005_outer320_log_h32.json",
+          "sha256": "309be6826cfea7912e6b9ca2a97e302244cef335acc41fcdfd0666a25940ccd6",
+          "saved_plot_input_hash_matches": true,
+          "ell": 5,
+          "m": -1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-2_sl7_inner0.0005_outer320_log_h32.json",
+          "sha256": "24f6c53904121001f398b7bfb4801f57beabb998a78e800be6c5a31a0485fe78",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": -1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-2_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "edb79baab367ae167ddcb51d461fc9313880b4407816b17d55f471c1696d26a8",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": -1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-3_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "f5e7e34954e9d4f3caec0c4776a02976e96883101476fe14934869464c906e19",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": -2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-3_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "a083f68bbff9df44df7ff7c9c2d8c8311bee92962a65ad9cd0a0ec35789e1738",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": -2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-3_sl2_inner0.0005_outer320_log_h32.json",
+          "sha256": "0ee09709182a2fcf944fee244cd00f54471cea77b03e7792b0485bf776f9cd3a",
+          "saved_plot_input_hash_matches": true,
+          "ell": 2,
+          "m": -2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-3_sl4_inner0.0005_outer320_log_h32.json",
+          "sha256": "1650f495ebdd669c35ce479221f79cecd89dc51466fa098e004f3e28b2c8c60a",
+          "saved_plot_input_hash_matches": true,
+          "ell": 4,
+          "m": -2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-3_sl6_inner0.0005_outer320_log_h32.json",
+          "sha256": "84d5c6cebe3bacd4e7100f4725d1c762416e77fb7c3eabc059d7df22390a564f",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": -2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-3_sl8_inner0.0005_outer320_log_h32.json",
+          "sha256": "c94fa3e07aa9236e6ec0a79b9f6ab7cf812563a3a50066849b383da5174ee6ea",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": -2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-4_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "cd3e11fe530f8ef5ba42e3d6574e3bda29b44dc61bc07d2e75bdf38cea806ebb",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": -3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-4_sl3_inner0.0005_outer320_log_h32.json",
+          "sha256": "87d9f5b01dd5bda99ee60bf0e94245782c6bd42d2df07c97bab96cae90555fd7",
+          "saved_plot_input_hash_matches": true,
+          "ell": 3,
+          "m": -3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-4_sl5_inner0.0005_outer320_log_h32.json",
+          "sha256": "8d71e551732d4b8587e778b68e682bdbff6dd4a18514fe668d814eadb222673c",
+          "saved_plot_input_hash_matches": true,
+          "ell": 5,
+          "m": -3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-4_sl7_inner0.0005_outer320_log_h32.json",
+          "sha256": "8d1b6e50a3569104c07c85f15bca06ff9618a99df33fc32411a4fc144879e8d6",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": -3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-4_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "f90477c68ce4e487870541a8ec48d67ac9838b523a4f15d330237f3d4b4d5f05",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": -3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-5_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "fed6c4c1ad3807111b8622ad246fdc6125cbcab3d73037a01300a411c13604fa",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": -4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-5_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "b0b6b7850664979e512e9bb350afde0d2bffa95ccdccab873c274a6135684cb9",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": -4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-5_sl4_inner0.0005_outer320_log_h32.json",
+          "sha256": "bf520b7b16fd7295f19c396cc2a8e634e4a0c17bae1a9c9be59fb321a4b0e7bc",
+          "saved_plot_input_hash_matches": true,
+          "ell": 4,
+          "m": -4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-5_sl6_inner0.0005_outer320_log_h32.json",
+          "sha256": "8ae7176820b282dd70ba84bdd2cbda173166c54252b1687de6d4eebaeca81217",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": -4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-5_sl8_inner0.0005_outer320_log_h32.json",
+          "sha256": "cd513094e515b18508382bccadb8f07aa121dd032d7a8d50c233e51965b0351f",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": -4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-6_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "01350bf32176b99825abf826eee8f4197a1c3e668682cacec3e26f959252dc7d",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": -5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-6_sl5_inner0.0005_outer320_log_h32.json",
+          "sha256": "4142f5f0a76ce06eaebb9ced87ea3faaa2da8993b85531769e6f8c99cb3a03c1",
+          "saved_plot_input_hash_matches": true,
+          "ell": 5,
+          "m": -5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-6_sl7_inner0.0005_outer320_log_h32.json",
+          "sha256": "4f0864fb5ec231aff3c69056180cef469c8524555cc5d18a4ddfa9618de7fe28",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": -5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-6_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "dc25d896f723c1f62a03263e615dc0681ad73053cca6b2bf0c2fd13f8466d8fd",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": -5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-7_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "629d88893c84ef6990a1bd075f0db25a053249cf3c75efed1f36545a516a4627",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": -6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-7_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "de61fd4475de9d5e580f4e38541a4df0f5d2d9836eb409eea0d59fcb6284fc95",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": -6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-7_sl6_inner0.0005_outer320_log_h32.json",
+          "sha256": "404c43e23e29f3b32353da42eaa25be8c9089fe9e53023b9f4204b324b19b122",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": -6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-7_sl8_inner0.0005_outer320_log_h32.json",
+          "sha256": "c4c2cad4eb36b735b0a8af3709a298a9c47645615b020dfe329d3d039591beeb",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": -6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-8_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "dfdc8566f8d5fcb9db77d954f4a5e5d73a5d4697d232b1313f7c9cea2ba465ea",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": -7,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-8_sl7_inner0.0005_outer320_log_h32.json",
+          "sha256": "7b62042e5ec9a87ceaf001ec990e170c548e315ab0f7a12b426ab52c47fe7fc6",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": -7,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-8_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "1a97961bdc20b974c5e38a22cef5351215acc04eaed48a090849f18b08c934e3",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": -7,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-9_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "669d736d9beba4cd645e2dfa8e8a6675da50774c225f37942139e75ab1ad0b6e",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": -8,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-9_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "41c9e8e7956ae26b5145d57790551e0caae095e13393f9944bf9a10c0606797f",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": -8,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg-9_sl8_inner0.0005_outer320_log_h32.json",
+          "sha256": "3d0a6a3b75ed5dd4d15f12047a6e83416e7ab0314907cf2cfdd1eb63d254c943",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": -8,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg0_sl11_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "23710a70d63767c3a8c61d84cdb07b2c6881498f198161ad728b7b8bfd8f6afb",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": 1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg0_sl3_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "cf3961f7b67d2087bf602c3ee780efe3fd750ea5911e938358c397678603df59",
+          "saved_plot_input_hash_matches": true,
+          "ell": 3,
+          "m": 1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg0_sl5_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "a4bbc5fcb7cbc3c23a663bfa27384727a37a638947e113686321385f76086271",
+          "saved_plot_input_hash_matches": true,
+          "ell": 5,
+          "m": 1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg0_sl7_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "abcc2408353b20617b2edbd6d354cd40d6f1c4a46a55f6beacd9b41f4dd6632a",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": 1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg0_sl9_gh0.0001_go4000_inner0.0005_outer320_log_h32.json",
+          "sha256": "4f9d2de8d297128108dc7ae815c123617263fcb9721c94c3e2d5be0ede16b94d",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": 1,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg10_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "629978d84076cfdfe7fddb95d49d54215d95ab964ff6008908a876914d41d55d",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": 11,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg11_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "77d763695b1a663411824b98d2e1b47325cf58416609a40931af68089ffb88f5",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 12,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg1_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "8a89b2a3be4d7e328c0a14419f1a8b2cb4ba14606c8f68b841bbad5fba82a8d7",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": 2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg1_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "a6c0bfbe14d98dd787fa756b249702b09f289c38ca8e8077f675d14606ea4a06",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg1_sl2_inner0.0005_outer320_log_h32.json",
+          "sha256": "43814c7a9d773e46fcf3e63e791d0121da638bf5dc3bf6daa9c896190d909303",
+          "saved_plot_input_hash_matches": true,
+          "ell": 2,
+          "m": 2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg1_sl4_inner0.0005_outer320_log_h32.json",
+          "sha256": "6b796f4a8710b772ec6677a0956dfe1323884cb5b9331dabbef47fa9f9eb02e7",
+          "saved_plot_input_hash_matches": true,
+          "ell": 4,
+          "m": 2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg1_sl6_inner0.0005_outer320_log_h32.json",
+          "sha256": "95d6ee106e45c55e3793a66785388732dfba9567f9605297017d2eef22980d64",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": 2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg1_sl8_inner0.0005_outer320_log_h32.json",
+          "sha256": "4064958cdec260d7ff9c689a7703e446a2fa53c7a5a2ac5bd97de0cae8472178",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": 2,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg2_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "9d00794790351dde002139a4d42b4c0e3b5e3600e9b59f9159a43488f9e723b2",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": 3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg2_sl5_inner0.0005_outer320_log_h32.json",
+          "sha256": "b87bee0e291b62bcfc66ae0715b2317f189dd60dc3be5128b5eec66ac22b7dd5",
+          "saved_plot_input_hash_matches": true,
+          "ell": 5,
+          "m": 3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg2_sl7_inner0.0005_outer320_log_h32.json",
+          "sha256": "cb65a4aae9129e0efa5326d3e38f80407f329ab21d306051fb7ff4f3bc4f4e53",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": 3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg2_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "5d3b403ba68cad4e2f624bffcf644c0c86440faea80c57b1b32aa2ee5c3dae77",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": 3,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg3_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "6e84695b0d73f030c7d640c40b49826b3f8b2df61115d23bda41970dd35d2a7d",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": 4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg3_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "7afc8a37423f52426d94a244d2d83208881be6b26d9b32f61c15563cf16d6598",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg3_sl4_inner0.0005_outer320_log_h32.json",
+          "sha256": "8ac4e1611869e6d3170dddfac5552dfc412283b17f8404390d06ee7afbd78a58",
+          "saved_plot_input_hash_matches": true,
+          "ell": 4,
+          "m": 4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg3_sl6_inner0.0005_outer320_log_h32.json",
+          "sha256": "cab486ac71224af5bd952aeac6261cd290d1d82a582ab4ed835014d3bb72529b",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": 4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg3_sl8_inner0.0005_outer320_log_h32.json",
+          "sha256": "c2609b89dee88281e16ab6ade8dde0f05d05085ed0bc35788b94c1acc0866d9a",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": 4,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg4_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "41b63d452f62a1139b3c2a5c88092b1df0d043e42519e1b88d10d3eecc5f4bd0",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": 5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg4_sl5_inner0.0005_outer320_log_h32.json",
+          "sha256": "ae8155218b65695148f7272158de89080c752269615fe6fa386e2e5cf8b3323d",
+          "saved_plot_input_hash_matches": true,
+          "ell": 5,
+          "m": 5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg4_sl7_inner0.0005_outer320_log_h32.json",
+          "sha256": "c47b39d13feba4ae0771884a5d882492e346ae2f9f114898af284809a334c809",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": 5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg4_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "1a4d1a8e498f80bdb66e92f289a53443b1518992750cc8efce924928a4189e65",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": 5,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg5_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "dbb4a3a2255b2477ca70fda015e922c0068eccebf2f408fc5cf5e7d803b71815",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": 6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg5_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "7db608cf09c9de40ef492f8691acf5ce0386c883f9a90176d482a1c730d21f76",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg5_sl6_inner0.0005_outer320_log_h32.json",
+          "sha256": "b796b121d54439d565d6ad95eab2ff396d54e7f618b23697d43f550e614e6ad6",
+          "saved_plot_input_hash_matches": true,
+          "ell": 6,
+          "m": 6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg5_sl8_inner0.0005_outer320_log_h32.json",
+          "sha256": "0dd191686f1e417a7b3d3d962c538b15183f573d22535ba97beb90b32ae3b293",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": 6,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg6_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "379a0f30ae0acb123d0b110179f7c9dc7775702f3df1d37b6ed9b259fb109ca1",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": 7,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg6_sl7_inner0.0005_outer320_log_h32.json",
+          "sha256": "2aa733f78f0b5cd14be95ddcc4a1dd92b67a0f676074707a318ee72f3eecc07d",
+          "saved_plot_input_hash_matches": true,
+          "ell": 7,
+          "m": 7,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg6_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "aaf0108d63d6bf0fb414dbdeef19840fb0b7e17aebfaed3702f05b834fbeed8f",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": 7,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg7_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "7e24148853d00a9fddd933bc7944119f74e8d585ba47756659491e4b96f0ae11",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": 8,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg7_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "1447f4128a8ab5065c39f7210c650c5a3df2a171f26c21f290ea91f5528c6f32",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 8,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg7_sl8_inner0.0005_outer320_log_h32.json",
+          "sha256": "2017e49c0b4a7c44a0b57f7cd9c5e7325e56dab8f601f42f93149a7e99f0ab91",
+          "saved_plot_input_hash_matches": true,
+          "ell": 8,
+          "m": 8,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg8_sl11_inner0.0005_outer320_log_h32.json",
+          "sha256": "4570e590b39a8d7c0fc8076b97c746f997fc025f0091dca9eb33cad96f2b8984",
+          "saved_plot_input_hash_matches": true,
+          "ell": 11,
+          "m": 9,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg8_sl9_inner0.0005_outer320_log_h32.json",
+          "sha256": "fda37ec301f05cd1acc71e99115d1430337dd766338a2fa4fe0f151956683837",
+          "saved_plot_input_hash_matches": true,
+          "ell": 9,
+          "m": 9,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg9_sl10_inner0.0005_outer320_log_h32.json",
+          "sha256": "a0f07301373042ed9cbc464fb6e29ca14f933f76599bda483bc48280be44f0b3",
+          "saved_plot_input_hash_matches": true,
+          "ell": 10,
+          "m": 10,
+          "versioned": false,
+          "refresh_candidates": []
+        },
+        {
+          "file": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp3.5_mg9_sl12_inner0.0005_outer320_log_h32.json",
+          "sha256": "24013fd673cd017b71c6e3e213dfa1d4902c75be969b5fb957d2a2b21c66537b",
+          "saved_plot_input_hash_matches": true,
+          "ell": 12,
+          "m": 10,
+          "versioned": false,
+          "refresh_candidates": []
+        }
+      ]
+    }
+  ],
+  "threshold_L6_to_L18": {
+    "inputs": [
+      {
+        "file": "forced_mode_nr8_nt10_L6_alpha0.3_rp41.6_mg1_sl2_gh0.0001_go32000_coulomb_log_h16.json",
+        "sha256": "ae095e1cba93cd8600e772c137e5edbae487cb1e909cfb64e61be8cdaaefa0c8"
+      },
+      {
+        "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg1_sl2_gh0.0001_go32000_coulomb_inner0.0005_outer320_log_h32.json",
+        "sha256": "871494771adf9d4ffe9e7b2424e18dc30da413ce86c4467f94e2ea8d4e9c031e"
+      }
+    ],
+    "parameter_changes": {
+      "metric": [
+        {
+          "status": "development_not_production_validated",
+          "coordinates": "Boyer-Lindquist",
+          "field": "covariant h_ab; particle mass stripped",
+          "m_g": 1,
+          "ellmax": 6,
+          "orbital_radius": 41.6,
+          "a": 0.8771530275949366,
+          "static_and_low_modes_included": false,
+          "kappa_mass_squared_step": 1.380019072091334e-07,
+          "maxwell_chiralities": "both; full complex compact current",
+          "nonstatic_dipole_included": true
+        },
+        {
+          "status": "development_not_production_validated",
+          "coordinates": "Boyer-Lindquist",
+          "field": "covariant h_ab; particle mass stripped",
+          "m_g": 1,
+          "ellmax": 18,
+          "orbital_radius": 41.6,
+          "a": 0.8771530275949366,
+          "static_and_low_modes_included": false,
+          "kappa_mass_squared_step": 1.380019072091334e-07,
+          "maxwell_chiralities": "both; full complex compact current",
+          "nonstatic_dipole_included": true
+        }
+      ],
+      "angular_order": [
+        10,
+        18
+      ],
+      "source_panels": [
+        [
+          1.5302109600800844,
+          3.0,
+          6.0,
+          12.0,
+          20.0,
+          40.0,
+          41.6,
+          80.0,
+          160.0,
+          320.0
+        ],
+        [
+          1.4807109600800843,
+          3.0,
+          6.0,
+          12.0,
+          20.0,
+          40.0,
+          41.6,
+          80.0,
+          160.0,
+          320.0
+        ]
+      ],
+      "horizon_quadrature_order": [
+        16,
+        32
+      ]
+    },
+    "FH": [
+      -2.1706417328141907e-06,
+      -2.478774172051498e-06
+    ],
+    "relative_FH_change": 0.14195453564684768,
+    "interpretation": "Source inner offset0.05->0.0005, horizon Gauss16->32, angular10->18 and metricL6->L18 changed together; not a pure metric-cutoff or source-version effect."
+  },
+  "threshold_same_L18_controls": [
+    {
+      "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg1_sl2_gh0.0001_go32000_coulomb_inner0.0005_outer640_log_h32.json",
+      "sha256": "86fb62070c708cf91879a848f755f28515e24f23babb658dcc108e30f5a3630e",
+      "relative_FH_change": 4.5640269341618023e-10,
+      "relative_ZH_change": 2.3008874382395803e-10,
+      "parameter_changes": {
+        "source_panels": [
+          [
+            1.4807109600800843,
+            3.0,
+            6.0,
+            12.0,
+            20.0,
+            40.0,
+            41.6,
+            80.0,
+            160.0,
+            320.0
+          ],
+          [
+            1.4807109600800843,
+            3.0,
+            6.0,
+            12.0,
+            20.0,
+            40.0,
+            41.6,
+            80.0,
+            160.0,
+            320.0,
+            640.0
+          ]
+        ]
+      },
+      "provenance": "unversioned historical"
+    },
+    {
+      "file": "forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg1_sl2_gh0.0001_go64000_coulomb_inner0.0005_outer320_log_h32.json",
+      "sha256": "aca0fac657ec171e8311b7df2fc8c20d5556ff8bfa4ebff60b875a3a94daf09f",
+      "relative_FH_change": 1.3638645768310198e-11,
+      "relative_ZH_change": 4.279216882334674e-11,
+      "parameter_changes": {
+        "green_outer_radius": [
+          32000.0,
+          64000.0
+        ]
+      },
+      "provenance": "unversioned historical"
+    }
+  ],
+  "conclusions": [
+    "All four examined plot datasets consist of88 unversioned historical source responses each; file hashes bind saved plots to exact inputs but cannot prove the source-code version.",
+    "At rp20, five spatial-field inputs have a versioned fresh recomputation with the same source grid from the previous audit; Green outer radius is1000 instead of the plotting input4000, and this difference is recorded explicitly. Their pre-guard source fingerprints are retained, not relabeled as current.",
+    "No versioned rp41.6/rp41.8 orrp3.5 field refresh is present; independent Green reconstruction alone cannot certify those original source samples.",
+    "Historical threshold radius/boundary refinements may inform sensitivity but are not promoted to present-code provenance."
+  ],
+  "implementation_sha256": "4e1bc49d5928653aee92cef91d4c6b60baa21f00db1e7c0fe9a317656f6e1d71"
+}
