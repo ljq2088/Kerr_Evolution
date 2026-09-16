@@ -1,0 +1,120 @@
+{
+  "status": "vector_pdf_readout_not_raw_author_array",
+  "source": "https://arxiv.org/src/2507.02045v2",
+  "pdf": "outputs/paper_original_reference/li_2507_02045v2/source/total_flux_11.pdf",
+  "pdf_sha256": "535d0cc5a89c47f1ebb4a9d6c6088ffc51688ed8b90cfffb78d6bce17c05f89a",
+  "x_calibration": {
+    "radii": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "points": [
+      61.12561798095703,
+      98.98464965820312,
+      136.8436737060547,
+      174.7027130126953,
+      212.56173706054688
+    ],
+    "linear": [
+      3.785903015136719,
+      23.266587829589813
+    ]
+  },
+  "y_calibration": {
+    "log10_flux": [
+      -4,
+      -3,
+      -2,
+      -1
+    ],
+    "points": [
+      148.2509307861328,
+      110.11843872070312,
+      71.98595428466797,
+      33.85345458984375
+    ],
+    "linear": [
+      -0.026224355289754957,
+      -0.11221489901997872
+    ]
+  },
+  "rows": [
+    {
+      "rp": 10,
+      "li_horizon": {
+        "plotted_q2_epsilon2": 0.08590121273884312,
+        "per_q2_eta": 6.262198408661662e-05,
+        "drawing_index": 41
+      },
+      "li_infinity": {
+        "plotted_q2_epsilon2": 0.009963256160298237,
+        "per_q2_eta": 7.263213740857413e-06,
+        "drawing_index": 42
+      },
+      "dyson_comparison_horizon": {
+        "plotted_q2_epsilon2": 0.08401007886647725,
+        "per_q2_eta": 6.12433474936619e-05,
+        "drawing_index": 43
+      },
+      "dyson_comparison_infinity": {
+        "plotted_q2_epsilon2": 0.009616054969848563,
+        "per_q2_eta": 7.010104073019601e-06,
+        "drawing_index": 44
+      }
+    },
+    {
+      "rp": 20,
+      "li_horizon": {
+        "plotted_q2_epsilon2": 0.09074387254146028,
+        "per_q2_eta": 6.615228308272452e-05,
+        "drawing_index": 41
+      },
+      "li_infinity": {
+        "plotted_q2_epsilon2": 0.025985018486075793,
+        "per_q2_eta": 1.8943078476349247e-05,
+        "drawing_index": 42
+      },
+      "dyson_comparison_horizon": {
+        "plotted_q2_epsilon2": 0.09627062309680028,
+        "per_q2_eta": 7.018128423756739e-05,
+        "drawing_index": 43
+      },
+      "dyson_comparison_infinity": {
+        "plotted_q2_epsilon2": 0.025085090649841647,
+        "per_q2_eta": 1.8287031083734558e-05,
+        "drawing_index": 44
+      }
+    },
+    {
+      "rp": 30,
+      "li_horizon": {
+        "plotted_q2_epsilon2": 0.02046055235357098,
+        "per_q2_eta": 1.4915742665753241e-05,
+        "drawing_index": 41
+      },
+      "li_infinity": {
+        "plotted_q2_epsilon2": 0.03692569116142284,
+        "per_q2_eta": 2.691882885667724e-05,
+        "drawing_index": 42
+      },
+      "dyson_comparison_horizon": {
+        "plotted_q2_epsilon2": 0.020355473208001948,
+        "per_q2_eta": 1.4839139968633417e-05,
+        "drawing_index": 43
+      },
+      "dyson_comparison_infinity": {
+        "plotted_q2_epsilon2": 0.03574283277387419,
+        "per_q2_eta": 2.6056525092154276e-05,
+        "drawing_index": 44
+      }
+    }
+  ],
+  "limitations": [
+    "Polyline interpolation at requested radius in log-flux plot, not original raw author arrays.",
+    "Li uses a=.88; local and Dyson threshold a=.877153... .",
+    "Dyson comparison curves may incorporate communicated corrections; exact old implementation not supplied."
+  ]
+}

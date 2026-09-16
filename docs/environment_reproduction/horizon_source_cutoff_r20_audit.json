@@ -1,0 +1,342 @@
+{
+  "status": "completed_bounded_horizon_source_audit",
+  "parameters": {
+    "a": 0.8771530275949366,
+    "rp": 20.0,
+    "alpha": 0.3,
+    "omega": 0.2852214878976851,
+    "cloud_rmin": 1.4802119600800843,
+    "scalar_green_rmin": 1.4802110600800844,
+    "trace_kappa_rmin": 1.4802110600800844,
+    "offset": 1e-07,
+    "rtol": 1e-12,
+    "angular_order": 24,
+    "jet_dtype": "<class 'numpy.clongdouble'>"
+  },
+  "baseline": {
+    "file": "fresh_20260915_L18_mg-1_sl0.json",
+    "z_h": [
+      -0.049610141592376984,
+      0.03350537620213901
+    ],
+    "flux": -6.700750341090506e-05,
+    "provenance_validated": true
+  },
+  "references": {
+    "horizon_source_cutoff_r20_domain_extended.json": {
+      "sha256": "472f14b70bb9dd7420e46d3774a29048cf1d262a70001e709d8394ca246475f9"
+    },
+    "horizon_source_cutoff_r20_extended_precision.json": {
+      "sha256": "b9ba34161b581657fd5dc6e1c93857869303db4345fcea9b07bce1ac28975ca9"
+    },
+    "horizon_source_cutoff_r20_failed_controls.json": {
+      "sha256": "e6668f3be20e8e6c68be95bc74a9f54b1ace163efeeceed4b4811cbc91ff3c12"
+    },
+    "fresh_20260915_L18_mg-1_sl0.json": {
+      "sha256": "b58da0ebd0240420da60d3d22bfc276828bf67b8342d0c41672d57f1b0bbc8d7"
+    },
+    "metric_backend_response_L1_s2AUTO_gAUTO_rtolNone.json": {
+      "sha256": "fc68e784768b0b314f6747d38dad849bf10021c727b87708d1b1ceb92e1da329"
+    }
+  },
+  "implementation": {
+    "report_horizon_source_cutoff": "f784569fd58044610a16fe0e32c1d5a27c3070a98504fca74cb594ff03590c76",
+    "report_horizon_source_cutoff_summary": "1a25cdd7540e717378a679bc1f0ae8c89e5d2e561e23ddc25e8f139f5c0db8b1"
+  },
+  "comparison": [
+    {
+      "offset": 0.0005,
+      "delta_Z": [
+        0.0,
+        0.0
+      ],
+      "relative_flux_change": 0.0,
+      "precision_check_delta_Z_absolute": 0.0,
+      "precision_check_relative_flux_change_difference": 0.0
+    },
+    {
+      "offset": 0.00025,
+      "delta_Z": [
+        2.020367818930324e-06,
+        -2.8236656579597235e-06
+      ],
+      "relative_flux_change": -0.00010873038124137313,
+      "precision_check_delta_Z_absolute": 6.127307874670406e-13,
+      "precision_check_relative_flux_change_difference": 1.0450196263889211e-11
+    },
+    {
+      "offset": 5e-05,
+      "delta_Z": [
+        1.2764389036872046e-05,
+        -4.688520018837072e-06
+      ],
+      "relative_flux_change": -0.0004410103946712596,
+      "precision_check_delta_Z_absolute": 7.227003038959639e-11,
+      "precision_check_relative_flux_change_difference": 2.4047136504279365e-09
+    },
+    {
+      "offset": 2.5e-05,
+      "delta_Z": [
+        1.3638965882493441e-05,
+        -3.5906600394005362e-06
+      ],
+      "relative_flux_change": -0.00044469180088624327,
+      "precision_check_delta_Z_absolute": 2.450683855832026e-10,
+      "precision_check_relative_flux_change_difference": 6.888628001355812e-09
+    },
+    {
+      "offset": 5e-06,
+      "delta_Z": [
+        1.3806674935044592e-05,
+        -3.456159944482239e-06
+      ],
+      "relative_flux_change": -0.00044681903518539734,
+      "precision_check_delta_Z_absolute": 2.807845467464311e-09,
+      "precision_check_relative_flux_change_difference": 7.636350651818447e-08
+    },
+    {
+      "offset": 2.5e-06,
+      "delta_Z": [
+        1.396096879016771e-05,
+        -3.4859326738196668e-06
+      ],
+      "relative_flux_change": -0.0004516462565523627,
+      "precision_check_delta_Z_absolute": 2.576859765886142e-08,
+      "precision_check_relative_flux_change_difference": 7.936513862771832e-07
+    },
+    {
+      "offset": 1.2e-06,
+      "delta_Z": [
+        1.4051347540406813e-05,
+        -3.451686230497208e-06
+      ],
+      "relative_flux_change": -0.0004535074862764832,
+      "precision_check_delta_Z_absolute": 9.004184457426691e-08,
+      "precision_check_relative_flux_change_difference": -2.916951271192403e-06
+    }
+  ],
+  "accepted_overdetermined_fits": [
+    {
+      "degree": 1,
+      "sample_count": 5,
+      "rank": 3,
+      "condition": 7.139160308386767,
+      "residual_max": 5.285183956996861e-09,
+      "horizon_B": [
+        -0.0006074736398988702,
+        -0.010294297574962093
+      ],
+      "estimated_total_omitted_Z": [
+        1.4073199709836832e-05,
+        -3.4228769107982847e-06
+      ],
+      "relative_flux_change": -0.000453573681176378
+    },
+    {
+      "degree": 1,
+      "sample_count": 7,
+      "rank": 3,
+      "condition": 7.639726194480724,
+      "residual_max": 6.745446340040652e-09,
+      "horizon_B": [
+        -0.0006074724775760446,
+        -0.010294298731951805
+      ],
+      "estimated_total_omitted_Z": [
+        1.407203738701128e-05,
+        -3.421719921085915e-06
+      ],
+      "relative_flux_change": -0.0004535198786792538
+    },
+    {
+      "degree": 2,
+      "sample_count": 7,
+      "rank": 5,
+      "condition": 289.98739856405183,
+      "residual_max": 5.035584794535452e-09,
+      "horizon_B": [
+        -0.0006074738993942293,
+        -0.010294297477846099
+      ],
+      "estimated_total_omitted_Z": [
+        1.4073459205195952e-05,
+        -3.4229740267923507e-06
+      ],
+      "relative_flux_change": -0.0004535826792404496
+    }
+  ],
+  "estimated_limit_relative_flux_change_range": [
+    -0.0004535826792404496,
+    -0.0004535198786792538
+  ],
+  "fit_error_interpretation": "Fit spread/residual and two precision configurations are empirical consistency indicators, not a rigorous error bound. The degree2 five-point fit has five coefficients, so its exact interpolation residual is explicitly excluded.",
+  "near_existing_cutoff_high_ell_context": {
+    "angular_note": "Full source uses original pybhpt projection; backend L1 audit used independently checked DenseRealHarmonic. Same actual nodes and weights; all recorded local code hashes match.",
+    "samples": [
+      {
+        "r": 1.4807164758793971,
+        "full_L18_source": [
+          -0.035761773498883445,
+          0.049762970291437815
+        ],
+        "dipole_source": [
+          -0.035784676737915314,
+          0.04976619064098058
+        ],
+        "source_difference": [
+          2.2903239031868416e-05,
+          -3.220349542767953e-06
+        ],
+        "difference_relative_to_full": 0.00037742286334259656
+      },
+      {
+        "r": 1.480740655495216,
+        "full_L18_source": [
+          -0.03370094686538376,
+          0.051178175983665565
+        ],
+        "dipole_source": [
+          -0.03371300745890853,
+          0.051190254791579286
+        ],
+        "source_difference": [
+          1.2060593524772234e-05,
+          -1.2078807913720735e-05
+        ],
+        "difference_relative_to_full": 0.00027855373966230397
+      },
+      {
+        "r": 1.4807868417387635,
+        "full_L18_source": [
+          -0.029866027094445375,
+          0.053520539715148
+        ],
+        "dipole_source": [
+          -0.029867649203409126,
+          0.05352135868028566
+        ],
+        "source_difference": [
+          1.6221089637509511e-06,
+          -8.189651376569462e-07
+        ],
+        "difference_relative_to_full": 2.9648120019437874e-05
+      },
+      {
+        "r": 1.4808600800895593,
+        "full_L18_source": [
+          -0.02407522881613827,
+          0.05635446176852442
+        ],
+        "dipole_source": [
+          -0.024088075685992454,
+          0.05635377519729257
+        ],
+        "source_difference": [
+          1.2846869854185594e-05,
+          6.865712318462891e-07
+        ],
+        "difference_relative_to_full": 0.00020993560910748148
+      },
+      {
+        "r": 1.480968694531274,
+        "full_L18_source": [
+          -0.016239456159061097,
+          0.05908797125068151
+        ],
+        "dipole_source": [
+          -0.016238147096519436,
+          0.059087846937453115
+        ],
+        "source_difference": [
+          -1.3090625416607715e-06,
+          1.2431322839873138e-07
+        ],
+        "difference_relative_to_full": 2.1458464236778455e-05
+      },
+      {
+        "r": 1.4811256675879876,
+        "full_L18_source": [
+          -0.006303943922157492,
+          0.06094204295775812
+        ],
+        "dipole_source": [
+          -0.006303558166684923,
+          0.06094234802248726
+        ],
+        "source_difference": [
+          -3.857554725693671e-07,
+          -3.050647291447106e-07
+        ],
+        "difference_relative_to_full": 8.027206148284281e-06
+      },
+      {
+        "r": 1.4813508352386253,
+        "full_L18_source": [
+          0.005495121394330395,
+          0.061004430611951814
+        ],
+        "dipole_source": [
+          0.00549544579227849,
+          0.06100471361531207
+        ],
+        "source_difference": [
+          -3.243979480949469e-07,
+          -2.8300336025327555e-07
+        ],
+        "difference_relative_to_full": 7.028307186481543e-06
+      },
+      {
+        "r": 1.4816743155803527,
+        "full_L18_source": [
+          0.018599682340843856,
+          0.058335836620811196
+        ],
+        "dipole_source": [
+          0.018599663661088953,
+          0.05833574112146322
+        ],
+        "source_difference": [
+          1.8679754902606316e-08,
+          9.54993479782007e-08
+        ],
+        "difference_relative_to_full": 1.589258858192704e-06
+      }
+    ],
+    "interpretation": "Observed differences at radii above the old cutoff are small, but they do not bound high-ell source errors below that cutoff or prove the complete L18 horizon tail converged."
+  },
+  "failed_control": {
+    "status": "failed_not_a_convergence_result",
+    "controls": {
+      "angular_order": 24,
+      "offset": 5e-07,
+      "rtol": 2e-13,
+      "jet_dtype": "clongdouble"
+    },
+    "error": "RuntimeError: Homogeneous radial integration failed",
+    "location": "lorenz_kappa.scalar_resolvent -> diagnostic RadialGreen wrapper -> environment_radial.py:157",
+    "scope": "Failed while constructing extended trace/kappa resolvent before recording first new-cutoff sample. No failed outputs used in amplitude/flux comparisons."
+  },
+  "domain_hazard": {
+    "function": "lorenz_kappa.trace_field_jet",
+    "line": 33,
+    "origin": "scalar_resolvent creates RadialGreen(offset=1e-4) at line21; scipy OdeSolution silently extrapolates when called at smaller r.",
+    "actual_effect": "Uncontrolled future cutoff tests can sample trace/kappa outside solved domains. Existing baseline cutoff5e-4 remains inside the domain.",
+    "diagnostic_mitigation": "Only process-local lorenz_kappa.RadialGreen constructor binding is replaced; cached resolvents are cleared; integration begins at r+1e-7 and all evaluation radii exceed cloud start r+1e-6.",
+    "minimal_fix": "Before evaluating radial.insol.sol or radial.upsol.sol in trace_field_jet, reject nonfinite r or r outside [radial.rmin,radial.rmax]. Both trace and finite-difference kappa use this function.",
+    "regression_cases": [
+      "Mock a resolver with known [rmin,rmax], assert values just below and above raise ValueError before its dense-output callable is invoked.",
+      "Assert nan and infinities are rejected.",
+      "Both exact endpoints and representative interior points must return the unchanged valid trace jet; verify both r<r0 and r>=r0 branches.",
+      "Through kappa_jet confirm invalid g.r raises before any out-of-domain resolvent evaluation.",
+      "Separately run a valid current actual alpha.3 rp20 trace/kappa point and compare complex values before/after guard."
+    ],
+    "optional_followup": "Expose explicit horizon offset through scalar_resolvent, trace_field_jet and kappa_jet with the offset in the cache key; avoid silently changing or automatically extending the solver."
+  },
+  "conclusions": [
+    "The dominant scalar00 dipole tail omitted by cutoff5e-4 changes the current fullL18 baseline flux by about -0.0454%, not several percent.",
+    "This includes oscillatory Frobenius branches through the complex Green endpoint identity; no orbital term or arbitrary prefactor was added.",
+    "No production numerical file was modified.",
+    "This is a dipole shell correction on a fullL18 baseline, not an all-ell horizon source convergence certificate.",
+    "The newly reported literature horizon normalization correction is separate; no such correction is applied by this diagnostic."
+  ]
+}

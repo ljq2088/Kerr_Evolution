@@ -1,0 +1,176 @@
+{
+  "alpha": 0.3,
+  "a_threshold": 0.8771530275949366,
+  "omega_c_threshold": 0.29629324847975713,
+  "rplus": 1.4802109600800843,
+  "omega_orbit_r20": 0.011071760582072043,
+  "scalar00_omega": 0.2852214878976851,
+  "threshold_radius": 41.66084841792264,
+  "literal_a088_synchronous_threshold": 70.42299316819178,
+  "hypothesized_old_horizon_area_conversion": 1.3511587563787484,
+  "hypothesis_status": "Published footnote confirms horizon-normalization error; three-radius vector-curve comparison supplies strong multiplicative area-factor fingerprint, not the old implementation formula.",
+  "old_reference_area_only_sensitivity": [
+    {
+      "rp": 10,
+      "unmodified_local_over_old_paper": 1.4066881407900858,
+      "local_over_hypothetically_area_corrected_reference": 1.041097601706081
+    },
+    {
+      "rp": 20,
+      "unmodified_local_over_old_paper": 1.326552253753525,
+      "local_over_hypothetically_area_corrected_reference": 0.9817885925624525
+    },
+    {
+      "rp": 30,
+      "unmodified_local_over_old_paper": 1.320855389826851,
+      "local_over_hypothetically_area_corrected_reference": 0.9775723123512786
+    }
+  ],
+  "updated_reference_vector_comparison": [
+    {
+      "rp": 10,
+      "new_dyson_over_original_horizon": 1.3550592425714967,
+      "new_dyson_over_original_infinity": 0.9997736580904376,
+      "local_over_new_dyson_horizon_percent": 3.8100842086145947,
+      "local_over_li_horizon_percent": 1.5246826376622336,
+      "local_over_li_infinity_percent": 0.9479233806156229
+    },
+    {
+      "rp": 20,
+      "new_dyson_over_original_horizon": 1.355799756910767,
+      "new_dyson_over_original_infinity": 0.9999661896944156,
+      "local_over_new_dyson_horizon_percent": -2.1572140729603895,
+      "local_over_li_horizon_percent": 3.8018954108365755,
+      "local_over_li_infinity_percent": 1.4108503564796093
+    },
+    {
+      "rp": 30,
+      "new_dyson_over_original_horizon": 1.356261361711872,
+      "new_dyson_over_original_infinity": 1.0001008862183263,
+      "local_over_new_dyson_horizon_percent": -2.6105567027531973,
+      "local_over_li_horizon_percent": -3.110719128101025,
+      "local_over_li_infinity_percent": 1.8621160047890717
+    }
+  ],
+  "new_figure_readout": {
+    "path": "docs/environment_reproduction/li_2025_figure2_readout_20260916.json",
+    "sha256": "7a66de11f5c47561de2f299708859623681316fa4c1c664739ffb578f8fab107"
+  },
+  "factor_for_a088": 1.3559563959671574,
+  "same_ell_cutoff_infinity_comparison": [
+    {
+      "rp": 10,
+      "local_infinity_ell_le5": 7.2678159901636e-06,
+      "li_infinity_ell_le5": 7.263213740857413e-06,
+      "relative_percent": 0.06336381483995623,
+      "selected_modes": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "coverage_path": "docs/environment_reproduction/flux_coverage_L18_nt18_i6_h5_f5_rp10.json",
+      "coverage_sha256": "d5451ea074eeb0d08d6ff6a74748dfaadc2089dcecb1e72ef3126d9076c37a27"
+    },
+    {
+      "rp": 20,
+      "local_infinity_ell_le5": 1.8987570346389037e-05,
+      "li_infinity_ell_le5": 1.8943078476349247e-05,
+      "relative_percent": 0.23487138109752337,
+      "selected_modes": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "coverage_path": "docs/environment_reproduction/flux_coverage_L18_nt18_i6_h5_f5.json",
+      "coverage_sha256": "94da7a50218e90d2b0b21345f42e5a44ade1ae042e2ecf5fdf3f521f9669ef2c"
+    },
+    {
+      "rp": 30,
+      "local_infinity_ell_le5": 2.706614697500746e-05,
+      "li_infinity_ell_le5": 2.691882885667724e-05,
+      "relative_percent": 0.5472679332172214,
+      "selected_modes": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "coverage_path": "docs/environment_reproduction/flux_coverage_L18_nt18_i6_h5_f5_rp30.json",
+      "coverage_sha256": "1a1715c96e4dcdf207693e58cb4728bd3ff1b6ae32013ceb3eae36b73f58cace"
+    }
+  ],
+  "li_negative_modes": {
+    "main_tex_total_sum_line": 731,
+    "main_tex_negative_mg_discussion_line": 622,
+    "lowest_mg_explicit": -6,
+    "interpretation": "Dipolar all ell,m through ell=5 includes scalar m=-5..5, hence mg=-6..4. Source figures positive-m restriction does not restrict horizon flux sum."
+  },
+  "li_cloud_imaginary_frequency": {
+    "explicit_retained_or_frozen_statement_found": false,
+    "real_approx_frequency_line": 322,
+    "stationarity_prose_line": 140,
+    "limitation": "No Im omega value or explicit freezing prescription found in full v2 main.tex; do not infer implementation uniquely from a displayed real approximation."
+  }
+}

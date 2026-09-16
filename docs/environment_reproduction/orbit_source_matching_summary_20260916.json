@@ -1,0 +1,3352 @@
+{
+  "status": "contact_projection_convergence_summary_not_global_Lorenz_proof",
+  "results": [
+    {
+      "input": "docs/environment_reproduction/orbit_source_matching_contact_L18_q12_e1e-3.json",
+      "input_sha256": "f75bbe79a286d21731c0b73a951d6be8c4c33032722d81eb3b9e7cf9f672dba2",
+      "config": {
+        "r0": 20.0,
+        "a": 0.8771530275949366,
+        "alpha": 0.3,
+        "quadrature": 12,
+        "epsilon": 0.001,
+        "jet_order": 8,
+        "ellmax": 18
+      },
+      "endpoint": {
+        "ellmax": 18,
+        "contact_J": [
+          -3.7685218301238843e-08,
+          -7.6818652447046e-07
+        ],
+        "contact_J_linear_extrapolation": [
+          -3.7694631872308377e-08,
+          -7.681862696459498e-07
+        ],
+        "delta_z_h_contact": [
+          -4.903930233767044e-08,
+          -9.373097524516246e-08
+        ],
+        "relative_delta_z_h": 1.7670602682412234e-06,
+        "signed_flux_relative_change": -3.949126196056696e-07,
+        "max_metric_jump_norm": 0.1706661892103018,
+        "max_metric_jump_over_side_norm": 0.07323809543330649,
+        "scalar_weighted_jump_bound": 0.13143575174561672,
+        "taylor_linear_quadratic_contact_difference": 9.417019476041943e-12
+      },
+      "contact_by_ell": [
+        {
+          "ellmax": 1,
+          "contact_J": [
+            -2.3488137903232547e-05,
+            -5.297778703850457e-15
+          ],
+          "contact_J_linear_extrapolation": [
+            -2.348814648280191e-05,
+            -5.336618855938839e-15
+          ],
+          "delta_z_h_contact": [
+            -2.9324272901567466e-06,
+            1.3555727674664875e-06
+          ],
+          "relative_delta_z_h": 5.396489061682828e-05,
+          "signed_flux_relative_change": 0.00010653696355777953,
+          "max_metric_jump_norm": 0.6148756509890222,
+          "max_metric_jump_over_side_norm": 0.20797425523607435,
+          "scalar_weighted_jump_bound": 1.3439870873154123,
+          "taylor_linear_quadratic_contact_difference": 8.579569363662527e-12
+        },
+        {
+          "ellmax": 2,
+          "contact_J": [
+            3.6881394679473615e-06,
+            -3.3631149511422996e-13
+          ],
+          "contact_J_linear_extrapolation": [
+            3.6881303646491753e-06,
+            -3.363503363062297e-13
+          ],
+          "delta_z_h_contact": [
+            4.604537155413342e-07,
+            -2.1285392799605932e-07
+          ],
+          "relative_delta_z_h": 8.473640770816319e-06,
+          "signed_flux_relative_change": -1.6728050575953723e-05,
+          "max_metric_jump_norm": 0.36336971499562276,
+          "max_metric_jump_over_side_norm": 0.11773442840821886,
+          "scalar_weighted_jump_bound": 0.8605789811266443,
+          "taylor_linear_quadratic_contact_difference": 9.103298186266151e-12
+        },
+        {
+          "ellmax": 3,
+          "contact_J": [
+            3.317777443411446e-08,
+            1.558796577572512e-11
+          ],
+          "contact_J_linear_extrapolation": [
+            3.3168637316346025e-08,
+            1.5587924212675133e-11
+          ],
+          "delta_z_h_contact": [
+            4.143050512984318e-09,
+            -1.9128454174972405e-09
+          ],
+          "relative_delta_z_h": 7.62272076754199e-08,
+          "signed_flux_relative_change": -1.504713958988546e-07,
+          "max_metric_jump_norm": 0.2286082668357859,
+          "max_metric_jump_over_side_norm": 0.026046321157065056,
+          "scalar_weighted_jump_bound": 0.45996248139966606,
+          "taylor_linear_quadratic_contact_difference": 9.137117768528974e-12
+        },
+        {
+          "ellmax": 4,
+          "contact_J": [
+            1.3540484345676373e-09,
+            1.6479003020458342e-11
+          ],
+          "contact_J_linear_extrapolation": [
+            1.3449111255137482e-09,
+            1.647896095778431e-11
+          ],
+          "delta_z_h_contact": [
+            1.7000015435438398e-10,
+            -7.608894812446635e-11
+          ],
+          "relative_delta_z_h": 3.1112081832009472e-09,
+          "signed_flux_relative_change": -6.129355911710377e-09,
+          "max_metric_jump_norm": 0.18296607408547053,
+          "max_metric_jump_over_side_norm": 0.03714927665917947,
+          "scalar_weighted_jump_bound": 0.45434284734094454,
+          "taylor_linear_quadratic_contact_difference": 9.137309053985873e-12
+        },
+        {
+          "ellmax": 5,
+          "contact_J": [
+            -5.219348463585325e-10,
+            -8.63604116071123e-11
+          ],
+          "contact_J_linear_extrapolation": [
+            -5.310721540748512e-10,
+            -8.636043482805426e-11
+          ],
+          "delta_z_h_contact": [
+            -7.0146208098434e-11,
+            1.9340615189366116e-11
+          ],
+          "relative_delta_z_h": 1.2154695170362064e-09,
+          "signed_flux_relative_change": 2.303703006134583e-09,
+          "max_metric_jump_norm": 0.1291942995615569,
+          "max_metric_jump_over_side_norm": 0.03722544637885585,
+          "scalar_weighted_jump_bound": 0.32325312381623955,
+          "taylor_linear_quadratic_contact_difference": 9.137307716348177e-12
+        },
+        {
+          "ellmax": 6,
+          "contact_J": [
+            -3.7409658235920694e-10,
+            -8.54660257236384e-11
+          ],
+          "contact_J_linear_extrapolation": [
+            -3.832338085044307e-10,
+            -8.546604783448343e-11
+          ],
+          "delta_z_h_contact": [
+            -5.163740306779668e-11,
+            1.0920075255239925e-11
+          ],
+          "relative_delta_z_h": 8.816461964718476e-10,
+          "signed_flux_relative_change": 1.6338184138930956e-09,
+          "max_metric_jump_norm": 0.125070126217008,
+          "max_metric_jump_over_side_norm": 0.04562196828282319,
+          "scalar_weighted_jump_bound": 0.30789203562194717,
+          "taylor_linear_quadratic_contact_difference": 9.137226145250531e-12
+        },
+        {
+          "ellmax": 7,
+          "contact_J": [
+            -3.876875566495555e-10,
+            2.0721180958212663e-10
+          ],
+          "contact_J_linear_extrapolation": [
+            -3.9682476041969297e-10,
+            2.072117579018212e-10
+          ],
+          "delta_z_h_contact": [
+            -3.644285844528239e-11,
+            4.8244448504292194e-11
+          ],
+          "relative_delta_z_h": 1.0099721588835666e-09,
+          "signed_flux_relative_change": 1.911047764480145e-09,
+          "max_metric_jump_norm": 0.10837107918920816,
+          "max_metric_jump_over_side_norm": 0.03664951477586589,
+          "scalar_weighted_jump_bound": 0.23019627882166832,
+          "taylor_linear_quadratic_contact_difference": 9.137203770283616e-12
+        },
+        {
+          "ellmax": 8,
+          "contact_J": [
+            -6.851300076783241e-11,
+            2.0117624517174184e-10
+          ],
+          "contact_J_linear_extrapolation": [
+            -7.765029268017458e-11,
+            2.0117619739540952e-10
+          ],
+          "delta_z_h_contact": [
+            3.0568471065550002e-12,
+            2.9070378943108917e-11
+          ],
+          "relative_delta_z_h": 4.882790707201963e-10,
+          "signed_flux_relative_change": 4.589368884921896e-10,
+          "max_metric_jump_norm": 0.1029326428115809,
+          "max_metric_jump_over_side_norm": 0.034704280411663534,
+          "scalar_weighted_jump_bound": 0.22692788600912467,
+          "taylor_linear_quadratic_contact_difference": 9.13729191246707e-12
+        },
+        {
+          "ellmax": 9,
+          "contact_J": [
+            -2.573251799860649e-10,
+            -1.711766496402781e-09
+          ],
+          "contact_J_linear_extrapolation": [
+            -2.664624817470868e-10,
+            -1.7117662445552501e-09
+          ],
+          "delta_z_h_contact": [
+            -1.309176334344952e-10,
+            -1.988581555764198e-10
+          ],
+          "relative_delta_z_h": 3.977038227295542e-09,
+          "signed_flux_relative_change": -9.374190312883002e-11,
+          "max_metric_jump_norm": 0.0808213263085727,
+          "max_metric_jump_over_side_norm": 0.04062331376226015,
+          "scalar_weighted_jump_bound": 0.18453267199864795,
+          "taylor_linear_quadratic_contact_difference": 9.137301764492655e-12
+        },
+        {
+          "ellmax": 10,
+          "contact_J": [
+            4.434046646884296e-10,
+            -1.7118991225923142e-09
+          ],
+          "contact_J_linear_extrapolation": [
+            4.34267804424271e-10,
+            -1.7118988751805945e-09
+          ],
+          "delta_z_h_contact": [
+            -4.344115729362183e-11,
+            -2.3931599075380916e-10
+          ],
+          "relative_delta_z_h": 4.062945337415198e-09,
+          "signed_flux_relative_change": -3.2721072518171468e-09,
+          "max_metric_jump_norm": 0.060547415938846376,
+          "max_metric_jump_over_side_norm": 0.03980137570874115,
+          "scalar_weighted_jump_bound": 0.1350205557722989,
+          "taylor_linear_quadratic_contact_difference": 9.13686026750834e-12
+        },
+        {
+          "ellmax": 11,
+          "contact_J": [
+            -5.507212096150862e-11,
+            6.3794575398442584e-09
+          ],
+          "contact_J_linear_extrapolation": [
+            -6.420887031075644e-11,
+            6.3794561643850284e-09
+          ],
+          "delta_z_h_contact": [
+            3.613025417760194e-10,
+            7.996355321619005e-10
+          ],
+          "relative_delta_z_h": 1.4657592593206144e-08,
+          "signed_flux_relative_change": 4.948868426168929e-09,
+          "max_metric_jump_norm": 0.05761342467768222,
+          "max_metric_jump_over_side_norm": 0.011902856363388245,
+          "scalar_weighted_jump_bound": 0.0888253253630481,
+          "taylor_linear_quadratic_contact_difference": 9.136749452779614e-12
+        },
+        {
+          "ellmax": 12,
+          "contact_J": [
+            1.323524192101443e-08,
+            6.373272620212662e-09
+          ],
+          "contact_J_linear_extrapolation": [
+            1.3226112223256884e-08,
+            6.373271227038918e-09
+          ],
+          "delta_z_h_contact": [
+            2.0202035427528572e-09,
+            3.1838412757142924e-11
+          ],
+          "relative_delta_z_h": 3.375037515408534e-08,
+          "signed_flux_relative_change": -5.5335943494050355e-08,
+          "max_metric_jump_norm": 0.05999332440678089,
+          "max_metric_jump_over_side_norm": 0.0124451225827923,
+          "scalar_weighted_jump_bound": 0.07324645026194651,
+          "taylor_linear_quadratic_contact_difference": 9.129697863842829e-12
+        },
+        {
+          "ellmax": 13,
+          "contact_J": [
+            1.3625228926690908e-08,
+            -8.989421329109934e-09
+          ],
+          "contact_J_linear_extrapolation": [
+            1.3616098777872895e-08,
+            -8.98941906005086e-09
+          ],
+          "delta_z_h_contact": [
+            1.1822639365679277e-09,
+            -1.908657634022639e-09
+          ],
+          "relative_delta_z_h": 3.7503855848379484e-08,
+          "signed_flux_relative_change": -6.842088218217413e-08,
+          "max_metric_jump_norm": 0.055164173463770685,
+          "max_metric_jump_over_side_norm": 0.03753919369926486,
+          "scalar_weighted_jump_bound": 0.08930270697749783,
+          "taylor_linear_quadratic_contact_difference": 9.130149099970642e-12
+        },
+        {
+          "ellmax": 14,
+          "contact_J": [
+            -2.2638702965079644e-08,
+            -9.179946039312233e-09
+          ],
+          "contact_J_linear_extrapolation": [
+            -2.2647857370885095e-08,
+            -9.179943737980948e-09
+          ],
+          "delta_z_h_contact": [
+            -3.35618070577474e-09,
+            1.604590783520934e-10
+          ],
+          "relative_delta_z_h": 5.612685053102832e-08,
+          "signed_flux_relative_change": 9.591940397513099e-08,
+          "max_metric_jump_norm": 0.05432089282737166,
+          "max_metric_jump_over_side_norm": 0.032407804513329676,
+          "scalar_weighted_jump_bound": 0.13028030298908477,
+          "taylor_linear_quadratic_contact_difference": 9.154406094717677e-12
+        },
+        {
+          "ellmax": 15,
+          "contact_J": [
+            -2.189810609676548e-08,
+            -2.946819025664638e-07
+          ],
+          "contact_J_linear_extrapolation": [
+            -2.1907260261818465e-08,
+            -2.9468181887957735e-07
+          ],
+          "delta_z_h_contact": [
+            -1.97409163810134e-08,
+            -3.552639123844377e-08
+          ],
+          "relative_delta_z_h": 6.789096684411898e-07,
+          "signed_flux_relative_change": -1.1773871932962976e-07,
+          "max_metric_jump_norm": 0.05285517945832312,
+          "max_metric_jump_over_side_norm": 0.012058855367453191,
+          "scalar_weighted_jump_bound": 0.11602322076038472,
+          "taylor_linear_quadratic_contact_difference": 9.154547575509546e-12
+        },
+        {
+          "ellmax": 16,
+          "contact_J": [
+            -1.0212946370094155e-07,
+            -2.9501146246649604e-07
+          ],
+          "contact_J_linear_extrapolation": [
+            -1.0213872932632935e-07,
+            -2.950113791024986e-07
+          ],
+          "delta_z_h_contact": [
+            -2.9776593365598454e-08,
+            -3.093713714270626e-08
+          ],
+          "relative_delta_z_h": 7.17266911561595e-07,
+          "signed_flux_relative_change": 2.459202073090694e-07,
+          "max_metric_jump_norm": 0.05491860951660289,
+          "max_metric_jump_over_side_norm": 0.012588429379778363,
+          "scalar_weighted_jump_bound": 0.10692576884309599,
+          "taylor_linear_quadratic_contact_difference": 9.266000398401393e-12
+        },
+        {
+          "ellmax": 17,
+          "contact_J": [
+            -1.0148340837143998e-07,
+            -7.683747646692694e-07
+          ],
+          "contact_J_linear_extrapolation": [
+            -1.0149267390493093e-07,
+            -7.683745097889937e-07
+          ],
+          "delta_z_h_contact": [
+            -5.70151890454264e-08,
+            -9.007248648913592e-08
+          ],
+          "relative_delta_z_h": 1.7807011740486618e-06,
+          "signed_flux_relative_change": -1.0568475350414275e-07,
+          "max_metric_jump_norm": 0.04853463496911233,
+          "max_metric_jump_over_side_norm": 0.01804317616436765,
+          "scalar_weighted_jump_bound": 0.09936567464725625,
+          "taylor_linear_quadratic_contact_difference": 9.269038506059931e-12
+        },
+        {
+          "ellmax": 18,
+          "contact_J": [
+            -3.7685218301238843e-08,
+            -7.6818652447046e-07
+          ],
+          "contact_J_linear_extrapolation": [
+            -3.7694631872308377e-08,
+            -7.681862696459498e-07
+          ],
+          "delta_z_h_contact": [
+            -4.903930233767044e-08,
+            -9.373097524516246e-08
+          ],
+          "relative_delta_z_h": 1.7670602682412234e-06,
+          "signed_flux_relative_change": -3.949126196056696e-07,
+          "max_metric_jump_norm": 0.1706661892103018,
+          "max_metric_jump_over_side_norm": 0.07323809543330649,
+          "scalar_weighted_jump_bound": 0.13143575174561672,
+          "taylor_linear_quadratic_contact_difference": 9.417019476041943e-12
+        }
+      ],
+      "bulk_by_ell": [
+        {
+          "ellmax": 1,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -4.811233967070715e-15,
+              -1.6735824762555658e-15
+            ],
+            [
+              6.7302885271378275e-15,
+              -3.299588593655074e-17
+            ]
+          ],
+          "max_covariant_constraint_component": 3.0978970332575076e-12
+        },
+        {
+          "ellmax": 2,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              2.108438191523547e-12,
+              -6.878967120529557e-13
+            ],
+            [
+              -4.294939127105595e-12,
+              -2.700475105244921e-13
+            ]
+          ],
+          "max_covariant_constraint_component": 9.490577022916918e-09
+        },
+        {
+          "ellmax": 3,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              3.759730186522808e-12,
+              2.554101626019738e-11
+            ],
+            [
+              -7.887402222130524e-12,
+              1.4258939011340878e-11
+            ]
+          ],
+          "max_covariant_constraint_component": 8.937808274030411e-08
+        },
+        {
+          "ellmax": 4,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -7.1055654152276545e-12,
+              2.7949788558775966e-11
+            ],
+            [
+              2.122413096451313e-11,
+              1.4705830600096354e-11
+            ]
+          ],
+          "max_covariant_constraint_component": 9.84692218806598e-08
+        },
+        {
+          "ellmax": 5,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -1.0205486880223386e-11,
+              -4.503014379791983e-11
+            ],
+            [
+              2.4559217544975003e-11,
+              -2.1911410566934778e-11
+            ]
+          ],
+          "max_covariant_constraint_component": 1.972819669106128e-07
+        },
+        {
+          "ellmax": 6,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              2.0850897996590063e-11,
+              -4.92322834426412e-11
+            ],
+            [
+              -4.875940801108001e-11,
+              -2.2518367029350676e-11
+            ]
+          ],
+          "max_covariant_constraint_component": 2.1159075916080646e-07
+        },
+        {
+          "ellmax": 7,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              2.842319746596761e-11,
+              1.1382389192756709e-10
+            ],
+            [
+              -4.6914549314306414e-11,
+              1.980959079683445e-11
+            ]
+          ],
+          "max_covariant_constraint_component": 3.5458930521428983e-07
+        },
+        {
+          "ellmax": 8,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -1.451584835195293e-11,
+              1.2358889774890796e-10
+            ],
+            [
+              8.761481006945881e-11,
+              2.153476867845327e-11
+            ]
+          ],
+          "max_covariant_constraint_component": 3.75796732946439e-07
+        },
+        {
+          "ellmax": 9,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -3.6334173156235086e-11,
+              -1.9121306219816156e-10
+            ],
+            [
+              8.768891039913791e-11,
+              -6.794531366833974e-11
+            ]
+          ],
+          "max_covariant_constraint_component": 4.7389207276954517e-07
+        },
+        {
+          "ellmax": 10,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              8.828106520346448e-11,
+              -2.1094156961058636e-10
+            ],
+            [
+              -8.278501772399798e-11,
+              -7.903133125272799e-11
+            ]
+          ],
+          "max_covariant_constraint_component": 5.642076729259747e-07
+        },
+        {
+          "ellmax": 11,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              1.0226601051670655e-10,
+              1.449342045777406e-10
+            ],
+            [
+              -8.836488211918332e-11,
+              -2.4492315013258283e-11
+            ]
+          ],
+          "max_covariant_constraint_component": 1.022787833702272e-06
+        },
+        {
+          "ellmax": 12,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              2.8945914077670257e-11,
+              1.6531226167249898e-10
+            ],
+            [
+              1.295215017883875e-11,
+              -1.312995904046301e-11
+            ]
+          ],
+          "max_covariant_constraint_component": 1.0506021392607925e-06
+        },
+        {
+          "ellmax": 13,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -1.6960796237898704e-10,
+              -1.0091380233540792e-09
+            ],
+            [
+              -2.9888721912728755e-10,
+              -1.468418234103557e-09
+            ]
+          ],
+          "max_covariant_constraint_component": 2.181943878309185e-06
+        },
+        {
+          "ellmax": 14,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              2.10333182563298e-10,
+              -1.010879077347439e-09
+            ],
+            [
+              -5.534355924340082e-10,
+              -1.534883146734363e-09
+            ]
+          ],
+          "max_covariant_constraint_component": 2.2630228521049275e-06
+        },
+        {
+          "ellmax": 15,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              3.884541512496074e-10,
+              -2.205374464677653e-09
+            ],
+            [
+              -6.840791712835823e-10,
+              -3.1062261422576574e-10
+            ]
+          ],
+          "max_covariant_constraint_component": 4.595301158323193e-06
+        },
+        {
+          "ellmax": 16,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -4.7766224467728035e-11,
+              -2.5354120502978163e-09
+            ],
+            [
+              1.71722743639469e-09,
+              -4.3349835383768687e-10
+            ]
+          ],
+          "max_covariant_constraint_component": 4.455607982047748e-06
+        },
+        {
+          "ellmax": 17,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -2.0408460924020296e-10,
+              -9.7764489679973e-09
+            ],
+            [
+              1.4993948365036213e-09,
+              8.541499425033593e-09
+            ]
+          ],
+          "max_covariant_constraint_component": 7.820069194120856e-06
+        },
+        {
+          "ellmax": 18,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -5.593385327105198e-09,
+              -9.622576206491542e-09
+            ],
+            [
+              -6.304601449391721e-09,
+              7.934391289281815e-09
+            ]
+          ],
+          "max_covariant_constraint_component": 8.724613565680029e-06
+        }
+      ],
+      "source_provenance": "86df5ec997ba767c3ed2633c717cff7d542838eab0df6b8fe00c17b325a32b26"
+    },
+    {
+      "input": "docs/environment_reproduction/orbit_source_matching_contact_L18_q24_e1e-3.json",
+      "input_sha256": "634cddda9189cc877aebcc2117906f894860260fd488da9a7f93e76e4bc3bd22",
+      "config": {
+        "r0": 20.0,
+        "a": 0.8771530275949366,
+        "alpha": 0.3,
+        "quadrature": 24,
+        "epsilon": 0.001,
+        "jet_order": 8,
+        "ellmax": 18
+      },
+      "endpoint": {
+        "ellmax": 18,
+        "contact_J": [
+          -2.983502486673668e-07,
+          2.7503727228129933e-07
+        ],
+        "contact_J_linear_extrapolation": [
+          -2.9835964978004135e-07,
+          2.750371537473078e-07
+        ],
+        "delta_z_h_contact": [
+          -2.137493302660717e-08,
+          5.155633368683826e-08
+        ],
+        "relative_delta_z_h": 9.32297719003188e-07,
+        "signed_flux_relative_change": 1.5558054238251628e-06,
+        "max_metric_jump_norm": 0.18977453681141468,
+        "max_metric_jump_over_side_norm": 0.1088773178103703,
+        "scalar_weighted_jump_bound": 0.11668532594290257,
+        "taylor_linear_quadratic_contact_difference": 9.401859913167818e-12
+      },
+      "contact_by_ell": [
+        {
+          "ellmax": 1,
+          "contact_J": [
+            -2.3488137888309375e-05,
+            -1.6361358830727237e-14
+          ],
+          "contact_J_linear_extrapolation": [
+            -2.3488146467878447e-05,
+            -1.640035277597242e-14
+          ],
+          "delta_z_h_contact": [
+            -2.932427288932144e-06,
+            1.355572765223969e-06
+          ],
+          "relative_delta_z_h": 5.396489058254173e-05,
+          "signed_flux_relative_change": 0.00010653696348184027,
+          "max_metric_jump_norm": 0.6273605458551129,
+          "max_metric_jump_over_side_norm": 0.21021116903054826,
+          "scalar_weighted_jump_bound": 1.3439870748542648,
+          "taylor_linear_quadratic_contact_difference": 8.579569072283891e-12
+        },
+        {
+          "ellmax": 2,
+          "contact_J": [
+            3.6881411849253392e-06,
+            1.4565258092268055e-13
+          ],
+          "contact_J_linear_extrapolation": [
+            3.6881320816258965e-06,
+            1.4561336228513014e-13
+          ],
+          "delta_z_h_contact": [
+            4.60453957716788e-07,
+            -2.128539669163e-07
+          ],
+          "relative_delta_z_h": 8.47364471563853e-06,
+          "signed_flux_relative_change": -1.6728058008341762e-05,
+          "max_metric_jump_norm": 0.3785694289547274,
+          "max_metric_jump_over_side_norm": 0.11868849166117894,
+          "scalar_weighted_jump_bound": 0.8605366661338458,
+          "taylor_linear_quadratic_contact_difference": 9.103299442841147e-12
+        },
+        {
+          "ellmax": 3,
+          "contact_J": [
+            3.317995999791224e-08,
+            -1.708367351643182e-11
+          ],
+          "contact_J_linear_extrapolation": [
+            3.317082287887831e-08,
+            -1.7083698673689482e-11
+          ],
+          "delta_z_h_contact": [
+            4.141437793502411e-09,
+            -1.9170505144631503e-09
+          ],
+          "relative_delta_z_h": 7.62322307827566e-08,
+          "signed_flux_relative_change": -1.5050537449656787e-07,
+          "max_metric_jump_norm": 0.24909598872714808,
+          "max_metric_jump_over_side_norm": 0.031640596386490284,
+          "scalar_weighted_jump_bound": 0.45754880142841164,
+          "taylor_linear_quadratic_contact_difference": 9.137119033962769e-12
+        },
+        {
+          "ellmax": 4,
+          "contact_J": [
+            1.8514638680556026e-09,
+            -1.744805235896171e-11
+          ],
+          "contact_J_linear_extrapolation": [
+            1.8423265956860595e-09,
+            -1.74480759089454e-11
+          ],
+          "delta_z_h_contact": [
+            2.301430232781759e-10,
+            -1.0903202102064633e-10
+          ],
+          "relative_delta_z_h": 4.253997576686663e-09,
+          "signed_flux_relative_change": -8.410450558216098e-09,
+          "max_metric_jump_norm": 0.21428579584309373,
+          "max_metric_jump_over_side_norm": 0.057252220544941376,
+          "scalar_weighted_jump_bound": 0.4510265900998875,
+          "taylor_linear_quadratic_contact_difference": 9.137272369573451e-12
+        },
+        {
+          "ellmax": 5,
+          "contact_J": [
+            -1.4391057222396734e-11,
+            9.880859473644176e-11
+          ],
+          "contact_J_linear_extrapolation": [
+            -2.3528328925382822e-11,
+            9.880850687119707e-11
+          ],
+          "delta_z_h_contact": [
+            3.905865664230321e-12,
+            1.3166524576205728e-11
+          ],
+          "relative_delta_z_h": 2.2941168746696745e-10,
+          "signed_flux_relative_change": 1.3805490084450867e-10,
+          "max_metric_jump_norm": 0.1596676875626112,
+          "max_metric_jump_over_side_norm": 0.05816378557712443,
+          "scalar_weighted_jump_bound": 0.31124723720849207,
+          "taylor_linear_quadratic_contact_difference": 9.13727170340855e-12
+        },
+        {
+          "ellmax": 6,
+          "contact_J": [
+            2.325511924473416e-09,
+            9.662339563118633e-11
+          ],
+          "contact_J_linear_extrapolation": [
+            2.3163750099990125e-09,
+            9.662330290489053e-11
+          ],
+          "delta_z_h_contact": [
+            2.9590999093737836e-10,
+            -1.2214929793098052e-10
+          ],
+          "relative_delta_z_h": 5.347562037341248e-09,
+          "signed_flux_relative_change": -1.0476543632620405e-08,
+          "max_metric_jump_norm": 0.1426135717370115,
+          "max_metric_jump_over_side_norm": 0.05755120595659255,
+          "scalar_weighted_jump_bound": 0.2991761138783351,
+          "taylor_linear_quadratic_contact_difference": 9.136914474874002e-12
+        },
+        {
+          "ellmax": 7,
+          "contact_J": [
+            2.211998441841086e-09,
+            -4.757795867411398e-10
+          ],
+          "contact_J_linear_extrapolation": [
+            2.20286155738622e-09,
+            -4.757795088846962e-10
+          ],
+          "delta_z_h_contact": [
+            2.487030163315459e-10,
+            -1.8706097150469246e-10
+          ],
+          "relative_delta_z_h": 5.198381450590254e-09,
+          "signed_flux_relative_change": -1.0383315318662767e-08,
+          "max_metric_jump_norm": 0.11363213139527019,
+          "max_metric_jump_over_side_norm": 0.02850979643151978,
+          "scalar_weighted_jump_bound": 0.226990924171329,
+          "taylor_linear_quadratic_contact_difference": 9.136884455197677e-12
+        },
+        {
+          "ellmax": 8,
+          "contact_J": [
+            -2.9849006055377576e-09,
+            -4.698132211985436e-10
+          ],
+          "contact_J_linear_extrapolation": [
+            -2.9940389992912165e-09,
+            -4.698131346173612e-10
+          ],
+          "delta_z_h_contact": [
+            -3.9977072855326685e-10,
+            1.136129597183944e-10
+          ],
+          "relative_delta_z_h": 6.942351053094025e-09,
+          "signed_flux_relative_change": 1.319241205166577e-08,
+          "max_metric_jump_norm": 0.10920435193127984,
+          "max_metric_jump_over_side_norm": 0.03570954488544951,
+          "scalar_weighted_jump_bound": 0.22233809150847678,
+          "taylor_linear_quadratic_contact_difference": 9.138393753869047e-12
+        },
+        {
+          "ellmax": 9,
+          "contact_J": [
+            -1.4415174856714989e-09,
+            -1.752993925253493e-10
+          ],
+          "contact_J_linear_extrapolation": [
+            -1.4506561275259172e-09,
+            -1.7529963491503545e-10
+          ],
+          "delta_z_h_contact": [
+            -1.9008643064645657e-10,
+            6.130878197980373e-11
+          ],
+          "relative_delta_z_h": 3.33634054646518e-09,
+          "signed_flux_relative_change": 6.4090990292697825e-09,
+          "max_metric_jump_norm": 0.09399466981955668,
+          "max_metric_jump_over_side_norm": 0.04602786917462027,
+          "scalar_weighted_jump_bound": 0.182525939745419,
+          "taylor_linear_quadratic_contact_difference": 9.138641857632867e-12
+        },
+        {
+          "ellmax": 10,
+          "contact_J": [
+            -3.546425662638747e-08,
+            -1.584439127978493e-10
+          ],
+          "contact_J_linear_extrapolation": [
+            -3.547340766062851e-08,
+            -1.5844416725797882e-10
+          ],
+          "delta_z_h_contact": [
+            -4.436755975645902e-09,
+            2.0269701866949117e-09
+          ],
+          "relative_delta_z_h": 8.148129229315514e-08,
+          "signed_flux_relative_change": 1.6073687159057215e-07,
+          "max_metric_jump_norm": 0.0821487005114409,
+          "max_metric_jump_over_side_norm": 0.04447534280792566,
+          "scalar_weighted_jump_bound": 0.17893344068317704,
+          "taylor_linear_quadratic_contact_difference": 9.151034244575519e-12
+        },
+        {
+          "ellmax": 11,
+          "contact_J": [
+            -3.39576458304446e-08,
+            2.8577056364895e-09
+          ],
+          "contact_J_linear_extrapolation": [
+            -3.39667970307259e-08,
+            2.8577062259911866e-09
+          ],
+          "delta_z_h_contact": [
+            -4.074588619431111e-09,
+            2.316576740840619e-09
+          ],
+          "relative_delta_z_h": 7.829476376808076e-08,
+          "signed_flux_relative_change": 1.5612508952322912e-07,
+          "max_metric_jump_norm": 0.0659321819131328,
+          "max_metric_jump_over_side_norm": 0.01710005548011573,
+          "scalar_weighted_jump_bound": 0.157653581835089,
+          "taylor_linear_quadratic_contact_difference": 9.151200300287061e-12
+        },
+        {
+          "ellmax": 12,
+          "contact_J": [
+            -8.416569839398707e-08,
+            2.7619624487187045e-09
+          ],
+          "contact_J_linear_extrapolation": [
+            -8.417488339569107e-08,
+            2.761963014957063e-09
+          ],
+          "delta_z_h_contact": [
+            -1.034844698031039e-08,
+            5.2022848007336e-09
+          ],
+          "relative_delta_z_h": 1.934779865179672e-07,
+          "signed_flux_relative_change": 3.8378091860025165e-07,
+          "max_metric_jump_norm": 0.06695179815000152,
+          "max_metric_jump_over_side_norm": 0.01225030346674825,
+          "scalar_weighted_jump_bound": 0.14888810376315417,
+          "taylor_linear_quadratic_contact_difference": 9.185001721452148e-12
+        },
+        {
+          "ellmax": 13,
+          "contact_J": [
+            -8.292032211625756e-08,
+            -2.3709749260562023e-08
+          ],
+          "contact_J_linear_extrapolation": [
+            -8.292950755260537e-08,
+            -2.370974280648976e-08
+          ],
+          "delta_z_h_contact": [
+            -1.1720729290158816e-08,
+            1.825492297203129e-09
+          ],
+          "relative_delta_z_h": 1.9814759966169378e-07,
+          "signed_flux_relative_change": 3.5863337877195534e-07,
+          "max_metric_jump_norm": 0.06253761535489466,
+          "max_metric_jump_over_side_norm": 0.023062307509499766,
+          "scalar_weighted_jump_bound": 0.1265073687303842,
+          "taylor_linear_quadratic_contact_difference": 9.185438615261934e-12
+        },
+        {
+          "ellmax": 14,
+          "contact_J": [
+            -1.0755782488841624e-07,
+            -2.3859770905508568e-08
+          ],
+          "contact_J_linear_extrapolation": [
+            -1.0756704225386358e-07,
+            -2.3859764372625418e-08
+          ],
+          "delta_z_h_contact": [
+            -1.4805309729777485e-08,
+            3.228668675112956e-09
+          ],
+          "relative_delta_z_h": 2.5312545485562733e-07,
+          "signed_flux_relative_change": 4.7027007021860356e-07,
+          "max_metric_jump_norm": 0.13415101379908795,
+          "max_metric_jump_over_side_norm": 0.07383106298474516,
+          "scalar_weighted_jump_bound": 0.1275568421148164,
+          "taylor_linear_quadratic_contact_difference": 9.217367762456005e-12
+        },
+        {
+          "ellmax": 15,
+          "contact_J": [
+            -1.0812035184717653e-07,
+            6.285579556126902e-08
+          ],
+          "contact_J_linear_extrapolation": [
+            -1.0812956850105213e-07,
+            6.285576559972643e-08
+          ],
+          "delta_z_h_contact": [
+            -9.870917248453863e-09,
+            1.4087325961589404e-08
+          ],
+          "relative_delta_z_h": 2.873379893723872e-07,
+          "signed_flux_relative_change": 5.366958224506391e-07,
+          "max_metric_jump_norm": 0.13571102354528208,
+          "max_metric_jump_over_side_norm": 0.0364526831680355,
+          "scalar_weighted_jump_bound": 0.11504277603868894,
+          "taylor_linear_quadratic_contact_difference": 9.216702575041012e-12
+        },
+        {
+          "ellmax": 16,
+          "contact_J": [
+            -9.430261302134955e-08,
+            6.296920651537759e-08
+          ],
+          "contact_J_linear_extrapolation": [
+            -9.43119186022447e-08,
+            6.296917645516308e-08
+          ],
+          "delta_z_h_contact": [
+            -8.139266515413505e-09,
+            1.3304020738825594e-08
+          ],
+          "relative_delta_z_h": 2.605260630086609e-07,
+          "signed_flux_relative_change": 4.7410687220583725e-07,
+          "max_metric_jump_norm": 0.07097079565598947,
+          "max_metric_jump_over_side_norm": 0.019321951113447942,
+          "scalar_weighted_jump_bound": 0.10751945657176366,
+          "taylor_linear_quadratic_contact_difference": 9.305629447416416e-12
+        },
+        {
+          "ellmax": 17,
+          "contact_J": [
+            -9.588793220515827e-08,
+            2.753311181838574e-07
+          ],
+          "contact_J_linear_extrapolation": [
+            -9.589723749213959e-08,
+            2.753309996560835e-07
+          ],
+          "delta_z_h_contact": [
+            3.91887076113366e-09,
+            3.990829576438814e-08
+          ],
+          "relative_delta_z_h": 6.698484709657748e-07,
+          "signed_flux_relative_change": 6.377225649778495e-07,
+          "max_metric_jump_norm": 0.06773432831825882,
+          "max_metric_jump_over_side_norm": 0.03922419830360329,
+          "scalar_weighted_jump_bound": 0.10063981543871234,
+          "taylor_linear_quadratic_contact_difference": 9.306041835167302e-12
+        },
+        {
+          "ellmax": 18,
+          "contact_J": [
+            -2.983502486673668e-07,
+            2.7503727228129933e-07
+          ],
+          "contact_J_linear_extrapolation": [
+            -2.9835964978004135e-07,
+            2.750371537473078e-07
+          ],
+          "delta_z_h_contact": [
+            -2.137493302660717e-08,
+            5.155633368683826e-08
+          ],
+          "relative_delta_z_h": 9.32297719003188e-07,
+          "signed_flux_relative_change": 1.5558054238251628e-06,
+          "max_metric_jump_norm": 0.18977453681141468,
+          "max_metric_jump_over_side_norm": 0.1088773178103703,
+          "scalar_weighted_jump_bound": 0.11668532594290257,
+          "taylor_linear_quadratic_contact_difference": 9.401859913167818e-12
+        }
+      ],
+      "bulk_by_ell": [
+        {
+          "ellmax": 1,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -5.752036633080059e-15,
+              -1.6673178974432368e-15
+            ],
+            [
+              9.384490707845376e-15,
+              7.022091878171754e-16
+            ]
+          ],
+          "max_covariant_constraint_component": 1.1609244727326068e-11
+        },
+        {
+          "ellmax": 2,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              4.3266685218660996e-11,
+              -5.016693496712521e-12
+            ],
+            [
+              -6.0675058626257604e-12,
+              1.931984258723124e-13
+            ]
+          ],
+          "max_covariant_constraint_component": 4.178955852084381e-07
+        },
+        {
+          "ellmax": 3,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              8.072794064576566e-11,
+              1.9424442097734296e-10
+            ],
+            [
+              -1.19610446743633e-11,
+              -2.3632749120852652e-11
+            ]
+          ],
+          "max_covariant_constraint_component": 2.7143556047797558e-06
+        },
+        {
+          "ellmax": 4,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -1.509547256567488e-10,
+              2.1474201380784347e-10
+            ],
+            [
+              2.68033416307645e-11,
+              -2.3255840320954742e-11
+            ]
+          ],
+          "max_covariant_constraint_component": 3.2250765022001013e-06
+        },
+        {
+          "ellmax": 5,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -2.481241880144179e-10,
+              -4.896172474747177e-10
+            ],
+            [
+              3.8828103204577476e-11,
+              7.569566912234956e-11
+            ]
+          ],
+          "max_covariant_constraint_component": 6.654403511799418e-06
+        },
+        {
+          "ellmax": 6,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              2.9564014444296737e-10,
+              -5.333706089529335e-10
+            ],
+            [
+              -4.419554512776154e-11,
+              7.18552909457241e-11
+            ]
+          ],
+          "max_covariant_constraint_component": 7.403969156264446e-06
+        },
+        {
+          "ellmax": 7,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              4.768564960329084e-10,
+              1.0122897650072501e-09
+            ],
+            [
+              -6.053881149426316e-11,
+              -1.554487482555034e-10
+            ]
+          ],
+          "max_covariant_constraint_component": 1.383430358568976e-05
+        },
+        {
+          "ellmax": 8,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -4.675791386927481e-10,
+              1.0906582293186803e-09
+            ],
+            [
+              3.947265859603257e-11,
+              -1.4144374279178083e-10
+            ]
+          ],
+          "max_covariant_constraint_component": 1.4878850442652317e-05
+        },
+        {
+          "ellmax": 9,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -7.301159737433556e-10,
+              -1.8205629955953566e-09
+            ],
+            [
+              5.446098900465123e-11,
+              3.311917908586203e-10
+            ]
+          ],
+          "max_covariant_constraint_component": 2.158752092284274e-05
+        },
+        {
+          "ellmax": 10,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              7.14132271252089e-10,
+              -1.9374978499607144e-09
+            ],
+            [
+              7.425529680498136e-11,
+              3.1133374488816144e-10
+            ]
+          ],
+          "max_covariant_constraint_component": 2.2872432894446717e-05
+        },
+        {
+          "ellmax": 11,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              1.0994807557240427e-09,
+              3.1122539077373406e-09
+            ],
+            [
+              4.6896681993289405e-11,
+              -6.557491022227764e-10
+            ]
+          ],
+          "max_covariant_constraint_component": 3.3337274093900994e-05
+        },
+        {
+          "ellmax": 12,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -2.383457482620571e-10,
+              3.3106085777542132e-09
+            ],
+            [
+              -3.868214405780221e-10,
+              -5.89169013855064e-10
+            ]
+          ],
+          "max_covariant_constraint_component": 3.41173969903401e-05
+        },
+        {
+          "ellmax": 13,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -8.083473619336292e-10,
+              -3.1245479637241325e-09
+            ],
+            [
+              -3.864529197687315e-10,
+              1.6211169272749385e-09
+            ]
+          ],
+          "max_covariant_constraint_component": 3.6080679200222364e-05
+        },
+        {
+          "ellmax": 14,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              9.836613532262599e-10,
+              -3.329517465306911e-09
+            ],
+            [
+              1.358782032219801e-09,
+              1.5237786091214704e-09
+            ]
+          ],
+          "max_covariant_constraint_component": 3.7900224980882116e-05
+        },
+        {
+          "ellmax": 15,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              1.6173566253692324e-09,
+              5.288878832874675e-09
+            ],
+            [
+              1.6165645714771299e-09,
+              -3.276790291269311e-09
+            ]
+          ],
+          "max_covariant_constraint_component": 4.8570567822689026e-05
+        },
+        {
+          "ellmax": 16,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              1.41054428499278e-09,
+              5.607883556563549e-09
+            ],
+            [
+              -1.816150282513223e-09,
+              -3.3816998945692726e-09
+            ]
+          ],
+          "max_covariant_constraint_component": 4.9447884891491105e-05
+        },
+        {
+          "ellmax": 17,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -1.3098684413642136e-10,
+              -7.504405768649517e-09
+            ],
+            [
+              -2.5253112530464506e-09,
+              -4.394903666138703e-09
+            ]
+          ],
+          "max_covariant_constraint_component": 4.672041832685763e-05
+        },
+        {
+          "ellmax": 18,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -4.360421653722036e-09,
+              -7.696420153870852e-09
+            ],
+            [
+              3.003214935216303e-09,
+              -4.845006311735888e-09
+            ]
+          ],
+          "max_covariant_constraint_component": 5.086822607215066e-05
+        }
+      ],
+      "source_provenance": "86df5ec997ba767c3ed2633c717cff7d542838eab0df6b8fe00c17b325a32b26"
+    },
+    {
+      "input": "docs/environment_reproduction/orbit_source_matching_contact_L18_q24_e5e-4.json",
+      "input_sha256": "4633cbbac627796b8c5cfc6e334b276b2b5f06a3549d4341b70a72a8f58229ab",
+      "config": {
+        "r0": 20.0,
+        "a": 0.8771530275949366,
+        "alpha": 0.3,
+        "quadrature": 24,
+        "epsilon": 0.0005,
+        "jet_order": 8,
+        "ellmax": 18
+      },
+      "endpoint": {
+        "ellmax": 18,
+        "contact_J": [
+          -1.2461793868620124e-07,
+          -4.570834084321461e-08
+        ],
+        "contact_J_linear_extrapolation": [
+          -1.2462031082432608e-07,
+          -4.57083328301383e-08
+        ],
+        "delta_z_h_contact": [
+          -1.8196164723340824e-08,
+          1.4855284903615677e-09
+        ],
+        "relative_delta_z_h": 3.0496633435837927e-07,
+        "signed_flux_relative_change": 5.31555300220532e-07,
+        "max_metric_jump_norm": 0.2339548924756457,
+        "max_metric_jump_over_side_norm": 0.13408780262293438,
+        "scalar_weighted_jump_bound": 0.15470555921795615,
+        "taylor_linear_quadratic_contact_difference": 2.372151658880568e-12
+      },
+      "contact_by_ell": [
+        {
+          "ellmax": 1,
+          "contact_J": [
+            -2.3488140018583045e-05,
+            -8.28390068740746e-15
+          ],
+          "contact_J_linear_extrapolation": [
+            -2.3488142166824577e-05,
+            -8.288654614603484e-15
+          ],
+          "delta_z_h_contact": [
+            -2.9324275544245853e-06,
+            1.35557288917707e-06
+          ],
+          "relative_delta_z_h": 5.3964895476926545e-05,
+          "signed_flux_relative_change": 0.00010653697315055055,
+          "max_metric_jump_norm": 0.6273605500461789,
+          "max_metric_jump_over_side_norm": 0.21021117005663603,
+          "scalar_weighted_jump_bound": 1.3439870824843734,
+          "taylor_linear_quadratic_contact_difference": 2.148241532042246e-12
+        },
+        {
+          "ellmax": 2,
+          "contact_J": [
+            3.6881377685156115e-06,
+            -3.044439964849741e-13
+          ],
+          "contact_J_linear_extrapolation": [
+            3.688135489316526e-06,
+            -3.0444871917937873e-13
+          ],
+          "delta_z_h_contact": [
+            4.604535052112796e-07,
+            -2.128538259380531e-07
+          ],
+          "relative_delta_z_h": 8.473636866307199e-06,
+          "signed_flux_relative_change": -1.672804284436058e-05,
+          "max_metric_jump_norm": 0.3785694320181172,
+          "max_metric_jump_over_side_norm": 0.11868849093173417,
+          "scalar_weighted_jump_bound": 0.8605366721956647,
+          "taylor_linear_quadratic_contact_difference": 2.2791990856843904e-12
+        },
+        {
+          "ellmax": 3,
+          "contact_J": [
+            3.317543668146015e-08,
+            1.082324658597777e-12
+          ],
+          "contact_J_linear_extrapolation": [
+            3.317314902387358e-08,
+            1.0823165096900448e-12
+          ],
+          "delta_z_h_contact": [
+            4.141921485988977e-09,
+            -1.914521486677098e-09
+          ],
+          "relative_delta_z_h": 7.622182822704183e-08,
+          "signed_flux_relative_change": -1.5047147738922462e-07,
+          "max_metric_jump_norm": 0.24909599307054708,
+          "max_metric_jump_over_side_norm": 0.031640594826099246,
+          "scalar_weighted_jump_bound": 0.45754881806148534,
+          "taylor_linear_quadratic_contact_difference": 2.2876575865896738e-12
+        },
+        {
+          "ellmax": 4,
+          "contact_J": [
+            1.8521211135398917e-09,
+            2.1273366828931066e-12
+          ],
+          "contact_J_linear_extrapolation": [
+            1.8498334195257368e-09,
+            2.1273281713197698e-12
+          ],
+          "delta_z_h_contact": [
+            2.313548344920819e-10,
+            -1.0662602097125415e-10
+          ],
+          "relative_delta_z_h": 4.255321543293531e-09,
+          "signed_flux_relative_change": -8.399012374482595e-09,
+          "max_metric_jump_norm": 0.21428579632096076,
+          "max_metric_jump_over_side_norm": 0.057252220745853635,
+          "scalar_weighted_jump_bound": 0.4510265766227371,
+          "taylor_linear_quadratic_contact_difference": 2.2876940141707807e-12
+        },
+        {
+          "ellmax": 5,
+          "contact_J": [
+            -9.298331398462009e-12,
+            -1.7022162666093417e-10
+          ],
+          "contact_J_linear_extrapolation": [
+            -1.1586022189398714e-11,
+            -1.70221620607757e-10
+          ],
+          "delta_z_h_contact": [
+            -1.0984884517193494e-11,
+            -2.0715051168173066e-11
+          ],
+          "relative_delta_z_h": 3.916737127647668e-10,
+          "signed_flux_relative_change": -8.321054956184071e-11,
+          "max_metric_jump_norm": 0.15966748891648846,
+          "max_metric_jump_over_side_norm": 0.05816350804444362,
+          "scalar_weighted_jump_bound": 0.31124678409665324,
+          "taylor_linear_quadratic_contact_difference": 2.287690790944714e-12
+        },
+        {
+          "ellmax": 6,
+          "contact_J": [
+            2.3068130796338513e-09,
+            -1.7031326018249308e-10
+          ],
+          "contact_J_linear_extrapolation": [
+            2.3045254748582125e-09,
+            -1.703132535761306e-10
+          ],
+          "delta_z_h_contact": [
+            2.7816975686479843e-10,
+            -1.5439641315271943e-10
+          ],
+          "relative_delta_z_h": 5.314416189097824e-09,
+          "signed_flux_relative_change": -1.0588356413876454e-08,
+          "max_metric_jump_norm": 0.1426134605950114,
+          "max_metric_jump_over_side_norm": 0.05755066774873029,
+          "scalar_weighted_jump_bound": 0.29917604185894453,
+          "taylor_linear_quadratic_contact_difference": 2.287604775648359e-12
+        },
+        {
+          "ellmax": 7,
+          "contact_J": [
+            2.199556816886513e-09,
+            -7.445607419533342e-10
+          ],
+          "contact_J_linear_extrapolation": [
+            2.1972692119940696e-09,
+            -7.445607590889463e-10
+          ],
+          "delta_z_h_contact": [
+            2.316375266452253e-10,
+            -2.19899490664446e-10
+          ],
+          "relative_delta_z_h": 5.3352479086983665e-09,
+          "signed_flux_relative_change": -1.0524867422034845e-08,
+          "max_metric_jump_norm": 0.11363230064397652,
+          "max_metric_jump_over_side_norm": 0.02850991576385325,
+          "scalar_weighted_jump_bound": 0.22699193243938295,
+          "taylor_linear_quadratic_contact_difference": 2.287604892507518e-12
+        },
+        {
+          "ellmax": 8,
+          "contact_J": [
+            -3.172604802274186e-09,
+            -7.5437052683504e-10
+          ],
+          "contact_J_linear_extrapolation": [
+            -3.1748927801988157e-09,
+            -7.543705456118666e-10
+          ],
+          "delta_z_h_contact": [
+            -4.396277426460403e-10,
+            8.891977572036082e-11
+          ],
+          "relative_delta_z_h": 7.492403734828646e-09,
+          "signed_flux_relative_change": 1.3834169365622984e-08,
+          "max_metric_jump_norm": 0.10920397052049058,
+          "max_metric_jump_over_side_norm": 0.03570941443365791,
+          "scalar_weighted_jump_bound": 0.22233540202069324,
+          "taylor_linear_quadratic_contact_difference": 2.2879779247066337e-12
+        },
+        {
+          "ellmax": 9,
+          "contact_J": [
+            -1.6008976914978202e-09,
+            -7.515518396011489e-10
+          ],
+          "contact_J_linear_extrapolation": [
+            -1.603185711406382e-09,
+            -7.515517985956569e-10
+          ],
+          "delta_z_h_contact": [
+            -2.4324189980258597e-10,
+            -1.4363764879896566e-12
+          ],
+          "relative_delta_z_h": 4.0632683663075896e-09,
+          "signed_flux_relative_change": 6.7075269782890246e-09,
+          "max_metric_jump_norm": 0.09399206401933637,
+          "max_metric_jump_over_side_norm": 0.04601513457711532,
+          "scalar_weighted_jump_bound": 0.1825169819678133,
+          "taylor_linear_quadratic_contact_difference": 2.2880199089293187e-12
+        },
+        {
+          "ellmax": 10,
+          "contact_J": [
+            -3.5613097945429116e-08,
+            -7.633072813090524e-10
+          ],
+          "contact_J_linear_extrapolation": [
+            -3.561538907059659e-08,
+            -7.633072357744624e-10
+          ],
+          "delta_z_h_contact": [
+            -4.490246919107799e-09,
+            1.9600448043566197e-09
+          ],
+          "relative_delta_z_h": 8.184123965218834e-08,
+          "signed_flux_relative_change": 1.6096642441176812e-07,
+          "max_metric_jump_norm": 0.0821491227637728,
+          "max_metric_jump_over_side_norm": 0.04440217884234453,
+          "scalar_weighted_jump_bound": 0.1789320080344151,
+          "taylor_linear_quadratic_contact_difference": 2.291125167926311e-12
+        },
+        {
+          "ellmax": 11,
+          "contact_J": [
+            -3.4130426356543873e-08,
+            -8.728132953966395e-09
+          ],
+          "contact_J_linear_extrapolation": [
+            -3.4132717556559745e-08,
+            -8.72813268545358e-09
+          ],
+          "delta_z_h_contact": [
+            -4.764814199927404e-09,
+            8.800894032141158e-10
+          ],
+          "relative_delta_z_h": 8.093944198226064e-08,
+          "signed_flux_relative_change": 1.4837468476081028e-07,
+          "max_metric_jump_norm": 0.0659269871436937,
+          "max_metric_jump_over_side_norm": 0.017120594381928658,
+          "scalar_weighted_jump_bound": 0.15766953926551758,
+          "taylor_linear_quadratic_contact_difference": 2.2912000316050063e-12
+        },
+        {
+          "ellmax": 12,
+          "contact_J": [
+            -8.788271644430317e-08,
+            -8.731110211013583e-09
+          ],
+          "contact_J_linear_extrapolation": [
+            -8.788501573755072e-08,
+            -8.731109945932005e-09
+          ],
+          "delta_z_h_contact": [
+            -1.1475806739366463e-08,
+            3.981927887721517e-09
+          ],
+          "relative_delta_z_h": 2.029079174387938e-07,
+          "signed_flux_relative_change": 3.921742808277173e-07,
+          "max_metric_jump_norm": 0.06694550002084106,
+          "max_metric_jump_over_side_norm": 0.012188645331523543,
+          "scalar_weighted_jump_bound": 0.14883643482760783,
+          "taylor_linear_quadratic_contact_difference": 2.299293262826458e-12
+        },
+        {
+          "ellmax": 13,
+          "contact_J": [
+            -8.678381463861019e-08,
+            -3.4088376012564465e-08
+          ],
+          "contact_J_linear_extrapolation": [
+            -8.678611399621515e-08,
+            -3.4088374187779985e-08
+          ],
+          "delta_z_h_contact": [
+            -1.280205786575292e-08,
+            7.5272428258266e-10
+          ],
+          "relative_delta_z_h": 2.1421937109299984e-07,
+          "signed_flux_relative_change": 3.6851199713971994e-07,
+          "max_metric_jump_norm": 0.06260036896307336,
+          "max_metric_jump_over_side_norm": 0.023126141714226726,
+          "scalar_weighted_jump_bound": 0.1265313130267499,
+          "taylor_linear_quadratic_contact_difference": 2.299358329043841e-12
+        },
+        {
+          "ellmax": 14,
+          "contact_J": [
+            -1.325980330242244e-07,
+            -3.396328879450957e-08
+          ],
+          "contact_J_linear_extrapolation": [
+            -1.326003388607472e-07,
+            -3.396328696396986e-08
+          ],
+          "delta_z_h_contact": [
+            -1.8514613709197032e-08,
+            3.4124206904380183e-09
+          ],
+          "relative_delta_z_h": 3.1448372670211764e-07,
+          "signed_flux_relative_change": 5.764016020037843e-07,
+          "max_metric_jump_norm": 0.13274123485075418,
+          "max_metric_jump_over_side_norm": 0.0729509415657088,
+          "scalar_weighted_jump_bound": 0.12723546094778962,
+          "taylor_linear_quadratic_contact_difference": 2.3058372494078064e-12
+        },
+        {
+          "ellmax": 15,
+          "contact_J": [
+            -1.3334524736231583e-07,
+            -7.236797510710879e-08
+          ],
+          "contact_J_linear_extrapolation": [
+            -1.3334755313964326e-07,
+            -7.236797046652784e-08
+          ],
+          "delta_z_h_contact": [
+            -2.0824354007629747e-08,
+            -1.3391712515184261e-09
+          ],
+          "relative_delta_z_h": 3.485758133750276e-07,
+          "signed_flux_relative_change": 5.515020058410869e-07,
+          "max_metric_jump_norm": 0.13713076142407019,
+          "max_metric_jump_over_side_norm": 0.036821041328529494,
+          "scalar_weighted_jump_bound": 0.11697325837971077,
+          "taylor_linear_quadratic_contact_difference": 2.3057819972117885e-12
+        },
+        {
+          "ellmax": 16,
+          "contact_J": [
+            -1.1698214191432142e-07,
+            -7.197751269694992e-08
+          ],
+          "contact_J_linear_extrapolation": [
+            -1.1698447060928038e-07,
+            -7.197750814981587e-08
+          ],
+          "delta_z_h_contact": [
+            -1.8758931990249616e-08,
+            -2.2347883330751768e-09
+          ],
+          "relative_delta_z_h": 3.1557154660117254e-07,
+          "signed_flux_relative_change": 4.775722228789192e-07,
+          "max_metric_jump_norm": 0.07289342266154529,
+          "max_metric_jump_over_side_norm": 0.01986760402252117,
+          "scalar_weighted_jump_bound": 0.1105729378128042,
+          "taylor_linear_quadratic_contact_difference": 2.328699398439796e-12
+        },
+        {
+          "ellmax": 17,
+          "contact_J": [
+            -1.1950483977004618e-07,
+            -4.492786827986957e-08
+          ],
+          "contact_J_linear_extrapolation": [
+            -1.1950716814993673e-07,
+            -4.492786037098316e-08
+          ],
+          "delta_z_h_contact": [
+            -1.7512765374413594e-08,
+            1.287875588846877e-09
+          ],
+          "relative_delta_z_h": 2.9332930315520826e-07,
+          "signed_flux_relative_change": 5.089389421009116e-07,
+          "max_metric_jump_norm": 0.11840356204937558,
+          "max_metric_jump_over_side_norm": 0.06836585884835131,
+          "scalar_weighted_jump_bound": 0.12619023994630763,
+          "taylor_linear_quadratic_contact_difference": 2.328393322697249e-12
+        },
+        {
+          "ellmax": 18,
+          "contact_J": [
+            -1.2461793868620124e-07,
+            -4.570834084321461e-08
+          ],
+          "contact_J_linear_extrapolation": [
+            -1.2462031082432608e-07,
+            -4.57083328301383e-08
+          ],
+          "delta_z_h_contact": [
+            -1.8196164723340824e-08,
+            1.4855284903615677e-09
+          ],
+          "relative_delta_z_h": 3.0496633435837927e-07,
+          "signed_flux_relative_change": 5.31555300220532e-07,
+          "max_metric_jump_norm": 0.2339548924756457,
+          "max_metric_jump_over_side_norm": 0.13408780262293438,
+          "scalar_weighted_jump_bound": 0.15470555921795615,
+          "taylor_linear_quadratic_contact_difference": 2.372151658880568e-12
+        }
+      ],
+      "bulk_by_ell": [
+        {
+          "ellmax": 1,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -6.214232463700704e-15,
+              -1.6650996728585474e-15
+            ],
+            [
+              7.01136527808503e-15,
+              5.719413462838762e-16
+            ]
+          ],
+          "max_covariant_constraint_component": 1.0430504828791876e-11
+        },
+        {
+          "ellmax": 2,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              3.305090646745481e-11,
+              -2.6303653587498333e-12
+            ],
+            [
+              -8.006797074374779e-12,
+              2.574505052726042e-12
+            ]
+          ],
+          "max_covariant_constraint_component": 2.3197508038449833e-07
+        },
+        {
+          "ellmax": 3,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              6.373582304299312e-11,
+              9.478348955797066e-11
+            ],
+            [
+              -1.988282470642747e-11,
+              -1.9401395502188952e-10
+            ]
+          ],
+          "max_covariant_constraint_component": 1.5616260493383407e-06
+        },
+        {
+          "ellmax": 4,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -1.2941794297023604e-10,
+              1.0551767627363545e-10
+            ],
+            [
+              2.4226869650690112e-11,
+              -1.9937824670656493e-10
+            ]
+          ],
+          "max_covariant_constraint_component": 1.840981237127018e-06
+        },
+        {
+          "ellmax": 5,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -2.1577598073758468e-10,
+              -2.060657722371262e-10
+            ],
+            [
+              4.69746183366616e-11,
+              5.369475314267971e-10
+            ]
+          ],
+          "max_covariant_constraint_component": 3.950080662605063e-06
+        },
+        {
+          "ellmax": 6,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              2.892988665520247e-10,
+              -2.296605824189818e-10
+            ],
+            [
+              -4.063531616801089e-11,
+              5.392095509011715e-10
+            ]
+          ],
+          "max_covariant_constraint_component": 4.426678967360852e-06
+        },
+        {
+          "ellmax": 7,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              4.520131869030022e-10,
+              3.8466681461019533e-10
+            ],
+            [
+              -8.180445391904633e-11,
+              -1.196912741674928e-09
+            ]
+          ],
+          "max_covariant_constraint_component": 8.43682769548661e-06
+        },
+        {
+          "ellmax": 8,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -5.639148363228645e-10,
+              4.2453165491223904e-10
+            ],
+            [
+              1.510182917448617e-11,
+              -1.186969817285932e-09
+            ]
+          ],
+          "max_covariant_constraint_component": 9.224399255661892e-06
+        },
+        {
+          "ellmax": 9,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -8.308008341460867e-10,
+              -6.067527180066709e-10
+            ],
+            [
+              8.662015406305036e-11,
+              2.163741257757572e-09
+            ]
+          ],
+          "max_covariant_constraint_component": 1.3600763572067215e-05
+        },
+        {
+          "ellmax": 10,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              8.28293747589622e-10,
+              -6.596420988577354e-10
+            ],
+            [
+              3.981095381116161e-11,
+              2.1243456147704466e-09
+            ]
+          ],
+          "max_covariant_constraint_component": 1.4382514443933838e-05
+        },
+        {
+          "ellmax": 11,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              1.2447189753640001e-09,
+              6.200728285037576e-10
+            ],
+            [
+              -8.342393463966737e-11,
+              -3.530825778622646e-09
+            ]
+          ],
+          "max_covariant_constraint_component": 2.3287356428758164e-05
+        },
+        {
+          "ellmax": 12,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -1.1425688083085126e-09,
+              7.070716265126702e-10
+            ],
+            [
+              -3.609742963500942e-10,
+              -3.448226392773425e-09
+            ]
+          ],
+          "max_covariant_constraint_component": 2.486741079250832e-05
+        },
+        {
+          "ellmax": 13,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -1.776573345024392e-09,
+              -1.126140623643418e-09
+            ],
+            [
+              -5.462464963793607e-11,
+              3.338432513659943e-09
+            ]
+          ],
+          "max_covariant_constraint_component": 4.166024974789769e-05
+        },
+        {
+          "ellmax": 14,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              9.643735361796735e-10,
+              -1.241802743492183e-09
+            ],
+            [
+              1.0718554123195018e-09,
+              3.2229187360538865e-09
+            ]
+          ],
+          "max_covariant_constraint_component": 4.437652191897533e-05
+        },
+        {
+          "ellmax": 15,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              1.7995330847186098e-09,
+              -1.5734094951219165e-10
+            ],
+            [
+              2.5909418190759057e-10,
+              -6.091432271042114e-09
+            ]
+          ],
+          "max_covariant_constraint_component": 5.7909752672242794e-05
+        },
+        {
+          "ellmax": 16,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -2.423929556817334e-09,
+              -1.145284772563496e-10
+            ],
+            [
+              -1.5630350078721485e-09,
+              -5.7286186082206115e-09
+            ]
+          ],
+          "max_covariant_constraint_component": 6.089669494495312e-05
+        },
+        {
+          "ellmax": 17,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -3.1534926280098344e-09,
+              -3.1330227061025205e-09
+            ],
+            [
+              -2.7523250948230126e-10,
+              1.254014010722043e-08
+            ]
+          ],
+          "max_covariant_constraint_component": 9.652809984660238e-05
+        },
+        {
+          "ellmax": 18,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -2.281327654784319e-10,
+              -3.0833438484136084e-09
+            ],
+            [
+              9.086667798937475e-09,
+              1.216277355741468e-08
+            ]
+          ],
+          "max_covariant_constraint_component": 0.00010105236582773123
+        }
+      ],
+      "source_provenance": "86df5ec997ba767c3ed2633c717cff7d542838eab0df6b8fe00c17b325a32b26"
+    },
+    {
+      "input": "docs/environment_reproduction/orbit_source_matching_contact_L18_q24_e1e-3_extended.json",
+      "input_sha256": "057cf21b9b7cc3950c2fe07e9549bed207f3fb531ce67024ae318e1e31013545",
+      "config": {
+        "r0": 20.0,
+        "a": 0.8771530275949366,
+        "alpha": 0.3,
+        "quadrature": 24,
+        "epsilon": 0.001,
+        "jet_order": 8,
+        "ellmax": 18
+      },
+      "endpoint": {
+        "ellmax": 18,
+        "contact_J": [
+          -1.11472172793728e-07,
+          -5.4619522089072756e-08
+        ],
+        "contact_J_linear_extrapolation": [
+          -1.1148165260663744e-07,
+          -5.461948781374866e-08
+        ],
+        "delta_z_h_contact": [
+          -1.7069244908351966e-08,
+          -3.85689803368533e-10
+        ],
+        "relative_delta_z_h": 2.852033987782464e-07,
+        "signed_flux_relative_change": 4.653667145458314e-07,
+        "max_metric_jump_norm": 0.1893919714325313,
+        "max_metric_jump_over_side_norm": 0.10861633467994292,
+        "scalar_weighted_jump_bound": 0.11700211556571367,
+        "taylor_linear_quadratic_contact_difference": 9.479874872380182e-12
+      },
+      "contact_by_ell": [
+        {
+          "ellmax": 1,
+          "contact_J": [
+            -2.3488137743596822e-05,
+            -1.3871966304533638e-13
+          ],
+          "contact_J_linear_extrapolation": [
+            -2.348814632316588e-05,
+            -1.3875849537356502e-13
+          ],
+          "delta_z_h_contact": [
+            -2.9324272779268677e-06,
+            1.3555727415960752e-06
+          ],
+          "relative_delta_z_h": 5.396489025005913e-05,
+          "signed_flux_relative_change": 0.00010653696273518591,
+          "max_metric_jump_norm": 0.6273605458470783,
+          "max_metric_jump_over_side_norm": 0.21021116902953366,
+          "scalar_weighted_jump_bound": 1.3439870748469294,
+          "taylor_linear_quadratic_contact_difference": 8.579569058585047e-12
+        },
+        {
+          "ellmax": 2,
+          "contact_J": [
+            3.68814069608263e-06,
+            -9.544369441532522e-14
+          ],
+          "contact_J_linear_extrapolation": [
+            3.6881315927795987e-06,
+            -9.548259506960406e-14
+          ],
+          "delta_z_h_contact": [
+            4.60453882771756e-07,
+            -2.1285396880386695e-07
+          ],
+          "relative_delta_z_h": 8.4736435925038e-06,
+          "signed_flux_relative_change": -1.6728055968924787e-05,
+          "max_metric_jump_norm": 0.378569428661331,
+          "max_metric_jump_over_side_norm": 0.11868849168127839,
+          "scalar_weighted_jump_bound": 0.8605366765733494,
+          "taylor_linear_quadratic_contact_difference": 9.103303031431555e-12
+        },
+        {
+          "ellmax": 3,
+          "contact_J": [
+            3.3178778328066e-08,
+            -1.0746226793802754e-11
+          ],
+          "contact_J_linear_extrapolation": [
+            3.316964120180675e-08,
+            -1.0746265464206532e-11
+          ],
+          "delta_z_h_contact": [
+            4.141656018945105e-09,
+            -1.916191104438182e-09
+          ],
+          "relative_delta_z_h": 7.622950974509625e-08,
+          "signed_flux_relative_change": -1.504953468654444e-07,
+          "max_metric_jump_norm": 0.24909598839668287,
+          "max_metric_jump_over_side_norm": 0.03164059629557141,
+          "scalar_weighted_jump_bound": 0.45754882853984313,
+          "taylor_linear_quadratic_contact_difference": 9.137126259332134e-12
+        },
+        {
+          "ellmax": 4,
+          "contact_J": [
+            1.8521489651282935e-09,
+            -1.0831923034970438e-11
+          ],
+          "contact_J_linear_extrapolation": [
+            1.843011701479848e-09,
+            -1.083196160900369e-11
+          ],
+          "delta_z_h_contact": [
+            2.3061039289850924e-10,
+            -1.0824555513204777e-10
+          ],
+          "relative_delta_z_h": 4.255455498406479e-09,
+          "signed_flux_relative_change": -8.408684386263486e-09,
+          "max_metric_jump_norm": 0.2142857999200891,
+          "max_metric_jump_over_side_norm": 0.057252222301537335,
+          "scalar_weighted_jump_bound": 0.4510266716281954,
+          "taylor_linear_quadratic_contact_difference": 9.137263648526968e-12
+        },
+        {
+          "ellmax": 5,
+          "contact_J": [
+            -1.1153374561248334e-11,
+            -1.5983099088882686e-10
+          ],
+          "contact_J_linear_extrapolation": [
+            -2.0290627615801294e-11,
+            -1.5983102449754392e-10
+          ],
+          "delta_z_h_contact": [
+            -1.0616805798590249e-11,
+            -1.9310749557372962e-11
+          ],
+          "relative_delta_z_h": 3.6811079402883377e-10,
+          "signed_flux_relative_change": -6.714296685913362e-11,
+          "max_metric_jump_norm": 0.15966768591065086,
+          "max_metric_jump_over_side_norm": 0.058163755096388464,
+          "scalar_weighted_jump_bound": 0.3112473936818914,
+          "taylor_linear_quadratic_contact_difference": 9.13725305461477e-12
+        },
+        {
+          "ellmax": 6,
+          "contact_J": [
+            2.3093196915117298e-09,
+            -1.6081989944387416e-10
+          ],
+          "contact_J_linear_extrapolation": [
+            2.300182767450926e-09,
+            -1.6081993305351613e-10
+          ],
+          "delta_z_h_contact": [
+            2.7903059131895325e-10,
+            -1.5335585832452917e-10
+          ],
+          "relative_delta_z_h": 5.318599852403189e-09,
+          "signed_flux_relative_change": -1.0592732798818828e-08,
+          "max_metric_jump_norm": 0.1426135208005714,
+          "max_metric_jump_over_side_norm": 0.05755077980619137,
+          "scalar_weighted_jump_bound": 0.29917627335009433,
+          "taylor_linear_quadratic_contact_difference": 9.136924060865827e-12
+        },
+        {
+          "ellmax": 7,
+          "contact_J": [
+            2.2018551044263938e-09,
+            -6.998447799973698e-10
+          ],
+          "contact_J_linear_extrapolation": [
+            2.1927181891357156e-09,
+            -6.9984477492438e-10
+          ],
+          "delta_z_h_contact": [
+            2.3450515717888077e-10,
+            -2.1444947109896986e-10
+          ],
+          "relative_delta_z_h": 5.308232143888544e-09,
+          "signed_flux_relative_change": -1.0502354050063046e-08,
+          "max_metric_jump_norm": 0.1136323798142047,
+          "max_metric_jump_over_side_norm": 0.02850987507740175,
+          "scalar_weighted_jump_bound": 0.2269914111917151,
+          "taylor_linear_quadratic_contact_difference": 9.136915290679421e-12
+        },
+        {
+          "ellmax": 8,
+          "contact_J": [
+            -3.175882825647544e-09,
+            -7.009091935488342e-10
+          ],
+          "contact_J_linear_extrapolation": [
+            -3.1850212096503843e-09,
+            -7.009091883843718e-10
+          ],
+          "delta_z_h_contact": [
+            -4.369515763780819e-10,
+            9.578345612630363e-11
+          ],
+          "relative_delta_z_h": 7.472300715106228e-09,
+          "signed_flux_relative_change": 1.3888416989919251e-08,
+          "max_metric_jump_norm": 0.10920413904537005,
+          "max_metric_jump_over_side_norm": 0.03570946878982396,
+          "scalar_weighted_jump_bound": 0.22233799926810288,
+          "taylor_linear_quadratic_contact_difference": 9.138384002842013e-12
+        },
+        {
+          "ellmax": 9,
+          "contact_J": [
+            -1.6082784380077366e-09,
+            -7.112030311765884e-10
+          ],
+          "contact_J_linear_extrapolation": [
+            -1.6174170194677986e-09,
+            -7.112030240223771e-10
+          ],
+          "delta_z_h_contact": [
+            -2.4183471105149113e-10,
+            4.027023226501476e-12
+          ],
+          "relative_delta_z_h": 4.040251392192076e-09,
+          "signed_flux_relative_change": 6.770724463294603e-09,
+          "max_metric_jump_norm": 0.093995246842777,
+          "max_metric_jump_over_side_norm": 0.04602995718880819,
+          "scalar_weighted_jump_bound": 0.18252649211575384,
+          "taylor_linear_quadratic_contact_difference": 9.138581460064727e-12
+        },
+        {
+          "ellmax": 10,
+          "contact_J": [
+            -3.564617388167757e-08,
+            -7.120883665048533e-10
+          ],
+          "contact_J_linear_extrapolation": [
+            -3.565532488113855e-08,
+            -7.120883588812652e-10
+          ],
+          "delta_z_h_contact": [
+            -4.491420354485445e-09,
+            1.9683482544977346e-09
+          ],
+          "relative_delta_z_h": 8.191478062857881e-08,
+          "signed_flux_relative_change": 1.6115417349844494e-07,
+          "max_metric_jump_norm": 0.08214885557176066,
+          "max_metric_jump_over_side_norm": 0.044470888999140853,
+          "scalar_weighted_jump_bound": 0.17893454083938654,
+          "taylor_linear_quadratic_contact_difference": 9.150999460992047e-12
+        },
+        {
+          "ellmax": 11,
+          "contact_J": [
+            -3.421490830305268e-08,
+            -9.236025944239211e-09
+          ],
+          "contact_J_linear_extrapolation": [
+            -3.4224059564539636e-08,
+            -9.236024470436392e-09
+          ],
+          "delta_z_h_contact": [
+            -4.8046735994266795e-09,
+            8.215561195379736e-10
+          ],
+          "relative_delta_z_h": 8.142379317491362e-08,
+          "signed_flux_relative_change": 1.483837538249948e-07,
+          "max_metric_jump_norm": 0.06593001092567453,
+          "max_metric_jump_over_side_norm": 0.017103870711883767,
+          "scalar_weighted_jump_bound": 0.15764647284893096,
+          "taylor_linear_quadratic_contact_difference": 9.151261605627967e-12
+        },
+        {
+          "ellmax": 12,
+          "contact_J": [
+            -8.77436991720455e-08,
+            -9.232694005039627e-09
+          ],
+          "contact_J_linear_extrapolation": [
+            -8.775288287578019e-08,
+            -9.232692531187704e-09
+          ],
+          "delta_z_h_contact": [
+            -1.1487398773196844e-08,
+            3.9112834611110726e-09
+          ],
+          "relative_delta_z_h": 2.0270743988619723e-07,
+          "signed_flux_relative_change": 3.91174282171787e-07,
+          "max_metric_jump_norm": 0.06695067254103142,
+          "max_metric_jump_over_side_norm": 0.012262837390157356,
+          "scalar_weighted_jump_bound": 0.14892164680773973,
+          "taylor_linear_quadratic_contact_difference": 9.183703852948272e-12
+        },
+        {
+          "ellmax": 13,
+          "contact_J": [
+            -8.667195542863842e-08,
+            -3.302667446297638e-08
+          ],
+          "contact_J_linear_extrapolation": [
+            -8.668113940587113e-08,
+            -3.302666706718807e-08
+          ],
+          "delta_z_h_contact": [
+            -1.2726818495321603e-08,
+            8.788189653961302e-10
+          ],
+          "relative_delta_z_h": 2.130994607468843e-07,
+          "signed_flux_relative_change": 3.687866866253957e-07,
+          "max_metric_jump_norm": 0.06254262249596702,
+          "max_metric_jump_over_side_norm": 0.02308856294603254,
+          "scalar_weighted_jump_bound": 0.1265302025491691,
+          "taylor_linear_quadratic_contact_difference": 9.183980210594356e-12
+        },
+        {
+          "ellmax": 14,
+          "contact_J": [
+            -1.3381366130839874e-07,
+            -3.3008774409681714e-08
+          ],
+          "contact_J_linear_extrapolation": [
+            -1.3382287119454862e-07,
+            -3.300876701897464e-08
+          ],
+          "delta_z_h_contact": [
+            -1.861129348250746e-08,
+            3.6017467514113456e-09
+          ],
+          "relative_delta_z_h": 3.166577196359821e-07,
+          "signed_flux_relative_change": 5.826183627569972e-07,
+          "max_metric_jump_norm": 0.13391192129574458,
+          "max_metric_jump_over_side_norm": 0.07362144194420228,
+          "scalar_weighted_jump_bound": 0.12755069461835447,
+          "taylor_linear_quadratic_contact_difference": 9.209889115330843e-12
+        },
+        {
+          "ellmax": 15,
+          "contact_J": [
+            -1.3488065547423677e-07,
+            -6.706311697973677e-08
+          ],
+          "contact_J_linear_extrapolation": [
+            -1.3488986500284452e-07,
+            -6.706309829555707e-08
+          ],
+          "delta_z_h_contact": [
+            -2.0709885650075448e-08,
+            -5.882616545703886e-10
+          ],
+          "relative_delta_z_h": 3.460846848702975e-07,
+          "signed_flux_relative_change": 5.623736183704665e-07,
+          "max_metric_jump_norm": 0.13479526579484505,
+          "max_metric_jump_over_side_norm": 0.036207167037003794,
+          "scalar_weighted_jump_bound": 0.1149695598411675,
+          "taylor_linear_quadratic_contact_difference": 9.209547560837779e-12
+        },
+        {
+          "ellmax": 16,
+          "contact_J": [
+            -1.1893293916574135e-07,
+            -6.707052624471464e-08
+          ],
+          "contact_J_linear_extrapolation": [
+            -1.1894223916116422e-07,
+            -6.70705075632074e-08
+          ],
+          "delta_z_h_contact": [
+            -1.871928618626852e-08,
+            -1.5095784980595542e-09
+          ],
+          "relative_delta_z_h": 3.1370860452721357e-07,
+          "signed_flux_relative_change": 4.900348264869807e-07,
+          "max_metric_jump_norm": 0.07020815037976533,
+          "max_metric_jump_over_side_norm": 0.019113024492833162,
+          "scalar_weighted_jump_bound": 0.1074494178039113,
+          "taylor_linear_quadratic_contact_difference": 9.300014186231404e-12
+        },
+        {
+          "ellmax": 17,
+          "contact_J": [
+            -1.2105288325860053e-07,
+            -5.485305453483256e-08
+          ],
+          "contact_J_linear_extrapolation": [
+            -1.21062182355039e-07,
+            -5.485302014811673e-08
+          ],
+          "delta_z_h_contact": [
+            -1.827884726867315e-08,
+            1.3808663813449302e-10
+          ],
+          "relative_delta_z_h": 3.0534495204154715e-07,
+          "signed_flux_relative_change": 5.086494889735378e-07,
+          "max_metric_jump_norm": 0.06765725414621751,
+          "max_metric_jump_over_side_norm": 0.039188838952346566,
+          "scalar_weighted_jump_bound": 0.10069597175711233,
+          "taylor_linear_quadratic_contact_difference": 9.299160016829076e-12
+        },
+        {
+          "ellmax": 18,
+          "contact_J": [
+            -1.11472172793728e-07,
+            -5.4619522089072756e-08
+          ],
+          "contact_J_linear_extrapolation": [
+            -1.1148165260663744e-07,
+            -5.461948781374866e-08
+          ],
+          "delta_z_h_contact": [
+            -1.7069244908351966e-08,
+            -3.85689803368533e-10
+          ],
+          "relative_delta_z_h": 2.852033987782464e-07,
+          "signed_flux_relative_change": 4.653667145458314e-07,
+          "max_metric_jump_norm": 0.1893919714325313,
+          "max_metric_jump_over_side_norm": 0.10861633467994292,
+          "scalar_weighted_jump_bound": 0.11700211556571367,
+          "taylor_linear_quadratic_contact_difference": 9.479874872380182e-12
+        }
+      ],
+      "bulk_by_ell": [
+        {
+          "ellmax": 1,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              2.343275868846562e-16,
+              7.549029541864713e-17
+            ],
+            [
+              8.186147853168946e-16,
+              4.381798423011335e-15
+            ]
+          ],
+          "max_covariant_constraint_component": 9.280128619648917e-13
+        },
+        {
+          "ellmax": 2,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -6.611700145239903e-15,
+              -9.482695730463674e-16
+            ],
+            [
+              -2.815651961763769e-15,
+              2.7267362922145807e-15
+            ]
+          ],
+          "max_covariant_constraint_component": 7.697423187422156e-11
+        },
+        {
+          "ellmax": 3,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -1.4076693080159972e-14,
+              4.3855302387197907e-14
+            ],
+            [
+              -6.464212556352386e-15,
+              1.0585656474494545e-13
+            ]
+          ],
+          "max_covariant_constraint_component": 7.973353899767956e-10
+        },
+        {
+          "ellmax": 4,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              1.7085221763593969e-15,
+              4.772647835774125e-14
+            ],
+            [
+              1.0244425254656546e-14,
+              1.0960555780976957e-13
+            ]
+          ],
+          "max_covariant_constraint_component": 8.806787282368622e-10
+        },
+        {
+          "ellmax": 5,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              1.930358599863049e-14,
+              -1.3571773752187655e-13
+            ],
+            [
+              3.291172397118121e-14,
+              -2.613060030470856e-13
+            ]
+          ],
+          "max_covariant_constraint_component": 1.8889641582312157e-09
+        },
+        {
+          "ellmax": 6,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              8.918877169563568e-14,
+              -1.4381735790431185e-13
+            ],
+            [
+              -1.4185005801572415e-14,
+              -2.6462530398527336e-13
+            ]
+          ],
+          "max_covariant_constraint_component": 2.0806651625476724e-09
+        },
+        {
+          "ellmax": 7,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              3.68985127364262e-14,
+              3.114717859769895e-13
+            ],
+            [
+              -4.351125440186744e-14,
+              5.222027791188747e-13
+            ]
+          ],
+          "max_covariant_constraint_component": 5.794209090489705e-09
+        },
+        {
+          "ellmax": 8,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -4.961418187176497e-13,
+              3.2741274392951156e-13
+            ],
+            [
+              1.6340215591240878e-13,
+              5.206177903204143e-13
+            ]
+          ],
+          "max_covariant_constraint_component": 7.243654435431986e-09
+        },
+        {
+          "ellmax": 9,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -3.8505461638059955e-13,
+              -5.529875772812437e-13
+            ],
+            [
+              2.5354160122801264e-13,
+              -8.220513871195053e-13
+            ]
+          ],
+          "max_covariant_constraint_component": 2.2292232599454766e-08
+        },
+        {
+          "ellmax": 10,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              1.7651760270864644e-12,
+              -5.758628289275419e-13
+            ],
+            [
+              -6.732971797229119e-13,
+              -8.106613660628368e-13
+            ]
+          ],
+          "max_covariant_constraint_component": 2.6732428031314694e-08
+        },
+        {
+          "ellmax": 11,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              1.6090781983746662e-12,
+              9.67725250298568e-13
+            ],
+            [
+              -9.943959111832393e-13,
+              1.003230481718489e-12
+            ]
+          ],
+          "max_covariant_constraint_component": 7.025160492807451e-08
+        },
+        {
+          "ellmax": 12,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -4.914949041486213e-12,
+              9.905069971850301e-13
+            ],
+            [
+              2.460408203347518e-12,
+              9.785669971524033e-13
+            ]
+          ],
+          "max_covariant_constraint_component": 8.085350079906236e-08
+        },
+        {
+          "ellmax": 13,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -4.520009385130802e-12,
+              -1.6432932778098692e-12
+            ],
+            [
+              2.8867508144358143e-12,
+              -1.5718176193635472e-12
+            ]
+          ],
+          "max_covariant_constraint_component": 1.868663355260631e-07
+        },
+        {
+          "ellmax": 14,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              1.1539738167725604e-11,
+              -1.7137669628027632e-12
+            ],
+            [
+              -6.827408905972293e-12,
+              -1.575790800796894e-12
+            ]
+          ],
+          "max_covariant_constraint_component": 2.1144745716343455e-07
+        },
+        {
+          "ellmax": 15,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              1.0928065286974344e-11,
+              3.6514149873175095e-12
+            ],
+            [
+              -7.54967762407129e-12,
+              2.2172765373680393e-12
+            ]
+          ],
+          "max_covariant_constraint_component": 4.421201006707218e-07
+        },
+        {
+          "ellmax": 16,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -2.4653262583677403e-11,
+              3.68583543942709e-12
+            ],
+            [
+              1.666193793265188e-11,
+              2.3003120624794722e-12
+            ]
+          ],
+          "max_covariant_constraint_component": 4.597648033805779e-07
+        },
+        {
+          "ellmax": 17,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -2.3690717006166962e-11,
+              -3.856510314350312e-12
+            ],
+            [
+              1.781680736215899e-11,
+              2.313171512459711e-12
+            ]
+          ],
+          "max_covariant_constraint_component": 9.757532439937909e-07
+        },
+        {
+          "ellmax": 18,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              5.1251076037242086e-11,
+              -3.902981768982006e-12
+            ],
+            [
+              -3.268891614195326e-11,
+              2.4327068969697687e-12
+            ]
+          ],
+          "max_covariant_constraint_component": 1.027395093809572e-06
+        }
+      ],
+      "source_provenance": "6212a93efac1b09bef2fe5e18bef034113112fc698b1f7690d3d3135571f3a9d"
+    },
+    {
+      "input": "docs/environment_reproduction/orbit_source_matching_contact_L18_q24_e1e-3_direct_negative.json",
+      "input_sha256": "609c700208b32a19514813e3661ed8610b61924fa9bf5cc183a3bad35f8986ce",
+      "config": {
+        "r0": 20.0,
+        "a": 0.8771530275949366,
+        "alpha": 0.3,
+        "quadrature": 24,
+        "epsilon": 0.001,
+        "jet_order": 8,
+        "ellmax": 18
+      },
+      "endpoint": {
+        "ellmax": 18,
+        "contact_J": [
+          -1.9408537953608546e-07,
+          1.166001144655132e-07
+        ],
+        "contact_J_linear_extrapolation": [
+          -1.9409471426067488e-07,
+          1.1660007214447586e-07
+        ],
+        "delta_z_h_contact": [
+          -1.7501656592627733e-08,
+          2.5758457964692075e-08
+        ],
+        "relative_delta_z_h": 5.202019946885545e-07,
+        "signed_flux_relative_change": 9.66191405771255e-07,
+        "max_metric_jump_norm": 0.09777061484997343,
+        "max_metric_jump_over_side_norm": 0.057533274503820155,
+        "scalar_weighted_jump_bound": 0.11431232054983524,
+        "taylor_linear_quadratic_contact_difference": 9.334820524811409e-12
+      },
+      "contact_by_ell": [
+        {
+          "ellmax": 1,
+          "contact_J": [
+            -2.3488137871377305e-05,
+            8.493192056354112e-14
+          ],
+          "contact_J_linear_extrapolation": [
+            -2.348814645094637e-05,
+            8.489292661829593e-14
+          ],
+          "delta_z_h_contact": [
+            -2.9324272809722764e-06,
+            1.3555727768929452e-06
+          ],
+          "relative_delta_z_h": 5.396489054363965e-05,
+          "signed_flux_relative_change": 0.00010653696347961983,
+          "max_metric_jump_norm": 0.6273605458578333,
+          "max_metric_jump_over_side_norm": 0.2102111690317781,
+          "scalar_weighted_jump_bound": 1.3439870748357736,
+          "taylor_linear_quadratic_contact_difference": 8.579569065507628e-12
+        },
+        {
+          "ellmax": 2,
+          "contact_J": [
+            3.6881414026632966e-06,
+            -1.44840610150604e-13
+          ],
+          "contact_J_linear_extrapolation": [
+            3.688132299363528e-06,
+            -1.448791666001411e-13
+          ],
+          "delta_z_h_contact": [
+            4.6045396813549676e-07,
+            -2.1285401574987767e-07
+          ],
+          "relative_delta_z_h": 8.473645215899772e-06,
+          "signed_flux_relative_change": -1.6728059210047164e-05,
+          "max_metric_jump_norm": 0.3785694291443763,
+          "max_metric_jump_over_side_norm": 0.1186884917691634,
+          "scalar_weighted_jump_bound": 0.860536666389065,
+          "taylor_linear_quadratic_contact_difference": 9.103299768522486e-12
+        },
+        {
+          "ellmax": 3,
+          "contact_J": [
+            3.318155652460255e-08,
+            2.160016233438111e-11
+          ],
+          "contact_J_linear_extrapolation": [
+            3.317241940524053e-08,
+            2.1600108663374917e-11
+          ],
+          "delta_z_h_contact": [
+            4.143869678614679e-09,
+            -1.9123130879256154e-09
+          ],
+          "relative_delta_z_h": 7.623590491185344e-08,
+          "signed_flux_relative_change": -1.5048412149720747e-07,
+          "max_metric_jump_norm": 0.24909598835344945,
+          "max_metric_jump_over_side_norm": 0.0316405962920314,
+          "scalar_weighted_jump_bound": 0.4575487984827827,
+          "taylor_linear_quadratic_contact_difference": 9.137119362178685e-12
+        },
+        {
+          "ellmax": 4,
+          "contact_J": [
+            1.8341546527204826e-09,
+            2.2101333677616464e-11
+          ],
+          "contact_J_linear_extrapolation": [
+            1.8250173808783567e-09,
+            2.2101278310143733e-11
+          ],
+          "delta_z_h_contact": [
+            2.3026453377443186e-10,
+            -1.030954244104368e-10
+          ],
+          "relative_delta_z_h": 4.214346036044801e-09,
+          "signed_flux_relative_change": -8.30280999508659e-09,
+          "max_metric_jump_norm": 0.21428580076210582,
+          "max_metric_jump_over_side_norm": 0.057252220749380835,
+          "scalar_weighted_jump_bound": 0.45102661953088147,
+          "taylor_linear_quadratic_contact_difference": 9.13727184229367e-12
+        },
+        {
+          "ellmax": 5,
+          "contact_J": [
+            -5.539841491169006e-11,
+            -2.987547557151143e-11
+          ],
+          "contact_J_linear_extrapolation": [
+            -6.453568579451424e-11,
+            -2.9875472607864706e-11
+          ],
+          "delta_z_h_contact": [
+            -8.640540414794165e-12,
+            -5.326551326879522e-13
+          ],
+          "relative_delta_z_h": 1.446085930546709e-10,
+          "signed_flux_relative_change": 2.2926194276351453e-10,
+          "max_metric_jump_norm": 0.15966768358746405,
+          "max_metric_jump_over_side_norm": 0.05816370953906607,
+          "scalar_weighted_jump_bound": 0.31124725484520094,
+          "taylor_linear_quadratic_contact_difference": 9.137270882824661e-12
+        },
+        {
+          "ellmax": 6,
+          "contact_J": [
+            2.2150612786103907e-09,
+            -3.229448907941723e-11
+          ],
+          "contact_J_linear_extrapolation": [
+            2.2059243515164672e-09,
+            -3.22944822515042e-11
+          ],
+          "delta_z_h_contact": [
+            2.7468029346186566e-10,
+            -1.3186988269856913e-10
+          ],
+          "relative_delta_z_h": 5.089728431248692e-09,
+          "signed_flux_relative_change": -1.0070538181139455e-08,
+          "max_metric_jump_norm": 0.14261367913431258,
+          "max_metric_jump_over_side_norm": 0.05755066925098994,
+          "scalar_weighted_jump_bound": 0.29917689052406304,
+          "taylor_linear_quadratic_contact_difference": 9.136927093925986e-12
+        },
+        {
+          "ellmax": 7,
+          "contact_J": [
+            2.089758840873805e-09,
+            -3.2814835694182584e-10
+          ],
+          "contact_J_linear_extrapolation": [
+            2.0806219465465375e-09,
+            -3.281484921321198e-10
+          ],
+          "delta_z_h_contact": [
+            2.4196200231042255e-10,
+            -1.6157480807095964e-10
+          ],
+          "relative_delta_z_h": 4.86013390359523e-09,
+          "signed_flux_relative_change": -9.720134253043966e-09,
+          "max_metric_jump_norm": 0.11363234758019215,
+          "max_metric_jump_over_side_norm": 0.02850983776109349,
+          "scalar_weighted_jump_bound": 0.2269919277438508,
+          "taylor_linear_quadratic_contact_difference": 9.136894328267546e-12
+        },
+        {
+          "ellmax": 8,
+          "contact_J": [
+            -3.6039927232464082e-09,
+            -3.2659453173941263e-10
+          ],
+          "contact_J_linear_extrapolation": [
+            -3.6131310156341295e-09,
+            -3.2659467636889944e-10
+          ],
+          "delta_z_h_contact": [
+            -4.687970290740756e-10,
+            1.6722311878263561e-10
+          ],
+          "relative_delta_z_h": 8.31423994588199e-09,
+          "signed_flux_relative_change": 1.6105893507756264e-08,
+          "max_metric_jump_norm": 0.10920450103972582,
+          "max_metric_jump_over_side_norm": 0.03570958689726517,
+          "scalar_weighted_jump_bound": 0.22234011702726217,
+          "taylor_linear_quadratic_contact_difference": 9.138292388865726e-12
+        },
+        {
+          "ellmax": 9,
+          "contact_J": [
+            -2.095153305421094e-09,
+            -5.917188904449686e-11
+          ],
+          "contact_J_linear_extrapolation": [
+            -2.104291824604004e-09,
+            -5.917184050524778e-11
+          ],
+          "delta_z_h_contact": [
+            -2.6498892999981706e-10,
+            1.1353030685710009e-10
+          ],
+          "relative_delta_z_h": 4.8156138262416e-09,
+          "signed_flux_relative_change": 9.459303562664445e-09,
+          "max_metric_jump_norm": 0.09399520859322039,
+          "max_metric_jump_over_side_norm": 0.04601379444628504,
+          "scalar_weighted_jump_bound": 0.18252858104974617,
+          "taylor_linear_quadratic_contact_difference": 9.138519183038922e-12
+        },
+        {
+          "ellmax": 10,
+          "contact_J": [
+            -3.8229115233207266e-08,
+            -7.262843044935829e-11
+          ],
+          "contact_J_linear_extrapolation": [
+            -3.8238267192599116e-08,
+            -7.262835959610447e-11
+          ],
+          "delta_z_h_contact": [
+            -4.776988042282507e-09,
+            2.1972525102208203e-09
+          ],
+          "relative_delta_z_h": 8.78330054726813e-08,
+          "signed_flux_relative_change": 1.7334052415662882e-07,
+          "max_metric_jump_norm": 0.08214991923312948,
+          "max_metric_jump_over_side_norm": 0.04453065179655645,
+          "scalar_weighted_jump_bound": 0.1790067243873007,
+          "taylor_linear_quadratic_contact_difference": 9.151959392124215e-12
+        },
+        {
+          "ellmax": 11,
+          "contact_J": [
+            -3.674558592538727e-08,
+            3.0601785464123295e-09
+          ],
+          "contact_J_linear_extrapolation": [
+            -3.6754738074670087e-08,
+            3.060177738626564e-09
+          ],
+          "delta_z_h_contact": [
+            -4.4109696849057505e-09,
+            2.502755516544571e-09
+          ],
+          "relative_delta_z_h": 8.47166423465184e-08,
+          "signed_flux_relative_change": 1.68919361165365e-07,
+          "max_metric_jump_norm": 0.06593160431767019,
+          "max_metric_jump_over_side_norm": 0.01747215474822827,
+          "scalar_weighted_jump_bound": 0.15772227837759942,
+          "taylor_linear_quadratic_contact_difference": 9.152149318467835e-12
+        },
+        {
+          "ellmax": 12,
+          "contact_J": [
+            -8.219549058648246e-08,
+            2.955819162929699e-09
+          ],
+          "contact_J_linear_extrapolation": [
+            -8.220466913084715e-08,
+            2.9558183066034582e-09
+          ],
+          "delta_z_h_contact": [
+            -1.0091284064757348e-08,
+            5.112780501116739e-09
+          ],
+          "relative_delta_z_h": 1.8896933488909337e-07,
+          "signed_flux_relative_change": 3.749875312486495e-07,
+          "max_metric_jump_norm": 0.06695416603929585,
+          "max_metric_jump_over_side_norm": 0.012323699902257014,
+          "scalar_weighted_jump_bound": 0.14874757248986625,
+          "taylor_linear_quadratic_contact_difference": 9.178544404642668e-12
+        },
+        {
+          "ellmax": 13,
+          "contact_J": [
+            -8.014689488519614e-08,
+            -1.2657234360008892e-08
+          ],
+          "contact_J_linear_extrapolation": [
+            -8.015607381041858e-08,
+            -1.265722824776829e-08
+          ],
+          "delta_z_h_contact": [
+            -1.0736600109185437e-08,
+            3.0453043574479065e-09
+          ],
+          "relative_delta_z_h": 1.864226728178002e-07,
+          "signed_flux_relative_change": 3.541953035313128e-07,
+          "max_metric_jump_norm": 0.06254129083634608,
+          "max_metric_jump_over_side_norm": 0.02322612942316544,
+          "scalar_weighted_jump_bound": 0.12641754966914573,
+          "taylor_linear_quadratic_contact_difference": 9.17892725750204e-12
+        },
+        {
+          "ellmax": 14,
+          "contact_J": [
+            -8.584736909958027e-08,
+            -1.2691633982281597e-08
+          ],
+          "contact_J_linear_extrapolation": [
+            -8.585656073525921e-08,
+            -1.2691627714034306e-08
+          ],
+          "delta_z_h_contact": [
+            -1.1450273428526418e-08,
+            3.370001583372817e-09
+          ],
+          "relative_delta_z_h": 1.9938141061419244e-07,
+          "signed_flux_relative_change": 3.8002534474834704e-07,
+          "max_metric_jump_norm": 0.09948200680389037,
+          "max_metric_jump_over_side_norm": 0.05511934122486806,
+          "scalar_weighted_jump_bound": 0.12601574886026276,
+          "taylor_linear_quadratic_contact_difference": 9.191637816264526e-12
+        },
+        {
+          "ellmax": 15,
+          "contact_J": [
+            -8.585318009825037e-08,
+            1.2550006797852577e-08
+          ],
+          "contact_J_linear_extrapolation": [
+            -8.586237153194201e-08,
+            1.2550002001159077e-08
+          ],
+          "delta_z_h_contact": [
+            -9.99422609628437e-09,
+            6.521684096512612e-09
+          ],
+          "relative_delta_z_h": 1.9934729228411477e-07,
+          "signed_flux_relative_change": 3.9864458378779943e-07,
+          "max_metric_jump_norm": 0.10187800236863166,
+          "max_metric_jump_over_side_norm": 0.02747274313531404,
+          "scalar_weighted_jump_bound": 0.11355184302233104,
+          "taylor_linear_quadratic_contact_difference": 9.191434943258498e-12
+        },
+        {
+          "ellmax": 16,
+          "contact_J": [
+            -1.0138346284929225e-07,
+            1.2415776177811444e-08
+          ],
+          "contact_J_linear_extrapolation": [
+            -1.013926656751244e-07,
+            1.2415771636765164e-08
+          ],
+          "delta_z_h_contact": [
+            -1.1940884640261217e-08,
+            7.4012262266894545e-09
+          ],
+          "relative_delta_z_h": 2.3467254356787117e-07,
+          "signed_flux_relative_change": 4.6898570404962925e-07,
+          "max_metric_jump_norm": 0.07054141215930515,
+          "max_metric_jump_over_side_norm": 0.019235203025442193,
+          "scalar_weighted_jump_bound": 0.10759654781188735,
+          "taylor_linear_quadratic_contact_difference": 9.202826952518973e-12
+        },
+        {
+          "ellmax": 17,
+          "contact_J": [
+            -9.988550344881504e-08,
+            1.1700108857577843e-07
+          ],
+          "contact_J_linear_extrapolation": [
+            -9.989470686055628e-08,
+            1.1700104695351691e-07
+          ],
+          "delta_z_h_contact": [
+            -5.717928224556357e-09,
+            2.0371953513692207e-08
+          ],
+          "relative_delta_z_h": 3.534504382818987e-07,
+          "signed_flux_relative_change": 5.392286326344475e-07,
+          "max_metric_jump_norm": 0.07283537565800245,
+          "max_metric_jump_over_side_norm": 0.041869470719098696,
+          "scalar_weighted_jump_bound": 0.10086193158673601,
+          "taylor_linear_quadratic_contact_difference": 9.203505858716345e-12
+        },
+        {
+          "ellmax": 18,
+          "contact_J": [
+            -1.9408537953608546e-07,
+            1.166001144655132e-07
+          ],
+          "contact_J_linear_extrapolation": [
+            -1.9409471426067488e-07,
+            1.1660007214447586e-07
+          ],
+          "delta_z_h_contact": [
+            -1.7501656592627733e-08,
+            2.5758457964692075e-08
+          ],
+          "relative_delta_z_h": 5.202019946885545e-07,
+          "signed_flux_relative_change": 9.66191405771255e-07,
+          "max_metric_jump_norm": 0.09777061484997343,
+          "max_metric_jump_over_side_norm": 0.057533274503820155,
+          "scalar_weighted_jump_bound": 0.11431232054983524,
+          "taylor_linear_quadratic_contact_difference": 9.334820524811409e-12
+        }
+      ],
+      "bulk_by_ell": [
+        {
+          "ellmax": 1,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -4.0941970350438e-15,
+              4.096910961877972e-16
+            ],
+            [
+              8.667526037316943e-15,
+              -9.63021238297769e-15
+            ]
+          ],
+          "max_covariant_constraint_component": 1.159755917061611e-11
+        },
+        {
+          "ellmax": 2,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              4.3272686323770256e-11,
+              4.674033620398843e-12
+            ],
+            [
+              -6.1546189520201456e-12,
+              -3.056953056433241e-13
+            ]
+          ],
+          "max_covariant_constraint_component": 4.1729730748404527e-07
+        },
+        {
+          "ellmax": 3,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              7.992645991325065e-11,
+              -1.9630081043130988e-10
+            ],
+            [
+              -1.2794175677209758e-11,
+              2.446610569264764e-11
+            ]
+          ],
+          "max_covariant_constraint_component": 2.7300365003739476e-06
+        },
+        {
+          "ellmax": 4,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -1.4977796069544735e-10,
+              -2.1458894586617381e-10
+            ],
+            [
+              2.6985707094286155e-11,
+              2.4853386328622582e-11
+            ]
+          ],
+          "max_covariant_constraint_component": 3.228656040537508e-06
+        },
+        {
+          "ellmax": 5,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -2.442345780224663e-10,
+              4.904335403037784e-10
+            ],
+            [
+              4.0293805159825877e-11,
+              -6.932542160879471e-11
+            ]
+          ],
+          "max_covariant_constraint_component": 6.718754142113386e-06
+        },
+        {
+          "ellmax": 6,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              3.080464848852521e-10,
+              5.285443752931112e-10
+            ],
+            [
+              -4.29737901860582e-11,
+              -6.855807154447766e-11
+            ]
+          ],
+          "max_covariant_constraint_component": 7.5333671122000995e-06
+        },
+        {
+          "ellmax": 7,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              4.726371988579558e-10,
+              -1.0714456217762914e-09
+            ],
+            [
+              -5.833593695243607e-11,
+              1.527555796653435e-10
+            ]
+          ],
+          "max_covariant_constraint_component": 1.3775688912512807e-05
+        },
+        {
+          "ellmax": 8,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -4.727890812595273e-10,
+              -1.1314344335076877e-09
+            ],
+            [
+              4.412481054606148e-11,
+              1.537040846693619e-10
+            ]
+          ],
+          "max_covariant_constraint_component": 1.4659683379964614e-05
+        },
+        {
+          "ellmax": 9,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -7.058875035250683e-10,
+              1.718947827624428e-09
+            ],
+            [
+              6.31371638841345e-11,
+              -3.6143433008880825e-10
+            ]
+          ],
+          "max_covariant_constraint_component": 2.1755328270974034e-05
+        },
+        {
+          "ellmax": 10,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              6.935023017099305e-10,
+              1.8118127912559602e-09
+            ],
+            [
+              9.949189455607896e-11,
+              -3.5034715718471317e-10
+            ]
+          ],
+          "max_covariant_constraint_component": 2.3062576560812738e-05
+        },
+        {
+          "ellmax": 11,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              9.776068275064703e-10,
+              -2.569763351487835e-09
+            ],
+            [
+              -5.390230408102635e-12,
+              3.769643715458067e-10
+            ]
+          ],
+          "max_covariant_constraint_component": 3.114072424474056e-05
+        },
+        {
+          "ellmax": 12,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -5.99420699159987e-10,
+              -2.6927827747995476e-09
+            ],
+            [
+              -5.579913780336666e-10,
+              3.5599320679377346e-10
+            ]
+          ],
+          "max_covariant_constraint_component": 3.210449549227497e-05
+        },
+        {
+          "ellmax": 13,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -1.0200175129600741e-09,
+              4.901364434523431e-09
+            ],
+            [
+              -4.965389686873794e-10,
+              -1.444110617744467e-10
+            ]
+          ],
+          "max_covariant_constraint_component": 3.861557519408523e-05
+        },
+        {
+          "ellmax": 14,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              3.880780962639275e-10,
+              5.067384491056069e-09
+            ],
+            [
+              9.951166685298548e-10,
+              -1.9421038676835514e-10
+            ]
+          ],
+          "max_covariant_constraint_component": 3.9359133646761566e-05
+        },
+        {
+          "ellmax": 15,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              5.892437748070959e-10,
+              -5.0318861348657365e-09
+            ],
+            [
+              1.0811219254565277e-09,
+              1.4671772759425765e-09
+            ]
+          ],
+          "max_covariant_constraint_component": 4.6293206908750765e-05
+        },
+        {
+          "ellmax": 16,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -8.155477003463695e-10,
+              -5.1740324607989075e-09
+            ],
+            [
+              -1.9542135801549175e-09,
+              1.2498696631533915e-09
+            ]
+          ],
+          "max_covariant_constraint_component": 4.8165102906399484e-05
+        },
+        {
+          "ellmax": 17,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -6.443735635375247e-10,
+              9.561205157356875e-09
+            ],
+            [
+              -8.227810411393882e-10,
+              -2.9265311481243078e-09
+            ]
+          ],
+          "max_covariant_constraint_component": 6.176076454410766e-05
+        },
+        {
+          "ellmax": 18,
+          "bulk_C_grad_phi_scalar00_projection": [
+            [
+              -9.322986200852003e-11,
+              9.705261392203193e-09
+            ],
+            [
+              7.086740783726847e-09,
+              -3.347730287656381e-09
+            ]
+          ],
+          "max_covariant_constraint_component": 5.982183356709533e-05
+        }
+      ],
+      "source_provenance": "86df5ec997ba767c3ed2633c717cff7d542838eab0df6b8fe00c17b325a32b26"
+    }
+  ],
+  "interpretation": "deltaZH is the Green response to the directly measured jump [bar h^{rb}] grad_b Phi0; local bulk samples are not a radial integral bound",
+  "implementation_sha256": "7bb1bd11eea8944662337fe056d0ebb7c94881f88821a6ad050509e7835bdb92"
+}

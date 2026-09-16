@@ -1,0 +1,12 @@
+{
+  "status": "failed_not_a_convergence_result",
+  "controls": {
+    "angular_order": 24,
+    "offset": 5e-07,
+    "rtol": 2e-13,
+    "jet_dtype": "clongdouble"
+  },
+  "error": "RuntimeError: Homogeneous radial integration failed",
+  "location": "lorenz_kappa.scalar_resolvent -> diagnostic RadialGreen wrapper -> environment_radial.py:157",
+  "scope": "Failed while constructing extended trace/kappa resolvent before recording first new-cutoff sample. No failed outputs used in amplitude/flux comparisons."
+}

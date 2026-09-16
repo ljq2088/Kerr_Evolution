@@ -1,0 +1,992 @@
+{
+  "status": "published_reference_normalization_change_explains_bulk_offset_residual_not_closed",
+  "references": {
+    "old": "https://arxiv.org/src/2501.09806v1",
+    "new": "https://arxiv.org/src/2507.02045v2",
+    "new_footnote": "Footnote1 explicitly identifies scalar separation-constant and horizon-flux normalization errors in Dyson et al.; no old-code expression is given."
+  },
+  "inputs": {
+    "outputs/environment_reference/Flux_Inf_Hor_TwoPanels_2.pdf": "edb692b0bb709680165c5c90300d0bd68596813e48dfcf687af900271e4edfe7",
+    "outputs/paper_original_reference/li_2507_02045v2/source/total_flux_11.pdf": "535d0cc5a89c47f1ebb4a9d6c6088ffc51688ed8b90cfffb78d6bce17c05f89a",
+    "docs/environment_reproduction/figure2_three_orbit_comparison.json": "30ef9b10185960155990ee9bd0213dce5b134aac90c33682f98eabfa3b20c2dc",
+    "src/report_li_reference_comparison.py": "d23eaec93d5cb4286391620eaecc744fc0f16d6d868506dbfad6b4d88993f32c"
+  },
+  "same_cutoff_coverage_sha256": {
+    "docs/environment_reproduction/flux_coverage_L18_nt18_i6_h5_f5_rp10.json": "d5451ea074eeb0d08d6ff6a74748dfaadc2089dcecb1e72ef3126d9076c37a27",
+    "docs/environment_reproduction/flux_coverage_L18_nt18_i6_h5_f5.json": "94da7a50218e90d2b0b21345f42e5a44ade1ae042e2ecf5fdf3f521f9669ef2c",
+    "docs/environment_reproduction/flux_coverage_L18_nt18_i6_h5_f5_rp30.json": "1a1715c96e4dcdf207693e58cb4728bd3ff1b6ae32013ceb3eae36b73f58cace"
+  },
+  "normalization": "per q^2 eta; eta=M_cloud/M. Plot normalization q^2 epsilon^2 converted by alpha^6, alpha=.3.",
+  "rows": [
+    {
+      "rp": 10,
+      "boundary": "horizon",
+      "local_finite_magnitude": 6.357677060534488e-05,
+      "dyson_original_magnitude": 4.5196070381832055e-05,
+      "dyson_in_later_comparison_magnitude": 6.124334749366147e-05,
+      "li_magnitude": 6.26219840866162e-05,
+      "new_over_original": 1.3550591229780922,
+      "local_vs_original_percent": 40.66880166400817,
+      "local_vs_updated_dyson_percent": 3.8100842086153275,
+      "local_vs_li_percent": 1.524682637662922,
+      "new_dyson_log_pchip_vs_linear_relative": 0.0008863437755755044,
+      "li_log_pchip_vs_linear_relative": 0.0010180489459719055,
+      "local_same_ellmax5_magnitude": 6.357677060534488e-05,
+      "local_same_ellmax5_vs_li_percent": 1.524682637662922,
+      "local_same_ellmax5_channels": 18
+    },
+    {
+      "rp": 10,
+      "boundary": "infinity",
+      "local_finite_magnitude": 7.332063442091086e-06,
+      "dyson_original_magnitude": 7.011692945328402e-06,
+      "dyson_in_later_comparison_magnitude": 7.010104073019558e-06,
+      "li_magnitude": 7.263213740857369e-06,
+      "new_over_original": 0.9997733967643432,
+      "local_vs_original_percent": 4.569089081063282,
+      "local_vs_updated_dyson_percent": 4.59279014573668,
+      "local_vs_li_percent": 0.9479233806162224,
+      "new_dyson_log_pchip_vs_linear_relative": 0.00044868461128078074,
+      "li_log_pchip_vs_linear_relative": 0.00040698612601230977,
+      "local_same_ellmax5_magnitude": 7.2678159901636e-06,
+      "local_same_ellmax5_vs_li_percent": 0.06336381484055575,
+      "local_same_ellmax5_channels": 6
+    },
+    {
+      "rp": 20,
+      "boundary": "horizon",
+      "local_finite_magnitude": 6.866732369741025e-05,
+      "dyson_original_magnitude": 5.1763750450278545e-05,
+      "dyson_in_later_comparison_magnitude": 7.018128423756745e-05,
+      "li_magnitude": 6.615228308272457e-05,
+      "new_over_original": 1.3557998334177852,
+      "local_vs_original_percent": 32.655232861012195,
+      "local_vs_updated_dyson_percent": -2.1572140729604894,
+      "local_vs_li_percent": 3.801895410836509,
+      "new_dyson_log_pchip_vs_linear_relative": 0.00028264234612307426,
+      "li_log_pchip_vs_linear_relative": 0.00024869422685225295,
+      "local_same_ellmax5_magnitude": 6.866732369763173e-05,
+      "local_same_ellmax5_vs_li_percent": 3.8018954111713077,
+      "local_same_ellmax5_channels": 18
+    },
+    {
+      "rp": 20,
+      "boundary": "infinity",
+      "local_finite_magnitude": 1.9210336966561032e-05,
+      "dyson_original_magnitude": 1.8287650853785332e-05,
+      "dyson_in_later_comparison_magnitude": 1.8287031083734548e-05,
+      "li_magnitude": 1.8943078476349247e-05,
+      "new_over_original": 0.9999661099145134,
+      "local_vs_original_percent": 5.045405340209208,
+      "local_vs_updated_dyson_percent": 5.048965458628896,
+      "local_vs_li_percent": 1.4108503564796093,
+      "new_dyson_log_pchip_vs_linear_relative": 0.00010014695384108485,
+      "li_log_pchip_vs_linear_relative": 0.00010377969451513813,
+      "local_same_ellmax5_magnitude": 1.8987570346389037e-05,
+      "local_same_ellmax5_vs_li_percent": 0.23487138109752337,
+      "local_same_ellmax5_channels": 6
+    },
+    {
+      "rp": 30,
+      "boundary": "horizon",
+      "local_finite_magnitude": 1.445175580555133e-05,
+      "dyson_original_magnitude": 1.094121792113828e-05,
+      "dyson_in_later_comparison_magnitude": 1.4839139968633363e-05,
+      "li_magnitude": 1.4915742665753187e-05,
+      "new_over_original": 1.3562603428238416,
+      "local_vs_original_percent": 32.085439753747515,
+      "local_vs_updated_dyson_percent": -2.610556702752842,
+      "local_vs_li_percent": -3.1107191281006696,
+      "new_dyson_log_pchip_vs_linear_relative": -8.967337758447602e-05,
+      "li_log_pchip_vs_linear_relative": -0.0003726747663652663,
+      "local_same_ellmax5_magnitude": 1.445175580555133e-05,
+      "local_same_ellmax5_vs_li_percent": -3.1107191281006696,
+      "local_same_ellmax5_channels": 18
+    },
+    {
+      "rp": 30,
+      "boundary": "infinity",
+      "local_finite_magnitude": 2.7420088677119204e-05,
+      "dyson_original_magnitude": 2.605390201253179e-05,
+      "dyson_in_later_comparison_magnitude": 2.6056525092154276e-05,
+      "li_magnitude": 2.6918828856677258e-05,
+      "new_over_original": 1.000100678954777,
+      "local_vs_original_percent": 5.243693109501546,
+      "local_vs_updated_dyson_percent": 5.233098351151599,
+      "local_vs_li_percent": 1.862116004789005,
+      "new_dyson_log_pchip_vs_linear_relative": 3.558367984979327e-05,
+      "li_log_pchip_vs_linear_relative": 5.261045755422522e-05,
+      "local_same_ellmax5_magnitude": 2.706614697500746e-05,
+      "local_same_ellmax5_vs_li_percent": 0.5472679332171548,
+      "local_same_ellmax5_channels": 6
+    }
+  ],
+  "area_factor_hypothesis": {
+    "formula": "(r_plus^2+a^2)/r_plus^2=2M/r_plus",
+    "value_at_label_spin_088": 1.3559563959671574,
+    "value_at_exact_threshold_spin": 1.3511587563787484,
+    "status": "Geometric factor and quantitative PDF fingerprint, NOT the unpublished original code expression.",
+    "scan_radius_range": [
+      5,
+      40
+    ],
+    "max_horizon_fractional_departure": 0.0024588751471809056,
+    "max_infinity_new_old_departure": 0.0009700384961686126
+  },
+  "scan": [
+    {
+      "rp": 5.0,
+      "horizon_new_over_old": 1.357204725702052,
+      "infinity_new_over_old": 1.0009700384961686,
+      "horizon_ratio_over_area_factor": 1.0009206267536386
+    },
+    {
+      "rp": 5.25,
+      "horizon_new_over_old": 1.3526222684844529,
+      "infinity_new_over_old": 0.9994895158949717,
+      "horizon_ratio_over_area_factor": 0.9975411248528191
+    },
+    {
+      "rp": 5.5,
+      "horizon_new_over_old": 1.358020700849674,
+      "infinity_new_over_old": 1.0004557822118727,
+      "horizon_ratio_over_area_factor": 1.0015223976881973
+    },
+    {
+      "rp": 5.75,
+      "horizon_new_over_old": 1.353297327594635,
+      "infinity_new_over_old": 0.9996206708596492,
+      "horizon_ratio_over_area_factor": 0.9980389720639756
+    },
+    {
+      "rp": 6.0,
+      "horizon_new_over_old": 1.3563683118146568,
+      "infinity_new_over_old": 1.0007749757780395,
+      "horizon_ratio_over_area_factor": 1.0003037825174352
+    },
+    {
+      "rp": 6.25,
+      "horizon_new_over_old": 1.353757561797469,
+      "infinity_new_over_old": 0.9998783537942912,
+      "horizon_ratio_over_area_factor": 0.9983783887326849
+    },
+    {
+      "rp": 6.5,
+      "horizon_new_over_old": 1.3551792271911736,
+      "infinity_new_over_old": 0.9998907854317235,
+      "horizon_ratio_over_area_factor": 0.9994268482539002
+    },
+    {
+      "rp": 6.75,
+      "horizon_new_over_old": 1.3540964032332483,
+      "infinity_new_over_old": 0.999607066494928,
+      "horizon_ratio_over_area_factor": 0.9986282798330086
+    },
+    {
+      "rp": 7.0,
+      "horizon_new_over_old": 1.354499895688182,
+      "infinity_new_over_old": 1.0000093790764581,
+      "horizon_ratio_over_area_factor": 0.9989258502092638
+    },
+    {
+      "rp": 7.25,
+      "horizon_new_over_old": 1.3546336764010614,
+      "infinity_new_over_old": 1.0000349475997805,
+      "horizon_ratio_over_area_factor": 0.9990245117246911
+    },
+    {
+      "rp": 7.5,
+      "horizon_new_over_old": 1.3545515114269524,
+      "infinity_new_over_old": 0.9996181479868645,
+      "horizon_ratio_over_area_factor": 0.9989639161374337
+    },
+    {
+      "rp": 7.75,
+      "horizon_new_over_old": 1.3555630621520915,
+      "infinity_new_over_old": 0.9997291863661312,
+      "horizon_ratio_over_area_factor": 0.9997099214869772
+    },
+    {
+      "rp": 8.0,
+      "horizon_new_over_old": 1.3548042599903771,
+      "infinity_new_over_old": 0.9998856787233046,
+      "horizon_ratio_over_area_factor": 0.9991503148772284
+    },
+    {
+      "rp": 8.25,
+      "horizon_new_over_old": 1.356088790676642,
+      "infinity_new_over_old": 1.0004216251434672,
+      "horizon_ratio_over_area_factor": 1.000097639356161
+    },
+    {
+      "rp": 8.5,
+      "horizon_new_over_old": 1.3547416116735096,
+      "infinity_new_over_old": 0.9998257792795314,
+      "horizon_ratio_over_area_factor": 0.9991041125678813
+    },
+    {
+      "rp": 8.75,
+      "horizon_new_over_old": 1.3564369734260044,
+      "infinity_new_over_old": 1.0001166193328723,
+      "horizon_ratio_over_area_factor": 1.0003544195523368
+    },
+    {
+      "rp": 9.0,
+      "horizon_new_over_old": 1.3548003646561309,
+      "infinity_new_over_old": 0.9997204443650994,
+      "horizon_ratio_over_area_factor": 0.9991474421194776
+    },
+    {
+      "rp": 9.25,
+      "horizon_new_over_old": 1.3559106289424778,
+      "infinity_new_over_old": 1.0002538299072625,
+      "horizon_ratio_over_area_factor": 0.9999662474215132
+    },
+    {
+      "rp": 9.5,
+      "horizon_new_over_old": 1.3549349914667854,
+      "infinity_new_over_old": 0.9997286121397901,
+      "horizon_ratio_over_area_factor": 0.9992467276208808
+    },
+    {
+      "rp": 9.75,
+      "horizon_new_over_old": 1.355575542320786,
+      "infinity_new_over_old": 0.9997437242163639,
+      "horizon_ratio_over_area_factor": 0.9997191254471721
+    },
+    {
+      "rp": 10.0,
+      "horizon_new_over_old": 1.3550591229780922,
+      "infinity_new_over_old": 0.9997733967643432,
+      "horizon_ratio_over_area_factor": 0.999338272977115
+    },
+    {
+      "rp": 10.25,
+      "horizon_new_over_old": 1.3551667495585198,
+      "infinity_new_over_old": 0.9999982324762631,
+      "horizon_ratio_over_area_factor": 0.9994176461640019
+    },
+    {
+      "rp": 10.5,
+      "horizon_new_over_old": 1.3550422147226489,
+      "infinity_new_over_old": 0.9999973169179328,
+      "horizon_ratio_over_area_factor": 0.9993258033612087
+    },
+    {
+      "rp": 10.75,
+      "horizon_new_over_old": 1.3549502686185078,
+      "infinity_new_over_old": 0.9997732208256503,
+      "horizon_ratio_over_area_factor": 0.9992579943192553
+    },
+    {
+      "rp": 11.0,
+      "horizon_new_over_old": 1.3553608161744546,
+      "infinity_new_over_old": 0.9999284541352041,
+      "horizon_ratio_over_area_factor": 0.999560767739675
+    },
+    {
+      "rp": 11.25,
+      "horizon_new_over_old": 1.3549686526197724,
+      "infinity_new_over_old": 0.9998013356919286,
+      "horizon_ratio_over_area_factor": 0.9992715522782866
+    },
+    {
+      "rp": 11.5,
+      "horizon_new_over_old": 1.3558666366923948,
+      "infinity_new_over_old": 1.0001105368166845,
+      "horizon_ratio_over_area_factor": 0.9999338037159383
+    },
+    {
+      "rp": 11.75,
+      "horizon_new_over_old": 1.3548293351226457,
+      "infinity_new_over_old": 0.9996473186711776,
+      "horizon_ratio_over_area_factor": 0.9991688074573314
+    },
+    {
+      "rp": 12.0,
+      "horizon_new_over_old": 1.3560583176792036,
+      "infinity_new_over_old": 1.0000871249262524,
+      "horizon_ratio_over_area_factor": 1.0000751659215217
+    },
+    {
+      "rp": 12.25,
+      "horizon_new_over_old": 1.3548164889098457,
+      "infinity_new_over_old": 0.999850242104131,
+      "horizon_ratio_over_area_factor": 0.9991593335444252
+    },
+    {
+      "rp": 12.5,
+      "horizon_new_over_old": 1.355725440878677,
+      "infinity_new_over_old": 1.0001411619251537,
+      "horizon_ratio_over_area_factor": 0.9998296736612126
+    },
+    {
+      "rp": 12.75,
+      "horizon_new_over_old": 1.354872605116533,
+      "infinity_new_over_old": 0.9998640458075605,
+      "horizon_ratio_over_area_factor": 0.9992007185084654
+    },
+    {
+      "rp": 13.0,
+      "horizon_new_over_old": 1.355367714989282,
+      "infinity_new_over_old": 0.9998345557645609,
+      "horizon_ratio_over_area_factor": 0.9995658555248338
+    },
+    {
+      "rp": 13.25,
+      "horizon_new_over_old": 1.354903581811793,
+      "infinity_new_over_old": 0.9998289697618745,
+      "horizon_ratio_over_area_factor": 0.9992235634136203
+    },
+    {
+      "rp": 13.5,
+      "horizon_new_over_old": 1.3550336534325362,
+      "infinity_new_over_old": 0.9999334593457437,
+      "horizon_ratio_over_area_factor": 0.9993194895224023
+    },
+    {
+      "rp": 13.75,
+      "horizon_new_over_old": 1.3549592513669149,
+      "infinity_new_over_old": 0.9999068316067747,
+      "horizon_ratio_over_area_factor": 0.9992646189780082
+    },
+    {
+      "rp": 14.0,
+      "horizon_new_over_old": 1.3547347049714589,
+      "infinity_new_over_old": 0.9998148133788686,
+      "horizon_ratio_over_area_factor": 0.9990990189659992
+    },
+    {
+      "rp": 14.25,
+      "horizon_new_over_old": 1.3550283760607826,
+      "infinity_new_over_old": 0.999998469385146,
+      "horizon_ratio_over_area_factor": 0.9993155975301751
+    },
+    {
+      "rp": 14.5,
+      "horizon_new_over_old": 1.3546426592506666,
+      "infinity_new_over_old": 0.9999650375796888,
+      "horizon_ratio_over_area_factor": 0.9990311364580763
+    },
+    {
+      "rp": 14.75,
+      "horizon_new_over_old": 1.355541751791997,
+      "infinity_new_over_old": 1.0001158531824794,
+      "horizon_ratio_over_area_factor": 0.9996942053768147
+    },
+    {
+      "rp": 15.0,
+      "horizon_new_over_old": 1.3547591177784306,
+      "infinity_new_over_old": 0.9997670212740355,
+      "horizon_ratio_over_area_factor": 0.9991170230899108
+    },
+    {
+      "rp": 15.25,
+      "horizon_new_over_old": 1.3559552161067485,
+      "infinity_new_over_old": 1.0001800469307798,
+      "horizon_ratio_over_area_factor": 0.9999991298684733
+    },
+    {
+      "rp": 15.5,
+      "horizon_new_over_old": 1.3548569875008134,
+      "infinity_new_over_old": 1.00003868382542,
+      "horizon_ratio_over_area_factor": 0.9991892007223728
+    },
+    {
+      "rp": 15.75,
+      "horizon_new_over_old": 1.355712612725212,
+      "infinity_new_over_old": 1.000239996626942,
+      "horizon_ratio_over_area_factor": 0.9998202130668282
+    },
+    {
+      "rp": 16.0,
+      "horizon_new_over_old": 1.3549426306258217,
+      "infinity_new_over_old": 0.9999725428525403,
+      "horizon_ratio_over_area_factor": 0.9992523614001521
+    },
+    {
+      "rp": 16.25,
+      "horizon_new_over_old": 1.3554905351771243,
+      "infinity_new_over_old": 1.000230113319832,
+      "horizon_ratio_over_area_factor": 0.9996564337972675
+    },
+    {
+      "rp": 16.5,
+      "horizon_new_over_old": 1.3551295959394243,
+      "infinity_new_over_old": 1.000054466176631,
+      "horizon_ratio_over_area_factor": 0.9993902458587959
+    },
+    {
+      "rp": 16.75,
+      "horizon_new_over_old": 1.3553061928726653,
+      "infinity_new_over_old": 0.9999694451168039,
+      "horizon_ratio_over_area_factor": 0.9995204837733529
+    },
+    {
+      "rp": 17.0,
+      "horizon_new_over_old": 1.3552823462317423,
+      "infinity_new_over_old": 0.9999076063982968,
+      "horizon_ratio_over_area_factor": 0.9995028971894525
+    },
+    {
+      "rp": 17.25,
+      "horizon_new_over_old": 1.3551763868556286,
+      "infinity_new_over_old": 0.9998958711280902,
+      "horizon_ratio_over_area_factor": 0.9994247535438096
+    },
+    {
+      "rp": 17.5,
+      "horizon_new_over_old": 1.3554415808847293,
+      "infinity_new_over_old": 0.9999835837207415,
+      "horizon_ratio_over_area_factor": 0.9996203306507796
+    },
+    {
+      "rp": 17.75,
+      "horizon_new_over_old": 1.3551113530116554,
+      "infinity_new_over_old": 0.9998958907565587,
+      "horizon_ratio_over_area_factor": 0.9993767919396115
+    },
+    {
+      "rp": 18.0,
+      "horizon_new_over_old": 1.3556966198839484,
+      "infinity_new_over_old": 0.999977565290359,
+      "horizon_ratio_over_area_factor": 0.9998084185568343
+    },
+    {
+      "rp": 18.25,
+      "horizon_new_over_old": 1.3551932048237254,
+      "infinity_new_over_old": 0.9998489017504598,
+      "horizon_ratio_over_area_factor": 0.9994371565739858
+    },
+    {
+      "rp": 18.5,
+      "horizon_new_over_old": 1.3560054442761205,
+      "infinity_new_over_old": 1.0000447512067883,
+      "horizon_ratio_over_area_factor": 1.0000361724824698
+    },
+    {
+      "rp": 18.75,
+      "horizon_new_over_old": 1.3553313507125695,
+      "infinity_new_over_old": 0.9998935513543405,
+      "horizon_ratio_over_area_factor": 0.9995390373492489
+    },
+    {
+      "rp": 19.0,
+      "horizon_new_over_old": 1.3560897329831492,
+      "infinity_new_over_old": 0.9999862691541295,
+      "horizon_ratio_over_area_factor": 1.0000983342948109
+    },
+    {
+      "rp": 19.25,
+      "horizon_new_over_old": 1.3556331843383098,
+      "infinity_new_over_old": 0.999846850515856,
+      "horizon_ratio_over_area_factor": 0.9997616356766272
+    },
+    {
+      "rp": 19.5,
+      "horizon_new_over_old": 1.3558990956936756,
+      "infinity_new_over_old": 0.9999737821549423,
+      "horizon_ratio_over_area_factor": 0.999957741802279
+    },
+    {
+      "rp": 19.75,
+      "horizon_new_over_old": 1.3557102923207938,
+      "infinity_new_over_old": 0.9999460899308007,
+      "horizon_ratio_over_area_factor": 0.9998185017991024
+    },
+    {
+      "rp": 20.0,
+      "horizon_new_over_old": 1.3557998334177852,
+      "infinity_new_over_old": 0.9999661099145134,
+      "horizon_ratio_over_area_factor": 0.9998845371799285
+    },
+    {
+      "rp": 20.25,
+      "horizon_new_over_old": 1.355853329980989,
+      "infinity_new_over_old": 0.9999018482059285,
+      "horizon_ratio_over_area_factor": 0.9999239901913697
+    },
+    {
+      "rp": 20.5,
+      "horizon_new_over_old": 1.3557825303551805,
+      "infinity_new_over_old": 0.9999083415945845,
+      "horizon_ratio_over_area_factor": 0.9998717763989358
+    },
+    {
+      "rp": 20.75,
+      "horizon_new_over_old": 1.3559172530792032,
+      "infinity_new_over_old": 0.9999628224650231,
+      "horizon_ratio_over_area_factor": 0.999971132635186
+    },
+    {
+      "rp": 21.0,
+      "horizon_new_over_old": 1.355674649514451,
+      "infinity_new_over_old": 0.9999202995348865,
+      "horizon_ratio_over_area_factor": 0.9997922156984218
+    },
+    {
+      "rp": 21.25,
+      "horizon_new_over_old": 1.3559491553477916,
+      "infinity_new_over_old": 0.9999880266142136,
+      "horizon_ratio_over_area_factor": 0.9999946601384916
+    },
+    {
+      "rp": 21.5,
+      "horizon_new_over_old": 1.355709301278458,
+      "infinity_new_over_old": 0.9999154437333408,
+      "horizon_ratio_over_area_factor": 0.9998177709184202
+    },
+    {
+      "rp": 21.75,
+      "horizon_new_over_old": 1.3560502151976739,
+      "infinity_new_over_old": 1.00006472515403,
+      "horizon_ratio_over_area_factor": 1.0000691904480081
+    },
+    {
+      "rp": 22.0,
+      "horizon_new_over_old": 1.355771248810488,
+      "infinity_new_over_old": 0.9999715760055291,
+      "horizon_ratio_over_area_factor": 0.9998634564081706
+    },
+    {
+      "rp": 22.25,
+      "horizon_new_over_old": 1.3560384361204965,
+      "infinity_new_over_old": 1.0000451249620834,
+      "horizon_ratio_over_area_factor": 1.000060503533582
+    },
+    {
+      "rp": 22.5,
+      "horizon_new_over_old": 1.3558416487525629,
+      "infinity_new_over_old": 0.9999581359336883,
+      "horizon_ratio_over_area_factor": 0.9999153754391101
+    },
+    {
+      "rp": 22.75,
+      "horizon_new_over_old": 1.3559917776591404,
+      "infinity_new_over_old": 1.0000357062727092,
+      "horizon_ratio_over_area_factor": 1.000026093532276
+    },
+    {
+      "rp": 23.0,
+      "horizon_new_over_old": 1.3558478159594596,
+      "infinity_new_over_old": 1.0000162470960905,
+      "horizon_ratio_over_area_factor": 0.9999199236730467
+    },
+    {
+      "rp": 23.25,
+      "horizon_new_over_old": 1.3559395785186314,
+      "infinity_new_over_old": 1.000021887585326,
+      "horizon_ratio_over_area_factor": 0.9999875973530005
+    },
+    {
+      "rp": 23.5,
+      "horizon_new_over_old": 1.3559638743161049,
+      "infinity_new_over_old": 0.9999598530818716,
+      "horizon_ratio_over_area_factor": 1.0000055151839466
+    },
+    {
+      "rp": 23.75,
+      "horizon_new_over_old": 1.355973635628594,
+      "infinity_new_over_old": 1.000005563434112,
+      "horizon_ratio_over_area_factor": 1.0000127140234656
+    },
+    {
+      "rp": 24.0,
+      "horizon_new_over_old": 1.356208416590607,
+      "infinity_new_over_old": 1.0000323359594787,
+      "horizon_ratio_over_area_factor": 1.0001858618936412
+    },
+    {
+      "rp": 24.25,
+      "horizon_new_over_old": 1.3560738662336342,
+      "infinity_new_over_old": 0.9999807973735136,
+      "horizon_ratio_over_area_factor": 1.0000866327758224
+    },
+    {
+      "rp": 24.5,
+      "horizon_new_over_old": 1.356023922468592,
+      "infinity_new_over_old": 1.0000344908719077,
+      "horizon_ratio_over_area_factor": 1.0000497999062767
+    },
+    {
+      "rp": 24.75,
+      "horizon_new_over_old": 1.3560043645249178,
+      "infinity_new_over_old": 1.0000149502622036,
+      "horizon_ratio_over_area_factor": 1.0000353761801655
+    },
+    {
+      "rp": 25.0,
+      "horizon_new_over_old": 1.3561206478270005,
+      "infinity_new_over_old": 1.0000738142248162,
+      "horizon_ratio_over_area_factor": 1.0001211335853657
+    },
+    {
+      "rp": 25.25,
+      "horizon_new_over_old": 1.355966195898396,
+      "infinity_new_over_old": 0.9999771480780603,
+      "horizon_ratio_over_area_factor": 1.0000072273203384
+    },
+    {
+      "rp": 25.5,
+      "horizon_new_over_old": 1.3560683275581404,
+      "infinity_new_over_old": 1.0000075133182003,
+      "horizon_ratio_over_area_factor": 1.000082548075525
+    },
+    {
+      "rp": 25.75,
+      "horizon_new_over_old": 1.3560066269084081,
+      "infinity_new_over_old": 0.999975363670673,
+      "horizon_ratio_over_area_factor": 1.0000370446582205
+    },
+    {
+      "rp": 26.0,
+      "horizon_new_over_old": 1.3560223544281238,
+      "infinity_new_over_old": 1.0000424937543555,
+      "horizon_ratio_over_area_factor": 1.0000486434970641
+    },
+    {
+      "rp": 26.25,
+      "horizon_new_over_old": 1.3559410453498366,
+      "infinity_new_over_old": 1.0000111300749979,
+      "horizon_ratio_over_area_factor": 0.9999886791217133
+    },
+    {
+      "rp": 26.5,
+      "horizon_new_over_old": 1.3559779430669159,
+      "infinity_new_over_old": 0.999974567981817,
+      "horizon_ratio_over_area_factor": 1.0000158907025496
+    },
+    {
+      "rp": 26.75,
+      "horizon_new_over_old": 1.3559583572169247,
+      "infinity_new_over_old": 1.0000055694491397,
+      "horizon_ratio_over_area_factor": 1.0000014463958966
+    },
+    {
+      "rp": 27.0,
+      "horizon_new_over_old": 1.3559633361267462,
+      "infinity_new_over_old": 1.0000306939005483,
+      "horizon_ratio_over_area_factor": 1.0000051182763763
+    },
+    {
+      "rp": 27.25,
+      "horizon_new_over_old": 1.355940888897974,
+      "infinity_new_over_old": 1.00006220986022,
+      "horizon_ratio_over_area_factor": 0.9999885637405233
+    },
+    {
+      "rp": 27.5,
+      "horizon_new_over_old": 1.3559590334138545,
+      "infinity_new_over_old": 1.0000486110365372,
+      "horizon_ratio_over_area_factor": 1.0000019450822348
+    },
+    {
+      "rp": 27.75,
+      "horizon_new_over_old": 1.3559916820288627,
+      "infinity_new_over_old": 1.0000109042458534,
+      "horizon_ratio_over_area_factor": 1.0000260230062044
+    },
+    {
+      "rp": 28.0,
+      "horizon_new_over_old": 1.3560117037569528,
+      "infinity_new_over_old": 1.000039237617421,
+      "horizon_ratio_over_area_factor": 1.0000407887672198
+    },
+    {
+      "rp": 28.25,
+      "horizon_new_over_old": 1.356005323368848,
+      "infinity_new_over_old": 1.0001108288132747,
+      "horizon_ratio_over_area_factor": 1.0000360833149473
+    },
+    {
+      "rp": 28.5,
+      "horizon_new_over_old": 1.3562132472986579,
+      "infinity_new_over_old": 1.0000416118369704,
+      "horizon_ratio_over_area_factor": 1.000189424477265
+    },
+    {
+      "rp": 28.75,
+      "horizon_new_over_old": 1.356109356250129,
+      "infinity_new_over_old": 1.0000979661764682,
+      "horizon_ratio_over_area_factor": 1.0001128061960005
+    },
+    {
+      "rp": 29.0,
+      "horizon_new_over_old": 1.3561818530852454,
+      "infinity_new_over_old": 1.0000287318351089,
+      "horizon_ratio_over_area_factor": 1.0001662716579667
+    },
+    {
+      "rp": 29.25,
+      "horizon_new_over_old": 1.3561640650881621,
+      "infinity_new_over_old": 1.000080883550269,
+      "horizon_ratio_over_area_factor": 1.0001531532441768
+    },
+    {
+      "rp": 29.5,
+      "horizon_new_over_old": 1.3562058611386283,
+      "infinity_new_over_old": 1.0000937373532814,
+      "horizon_ratio_over_area_factor": 1.0001839772814323
+    },
+    {
+      "rp": 29.75,
+      "horizon_new_over_old": 1.3562535214827232,
+      "infinity_new_over_old": 1.0000413805809643,
+      "horizon_ratio_over_area_factor": 1.000219126158075
+    },
+    {
+      "rp": 30.0,
+      "horizon_new_over_old": 1.3562603428238416,
+      "infinity_new_over_old": 1.000100678954777,
+      "horizon_ratio_over_area_factor": 1.000224156807393
+    },
+    {
+      "rp": 30.25,
+      "horizon_new_over_old": 1.356200569916208,
+      "infinity_new_over_old": 1.0001132124299086,
+      "horizon_ratio_over_area_factor": 1.0001800750745207
+    },
+    {
+      "rp": 30.5,
+      "horizon_new_over_old": 1.3561255481260022,
+      "infinity_new_over_old": 1.0001190222481635,
+      "horizon_ratio_over_area_factor": 1.0001247474914001
+    },
+    {
+      "rp": 30.75,
+      "horizon_new_over_old": 1.3561779609610527,
+      "infinity_new_over_old": 1.0001469745114946,
+      "horizon_ratio_over_area_factor": 1.0001634012675882
+    },
+    {
+      "rp": 31.0,
+      "horizon_new_over_old": 1.35610878292525,
+      "infinity_new_over_old": 1.0001646572793195,
+      "horizon_ratio_over_area_factor": 1.0001123833764463
+    },
+    {
+      "rp": 31.25,
+      "horizon_new_over_old": 1.3561580699965108,
+      "infinity_new_over_old": 1.0001405156077428,
+      "horizon_ratio_over_area_factor": 1.000148731942969
+    },
+    {
+      "rp": 31.5,
+      "horizon_new_over_old": 1.3560602388665732,
+      "infinity_new_over_old": 1.0001489160534072,
+      "horizon_ratio_over_area_factor": 1.0000765827719273
+    },
+    {
+      "rp": 31.75,
+      "horizon_new_over_old": 1.3560947575647324,
+      "infinity_new_over_old": 1.0000596808597477,
+      "horizon_ratio_over_area_factor": 1.0001020398576137
+    },
+    {
+      "rp": 32.0,
+      "horizon_new_over_old": 1.3561130184407697,
+      "infinity_new_over_old": 1.000119648480277,
+      "horizon_ratio_over_area_factor": 1.00011550701341
+    },
+    {
+      "rp": 32.25,
+      "horizon_new_over_old": 1.3561281763985193,
+      "infinity_new_over_old": 1.000056695992397,
+      "horizon_ratio_over_area_factor": 1.000126685807798
+    },
+    {
+      "rp": 32.5,
+      "horizon_new_over_old": 1.3561191915212056,
+      "infinity_new_over_old": 1.0000531394379648,
+      "horizon_ratio_over_area_factor": 1.0001200595790045
+    },
+    {
+      "rp": 32.75,
+      "horizon_new_over_old": 1.356187935754757,
+      "infinity_new_over_old": 1.000060389190392,
+      "horizon_ratio_over_area_factor": 1.000170757546694
+    },
+    {
+      "rp": 33.0,
+      "horizon_new_over_old": 1.3562298072286174,
+      "infinity_new_over_old": 1.00013927621929,
+      "horizon_ratio_over_area_factor": 1.0002016372077105
+    },
+    {
+      "rp": 33.25,
+      "horizon_new_over_old": 1.356285403961019,
+      "infinity_new_over_old": 1.0001065319253684,
+      "horizon_ratio_over_area_factor": 1.0002426390663004
+    },
+    {
+      "rp": 33.5,
+      "horizon_new_over_old": 1.356373267628585,
+      "infinity_new_over_old": 1.00006925115138,
+      "horizon_ratio_over_area_factor": 1.0003074373649974
+    },
+    {
+      "rp": 33.75,
+      "horizon_new_over_old": 1.3563094751821494,
+      "infinity_new_over_old": 1.0000590588264704,
+      "horizon_ratio_over_area_factor": 1.0002603912751487
+    },
+    {
+      "rp": 34.0,
+      "horizon_new_over_old": 1.3566125891523249,
+      "infinity_new_over_old": 1.0000735095447757,
+      "horizon_ratio_over_area_factor": 1.000483933839701
+    },
+    {
+      "rp": 34.25,
+      "horizon_new_over_old": 1.3564335797287397,
+      "infinity_new_over_old": 1.0001489042705867,
+      "horizon_ratio_over_area_factor": 1.0003519167452593
+    },
+    {
+      "rp": 34.5,
+      "horizon_new_over_old": 1.3565972022771726,
+      "infinity_new_over_old": 1.0001667360370166,
+      "horizon_ratio_over_area_factor": 1.0004725862217407
+    },
+    {
+      "rp": 34.75,
+      "horizon_new_over_old": 1.3562416490888145,
+      "infinity_new_over_old": 1.0001877541229311,
+      "horizon_ratio_over_area_factor": 1.0002103704237875
+    },
+    {
+      "rp": 35.0,
+      "horizon_new_over_old": 1.3566329923077924,
+      "infinity_new_over_old": 1.0001237782745311,
+      "horizon_ratio_over_area_factor": 1.0004989808983882
+    },
+    {
+      "rp": 35.25,
+      "horizon_new_over_old": 1.3562501210328486,
+      "infinity_new_over_old": 1.000162864339092,
+      "horizon_ratio_over_area_factor": 1.0002166183710366
+    },
+    {
+      "rp": 35.5,
+      "horizon_new_over_old": 1.3564527118041905,
+      "infinity_new_over_old": 1.0001686426581389,
+      "horizon_ratio_over_area_factor": 1.0003660263991594
+    },
+    {
+      "rp": 35.75,
+      "horizon_new_over_old": 1.3562364557323459,
+      "infinity_new_over_old": 1.000198644362683,
+      "horizon_ratio_over_area_factor": 1.0002065403917275
+    },
+    {
+      "rp": 36.0,
+      "horizon_new_over_old": 1.3563232698666772,
+      "infinity_new_over_old": 1.0001429169817757,
+      "horizon_ratio_over_area_factor": 1.000270564673474
+    },
+    {
+      "rp": 36.25,
+      "horizon_new_over_old": 1.3562824098909243,
+      "infinity_new_over_old": 1.0002448232239345,
+      "horizon_ratio_over_area_factor": 1.0002404309790023
+    },
+    {
+      "rp": 36.5,
+      "horizon_new_over_old": 1.3563617730948387,
+      "infinity_new_over_old": 1.0002508332070161,
+      "horizon_ratio_over_area_factor": 1.0002989602976076
+    },
+    {
+      "rp": 36.75,
+      "horizon_new_over_old": 1.3564678499197815,
+      "infinity_new_over_old": 1.0002449663644868,
+      "horizon_ratio_over_area_factor": 1.0003771905602166
+    },
+    {
+      "rp": 37.0,
+      "horizon_new_over_old": 1.3564407723474485,
+      "infinity_new_over_old": 1.0002271749621838,
+      "horizon_ratio_over_area_factor": 1.0003572212069147
+    },
+    {
+      "rp": 37.25,
+      "horizon_new_over_old": 1.3566659320419145,
+      "infinity_new_over_old": 1.0001941419476643,
+      "horizon_ratio_over_area_factor": 1.0005232735188738
+    },
+    {
+      "rp": 37.5,
+      "horizon_new_over_old": 1.3563175879715579,
+      "infinity_new_over_old": 1.0001525518388616,
+      "horizon_ratio_over_area_factor": 1.0002663743505873
+    },
+    {
+      "rp": 37.75,
+      "horizon_new_over_old": 1.356889055728469,
+      "infinity_new_over_old": 1.000240437823577,
+      "horizon_ratio_over_area_factor": 1.0006878243017883
+    },
+    {
+      "rp": 38.0,
+      "horizon_new_over_old": 1.3561684263923985,
+      "infinity_new_over_old": 1.000364442925351,
+      "horizon_ratio_over_area_factor": 1.000156369648664
+    },
+    {
+      "rp": 38.25,
+      "horizon_new_over_old": 1.3569228729833736,
+      "infinity_new_over_old": 0.9991954214612041,
+      "horizon_ratio_over_area_factor": 1.0007127640823041
+    },
+    {
+      "rp": 38.5,
+      "horizon_new_over_old": 1.3561773242900284,
+      "infinity_new_over_old": 0.9999592027615334,
+      "horizon_ratio_over_area_factor": 1.0001629317310852
+    },
+    {
+      "rp": 38.75,
+      "horizon_new_over_old": 1.3566622894466998,
+      "infinity_new_over_old": 0.9994799081793075,
+      "horizon_ratio_over_area_factor": 1.000520587152833
+    },
+    {
+      "rp": 39.0,
+      "horizon_new_over_old": 1.3562168676762054,
+      "infinity_new_over_old": 0.9998963704948203,
+      "horizon_ratio_over_area_factor": 1.0001920944580687
+    },
+    {
+      "rp": 39.25,
+      "horizon_new_over_old": 1.3563559219984245,
+      "infinity_new_over_old": 0.999704777437594,
+      "horizon_ratio_over_area_factor": 1.0002946451909924
+    },
+    {
+      "rp": 39.5,
+      "horizon_new_over_old": 1.3560552970414659,
+      "infinity_new_over_old": 0.9999418595537509,
+      "horizon_ratio_over_area_factor": 1.0000729382409366
+    },
+    {
+      "rp": 39.75,
+      "horizon_new_over_old": 1.3559813972022494,
+      "infinity_new_over_old": 0.9999244335203887,
+      "horizon_ratio_over_area_factor": 1.0000184380819075
+    },
+    {
+      "rp": 40.0,
+      "horizon_new_over_old": 1.355940934901108,
+      "infinity_new_over_old": 0.9993648061442779,
+      "horizon_ratio_over_area_factor": 0.9999885976672293
+    }
+  ],
+  "limitations": [
+    "PDF polylines are digitized published curves, not author raw arrays; no rigorous readout error bound.",
+    "Li actually uses a=.88, while local/Dyson exact threshold spin is about.877153; comparisons are not identical parameter runs.",
+    "Local totals retain historical finite source and mode cutoffs.",
+    "Separation-constant correction is explicitly mentioned in the paper, but its exact old implementation is not supplied.",
+    "Physical production source, radial solver and flux functions are unchanged.",
+    "Li total curves use scalar ell<=5 at both boundaries; same_ellmax5 comparisons explicitly match this cutoff. Existing local infinity totals use ell<=6."
+  ]
+}

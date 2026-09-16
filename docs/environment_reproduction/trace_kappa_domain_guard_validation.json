@@ -1,0 +1,38 @@
+{
+  "status": "guard_preserves_actual_valid_point_exactly",
+  "parameters": {
+    "a": 0.8771530275949366,
+    "r0": 20.0,
+    "r": 1.4807109600800843,
+    "theta": 1.1,
+    "omega": 0.011071760582072043,
+    "m": 1,
+    "ell": 1,
+    "order": 6
+  },
+  "before_file": "trace_kappa_domain_guard_before.json",
+  "before_sha256": "d0545c9ce0a47d1c629b1ffd2dc1b18499715aae99756e4ba83c4f9237f3a222",
+  "before_implementation_sha256": "6c5b5d8eccc119dc7aaf6ac7ac04d1aca6be52ea5bb03d682a3f891f52461d92",
+  "after_implementation_sha256": "1a7a906260ac790b2c1c170cca277cb0e9c77b8b54cc5330e1660d3588b4b8e1",
+  "trace_value": [
+    0.003416783641084446,
+    0.0028841374763072195
+  ],
+  "kappa_value": [
+    -0.0076595990355934,
+    0.006181450913852992
+  ],
+  "trace_all_coefficients_array_equal": true,
+  "kappa_all_coefficients_array_equal": true,
+  "trace_max_absolute_difference": 0.0,
+  "kappa_max_absolute_difference": 0.0,
+  "interpretation": "Only invalid radii are rejected. Integration parameters and valid numerical operations are unchanged. Earlier horizon cutoff diagnostic files retain their original pre-guard source hashes; this is a distinct after-guard check, not relabeling historical computations.",
+  "tests": {
+    "command": "PYTHONPATH=src OPENBLAS_NUM_THREADS=1 .venv/bin/python -m pytest -q tests/test_lorenz_kappa_domain.py tests/test_lorenz_kappa.py",
+    "result": "17 passed in 3.09s",
+    "files_sha256": {
+      "tests/test_lorenz_kappa_domain.py": "ad9f970a2d36fa3106e26fc84ab55e18a559d226ea2d6576fdc690258953e1cd",
+      "tests/test_lorenz_kappa.py": "e3c2fa968e0eb108aa1e1fc011f182cbe58155dfd33595c2f0413f285235dae1"
+    }
+  }
+}

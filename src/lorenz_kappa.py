@@ -30,6 +30,10 @@ def scalar_resolvent(r0,a,ell,m,msq,rtol=1e-12,rmax=2000.,infinity_method='serie
 def trace_field_jet(g,r0,ell,msq=0.,rtol=1e-12,rmax=2000.,infinity_method='series'):
     r,theta=float(g.r.value.real),float(g.theta.value.real)
     radial,zi,zh=scalar_resolvent(r0,g.a,ell,g.m,msq,rtol,rmax,infinity_method)
+    # OdeSolution otherwise silently extrapolates beyond the integrated domain.
+    if not np.isfinite(r) or not radial.rmin <= r <= radial.rmax:
+        raise ValueError(f"Trace/kappa requested r={r!r} outside solved radial range "
+                         f"[{radial.rmin!r}, {radial.rmax!r}]; radius must be finite")
     R,dR=(zh*radial.insol.sol(r) if r<r0 else zi*radial.upsol.sol(r))
     S,dS,lam=angular_mode(theta,ell,g.m,g.a*g.a*(g.omega*g.omega-msq))
     eigenvalue=lam+g.a*g.a*g.omega*g.omega-2*g.a*g.m*g.omega

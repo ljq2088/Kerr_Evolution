@@ -141,5 +141,10 @@
     "Does not recreate all potentially coupled effects of an entire historical generator, nor prove what code generated Fig2.",
     "PDF digitization does not have formal error bounds; reported percent differences are approximate."
   ],
-  "static_dataflow_audit": "Both specific lmins2 gates act after matching; no feedback into kappa/trace jumps. Their direct effect is whole spheroidal ell1 vector deletion, not merely output spherical ell1. Historical full generator was not rerun."
+  "static_dataflow_audit": "Both specific lmins2 gates act after matching; no feedback into kappa/trace jumps. Their direct effect is whole spheroidal ell1 vector deletion, not merely output spherical ell1. Historical full generator was not rerun.",
+  "subsequent_evidence_update": {
+    "report": "docs/KERR_HORIZON_REFERENCE_CORRECTION_20260916.md",
+    "status": "isolated_vector_omission_rejection_still_valid; original_large_reference_mismatch_now_mainly_explained",
+    "evidence": "Li et al arXiv2507.02045v2 explicitly corrects horizon normalization; independently read new Dyson curve gives local mismatch -2.16% at rp20 rather than +32.66% against original."
+  }
 }
