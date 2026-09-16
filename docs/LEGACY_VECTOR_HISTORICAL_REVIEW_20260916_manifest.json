@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-09-16",
+  "scope": "Read-only historical and source-provenance review; no numerical ablation or production edits.",
+  "input_original_path": "C:/Users/赖景祺/Downloads/Kerr_environment_horizon_flux_diagnosis.md",
+  "repository": "https://github.com/ConorDyson/KerrLorenzMSF",
+  "commit": "b784aa25f7d7a226389e2a5fbdac1a883fd411ff",
+  "parent": "d7d7f829bfb57b2e6263da3a0ce1207f499c1beb",
+  "commit_utc": "2026-06-02T22:51:59Z",
+  "commit_message": "additional ll>lmax2 bug found",
+  "tree_comparison": {
+    "old_recursive_nodes": 165,
+    "new_recursive_nodes": 2081,
+    "both_truncated": false,
+    "added_blobs": 1888,
+    "deleted_blobs": 0,
+    "modified_existing_blobs": 0
+  },
+  "cross_path_comparison": {
+    "before_path": "GenerationCodes/Numerics-WorldTube/h1-radial-gen/MetricReconstructRadiative.wl",
+    "before_commit": "d7d7f829bfb57b2e6263da3a0ce1207f499c1beb",
+    "before_blob": "deec703c45fb5f7e6e5a8630c33cb7eb4caaa2f6",
+    "after_path": "Ret-Numerics/h1-radial-gen/MetricReconstructRadiative.wl",
+    "after_commit": "b784aa25f7d7a226389e2a5fbdac1a883fd411ff",
+    "after_blob": "4be336657bda0a44dbc44b77b2b397725d10072d",
+    "changes": [
+      {
+        "old_line": 2335,
+        "new_line": 2334,
+        "symbol": "MMm1vec",
+        "from": "ll>=lmins2",
+        "to": "ll>=lmins1"
+      },
+      {
+        "old_line": 2431,
+        "new_line": 2430,
+        "symbol": "MMm1gridL/MMm1gridR",
+        "from": "ll>=lmins2",
+        "to": "ll>=lmins1"
+      },
+      {
+        "kind": "one blank line removed"
+      }
+    ]
+  },
+  "unchanged_or_added_bad_copies_at_commit": [
+    "GenerationCodes/Numerics-WorldTube/h1-radial-gen/MetricReconstructRadiative.wl",
+    "Ret-Numerics/BIGRUN-h1-radial-gen-session/MetricReconstructRadiative.wl"
+  ],
+  "paper": {
+    "arxiv": "2501.09806v1",
+    "tex_sha256": "cc1434ceb6eec54b3dbfbf69cbda528bc787ba8e8571eaa9278a2b23bef884b1",
+    "relevant_lines": {
+      "fig2_include": 343,
+      "fig2_caption": 344,
+      "horizon_scalar_monopole": 362,
+      "schwarzschild_cloud_stationarity": 382,
+      "modular_metric_package": 681,
+      "schwarzschild_metric_validation": 685,
+      "ingoing_coordinate_check": 697
+    }
+  },
+  "findings": {
+    "public_gate_bug": "verified",
+    "specific_corrected_copy": "verified",
+    "all_paths_fixed": "false",
+    "gate_is_kerr_only": "false",
+    "paper_generic_modular_workflow": "verified",
+    "fig2_used_specific_public_bad_copy": "unestablished",
+    "gate_explains_current_flux_percentage": "requires separate quantitative ablation"
+  },
+  "artifacts": [
+    {
+      "path": "outputs/paper_metric_reference/legacy_history_20260916/b784aa_commit.json",
+      "bytes": 787902,
+      "sha256": "865f9e1f0daa25b00d39d9d647af98d8085323d154783fc92f6f260509fdf020",
+      "source_url": "https://api.github.com/repos/ConorDyson/KerrLorenzMSF/commits/b784aa25f7d7a226389e2a5fbdac1a883fd411ff"
+    },
+    {
+      "path": "outputs/paper_metric_reference/legacy_history_20260916/parent_commit.json",
+      "bytes": 140853,
+      "sha256": "c64eb50243f8f958a16cdbbb4f34e25c35033347c15ce6dace2489467f924724",
+      "source_url": "https://api.github.com/repos/ConorDyson/KerrLorenzMSF/commits/d7d7f829bfb57b2e6263da3a0ce1207f499c1beb"
+    },
+    {
+      "path": "outputs/paper_metric_reference/legacy_history_20260916/b784aa_tree.json",
+      "bytes": 576640,
+      "sha256": "fa2a1a2b28cd5f465c427c94fae0626c5b8a3b076d0c01d28ada389fbfb241ce",
+      "source_url": "https://api.github.com/repos/ConorDyson/KerrLorenzMSF/git/trees/b784aa25f7d7a226389e2a5fbdac1a883fd411ff?recursive=1"
+    },
+    {
+      "path": "outputs/paper_metric_reference/legacy_history_20260916/d7d7f8_tree.json",
+      "bytes": 44946,
+      "sha256": "8cd66b7b9c5342376c601ef61914d6c1a6cb2bd2a9f15f0ee9878ed45dfb2633",
+      "source_url": "https://api.github.com/repos/ConorDyson/KerrLorenzMSF/git/trees/d7d7f829bfb57b2e6263da3a0ce1207f499c1beb?recursive=1"
+    },
+    {
+      "path": "outputs/paper_metric_reference/legacy_history_20260916/parent_worldtube.wl",
+      "bytes": 143066,
+      "sha256": "58973b88500511de01f051e15fc9ee65c650c0285da176fabc62b0e7ec7ca67c",
+      "source_url": "https://raw.githubusercontent.com/ConorDyson/KerrLorenzMSF/d7d7f829bfb57b2e6263da3a0ce1207f499c1beb/GenerationCodes/Numerics-WorldTube/h1-radial-gen/MetricReconstructRadiative.wl"
+    },
+    {
+      "path": "outputs/paper_metric_reference/legacy_history_20260916/commit_ret.wl",
+      "bytes": 143065,
+      "sha256": "2682cf87cf558ff3ada3a0dfa0e8fa3ca12fd73f3f5f069de7d219dccb9c6071",
+      "source_url": "https://raw.githubusercontent.com/ConorDyson/KerrLorenzMSF/b784aa25f7d7a226389e2a5fbdac1a883fd411ff/Ret-Numerics/h1-radial-gen/MetricReconstructRadiative.wl"
+    },
+    {
+      "path": "outputs/paper_metric_reference/legacy_history_20260916/worldtube_history.json",
+      "bytes": 4812,
+      "sha256": "0eaefed501e9f64357f7eee2ecae882be2214b2acedebe649a0fe7674d2d6b69",
+      "source_url": "https://api.github.com/repos/ConorDyson/KerrLorenzMSF/commits?sha=b784aa25f7d7a226389e2a5fbdac1a883fd411ff&path=GenerationCodes%2FNumerics-WorldTube%2Fh1-radial-gen%2FMetricReconstructRadiative.wl&per_page=100"
+    },
+    {
+      "path": "outputs/paper_metric_reference/legacy_history_20260916/ret_history.json",
+      "bytes": 1442,
+      "sha256": "054ffd2009d0ad1ed326df1b18578b3c84fefc49e0f38bf35028583754a43ebb",
+      "source_url": "https://api.github.com/repos/ConorDyson/KerrLorenzMSF/commits?sha=b784aa25f7d7a226389e2a5fbdac1a883fd411ff&path=Ret-Numerics%2Fh1-radial-gen%2FMetricReconstructRadiative.wl&per_page=100"
+    },
+    {
+      "path": "outputs/paper_metric_reference/legacy_history_20260916/user_diagnosis_input.md",
+      "bytes": 25321,
+      "sha256": "e328bd393ce669e440789c2ef5a20fe6a8c7b12eb118b267ece17595d06932a0",
+      "source_url": null
+    },
+    {
+      "path": "outputs/paper_metric_reference/legacy_history_20260916/worldtube_to_ret_cross_path.diff",
+      "bytes": 1744,
+      "sha256": "b7b98aefb1d121816a94d433519c5da635a6d2d93b390481d41eead9f009b22a",
+      "source_url": null
+    },
+    {
+      "path": "outputs/paper_original_reference/arxiv_v1_source/main_PRL.tex",
+      "bytes": 67351,
+      "sha256": "cc1434ceb6eec54b3dbfbf69cbda528bc787ba8e8571eaa9278a2b23bef884b1",
+      "source_url": "https://arxiv.org/src/2501.09806v1",
+      "member": "main_PRL.tex"
+    },
+    {
+      "path": "outputs/paper_original_reference/ConorDyson__KerrLorenzMSF_repo_20260915.json",
+      "bytes": 15772,
+      "sha256": "0231f6cbc36287c2609130c1120b12577b37a4c73f0015129a4299b21ef1c347",
+      "source_url": "https://api.github.com/repos/ConorDyson/KerrLorenzMSF"
+    },
+    {
+      "path": "src/report_legacy_vector_ablation.py",
+      "bytes": 6235,
+      "sha256": "b2c088207081852f68056b297bf95473639feb5977ac8564dd022f39e67212b3",
+      "source_url": null,
+      "role": "Read-only inspected current local ablation implementation; not executed in this audit."
+    }
+  ],
+  "review_artifacts": [
+    {
+      "path": "docs/LEGACY_VECTOR_HISTORICAL_REVIEW_20260916.md",
+      "sha256": "e64d14969d5735b02d0d230cc9bf06a3efd75662d8d70d23cae264e65ac7e489",
+      "bytes": 14591
+    },
+    {
+      "path": "docs/LEGACY_VECTOR_CROSS_PATH_20260916.diff",
+      "sha256": "b7b98aefb1d121816a94d433519c5da635a6d2d93b390481d41eead9f009b22a",
+      "bytes": 1744
+    }
+  ],
+  "repository_created_at_utc": "2026-01-15T12:24:30Z",
+  "dataflow_review": {
+    "method": "Read-only inspection of fixed source; no Mathematica run.",
+    "matching_receives_zeroed_radial_arrays": false,
+    "matching_retains_ell1_spin1_unknowns": true,
+    "kappa_trace_feedback_from_faulty_gates": false,
+    "mathematical_gate_effect": "Delete full vector reconstructed from spheroidal ell=1, while retaining original full matching coefficients and all other sectors.",
+    "important_non_equivalence": "Deleting output spherical ell=1 only, or resolving matching after deleting ell=1 unknowns, is a different operation.",
+    "source_lines": {
+      "matching_inputs": [
+        594,
+        606
+      ],
+      "matching_lower_gate": [
+        679,
+        710
+      ],
+      "unknowns": 979,
+      "abs_m1_closure": [
+        1009,
+        1015
+      ],
+      "matching_solve": [
+        1018,
+        1022
+      ],
+      "main_matching_call": [
+        2390,
+        2403
+      ],
+      "bad_gates": [
+        2335,
+        2431
+      ],
+      "positive_spin_linear_conversion": [
+        243,
+        249
+      ],
+      "kappa_construction": [
+        2450,
+        2458
+      ],
+      "sector_sum": [
+        2475,
+        2476
+      ]
+    },
+    "local_experiment_limit": "Finite scalar00 vector-subtraction test, not full original-generator/environment reproduction or historical provenance proof."
+  }
+}

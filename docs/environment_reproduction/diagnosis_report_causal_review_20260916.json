@@ -1,0 +1,145 @@
+{
+  "status": "report_causal_claim_rejected_original_discrepancy_unresolved",
+  "date": "2026-09-16",
+  "input_diagnosis_sha256": "e328bd393ce669e440789c2ef5a20fe6a8c7b12eb118b267ece17595d06932a0",
+  "flux_definition": "paper effective orbital-energy scalar horizon flux, per q^2 eta; eta=M_cloud/M",
+  "controlled_ablation": {
+    "baseline_Z_reintegration_relative": 2.591819766762476e-16,
+    "z_h_full": [
+      -0.04961014159237698,
+      0.033505376202138996
+    ],
+    "z_h_vector": [
+      0.0925388758677368,
+      -0.0433457331826303
+    ],
+    "z_h_legacy": [
+      -0.14214901746011377,
+      0.07685110938476931
+    ],
+    "flux_prefactor": -0.01869745660578955,
+    "flux_h_full": -6.700750341090502e-05,
+    "flux_h_vector": -0.0001952443787929522,
+    "flux_h_legacy": -0.0004882361423198038,
+    "interference_full_legacy_vector": 0.0006164730177018509,
+    "flux_identity_residual": 1.0842021724855044e-19,
+    "amplitude_identity_residual": [
+      0.0,
+      -1.3877787807814457e-17
+    ],
+    "legacy_over_physical_flux": 7.286290601305207,
+    "vector_amplitude_over_full": [
+      -1.686260855968326,
+      -0.2651286763017519
+    ],
+    "source_integral_cancellation": {
+      "full": 1.616742928960357,
+      "vector": 1.0502851594537983,
+      "legacy": 1.2257155764341268
+    }
+  },
+  "refinement": {
+    "coarse": {
+      "radial_nodes": 88,
+      "radial_order": 8,
+      "horizon_order": 32,
+      "angular_order": 18,
+      "jet_order": 6,
+      "green_rtol": 1e-11
+    },
+    "fine": {
+      "radial_nodes": 176,
+      "radial_order": 16,
+      "horizon_order": 64,
+      "angular_order": 24,
+      "jet_order": 8,
+      "green_rtol": 5e-13
+    },
+    "Z_vector_refined": [
+      0.0925388759841325,
+      -0.04334573323625503
+    ],
+    "relative_Z_vector_change": 1.2541104413237764e-09,
+    "rule": "Only vector amplitude refined. Full/legacy flux reported above uses exactly the same88-node grid for both terms; no coarse-full/fine-vector flux mixed."
+  },
+  "independent_integration": {
+    "orbit_extrapolation_epsilon": 0.0005,
+    "Z_vector_boundary": [
+      0.09253887499350079,
+      -0.04334573277838607
+    ],
+    "relative_direct_coarse_vs_boundary": 9.425540113885022e-09,
+    "relative_direct_fine_vs_boundary": 1.0679649473566449e-08,
+    "no_phase_or_scale_adjustment": true
+  },
+  "four_points": [
+    {
+      "alpha": 0.3,
+      "rp": 10.0,
+      "full_scalar00_horizon_flux": -6.272275500165436e-05,
+      "delete_vector_scalar00_horizon_flux": -0.00022236005949972771,
+      "magnitude_ratio": 3.545125839798695,
+      "baseline_provenance": "historical_baseline: Unversioned source samples cannot be resumed or reused. Keep the historical report and use --output for a fresh calculation.",
+      "evidence": "docs/environment_reproduction/legacy_vector_boundary_a03_r10.json",
+      "sha256": "5da714fd103567cc0673a966bc3daeaad3f4fc2b93ce3adde81fa3044b878ef5"
+    },
+    {
+      "alpha": 0.3,
+      "rp": 20.0,
+      "full_scalar00_horizon_flux": -6.700750341090506e-05,
+      "delete_vector_scalar00_horizon_flux": -0.0004882361365109376,
+      "magnitude_ratio": 7.286290514615415,
+      "baseline_provenance": "same_current_source_provenance",
+      "evidence": "docs/environment_reproduction/legacy_vector_boundary_a03_r20.json",
+      "sha256": "dc959b970fca24293e5ff0a701647cedf4912de8eeb6537aceaafe6cc1ed1370"
+    },
+    {
+      "alpha": 0.3,
+      "rp": 30.0,
+      "full_scalar00_horizon_flux": -1.2220492355887712e-05,
+      "delete_vector_scalar00_horizon_flux": -0.00028181490961372936,
+      "magnitude_ratio": 23.060847419781226,
+      "baseline_provenance": "historical_baseline: Unversioned source samples cannot be resumed or reused. Keep the historical report and use --output for a fresh calculation.",
+      "evidence": "docs/environment_reproduction/legacy_vector_boundary_a03_r30.json",
+      "sha256": "eefc52cb20c89febd6d8c5c62142e95e69b9c2d52546b70ac525953db425cf06"
+    },
+    {
+      "alpha": 0.2,
+      "rp": 20.0,
+      "full_scalar00_horizon_flux": -3.185367417752099e-06,
+      "delete_vector_scalar00_horizon_flux": -1.0482118933551412e-05,
+      "magnitude_ratio": 3.2907095348355764,
+      "baseline_provenance": "historical_baseline: Unversioned source samples cannot be resumed or reused. Keep the historical report and use --output for a fresh calculation.",
+      "evidence": "docs/environment_reproduction/legacy_vector_boundary_a02_r20.json",
+      "sha256": "71cc2bfa231fe36f8a997971995938fd206780a4b05331b98d82761afaf10971"
+    }
+  ],
+  "paper_horizon_total_digitized_magnitude": 5.1763743451483155e-05,
+  "threshold_sign_bound": {
+    "assumptions": [
+      "exact synchronous cloud omega_c=m_b Omega_H",
+      "0<Omega_p<Omega_H",
+      "same angular normalization and scalar-only effective orbital-energy flux"
+    ],
+    "formula": "F_H_lm=4*M*r_plus*mg^2*Omega_p*(Omega_p-Omega_H)*abs(Z_H_lm)^2 <= 0",
+    "full00_over_paper_total": 1.2944872017169595,
+    "delete00_over_paper_total": 9.43200993138016,
+    "abs_Zfull": 0.05986465053153283,
+    "max_abs_Z00_allowed_by_paper_total": 0.05261645338318641,
+    "max_Z00_fraction_allowed": 0.8789235870586343
+  },
+  "fractional_deletion_polynomial": {
+    "formula": "abs(F00(lambda))/abs(F00(0)) = 1 + linear*lambda + quadratic*lambda^2; Z(lambda)=Zfull-lambda*Zvector",
+    "linear": 3.3725217119366526,
+    "quadratic": 2.913768889368552,
+    "monotone_increasing_for_lambda_nonnegative": true
+  },
+  "conclusion_limits": [
+    "Does not certify total physical flux at arbitrary resolution or match original 2025 environmental arrays.",
+    "Only alpha.3 rp20 full baseline has matching current source provenance; other three full baselines historical.",
+    "Two integral methods share the spin1 metric model. Original Sam spin1 sampled checks provide separate bounded support.",
+    "Does not recreate all potentially coupled effects of an entire historical generator, nor prove what code generated Fig2.",
+    "PDF digitization does not have formal error bounds; reported percent differences are approximate."
+  ],
+  "static_dataflow_audit": "Both specific lmins2 gates act after matching; no feedback into kappa/trace jumps. Their direct effect is whole spheroidal ell1 vector deletion, not merely output spherical ell1. Historical full generator was not rerun."
+}

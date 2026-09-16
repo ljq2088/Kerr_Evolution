@@ -1,0 +1,138 @@
+{
+  "status": "completed_independent_causal_ablation_with_refinement",
+  "date": "2026-09-16",
+  "hypothesis": "Delete only ell_g1 spin1/vector for |m_g|1 to reduce alpha.3 rp20 Kerr horizon-flux magnitude toward the paper.",
+  "verdict": "Rejected at this test point: deleting only that sector increases scalar00 horizon magnitude by factor7.28629, opposite to the proposed reduction.",
+  "author_history_scope": "This does not establish which code version produced the2025 figure. A real source-code gating defect and HDF5 signature do not imply the claimed flux explanation.",
+  "inputs": {
+    "same_grid": {
+      "path": "docs/environment_reproduction/legacy_vector_ablation_alpha03_r20_n88_q18.json",
+      "sha256": "42aa4d551e8204db9a17a3a4486e990690db336e81ea4ffe1768c0f9cddfc9c2"
+    },
+    "refined_vector": {
+      "path": "docs/environment_reproduction/legacy_vector_ablation_alpha03_r20_n176_q24_refined.json",
+      "sha256": "3d2a03d4383c2d32b15b960ae85a75d7d71bc95b93a395b350b6fbfd6c44e23c"
+    },
+    "independent_boundary": {
+      "path": "docs/environment_reproduction/legacy_vector_boundary_a03_r20.json",
+      "sha256": "dc959b970fca24293e5ff0a701647cedf4912de8eeb6537aceaafe6cc1ed1370"
+    }
+  },
+  "parameters": {
+    "alpha": 0.3,
+    "cloud_mass": 1.0,
+    "metric": {
+      "status": "development_not_production_validated",
+      "coordinates": "Boyer-Lindquist",
+      "field": "covariant h_ab; particle mass stripped",
+      "m_g": -1,
+      "ellmax": 18,
+      "orbital_radius": 20.0,
+      "a": 0.8771530275949366,
+      "static_and_low_modes_included": false,
+      "kappa_mass_squared_step": 1.2258388238672426e-06,
+      "maxwell_chiralities": "both; full complex compact current",
+      "nonstatic_dipole_included": true
+    },
+    "scalar_ell": 0,
+    "scalar_m": 0,
+    "omega": 0.2852214878976851,
+    "radial_order": 8,
+    "angular_order": 18,
+    "source_panels": [
+      1.4807109600800843,
+      3.0,
+      6.0,
+      12.0,
+      20.0,
+      40.0,
+      80.0,
+      160.0,
+      320.0
+    ],
+    "green_outer_radius": 1000.0,
+    "green_horizon_offset": 0.0001,
+    "horizon_log_first_panel": true,
+    "horizon_quadrature_order": 32
+  },
+  "same_grid_results": {
+    "baseline_Z_reintegration_relative": 2.591819766762476e-16,
+    "z_h_full": [
+      -0.04961014159237698,
+      0.033505376202138996
+    ],
+    "z_h_vector": [
+      0.0925388758677368,
+      -0.0433457331826303
+    ],
+    "z_h_legacy": [
+      -0.14214901746011377,
+      0.07685110938476931
+    ],
+    "flux_prefactor": -0.01869745660578955,
+    "flux_h_full": -6.700750341090502e-05,
+    "flux_h_vector": -0.0001952443787929522,
+    "flux_h_legacy": -0.0004882361423198038,
+    "interference_full_legacy_vector": 0.0006164730177018509,
+    "flux_identity_residual": 1.0842021724855044e-19,
+    "amplitude_identity_residual": [
+      0.0,
+      -1.3877787807814457e-17
+    ],
+    "legacy_over_physical_flux": 7.286290601305207,
+    "vector_amplitude_over_full": [
+      -1.686260855968326,
+      -0.2651286763017519
+    ],
+    "source_integral_cancellation": {
+      "full": 1.616742928960357,
+      "vector": 1.0502851594537983,
+      "legacy": 1.2257155764341268
+    }
+  },
+  "refinement": {
+    "coarse": {
+      "radial_nodes": 88,
+      "radial_order": 8,
+      "horizon_order": 32,
+      "angular_order": 18,
+      "jet_order": 6,
+      "green_rtol": 1e-11
+    },
+    "fine": {
+      "radial_nodes": 176,
+      "radial_order": 16,
+      "horizon_order": 64,
+      "angular_order": 24,
+      "jet_order": 8,
+      "green_rtol": 5e-13
+    },
+    "Z_vector_refined": [
+      0.0925388759841325,
+      -0.04334573323625503
+    ],
+    "relative_Z_vector_change": 1.2541104413237764e-09,
+    "rule": "Only vector amplitude refined. Full/legacy flux reported above uses exactly the same88-node grid for both terms; no coarse-full/fine-vector flux mixed."
+  },
+  "independent_boundary_check": {
+    "orbit_extrapolation_epsilon": 0.0005,
+    "Z_vector_boundary": [
+      0.09253887499350079,
+      -0.04334573277838607
+    ],
+    "relative_direct_coarse_vs_boundary": 9.425540113885022e-09,
+    "relative_direct_fine_vs_boundary": 1.0679649473566449e-08,
+    "no_phase_or_scale_adjustment": true
+  },
+  "identity": "F_full = C |Z_legacy|^2 + C |Z_vector|^2 + 2 C Re(Z_legacy conj(Z_vector)); C unchanged and negative. Strong destructive amplitude interference is lost when vector is removed.",
+  "code": {
+    "report_legacy_vector_ablation.py": "b2c088207081852f68056b297bf95473639feb5977ac8564dd022f39e67212b3",
+    "report_legacy_vector_ablation_refinement.py": "a1e188a6f9f960701ab2dcbd2e96678d6c7eb0af9ce85c8d8463a2e2b03bb854"
+  },
+  "limitations": [
+    "Only scalar00 from metricmg-1 at alpha.3,rp20; other scalar channels and total flux handled separately.",
+    "Both sources use the same normalized threshold cloud and covariant Hessian; no original-author environment source code was executed.",
+    "Deletion need not preserve Lorenz gauge or physical Einstein-source matching; legacy is a diagnostic counterfactual, not an alternative physical solution.",
+    "Finite inner/outer source cutoffs retained from baseline. Existing full-source convergence limitations remain; vector quadrature refinement and independent boundary identity make the reversed effect robust."
+  ]
+}

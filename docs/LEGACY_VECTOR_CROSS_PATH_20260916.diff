@@ -1,0 +1,33 @@
+--- parent:GenerationCodes/WorldTube
+
++++ b784aa:Ret-Numerics
+
+@@ -706,7 +706,6 @@
+
+ (* Awkwardness: to keep the expressions compact, I would like to replace 'r' with the numerical value 'r0', but not in the radial functions themselves, as these I will use as unknowns. So I will replace the radial functions with jump expressions at an early stage. *)
+ 
+ Pm2jump=Table[If[ll>=lmins2,{Pm2[ll][r]->Pm2j0[ll],Pm2[ll]'[r]->Pm2j1[ll]},{}],{ll,0,lmax}]//Flatten;
+-
+ Pm1jump=Table[If[ll>=lmins1,{Pm1[ll][r]->Pm1j0[ll],Pm1[ll]'[r]->Pm1j1[ll]},{}],{ll,0,lmax}]//Flatten;
+ hjump=Table[If[ll>=lmins0,{h[ll][r]->0,h[ll]'[r]->hj1[ll]},{}],{ll,0,lmax}]//Flatten;
+ \[Kappa]jump=Table[If[ll>=lmins0,{\[Kappa][ll][r]->\[Kappa]j0[ll],\[Kappa][ll]'[r]->\[Kappa]j1[ll]},{}],{ll,0,lmax}]//Flatten;
+@@ -2332,7 +2331,7 @@
+
+ 
+ 
+ EchoTiming[MMm2vec = Table[If[ll>=lmins2,MSTMode[{-2,ll,mm,a0,\[Omega]0},{lNGrid,rNGrid},"RadialDerivatives"-> 4 ,"CleanUp"->False,"Interpolator"->OptionValue["Interpolator"] ],0],{ll,0,lmax}],"Generate s=-2 MSTModes"];
+-EchoTiming[MMm1vec = Table[If[ll>=lmins2,MSTMode[{-1,ll,mm,a0,\[Omega]0},{lNGrid,rNGrid},"RadialDerivatives"-> 2,"CleanUp"->False,"Interpolator"->OptionValue["Interpolator"] ],0],{ll,0,lmax}],"Generate s=-1 MSTModes"];
++EchoTiming[MMm1vec = Table[If[ll>=lmins1,MSTMode[{-1,ll,mm,a0,\[Omega]0},{lNGrid,rNGrid},"RadialDerivatives"-> 2,"CleanUp"->False,"Interpolator"->OptionValue["Interpolator"] ],0],{ll,0,lmax}],"Generate s=-1 MSTModes"];
+ 
+ 
+ ];
+@@ -2428,7 +2427,7 @@
+
+ EchoTiming[
+ Monitor[{MMm1gridL,MMm1gridR}=
+  Transpose@Table[
+- If[ll>=lmins2,
++ If[ll>=lmins1,
+  With[
+  {MM=MMm1vec[[ll+1]]},
+  ConstructSolution[{MSTRhor[MM]/MSTAhor[MM],MSTRinf[MM]/MST\[Beta]inf[MM]}, {Pm1j0[ll],Pm1j1[ll]}/.s1\[Kappa]jumps]

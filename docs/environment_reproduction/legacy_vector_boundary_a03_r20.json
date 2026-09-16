@@ -1,0 +1,310 @@
+{
+  "status": "completed_vacuum_vector_boundary_identity",
+  "baseline": "docs/environment_reproduction/fresh_20260915_L18_mg-1_sl0.json",
+  "baseline_sha256": "b58da0ebd0240420da60d3d22bfc276828bf67b8342d0c41672d57f1b0bbc8d7",
+  "baseline_provenance": "same_current_source_provenance",
+  "parameters": {
+    "alpha": 0.3,
+    "cloud_mass": 1.0,
+    "metric": {
+      "status": "development_not_production_validated",
+      "coordinates": "Boyer-Lindquist",
+      "field": "covariant h_ab; particle mass stripped",
+      "m_g": -1,
+      "ellmax": 18,
+      "orbital_radius": 20.0,
+      "a": 0.8771530275949366,
+      "static_and_low_modes_included": false,
+      "kappa_mass_squared_step": 1.2258388238672426e-06,
+      "maxwell_chiralities": "both; full complex compact current",
+      "nonstatic_dipole_included": true
+    },
+    "scalar_ell": 0,
+    "scalar_m": 0,
+    "omega": 0.2852214878976851,
+    "radial_order": 8,
+    "angular_order": 18,
+    "source_panels": [
+      1.4807109600800843,
+      3.0,
+      6.0,
+      12.0,
+      20.0,
+      40.0,
+      80.0,
+      160.0,
+      320.0
+    ],
+    "green_outer_radius": 1000.0,
+    "green_horizon_offset": 0.0001,
+    "horizon_log_first_panel": true,
+    "horizon_quadrature_order": 32
+  },
+  "angular_order": 24,
+  "jet_order": 8,
+  "implementation_sha256": {
+    "environment_cloud": "13f9628f4513c00022ce7ebe69fc3d74db19a8e9fb610ece93ef9095866c8549",
+    "environment_radial": "b392c3ffdbc0ed022441e050a8c25b641533ed65630d6dff8e81d26cdaf28b5a",
+    "environment_source": "f8ed45cc7200b9738fa3406d0b8a03552f4847340cabdc92eec97b219c4cebb2",
+    "lorenz_chi": "7cd9321f8abe514b6649d54f9c9bc1258753f2e506573288b427fd7c01eb73b9",
+    "lorenz_corrector": "e97fba97ec3cc61fb3e9e990de2e5ddf14da6595bec9f52b3e2fc12da2c11632",
+    "lorenz_ghp": "598f52a92d2ba3c2b9edc51d8c08240a128a8ba714fb379578dbaff63b87a2fc",
+    "lorenz_jet": "8a68ebf0c27ba0a444f07851a6a5eb03623ff328e920a91f3824c332c635af65",
+    "lorenz_kappa": "6c5b5d8eccc119dc7aaf6ac7ac04d1aca6be52ea5bb03d682a3f891f52461d92",
+    "lorenz_metric": "e356a13729114412ffba238807ca1b4b612fc64c78c4a920a101e05baf02e91b",
+    "lorenz_mode_jet": "e8fe89e3a0d13f89ffbf4666fee552d8df3678f8c09f5866c456d9e9c68a6ccc",
+    "lorenz_spin1": "baf3b91c7ce4d316d75394288cbc218279b21be435ce9c696601f3fe39bafe98",
+    "lorenz_spin1_chiral": "e0c14b1f38f01d2f468c5fa439f527dd3b84b819b05e679334d390da2c581449",
+    "lorenz_tensor": "03bd09d77eb50a087cf20dfd9ddf04fb9514efe2311fff1b3a57c4b423551070",
+    "lorenz_weyl": "85668a281b4f351b57cce1a9ac56ddc4e07119918545e24685643f7195f012fd",
+    "report_legacy_vector_boundary_identity": "bdae6858fabcac966254e35697a16d85a77327c3b99f55339d5ca72ea5875309",
+    "source_provenance": "bd857ee008868fc3dbd880b276cd59acf025a38e13326674981d80fa3377a1b9"
+  },
+  "rows": [
+    {
+      "orbit_extrapolation_epsilon": 0.001,
+      "boundaries": {
+        "horizon": {
+          "endpoint": [
+            -0.0006166839250869323,
+            -0.0002827251100221514
+          ],
+          "orbit": [
+            0.0931555559424566,
+            -0.04306300629258749
+          ],
+          "Zvector": [
+            0.09253887201736967,
+            -0.04334573140260964
+          ]
+        },
+        "infinity": {
+          "endpoint": [
+            6.8516995731518535e-37,
+            7.251305774018671e-37
+          ],
+          "orbit": [
+            -6.229927489004751e-43,
+            -1.4339878733505418e-42
+          ],
+          "Zvector": [
+            6.851693343224364e-37,
+            7.2512914341399375e-37
+          ]
+        }
+      },
+      "z_h_legacy": [
+        -0.14214901360974666,
+        0.07685110760474864
+      ],
+      "z_inf_legacy": [
+        0.0,
+        0.0
+      ],
+      "flux_legacy": {
+        "infinity": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": -0.0,
+          "orbital_angular_momentum": -0.0
+        },
+        "horizon": {
+          "charge": 0.04409742363176462,
+          "wave_energy": 0.012577532780706446,
+          "orbital_energy": -0.0004882361167371038,
+          "orbital_angular_momentum": -0.04409742363176462
+        }
+      },
+      "vector_horizon_amplitude_over_full": [
+        -1.686260786026038,
+        -0.2651286649447594
+      ]
+    },
+    {
+      "orbit_extrapolation_epsilon": 0.0005,
+      "boundaries": {
+        "horizon": {
+          "endpoint": [
+            -0.0006166839250869323,
+            -0.0002827251100221514
+          ],
+          "orbit": [
+            0.09315555891858772,
+            -0.04306300766836392
+          ],
+          "Zvector": [
+            0.09253887499350079,
+            -0.04334573277838607
+          ]
+        },
+        "infinity": {
+          "endpoint": [
+            6.8516995731518535e-37,
+            7.251305774018671e-37
+          ],
+          "orbit": [
+            -6.22992813652364e-43,
+            -1.4339879191635075e-42
+          ],
+          "Zvector": [
+            6.851693343223717e-37,
+            7.251291434139479e-37
+          ]
+        }
+      },
+      "z_h_legacy": [
+        -0.14214901658587778,
+        0.07685110898052508
+      ],
+      "z_inf_legacy": [
+        0.0,
+        0.0
+      ],
+      "flux_legacy": {
+        "infinity": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": -0.0,
+          "orbital_angular_momentum": -0.0
+        },
+        "horizon": {
+          "charge": 0.044097425417734766,
+          "wave_energy": 0.012577533290103507,
+          "orbital_energy": -0.0004882361365109376,
+          "orbital_angular_momentum": -0.044097425417734766
+        }
+      },
+      "vector_horizon_amplitude_over_full": [
+        -1.6862608400869423,
+        -0.2651286737243053
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "r": 1.4807109600800843,
+      "state": [
+        [
+          -0.0004773212882184473,
+          -0.00048195887685694984
+        ],
+        [
+          -0.845968040146378,
+          0.8375631195560873
+        ],
+        [
+          3164.57978682026,
+          -193.68653102177856
+        ]
+      ]
+    },
+    {
+      "r": 320.0,
+      "state": [
+        [
+          3.6767332034633264e-09,
+          3.3345789534838254e-09
+        ],
+        [
+          -1.407419940763237e-10,
+          -1.9754486993532213e-10
+        ],
+        [
+          4.682581479982788e-12,
+          1.089544439026702e-11
+        ]
+      ]
+    },
+    {
+      "r": 19.999,
+      "state": [
+        [
+          0.0001551001127564874,
+          -0.00028905366282247534
+        ],
+        [
+          -2.349349503816146e-05,
+          4.378061646616018e-05
+        ],
+        [
+          1.5852258243796026e-06,
+          -2.9535472698258893e-06
+        ]
+      ]
+    },
+    {
+      "r": 20.001,
+      "state": [
+        [
+          -0.011512885926504882,
+          -0.000288966107498352
+        ],
+        [
+          -0.0009255756158383277,
+          4.377470963556165e-05
+        ],
+        [
+          0.0005190129047224487,
+          -2.9532835091282556e-06
+        ]
+      ]
+    },
+    {
+      "r": 19.9995,
+      "state": [
+        [
+          0.000155088366207121,
+          -0.0002890317728834379
+        ],
+        [
+          -2.349270243410919e-05,
+          4.37791397090096e-05
+        ],
+        [
+          1.585190383904973e-06,
+          -2.953481331013122e-06
+        ]
+      ]
+    },
+    {
+      "r": 20.0005,
+      "state": [
+        [
+          -0.011512423073815748,
+          -0.0002889879952225557
+        ],
+        [
+          -0.0009258351443255171,
+          4.3776186293837435e-05
+        ],
+        [
+          0.0005191010455505887,
+          -2.953349450674916e-06
+        ]
+      ]
+    }
+  ],
+  "baseline_z_h": [
+    -0.049610141592376984,
+    0.03350537620213901
+  ],
+  "baseline_flux": {
+    "infinity": {
+      "charge": 0.0,
+      "wave_energy": 0.0,
+      "orbital_energy": -0.0,
+      "orbital_angular_momentum": -0.0
+    },
+    "horizon": {
+      "charge": 0.006052109139661763,
+      "wave_energy": 0.0017261915737335069,
+      "orbital_energy": -6.700750341090506e-05,
+      "orbital_angular_momentum": -0.006052109139661763
+    }
+  },
+  "limitations": [
+    "Pure-gauge scalar identity on each vacuum side, including one-sided orbit terms; these terms are NOT new physical delta sources.",
+    "Tests a numerical deletion hypothesis, not an admissible alternative sourced metric or attribution of the2025 figure.",
+    "Full baseline retained as recorded; historical provenance is explicitly marked."
+  ]
+}
