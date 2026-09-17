@@ -1,0 +1,520 @@
+{
+  "status": "bounded_general_Kerr_quasibound_cloud_validation",
+  "exact_cloud_provenance": {
+    "kind": "GeneralKerrQuasiboundCloud",
+    "a": 0.88,
+    "mu": 0.3,
+    "ell": 1,
+    "m": 1,
+    "spectral_omega": [
+      0.2962935347256115,
+      2.216609396445795e-09
+    ],
+    "temporal_omega": [
+      0.2962935347256115,
+      2.216609396445795e-09
+    ],
+    "freeze_growth": false,
+    "mass": 1.0,
+    "normalization": "Underlying exact complex mode Killing energy on ingoing Kerr-Schild T=0",
+    "normalization_audit": {
+      "raw_energy": 795290.318239169,
+      "raw_charge": 2684129.8409613403,
+      "radial_points": 6001,
+      "angular_order": 48,
+      "offset": 1e-06,
+      "outer_efolds": 75.0,
+      "rtol": 2e-13,
+      "horizon_order": 6,
+      "infinity_order": 8,
+      "freeze_order": "No frequency freezing"
+    },
+    "radial_coordinates": "BL",
+    "normalization_slice": "ingoing Kerr-Schild T=0",
+    "azimuth_transform": "Psi=phi+a/(rplus-rminus)*log((r-rplus)/(r-rminus))",
+    "phase_convention": "Unit exp[-i(omega-m OmegaH) rstar] ingoing BL amplitude before mass normalization",
+    "module_sha256": "3403dbf846cf630f6668fa2ed698272a37c687124a3d193d68b155b43816458b"
+  },
+  "matching_residual": [
+    -2.9923979960599922e-15,
+    -1.734723475976807e-17
+  ],
+  "independent_mass_reintegration": {
+    "grid6001": [
+      1.0000000000000002,
+      3.375031456316734
+    ],
+    "grid12001": [
+      1.000000000029166,
+      3.375031456415169
+    ]
+  },
+  "horizon_balance": {
+    "energy": 1.000000000029166,
+    "charge": 3.375031456415169,
+    "horizon_energy": -4.4332187930215265e-09,
+    "horizon_charge": -1.496225287914873e-08,
+    "energy_balance": -6.377562522783843e-22,
+    "charge_balance": 3.127073587695466e-20,
+    "energy_balance_relative": 1.4385851049857886e-13,
+    "charge_balance_relative": 2.0899750946285164e-12
+  },
+  "endpoint_tolerance_refinement": {
+    "coarse_provenance": {
+      "kind": "GeneralKerrQuasiboundCloud",
+      "a": 0.88,
+      "mu": 0.3,
+      "ell": 1,
+      "m": 1,
+      "spectral_omega": [
+        0.2962935347256115,
+        2.216609396445795e-09
+      ],
+      "temporal_omega": [
+        0.2962935347256115,
+        2.216609396445795e-09
+      ],
+      "freeze_growth": false,
+      "mass": 1.0,
+      "normalization": "Underlying exact complex mode Killing energy on ingoing Kerr-Schild T=0",
+      "normalization_audit": {
+        "raw_energy": 795290.3179932192,
+        "raw_charge": 2684129.840184491,
+        "radial_points": 3001,
+        "angular_order": 48,
+        "offset": 1e-05,
+        "outer_efolds": 60.0,
+        "rtol": 2e-11,
+        "horizon_order": 4,
+        "infinity_order": 6,
+        "freeze_order": "No frequency freezing"
+      },
+      "radial_coordinates": "BL",
+      "normalization_slice": "ingoing Kerr-Schild T=0",
+      "azimuth_transform": "Psi=phi+a/(rplus-rminus)*log((r-rplus)/(r-rminus))",
+      "phase_convention": "Unit exp[-i(omega-m OmegaH) rstar] ingoing BL amplitude before mass normalization",
+      "module_sha256": "3403dbf846cf630f6668fa2ed698272a37c687124a3d193d68b155b43816458b"
+    },
+    "samples": [
+      {
+        "r": 1.4759736834815165,
+        "radial_state_relative": 1.5462325095350899e-10
+      },
+      {
+        "r": 3.0,
+        "radial_state_relative": 1.5493442137351195e-10
+      },
+      {
+        "r": 20.0,
+        "radial_state_relative": 1.5549602920570078e-10
+      },
+      {
+        "r": 100.0,
+        "radial_state_relative": 1.5056823080183696e-10
+      },
+      {
+        "r": 320.0,
+        "radial_state_relative": 1.5823840484039593e-10
+      }
+    ]
+  },
+  "direct_KS_stress_tensor_checks": [
+    {
+      "r": 3.0,
+      "theta": 0.7,
+      "direct_stress_energy": 5.063281658011432e-06,
+      "integrand_energy": 5.063281658011434e-06,
+      "direct_Noether_charge": 8.409282035859192e-06,
+      "integrand_charge": 8.40928203585919e-06,
+      "energy_relative": 3.3457864067825393e-16,
+      "charge_relative": 2.0145190603486696e-16
+    },
+    {
+      "r": 20.0,
+      "theta": 1.1,
+      "direct_stress_energy": 0.0009395784233694372,
+      "integrand_energy": 0.0009395784233694368,
+      "direct_Noether_charge": 0.0032306861834850145,
+      "integrand_charge": 0.0032306861834850136,
+      "energy_relative": 4.615696340056127e-16,
+      "charge_relative": 2.6847601058322563e-16
+    },
+    {
+      "r": 100.0,
+      "theta": 2.0,
+      "direct_stress_energy": 0.00019072619854230556,
+      "integrand_energy": 0.00019072619854230554,
+      "direct_Noether_charge": 0.0006364955167808259,
+      "integrand_charge": 0.000636495516780826,
+      "energy_relative": 1.4211500317889132e-16,
+      "charge_relative": 1.7033932587129975e-16
+    }
+  ],
+  "exact_local_checks": [
+    {
+      "r": 1.4754736834815165,
+      "field": [
+        -0.0003451995171493714,
+        1.6349514761911227e-05
+      ],
+      "kg_residual": [
+        -7.867242014097942e-18,
+        -2.993202677359884e-17
+      ],
+      "kg_relative_to_mu2_field": 9.95044808616704e-13,
+      "expected_freezing_defect": [
+        0.0,
+        -0.0
+      ],
+      "kg_minus_predicted_defect_relative": 9.95044808616704e-13,
+      "jet_kg_relative": 8.136471685217215e-13,
+      "jet_minus_hessian_kg_relative": 1.3744818025936214e-12,
+      "jet_field_relative": 0.0,
+      "jet_Rtheta_derivative_relative": 0.0,
+      "independent_five_point_radial_residual_relative": 1.0258418269493252e-10
+    },
+    {
+      "r": 3.0,
+      "field": [
+        -0.0011574278824179863,
+        1.3704384962366918e-05
+      ],
+      "kg_residual": [
+        -1.3552527156068805e-19,
+        1.4823076576950256e-21
+      ],
+      "kg_relative_to_mu2_field": 1.3010062150491114e-15,
+      "expected_freezing_defect": [
+        0.0,
+        -0.0
+      ],
+      "kg_minus_predicted_defect_relative": 1.3010062150491114e-15,
+      "jet_kg_relative": 1.3023568614404445e-16,
+      "jet_minus_hessian_kg_relative": 1.4311656040216614e-15,
+      "jet_field_relative": 0.0,
+      "jet_Rtheta_derivative_relative": 0.0,
+      "independent_five_point_radial_residual_relative": 1.688003824650616e-12
+    },
+    {
+      "r": 20.0,
+      "field": [
+        -0.003502840873714581,
+        4.1081314010194523e-05
+      ],
+      "kg_residual": [
+        5.421010862427522e-20,
+        -8.470329472543003e-22
+      ],
+      "kg_relative_to_mu2_field": 1.719651732810061e-16,
+      "expected_freezing_defect": [
+        0.0,
+        -0.0
+      ],
+      "kg_minus_predicted_defect_relative": 1.719651732810061e-16,
+      "jet_kg_relative": 6.877780529547914e-16,
+      "jet_minus_hessian_kg_relative": 5.158343049482487e-16,
+      "jet_field_relative": 0.0,
+      "jet_Rtheta_derivative_relative": 0.0,
+      "independent_five_point_radial_residual_relative": 2.8258512524041512e-12
+    },
+    {
+      "r": 100.0,
+      "field": [
+        -0.0003179608208467188,
+        3.7279910080679445e-06
+      ],
+      "kg_residual": [
+        -6.776263578034403e-21,
+        1.0587911840678754e-22
+      ],
+      "kg_relative_to_mu2_field": 2.368085239295025e-16,
+      "expected_freezing_defect": [
+        0.0,
+        -0.0
+      ],
+      "kg_minus_predicted_defect_relative": 2.368085239295025e-16,
+      "jet_kg_relative": 0.0,
+      "jet_minus_hessian_kg_relative": 2.368085239295025e-16,
+      "jet_field_relative": 0.0,
+      "jet_Rtheta_derivative_relative": 0.0,
+      "independent_five_point_radial_residual_relative": 1.0304629638730152e-11
+    }
+  ],
+  "frozen_local_checks": [
+    {
+      "r": 1.4754736834815165,
+      "field": [
+        -0.0003451995171493714,
+        1.6349514761911227e-05
+      ],
+      "kg_residual": [
+        -1.040425619193864e-12,
+        -2.19682653225505e-11
+      ],
+      "kg_relative_to_mu2_field": 7.071035745065629e-07,
+      "expected_freezing_defect": [
+        -1.0404706820681447e-12,
+        -2.196823467169459e-11
+      ],
+      "kg_minus_predicted_defect_relative": 1.752221623958377e-12,
+      "jet_kg_relative": 7.071027241537427e-07,
+      "jet_minus_hessian_kg_relative": 1.6286871587165362e-12,
+      "jet_field_relative": 0.0,
+      "jet_Rtheta_derivative_relative": 0.0,
+      "independent_five_point_radial_residual_relative": 1.0258418269493252e-10
+    },
+    {
+      "r": 3.0,
+      "field": [
+        -0.0011574278824179863,
+        1.3704384962366918e-05
+      ],
+      "kg_residual": [
+        3.925925882129755e-14,
+        3.3157277237587536e-12
+      ],
+      "kg_relative_to_mu2_field": 3.183042303049089e-08,
+      "expected_freezing_defect": [
+        3.9259473373765725e-14,
+        3.3157277219389292e-12
+      ],
+      "kg_minus_predicted_defect_relative": 2.059596979597542e-15,
+      "jet_kg_relative": 3.183042302507533e-08,
+      "jet_minus_hessian_kg_relative": 1.4311959179104524e-15,
+      "jet_field_relative": 0.0,
+      "jet_Rtheta_derivative_relative": 0.0,
+      "independent_five_point_radial_residual_relative": 1.688003824650616e-12
+    },
+    {
+      "r": 20.0,
+      "field": [
+        -0.003502840873714581,
+        4.1081314010194523e-05
+      ],
+      "kg_residual": [
+        5.99094883944884e-14,
+        5.108234701712769e-12
+      ],
+      "kg_relative_to_mu2_field": 1.6203466104772635e-08,
+      "expected_freezing_defect": [
+        5.9909371107763e-14,
+        5.108234702101583e-12
+      ],
+      "kg_minus_predicted_defect_relative": 3.7201329730733655e-16,
+      "jet_kg_relative": 1.6203466103429416e-08,
+      "jet_minus_hessian_kg_relative": 1.3433139475117493e-18,
+      "jet_field_relative": 0.0,
+      "jet_Rtheta_derivative_relative": 0.0,
+      "independent_five_point_radial_residual_relative": 2.8258512524041512e-12
+    },
+    {
+      "r": 100.0,
+      "field": [
+        -0.0003179608208467188,
+        3.7279910080679445e-06
+      ],
+      "kg_residual": [
+        4.996745611674999e-15,
+        4.2617320728928986e-13
+      ],
+      "kg_relative_to_mu2_field": 1.4892582821793573e-08,
+      "expected_freezing_defect": [
+        4.996747334921651e-15,
+        4.261732071609081e-13
+      ],
+      "kg_minus_predicted_defect_relative": 6.038142564283663e-17,
+      "jet_kg_relative": 1.4892582818555872e-08,
+      "jet_minus_hessian_kg_relative": 1.1840426196475125e-16,
+      "jet_field_relative": 0.0,
+      "jet_Rtheta_derivative_relative": 0.0,
+      "independent_five_point_radial_residual_relative": 1.0304629638730152e-11
+    }
+  ],
+  "freeze_mass_defect": {
+    "spectral_energy": 1.000000000029166,
+    "temporally_frozen_energy_on_same_slice": 1.0000000269886269
+  },
+  "limitations": [
+    "This validates the cloud and local source interfaces only; no new metric/source grid or full forced field was calculated.",
+    "Exact complex-frequency source projection uses the bilinear angular dual; real-frequency RadialGreen/mode_flux remain inapplicable without explicit approximation.",
+    "freeze_growth is temporal-only AFTER the complex spatial profile and spectral KS mass normalization; it has a measured KG defect and is not a synchronized or exact stationary solution."
+  ],
+  "independent_BL_horizon_series_comparison": {
+    "radius": 1.4749746834815165,
+    "relative_state_difference": 5.724911044284761e-15,
+    "new": [
+      [
+        0.9962857778581552,
+        -0.08612868685497055
+      ],
+      [
+        541.2804411669441,
+        6239.7028647334855
+      ]
+    ],
+    "existing_independent_series": [
+      [
+        0.9962857778581555,
+        -0.08612868685496954
+      ],
+      [
+        541.2804411669346,
+        6239.702864733451
+      ]
+    ]
+  },
+  "synchronous_limit": {
+    "a": 0.8771530275949366,
+    "omega": 0.29629324847975713,
+    "KS_energy": 1.0000000000287874,
+    "old_BL_energy": 1.0000000000264717,
+    "samples": [
+      {
+        "r": 1.4812109600800842,
+        "radial_state_relative": 2.3844244256704193e-10,
+        "hessian_relative": 2.809113970433739e-10
+      },
+      {
+        "r": 3.0,
+        "radial_state_relative": 2.936224932076595e-12,
+        "hessian_relative": 1.070615207277446e-11
+      },
+      {
+        "r": 20.0,
+        "radial_state_relative": 1.2724003756197042e-12,
+        "hessian_relative": 1.5623579620716732e-12
+      },
+      {
+        "r": 100.0,
+        "radial_state_relative": 3.7712514702688385e-12,
+        "hessian_relative": 3.19351133675701e-12
+      },
+      {
+        "r": 320.0,
+        "radial_state_relative": 4.047838828719288e-11,
+        "hessian_relative": 4.0520278279306644e-11
+      }
+    ]
+  },
+  "Schwarzschild_limit": {
+    "omega": [
+      0.296192346399001,
+      -9.455651671983593e-06
+    ],
+    "new_balance": {
+      "energy": 1.0000000000287133,
+      "charge": 3.376184466539838,
+      "horizon_energy": 1.8911303342102355e-05,
+      "horizon_charge": 6.38480485831109e-05,
+      "energy_balance": -2.4078368422372765e-15,
+      "charge_balance": -8.814008008693752e-15,
+      "energy_balance_relative": 1.273226280960072e-10,
+      "charge_balance_relative": 1.3804663109195222e-10
+    },
+    "old_balance": {
+      "energy": 0.9999999999999999,
+      "charge": 3.3761844664428944,
+      "horizon_energy": 1.8911310865829815e-05,
+      "horizon_charge": 6.384807398460268e-05,
+      "energy_balance": 7.521862632400974e-12,
+      "charge_balance": 2.5394511106034863e-11
+    },
+    "samples": [
+      {
+        "r": 2.001,
+        "BL_radial_relative": 1.0477753481753381e-10,
+        "KS_radial_relative": 8.118865342816746e-08
+      },
+      {
+        "r": 3.0,
+        "BL_radial_relative": 4.3659425867029016e-11,
+        "KS_radial_relative": 5.6976811191137207e-11
+      },
+      {
+        "r": 20.0,
+        "BL_radial_relative": 3.604985670486975e-11,
+        "KS_radial_relative": 3.605270287610011e-11
+      },
+      {
+        "r": 100.0,
+        "BL_radial_relative": 3.826218561739032e-11,
+        "KS_radial_relative": 3.8262318670798634e-11
+      },
+      {
+        "r": 320.0,
+        "BL_radial_relative": 3.595645835705149e-11,
+        "KS_radial_relative": 3.595648679337638e-11
+      }
+    ]
+  },
+  "complex_angular_dual_test": {
+    "test_c2": [
+      0.1,
+      0.2
+    ],
+    "physical_cloud_c2": [
+      -0.001711533407079335,
+      1.017200780987525e-09
+    ],
+    "hermitian_norm": 0.9999999999999981,
+    "dual_self": [
+      0.9999999999999974,
+      -9.868605283085736e-18
+    ],
+    "dual_other": [
+      -1.1093817817316441e-15,
+      -4.0356730110124096e-17
+    ],
+    "incorrect_Hermitian_cross_projection": [
+      3.911174860126534e-08,
+      -0.008597717125819164
+    ]
+  },
+  "source_interface_test": {
+    "metric": "Fixed arbitrary symmetric toy tensor only; no Lorenz/gauge or physical source claim.",
+    "frozen_existing_projection": [
+      [
+        0.00013599613641916103,
+        -1.612354810077952e-06
+      ],
+      [
+        0.00029467621612515804,
+        -3.4560053627869036e-06
+      ]
+    ],
+    "frozen_explicit_projection": [
+      [
+        0.00013599613641916103,
+        -1.612354810077952e-06
+      ],
+      [
+        0.00029467621612515804,
+        -3.4560053627869036e-06
+      ]
+    ],
+    "relative_difference": 0.0,
+    "exact_complex_omega": [
+      0.2999425864619064,
+      2.216609396445795e-09
+    ],
+    "exact_complex_projection": [
+      [
+        0.00013599613643375204,
+        -1.6123535777700773e-06
+      ],
+      [
+        0.00029467621616800565,
+        -3.4560017093353185e-06
+      ]
+    ]
+  },
+  "implementation_sha256": {
+    "src/report_kerr_quasibound_cloud_validation.py": "7d5426b7a0f8b6044ce932a2edd02ab44c2712a03ad5f9cc0b600d763f308079",
+    "src/environment_kerr_quasibound_cloud.py": "3403dbf846cf630f6668fa2ed698272a37c687124a3d193d68b155b43816458b",
+    "src/environment_source.py": "f8ed45cc7200b9738fa3406d0b8a03552f4847340cabdc92eec97b219c4cebb2",
+    "src/environment_cloud.py": "13f9628f4513c00022ce7ebe69fc3d74db19a8e9fb610ece93ef9095866c8549",
+    "src/environment_radial.py": "b392c3ffdbc0ed022441e050a8c25b641533ed65630d6dff8e81d26cdaf28b5a",
+    "src/environment_schwarzschild_cloud.py": "0658e39d28ecade112d9dc34d06510f15252a79d58901a5111a9edb1c8e051ab",
+    "src/lorenz_mode_jet.py": "e8fe89e3a0d13f89ffbf4666fee552d8df3678f8c09f5866c456d9e9c68a6ccc"
+  }
+}

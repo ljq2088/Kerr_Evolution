@@ -1,0 +1,30 @@
+[
+  {
+    "rp": 41.1,
+    "pid": 209908,
+    "command": [
+      ".venv/bin/python",
+      "-u",
+      "src/report_li_source_radial_refinement.py",
+      "--rp",
+      "41.1",
+      "--workers",
+      "4"
+    ],
+    "log": "docs/root_cause_followup_20260917/radial_refine_rp41.1.log"
+  },
+  {
+    "rp": 42.1,
+    "pid": 209909,
+    "command": [
+      ".venv/bin/python",
+      "-u",
+      "src/report_li_source_radial_refinement.py",
+      "--rp",
+      "42.1",
+      "--workers",
+      "4"
+    ],
+    "log": "docs/root_cause_followup_20260917/radial_refine_rp42.1.log"
+  }
+]

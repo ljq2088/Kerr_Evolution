@@ -1,0 +1,29 @@
+{
+  "status": "finite_resolution_fresh_scalar22_completed",
+  "started_utc": "2026-09-17T09:24:57.136712+00:00",
+  "pid": 211127,
+  "workers": 4,
+  "orbits": [
+    42.1,
+    41.1
+  ],
+  "driver_sha256": "58423a6e58f1870a6d6e1818858838e32ef169f7e0f750158fe3350994d98740",
+  "cloud_module_sha256": "3403dbf846cf630f6668fa2ed698272a37c687124a3d193d68b155b43816458b",
+  "results": [
+    {
+      "orbital_radius": 42.1,
+      "file": "docs/root_cause_followup_20260917/fresh_a088_rp42p1_sl2_sm2_L6_q12_nr8_h32.json",
+      "sha256": "1176554c4f209eaf88d0215553f346408f3a04370ddf97bf467bada745f2269e",
+      "comparison": "docs/root_cause_followup_20260917/fresh_a088_rp42p1_scalar22_comparison.json",
+      "elapsed_seconds": 464.17086621699855
+    },
+    {
+      "orbital_radius": 41.1,
+      "file": "docs/root_cause_followup_20260917/fresh_a088_rp41p1_sl2_sm2_L6_q12_nr8_h32.json",
+      "sha256": "2cfd1a39765187442fb62ddb0eb7ba0500fc7fc202a83fe7fadd3c489a2a3bf6",
+      "comparison": "docs/root_cause_followup_20260917/fresh_a088_rp41p1_scalar22_comparison.json",
+      "elapsed_seconds": 267.84899258299265
+    }
+  ],
+  "completed_utc": "2026-09-17T09:37:29.289521+00:00"
+}

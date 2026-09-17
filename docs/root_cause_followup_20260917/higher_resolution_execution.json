@@ -1,0 +1,18 @@
+{
+  "rp": 42.1,
+  "pid": 210616,
+  "command": [
+    ".venv/bin/python",
+    "-u",
+    "src/report_li_source_radial_refinement.py",
+    "--rp",
+    "42.1",
+    "--workers",
+    "8",
+    "--L",
+    "8",
+    "--q",
+    "20"
+  ],
+  "log": "docs/root_cause_followup_20260917/higher_resolution_rp42.1_L8_q20.log"
+}

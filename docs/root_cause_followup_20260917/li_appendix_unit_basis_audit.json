@@ -1,0 +1,4631 @@
+{
+  "status": "pointwise_unit_basis_identity_audit_not_particle_source_or_flux_test",
+  "scalar_fixtures": [
+    "Entire manufactured separated complex function (off shell)",
+    "Production exact synchronized ThresholdCloud |211> at three generic BL points",
+    "Analytic exact massless Schwarzschild static ell1: (r-1)cos(theta), at two points"
+  ],
+  "target": "Sigma*h^{mu nu}*Hessian_mu_nu",
+  "component_order": [
+    "lp_lp",
+    "lm_lm",
+    "mp_mp",
+    "mm_mm",
+    "Gamma_lp_mp",
+    "barGamma_lp_mm",
+    "barGamma_lm_mp",
+    "Gamma_lm_mm",
+    "SigmaDelta_lp_lm",
+    "trace"
+  ],
+  "source_definition": "Li 2507.02045v2 main.tex source_components 861-912, h_decomp 378-396",
+  "mappings": {
+    "appendix_delta": "L along m_minus and Ldag along m_plus, implied by delta table lines 829-837 and explicit tetrad 355-369",
+    "literal_body_423": "L along m_plus and Ldag along m_minus, literal statement in line 423"
+  },
+  "identified_difference": "direct - printed(Appendix mapping) = x8 * (Delta Rpp + Delta_prime Rp + Kc^2/Delta R) * S / (2 Sigma^2)",
+  "on_shell_difference": "x8 * (mu^2 r^2 + lambda_c) * Phi_c / (2 Sigma^2), with x8=Sigma Delta h_lplus_lminus and lambda_c=A_c+a^2 omega_c^2-2am_c omega_c",
+  "causal_scope": "Printed algebra only. Does not demonstrate what the author ran, nor identify actual figure mismatch. No source or field rescaling applied.",
+  "worst_relative_by_mapping": {
+    "appendix_delta": 4.499999999999999,
+    "literal_body_423": 9.377735488669918
+  },
+  "worst_printed_scaled_by_mapping": {
+    "appendix_delta": 0.050578710750790304,
+    "literal_body_423": 0.451161445252366
+  },
+  "relative_error_policy": "relative_error=null for coefficient <=1e-12 of pointwise ten-coefficient infinity norm; scaled_error always uses that norm",
+  "worst_tetrad_absolute": 1.1801832636420706e-15,
+  "worst_analytic_difference_scaled": 7.342807657631038e-16,
+  "worst_on_shell_term_absolute": 1.6940658945086007e-21,
+  "on_shell_checks": [
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 3.1,
+      "theta": 0.71,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "KG_residual": [
+        0.0,
+        0.0
+      ],
+      "field": [
+        -0.0008804193923153037,
+        0.0
+      ],
+      "scalar_Hessian_trace": [
+        -7.923774530837734e-05,
+        0.0
+      ]
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 10.0,
+      "theta": 0.8,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "KG_residual": [
+        2.710505431213761e-20,
+        0.0
+      ],
+      "field": [
+        -0.002421963545465821,
+        0.0
+      ],
+      "scalar_Hessian_trace": [
+        -0.00021797671909192385,
+        0.0
+      ]
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 45.0,
+      "theta": 2.1,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "KG_residual": [
+        -8.131516293641283e-20,
+        0.0
+      ],
+      "field": [
+        -0.0020969250735290187,
+        0.0
+      ],
+      "scalar_Hessian_trace": [
+        -0.00018872325661761175,
+        0.0
+      ]
+    },
+    {
+      "kind": "exact_static_massless_Schwarzschild_ell1",
+      "a": 0.0,
+      "r": 3.0,
+      "theta": 0.71,
+      "w": 0.0,
+      "m": 0,
+      "mu": 0.0,
+      "angular_A": 2.0,
+      "lambda_c": 2.0,
+      "KG_residual": [
+        1.3877787807814457e-17,
+        0.0
+      ],
+      "field": [
+        1.5167237519810164,
+        0.0
+      ],
+      "scalar_Hessian_trace": [
+        1.3877787807814457e-17,
+        0.0
+      ]
+    },
+    {
+      "kind": "exact_static_massless_Schwarzschild_ell1",
+      "a": 0.0,
+      "r": 10.0,
+      "theta": 1.1,
+      "w": 0.0,
+      "m": 0,
+      "mu": 0.0,
+      "angular_A": 2.0,
+      "lambda_c": 2.0,
+      "KG_residual": [
+        -1.474514954580286e-17,
+        0.0
+      ],
+      "field": [
+        4.082365092830196,
+        0.0
+      ],
+      "scalar_Hessian_trace": [
+        -1.474514954580286e-17,
+        0.0
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.0,
+      "r": 5.0,
+      "theta": 0.71,
+      "w": 0.2963,
+      "m": 1,
+      "component": "lp_lp",
+      "coordinate_contraction": [
+        -0.3278066858551967,
+        -0.11743286312466629
+      ],
+      "tetrad_contraction": [
+        -0.3278066858551967,
+        -0.1174328631246663
+      ],
+      "tetrad_absolute_error": 1.3877787807814457e-17,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.3278066858551968,
+            -0.11743286312466635
+          ],
+          "absolute_error": 1.2412670766236366e-16,
+          "relative_error": 3.564745099550443e-16,
+          "scaled_error": 1.7932153213921207e-16
+        },
+        "literal_body_423": {
+          "value": [
+            -0.3278066858551968,
+            -0.11743286312466635
+          ],
+          "absolute_error": 1.2412670766236366e-16,
+          "relative_error": 3.564745099550443e-16,
+          "scaled_error": 1.7932153213921207e-16
+        }
+      },
+      "point_coefficient_norm": 0.6922019134099345,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.2412670766236366e-16,
+      "analytic_difference_scaled_error": 1.7932153213921207e-16
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.0,
+      "r": 5.0,
+      "theta": 0.71,
+      "w": 0.2963,
+      "m": 1,
+      "component": "lm_lm",
+      "coordinate_contraction": [
+        -0.2906391354773909,
+        0.052628203982297735
+      ],
+      "tetrad_contraction": [
+        -0.29063913547739095,
+        0.052628203982297735
+      ],
+      "tetrad_absolute_error": 5.551115123125783e-17,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.290639135477391,
+            0.052628203982297755
+          ],
+          "absolute_error": 1.1295700899707568e-16,
+          "relative_error": 3.824311658824256e-16,
+          "scaled_error": 1.631850574359515e-16
+        },
+        "literal_body_423": {
+          "value": [
+            -0.290639135477391,
+            0.052628203982297755
+          ],
+          "absolute_error": 1.1295700899707568e-16,
+          "relative_error": 3.824311658824256e-16,
+          "scaled_error": 1.631850574359515e-16
+        }
+      },
+      "point_coefficient_norm": 0.6922019134099345,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.1295700899707568e-16,
+      "analytic_difference_scaled_error": 1.631850574359515e-16
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.0,
+      "r": 5.0,
+      "theta": 0.71,
+      "w": 0.2963,
+      "m": 1,
+      "component": "mp_mp",
+      "coordinate_contraction": [
+        -0.0038168831899711014,
+        -0.0004022520990864285
+      ],
+      "tetrad_contraction": [
+        -0.0038168831899711,
+        -0.0004022520990864284
+      ],
+      "tetrad_absolute_error": 1.305552300251628e-18,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.0038168831899711027,
+            -0.0004022520990864286
+          ],
+          "absolute_error": 1.305552300251628e-18,
+          "relative_error": 3.401628994806277e-16,
+          "scaled_error": 1.8860859453857885e-18
+        },
+        "literal_body_423": {
+          "value": [
+            0.009650821377794083,
+            0.0010170767518707428
+          ],
+          "absolute_error": 0.013542287868442415,
+          "relative_error": 3.5284560457998064,
+          "scaled_error": 0.019564071705219958
+        }
+      },
+      "point_coefficient_norm": 0.6922019134099345,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.305552300251628e-18,
+      "analytic_difference_scaled_error": 1.8860859453857885e-18
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.0,
+      "r": 5.0,
+      "theta": 0.71,
+      "w": 0.2963,
+      "m": 1,
+      "component": "mm_mm",
+      "coordinate_contraction": [
+        0.009650821377794081,
+        0.001017076751870743
+      ],
+      "tetrad_contraction": [
+        0.009650821377794083,
+        0.001017076751870743
+      ],
+      "tetrad_absolute_error": 1.734723475976807e-18,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            0.009650821377794083,
+            0.0010170767518707428
+          ],
+          "absolute_error": 1.7482234731686756e-18,
+          "relative_error": 1.801499762589111e-16,
+          "scaled_error": 2.5255975739167683e-18
+        },
+        "literal_body_423": {
+          "value": [
+            -0.0038168831899711027,
+            -0.0004022520990864286
+          ],
+          "absolute_error": 0.013542287868442415,
+          "relative_error": 1.3954982732095225,
+          "scaled_error": 0.019564071705219958
+        }
+      },
+      "point_coefficient_norm": 0.6922019134099345,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.7482234731686756e-18,
+      "analytic_difference_scaled_error": 2.5255975739167683e-18
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.0,
+      "r": 5.0,
+      "theta": 0.71,
+      "w": 0.2963,
+      "m": 1,
+      "component": "Gamma_lp_mp",
+      "coordinate_contraction": [
+        -0.020403936659743913,
+        0.040178467883538294
+      ],
+      "tetrad_contraction": [
+        -0.02040393665974391,
+        0.04017846788353829
+      ],
+      "tetrad_absolute_error": 7.757919228897728e-18,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.020403936659743917,
+            0.0401784678835383
+          ],
+          "absolute_error": 7.757919228897728e-18,
+          "relative_error": 1.721590525688439e-16,
+          "scaled_error": 1.1207595758700754e-17
+        },
+        "literal_body_423": {
+          "value": [
+            0.006562201163032475,
+            -0.012921976433812704
+          ],
+          "absolute_error": 0.05955526656624975,
+          "relative_error": 1.3216144645253391,
+          "scaled_error": 0.08603741973619776
+        }
+      },
+      "point_coefficient_norm": 0.6922019134099345,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 7.757919228897728e-18,
+      "analytic_difference_scaled_error": 1.1207595758700754e-17
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.0,
+      "r": 5.0,
+      "theta": 0.71,
+      "w": 0.2963,
+      "m": 1,
+      "component": "barGamma_lp_mm",
+      "coordinate_contraction": [
+        0.006562201163032476,
+        -0.012921976433812704
+      ],
+      "tetrad_contraction": [
+        0.006562201163032475,
+        -0.012921976433812704
+      ],
+      "tetrad_absolute_error": 8.673617379884035e-19,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            0.006562201163032475,
+            -0.012921976433812704
+          ],
+          "absolute_error": 8.673617379884035e-19,
+          "relative_error": 5.984795258727625e-17,
+          "scaled_error": 1.2530472990396607e-18
+        },
+        "literal_body_423": {
+          "value": [
+            -0.020403936659743917,
+            0.0401784678835383
+          ],
+          "absolute_error": 0.05955526656624976,
+          "relative_error": 4.109312889505357,
+          "scaled_error": 0.08603741973619776
+        }
+      },
+      "point_coefficient_norm": 0.6922019134099345,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 8.673617379884035e-19,
+      "analytic_difference_scaled_error": 1.2530472990396607e-18
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.0,
+      "r": 5.0,
+      "theta": 0.71,
+      "w": 0.2963,
+      "m": 1,
+      "component": "barGamma_lm_mp",
+      "coordinate_contraction": [
+        -0.011940005613039786,
+        -0.04013394367779508
+      ],
+      "tetrad_contraction": [
+        -0.011940005613039786,
+        -0.04013394367779508
+      ],
+      "tetrad_absolute_error": 0.0,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.011940005613039786,
+            -0.04013394367779508
+          ],
+          "absolute_error": 0.0,
+          "relative_error": 0.0,
+          "scaled_error": 0.0
+        },
+        "literal_body_423": {
+          "value": [
+            0.0038400785116673337,
+            0.012907656805224184
+          ],
+          "absolute_error": 0.055339158258714626,
+          "relative_error": 1.321614464525339,
+          "scaled_error": 0.0799465548803558
+        }
+      },
+      "point_coefficient_norm": 0.6922019134099345,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 0.0,
+      "analytic_difference_scaled_error": 0.0
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.0,
+      "r": 5.0,
+      "theta": 0.71,
+      "w": 0.2963,
+      "m": 1,
+      "component": "Gamma_lm_mm",
+      "coordinate_contraction": [
+        0.0038400785116673346,
+        0.012907656805224186
+      ],
+      "tetrad_contraction": [
+        0.0038400785116673337,
+        0.012907656805224188
+      ],
+      "tetrad_absolute_error": 1.939479807224432e-18,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            0.0038400785116673337,
+            0.012907656805224184
+          ],
+          "absolute_error": 1.939479807224432e-18,
+          "relative_error": 1.4401970722978322e-16,
+          "scaled_error": 2.8018989396751885e-18
+        },
+        "literal_body_423": {
+          "value": [
+            -0.011940005613039786,
+            -0.04013394367779508
+          ],
+          "absolute_error": 0.05533915825871463,
+          "relative_error": 4.109312889505356,
+          "scaled_error": 0.0799465548803558
+        }
+      },
+      "point_coefficient_norm": 0.6922019134099345,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.939479807224432e-18,
+      "analytic_difference_scaled_error": 2.8018989396751885e-18
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.0,
+      "r": 5.0,
+      "theta": 0.71,
+      "w": 0.2963,
+      "m": 1,
+      "component": "SigmaDelta_lp_lm",
+      "coordinate_contraction": [
+        0.002874592392643869,
+        0.0002642737390692073
+      ],
+      "tetrad_contraction": [
+        0.0028745923926438684,
+        0.00026427373906920724
+      ],
+      "tetrad_absolute_error": 4.370558682921689e-19,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            0.0011029129803473933,
+            -2.7593087881999304e-06
+          ],
+          "absolute_error": 0.0017916904276696914,
+          "relative_error": 0.6206676393180852,
+          "scaled_error": 0.002588392769449945
+        },
+        "literal_body_423": {
+          "value": [
+            0.0011029129803473933,
+            -2.7593087881999304e-06
+          ],
+          "absolute_error": 0.0017916904276696914,
+          "relative_error": 0.6206676393180852,
+          "scaled_error": 0.002588392769449945
+        }
+      },
+      "point_coefficient_norm": 0.6922019134099345,
+      "omitted_radial_term": [
+        0.0017716794122964762,
+        0.0002670330478574071
+      ],
+      "analytic_difference_absolute_error": 6.594944350062753e-19,
+      "analytic_difference_scaled_error": 9.527486449112295e-19
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.0,
+      "r": 5.0,
+      "theta": 0.71,
+      "w": 0.2963,
+      "m": 1,
+      "component": "trace",
+      "coordinate_contraction": [
+        -0.6912823786357448,
+        -0.03566737887876256
+      ],
+      "tetrad_contraction": [
+        -0.6912823786357448,
+        -0.03566737887876256
+      ],
+      "tetrad_absolute_error": 0.0,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.6912823786357447,
+            -0.035667378878762514
+          ],
+          "absolute_error": 1.2118257228641695e-16,
+          "relative_error": 1.7506824228417069e-16,
+          "scaled_error": 1.7506824228417069e-16
+        },
+        "literal_body_423": {
+          "value": [
+            -0.6912823786357447,
+            -0.035667378878762514
+          ],
+          "absolute_error": 1.2118257228641695e-16,
+          "relative_error": 1.7506824228417069e-16,
+          "scaled_error": 1.7506824228417069e-16
+        }
+      },
+      "point_coefficient_norm": 0.6922019134099345,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.2118257228641695e-16,
+      "analytic_difference_scaled_error": 1.7506824228417069e-16
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.6,
+      "r": 3.1,
+      "theta": 1.1,
+      "w": 0.23,
+      "m": 1,
+      "component": "lp_lp",
+      "coordinate_contraction": [
+        -0.05080447003927113,
+        -0.04306547479337995
+      ],
+      "tetrad_contraction": [
+        -0.05080447003927118,
+        -0.04306547479337995
+      ],
+      "tetrad_absolute_error": 4.85722573273506e-17,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.0508044700392712,
+            -0.04306547479337999
+          ],
+          "absolute_error": 8.092071311423672e-17,
+          "relative_error": 1.2150025357273871e-15,
+          "scaled_error": 1.3505297276555703e-16
+        },
+        "literal_body_423": {
+          "value": [
+            -0.0508044700392712,
+            -0.04306547479337999
+          ],
+          "absolute_error": 8.092071311423672e-17,
+          "relative_error": 1.2150025357273871e-15,
+          "scaled_error": 1.3505297276555703e-16
+        }
+      },
+      "point_coefficient_norm": 0.5991775779323991,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 8.092071311423672e-17,
+      "analytic_difference_scaled_error": 1.3505297276555703e-16
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.6,
+      "r": 3.1,
+      "theta": 1.1,
+      "w": 0.23,
+      "m": 1,
+      "component": "lm_lm",
+      "coordinate_contraction": [
+        -0.04573456940995544,
+        0.036179500378986
+      ],
+      "tetrad_contraction": [
+        -0.04573456940995541,
+        0.03617950037898601
+      ],
+      "tetrad_absolute_error": 3.1031676915590914e-17,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.045734569409955426,
+            0.036179500378986054
+          ],
+          "absolute_error": 5.721958498152797e-17,
+          "relative_error": 9.812201897326365e-16,
+          "scaled_error": 9.549687286192749e-17
+        },
+        "literal_body_423": {
+          "value": [
+            -0.045734569409955426,
+            0.036179500378986054
+          ],
+          "absolute_error": 5.721958498152797e-17,
+          "relative_error": 9.812201897326365e-16,
+          "scaled_error": 9.549687286192749e-17
+        }
+      },
+      "point_coefficient_norm": 0.5991775779323991,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 5.721958498152797e-17,
+      "analytic_difference_scaled_error": 9.549687286192749e-17
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.6,
+      "r": 3.1,
+      "theta": 1.1,
+      "w": 0.23,
+      "m": 1,
+      "component": "mp_mp",
+      "coordinate_contraction": [
+        -0.007259712883146859,
+        -0.00047327608058730583
+      ],
+      "tetrad_contraction": [
+        -0.007259712883146859,
+        -0.00047327608058730594
+      ],
+      "tetrad_absolute_error": 1.0842021724855044e-19,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.007259712883146854,
+            -0.00047327608058730556
+          ],
+          "absolute_error": 5.211224255381061e-18,
+          "relative_error": 7.163073289771539e-16,
+          "scaled_error": 8.697295171430807e-18
+        },
+        "literal_body_423": {
+          "value": [
+            0.010234471800375762,
+            0.0006672069238175631
+          ],
+          "absolute_error": 0.017531320521413495,
+          "relative_error": 2.4097626125317837,
+          "scaled_error": 0.029258972910684296
+        }
+      },
+      "point_coefficient_norm": 0.5991775779323991,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 5.211224255381061e-18,
+      "analytic_difference_scaled_error": 8.697295171430807e-18
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.6,
+      "r": 3.1,
+      "theta": 1.1,
+      "w": 0.23,
+      "m": 1,
+      "component": "mm_mm",
+      "coordinate_contraction": [
+        0.010234471800375759,
+        0.0006672069238175623
+      ],
+      "tetrad_contraction": [
+        0.010234471800375754,
+        0.0006672069238175623
+      ],
+      "tetrad_absolute_error": 5.204170427930421e-18,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            0.010234471800375762,
+            0.0006672069238175631
+          ],
+          "absolute_error": 3.551486221896847e-18,
+          "relative_error": 3.462771046115963e-16,
+          "scaled_error": 5.9272682301498535e-18
+        },
+        "literal_body_423": {
+          "value": [
+            -0.007259712883146854,
+            -0.00047327608058730556
+          ],
+          "absolute_error": 0.017531320521413485,
+          "relative_error": 1.7093392824513243,
+          "scaled_error": 0.02925897291068428
+        }
+      },
+      "point_coefficient_norm": 0.5991775779323991,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 3.551486221896847e-18,
+      "analytic_difference_scaled_error": 5.9272682301498535e-18
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.6,
+      "r": 3.1,
+      "theta": 1.1,
+      "w": 0.23,
+      "m": 1,
+      "component": "Gamma_lp_mp",
+      "coordinate_contraction": [
+        -0.02444496304374626,
+        0.03150277262214895
+      ],
+      "tetrad_contraction": [
+        -0.024444963043746253,
+        0.03150277262214895
+      ],
+      "tetrad_absolute_error": 6.938893903907228e-18,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.024444963043746267,
+            0.03150277262214897
+          ],
+          "absolute_error": 2.1942709178604383e-17,
+          "relative_error": 5.502933864044363e-16,
+          "scaled_error": 3.662137901475349e-17
+        },
+        "literal_body_423": {
+          "value": [
+            0.006436655868942475,
+            -0.01515317260064452
+          ],
+          "absolute_error": 0.05595043888389831,
+          "relative_error": 1.4031611244365552,
+          "scaled_error": 0.09337872601469542
+        }
+      },
+      "point_coefficient_norm": 0.5991775779323991,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 2.1942709178604383e-17,
+      "analytic_difference_scaled_error": 3.662137901475349e-17
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.6,
+      "r": 3.1,
+      "theta": 1.1,
+      "w": 0.23,
+      "m": 1,
+      "component": "barGamma_lp_mm",
+      "coordinate_contraction": [
+        0.01599867858972272,
+        -0.010577589149005865
+      ],
+      "tetrad_contraction": [
+        0.01599867858972272,
+        -0.010577589149005868
+      ],
+      "tetrad_absolute_error": 3.469446951953614e-18,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            0.01599867858972272,
+            -0.01057758914900587
+          ],
+          "absolute_error": 5.204170427930421e-18,
+          "relative_error": 2.7134398470566136e-16,
+          "scaled_error": 8.685522655718552e-18
+        },
+        "literal_body_423": {
+          "value": [
+            -0.021751607893879282,
+            0.02485991623202985
+          ],
+          "absolute_error": 0.05177741705825967,
+          "relative_error": 2.6996599855670405,
+          "scaled_error": 0.08641414326105064
+        }
+      },
+      "point_coefficient_norm": 0.5991775779323991,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 5.204170427930421e-18,
+      "analytic_difference_scaled_error": 8.685522655718552e-18
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.6,
+      "r": 3.1,
+      "theta": 1.1,
+      "w": 0.23,
+      "m": 1,
+      "component": "barGamma_lm_mp",
+      "coordinate_contraction": [
+        -0.020219613973667085,
+        -0.031762208880214804
+      ],
+      "tetrad_contraction": [
+        -0.020219613973667082,
+        -0.0317622088802148
+      ],
+      "tetrad_absolute_error": 7.757919228897728e-18,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.020219613973667096,
+            -0.03176220888021481
+          ],
+          "absolute_error": 1.2509268882771003e-17,
+          "relative_error": 3.32234130439666e-16,
+          "scaled_error": 2.08773981929316e-17
+        },
+        "literal_body_423": {
+          "value": [
+            0.004932271516476149,
+            0.014679567891983976
+          ],
+          "absolute_error": 0.052815300562128964,
+          "relative_error": 1.402723502117381,
+          "scaled_error": 0.08814632340612674
+        }
+      },
+      "point_coefficient_norm": 0.5991775779323991,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.2509268882771003e-17,
+      "analytic_difference_scaled_error": 2.08773981929316e-17
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.6,
+      "r": 3.1,
+      "theta": 1.1,
+      "w": 0.23,
+      "m": 1,
+      "component": "Gamma_lm_mm",
+      "coordinate_contraction": [
+        0.014130197647416774,
+        0.011326985295540598
+      ],
+      "tetrad_contraction": [
+        0.014130197647416767,
+        0.011326985295540597
+      ],
+      "tetrad_absolute_error": 7.152448122690996e-18,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            0.014130197647416768,
+            0.0113269852955406
+          ],
+          "absolute_error": 5.485677294651096e-18,
+          "relative_error": 3.029129055018979e-16,
+          "scaled_error": 9.155344753688372e-18
+        },
+        "literal_body_423": {
+          "value": [
+            -0.018612600722633314,
+            -0.024839002353028345
+          ],
+          "absolute_error": 0.04878595604985308,
+          "relative_error": 2.693905401463978,
+          "scaled_error": 0.08142153152359324
+        }
+      },
+      "point_coefficient_norm": 0.5991775779323991,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 5.485677294651096e-18,
+      "analytic_difference_scaled_error": 9.155344753688372e-18
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.6,
+      "r": 3.1,
+      "theta": 1.1,
+      "w": 0.23,
+      "m": 1,
+      "component": "SigmaDelta_lp_lm",
+      "coordinate_contraction": [
+        0.009479549208493157,
+        0.000549826011615416
+      ],
+      "tetrad_contraction": [
+        0.009479549208493157,
+        0.0005498260116154153
+      ],
+      "tetrad_absolute_error": 6.505213034913027e-19,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            0.006604420164579836,
+            3.086402692666345e-05
+          ],
+          "absolute_error": 0.002921590074036058,
+          "relative_error": 0.30768215268525484,
+          "scaled_error": 0.004876000340529565
+        },
+        "literal_body_423": {
+          "value": [
+            0.006604420164579836,
+            3.086402692666345e-05
+          ],
+          "absolute_error": 0.002921590074036058,
+          "relative_error": 0.30768215268525484,
+          "scaled_error": 0.004876000340529565
+        }
+      },
+      "point_coefficient_norm": 0.5991775779323991,
+      "omitted_radial_term": [
+        0.002875129043913328,
+        0.000518961984688752
+      ],
+      "analytic_difference_absolute_error": 6.519653037220149e-18,
+      "analytic_difference_scaled_error": 1.0881003023707464e-17
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.6,
+      "r": 3.1,
+      "theta": 1.1,
+      "w": 0.23,
+      "m": 1,
+      "component": "trace",
+      "coordinate_contraction": [
+        -0.5988336865293812,
+        -0.020297432708771653
+      ],
+      "tetrad_contraction": [
+        -0.598833686529381,
+        -0.020297432708771646
+      ],
+      "tetrad_absolute_error": 2.2215299868541707e-16,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.5988336865293813,
+            -0.020297432708771636
+          ],
+          "absolute_error": 1.1236938283130691e-16,
+          "relative_error": 1.8753936557349737e-16,
+          "scaled_error": 1.8753936557349737e-16
+        },
+        "literal_body_423": {
+          "value": [
+            -0.5988336865293813,
+            -0.020297432708771636
+          ],
+          "absolute_error": 1.1236938283130691e-16,
+          "relative_error": 1.8753936557349737e-16,
+          "scaled_error": 1.8753936557349737e-16
+        }
+      },
+      "point_coefficient_norm": 0.5991775779323991,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.1236938283130691e-16,
+      "analytic_difference_scaled_error": 1.8753936557349737e-16
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.8771530275949366,
+      "r": 10.0,
+      "theta": 0.8,
+      "w": 0.296287,
+      "m": 1,
+      "component": "lp_lp",
+      "coordinate_contraction": [
+        -1.5361473407768143,
+        -0.37154402372897816
+      ],
+      "tetrad_contraction": [
+        -1.536147340776815,
+        -0.3715440237289782
+      ],
+      "tetrad_absolute_error": 6.684427777288335e-16,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -1.5361473407768147,
+            -0.3715440237289782
+          ],
+          "absolute_error": 4.47545209131181e-16,
+          "relative_error": 2.8317743066882696e-16,
+          "scaled_error": 2.8317743066882696e-16
+        },
+        "literal_body_423": {
+          "value": [
+            -1.5361473407768147,
+            -0.3715440237289782
+          ],
+          "absolute_error": 4.47545209131181e-16,
+          "relative_error": 2.8317743066882696e-16,
+          "scaled_error": 2.8317743066882696e-16
+        }
+      },
+      "point_coefficient_norm": 1.5804409556020742,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 4.47545209131181e-16,
+      "analytic_difference_scaled_error": 2.8317743066882696e-16
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.8771530275949366,
+      "r": 10.0,
+      "theta": 0.8,
+      "w": 0.296287,
+      "m": 1,
+      "component": "lm_lm",
+      "coordinate_contraction": [
+        -1.2415393133146235,
+        -0.21745675170038406
+      ],
+      "tetrad_contraction": [
+        -1.2415393133146237,
+        -0.21745675170038414
+      ],
+      "tetrad_absolute_error": 2.3714374201337736e-16,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -1.2415393133146237,
+            -0.21745675170038398
+          ],
+          "absolute_error": 2.3714374201337736e-16,
+          "relative_error": 1.881437180772755e-16,
+          "scaled_error": 1.5004909938127784e-16
+        },
+        "literal_body_423": {
+          "value": [
+            -1.2415393133146237,
+            -0.21745675170038398
+          ],
+          "absolute_error": 2.3714374201337736e-16,
+          "relative_error": 1.881437180772755e-16,
+          "scaled_error": 1.5004909938127784e-16
+        }
+      },
+      "point_coefficient_norm": 1.5804409556020742,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 2.3714374201337736e-16,
+      "analytic_difference_scaled_error": 1.5004909938127784e-16
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.8771530275949366,
+      "r": 10.0,
+      "theta": 0.8,
+      "w": 0.296287,
+      "m": 1,
+      "component": "mp_mp",
+      "coordinate_contraction": [
+        -0.001884606038191764,
+        -0.0004016895376784857
+      ],
+      "tetrad_contraction": [
+        -0.0018846060381917642,
+        -0.0004016895376784858
+      ],
+      "tetrad_absolute_error": 2.42434975903054e-19,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.0018846060381917662,
+            -0.0004016895376784862
+          ],
+          "absolute_error": 2.222614453595284e-18,
+          "relative_error": 1.1534430024508495e-15,
+          "scaled_error": 1.40632552308705e-18
+        },
+        "literal_body_423": {
+          "value": [
+            0.0016749340851951483,
+            0.0003569995450983039
+          ],
+          "absolute_error": 0.0036394965330833885,
+          "relative_error": 1.8887449425781364,
+          "scaled_error": 0.0023028361294882478
+        }
+      },
+      "point_coefficient_norm": 1.5804409556020742,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 2.222614453595284e-18,
+      "analytic_difference_scaled_error": 1.40632552308705e-18
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.8771530275949366,
+      "r": 10.0,
+      "theta": 0.8,
+      "w": 0.296287,
+      "m": 1,
+      "component": "mm_mm",
+      "coordinate_contraction": [
+        0.0016749340851951483,
+        0.00035699954509830383
+      ],
+      "tetrad_contraction": [
+        0.0016749340851951494,
+        0.00035699954509830394
+      ],
+      "tetrad_absolute_error": 1.0896096981628377e-18,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            0.0016749340851951483,
+            0.0003569995450983039
+          ],
+          "absolute_error": 5.421010862427522e-20,
+          "relative_error": 3.165447679030188e-17,
+          "scaled_error": 3.430062251431829e-20
+        },
+        "literal_body_423": {
+          "value": [
+            -0.0018846060381917662,
+            -0.0004016895376784862
+          ],
+          "absolute_error": 0.0036394965330833902,
+          "relative_error": 2.125182211556814,
+          "scaled_error": 0.002302836129488249
+        }
+      },
+      "point_coefficient_norm": 1.5804409556020742,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 5.421010862427522e-20,
+      "analytic_difference_scaled_error": 3.430062251431829e-20
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.8771530275949366,
+      "r": 10.0,
+      "theta": 0.8,
+      "w": 0.296287,
+      "m": 1,
+      "component": "Gamma_lp_mp",
+      "coordinate_contraction": [
+        -0.00809865761947426,
+        0.017953109517188735
+      ],
+      "tetrad_contraction": [
+        -0.008098657619474259,
+        0.017953109517188738
+      ],
+      "tetrad_absolute_error": 3.878959614448864e-18,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.008098657619474257,
+            0.017953109517188735
+          ],
+          "absolute_error": 3.469446951953614e-18,
+          "relative_error": 1.761566408451041e-16,
+          "scaled_error": 2.1952398409163706e-18
+        },
+        "literal_body_423": {
+          "value": [
+            0.0015742626456883154,
+            -0.0053456745778606846
+          ],
+          "absolute_error": 0.025226944459524236,
+          "relative_error": 1.2808651800464865,
+          "scaled_error": 0.015961965785627183
+        }
+      },
+      "point_coefficient_norm": 1.5804409556020742,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 3.469446951953614e-18,
+      "analytic_difference_scaled_error": 2.1952398409163706e-18
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.8771530275949366,
+      "r": 10.0,
+      "theta": 0.8,
+      "w": 0.296287,
+      "m": 1,
+      "component": "barGamma_lp_mm",
+      "coordinate_contraction": [
+        0.0033743591158350364,
+        -0.004620789636078118
+      ],
+      "tetrad_contraction": [
+        0.0033743591158350355,
+        -0.0046207896360781165
+      ],
+      "tetrad_absolute_error": 1.939479807224432e-18,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            0.003374359115835034,
+            -0.004620789636078115
+          ],
+          "absolute_error": 4.336808689942018e-18,
+          "relative_error": 7.579563868175054e-16,
+          "scaled_error": 2.7440498011454634e-18
+        },
+        "literal_body_423": {
+          "value": [
+            -0.008856859434975937,
+            0.01658257489166209
+          ],
+          "absolute_error": 0.024478263307145264,
+          "relative_error": 4.27813568416812,
+          "scaled_error": 0.015488249162601705
+        }
+      },
+      "point_coefficient_norm": 1.5804409556020742,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 4.336808689942018e-18,
+      "analytic_difference_scaled_error": 2.7440498011454634e-18
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.8771530275949366,
+      "r": 10.0,
+      "theta": 0.8,
+      "w": 0.296287,
+      "m": 1,
+      "component": "barGamma_lm_mp",
+      "coordinate_contraction": [
+        -0.0005598469541069403,
+        -0.017689187564992066
+      ],
+      "tetrad_contraction": [
+        -0.00055984695410694,
+        -0.01768918756499207
+      ],
+      "tetrad_absolute_error": 3.484660190605998e-18,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.0005598469541069403,
+            -0.017689187564992062
+          ],
+          "absolute_error": 3.469446951953614e-18,
+          "relative_error": 1.9603560820686587e-16,
+          "scaled_error": 2.1952398409163706e-18
+        },
+        "literal_body_423": {
+          "value": [
+            -0.0005146886986102652,
+            0.004962115366894428
+          ],
+          "absolute_error": 0.022651347946206848,
+          "relative_error": 1.2798785607140102,
+          "scaled_error": 0.014332296227781406
+        }
+      },
+      "point_coefficient_norm": 1.5804409556020742,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 3.469446951953614e-18,
+      "analytic_difference_scaled_error": 2.1952398409163706e-18
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.8771530275949366,
+      "r": 10.0,
+      "theta": 0.8,
+      "w": 0.296287,
+      "m": 1,
+      "component": "Gamma_lm_mm",
+      "coordinate_contraction": [
+        0.0012177795077651685,
+        0.00499016989520558
+      ],
+      "tetrad_contraction": [
+        0.0012177795077651678,
+        0.00499016989520558
+      ],
+      "tetrad_absolute_error": 6.505213034913027e-19,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            0.0012177795077651671,
+            0.004990169895205579
+          ],
+          "absolute_error": 1.5636586103463754e-18,
+          "relative_error": 3.0441439221148245e-16,
+          "scaled_error": 9.893812260456732e-19
+        },
+        "literal_body_423": {
+          "value": [
+            -0.0016998985669136606,
+            -0.016723251315232814
+          ],
+          "absolute_error": 0.021908571519142397,
+          "relative_error": 4.265179393438172,
+          "scaled_error": 0.013862315729976926
+        }
+      },
+      "point_coefficient_norm": 1.5804409556020742,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.5636586103463754e-18,
+      "analytic_difference_scaled_error": 9.893812260456732e-19
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.8771530275949366,
+      "r": 10.0,
+      "theta": 0.8,
+      "w": 0.296287,
+      "m": 1,
+      "component": "SigmaDelta_lp_lm",
+      "coordinate_contraction": [
+        0.00037173018855114585,
+        6.971968444350205e-05
+      ],
+      "tetrad_contraction": [
+        0.000371730188551146,
+        6.971968444350209e-05
+      ],
+      "tetrad_absolute_error": 1.676355028755702e-19,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            5.4906373580949825e-05,
+            -1.0728030208768734e-05
+          ],
+          "absolute_error": 0.0003268779046143104,
+          "relative_error": 0.8642720891704021,
+          "scaled_error": 0.00020682702726454287
+        },
+        "literal_body_423": {
+          "value": [
+            5.4906373580949825e-05,
+            -1.0728030208768734e-05
+          ],
+          "absolute_error": 0.0003268779046143104,
+          "relative_error": 0.8642720891704021,
+          "scaled_error": 0.00020682702726454287
+        }
+      },
+      "point_coefficient_norm": 1.5804409556020742,
+      "omitted_radial_term": [
+        0.000316823814970196,
+        8.044771465227079e-05
+      ],
+      "analytic_difference_absolute_error": 0.0,
+      "analytic_difference_scaled_error": 0.0
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.8771530275949366,
+      "r": 10.0,
+      "theta": 0.8,
+      "w": 0.296287,
+      "m": 1,
+      "component": "trace",
+      "coordinate_contraction": [
+        -0.5489051964892271,
+        -0.004001169085575416
+      ],
+      "tetrad_contraction": [
+        -0.5489051964892273,
+        -0.004001169085575411
+      ],
+      "tetrad_absolute_error": 2.2210558292432945e-16,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.5489051964892269,
+            -0.004001169085575448
+          ],
+          "absolute_error": 2.2435179452531617e-16,
+          "relative_error": 4.0871508550630134e-16,
+          "scaled_error": 1.419551889806909e-16
+        },
+        "literal_body_423": {
+          "value": [
+            -0.5489051964892269,
+            -0.004001169085575448
+          ],
+          "absolute_error": 2.2435179452531617e-16,
+          "relative_error": 4.0871508550630134e-16,
+          "scaled_error": 1.419551889806909e-16
+        }
+      },
+      "point_coefficient_norm": 1.5804409556020742,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 2.2435179452531617e-16,
+      "analytic_difference_scaled_error": 1.419551889806909e-16
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.88,
+      "r": 45.0,
+      "theta": 2.1,
+      "w": 0.2962935347256115,
+      "m": 1,
+      "component": "lp_lp",
+      "coordinate_contraction": [
+        -0.6765477077802717,
+        -5.862812460015584
+      ],
+      "tetrad_contraction": [
+        -0.6765477077802725,
+        -5.862812460015585
+      ],
+      "tetrad_absolute_error": 1.1801832636420706e-15,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.6765477077802726,
+            -5.862812460015585
+          ],
+          "absolute_error": 1.2560739669470201e-15,
+          "relative_error": 2.1283188413229354e-16,
+          "scaled_error": 2.1283188413229354e-16
+        },
+        "literal_body_423": {
+          "value": [
+            -0.6765477077802726,
+            -5.862812460015585
+          ],
+          "absolute_error": 1.2560739669470201e-15,
+          "relative_error": 2.1283188413229354e-16,
+          "scaled_error": 2.1283188413229354e-16
+        }
+      },
+      "point_coefficient_norm": 5.9017189650318596,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.2560739669470201e-15,
+      "analytic_difference_scaled_error": 2.1283188413229354e-16
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.88,
+      "r": 45.0,
+      "theta": 2.1,
+      "w": 0.2962935347256115,
+      "m": 1,
+      "component": "lm_lm",
+      "coordinate_contraction": [
+        -4.295283129360148,
+        -1.6393583390026494
+      ],
+      "tetrad_contraction": [
+        -4.295283129360148,
+        -1.639358339002649
+      ],
+      "tetrad_absolute_error": 4.440892098500626e-16,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -4.295283129360148,
+            -1.63935833900265
+          ],
+          "absolute_error": 6.661338147750939e-16,
+          "relative_error": 1.448906264374862e-16,
+          "scaled_error": 1.1287115139199074e-16
+        },
+        "literal_body_423": {
+          "value": [
+            -4.295283129360148,
+            -1.63935833900265
+          ],
+          "absolute_error": 6.661338147750939e-16,
+          "relative_error": 1.448906264374862e-16,
+          "scaled_error": 1.1287115139199074e-16
+        }
+      },
+      "point_coefficient_norm": 5.9017189650318596,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 6.661338147750939e-16,
+      "analytic_difference_scaled_error": 1.1287115139199074e-16
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.88,
+      "r": 45.0,
+      "theta": 2.1,
+      "w": 0.2962935347256115,
+      "m": 1,
+      "component": "mp_mp",
+      "coordinate_contraction": [
+        3.86496945913145e-06,
+        5.347988013204847e-06
+      ],
+      "tetrad_contraction": [
+        3.864969459131469e-06,
+        5.347988013204852e-06
+      ],
+      "tetrad_absolute_error": 2.01337433121584e-20,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            3.864969459131447e-06,
+            5.347988013204854e-06
+          ],
+          "absolute_error": 7.237052673748088e-21,
+          "relative_error": 1.0967879859212051e-15,
+          "scaled_error": 1.226261825855854e-21
+        },
+        "literal_body_423": {
+          "value": [
+            -5.8581683718463416e-06,
+            -8.105992702723844e-06
+          ],
+          "absolute_error": 1.6599668863708477e-05,
+          "relative_error": 2.515708839045476,
+          "scaled_error": 2.812683721821184e-06
+        }
+      },
+      "point_coefficient_norm": 5.9017189650318596,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 7.237052673748088e-21,
+      "analytic_difference_scaled_error": 1.226261825855854e-21
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.88,
+      "r": 45.0,
+      "theta": 2.1,
+      "w": 0.2962935347256115,
+      "m": 1,
+      "component": "mm_mm",
+      "coordinate_contraction": [
+        -5.858168371846329e-06,
+        -8.105992702723846e-06
+      ],
+      "tetrad_contraction": [
+        -5.858168371846318e-06,
+        -8.105992702723839e-06
+      ],
+      "tetrad_absolute_error": 1.2929396799545343e-20,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -5.8581683718463416e-06,
+            -8.105992702723844e-06
+          ],
+          "absolute_error": 1.281793440243615e-20,
+          "relative_error": 1.2816316164677552e-15,
+          "scaled_error": 2.171898472018644e-21
+        },
+        "literal_body_423": {
+          "value": [
+            3.864969459131447e-06,
+            5.347988013204854e-06
+          ],
+          "absolute_error": 1.6599668863708473e-05,
+          "relative_error": 1.659757318978067,
+          "scaled_error": 2.8126837218211835e-06
+        }
+      },
+      "point_coefficient_norm": 5.9017189650318596,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.281793440243615e-20,
+      "analytic_difference_scaled_error": 2.171898472018644e-21
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.88,
+      "r": 45.0,
+      "theta": 2.1,
+      "w": 0.2962935347256115,
+      "m": 1,
+      "component": "Gamma_lp_mp",
+      "coordinate_contraction": [
+        -0.00020888843902405472,
+        5.715179865133754e-05
+      ],
+      "tetrad_contraction": [
+        -0.00020888843902405478,
+        5.715179865133757e-05
+      ],
+      "tetrad_absolute_error": 6.392714274101892e-20,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.0002088884390240547,
+            5.715179865133756e-05
+          ],
+          "absolute_error": 3.3881317890172014e-20,
+          "relative_error": 1.5644820881802072e-16,
+          "scaled_error": 5.7409236344396334e-21
+        },
+        "literal_body_423": {
+          "value": [
+            0.0005054524367875241,
+            -0.00016200392084639333
+          ],
+          "absolute_error": 0.0007472028615067139,
+          "relative_error": 3.450236194629663,
+          "scaled_error": 0.00012660766565367627
+        }
+      },
+      "point_coefficient_norm": 5.9017189650318596,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 3.3881317890172014e-20,
+      "analytic_difference_scaled_error": 5.7409236344396334e-21
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.88,
+      "r": 45.0,
+      "theta": 2.1,
+      "w": 0.2962935347256115,
+      "m": 1,
+      "component": "barGamma_lp_mm",
+      "coordinate_contraction": [
+        0.0005076113234981545,
+        -0.00016001793813297423
+      ],
+      "tetrad_contraction": [
+        0.0005076113234981546,
+        -0.00016001793813297434
+      ],
+      "tetrad_absolute_error": 1.5332934166833742e-19,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            0.0005076113234981544,
+            -0.00016001793813297434
+          ],
+          "absolute_error": 1.5332934166833742e-19,
+          "relative_error": 2.880853341337566e-16,
+          "scaled_error": 2.5980454605992863e-20
+        },
+        "literal_body_423": {
+          "value": [
+            -0.00020302181312137365,
+            7.375793337302784e-05
+          ],
+          "absolute_error": 0.0007480979968961952,
+          "relative_error": 1.4055761216715545,
+          "scaled_error": 0.0001267593393261749
+        }
+      },
+      "point_coefficient_norm": 5.9017189650318596,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.5332934166833742e-19,
+      "analytic_difference_scaled_error": 2.5980454605992863e-20
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.88,
+      "r": 45.0,
+      "theta": 2.1,
+      "w": 0.2962935347256115,
+      "m": 1,
+      "component": "barGamma_lm_mp",
+      "coordinate_contraction": [
+        9.931015669610128e-05,
+        -0.00016425799576126802
+      ],
+      "tetrad_contraction": [
+        9.931015669610134e-05,
+        -0.00016425799576126813
+      ],
+      "tetrad_absolute_error": 1.21217487951527e-19,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            9.931015669610123e-05,
+            -0.0001642579957612681
+          ],
+          "absolute_error": 9.772866314664846e-20,
+          "relative_error": 5.091471386625462e-16,
+          "scaled_error": 1.6559355625996143e-20
+        },
+        "literal_body_423": {
+          "value": [
+            -0.0002603488265762002,
+            0.00039166282457336275
+          ],
+          "absolute_error": 0.0006621197344362985,
+          "relative_error": 3.449513759687682,
+          "scaled_error": 0.00011219099695519374
+        }
+      },
+      "point_coefficient_norm": 5.9017189650318596,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 9.772866314664846e-20,
+      "analytic_difference_scaled_error": 1.6559355625996143e-20
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.88,
+      "r": 45.0,
+      "theta": 2.1,
+      "w": 0.2962935347256115,
+      "m": 1,
+      "component": "Gamma_lm_mm",
+      "coordinate_contraction": [
+        -0.0002593545156598552,
+        0.0003940399457060787
+      ],
+      "tetrad_contraction": [
+        -0.0002593545156598553,
+        0.0003940399457060787
+      ],
+      "tetrad_absolute_error": 1.0842021724855044e-19,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.00025935451565985525,
+            0.00039403994570607877
+          ],
+          "absolute_error": 7.666467083416871e-20,
+          "relative_error": 1.6251700195565632e-16,
+          "scaled_error": 1.2990227302996432e-20
+        },
+        "literal_body_423": {
+          "value": [
+            0.00011197922635809311,
+            -0.00015521614574608492
+          ],
+          "absolute_error": 0.0006630015097707997,
+          "relative_error": 1.4054585572159195,
+          "scaled_error": 0.00011234040687113955
+        }
+      },
+      "point_coefficient_norm": 5.9017189650318596,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 7.666467083416871e-20,
+      "analytic_difference_scaled_error": 1.2990227302996432e-20
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.88,
+      "r": 45.0,
+      "theta": 2.1,
+      "w": 0.2962935347256115,
+      "m": 1,
+      "component": "SigmaDelta_lp_lm",
+      "coordinate_contraction": [
+        1.689224887148022e-06,
+        2.13877534960924e-06
+      ],
+      "tetrad_contraction": [
+        1.6892248871480218e-06,
+        2.138775349609239e-06
+      ],
+      "tetrad_absolute_error": 8.731015774769282e-22,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            1.6489075628859406e-07,
+            1.466867163033173e-07
+          ],
+          "absolute_error": 2.5083882605070582e-06,
+          "relative_error": 0.9203721497562287,
+          "scaled_error": 4.2502672109083005e-07
+        },
+        "literal_body_423": {
+          "value": [
+            1.6489075628859406e-07,
+            1.466867163033173e-07
+          ],
+          "absolute_error": 2.5083882605070582e-06,
+          "relative_error": 0.9203721497562287,
+          "scaled_error": 4.2502672109083005e-07
+        }
+      },
+      "point_coefficient_norm": 5.9017189650318596,
+      "omitted_radial_term": [
+        1.524334130859428e-06,
+        1.9920886333059213e-06
+      ],
+      "analytic_difference_absolute_error": 1.2880750683716315e-21,
+      "analytic_difference_scaled_error": 2.1825421983045546e-22
+    },
+    {
+      "kind": "manufactured_off_shell",
+      "a": 0.88,
+      "r": 45.0,
+      "theta": 2.1,
+      "w": 0.2962935347256115,
+      "m": 1,
+      "component": "trace",
+      "coordinate_contraction": [
+        -0.36050532687814224,
+        -0.3317544910959554
+      ],
+      "tetrad_contraction": [
+        -0.3605053268781424,
+        -0.3317544910959555
+      ],
+      "tetrad_absolute_error": 2.0014830212433605e-16,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.3605053268781423,
+            -0.3317544910959553
+          ],
+          "absolute_error": 1.2412670766236366e-16,
+          "relative_error": 2.533593153314411e-16,
+          "scaled_error": 2.1032297267596775e-17
+        },
+        "literal_body_423": {
+          "value": [
+            -0.3605053268781423,
+            -0.3317544910959553
+          ],
+          "absolute_error": 1.2412670766236366e-16,
+          "relative_error": 2.533593153314411e-16,
+          "scaled_error": 2.1032297267596775e-17
+        }
+      },
+      "point_coefficient_norm": 5.9017189650318596,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.2412670766236366e-16,
+      "analytic_difference_scaled_error": 2.1032297267596775e-17
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 3.1,
+      "theta": 0.71,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "lp_lp",
+      "coordinate_contraction": [
+        0.00013215407750814985,
+        -0.00011393442340961944
+      ],
+      "tetrad_contraction": [
+        0.00013215407750814988,
+        -0.00011393442340961946
+      ],
+      "tetrad_absolute_error": 3.030437198788175e-20,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            0.0001321540775081499,
+            -0.00011393442340961948
+          ],
+          "absolute_error": 6.776263578034403e-20,
+          "relative_error": 3.8835323783731313e-16,
+          "scaled_error": 3.260536904436377e-16
+        },
+        "literal_body_423": {
+          "value": [
+            0.0001321540775081499,
+            -0.00011393442340961948
+          ],
+          "absolute_error": 6.776263578034403e-20,
+          "relative_error": 3.8835323783731313e-16,
+          "scaled_error": 3.260536904436377e-16
+        }
+      },
+      "point_coefficient_norm": 0.00020782661802767609,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 6.776263578034403e-20,
+      "analytic_difference_scaled_error": 3.260536904436377e-16,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 3.1,
+      "theta": 0.71,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "lm_lm",
+      "coordinate_contraction": [
+        0.00013215407750814996,
+        0.00011393442340961947
+      ],
+      "tetrad_contraction": [
+        0.00013215407750814985,
+        0.00011393442340961946
+      ],
+      "tetrad_absolute_error": 1.0926396707304223e-19,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            0.0001321540775081499,
+            0.00011393442340961948
+          ],
+          "absolute_error": 5.587850095852341e-20,
+          "relative_error": 3.202442839307716e-16,
+          "scaled_error": 2.6887076106431233e-16
+        },
+        "literal_body_423": {
+          "value": [
+            0.0001321540775081499,
+            0.00011393442340961948
+          ],
+          "absolute_error": 5.587850095852341e-20,
+          "relative_error": 3.202442839307716e-16,
+          "scaled_error": 2.6887076106431233e-16
+        }
+      },
+      "point_coefficient_norm": 0.00020782661802767609,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 5.587850095852341e-20,
+      "analytic_difference_scaled_error": 2.6887076106431233e-16,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 3.1,
+      "theta": 0.71,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "mp_mp",
+      "coordinate_contraction": [
+        1.9368206052463495e-05,
+        0.0
+      ],
+      "tetrad_contraction": [
+        1.936820605246348e-05,
+        0.0
+      ],
+      "tetrad_absolute_error": 1.3552527156068805e-20,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            1.9368206052463515e-05,
+            0.0
+          ],
+          "absolute_error": 2.0328790734103208e-20,
+          "relative_error": 1.0495959553010608e-15,
+          "scaled_error": 9.78161071330913e-17
+        },
+        "literal_body_423": {
+          "value": [
+            2.1263637565988268e-06,
+            0.0
+          ],
+          "absolute_error": 1.7241842295864668e-05,
+          "relative_error": 0.8902136960522284,
+          "scaled_error": 0.08296262749927724
+        }
+      },
+      "point_coefficient_norm": 0.00020782661802767609,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 2.0328790734103208e-20,
+      "analytic_difference_scaled_error": 9.78161071330913e-17,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 3.1,
+      "theta": 0.71,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "mm_mm",
+      "coordinate_contraction": [
+        2.126363756598854e-06,
+        0.0
+      ],
+      "tetrad_contraction": [
+        2.1263637565988514e-06,
+        0.0
+      ],
+      "tetrad_absolute_error": 2.541098841762901e-21,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            2.1263637565988268e-06,
+            0.0
+          ],
+          "absolute_error": 2.710505431213761e-20,
+          "relative_error": 1.2747138972822079e-14,
+          "scaled_error": 1.3042147617745506e-16
+        },
+        "literal_body_423": {
+          "value": [
+            1.9368206052463515e-05,
+            0.0
+          ],
+          "absolute_error": 1.724184229586466e-05,
+          "relative_error": 8.10860429799801,
+          "scaled_error": 0.08296262749927721
+        }
+      },
+      "point_coefficient_norm": 0.00020782661802767609,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 2.710505431213761e-20,
+      "analytic_difference_scaled_error": 1.3042147617745506e-16,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 3.1,
+      "theta": 0.71,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "Gamma_lp_mp",
+      "coordinate_contraction": [
+        -2.3190178947143717e-05,
+        -8.8414578951076e-05
+      ],
+      "tetrad_contraction": [
+        -2.3190178947143724e-05,
+        -8.841457895107602e-05
+      ],
+      "tetrad_absolute_error": 1.5152185993940876e-20,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -2.319017894714373e-05,
+            -8.841457895107604e-05
+          ],
+          "absolute_error": 4.2856853864461685e-20,
+          "relative_error": 4.688663681614789e-16,
+          "scaled_error": 2.0621446026107434e-16
+        },
+        "literal_body_423": {
+          "value": [
+            5.539239037316038e-06,
+            8.389236359799926e-07
+          ],
+          "absolute_error": 9.376335735127775e-05,
+          "relative_error": 1.0257982297756962,
+          "scaled_error": 0.4511614452523659
+        }
+      },
+      "point_coefficient_norm": 0.00020782661802767609,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 4.2856853864461685e-20,
+      "analytic_difference_scaled_error": 2.0621446026107434e-16,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 3.1,
+      "theta": 0.71,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "barGamma_lp_mm",
+      "coordinate_contraction": [
+        -7.009233564499222e-06,
+        6.609655044880574e-06
+      ],
+      "tetrad_contraction": [
+        -7.009233564499228e-06,
+        6.609655044880584e-06
+      ],
+      "tetrad_absolute_error": 1.1767357776948958e-20,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -7.009233564499224e-06,
+            6.609655044880572e-06
+          ],
+          "absolute_error": 3.593656445351658e-21,
+          "relative_error": 3.7301220155159313e-16,
+          "scaled_error": 1.729160816576967e-17
+        },
+        "literal_body_423": {
+          "value": [
+            -9.66215906238638e-07,
+            -6.618531681734973e-05
+          ],
+          "absolute_error": 7.304536940040041e-05,
+          "relative_error": 7.581919548385346,
+          "scaled_error": 0.3514726366315263
+        }
+      },
+      "point_coefficient_norm": 0.00020782661802767609,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 3.593656445351658e-21,
+      "analytic_difference_scaled_error": 1.729160816576967e-17,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 3.1,
+      "theta": 0.71,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "barGamma_lm_mp",
+      "coordinate_contraction": [
+        -2.3190178947143724e-05,
+        8.841457895107602e-05
+      ],
+      "tetrad_contraction": [
+        -2.319017894714373e-05,
+        8.841457895107604e-05
+      ],
+      "tetrad_absolute_error": 2.7939250479261703e-20,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -2.319017894714373e-05,
+            8.841457895107604e-05
+          ],
+          "absolute_error": 2.7939250479261703e-20,
+          "relative_error": 3.0566347550369433e-16,
+          "scaled_error": 1.3443538053215616e-16
+        },
+        "literal_body_423": {
+          "value": [
+            5.539239037316038e-06,
+            -8.389236359799926e-07
+          ],
+          "absolute_error": 9.376335735127776e-05,
+          "relative_error": 1.0257982297756962,
+          "scaled_error": 0.451161445252366
+        }
+      },
+      "point_coefficient_norm": 0.00020782661802767609,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 2.7939250479261703e-20,
+      "analytic_difference_scaled_error": 1.3443538053215616e-16,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 3.1,
+      "theta": 0.71,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "Gamma_lm_mm",
+      "coordinate_contraction": [
+        -7.009233564499226e-06,
+        -6.609655044880566e-06
+      ],
+      "tetrad_contraction": [
+        -7.009233564499228e-06,
+        -6.609655044880585e-06
+      ],
+      "tetrad_absolute_error": 1.9555274115194225e-20,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -7.009233564499224e-06,
+            -6.609655044880572e-06
+          ],
+          "absolute_error": 6.166492935852455e-21,
+          "relative_error": 6.400659442084169e-16,
+          "scaled_error": 2.9671333702939193e-17
+        },
+        "literal_body_423": {
+          "value": [
+            -9.66215906238638e-07,
+            6.618531681734973e-05
+          ],
+          "absolute_error": 7.30453694004004e-05,
+          "relative_error": 7.581919548385348,
+          "scaled_error": 0.3514726366315262
+        }
+      },
+      "point_coefficient_norm": 0.00020782661802767609,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 6.166492935852455e-21,
+      "analytic_difference_scaled_error": 2.9671333702939193e-17,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 3.1,
+      "theta": 0.71,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "SigmaDelta_lp_lm",
+      "coordinate_contraction": [
+        -8.05443784683845e-06,
+        9.774675084870604e-22
+      ],
+      "tetrad_contraction": [
+        -8.054437846838446e-06,
+        0.0
+      ],
+      "tetrad_absolute_error": 3.526312486138573e-21,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            2.4571645526983593e-06,
+            0.0
+          ],
+          "absolute_error": 1.051160239953681e-05,
+          "relative_error": 1.3050696522120229,
+          "scaled_error": 0.050578710750790304
+        },
+        "literal_body_423": {
+          "value": [
+            2.4571645526983593e-06,
+            0.0
+          ],
+          "absolute_error": 1.051160239953681e-05,
+          "relative_error": 1.3050696522120229,
+          "scaled_error": 0.050578710750790304
+        }
+      },
+      "point_coefficient_norm": 0.00020782661802767609,
+      "omitted_radial_term": [
+        -1.0511602399536805e-05,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 5.1753430827900605e-21,
+      "analytic_difference_scaled_error": 2.490221479762936e-17,
+      "on_shell_omitted_term": [
+        -1.0511602399536803e-05,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 1.6940658945086007e-21
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 3.1,
+      "theta": 0.71,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "trace",
+      "coordinate_contraction": [
+        0.00020782661802767609,
+        0.0
+      ],
+      "tetrad_contraction": [
+        0.00020782661802767633,
+        0.0
+      ],
+      "tetrad_absolute_error": 2.439454888092385e-19,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            0.0002078266180276761,
+            0.0
+          ],
+          "absolute_error": 2.710505431213761e-20,
+          "relative_error": 1.3042147617745506e-16,
+          "scaled_error": 1.3042147617745506e-16
+        },
+        "literal_body_423": {
+          "value": [
+            0.0002078266180276761,
+            0.0
+          ],
+          "absolute_error": 2.710505431213761e-20,
+          "relative_error": 1.3042147617745506e-16,
+          "scaled_error": 1.3042147617745506e-16
+        }
+      },
+      "point_coefficient_norm": 0.00020782661802767609,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 2.710505431213761e-20,
+      "analytic_difference_scaled_error": 1.3042147617745506e-16,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 10.0,
+      "theta": 0.8,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "lp_lp",
+      "coordinate_contraction": [
+        0.005396993159472224,
+        -0.0010407330817858243
+      ],
+      "tetrad_contraction": [
+        0.005396993159472226,
+        -0.0010407330817858243
+      ],
+      "tetrad_absolute_error": 2.6020852139652106e-18,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            0.005396993159472223,
+            -0.001040733081785824
+          ],
+          "absolute_error": 8.940560153363745e-19,
+          "relative_error": 1.626614424552297e-16,
+          "scaled_error": 1.626614424552297e-16
+        },
+        "literal_body_423": {
+          "value": [
+            0.005396993159472223,
+            -0.001040733081785824
+          ],
+          "absolute_error": 8.940560153363745e-19,
+          "relative_error": 1.626614424552297e-16,
+          "scaled_error": 1.626614424552297e-16
+        }
+      },
+      "point_coefficient_norm": 0.005496422519322309,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 8.940560153363745e-19,
+      "analytic_difference_scaled_error": 1.626614424552297e-16,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 10.0,
+      "theta": 0.8,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "lm_lm",
+      "coordinate_contraction": [
+        0.005396993159472224,
+        0.0010407330817858243
+      ],
+      "tetrad_contraction": [
+        0.005396993159472227,
+        0.0010407330817858243
+      ],
+      "tetrad_absolute_error": 3.469446951953614e-18,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            0.005396993159472223,
+            0.001040733081785824
+          ],
+          "absolute_error": 8.940560153363745e-19,
+          "relative_error": 1.626614424552297e-16,
+          "scaled_error": 1.626614424552297e-16
+        },
+        "literal_body_423": {
+          "value": [
+            0.005396993159472223,
+            0.001040733081785824
+          ],
+          "absolute_error": 8.940560153363745e-19,
+          "relative_error": 1.626614424552297e-16,
+          "scaled_error": 1.626614424552297e-16
+        }
+      },
+      "point_coefficient_norm": 0.005496422519322309,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 8.940560153363745e-19,
+      "analytic_difference_scaled_error": 1.626614424552297e-16,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 10.0,
+      "theta": 0.8,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "mp_mp",
+      "coordinate_contraction": [
+        5.1070437046821975e-06,
+        0.0
+      ],
+      "tetrad_contraction": [
+        5.107043704682199e-06,
+        0.0
+      ],
+      "tetrad_absolute_error": 1.6940658945086007e-21,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            5.107043704682206e-06,
+            0.0
+          ],
+          "absolute_error": 8.470329472543003e-21,
+          "relative_error": 1.658558250593647e-15,
+          "scaled_error": 1.5410622896558846e-18
+        },
+        "literal_body_423": {
+          "value": [
+            7.428584107870054e-07,
+            0.0
+          ],
+          "absolute_error": 4.364185293895192e-06,
+          "relative_error": 0.8545423822972292,
+          "scaled_error": 0.00079400469642812
+        }
+      },
+      "point_coefficient_norm": 0.005496422519322309,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 8.470329472543003e-21,
+      "analytic_difference_scaled_error": 1.5410622896558846e-18,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 10.0,
+      "theta": 0.8,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "mm_mm",
+      "coordinate_contraction": [
+        7.428584107870111e-07,
+        0.0
+      ],
+      "tetrad_contraction": [
+        7.428584107870103e-07,
+        0.0
+      ],
+      "tetrad_absolute_error": 7.411538288475128e-22,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            7.428584107870054e-07,
+            0.0
+          ],
+          "absolute_error": 5.61159327555974e-21,
+          "relative_error": 7.554054977468203e-15,
+          "scaled_error": 1.0209537668970235e-18
+        },
+        "literal_body_423": {
+          "value": [
+            5.107043704682206e-06,
+            0.0
+          ],
+          "absolute_error": 4.364185293895195e-06,
+          "relative_error": 5.874854791334488,
+          "scaled_error": 0.0007940046964281204
+        }
+      },
+      "point_coefficient_norm": 0.005496422519322309,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 5.61159327555974e-21,
+      "analytic_difference_scaled_error": 1.0209537668970235e-18,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 10.0,
+      "theta": 0.8,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "Gamma_lp_mp",
+      "coordinate_contraction": [
+        8.759900945179724e-06,
+        -7.842796222280123e-05
+      ],
+      "tetrad_contraction": [
+        8.759900945179721e-06,
+        -7.842796222280125e-05
+      ],
+      "tetrad_absolute_error": 1.3969625239630852e-20,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            8.759900945179723e-06,
+            -7.842796222280122e-05
+          ],
+          "absolute_error": 1.3657995884130278e-20,
+          "relative_error": 1.7307079710755794e-16,
+          "scaled_error": 2.4848882770777716e-18
+        },
+        "literal_body_423": {
+          "value": [
+            1.4238689415045571e-06,
+            7.895889047018814e-06
+          ],
+          "absolute_error": 8.663500830272343e-05,
+          "relative_error": 1.0978177231547057,
+          "scaled_error": 0.015762072147503907
+        }
+      },
+      "point_coefficient_norm": 0.005496422519322309,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.3657995884130278e-20,
+      "analytic_difference_scaled_error": 2.4848882770777716e-18,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 10.0,
+      "theta": 0.8,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "barGamma_lp_mm",
+      "coordinate_contraction": [
+        -3.932770639839423e-06,
+        8.024823352661464e-06
+      ],
+      "tetrad_contraction": [
+        -3.932770639839421e-06,
+        8.02482335266146e-06
+      ],
+      "tetrad_absolute_error": 3.788046498485219e-21,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -3.93277063983942e-06,
+            8.024823352661459e-06
+          ],
+          "absolute_error": 5.6820697477278285e-21,
+          "relative_error": 6.358134936246064e-16,
+          "scaled_error": 1.0337760111696087e-18
+        },
+        "literal_body_423": {
+          "value": [
+            1.3685749639807777e-05,
+            -7.390821774458464e-05
+          ],
+          "absolute_error": 8.380593940937215e-05,
+          "relative_error": 9.377735488669918,
+          "scaled_error": 0.015247361190803277
+        }
+      },
+      "point_coefficient_norm": 0.005496422519322309,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 5.6820697477278285e-21,
+      "analytic_difference_scaled_error": 1.0337760111696087e-18,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 10.0,
+      "theta": 0.8,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "barGamma_lm_mp",
+      "coordinate_contraction": [
+        8.759900945179724e-06,
+        7.842796222280123e-05
+      ],
+      "tetrad_contraction": [
+        8.75990094517972e-06,
+        7.842796222280125e-05
+      ],
+      "tetrad_absolute_error": 1.4474105347496177e-20,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            8.759900945179723e-06,
+            7.842796222280122e-05
+          ],
+          "absolute_error": 1.3657995884130278e-20,
+          "relative_error": 1.7307079710755794e-16,
+          "scaled_error": 2.4848882770777716e-18
+        },
+        "literal_body_423": {
+          "value": [
+            1.4238689415045571e-06,
+            -7.895889047018814e-06
+          ],
+          "absolute_error": 8.663500830272343e-05,
+          "relative_error": 1.0978177231547057,
+          "scaled_error": 0.015762072147503907
+        }
+      },
+      "point_coefficient_norm": 0.005496422519322309,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.3657995884130278e-20,
+      "analytic_difference_scaled_error": 2.4848882770777716e-18,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 10.0,
+      "theta": 0.8,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "Gamma_lm_mm",
+      "coordinate_contraction": [
+        -3.932770639839423e-06,
+        -8.024823352661464e-06
+      ],
+      "tetrad_contraction": [
+        -3.932770639839421e-06,
+        -8.02482335266146e-06
+      ],
+      "tetrad_absolute_error": 3.788046498485219e-21,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -3.93277063983942e-06,
+            -8.024823352661459e-06
+          ],
+          "absolute_error": 5.6820697477278285e-21,
+          "relative_error": 6.358134936246064e-16,
+          "scaled_error": 1.0337760111696087e-18
+        },
+        "literal_body_423": {
+          "value": [
+            1.3685749639807777e-05,
+            7.390821774458464e-05
+          ],
+          "absolute_error": 8.380593940937215e-05,
+          "relative_error": 9.377735488669918,
+          "scaled_error": 0.015247361190803277
+        }
+      },
+      "point_coefficient_norm": 0.005496422519322309,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 5.6820697477278285e-21,
+      "analytic_difference_scaled_error": 1.0337760111696087e-18,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 10.0,
+      "theta": 0.8,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "SigmaDelta_lp_lm",
+      "coordinate_contraction": [
+        -1.2699880727250291e-06,
+        0.0
+      ],
+      "tetrad_contraction": [
+        -1.26998807272503e-06,
+        0.0
+      ],
+      "tetrad_absolute_error": 8.470329472543003e-22,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -2.1206293694868894e-09,
+            0.0
+          ],
+          "absolute_error": 1.2678674433555422e-06,
+          "relative_error": 0.9983301974128492,
+          "scaled_error": 0.00023067139378358164
+        },
+        "literal_body_423": {
+          "value": [
+            -2.1206293694868894e-09,
+            0.0
+          ],
+          "absolute_error": 1.2678674433555422e-06,
+          "relative_error": 0.9983301974128492,
+          "scaled_error": 0.00023067139378358164
+        }
+      },
+      "point_coefficient_norm": 0.005496422519322309,
+      "omitted_radial_term": [
+        -1.267867443355542e-06,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 2.117582368135751e-22,
+      "analytic_difference_scaled_error": 3.852655724139712e-20,
+      "on_shell_omitted_term": [
+        -1.2678674433555422e-06,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 2.117582368135751e-22
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 10.0,
+      "theta": 0.8,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "trace",
+      "coordinate_contraction": [
+        0.000927688944481755,
+        0.0
+      ],
+      "tetrad_contraction": [
+        0.0009276889444817553,
+        0.0
+      ],
+      "tetrad_absolute_error": 2.168404344971009e-19,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            0.0009276889444817546,
+            0.0
+          ],
+          "absolute_error": 4.336808689942018e-19,
+          "relative_error": 4.674852185895927e-16,
+          "scaled_error": 7.89023892303813e-17
+        },
+        "literal_body_423": {
+          "value": [
+            0.0009276889444817546,
+            0.0
+          ],
+          "absolute_error": 4.336808689942018e-19,
+          "relative_error": 4.674852185895927e-16,
+          "scaled_error": 7.89023892303813e-17
+        }
+      },
+      "point_coefficient_norm": 0.005496422519322309,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 4.336808689942018e-19,
+      "analytic_difference_scaled_error": 7.89023892303813e-17,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 45.0,
+      "theta": 2.1,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "lp_lp",
+      "coordinate_contraction": [
+        0.09262324933107509,
+        0.017277396377635805
+      ],
+      "tetrad_contraction": [
+        0.09262324933107505,
+        0.017277396377635798
+      ],
+      "tetrad_absolute_error": 4.220764384040162e-17,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            0.09262324933107513,
+            0.01727739637763581
+          ],
+          "absolute_error": 4.1777673608052095e-17,
+          "relative_error": 4.434014243764129e-16,
+          "scaled_error": 4.434014243764129e-16
+        },
+        "literal_body_423": {
+          "value": [
+            0.09262324933107513,
+            0.01727739637763581
+          ],
+          "absolute_error": 4.1777673608052095e-17,
+          "relative_error": 4.434014243764129e-16,
+          "scaled_error": 4.434014243764129e-16
+        }
+      },
+      "point_coefficient_norm": 0.09422088272902375,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 4.1777673608052095e-17,
+      "analytic_difference_scaled_error": 4.434014243764129e-16,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 45.0,
+      "theta": 2.1,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "lm_lm",
+      "coordinate_contraction": [
+        0.0926232493310751,
+        -0.017277396377635805
+      ],
+      "tetrad_contraction": [
+        0.09262324933107505,
+        -0.017277396377635798
+      ],
+      "tetrad_absolute_error": 5.594315114139762e-17,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            0.09262324933107513,
+            -0.01727739637763581
+          ],
+          "absolute_error": 2.797157557069881e-17,
+          "relative_error": 2.9687235738540223e-16,
+          "scaled_error": 2.9687235738540223e-16
+        },
+        "literal_body_423": {
+          "value": [
+            0.09262324933107513,
+            -0.01727739637763581
+          ],
+          "absolute_error": 2.797157557069881e-17,
+          "relative_error": 2.9687235738540223e-16,
+          "scaled_error": 2.9687235738540223e-16
+        }
+      },
+      "point_coefficient_norm": 0.09422088272902375,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 2.797157557069881e-17,
+      "analytic_difference_scaled_error": 2.9687235738540223e-16,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 45.0,
+      "theta": 2.1,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "mp_mp",
+      "coordinate_contraction": [
+        5.3687101845359646e-08,
+        0.0
+      ],
+      "tetrad_contraction": [
+        5.3687101845359685e-08,
+        0.0
+      ],
+      "tetrad_absolute_error": 3.970466940254533e-23,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            5.368710184535943e-08,
+            0.0
+          ],
+          "absolute_error": 2.183756817139993e-22,
+          "relative_error": 4.067563236007947e-15,
+          "scaled_error": 2.3176993824398864e-21
+        },
+        "literal_body_423": {
+          "value": [
+            1.8939759899307848e-07,
+            0.0
+          ],
+          "absolute_error": 1.3571049714771883e-07,
+          "relative_error": 2.5278044908927924,
+          "scaled_error": 1.4403441489506937e-06
+        }
+      },
+      "point_coefficient_norm": 0.09422088272902375,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 2.183756817139993e-22,
+      "analytic_difference_scaled_error": 2.3176993824398864e-21,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 45.0,
+      "theta": 2.1,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "mm_mm",
+      "coordinate_contraction": [
+        1.8939759899307854e-07,
+        0.0
+      ],
+      "tetrad_contraction": [
+        1.8939759899307825e-07,
+        -3.521370201360998e-41
+      ],
+      "tetrad_absolute_error": 2.9116757561866574e-22,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            1.8939759899307848e-07,
+            0.0
+          ],
+          "absolute_error": 5.293955920339377e-23,
+          "relative_error": 2.795154716049406e-16,
+          "scaled_error": 5.61866516955124e-22
+        },
+        "literal_body_423": {
+          "value": [
+            5.368710184535943e-08,
+            0.0
+          ],
+          "absolute_error": 1.357104971477191e-07,
+          "relative_error": 0.7165375795111245,
+          "scaled_error": 1.4403441489506965e-06
+        }
+      },
+      "point_coefficient_norm": 0.09422088272902375,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 5.293955920339377e-23,
+      "analytic_difference_scaled_error": 5.61866516955124e-22,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 45.0,
+      "theta": 2.1,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "Gamma_lp_mp",
+      "coordinate_contraction": [
+        5.320666126749677e-07,
+        -2.3886510969149258e-06
+      ],
+      "tetrad_contraction": [
+        5.32066612674968e-07,
+        -2.3886510969149283e-06
+      ],
+      "tetrad_absolute_error": 2.5608742282744272e-21,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            5.320666126749677e-07,
+            -2.3886510969149287e-06
+          ],
+          "absolute_error": 2.964615315390051e-21,
+          "relative_error": 1.2114354948318841e-15,
+          "scaled_error": 3.146452494948694e-20
+        },
+        "literal_body_423": {
+          "value": [
+            -1.6955766533853138e-06,
+            1.0462366563313587e-05
+          ],
+          "absolute_error": 1.3042662666201592e-05,
+          "relative_error": 5.329644092078919,
+          "scaled_error": 0.0001384264537587901
+        }
+      },
+      "point_coefficient_norm": 0.09422088272902375,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 2.964615315390051e-21,
+      "analytic_difference_scaled_error": 3.146452494948694e-20,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 45.0,
+      "theta": 2.1,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "barGamma_lp_mm",
+      "coordinate_contraction": [
+        -1.7214120971318255e-06,
+        1.0489593910592935e-05
+      ],
+      "tetrad_contraction": [
+        -1.721412097131826e-06,
+        1.0489593910592932e-05
+      ],
+      "tetrad_absolute_error": 3.4144989710325696e-21,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -1.7214120971318255e-06,
+            1.0489593910592934e-05
+          ],
+          "absolute_error": 1.6940658945086007e-21,
+          "relative_error": 1.593679526339857e-16,
+          "scaled_error": 1.7979728542563967e-20
+        },
+        "literal_body_423": {
+          "value": [
+            2.527216126791794e-07,
+            -2.4209670660920945e-06
+          ],
+          "absolute_error": 1.3060619764655675e-05,
+          "relative_error": 1.2286678096591452,
+          "scaled_error": 0.0001386170388810472
+        }
+      },
+      "point_coefficient_norm": 0.09422088272902375,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.6940658945086007e-21,
+      "analytic_difference_scaled_error": 1.7979728542563967e-20,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 45.0,
+      "theta": 2.1,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "barGamma_lm_mp",
+      "coordinate_contraction": [
+        5.320666126749677e-07,
+        2.3886510969149258e-06
+      ],
+      "tetrad_contraction": [
+        5.320666126749679e-07,
+        2.3886510969149287e-06
+      ],
+      "tetrad_absolute_error": 2.972168487670853e-21,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            5.320666126749677e-07,
+            2.3886510969149287e-06
+          ],
+          "absolute_error": 2.964615315390051e-21,
+          "relative_error": 1.2114354948318841e-15,
+          "scaled_error": 3.146452494948694e-20
+        },
+        "literal_body_423": {
+          "value": [
+            -1.6955766533853138e-06,
+            -1.0462366563313587e-05
+          ],
+          "absolute_error": 1.3042662666201592e-05,
+          "relative_error": 5.329644092078919,
+          "scaled_error": 0.0001384264537587901
+        }
+      },
+      "point_coefficient_norm": 0.09422088272902375,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 2.964615315390051e-21,
+      "analytic_difference_scaled_error": 3.146452494948694e-20,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 45.0,
+      "theta": 2.1,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "Gamma_lm_mm",
+      "coordinate_contraction": [
+        -1.7214120971318255e-06,
+        -1.0489593910592935e-05
+      ],
+      "tetrad_contraction": [
+        -1.7214120971318262e-06,
+        -1.0489593910592932e-05
+      ],
+      "tetrad_absolute_error": 3.447174346834585e-21,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -1.7214120971318255e-06,
+            -1.0489593910592934e-05
+          ],
+          "absolute_error": 1.6940658945086007e-21,
+          "relative_error": 1.593679526339857e-16,
+          "scaled_error": 1.7979728542563967e-20
+        },
+        "literal_body_423": {
+          "value": [
+            2.527216126791794e-07,
+            2.4209670660920945e-06
+          ],
+          "absolute_error": 1.3060619764655675e-05,
+          "relative_error": 1.2286678096591452,
+          "scaled_error": 0.0001386170388810472
+        }
+      },
+      "point_coefficient_norm": 0.09422088272902375,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.6940658945086007e-21,
+      "analytic_difference_scaled_error": 1.7979728542563967e-20,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 45.0,
+      "theta": 2.1,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "SigmaDelta_lp_lm",
+      "coordinate_contraction": [
+        -4.8620063485737626e-08,
+        0.0
+      ],
+      "tetrad_contraction": [
+        -4.86200634857376e-08,
+        -4.788134148142527e-43
+      ],
+      "tetrad_absolute_error": 2.6469779601696886e-23,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -1.6350059857323712e-09,
+            0.0
+          ],
+          "absolute_error": 4.698505750000526e-08,
+          "relative_error": 0.9663717842282953,
+          "scaled_error": 4.986692561046449e-07
+        },
+        "literal_body_423": {
+          "value": [
+            -1.6350059857323712e-09,
+            0.0
+          ],
+          "absolute_error": 4.698505750000526e-08,
+          "relative_error": 0.9663717842282953,
+          "scaled_error": 4.986692561046449e-07
+        }
+      },
+      "point_coefficient_norm": 0.09422088272902375,
+      "omitted_radial_term": [
+        -4.6985057500005264e-08,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 6.617444900424222e-24,
+      "analytic_difference_scaled_error": 7.02333146193905e-23,
+      "on_shell_omitted_term": [
+        -4.698505750000526e-08,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 6.617444900424222e-24
+    },
+    {
+      "kind": "exact_synchronized_massive_cloud",
+      "a": 0.8771530275949366,
+      "r": 45.0,
+      "theta": 2.1,
+      "w": 0.29629324847975713,
+      "m": 1,
+      "mu": 0.3,
+      "angular_A": 2.0003401082874244,
+      "lambda_c": 1.5480962298727254,
+      "component": "trace",
+      "coordinate_contraction": [
+        0.004155230974159853,
+        0.0
+      ],
+      "tetrad_contraction": [
+        0.004155230974159852,
+        -1.8598488829412044e-37
+      ],
+      "tetrad_absolute_error": 8.673617379884035e-19,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            0.004155230974159851,
+            0.0
+          ],
+          "absolute_error": 1.734723475976807e-18,
+          "relative_error": 4.174794341793602e-16,
+          "scaled_error": 1.8411242027585502e-17
+        },
+        "literal_body_423": {
+          "value": [
+            0.004155230974159851,
+            0.0
+          ],
+          "absolute_error": 1.734723475976807e-18,
+          "relative_error": 4.174794341793602e-16,
+          "scaled_error": 1.8411242027585502e-17
+        }
+      },
+      "point_coefficient_norm": 0.09422088272902375,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.734723475976807e-18,
+      "analytic_difference_scaled_error": 1.8411242027585502e-17,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_static_massless_Schwarzschild_ell1",
+      "a": 0.0,
+      "r": 3.0,
+      "theta": 0.71,
+      "w": 0.0,
+      "m": 0,
+      "mu": 0.0,
+      "angular_A": 2.0,
+      "lambda_c": 2.0,
+      "component": "lp_lp",
+      "coordinate_contraction": [
+        0.0,
+        0.0
+      ],
+      "tetrad_contraction": [
+        -2.7755575615628914e-17,
+        0.0
+      ],
+      "tetrad_absolute_error": 2.7755575615628914e-17,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            0.0,
+            0.0
+          ],
+          "absolute_error": 0.0,
+          "relative_error": null,
+          "scaled_error": 0.0
+        },
+        "literal_body_423": {
+          "value": [
+            0.0,
+            0.0
+          ],
+          "absolute_error": 0.0,
+          "relative_error": null,
+          "scaled_error": 0.0
+        }
+      },
+      "point_coefficient_norm": 0.7583618759905081,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 0.0,
+      "analytic_difference_scaled_error": 0.0,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_static_massless_Schwarzschild_ell1",
+      "a": 0.0,
+      "r": 3.0,
+      "theta": 0.71,
+      "w": 0.0,
+      "m": 0,
+      "mu": 0.0,
+      "angular_A": 2.0,
+      "lambda_c": 2.0,
+      "component": "lm_lm",
+      "coordinate_contraction": [
+        0.0,
+        0.0
+      ],
+      "tetrad_contraction": [
+        -2.7755575615628914e-17,
+        0.0
+      ],
+      "tetrad_absolute_error": 2.7755575615628914e-17,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            0.0,
+            0.0
+          ],
+          "absolute_error": 0.0,
+          "relative_error": null,
+          "scaled_error": 0.0
+        },
+        "literal_body_423": {
+          "value": [
+            0.0,
+            0.0
+          ],
+          "absolute_error": 0.0,
+          "relative_error": null,
+          "scaled_error": 0.0
+        }
+      },
+      "point_coefficient_norm": 0.7583618759905081,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 0.0,
+      "analytic_difference_scaled_error": 0.0,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_static_massless_Schwarzschild_ell1",
+      "a": 0.0,
+      "r": 3.0,
+      "theta": 0.71,
+      "w": 0.0,
+      "m": 0,
+      "mu": 0.0,
+      "angular_A": 2.0,
+      "lambda_c": 2.0,
+      "component": "mp_mp",
+      "coordinate_contraction": [
+        -7.806255641895632e-18,
+        0.0
+      ],
+      "tetrad_contraction": [
+        -1.5419764230904953e-17,
+        0.0
+      ],
+      "tetrad_absolute_error": 7.61350858900932e-18,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            6.1679056923619804e-18,
+            0.0
+          ],
+          "absolute_error": 1.3974161334257612e-17,
+          "relative_error": null,
+          "scaled_error": 1.8426771936558317e-17
+        },
+        "literal_body_423": {
+          "value": [
+            6.1679056923619804e-18,
+            0.0
+          ],
+          "absolute_error": 1.3974161334257612e-17,
+          "relative_error": null,
+          "scaled_error": 1.8426771936558317e-17
+        }
+      },
+      "point_coefficient_norm": 0.7583618759905081,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.3974161334257612e-17,
+      "analytic_difference_scaled_error": 1.8426771936558317e-17,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_static_massless_Schwarzschild_ell1",
+      "a": 0.0,
+      "r": 3.0,
+      "theta": 0.71,
+      "w": 0.0,
+      "m": 0,
+      "mu": 0.0,
+      "angular_A": 2.0,
+      "lambda_c": 2.0,
+      "component": "mm_mm",
+      "coordinate_contraction": [
+        -7.806255641895632e-18,
+        0.0
+      ],
+      "tetrad_contraction": [
+        -1.5419764230904953e-17,
+        0.0
+      ],
+      "tetrad_absolute_error": 7.61350858900932e-18,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            6.1679056923619804e-18,
+            0.0
+          ],
+          "absolute_error": 1.3974161334257612e-17,
+          "relative_error": null,
+          "scaled_error": 1.8426771936558317e-17
+        },
+        "literal_body_423": {
+          "value": [
+            6.1679056923619804e-18,
+            0.0
+          ],
+          "absolute_error": 1.3974161334257612e-17,
+          "relative_error": null,
+          "scaled_error": 1.8426771936558317e-17
+        }
+      },
+      "point_coefficient_norm": 0.7583618759905081,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.3974161334257612e-17,
+      "analytic_difference_scaled_error": 1.8426771936558317e-17,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_static_massless_Schwarzschild_ell1",
+      "a": 0.0,
+      "r": 3.0,
+      "theta": 0.71,
+      "w": 0.0,
+      "m": 0,
+      "mu": 0.0,
+      "angular_A": 2.0,
+      "lambda_c": 2.0,
+      "component": "Gamma_lp_mp",
+      "coordinate_contraction": [
+        -0.012070995759658086,
+        0.0
+      ],
+      "tetrad_contraction": [
+        -0.012070995759658086,
+        0.0
+      ],
+      "tetrad_absolute_error": 0.0,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.012070995759658087,
+            0.0
+          ],
+          "absolute_error": 1.734723475976807e-18,
+          "relative_error": 1.4371005594868534e-16,
+          "scaled_error": 2.2874613438486187e-18
+        },
+        "literal_body_423": {
+          "value": [
+            -0.012070995759658087,
+            0.0
+          ],
+          "absolute_error": 1.734723475976807e-18,
+          "relative_error": 1.4371005594868534e-16,
+          "scaled_error": 2.2874613438486187e-18
+        }
+      },
+      "point_coefficient_norm": 0.7583618759905081,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.734723475976807e-18,
+      "analytic_difference_scaled_error": 2.2874613438486187e-18,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_static_massless_Schwarzschild_ell1",
+      "a": 0.0,
+      "r": 3.0,
+      "theta": 0.71,
+      "w": 0.0,
+      "m": 0,
+      "mu": 0.0,
+      "angular_A": 2.0,
+      "lambda_c": 2.0,
+      "component": "barGamma_lp_mm",
+      "coordinate_contraction": [
+        -0.012070995759658086,
+        0.0
+      ],
+      "tetrad_contraction": [
+        -0.012070995759658086,
+        0.0
+      ],
+      "tetrad_absolute_error": 0.0,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.012070995759658087,
+            0.0
+          ],
+          "absolute_error": 1.734723475976807e-18,
+          "relative_error": 1.4371005594868534e-16,
+          "scaled_error": 2.2874613438486187e-18
+        },
+        "literal_body_423": {
+          "value": [
+            -0.012070995759658087,
+            0.0
+          ],
+          "absolute_error": 1.734723475976807e-18,
+          "relative_error": 1.4371005594868534e-16,
+          "scaled_error": 2.2874613438486187e-18
+        }
+      },
+      "point_coefficient_norm": 0.7583618759905081,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.734723475976807e-18,
+      "analytic_difference_scaled_error": 2.2874613438486187e-18,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_static_massless_Schwarzschild_ell1",
+      "a": 0.0,
+      "r": 3.0,
+      "theta": 0.71,
+      "w": 0.0,
+      "m": 0,
+      "mu": 0.0,
+      "angular_A": 2.0,
+      "lambda_c": 2.0,
+      "component": "barGamma_lm_mp",
+      "coordinate_contraction": [
+        -0.012070995759658086,
+        0.0
+      ],
+      "tetrad_contraction": [
+        -0.012070995759658086,
+        0.0
+      ],
+      "tetrad_absolute_error": 0.0,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.012070995759658087,
+            0.0
+          ],
+          "absolute_error": 1.734723475976807e-18,
+          "relative_error": 1.4371005594868534e-16,
+          "scaled_error": 2.2874613438486187e-18
+        },
+        "literal_body_423": {
+          "value": [
+            -0.012070995759658087,
+            0.0
+          ],
+          "absolute_error": 1.734723475976807e-18,
+          "relative_error": 1.4371005594868534e-16,
+          "scaled_error": 2.2874613438486187e-18
+        }
+      },
+      "point_coefficient_norm": 0.7583618759905081,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.734723475976807e-18,
+      "analytic_difference_scaled_error": 2.2874613438486187e-18,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_static_massless_Schwarzschild_ell1",
+      "a": 0.0,
+      "r": 3.0,
+      "theta": 0.71,
+      "w": 0.0,
+      "m": 0,
+      "mu": 0.0,
+      "angular_A": 2.0,
+      "lambda_c": 2.0,
+      "component": "Gamma_lm_mm",
+      "coordinate_contraction": [
+        -0.012070995759658086,
+        0.0
+      ],
+      "tetrad_contraction": [
+        -0.012070995759658086,
+        0.0
+      ],
+      "tetrad_absolute_error": 0.0,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.012070995759658087,
+            0.0
+          ],
+          "absolute_error": 1.734723475976807e-18,
+          "relative_error": 1.4371005594868534e-16,
+          "scaled_error": 2.2874613438486187e-18
+        },
+        "literal_body_423": {
+          "value": [
+            -0.012070995759658087,
+            0.0
+          ],
+          "absolute_error": 1.734723475976807e-18,
+          "relative_error": 1.4371005594868534e-16,
+          "scaled_error": 2.2874613438486187e-18
+        }
+      },
+      "point_coefficient_norm": 0.7583618759905081,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.734723475976807e-18,
+      "analytic_difference_scaled_error": 2.2874613438486187e-18,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_static_massless_Schwarzschild_ell1",
+      "a": 0.0,
+      "r": 3.0,
+      "theta": 0.71,
+      "w": 0.0,
+      "m": 0,
+      "mu": 0.0,
+      "angular_A": 2.0,
+      "lambda_c": 2.0,
+      "component": "SigmaDelta_lp_lm",
+      "coordinate_contraction": [
+        0.01872498459235822,
+        0.0
+      ],
+      "tetrad_contraction": [
+        0.01872498459235822,
+        0.0
+      ],
+      "tetrad_absolute_error": 0.0,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            0.0,
+            0.0
+          ],
+          "absolute_error": 0.01872498459235822,
+          "relative_error": 1.0,
+          "scaled_error": 0.024691358024691353
+        },
+        "literal_body_423": {
+          "value": [
+            0.0,
+            0.0
+          ],
+          "absolute_error": 0.01872498459235822,
+          "relative_error": 1.0,
+          "scaled_error": 0.024691358024691353
+        }
+      },
+      "point_coefficient_norm": 0.7583618759905081,
+      "omitted_radial_term": [
+        0.018724984592358225,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 3.469446951953614e-18,
+      "analytic_difference_scaled_error": 4.5749226876972374e-18,
+      "on_shell_omitted_term": [
+        0.018724984592358225,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_static_massless_Schwarzschild_ell1",
+      "a": 0.0,
+      "r": 3.0,
+      "theta": 0.71,
+      "w": 0.0,
+      "m": 0,
+      "mu": 0.0,
+      "angular_A": 2.0,
+      "lambda_c": 2.0,
+      "component": "trace",
+      "coordinate_contraction": [
+        -0.7583618759905081,
+        0.0
+      ],
+      "tetrad_contraction": [
+        -0.758361875990508,
+        0.0
+      ],
+      "tetrad_absolute_error": 1.1102230246251565e-16,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.7583618759905082,
+            0.0
+          ],
+          "absolute_error": 1.1102230246251565e-16,
+          "relative_error": 1.463975260063116e-16,
+          "scaled_error": 1.463975260063116e-16
+        },
+        "literal_body_423": {
+          "value": [
+            -0.7583618759905082,
+            0.0
+          ],
+          "absolute_error": 1.1102230246251565e-16,
+          "relative_error": 1.463975260063116e-16,
+          "scaled_error": 1.463975260063116e-16
+        }
+      },
+      "point_coefficient_norm": 0.7583618759905081,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.1102230246251565e-16,
+      "analytic_difference_scaled_error": 1.463975260063116e-16,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_static_massless_Schwarzschild_ell1",
+      "a": 0.0,
+      "r": 10.0,
+      "theta": 1.1,
+      "w": 0.0,
+      "m": 0,
+      "mu": 0.0,
+      "angular_A": 2.0,
+      "lambda_c": 2.0,
+      "component": "lp_lp",
+      "coordinate_contraction": [
+        -1.4094628242311558e-16,
+        0.0
+      ],
+      "tetrad_contraction": [
+        -1.387778780781446e-16,
+        0.0
+      ],
+      "tetrad_absolute_error": 2.1684043449709842e-18,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            0.0,
+            0.0
+          ],
+          "absolute_error": 1.4094628242311558e-16,
+          "relative_error": null,
+          "scaled_error": 3.107307928033968e-16
+        },
+        "literal_body_423": {
+          "value": [
+            0.0,
+            0.0
+          ],
+          "absolute_error": 1.4094628242311558e-16,
+          "relative_error": null,
+          "scaled_error": 3.107307928033968e-16
+        }
+      },
+      "point_coefficient_norm": 0.4535961214255776,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.4094628242311558e-16,
+      "analytic_difference_scaled_error": 3.107307928033968e-16,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_static_massless_Schwarzschild_ell1",
+      "a": 0.0,
+      "r": 10.0,
+      "theta": 1.1,
+      "w": 0.0,
+      "m": 0,
+      "mu": 0.0,
+      "angular_A": 2.0,
+      "lambda_c": 2.0,
+      "component": "lm_lm",
+      "coordinate_contraction": [
+        -1.4094628242311558e-16,
+        0.0
+      ],
+      "tetrad_contraction": [
+        -1.387778780781446e-16,
+        0.0
+      ],
+      "tetrad_absolute_error": 2.1684043449709842e-18,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            0.0,
+            0.0
+          ],
+          "absolute_error": 1.4094628242311558e-16,
+          "relative_error": null,
+          "scaled_error": 3.107307928033968e-16
+        },
+        "literal_body_423": {
+          "value": [
+            0.0,
+            0.0
+          ],
+          "absolute_error": 1.4094628242311558e-16,
+          "relative_error": null,
+          "scaled_error": 3.107307928033968e-16
+        }
+      },
+      "point_coefficient_norm": 0.4535961214255776,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.4094628242311558e-16,
+      "analytic_difference_scaled_error": 3.107307928033968e-16,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_static_massless_Schwarzschild_ell1",
+      "a": 0.0,
+      "r": 10.0,
+      "theta": 1.1,
+      "w": 0.0,
+      "m": 0,
+      "mu": 0.0,
+      "angular_A": 2.0,
+      "lambda_c": 2.0,
+      "component": "mp_mp",
+      "coordinate_contraction": [
+        0.0,
+        0.0
+      ],
+      "tetrad_contraction": [
+        4.929053229492152e-20,
+        0.0
+      ],
+      "tetrad_absolute_error": 4.929053229492152e-20,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            1.249000902703301e-18,
+            0.0
+          ],
+          "absolute_error": 1.249000902703301e-18,
+          "relative_error": null,
+          "scaled_error": 2.7535528716116392e-18
+        },
+        "literal_body_423": {
+          "value": [
+            1.249000902703301e-18,
+            0.0
+          ],
+          "absolute_error": 1.249000902703301e-18,
+          "relative_error": null,
+          "scaled_error": 2.7535528716116392e-18
+        }
+      },
+      "point_coefficient_norm": 0.4535961214255776,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.249000902703301e-18,
+      "analytic_difference_scaled_error": 2.7535528716116392e-18,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_static_massless_Schwarzschild_ell1",
+      "a": 0.0,
+      "r": 10.0,
+      "theta": 1.1,
+      "w": 0.0,
+      "m": 0,
+      "mu": 0.0,
+      "angular_A": 2.0,
+      "lambda_c": 2.0,
+      "component": "mm_mm",
+      "coordinate_contraction": [
+        0.0,
+        0.0
+      ],
+      "tetrad_contraction": [
+        4.929053229492152e-20,
+        0.0
+      ],
+      "tetrad_absolute_error": 4.929053229492152e-20,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            1.249000902703301e-18,
+            0.0
+          ],
+          "absolute_error": 1.249000902703301e-18,
+          "relative_error": null,
+          "scaled_error": 2.7535528716116392e-18
+        },
+        "literal_body_423": {
+          "value": [
+            1.249000902703301e-18,
+            0.0
+          ],
+          "absolute_error": 1.249000902703301e-18,
+          "relative_error": null,
+          "scaled_error": 2.7535528716116392e-18
+        }
+      },
+      "point_coefficient_norm": 0.4535961214255776,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 1.249000902703301e-18,
+      "analytic_difference_scaled_error": 2.7535528716116392e-18,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_static_massless_Schwarzschild_ell1",
+      "a": 0.0,
+      "r": 10.0,
+      "theta": 1.1,
+      "w": 0.0,
+      "m": 0,
+      "mu": 0.0,
+      "angular_A": 2.0,
+      "lambda_c": 2.0,
+      "component": "Gamma_lp_mp",
+      "coordinate_contraction": [
+        -0.003564829440245739,
+        0.0
+      ],
+      "tetrad_contraction": [
+        -0.003564829440245739,
+        0.0
+      ],
+      "tetrad_absolute_error": 0.0,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.003564829440245741,
+            0.0
+          ],
+          "absolute_error": 2.168404344971009e-18,
+          "relative_error": 6.082771648176052e-16,
+          "scaled_error": 4.7804737354368745e-18
+        },
+        "literal_body_423": {
+          "value": [
+            -0.003564829440245741,
+            0.0
+          ],
+          "absolute_error": 2.168404344971009e-18,
+          "relative_error": 6.082771648176052e-16,
+          "scaled_error": 4.7804737354368745e-18
+        }
+      },
+      "point_coefficient_norm": 0.4535961214255776,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 2.168404344971009e-18,
+      "analytic_difference_scaled_error": 4.7804737354368745e-18,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_static_massless_Schwarzschild_ell1",
+      "a": 0.0,
+      "r": 10.0,
+      "theta": 1.1,
+      "w": 0.0,
+      "m": 0,
+      "mu": 0.0,
+      "angular_A": 2.0,
+      "lambda_c": 2.0,
+      "component": "barGamma_lp_mm",
+      "coordinate_contraction": [
+        -0.003564829440245739,
+        0.0
+      ],
+      "tetrad_contraction": [
+        -0.0035648294402457386,
+        0.0
+      ],
+      "tetrad_absolute_error": 4.336808689942018e-19,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.003564829440245741,
+            0.0
+          ],
+          "absolute_error": 2.168404344971009e-18,
+          "relative_error": 6.082771648176052e-16,
+          "scaled_error": 4.7804737354368745e-18
+        },
+        "literal_body_423": {
+          "value": [
+            -0.003564829440245741,
+            0.0
+          ],
+          "absolute_error": 2.168404344971009e-18,
+          "relative_error": 6.082771648176052e-16,
+          "scaled_error": 4.7804737354368745e-18
+        }
+      },
+      "point_coefficient_norm": 0.4535961214255776,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 2.168404344971009e-18,
+      "analytic_difference_scaled_error": 4.7804737354368745e-18,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_static_massless_Schwarzschild_ell1",
+      "a": 0.0,
+      "r": 10.0,
+      "theta": 1.1,
+      "w": 0.0,
+      "m": 0,
+      "mu": 0.0,
+      "angular_A": 2.0,
+      "lambda_c": 2.0,
+      "component": "barGamma_lm_mp",
+      "coordinate_contraction": [
+        -0.003564829440245739,
+        0.0
+      ],
+      "tetrad_contraction": [
+        -0.003564829440245739,
+        0.0
+      ],
+      "tetrad_absolute_error": 0.0,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.003564829440245741,
+            0.0
+          ],
+          "absolute_error": 2.168404344971009e-18,
+          "relative_error": 6.082771648176052e-16,
+          "scaled_error": 4.7804737354368745e-18
+        },
+        "literal_body_423": {
+          "value": [
+            -0.003564829440245741,
+            0.0
+          ],
+          "absolute_error": 2.168404344971009e-18,
+          "relative_error": 6.082771648176052e-16,
+          "scaled_error": 4.7804737354368745e-18
+        }
+      },
+      "point_coefficient_norm": 0.4535961214255776,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 2.168404344971009e-18,
+      "analytic_difference_scaled_error": 4.7804737354368745e-18,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_static_massless_Schwarzschild_ell1",
+      "a": 0.0,
+      "r": 10.0,
+      "theta": 1.1,
+      "w": 0.0,
+      "m": 0,
+      "mu": 0.0,
+      "angular_A": 2.0,
+      "lambda_c": 2.0,
+      "component": "Gamma_lm_mm",
+      "coordinate_contraction": [
+        -0.003564829440245739,
+        0.0
+      ],
+      "tetrad_contraction": [
+        -0.0035648294402457386,
+        0.0
+      ],
+      "tetrad_absolute_error": 4.336808689942018e-19,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.003564829440245741,
+            0.0
+          ],
+          "absolute_error": 2.168404344971009e-18,
+          "relative_error": 6.082771648176052e-16,
+          "scaled_error": 4.7804737354368745e-18
+        },
+        "literal_body_423": {
+          "value": [
+            -0.003564829440245741,
+            0.0
+          ],
+          "absolute_error": 2.168404344971009e-18,
+          "relative_error": 6.082771648176052e-16,
+          "scaled_error": 4.7804737354368745e-18
+        }
+      },
+      "point_coefficient_norm": 0.4535961214255776,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 2.168404344971009e-18,
+      "analytic_difference_scaled_error": 4.7804737354368745e-18,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_static_massless_Schwarzschild_ell1",
+      "a": 0.0,
+      "r": 10.0,
+      "theta": 1.1,
+      "w": 0.0,
+      "m": 0,
+      "mu": 0.0,
+      "angular_A": 2.0,
+      "lambda_c": 2.0,
+      "component": "SigmaDelta_lp_lm",
+      "coordinate_contraction": [
+        9.071922428511547e-05,
+        0.0
+      ],
+      "tetrad_contraction": [
+        9.071922428511547e-05,
+        0.0
+      ],
+      "tetrad_absolute_error": 0.0,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.00031751728499790414,
+            0.0
+          ],
+          "absolute_error": 0.0004082365092830196,
+          "relative_error": 4.499999999999999,
+          "scaled_error": 0.0008999999999999994
+        },
+        "literal_body_423": {
+          "value": [
+            -0.00031751728499790414,
+            0.0
+          ],
+          "absolute_error": 0.0004082365092830196,
+          "relative_error": 4.499999999999999,
+          "scaled_error": 0.0008999999999999994
+        }
+      },
+      "point_coefficient_norm": 0.4535961214255776,
+      "omitted_radial_term": [
+        0.00040823650928301965,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 5.421010862427522e-20,
+      "analytic_difference_scaled_error": 1.1951184338592186e-19,
+      "on_shell_omitted_term": [
+        0.00040823650928301965,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    },
+    {
+      "kind": "exact_static_massless_Schwarzschild_ell1",
+      "a": 0.0,
+      "r": 10.0,
+      "theta": 1.1,
+      "w": 0.0,
+      "m": 0,
+      "mu": 0.0,
+      "angular_A": 2.0,
+      "lambda_c": 2.0,
+      "component": "trace",
+      "coordinate_contraction": [
+        -0.4535961214255776,
+        0.0
+      ],
+      "tetrad_contraction": [
+        -0.4535961214255777,
+        0.0
+      ],
+      "tetrad_absolute_error": 1.1102230246251565e-16,
+      "appendix": {
+        "appendix_delta": {
+          "value": [
+            -0.45359612142557726,
+            0.0
+          ],
+          "absolute_error": 3.3306690738754696e-16,
+          "relative_error": 7.342807657631038e-16,
+          "scaled_error": 7.342807657631038e-16
+        },
+        "literal_body_423": {
+          "value": [
+            -0.45359612142557726,
+            0.0
+          ],
+          "absolute_error": 3.3306690738754696e-16,
+          "relative_error": 7.342807657631038e-16,
+          "scaled_error": 7.342807657631038e-16
+        }
+      },
+      "point_coefficient_norm": 0.4535961214255776,
+      "omitted_radial_term": [
+        0.0,
+        0.0
+      ],
+      "analytic_difference_absolute_error": 3.3306690738754696e-16,
+      "analytic_difference_scaled_error": 7.342807657631038e-16,
+      "on_shell_omitted_term": [
+        0.0,
+        0.0
+      ],
+      "on_shell_term_absolute_error": 0.0
+    }
+  ],
+  "closed_form_Schwarzschild_test": [
+    {
+      "r": 3.0,
+      "theta": 0.71,
+      "correct": 0.01872498459235823,
+      "printed": 0.0
+    },
+    {
+      "r": 10.0,
+      "theta": 1.1,
+      "correct": 9.071922428511546e-05,
+      "printed": -0.00031751728499790414
+    }
+  ],
+  "regression_assertions": "passed: corrected ten-channel identity <=1e-12, other nine channels <=1e-12, exact KG checks, analytic Schwarzschild counterexample",
+  "source_sha256": {
+    "outputs/paper_original_reference/li_2507_02045v2/source/main.tex": "4535abc53b9d8cd1ea1919bfcf8847ab3a065137ee21df4cc6f20c38acf092a4",
+    "src/environment_source.py": "f8ed45cc7200b9738fa3406d0b8a03552f4847340cabdc92eec97b219c4cebb2",
+    "src/environment_cloud.py": "13f9628f4513c00022ce7ebe69fc3d74db19a8e9fb610ece93ef9095866c8549"
+  },
+  "diagnostic_sha256": "4a2363ca631a3937cd08578fedd4ec661725f6925ebdf6d52c767edfe96d3a35"
+}

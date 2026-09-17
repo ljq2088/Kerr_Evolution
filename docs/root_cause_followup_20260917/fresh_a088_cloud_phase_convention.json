@@ -1,0 +1,112 @@
+{
+  "status": "phase_convention_from_cloud_only_no_field_fit",
+  "reference_radius": 20.0,
+  "new_cloud_radial": [
+    0.011376308865299752,
+    -0.00013342133817693908
+  ],
+  "old_cloud_radial": [
+    0.011379088286274154,
+    0.0
+  ],
+  "new_cloud_phase": -0.011727461259428496,
+  "old_cloud_phase": 0.0,
+  "new_to_old_constant_phase_factor": [
+    0.9999312341143433,
+    0.011727192441776113
+  ],
+  "prescription": "For a convention-only scalar22 control, multiply all fresh complex source/response coefficients by this single factor. This fixes cloud R(20) to old positive-real convention and changes no flux. No field or paper-image fitting.",
+  "limitation": "A phase-aligned replacement of scalar22 among 17 old-spin channels remains a mixed-background control, not a fully recomputed a=.88 field.",
+  "new_cloud_provenance": {
+    "kind": "GeneralKerrQuasiboundCloud",
+    "a": 0.88,
+    "mu": 0.3,
+    "ell": 1,
+    "m": 1,
+    "spectral_omega": [
+      0.2962935347256115,
+      2.216609396445795e-09
+    ],
+    "temporal_omega": [
+      0.2962935347256115,
+      0.0
+    ],
+    "freeze_growth": true,
+    "mass": 1.0,
+    "normalization": "Underlying exact complex mode Killing energy on ingoing Kerr-Schild T=0",
+    "normalization_audit": {
+      "raw_energy": 795290.3182395558,
+      "raw_charge": 2684129.8409626447,
+      "radial_points": 6001,
+      "angular_order": 48,
+      "offset": 1e-06,
+      "outer_efolds": 70.0,
+      "rtol": 2e-12,
+      "horizon_order": 6,
+      "infinity_order": 8,
+      "freeze_order": "Time frequency only, AFTER complex spatial eigenfunction and mass normalization"
+    },
+    "radial_coordinates": "BL",
+    "normalization_slice": "ingoing Kerr-Schild T=0",
+    "azimuth_transform": "Psi=phi+a/(rplus-rminus)*log((r-rplus)/(r-rminus))",
+    "phase_convention": "Unit exp[-i(omega-m OmegaH) rstar] ingoing BL amplitude before mass normalization",
+    "module_sha256": "3403dbf846cf630f6668fa2ed698272a37c687124a3d193d68b155b43816458b"
+  },
+  "radial_ratio_samples": [
+    {
+      "r": 3.0,
+      "raw_ratio": [
+        0.9985444715704785,
+        -0.011823145138221441
+      ],
+      "phase_aligned_ratio": [
+        0.9986144580738263,
+        -0.00011220892939612452
+      ]
+    },
+    {
+      "r": 20.0,
+      "raw_ratio": [
+        0.9997557430872775,
+        -0.01172513428319881
+      ],
+      "phase_aligned_ratio": [
+        0.9998244969043084,
+        0.0
+      ]
+    },
+    {
+      "r": 50.0,
+      "raw_ratio": [
+        0.9999563460245632,
+        -0.011725519419072062
+      ],
+      "phase_aligned_ratio": [
+        1.000025090563518,
+        1.9673998608928184e-06
+      ]
+    },
+    {
+      "r": 100.0,
+      "raw_ratio": [
+        1.00012426790089,
+        -0.011726143705017799
+      ],
+      "phase_aligned_ratio": [
+        1.0001930082136696,
+        3.3124090035976465e-06
+      ]
+    },
+    {
+      "r": 320.0,
+      "raw_ratio": [
+        1.0006274402715645,
+        -0.011728136230064138
+      ],
+      "phase_aligned_ratio": [
+        1.0006961693499752,
+        7.220820197295357e-06
+      ]
+    }
+  ]
+}

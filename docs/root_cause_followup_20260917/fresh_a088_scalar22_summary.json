@@ -1,0 +1,780 @@
+{
+  "status": "finite_resolution_fresh_scalar22_completed",
+  "rows": [
+    {
+      "orbit": 41.1,
+      "fresh_parameters": {
+        "alpha": 0.3,
+        "cloud_mass": 1.0,
+        "background": "general-kerr-quasibound-temporal-frozen",
+        "metric": {
+          "status": "development_not_production_validated",
+          "coordinates": "Boyer-Lindquist",
+          "field": "covariant h_ab; particle mass stripped",
+          "m_g": 1,
+          "ellmax": 6,
+          "orbital_radius": 41.1,
+          "a": 0.88,
+          "static_and_low_modes_included": false,
+          "kappa_mass_squared_step": 1.4307984397689127e-07,
+          "maxwell_chiralities": "both; full complex compact current",
+          "nonstatic_dipole_included": true
+        },
+        "scalar_ell": 2,
+        "scalar_m": 2,
+        "omega": 0.300076124367337,
+        "radial_order": 8,
+        "angular_order": 12,
+        "source_panels": [
+          1.4754736834815165,
+          3.0,
+          6.0,
+          12.0,
+          20.0,
+          40.0,
+          41.1,
+          80.0,
+          160.0,
+          320.0
+        ],
+        "green_outer_radius": 32000.0,
+        "green_horizon_offset": 0.0001,
+        "infinity_method": "coulomb",
+        "horizon_log_first_panel": true,
+        "horizon_quadrature_order": 32
+      },
+      "cloud_spectral_omega": [
+        0.2962935347256115,
+        2.216609396445795e-09
+      ],
+      "fresh_source_common_nodes": 64,
+      "common_nodes_lower_radius": 3.059565215253696,
+      "phase_aligned_source_weighted_relative_L2": 0.0008302693336875388,
+      "excluded_source_comparison": "First32 logarithmic nodes differ because rplus differs; only64 identical outer nodes enter this L2.",
+      "raw_z_h": [
+        0.018653967095168575,
+        0.005064302890701293
+      ],
+      "phase_aligned_z_h": [
+        0.01859329428401757,
+        0.005282713301355381
+      ],
+      "baseline_z_h": [
+        0.018690123906735932,
+        0.005120184892421415
+      ],
+      "raw_z_inf": [
+        -0.5010526093265455,
+        0.14062743988048693
+      ],
+      "phase_aligned_z_inf": [
+        -0.5026673190501773,
+        0.13474182913700944
+      ],
+      "baseline_z_inf": [
+        -0.4731801781851716,
+        0.21815902506992377
+      ],
+      "raw_up_coefficient": [
+        -0.5010526093265455,
+        0.14062743988048693
+      ],
+      "baseline_up_coefficient": [
+        -0.4731801781851716,
+        0.21815902506992377
+      ],
+      "up_coefficient_caution": "Bound Up endpoint normalization changes with kappa; compare physical fields.",
+      "fresh_flux": {
+        "infinity": {
+          "charge": 0.0036609302725839955,
+          "wave_energy": 0.0010985577677760639,
+          "orbital_energy": 1.3847796928155565e-05,
+          "orbital_angular_momentum": 0.0036609302725839955
+        },
+        "horizon": {
+          "charge": -0.0006536748887429908,
+          "wave_energy": -0.00019615222721024688,
+          "orbital_energy": -2.4725838632153114e-06,
+          "orbital_angular_momentum": -0.0006536748887429908
+        }
+      },
+      "baseline_flux": {
+        "infinity": {
+          "charge": 0.003663969513793961,
+          "wave_energy": 0.0010994688719546258,
+          "orbital_energy": 1.3859442381816764e-05,
+          "orbital_angular_momentum": 0.003663969513793961
+        },
+        "horizon": {
+          "charge": -0.0006503962130545199,
+          "wave_energy": -0.00019516821523718215,
+          "orbital_energy": -2.4602084723262347e-06,
+          "orbital_angular_momentum": -0.0006503962130545199
+        }
+      },
+      "fresh_horizon_flux_ratio": 1.0050302204176116,
+      "fresh_infinity_flux_ratio": 0.9991597458728587,
+      "samples": [
+        {
+          "r": 20.0,
+          "fresh_phase_aligned": [
+            0.009840455866342154,
+            0.0020386403882800734
+          ],
+          "baseline": [
+            0.0098447296434419,
+            0.002039677828237408
+          ],
+          "fixed_source_exact_Green": [
+            0.009843902877234117,
+            0.0020393834984508185
+          ],
+          "fresh_over_fixed_source_minus1": [
+            -0.0003507520067655978,
+            -2.8233025503577663e-06
+          ],
+          "fresh_over_baseline_amplitude": 0.9995628150474906
+        },
+        {
+          "r": 50.0,
+          "fresh_phase_aligned": [
+            0.0015089947227978483,
+            0.004014540510038888
+          ],
+          "baseline": [
+            0.0015096525615306876,
+            0.004016284282774209
+          ],
+          "fixed_source_exact_Green": [
+            0.0015094923546925935,
+            0.004015953668171388
+          ],
+          "fresh_over_fixed_source_minus1": [
+            -0.000349135697842895,
+            -7.3172586954465016e-06
+          ],
+          "fresh_over_baseline_amplitude": 0.9995656288474443
+        },
+        {
+          "r": 100.0,
+          "fresh_phase_aligned": [
+            -0.0022852163746263734,
+            3.958047802306315e-05
+          ],
+          "baseline": [
+            -0.002286218846857928,
+            3.981507737606033e-05
+          ],
+          "fixed_source_exact_Green": [
+            -0.002286006196392419,
+            3.959440876894873e-05
+          ],
+          "fresh_over_fixed_source_minus1": [
+            -0.00034550479753236996,
+            1.0966186393084274e-07
+          ],
+          "fresh_over_baseline_amplitude": 0.9995598661334223
+        },
+        {
+          "r": 150.0,
+          "fresh_phase_aligned": [
+            0.0001598616967920855,
+            -0.0016054528979567828
+          ],
+          "baseline": [
+            0.0001596084847293089,
+            -0.0016062108713032154
+          ],
+          "fixed_source_exact_Green": [
+            0.00015992029412713758,
+            -0.0016060106062959752
+          ],
+          "fresh_over_fixed_source_minus1": [
+            -0.00034745121537560486,
+            -1.8884274378239698e-06
+          ],
+          "fresh_over_baseline_amplitude": 0.9995482451489006
+        },
+        {
+          "r": 200.0,
+          "fresh_phase_aligned": [
+            0.0012737175969754478,
+            3.692937415982249e-05
+          ],
+          "baseline": [
+            0.001274317034264085,
+            3.6529165038950566e-05
+          ],
+          "fixed_source_exact_Green": [
+            0.0012741606978992409,
+            3.694415047124814e-05
+          ],
+          "fresh_over_fixed_source_minus1": [
+            -0.00034780290939928626,
+            -1.5123903991442871e-06
+          ],
+          "fresh_over_baseline_amplitude": 0.9995390362183745
+        }
+      ],
+      "grid_relative_L2_fresh_minus_fixed": 0.000335975591618052,
+      "grid_max_absolute_difference_over_fixed_peak": 0.00035076336936368154,
+      "minima": [],
+      "baseline_minima": [],
+      "wronskian_relative_spread": 8.665189018047291e-11,
+      "metric_sampling": {
+        "workers": 4,
+        "cached_radii": 0,
+        "reconstructed_radii": 96,
+        "elapsed_seconds": 266.0016402589972,
+        "cache_key": "61fbbce8b0b2eace9a6fc30d",
+        "source_hash": "4b3aa366551ace4902f9d9c3669859363645ec57a14cd8650b1ddbecdd39b863"
+      },
+      "normalization_audit": {
+        "spectral_KS_T0": {
+          "energy": 1.000000000028788,
+          "charge": 3.3750314564138906,
+          "horizon_energy": -4.433218793019371e-09,
+          "horizon_charge": -1.4962252879141454e-08,
+          "energy_balance": -1.5716431638507526e-22,
+          "charge_balance": 3.2878774987757744e-20,
+          "energy_balance_relative": 3.545151361185898e-14,
+          "charge_balance_relative": 2.1974481552569746e-12
+        },
+        "frozen_KS_T0": {
+          "energy": 1.0000000269882492,
+          "charge": 3.3750315474029207
+        },
+        "finite_BL_t0": [
+          {
+            "inner_offset": 0.001,
+            "outer_radius": 1488.9771117993073,
+            "spectral": {
+              "energy": 0.99999989433637,
+              "charge": 3.3750311071513694
+            },
+            "temporal_frozen": {
+              "energy": 0.99999989433637,
+              "charge": 3.3750311071513694
+            }
+          },
+          {
+            "inner_offset": 0.0005,
+            "outer_radius": 1488.9771117993073,
+            "spectral": {
+              "energy": 0.9999998871498534,
+              "charge": 3.3750310791617095
+            },
+            "temporal_frozen": {
+              "energy": 0.9999998871498534,
+              "charge": 3.3750310791617095
+            }
+          },
+          {
+            "inner_offset": 1e-05,
+            "outer_radius": 1488.9771117993073,
+            "spectral": {
+              "energy": 0.9999998355966585,
+              "charge": 3.37503090151725
+            },
+            "temporal_frozen": {
+              "energy": 0.9999998355966585,
+              "charge": 3.37503090151725
+            }
+          },
+          {
+            "inner_offset": 1e-06,
+            "outer_radius": 1488.9771117993073,
+            "spectral": {
+              "energy": 0.9999998039389256,
+              "charge": 3.3750307946044376
+            },
+            "temporal_frozen": {
+              "energy": 0.9999998039389256,
+              "charge": 3.3750307946044376
+            }
+          },
+          {
+            "inner_offset": 0.0005,
+            "outer_radius": 320.0,
+            "spectral": {
+              "energy": 0.9999998854658257,
+              "charge": 3.375031073593649
+            },
+            "temporal_frozen": {
+              "energy": 0.9999998854658257,
+              "charge": 3.375031073593649
+            }
+          }
+        ],
+        "interpretation": "Distinct slices and explicit finite BL cutoffs; no mass renormalization is applied. Complex quasibound BL t=0 is not a regular future-horizon-crossing slice. The source-outer320 BL integral also omits the external cloud tail."
+      }
+    },
+    {
+      "orbit": 42.1,
+      "fresh_parameters": {
+        "alpha": 0.3,
+        "cloud_mass": 1.0,
+        "background": "general-kerr-quasibound-temporal-frozen",
+        "metric": {
+          "status": "development_not_production_validated",
+          "coordinates": "Boyer-Lindquist",
+          "field": "covariant h_ab; particle mass stripped",
+          "m_g": 1,
+          "ellmax": 6,
+          "orbital_radius": 42.1,
+          "a": 0.88,
+          "static_and_low_modes_included": false,
+          "kappa_mass_squared_step": 1.3315578574156985e-07,
+          "maxwell_chiralities": "both; full complex compact current",
+          "nonstatic_dipole_included": true
+        },
+        "scalar_ell": 2,
+        "scalar_m": 2,
+        "omega": 0.2999425864619064,
+        "radial_order": 8,
+        "angular_order": 12,
+        "source_panels": [
+          1.4754736834815165,
+          3.0,
+          6.0,
+          12.0,
+          20.0,
+          40.0,
+          42.1,
+          80.0,
+          160.0,
+          320.0
+        ],
+        "green_outer_radius": 32000.0,
+        "green_horizon_offset": 0.0001,
+        "infinity_method": "coulomb",
+        "horizon_log_first_panel": true,
+        "horizon_quadrature_order": 32
+      },
+      "cloud_spectral_omega": [
+        0.2962935347256115,
+        2.216609396445795e-09
+      ],
+      "fresh_source_common_nodes": 64,
+      "common_nodes_lower_radius": 3.059565215253696,
+      "phase_aligned_source_weighted_relative_L2": 0.0008218247248252247,
+      "excluded_source_comparison": "First32 logarithmic nodes differ because rplus differs; only64 identical outer nodes enter this L2.",
+      "raw_z_h": [
+        0.019134826801467816,
+        0.005193489821349498
+      ],
+      "phase_aligned_z_h": [
+        0.01907260592357655,
+        0.005417530482663152
+      ],
+      "baseline_z_h": [
+        0.019172074663055365,
+        0.0052502483535281025
+      ],
+      "raw_z_inf": [
+        0.0,
+        0.0
+      ],
+      "phase_aligned_z_inf": [
+        0.0,
+        0.0
+      ],
+      "baseline_z_inf": [
+        0.0,
+        0.0
+      ],
+      "raw_up_coefficient": [
+        -1.0442567959577702e-59,
+        1.2250043161890595e-61
+      ],
+      "baseline_up_coefficient": [
+        -6.684352314186277e-60,
+        1.4382065746057502e-66
+      ],
+      "up_coefficient_caution": "Bound Up endpoint normalization changes with kappa; compare physical fields.",
+      "fresh_flux": {
+        "infinity": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": 0.0,
+          "orbital_angular_momentum": 0.0
+        },
+        "horizon": {
+          "charge": -0.0006880949586383638,
+          "wave_energy": -0.00020638898162538935,
+          "orbital_energy": -2.510894103555108e-06,
+          "orbital_angular_momentum": -0.0006880949586383638
+        }
+      },
+      "baseline_flux": {
+        "infinity": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": 0.0,
+          "orbital_angular_momentum": 0.0
+        },
+        "horizon": {
+          "charge": -0.0006846480544762623,
+          "wave_energy": -0.00020535493825270577,
+          "orbital_energy": -2.4983421265882894e-06,
+          "orbital_angular_momentum": -0.0006846480544762623
+        }
+      },
+      "fresh_horizon_flux_ratio": 1.0050241225303915,
+      "fresh_infinity_flux_ratio": null,
+      "samples": [
+        {
+          "r": 20.0,
+          "fresh_phase_aligned": [
+            0.009758208929126658,
+            -7.577885869595972e-05
+          ],
+          "baseline": [
+            0.00951847173709831,
+            -7.576155347507981e-05
+          ],
+          "fixed_source_exact_Green": [
+            0.009761580332353668,
+            -7.577175032761164e-05
+          ],
+          "fresh_over_fixed_source_minus1": [
+            -0.0003453482751533121,
+            -3.408875458288797e-06
+          ],
+          "fresh_over_baseline_amplitude": 1.025184959580006
+        },
+        {
+          "r": 50.0,
+          "fresh_phase_aligned": [
+            0.0007990845537530547,
+            -3.802719642608336e-05
+          ],
+          "baseline": [
+            0.000322210321636569,
+            -3.802692732129246e-05
+          ],
+          "fixed_source_exact_Green": [
+            0.0007993276589863794,
+            -3.802497873380316e-05
+          ],
+          "fresh_over_fixed_source_minus1": [
+            -0.00030331874650757484,
+            -1.720368488582476e-05
+          ],
+          "fresh_over_baseline_amplitude": 2.465703412899839
+        },
+        {
+          "r": 100.0,
+          "fresh_phase_aligned": [
+            -0.0024851026118555527,
+            -6.2216216307580875e-06
+          ],
+          "baseline": [
+            -0.002516064586430004,
+            -6.2273411417448695e-06
+          ],
+          "fixed_source_exact_Green": [
+            -0.0024859310309131976,
+            -6.223433392217237e-06
+          ],
+          "fresh_over_fixed_source_minus1": [
+            -0.0003332427131143012,
+            1.0545440163014399e-07
+          ],
+          "fresh_over_baseline_amplitude": 0.9876943548188858
+        },
+        {
+          "r": 150.0,
+          "fresh_phase_aligned": [
+            0.0003016914552606907,
+            -8.027291197476215e-07
+          ],
+          "baseline": [
+            0.0004954697119581655,
+            -8.01749550505704e-07
+          ],
+          "fixed_source_exact_Green": [
+            0.00030179332232947243,
+            -8.020750395024912e-07
+          ],
+          "fresh_over_fixed_source_minus1": [
+            -0.0003375310299885692,
+            -3.064366872677787e-06
+          ],
+          "fresh_over_baseline_amplitude": 0.6089012525515044
+        },
+        {
+          "r": 200.0,
+          "fresh_phase_aligned": [
+            0.00140843952999528,
+            -9.666260421583816e-08
+          ],
+          "baseline": [
+            0.001438648150881934,
+            -9.288901769116119e-08
+          ],
+          "fixed_source_exact_Green": [
+            0.0014089120592103894,
+            -9.484553601203651e-08
+          ],
+          "fresh_over_fixed_source_minus1": [
+            -0.00033538579470393515,
+            -1.3122735639776885e-06
+          ],
+          "fresh_over_baseline_amplitude": 0.9790020788009085
+        }
+      ],
+      "grid_relative_L2_fresh_minus_fixed": 0.0003175337754523485,
+      "grid_max_absolute_difference_over_fixed_peak": 0.00034536509896526267,
+      "minima": [
+        {
+          "r": 54.32229555826405,
+          "absolute_field": 3.313857311653805e-05
+        },
+        {
+          "r": 144.4219466465801,
+          "absolute_field": 1.014309414473065e-06
+        },
+        {
+          "r": 260.5996097556687,
+          "absolute_field": 5.144060276825381e-09
+        }
+      ],
+      "baseline_minima": [
+        {
+          "r": 51.68031418419289,
+          "absolute_field": 3.6070947465770186e-05
+        },
+        {
+          "r": 141.0780787948289,
+          "absolute_field": 1.166755436988443e-06
+        },
+        {
+          "r": 256.308173521197,
+          "absolute_field": 6.483313560746775e-09
+        }
+      ],
+      "wronskian_relative_spread": 1.9439793009934933e-11,
+      "metric_sampling": {
+        "workers": 4,
+        "cached_radii": 0,
+        "reconstructed_radii": 96,
+        "elapsed_seconds": 462.0359325919999,
+        "cache_key": "17def0b499d2a7e5f2a359a9",
+        "source_hash": "4b3aa366551ace4902f9d9c3669859363645ec57a14cd8650b1ddbecdd39b863"
+      },
+      "normalization_audit": {
+        "spectral_KS_T0": {
+          "energy": 1.000000000028788,
+          "charge": 3.3750314564138906,
+          "horizon_energy": -4.433218793019371e-09,
+          "horizon_charge": -1.4962252879141454e-08,
+          "energy_balance": -1.5716431638507526e-22,
+          "charge_balance": 3.2878774987757744e-20,
+          "energy_balance_relative": 3.545151361185898e-14,
+          "charge_balance_relative": 2.1974481552569746e-12
+        },
+        "frozen_KS_T0": {
+          "energy": 1.0000000269882492,
+          "charge": 3.3750315474029207
+        },
+        "finite_BL_t0": [
+          {
+            "inner_offset": 0.001,
+            "outer_radius": 1488.9771117993073,
+            "spectral": {
+              "energy": 0.99999989433637,
+              "charge": 3.3750311071513694
+            },
+            "temporal_frozen": {
+              "energy": 0.99999989433637,
+              "charge": 3.3750311071513694
+            }
+          },
+          {
+            "inner_offset": 0.0005,
+            "outer_radius": 1488.9771117993073,
+            "spectral": {
+              "energy": 0.9999998871498534,
+              "charge": 3.3750310791617095
+            },
+            "temporal_frozen": {
+              "energy": 0.9999998871498534,
+              "charge": 3.3750310791617095
+            }
+          },
+          {
+            "inner_offset": 1e-05,
+            "outer_radius": 1488.9771117993073,
+            "spectral": {
+              "energy": 0.9999998355966585,
+              "charge": 3.37503090151725
+            },
+            "temporal_frozen": {
+              "energy": 0.9999998355966585,
+              "charge": 3.37503090151725
+            }
+          },
+          {
+            "inner_offset": 1e-06,
+            "outer_radius": 1488.9771117993073,
+            "spectral": {
+              "energy": 0.9999998039389256,
+              "charge": 3.3750307946044376
+            },
+            "temporal_frozen": {
+              "energy": 0.9999998039389256,
+              "charge": 3.3750307946044376
+            }
+          },
+          {
+            "inner_offset": 0.0005,
+            "outer_radius": 320.0,
+            "spectral": {
+              "energy": 0.9999998854658257,
+              "charge": 3.375031073593649
+            },
+            "temporal_frozen": {
+              "energy": 0.9999998854658257,
+              "charge": 3.375031073593649
+            }
+          }
+        ],
+        "interpretation": "Distinct slices and explicit finite BL cutoffs; no mass renormalization is applied. Complex quasibound BL t=0 is not a regular future-horizon-crossing slice. The source-outer320 BL integral also omits the external cloud tail."
+      }
+    }
+  ],
+  "input_sha256": {
+    "docs/root_cause_followup_20260917/fresh_a088_cloud_phase_convention.json": "20c0e64d608c0d748eae9c709118d01ca0b59ae023fbfd9b58985d866b7e92bb",
+    "docs/root_cause_followup_20260917/fresh_a088_rp41p1_sl2_sm2_L6_q12_nr8_h32.json": "2cfd1a39765187442fb62ddb0eb7ba0500fc7fc202a83fe7fadd3c489a2a3bf6",
+    "docs/field_alignment_20260917/nonstatic/rp41p1_sl2_sm2_L6_q12_nr8_h32.json": "1065e9ce260f11b0b328584334c81d2dca5e2d37dbd180257346dbd6af069f6a",
+    "docs/root_cause_followup_20260917/fresh_a088_rp41p1_scalar22_comparison.json": "0a04e2548bf61684bc2eb5c6fc89c5ca0f91e958d9848a2f5c09b1f0001cbf26",
+    "docs/root_cause_followup_20260917/fresh_a088_rp42p1_sl2_sm2_L6_q12_nr8_h32.json": "1176554c4f209eaf88d0215553f346408f3a04370ddf97bf467bada745f2269e",
+    "docs/field_alignment_20260917/nonstatic/rp42p1_sl2_sm2_L6_q12_nr8_h32.json": "9e016a69632f236749455ee6f134ba4e1b4eb8b402e3d2dcda40e9cff064ddb2",
+    "docs/root_cause_followup_20260917/fresh_a088_rp42p1_scalar22_comparison.json": "8fc8d635371b04cc05b17af4f9a7a38fca5b05b8f23210f75878365e9ddddeb1"
+  },
+  "phase_convention": {
+    "status": "phase_convention_from_cloud_only_no_field_fit",
+    "reference_radius": 20.0,
+    "new_cloud_radial": [
+      0.011376308865299752,
+      -0.00013342133817693908
+    ],
+    "old_cloud_radial": [
+      0.011379088286274154,
+      0.0
+    ],
+    "new_cloud_phase": -0.011727461259428496,
+    "old_cloud_phase": 0.0,
+    "new_to_old_constant_phase_factor": [
+      0.9999312341143433,
+      0.011727192441776113
+    ],
+    "prescription": "For a convention-only scalar22 control, multiply all fresh complex source/response coefficients by this single factor. This fixes cloud R(20) to old positive-real convention and changes no flux. No field or paper-image fitting.",
+    "limitation": "A phase-aligned replacement of scalar22 among 17 old-spin channels remains a mixed-background control, not a fully recomputed a=.88 field.",
+    "new_cloud_provenance": {
+      "kind": "GeneralKerrQuasiboundCloud",
+      "a": 0.88,
+      "mu": 0.3,
+      "ell": 1,
+      "m": 1,
+      "spectral_omega": [
+        0.2962935347256115,
+        2.216609396445795e-09
+      ],
+      "temporal_omega": [
+        0.2962935347256115,
+        0.0
+      ],
+      "freeze_growth": true,
+      "mass": 1.0,
+      "normalization": "Underlying exact complex mode Killing energy on ingoing Kerr-Schild T=0",
+      "normalization_audit": {
+        "raw_energy": 795290.3182395558,
+        "raw_charge": 2684129.8409626447,
+        "radial_points": 6001,
+        "angular_order": 48,
+        "offset": 1e-06,
+        "outer_efolds": 70.0,
+        "rtol": 2e-12,
+        "horizon_order": 6,
+        "infinity_order": 8,
+        "freeze_order": "Time frequency only, AFTER complex spatial eigenfunction and mass normalization"
+      },
+      "radial_coordinates": "BL",
+      "normalization_slice": "ingoing Kerr-Schild T=0",
+      "azimuth_transform": "Psi=phi+a/(rplus-rminus)*log((r-rplus)/(r-rminus))",
+      "phase_convention": "Unit exp[-i(omega-m OmegaH) rstar] ingoing BL amplitude before mass normalization",
+      "module_sha256": "3403dbf846cf630f6668fa2ed698272a37c687124a3d193d68b155b43816458b"
+    },
+    "radial_ratio_samples": [
+      {
+        "r": 3.0,
+        "raw_ratio": [
+          0.9985444715704785,
+          -0.011823145138221441
+        ],
+        "phase_aligned_ratio": [
+          0.9986144580738263,
+          -0.00011220892939612452
+        ]
+      },
+      {
+        "r": 20.0,
+        "raw_ratio": [
+          0.9997557430872775,
+          -0.01172513428319881
+        ],
+        "phase_aligned_ratio": [
+          0.9998244969043084,
+          0.0
+        ]
+      },
+      {
+        "r": 50.0,
+        "raw_ratio": [
+          0.9999563460245632,
+          -0.011725519419072062
+        ],
+        "phase_aligned_ratio": [
+          1.000025090563518,
+          1.9673998608928184e-06
+        ]
+      },
+      {
+        "r": 100.0,
+        "raw_ratio": [
+          1.00012426790089,
+          -0.011726143705017799
+        ],
+        "phase_aligned_ratio": [
+          1.0001930082136696,
+          3.3124090035976465e-06
+        ]
+      },
+      {
+        "r": 320.0,
+        "raw_ratio": [
+          1.0006274402715645,
+          -0.011728136230064138
+        ],
+        "phase_aligned_ratio": [
+          1.0006961693499752,
+          7.220820197295357e-06
+        ]
+      }
+    ]
+  },
+  "no_fitted_amplitude_or_phase": true,
+  "implementation_sha256": {
+    "src/report_fixed_a088_scalar22_summary.py": "20acbaac1047ae3802d88e71df3c45eda760ed5d77531a36df33fe2ef2119bc8",
+    "src/report_li_fixed_source_background.py": "1463cc72e288d3484f6bf1c78283a8b4c9de028e600e8db8cfd41596ed1df2b0"
+  },
+  "limitations": [
+    "Full18 field has not been recomputed at a=.88.",
+    "Fresh source and all metric entries use a=.88; the fixed-J control remains a deliberately inconsistent diagnostic.",
+    "No claim of complete angular/radial convergence at L6/q12/nr8/h32.",
+    "Global source phase is fixed from the independently computed cloud R(20), never fitted to a field or paper figure.",
+    "Frozen temporal frequency and complex spectral spatial profile remain an explicitly approximate cloud; see cloud residual report."
+  ]
+}

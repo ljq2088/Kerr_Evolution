@@ -1,0 +1,328 @@
+{
+  "created_utc": "2026-09-17T09:30:55.786269+00:00",
+  "scope": "Independent primary-source and diagnostic-only derivation audit; no production edits or commits",
+  "sources": [
+    {
+      "identifier": "dyson_v1",
+      "url": "https://arxiv.org/src/2501.09806v1",
+      "path": "outputs/paper_original_reference/arxiv_v1_source/main_PRL.tex",
+      "sha256": "cc1434ceb6eec54b3dbfbf69cbda528bc787ba8e8571eaa9278a2b23bef884b1",
+      "bytes": 67351
+    },
+    {
+      "identifier": "li_v2",
+      "url": "https://arxiv.org/src/2507.02045v2",
+      "path": "outputs/paper_original_reference/li_2507_02045v2/source/main.tex",
+      "sha256": "4535abc53b9d8cd1ea1919bfcf8847ab3a065137ee21df4cc6f20c38acf092a4",
+      "bytes": 108076
+    },
+    {
+      "identifier": "direct_lorenz_local_tex",
+      "url": "https://arxiv.org/abs/2406.12510",
+      "path": "outputs/lorenz_reference/DirectLorenzGauge.tex",
+      "sha256": "d0aa48d2d53a3a7ca92be066ab165dab86c2c1eddabc2e113fb882e346a61d78",
+      "bytes": 110396
+    },
+    {
+      "identifier": "circular_lorenz_local_tex",
+      "url": "https://arxiv.org/abs/2306.16459",
+      "path": "outputs/lorenz_reference/LorenzGaugeKerrCirc.tex",
+      "sha256": "30791a1b1558a5602b04bed43dc44fb79617c345b0e91cdce3a02fba2f44cd05",
+      "bytes": 247372
+    },
+    {
+      "identifier": "sam_fixed_commit",
+      "url": "https://github.com/srd24/KerrLorenzCirc/blob/5c1b42793ff893fd0c65a5b48ceecc02d34c5e35/metric_reconstruction_calc_radiative.m",
+      "path": "outputs/paper_metric_reference/srd24_KerrLorenzCirc/metric_reconstruction_calc_radiative.m",
+      "sha256": "124fc609fb36f46d4f28378ac040655c8ae7d3cff9346ec62134c358ce223ca9",
+      "bytes": 109956
+    },
+    {
+      "identifier": "local_code",
+      "path": "src/environment_source.py",
+      "sha256": "f8ed45cc7200b9738fa3406d0b8a03552f4847340cabdc92eec97b219c4cebb2",
+      "bytes": 8163
+    },
+    {
+      "identifier": "local_code",
+      "path": "src/environment_schwarzschild_cloud.py",
+      "sha256": "0658e39d28ecade112d9dc34d06510f15252a79d58901a5111a9edb1c8e051ab",
+      "bytes": 8034
+    },
+    {
+      "identifier": "local_code",
+      "path": "src/environment_kerr_quasibound_cloud.py",
+      "sha256": "3403dbf846cf630f6668fa2ed698272a37c687124a3d193d68b155b43816458b",
+      "bytes": 14904
+    },
+    {
+      "identifier": "local_code",
+      "path": "src/environment_lorenz_mode.py",
+      "sha256": "79ca9a4a27c608381291808f3200b752b99495be853d96b8cea0f39bcb5802b6",
+      "bytes": 2801
+    },
+    {
+      "identifier": "local_code",
+      "path": "src/environment_wake.py",
+      "sha256": "8e68652fadf84d356cd42b1125abb93413601fe11c35bafba8ff73ba14d5c546",
+      "bytes": 5346
+    },
+    {
+      "identifier": "local_code",
+      "path": "src/lorenz_metric.py",
+      "sha256": "e356a13729114412ffba238807ca1b4b612fc64c78c4a920a101e05baf02e91b",
+      "bytes": 7432
+    },
+    {
+      "identifier": "local_code",
+      "path": "src/lorenz_kappa.py",
+      "sha256": "1a7a906260ac790b2c1c170cca277cb0e9c77b8b54cc5330e1660d3588b4b8e1",
+      "bytes": 2617
+    },
+    {
+      "identifier": "local_code",
+      "path": "src/lorenz_chi.py",
+      "sha256": "7cd9321f8abe514b6649d54f9c9bc1258753f2e506573288b427fd7c01eb73b9",
+      "bytes": 5352
+    },
+    {
+      "identifier": "local_code",
+      "path": "src/lorenz_spin1.py",
+      "sha256": "baf3b91c7ce4d316d75394288cbc218279b21be435ce9c696601f3fe39bafe98",
+      "bytes": 3324
+    },
+    {
+      "identifier": "parent_diagnostic_readonly_review",
+      "path": "src/report_metric_vacuum_ricci_audit.py",
+      "sha256": "e391554aa92caef7132e5f19c43fac47be0967955c108b2054156637885f2608",
+      "bytes": 4789
+    },
+    {
+      "identifier": "parent_diagnostic_readonly_review",
+      "path": "src/report_kg_metric_variation_audit.py",
+      "sha256": "a052c939809969a7dad19f37000b14222107a189446a1fd9361250ca673624fa",
+      "bytes": 3694
+    },
+    {
+      "identifier": "parent_diagnostic_readonly_review",
+      "path": "docs/root_cause_followup_20260917/metric_vacuum_ricci_audit.json",
+      "sha256": "56e58a7c619b0dc266fb5f00b42005c9317e1882e464dcad129cc7e2afeada4d",
+      "bytes": 68673
+    },
+    {
+      "identifier": "parent_diagnostic_readonly_review",
+      "path": "docs/root_cause_followup_20260917/kg_metric_variation_audit.json",
+      "sha256": "960519fe5ee00c4f29a490c4c92191bde0ff904daafe93406f809e99ec804cde",
+      "bytes": 8901
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "docs/root_cause_followup_20260917/audit_li_appendix_unit_basis.py",
+      "sha256": "4a2363ca631a3937cd08578fedd4ec661725f6925ebdf6d52c767edfe96d3a35",
+      "bytes": 11380
+    },
+    {
+      "path": "docs/root_cause_followup_20260917/li_appendix_unit_basis_audit.json",
+      "sha256": "172cd24f578ac761bc5775d6131f94cb0e985fe687d6143cc0a1d6212b01d8a8",
+      "bytes": 129855
+    },
+    {
+      "path": "docs/root_cause_followup_20260917/audit_li_appendix_omission_response.py",
+      "sha256": "5a35acef6f0f448b4e7ee7c1aa8828c130010c0379b6719ae47f7c080b8786e2",
+      "bytes": 8403
+    },
+    {
+      "path": "docs/root_cause_followup_20260917/li_appendix_omission_rp42p1.json",
+      "sha256": "1a491ad0d52eff748349e84b0e65c76c435292aff0ecbdadbdb0eb9d0969c5ae",
+      "bytes": 189454
+    },
+    {
+      "path": "docs/root_cause_followup_20260917/li_appendix_omission_rp41p1.json",
+      "sha256": "8d1acb3a845d19c017e525b0c0bf2f76a8e4383a34896562641dfa432f0e93aa",
+      "bytes": 187951
+    },
+    {
+      "path": "docs/root_cause_followup_20260917/li_appendix_omission_control.png",
+      "sha256": "eeda8c73e1953b547189aaa48130a1099ee2754dc9645f9fce5889e4dbf2714b",
+      "bytes": 112795
+    },
+    {
+      "path": "docs/root_cause_followup_20260917/audit_li_appendix_field_compare.py",
+      "sha256": "0ea305d93d2f29b0ed9a11652efa049e2f1a2fa567903b6e0c757e7318b3eed4",
+      "bytes": 6482
+    },
+    {
+      "path": "docs/root_cause_followup_20260917/li_appendix_single22_field_compare.json",
+      "sha256": "2e346e81d38e1c41d808478b7b08749dea3b0a2850c3ac2d0ece28d91c28767e",
+      "bytes": 31207
+    },
+    {
+      "path": "docs/root_cause_followup_20260917/li_appendix_single22_field_compare.npz",
+      "sha256": "4a15db8e703d13f0099ac5be50d9a2e5a84ab566cb2d17952ecb5a53a011abdd",
+      "bytes": 82212
+    },
+    {
+      "path": "docs/root_cause_followup_20260917/li_appendix_single22_field_compare.png",
+      "sha256": "2437d2fe57862e7769be9a6c49db51e196b01f385f1c792d97e9125e20676b1d",
+      "bytes": 287781
+    },
+    {
+      "path": "docs/root_cause_followup_20260917/PAPER_DERIVATION_CONVENTION_AUDIT.md",
+      "sha256": "b0041d16edb1514a875ee8a346d71a6c33109f62e6fea0199e566f2c92868538",
+      "bytes": 21126
+    }
+  ],
+  "checks": {
+    "unit_regression": "passed: corrected ten-channel identity <=1e-12, other nine channels <=1e-12, exact KG checks, analytic Schwarzschild counterexample",
+    "unit_cases": 90,
+    "unit_corrected_scaled_error": 7.342807657631038e-16,
+    "on_shell_term_absolute_error": 1.6940658945086007e-21,
+    "physical_ablation_orbits": [
+      42.1,
+      41.1
+    ],
+    "full_field_totals": [
+      {
+        "orbit": 41.1,
+        "selection": "all18",
+        "global_D_RMS_correct": 0.2213834241368076,
+        "global_D_RMS_counterfactual": 0.719454299893891,
+        "flux_correct": {
+          "horizon": -2.717561728391422e-06,
+          "infinity": 3.2666302920810914e-05
+        },
+        "flux_counterfactual_only22": {
+          "horizon": -1.4975748668244074e-06,
+          "infinity": 5.747715790739696e-05
+        }
+      },
+      {
+        "orbit": 41.1,
+        "selection": "positive6",
+        "global_D_RMS_correct": 0.12665311423295975,
+        "global_D_RMS_counterfactual": 0.7576590670216855,
+        "flux_correct": {
+          "horizon": -2.4665631212106785e-06,
+          "infinity": 3.2666302920810914e-05
+        },
+        "flux_counterfactual_only22": {
+          "horizon": -1.2465762596436637e-06,
+          "infinity": 5.747715790739696e-05
+        }
+      },
+      {
+        "orbit": 42.1,
+        "selection": "all18",
+        "global_D_RMS_correct": 0.38329027292686585,
+        "global_D_RMS_counterfactual": 0.7948906190653174,
+        "flux_correct": {
+          "horizon": -2.7595622341077293e-06,
+          "infinity": 1.8342559145276326e-05
+        },
+        "flux_counterfactual_only22": {
+          "horizon": -1.5190774138589826e-06,
+          "infinity": 1.8342559145276326e-05
+        }
+      },
+      {
+        "orbit": 42.1,
+        "selection": "positive6",
+        "global_D_RMS_correct": 0.3469869994535115,
+        "global_D_RMS_counterfactual": 0.8631902640015305,
+        "flux_correct": {
+          "horizon": -2.5047927758964542e-06,
+          "infinity": 1.8342559145276326e-05
+        },
+        "flux_counterfactual_only22": {
+          "horizon": -1.2643079556477075e-06,
+          "infinity": 1.8342559145276326e-05
+        }
+      }
+    ],
+    "python_compilation": "three diagnostic scripts passed",
+    "plot_visual_review": "both generated PNGs inspected; labels/legends visible",
+    "parent_diagnostic_review": "Read-only source index review and recorded output inspection passed; not a duplicate execution."
+  },
+  "evidence_matrix": [
+    {
+      "id": "source_sign",
+      "classification": "derived_equivalent_and_code_match",
+      "paper": [
+        "D eq:EOM_sourced 307-309 / Eq19",
+        "L eq:EOM_scalar_11_source 179-188",
+        "L Eq27 371-375"
+      ],
+      "code": "src/environment_source.py:147-153"
+    },
+    {
+      "id": "Li_printed_omission",
+      "classification": "derived_difference_proven_by_90_unit_inputs",
+      "paper": [
+        "L Eq66c 889-912",
+        "L Eq28 weights 378-396"
+      ],
+      "formula": "missing X*(mu^2*r^2+lambda_c)*Phi/(2*Sigma^2) in Sigma source on shell",
+      "causal_limit": "Not evidence of author execution; correct local production already includes term."
+    },
+    {
+      "id": "single22_explains_field",
+      "classification": "counterfactual_not_supported",
+      "evidence": "Both orbits and both mode collections have larger global D_RMS after single22 replacement; some individual rings improve."
+    },
+    {
+      "id": "metric_ell1",
+      "classification": "explicit_public_code",
+      "paper": [
+        "L 377,402,785",
+        "D 681,685"
+      ],
+      "code": "S 237-240,540-542,868,890-891,1209,1375",
+      "limit": "Actual author environment run commit unknown."
+    },
+    {
+      "id": "Imomega_order",
+      "classification": "mixed_explicit_and_unknown",
+      "paper": [
+        "Dyson Kerr threshold D262,689; Schwarz freezing D382",
+        "Li a=.88 L320-326,729"
+      ],
+      "limit": "Neither paper fixes all algorithmic details of freezing complex radial/angular profile vs time."
+    },
+    {
+      "id": "source_plot_21p6",
+      "classification": "absolute_intermediate_normalization_unresolved",
+      "limit": "No fitted factor applied; raw Leaver, stress constant, coordinate and radial-variable suggestions do not strictly establish that factor."
+    },
+    {
+      "id": "Dyson_offshell_Q",
+      "classification": "printed_offshell_inconsistency",
+      "paper": [
+        "D279 non-density Q",
+        "D292-294 extra -hQ/2"
+      ],
+      "limit": "On exact Kerr cloud term vanishes; no change to physical Eq19."
+    },
+    {
+      "id": "kappa_variables",
+      "classification": "distinct_definitions",
+      "paper": [
+        "W397 Box kappa=M Lt h",
+        "C999 Box kappa=h/2"
+      ],
+      "code": "src/lorenz_kappa.py:43-55",
+      "limit": "Do not compare raw same-name values without normalization/gauge matching."
+    },
+    {
+      "id": "coordinate_Ricci_and_finite_KG_review",
+      "classification": "independent_readonly_code_review_plus_recorded_results",
+      "result": "No index/sign/normalization error found; local equation tests pass.",
+      "limit": "Does not establish distributional point-particle amplitude or global homogeneous gauge."
+    }
+  ],
+  "unknowns": [
+    "Exact source notebook used for Li environment data is not public in inspected materials.",
+    "No proof published Eq66c was evaluated literally in author calculations.",
+    "Li source-plot intermediate normalization and complex phase arrays unknown."
+  ]
+}
