@@ -1,0 +1,2065 @@
+{
+  "status": "source_operator_terms_not_full_pipeline",
+  "radial_variables": [
+    "r",
+    "a",
+    "d",
+    "dp",
+    "V",
+    "Vp",
+    "w",
+    "m"
+  ],
+  "angular_mapping": "Appendix delta; fixed by tetrad directional derivative",
+  "printed_terms": [
+    {
+      "component": 9,
+      "radial_derivative": 0,
+      "angular_derivative": 2,
+      "beta": 0,
+      "sigma": 0,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 9,
+      "radial_derivative": 0,
+      "angular_derivative": 1,
+      "beta": 0,
+      "sigma": 0,
+      "sin_power": -1,
+      "cos_power": 1,
+      "radial_powers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 9,
+      "radial_derivative": 1,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 0,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 9,
+      "radial_derivative": 1,
+      "angular_derivative": 0,
+      "beta": 0,
+      "sigma": 1,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 9,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 0,
+      "sigma": 0,
+      "sin_power": -2,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "coefficient": [
+        "-1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 8,
+      "radial_derivative": 0,
+      "angular_derivative": 2,
+      "beta": 2,
+      "sigma": 2,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "-1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 2,
+      "radial_derivative": 0,
+      "angular_derivative": 2,
+      "beta": 1,
+      "sigma": 1,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "1/4",
+        "0"
+      ]
+    },
+    {
+      "component": 3,
+      "radial_derivative": 0,
+      "angular_derivative": 2,
+      "beta": 1,
+      "sigma": 1,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "1/4",
+        "0"
+      ]
+    },
+    {
+      "component": 9,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 0,
+      "sigma": 0,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "coefficient": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "component": 4,
+      "radial_derivative": 1,
+      "angular_derivative": 1,
+      "beta": 2,
+      "sigma": 1,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 5,
+      "radial_derivative": 1,
+      "angular_derivative": 1,
+      "beta": 1,
+      "sigma": 2,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 6,
+      "radial_derivative": 1,
+      "angular_derivative": 1,
+      "beta": 1,
+      "sigma": 2,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 7,
+      "radial_derivative": 1,
+      "angular_derivative": 1,
+      "beta": 2,
+      "sigma": 1,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 8,
+      "radial_derivative": 1,
+      "angular_derivative": 0,
+      "beta": 3,
+      "sigma": 2,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "-1",
+        "0"
+      ]
+    },
+    {
+      "component": 8,
+      "radial_derivative": 1,
+      "angular_derivative": 0,
+      "beta": 2,
+      "sigma": 3,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "-1",
+        "0"
+      ]
+    },
+    {
+      "component": 9,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 0,
+      "sigma": 0,
+      "sin_power": 2,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "coefficient": [
+        "-1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 4,
+      "radial_derivative": 0,
+      "angular_derivative": 1,
+      "beta": 3,
+      "sigma": 1,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "-1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 5,
+      "radial_derivative": 0,
+      "angular_derivative": 1,
+      "beta": 1,
+      "sigma": 3,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "-1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 6,
+      "radial_derivative": 0,
+      "angular_derivative": 1,
+      "beta": 1,
+      "sigma": 3,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "-1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 7,
+      "radial_derivative": 0,
+      "angular_derivative": 1,
+      "beta": 3,
+      "sigma": 1,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "-1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 0,
+      "radial_derivative": 2,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 1,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "1/4",
+        "0"
+      ]
+    },
+    {
+      "component": 1,
+      "radial_derivative": 2,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 1,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "1/4",
+        "0"
+      ]
+    },
+    {
+      "component": 9,
+      "radial_derivative": 0,
+      "angular_derivative": 1,
+      "beta": 1,
+      "sigma": 0,
+      "sin_power": 1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "0",
+        "1/2"
+      ]
+    },
+    {
+      "component": 8,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 2,
+      "sigma": 2,
+      "sin_power": -2,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "coefficient": [
+        "1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 2,
+      "radial_derivative": 0,
+      "angular_derivative": 1,
+      "beta": 1,
+      "sigma": 1,
+      "sin_power": -1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "coefficient": [
+        "1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 9,
+      "radial_derivative": 0,
+      "angular_derivative": 1,
+      "beta": 0,
+      "sigma": 1,
+      "sin_power": 1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "0",
+        "-1/2"
+      ]
+    },
+    {
+      "component": 8,
+      "radial_derivative": 0,
+      "angular_derivative": 1,
+      "beta": 2,
+      "sigma": 2,
+      "sin_power": -1,
+      "cos_power": 1,
+      "radial_powers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "-1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 3,
+      "radial_derivative": 0,
+      "angular_derivative": 1,
+      "beta": 1,
+      "sigma": 1,
+      "sin_power": -1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "coefficient": [
+        "-1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 0,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 1,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        2,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "-1/4",
+        "0"
+      ]
+    },
+    {
+      "component": 1,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 1,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        2,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "-1/4",
+        "0"
+      ]
+    },
+    {
+      "component": 2,
+      "radial_derivative": 0,
+      "angular_derivative": 1,
+      "beta": 1,
+      "sigma": 1,
+      "sin_power": -1,
+      "cos_power": 1,
+      "radial_powers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "-1/4",
+        "0"
+      ]
+    },
+    {
+      "component": 3,
+      "radial_derivative": 0,
+      "angular_derivative": 1,
+      "beta": 1,
+      "sigma": 1,
+      "sin_power": -1,
+      "cos_power": 1,
+      "radial_powers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "-1/4",
+        "0"
+      ]
+    },
+    {
+      "component": 2,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 1,
+      "sin_power": -2,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "coefficient": [
+        "1/4",
+        "0"
+      ]
+    },
+    {
+      "component": 3,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 1,
+      "sin_power": -2,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "coefficient": [
+        "1/4",
+        "0"
+      ]
+    },
+    {
+      "component": 8,
+      "radial_derivative": 0,
+      "angular_derivative": 1,
+      "beta": 2,
+      "sigma": 3,
+      "sin_power": 1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "component": 4,
+      "radial_derivative": 0,
+      "angular_derivative": 1,
+      "beta": 2,
+      "sigma": 1,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "0",
+        "1/2"
+      ]
+    },
+    {
+      "component": 5,
+      "radial_derivative": 0,
+      "angular_derivative": 1,
+      "beta": 1,
+      "sigma": 2,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "0",
+        "1/2"
+      ]
+    },
+    {
+      "component": 0,
+      "radial_derivative": 1,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 1,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "0",
+        "1/2"
+      ]
+    },
+    {
+      "component": 3,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 1,
+      "sin_power": -2,
+      "cos_power": 1,
+      "radial_powers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "coefficient": [
+        "1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 5,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 3,
+      "sin_power": -1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "coefficient": [
+        "1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 7,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 3,
+      "sigma": 1,
+      "sin_power": -1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "coefficient": [
+        "1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 8,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 2,
+      "sigma": 2,
+      "sin_power": 2,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "coefficient": [
+        "1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 3,
+      "radial_derivative": 0,
+      "angular_derivative": 1,
+      "beta": 1,
+      "sigma": 1,
+      "sin_power": 1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "coefficient": [
+        "1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 4,
+      "radial_derivative": 1,
+      "angular_derivative": 0,
+      "beta": 2,
+      "sigma": 1,
+      "sin_power": -1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "coefficient": [
+        "1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 6,
+      "radial_derivative": 1,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 2,
+      "sin_power": -1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "coefficient": [
+        "1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 8,
+      "radial_derivative": 0,
+      "angular_derivative": 1,
+      "beta": 3,
+      "sigma": 2,
+      "sin_power": 1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "0",
+        "-1"
+      ]
+    },
+    {
+      "component": 8,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 2,
+      "sigma": 2,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "coefficient": [
+        "-1",
+        "0"
+      ]
+    },
+    {
+      "component": 6,
+      "radial_derivative": 0,
+      "angular_derivative": 1,
+      "beta": 1,
+      "sigma": 2,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "0",
+        "-1/2"
+      ]
+    },
+    {
+      "component": 7,
+      "radial_derivative": 0,
+      "angular_derivative": 1,
+      "beta": 2,
+      "sigma": 1,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "0",
+        "-1/2"
+      ]
+    },
+    {
+      "component": 1,
+      "radial_derivative": 1,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 1,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "0",
+        "-1/2"
+      ]
+    },
+    {
+      "component": 2,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 1,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "coefficient": [
+        "-1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 3,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 1,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "coefficient": [
+        "-1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 2,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 1,
+      "sin_power": -2,
+      "cos_power": 1,
+      "radial_powers": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "coefficient": [
+        "-1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 4,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 3,
+      "sigma": 1,
+      "sin_power": -1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "coefficient": [
+        "-1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 6,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 3,
+      "sin_power": -1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "coefficient": [
+        "-1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 2,
+      "radial_derivative": 0,
+      "angular_derivative": 1,
+      "beta": 1,
+      "sigma": 1,
+      "sin_power": 1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "coefficient": [
+        "-1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 5,
+      "radial_derivative": 1,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 2,
+      "sin_power": -1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "coefficient": [
+        "-1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 7,
+      "radial_derivative": 1,
+      "angular_derivative": 0,
+      "beta": 2,
+      "sigma": 1,
+      "sin_power": -1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "coefficient": [
+        "-1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 1,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 1,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "coefficient": [
+        "0",
+        "-1/4"
+      ]
+    },
+    {
+      "component": 0,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 1,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "coefficient": [
+        "0",
+        "1/4"
+      ]
+    },
+    {
+      "component": 2,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 1,
+      "sin_power": 2,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "coefficient": [
+        "1/4",
+        "0"
+      ]
+    },
+    {
+      "component": 3,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 1,
+      "sin_power": 2,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "coefficient": [
+        "1/4",
+        "0"
+      ]
+    },
+    {
+      "component": 4,
+      "radial_derivative": 1,
+      "angular_derivative": 0,
+      "beta": 3,
+      "sigma": 1,
+      "sin_power": 1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "0",
+        "1/2"
+      ]
+    },
+    {
+      "component": 7,
+      "radial_derivative": 1,
+      "angular_derivative": 0,
+      "beta": 3,
+      "sigma": 1,
+      "sin_power": 1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "0",
+        "1/2"
+      ]
+    },
+    {
+      "component": 5,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 3,
+      "sin_power": 1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 7,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 3,
+      "sigma": 1,
+      "sin_power": 1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 4,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 3,
+      "sigma": 1,
+      "sin_power": 1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "coefficient": [
+        "1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 6,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 3,
+      "sin_power": 1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "coefficient": [
+        "1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 5,
+      "radial_derivative": 1,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 2,
+      "sin_power": 1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "coefficient": [
+        "1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 7,
+      "radial_derivative": 1,
+      "angular_derivative": 0,
+      "beta": 2,
+      "sigma": 1,
+      "sin_power": 1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "coefficient": [
+        "1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 5,
+      "radial_derivative": 1,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 3,
+      "sin_power": 1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "0",
+        "-1/2"
+      ]
+    },
+    {
+      "component": 6,
+      "radial_derivative": 1,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 3,
+      "sin_power": 1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "0",
+        "-1/2"
+      ]
+    },
+    {
+      "component": 4,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 3,
+      "sigma": 1,
+      "sin_power": 1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "-1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 6,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 3,
+      "sin_power": 1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "-1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 5,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 3,
+      "sin_power": 1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "coefficient": [
+        "-1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 7,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 3,
+      "sigma": 1,
+      "sin_power": 1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "coefficient": [
+        "-1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 4,
+      "radial_derivative": 1,
+      "angular_derivative": 0,
+      "beta": 2,
+      "sigma": 1,
+      "sin_power": 1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "coefficient": [
+        "-1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 6,
+      "radial_derivative": 1,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 2,
+      "sin_power": 1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "coefficient": [
+        "-1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 4,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 2,
+      "sigma": 1,
+      "sin_power": -1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "coefficient": [
+        "0",
+        "1/2"
+      ]
+    },
+    {
+      "component": 7,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 2,
+      "sigma": 1,
+      "sin_power": -1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "coefficient": [
+        "0",
+        "1/2"
+      ]
+    },
+    {
+      "component": 5,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 2,
+      "sin_power": -1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "coefficient": [
+        "0",
+        "-1/2"
+      ]
+    },
+    {
+      "component": 6,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 2,
+      "sin_power": -1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "coefficient": [
+        "0",
+        "-1/2"
+      ]
+    },
+    {
+      "component": 5,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 2,
+      "sin_power": 1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "coefficient": [
+        "0",
+        "1/2"
+      ]
+    },
+    {
+      "component": 6,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 1,
+      "sigma": 2,
+      "sin_power": 1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "coefficient": [
+        "0",
+        "1/2"
+      ]
+    },
+    {
+      "component": 4,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 2,
+      "sigma": 1,
+      "sin_power": 1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "coefficient": [
+        "0",
+        "-1/2"
+      ]
+    },
+    {
+      "component": 7,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 2,
+      "sigma": 1,
+      "sin_power": 1,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "coefficient": [
+        "0",
+        "-1/2"
+      ]
+    }
+  ],
+  "required_correction_terms": [
+    {
+      "component": 8,
+      "radial_derivative": 1,
+      "angular_derivative": 0,
+      "beta": 2,
+      "sigma": 2,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 8,
+      "radial_derivative": 2,
+      "angular_derivative": 0,
+      "beta": 2,
+      "sigma": 2,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "1/2",
+        "0"
+      ]
+    },
+    {
+      "component": 8,
+      "radial_derivative": 0,
+      "angular_derivative": 0,
+      "beta": 2,
+      "sigma": 2,
+      "sin_power": 0,
+      "cos_power": 0,
+      "radial_powers": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      "coefficient": [
+        "1/2",
+        "0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "status": "method_alignment_in_progress_not_comparison_ready",
+  "reference": {
+    "arxiv": "2507.02045v2",
+    "source_file": "outputs/paper_original_reference/li_2507_02045v2/source/main.tex",
+    "sha256": "4535abc53b9d8cd1ea1919bfcf8847ab3a065137ee21df4cc6f20c38acf092a4"
+  },
+  "physics": {
+    "M": 1.0,
+    "a_over_M": 0.88,
+    "alpha": 0.3,
+    "cloud_states": [
+      {
+        "ell_c": 1,
+        "m_c": 1,
+        "n_c": 0
+      },
+      {
+        "ell_c": 2,
+        "m_c": 2,
+        "n_c": 0
+      }
+    ],
+    "orbit": "prograde circular equatorial"
+  },
+  "conventions": {
+    "signature": "-+++",
+    "coordinates": "Boyer-Lindquist (t,r,theta,phi)",
+    "fourier": "exp(-i omega t+i m phi)",
+    "epsilon": "m_p/M; legacy q",
+    "zeta": "alpha^3 sqrt(M_c/M); legacy epsilon",
+    "angular_norm": "2*pi*integral(abs(S)^2*sin(theta),theta)=1",
+    "frequency": "omega=omega_c+m_g*Omega_g",
+    "mode": "m=m_c+m_g",
+    "separation": "lambda=Lambda+a^2*omega^2-2*a*m*omega",
+    "charge": "code outward/inward charge N = - paper cloud charge change Qdot",
+    "field": "Phi^(1,1)=deltaPhi/(epsilon*zeta); not r*Phi",
+    "normalized_flux": "F/(epsilon^2*zeta^2)=legacy_unit_cloud_mass_flux/alpha^6"
+  },
+  "methods": {
+    "cloud_radial": "Leaver",
+    "cloud_radial_terms": 150,
+    "metric": "KerrLorenzCirc weighted tetrad spherical output",
+    "metric_spherical_lmax": 18,
+    "source": "semi-analytical separated tetrad source",
+    "fourier_pmax": 12,
+    "fourier_decimal_precision": 64,
+    "green": "variation_of_parameters",
+    "horizon_series_order": 4,
+    "infinity_series_order": 4,
+    "horizon_leading_coefficient": 1,
+    "infinity_leading_coefficient": 1,
+    "mass_normalization": "Li Eq(zeta_def): BL Killing energy integral"
+  },
+  "observables": {
+    "total_flux_lmax": 5,
+    "rp20_modal_flux_lmax": 10,
+    "dipolar_field_radii": [
+      41.1,
+      42.1
+    ],
+    "field_scalar_lmin": 2,
+    "field_scalar_lmax": 5,
+    "field_time": 0,
+    "field_theta": "pi/2 (equator; printed theta=0 is inconsistent with polar convention)",
+    "field_outer_radius": 200,
+    "scan_interval": [
+      4.1,
+      50.1
+    ]
+  },
+  "unresolved_author_details": [
+    "Complex omega handling in radial/angular cloud, source and stationary flux; not fully specified",
+    "BL mass integral horizon prescription and Im(omega) treatment order",
+    "Exact horizon/infinity cutoffs and interpolation tolerances",
+    "Historical metric package version and complete source notebook",
+    "Field-mode selection ambiguity between caption and text"
+  ],
+  "equation_discrepancies": [
+    "Near-horizon exponent requires omega-m*Omega_H, not omega-Omega_H for general m",
+    "Printed binomial expansion lacks binomial(n,k); retain mathematically necessary coefficients",
+    "Source Appendix mixed trace component missing term per independent tensor identity audit; preserve printed and corrected controls",
+    "Angular L/Ldag assignments differ between displayed body and Appendix; resolve by tetrad directional derivatives",
+    "omega_g versus Omega_g in flux notation must not multiply m_g twice"
+  ],
+  "remaining_steps": [
+    "Leaver150 full radial profile for both clouds with explicitly audited mass and frequency conventions",
+    "Author weighted spherical metric data for a=.88 at requested orbits including static completion",
+    "Full separated source operator assembly and coefficient cache using Fourier factors",
+    "Order4 Green integration with endpoint convergence",
+    "One-channel closure then complete modal inventories then flux/field comparisons"
+  ]
+}

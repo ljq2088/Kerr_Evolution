@@ -1,0 +1,135 @@
+{
+  "status": "separated_source_method_validated_on_protected_author_modes_not_Li_parameter_run",
+  "input": "docs/environment_reproduction/sam_actual_metric_i7_h6_comparison.json",
+  "sha256": "e7763c34fca6b8cba3e9328891e28418515d360199680397c30fa935f0a009b3",
+  "parameters": {
+    "a": 0.8771530275949366,
+    "r0": 20.0,
+    "m_g": 1,
+    "scalar_ell": 2,
+    "scalar_m": 2,
+    "spherical_jmax": 3,
+    "q": 64
+  },
+  "rows": [
+    {
+      "r": 2.0,
+      "metric": "reference",
+      "direct": [
+        -0.035983303739507165,
+        0.017576868356998315
+      ],
+      "separated_p12": [
+        -0.035983303739507366,
+        0.017576868357005733
+      ],
+      "separated_p32": [
+        -0.03598330373950718,
+        0.017576868356998326
+      ],
+      "p12_relative": 1.853026593754587e-13,
+      "p32_relative": 4.508602243253321e-16,
+      "angular_condition": 1.000004114493827
+    },
+    {
+      "r": 2.0,
+      "metric": "local",
+      "direct": [
+        -0.03598330360422077,
+        0.017576868299813007
+      ],
+      "separated_p12": [
+        -0.03598330360422097,
+        0.01757686829982041
+      ],
+      "separated_p32": [
+        -0.035983303604220786,
+        0.017576868299813007
+      ],
+      "p12_relative": 1.8499280747455164e-13,
+      "p32_relative": 2.711875163846275e-16,
+      "angular_condition": 1.000004114493846
+    },
+    {
+      "r": 10.0,
+      "metric": "reference",
+      "direct": [
+        -0.017517779980411187,
+        0.00028914368488962234
+      ],
+      "separated_p12": [
+        -0.017517779980411183,
+        0.0002891436848896222
+      ],
+      "separated_p32": [
+        -0.017517779980411183,
+        0.0002891436848896222
+      ],
+      "p12_relative": 1.1119458796751314e-16,
+      "p32_relative": 1.1119458796751314e-16,
+      "angular_condition": 1.0000000158171307
+    },
+    {
+      "r": 10.0,
+      "metric": "local",
+      "direct": [
+        -0.017517779957124006,
+        0.0002891436848269368
+      ],
+      "separated_p12": [
+        -0.017517779957124006,
+        0.0002891436848269369
+      ],
+      "separated_p32": [
+        -0.017517779957124006,
+        0.0002891436848269369
+      ],
+      "p12_relative": 9.28120067119606e-18,
+      "p32_relative": 9.28120067119606e-18,
+      "angular_condition": 1.0000000158171318
+    },
+    {
+      "r": 30.0,
+      "metric": "reference",
+      "direct": [
+        -2.1614684005308352e-06,
+        -0.00020304006876738188
+      ],
+      "separated_p12": [
+        -2.1614684005196193e-06,
+        -0.00020304006876738223
+      ],
+      "separated_p32": [
+        -2.1614684005196193e-06,
+        -0.00020304006876738223
+      ],
+      "p12_relative": 5.526392713088403e-14,
+      "p32_relative": 5.526392713088403e-14,
+      "angular_condition": 8.949208910089615
+    },
+    {
+      "r": 30.0,
+      "metric": "local",
+      "direct": [
+        -2.1614646880850326e-06,
+        -0.0002030400686026947
+      ],
+      "separated_p12": [
+        -2.161464688091583e-06,
+        -0.00020304006860269498
+      ],
+      "separated_p32": [
+        -2.161464688091583e-06,
+        -0.00020304006860269498
+      ],
+      "p12_relative": 3.229497011999877e-14,
+      "p32_relative": 3.229497011999877e-14,
+      "angular_condition": 8.949208413907401
+    }
+  ],
+  "limitations": [
+    "Protected spherical j<=3 only",
+    "Old synchronized cloud used solely for independent method validation",
+    "This is not a=.88, full j<=18, BL-normalized Li production data"
+  ]
+}

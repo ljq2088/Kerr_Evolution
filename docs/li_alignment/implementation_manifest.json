@@ -1,0 +1,33 @@
+{
+  "status": "alignment_foundations_verified_full_reproduction_pending",
+  "source_sha256": {
+    "src/li_alignment_contract.py": "969399a3de26276e2fde87f0ecb38ea1ffb124fafed11cb0826a2ea51ba8a222",
+    "src/li_separable_factors.py": "e8a65b5621214e0475268f47d3f422318608be92fdc55fc4df50474058918aaf",
+    "src/li_separated_source.py": "80543e698de64d3015742164b23a973a10a85ad95f9f83a4a35ddf16c9318a40",
+    "src/li_source_terms.json": "e44972d313159fab9fc77f668fb09db1b2f730d2d7054329f598dd02cd37a703",
+    "src/li_leaver_cloud.py": "1b23b78b0e3c3aba21d1e720fd4d05cfde953e40bfe2905197e6e42600ecb3e8",
+    "src/report_li_separated_source_validation.py": "88c12b4671dbaf57a7a2529bb767d96daaa21aa27af02c0997913d803461b933",
+    "src/report_li_leaver_backgrounds.py": "7d1601f8ac3c2446d942c3e50390d7249c0894816d1f0575b20eced38de63ecf",
+    "scripts/generate_li_source_terms.py": "fc9b6546f5ebe633b0d8e11d4b88f34a4d9ca81956bf7ef228a98cf3cd3f0b4a"
+  },
+  "validation": {
+    "tests_passed": 47,
+    "test_files": [
+      "test_li_alignment_contract.py",
+      "test_li_separable_factors.py",
+      "test_li_separated_source.py",
+      "test_li_leaver_cloud.py",
+      "test_kerr_quasibound_cloud.py",
+      "test_environment_source.py",
+      "test_environment_radial.py"
+    ]
+  },
+  "new_final_flux_comparison_performed": false,
+  "active_background_job": false,
+  "pending": [
+    "BL cloud mass and imaginary-frequency conventions",
+    "Full same-parameter weighted spherical author metric data",
+    "Unified order4 Green boundaries",
+    "Complete mode batches and final comparisons"
+  ]
+}
