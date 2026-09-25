@@ -1,5 +1,5 @@
 {
-  "status": "alignment_foundations_verified_full_reproduction_pending",
+  "status": "same_parameter_flux_batch_running_not_final_comparison_ready",
   "source_sha256": {
     "src/li_alignment_contract.py": "969399a3de26276e2fde87f0ecb38ea1ffb124fafed11cb0826a2ea51ba8a222",
     "src/li_separable_factors.py": "e8a65b5621214e0475268f47d3f422318608be92fdc55fc4df50474058918aaf",
@@ -8,7 +8,13 @@
     "src/li_leaver_cloud.py": "1b23b78b0e3c3aba21d1e720fd4d05cfde953e40bfe2905197e6e42600ecb3e8",
     "src/report_li_separated_source_validation.py": "88c12b4671dbaf57a7a2529bb767d96daaa21aa27af02c0997913d803461b933",
     "src/report_li_leaver_backgrounds.py": "7d1601f8ac3c2446d942c3e50390d7249c0894816d1f0575b20eced38de63ecf",
-    "scripts/generate_li_source_terms.py": "fc9b6546f5ebe633b0d8e11d4b88f34a4d9ca81956bf7ef228a98cf3cd3f0b4a"
+    "scripts/generate_li_source_terms.py": "fc9b6546f5ebe633b0d8e11d4b88f34a4d9ca81956bf7ef228a98cf3cd3f0b4a",
+    "src/li_normalized_cloud.py": "e20b4ff2b4f6544ce1134a5bbe6e4d1270fa7f3fd5a1f2d959adfc55fef22ffc",
+    "src/li_order4_green.py": "e4ea48b332eb952622f84e7e5e3e1b377d0ef45b94d4665a1ed825851436e7da",
+    "src/report_li_aligned_flux.py": "df04f8d69e80bb76e57018d4691cf4a5d25101b56f248bb5d6fdb3f4cbdadd6a",
+    "src/report_li_fixed_metric_flux_control.py": "cf3af6420ea2ba176fe945e694367c389a730f70a6a6214fca79004dd9e132d8",
+    "tests/test_li_flux_pipeline.py": "3b10b230506896685b648b472c7754c40579964950f96587be66f628d28dc26d",
+    "tests/test_li_flux_inventory.py": "c0835db276fae882761bc3d2e50a09f6e806499a02f5313165e059df68fc04e9"
   },
   "validation": {
     "tests_passed": 47,
@@ -23,11 +29,26 @@
     ]
   },
   "new_final_flux_comparison_performed": false,
-  "active_background_job": false,
+  "active_background_job": true,
   "pending": [
-    "BL cloud mass and imaginary-frequency conventions",
-    "Full same-parameter weighted spherical author metric data",
-    "Unified order4 Green boundaries",
-    "Complete mode batches and final comparisons"
-  ]
+    "Complete a=.88 rp20 full-mode flux batch",
+    "Metric guard/angular and source/radial/endpoint convergence",
+    "Author complex-frequency and BL horizon prescriptions remain unverified",
+    "Extend comparison to both cloud states and orbital scan"
+  ],
+  "active_run": "docs/li_alignment/rp20_cloud11_j18_L20_q40_nr12_h64/execution.json",
+  "diagnostic_flux_computation": "docs/li_alignment/fixed_metric_flux_control.json",
+  "latest_validation": {
+    "tests_passed": 43,
+    "test_files": [
+      "test_li_alignment_contract.py",
+      "test_li_separable_factors.py",
+      "test_li_separated_source.py",
+      "test_li_leaver_cloud.py",
+      "test_li_flux_pipeline.py",
+      "test_li_flux_inventory.py",
+      "test_environment_source.py",
+      "test_environment_radial.py"
+    ]
+  }
 }

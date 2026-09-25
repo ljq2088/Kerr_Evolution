@@ -1,0 +1,524 @@
+{
+  "status": "completed_diagnostic_not_full_Li_comparison",
+  "rows": [
+    {
+      "orbit": 41.1,
+      "ell": 2,
+      "m": 2,
+      "baseline": "docs/root_cause_followup_20260917/fresh_a088_rp41p1_sl2_sm2_L6_q12_nr8_h32.json",
+      "baseline_sha256": "2cfd1a39765187442fb62ddb0eb7ba0500fc7fc202a83fe7fadd3c489a2a3bf6",
+      "metric_cache": "61fbbce8b0b2eace9a6fc30d",
+      "metric_cache_sha256": {
+        "faf87b7fd01045e9e8c19c34.npz": "f98e9692755611715e6bc0ee1020fe0af3dae11d38a19ec953f31b3c2ae7afa5",
+        "ef6a7ec3707d489c64e85fe7.npz": "7fe56193163e88c3e32cf4277b90089dbbcb73c835cbb4b7e3574a09e6e743c8",
+        "f2a325702e3c21aec4b46beb.npz": "557f9017cd54d3c9c40ed0ba18c95fa9f81e69e5ae57bbcefd3c21a9107fcc32",
+        "731e6782be683761d9c0bb18.npz": "593f0614d2291dbf8e668613e1d121baea6b7fa3ac46f61a0646f3922dce3a1c",
+        "bdf7a57777e8965a228e63d7.npz": "fb3dfe1d9f6ca3f5f54665281d43b716bc7322bf83988f16ad62600ef5c00994",
+        "1110349ed55221bb2248bb75.npz": "53ad83ccd8c73531e063a1c0c42eea75d2df4ea327f96b6ec99f4cf119f20020",
+        "d9782875a80aa5110279a9e2.npz": "03415a48d47d543c5fa63ac0c988333843d61f985ffa291f736c8254f43eba9a",
+        "8fb57fd603afdfec005debe3.npz": "9ac15be3d3074e387eaa69541441075677f52ed45339df0ffeb5636e0a2239b3",
+        "070cc1259c163c382f89558a.npz": "c04658c227d17f12403fa216c045f6f7edd30c44cfed27462feab72add8563de",
+        "e253dd6d06d21e1d00ce6d00.npz": "694907a76b050b0286e7a6e53344d1ebe58e3b7a97a12aa4d015dd5b8612f794",
+        "371726de2ff459b037f2875f.npz": "0e856a6dee72f655af5fbbd1c276616c2bd27d3cf2628daaee51bfd600b34d90",
+        "a6743bd80d835ce9a41b95db.npz": "edaf17a8fe755882c4a8edc5e3e045e61da13eb3b7733d25096325be8ca4458c",
+        "3b70b42c3d88b374d24f82a9.npz": "bcb7818bda3df4caf90a8c52a17a1e3e18f69b12fca61480a036f1deb97710bd",
+        "7b4e39a771d0d35939d838b8.npz": "fb699fd69bbe8a270b8733969ac925217235dba074b58c84c8dceb9c6ce347db",
+        "9c83413236515033efaccbe6.npz": "845f7431ec2062c75dc904474ad79c2c0f1d942e360f2eb5cad2ab59e38bbf96",
+        "786dfbeeb2f52606312e27e9.npz": "6ed77f945617dd41b68a10d93f684f3e7abeaa8a769e599b24d8561de118b6c1",
+        "a022ed1024540d415b5cd991.npz": "f9a05e9b4e4f55eb227a069478c922e8c7b3645f2731b6c0be62e8397ba9739a",
+        "2afd03548de0e4b361d9ac52.npz": "1613109823c32c9f2164dec10fa8efdaba72ea623bf9e6e81c164d1ca5e77547",
+        "447efc5b3597178c24a7e7af.npz": "8e3e935e9ea93818c47d4337505e098f88664b460118b894e2694bf10682579e",
+        "d941e52f0987e8467c3f5a17.npz": "a34b14de642b794944d406430a37028acca702ec221ec7b1805d42ffc454dda1",
+        "61af2d91dc2b307ee91bf12a.npz": "be8877a964920b8350874601a1fde773407b4372d3b29e502611c9405ca6d7f0",
+        "1dc5a62d9b5ee5def78b8b91.npz": "e78b62a569e01e0988289c230bfc15adc6fa257f4136a3bb017310fb83dec901",
+        "4cc852291ddd54fec1ff79b9.npz": "33f47de3adef3630a51a78bfa1bab3290ff98b3f846c91d226e550eeae468a72",
+        "1505e3837d06640d2990c41f.npz": "82f6f11ff4019c41a86e4da303fa8959cd1e8844e0cd31d3570ecba1b0ad7126",
+        "c70096b5181cf299372222dd.npz": "a2faa5182bc243bda91c39fe3e72c64ce6473837faee7cc9e9a8f22c50120520",
+        "ee831964f011fa8bfcf3d376.npz": "74ca59cf15d0e6d59a1375d7609fbd3167725fea4915aaabbfd28d924ff59669",
+        "ddbc4db306c0c41a14a35589.npz": "15fbef2a0d7c3b5d8beca641baa05ac88f7a9180b88c285a476495fa80d503a8",
+        "ad4887ee92dfeccba5d43247.npz": "75d5110146fdfa88ef3c9b81f397f5de80be5dab2e0f1a533df14a924888778e",
+        "d876bb9b91ed730603f58913.npz": "249565bae6465276143c03853d35813f593b82a87c62e2475f96ef3b95c8d2d3",
+        "97edf913111240c100ba5af8.npz": "72c22215a56445a6a26094a33f2a570eed1672d612cf140c7aa346072be80eaf",
+        "3d30b7de998bc5e52edc497a.npz": "b8dd7c9462374c7a757a144395800877edf3694b0a00e40deb954c6b53834691",
+        "c30e6e15411b9df3f5063390.npz": "05d2ef038a7134c6fd8406577cb25d61270c4905f998bb26ab870bf7b3e71fa1",
+        "2fd5ee6449c26c89a95f80e4.npz": "13b59fb63b092967c5ae3d183b044a62167b5f4906be26db51327ca71a3c7409",
+        "b7f7f380eba7d32c3c58657e.npz": "dd28b19afe41d51178f6500ca09de4ad45ca7893db3592c1e1968195b42361d5",
+        "cb62e6800ecfe18b14cfc8a0.npz": "46548ca6014cb8c01c8e1c93fb3b32d1c2d0e0dff16b3b8eea364d415f64c7a4",
+        "eb41e8a58f396f0071ec1e4a.npz": "61d0347b34d6ba8121c3e5c0d3b009c7c5d812c5e13affca40475527ca5da14d",
+        "6ab23d70c3d53fff2b26a12a.npz": "6cdd1389a0d0c5a665cfe929035b595aca54a8d4525f308d6a5c5f436261d277",
+        "da19cf53ab8b09282b3313c6.npz": "a0a43f67dc8cf22cbb7af4717aa983c7890dfeacd90b0a4d3af34767e958582a",
+        "8fa74e58c753be8e07c697ef.npz": "0acf9210fa18ed3de1bb40a67f785416fc7f802192b93b17959e254786cdd507",
+        "9d20fdf4869da2537e242cfd.npz": "9818863b82ac1402f6510c438874617b7f5388bdc83b44e5696b43a53991ce7c",
+        "d1a7e01e3d4d3aac2733eade.npz": "c803e2bef33d4c112aa48f8285a083e9695e37f03b7ccb2e2cde69d756a3d121",
+        "9ca9f9a4fc21d04c1ea37d27.npz": "1f10be58462c61ecea3952c9a8d50cdb86330c5ee7e795b8be3d8dc5a7d5f29b",
+        "06bac4873fa822b79af3b08a.npz": "4e80cd129afc9904760f773eb15157340f335c4902e76d20fb0a14c45e645828",
+        "7e6edf4daa9ef4dde7d1cb0d.npz": "608272ef5ece9f11a380c7c8e33de01ae6044029da57e2b99c70ca33feb9530f",
+        "73b4e68b5e432c87c85ab79b.npz": "cc462301bd9708d37876ce6867dea6b828e374fc3d10b60ecc352f4dadfcb1ce",
+        "2d4f78ac1817e4063ad36b75.npz": "5c7b3fd5f614d6ed5a326df3c66ed1af8887f42d9f08e8a6382499c8926043da",
+        "c46868c30dcf80e84b7de9c4.npz": "c2e98e2fd181940d37abd75697d6ffc96da129c381813184fe0151ca7d9db331",
+        "4f361220eb5aaea1520d8d08.npz": "0d3b05d763bb5e5c1251cbbcf89a0cd71263427f3acb4dcef2901c3891554c9a",
+        "0416be9e93a50b3677877d73.npz": "a7150ac4d031ae090f65b415e9df6d17a93be12f0e60e6d82e633dece365c344",
+        "8adabc012df7ee7bbbf1b63c.npz": "48ed776682cc1de583dbcc34970ffd82a966f8d04fd43245645092819e259694",
+        "5c0c10dc318f8c1c162864c0.npz": "50a89ca48644ceef75417d926e65e4122541da089a4c679baf18aa528f774e45",
+        "b4f4e3092a5352095cbe68bb.npz": "a1737d25415bed41d7d90a8e24c3d0b451b9e464ed10e5044cbf9b76abd98281",
+        "9e090982cd881447d5d622a6.npz": "4396a568b278b618192f4e70ffe4cc7ce07100eb287d5f913b7c9c3b6281d264",
+        "c10027878a7d42e1a636af95.npz": "b587eb17bf5d7c0ac8fad157f33ad13b537f3372fe80b41e20bab22e529bc758",
+        "91d54d80e27ab0f1b49e3a16.npz": "e5f094142242ab45a7a9ed71e27e5e507c02797a041e963f98a50eed886f70f3",
+        "c0b6096d0c3990a694ae32c5.npz": "5f385fd675de27c645fd00b8e463a1c23d18ece6bf8b6cda60e7a90eee844493",
+        "cd8735d865ddb4fd4ec5c669.npz": "630fb4f2f58cfc07a064a6ac3a92c7c2d244db38223626b556eb8d7bfee5905e",
+        "fdc200d2d92a117c9960c1d8.npz": "d21fa9a7a07b6c0f1bfb4c9df237c9f4c319e0a53b6f2e0408805f30b5f21f46",
+        "1126796f5fe228e0d7e3f82f.npz": "633e3c231b7c5d206f157170b3921e5437423600c464696ab1858714be9ae684",
+        "faab58056ea2137104f47f51.npz": "7e664fec37804db60bd9d3fdb12b8c335e7ddd875925132660421f49e5e87421",
+        "290cad01af9c3b86bd1f465f.npz": "854138f095da7a026b88ec08cebdee7e5c2cc7b9d30daab3befd60ad48054349",
+        "db58247b3ee5ee057bcb29d4.npz": "51ff86afc95c2e14329cabd930de50609a5cebd2247aaa1788b0d1fe804dfcae",
+        "c9f4c8f67a54b898f6ab5b63.npz": "430c079a132c264cf1b312251b867221a4b62d2df3c7bb95878f962dde0df1f0",
+        "f7f5a1e34c51ae02bf0a2a90.npz": "73a135a15e74a106c5adc9c8eaef89d3592c12c638f7b92d69cb9f32878704d9",
+        "95950c472a6c39c6770f932c.npz": "22a724cebe9dbf23c1833631086d1aff37077c87ec84c70f0c81768df15be85c",
+        "2375483ac9193f442c42ba24.npz": "edc07383bc2bef961fc21db3123a2cc481966556423574900bcd6702db64befe",
+        "15cfeed48b34980a24776832.npz": "370797ef0173ecf9f2cbb9ab0bcba77dfb9ac573efc606b8e892b3fb90151ebe",
+        "2338f11d45ab1dfc2d8bdea5.npz": "f29c3f0b6d6d35e89d228f23f90116387c9ee3c5a42679fc9252ac3bf6ef87a8",
+        "d1aba76859d0dd0e2731da5a.npz": "b358c3f237a262a6e16bb6d1f9ee13aafbf3df92486751cd5f0d868ae7a98b40",
+        "721802cbfb86aa9ecfeec949.npz": "c52a5371e2fa586ba1fb86c743143c9c1ee096ecc64d7417358009b5f4864272",
+        "80cdfe4636c82c0b075622fc.npz": "469330b8d405be041d547d4f5e5ee6e9d5d928372d7cfe4056ce3f8459d57c57",
+        "16b4a6e2fa4574a4d97e6538.npz": "cde654df747518bdd14cf39da797a8e71256f68229f8e8b6261b6faad28cf11c",
+        "e22347f951a164de5e1b0163.npz": "924c819d366fd0ca5e152ebb6826e57b2a898d15e7e13de7fd38b0d264fc102e",
+        "28d1e277cbf6a8381206d493.npz": "5d42a3672910edb2bae455b7e826c8b341cc430dde854de345a920818519012c",
+        "66d65715004d2cf9afcc5d46.npz": "9fc7dcb8b24cf458fc719509b79771fe4947eaa99706c8f57cb3849a01997d4b",
+        "ae7847c8a3a5a6f5511cc19a.npz": "e8043e3ad91adbc309e874a99d27f8aad2d699098d12878c25e8af82f05659e9",
+        "4649021e5c71b3cd9452f66d.npz": "b9f2a2464e6b46b6f472d920690672f6ea3abe531eb4f7bb137cdab1ec48b1f6",
+        "07f89340026ccebd7e78434c.npz": "948499ae5340cad238524556b416613465477ef8796ff2026eb7a388ba670c65",
+        "72ef891495b3665e835107ad.npz": "8cdb3af8c04faaede12146bdeaea541531cac5faf9e0cd8857a8435dbdd46e54",
+        "ac897063eae4c283c23bd7e9.npz": "0a6fc687b29f6ebd1d0ac50bfb36de081d49f39183944cfc0480dcf24a0cd647",
+        "2ae4719b70ba4511cc2a9d09.npz": "b4732090e184baa7fd77c985e94822d17708f2f9285b217d70ca6d9b62c2f703",
+        "896a9621bd40085808ff2c3a.npz": "65d24ec2a92c410bd79213ea06ef6957a7bc1e243e03b5f2a463e8e58177f112",
+        "898a87a927f51326b937991c.npz": "b66c6aae0e0eac4ed2663acca2b7af39b00d6a26f765ae536cf676bdb695d299",
+        "a932a0e9ade82fa1ac929167.npz": "d84b02c18e8385dae3c00b4d09a890d7aff1e13fd4032d26e76e24b883d041eb",
+        "907f84b0fac90e449ed022ed.npz": "7324f79b443a1a5062f7a2af0bd683562091ee5009ebd22ffebcad52c5b1231f",
+        "7f7122c178f4210196b257f5.npz": "f8d32fac6ec0cfe78b3098b4c60166371569e3af9571ee90c95992d277c9f6ea",
+        "8c96848c7c977e054d6c85c6.npz": "adbe04e8b56576f2a7d2889e8dd96d5a24ae802dda6d50f3198f3be35c982044",
+        "bb8c78b88b1b83ecb8d71f96.npz": "6fb4198c5af42a69ea3493caa35134e0b2dabade96f22bdd5067ab0845a8d1c1",
+        "dfb6e2b42d3e65319b2db3c9.npz": "62bb9d5b51e7149a0567ea9c9e8bf1d6164e4b5c326fcae38a81e614ee6483a4",
+        "4ce53437f09ae6af16832253.npz": "1ce5aff3e13934ef857905448351fb7be966a464d721021a9dd0027e5d1b58c2",
+        "e3076407adfc279d64ff7f5f.npz": "abf6bec01637ddeeea7ea9e5d61bfff7cad0442c8028cd873fb85ccd800141d3",
+        "d5fc143a05df874eba4ddaf4.npz": "22d077a1be5d76349bc946e8e158b60f9f55ca7756acd7272b797fe6b5f333a2",
+        "144b8e437e81fbf42f630bf7.npz": "3f0f5bcb1ce3074136f11b5af3625b6b270f967d8eb11c2536364ac906192229",
+        "3ff422ceb8cbcbf8b0a45e1b.npz": "275e1e6d590a660b2745b5b913ed62bd1c521c9f949070b47c9be61cf2c631cb",
+        "96a422c9873d39ba12c7deaa.npz": "2aaa11cd0ada36d2dac16e666e03c82462556db72ee0f53607cc8a9533a1e482",
+        "17cfdb178d39d6c16702d14c.npz": "0bfdc46d7de9b26abea19ddc3cbd600c8a60482c3dc55dc7a818c3e461bd06a6"
+      },
+      "omega": 0.30007612436983777,
+      "source_relative_l2": 2.827351359984579e-05,
+      "flux": {
+        "infinity": {
+          "charge": 0.003659953123120587,
+          "wave_energy": 0.0010982645485613095,
+          "orbital_energy": 1.384410077271686e-05,
+          "orbital_angular_momentum": 0.003659953123120587
+        },
+        "horizon": {
+          "charge": -0.0006536750171025028,
+          "wave_energy": -0.00019615226572950646,
+          "orbital_energy": -2.472584348746672e-06,
+          "orbital_angular_momentum": -0.0006536750171025028
+        }
+      },
+      "flux_Li_units": {
+        "infinity": {
+          "charge": 5.020511828697652,
+          "wave_energy": 1.5065357319085182,
+          "orbital_energy": 0.01899053603939213,
+          "orbital_angular_momentum": 5.020511828697652
+        },
+        "horizon": {
+          "charge": -0.8966735488374526,
+          "wave_energy": -0.26907032336009123,
+          "orbital_energy": -0.0033917480778418007,
+          "orbital_angular_momentum": -0.8966735488374526
+        }
+      },
+      "old_flux": {
+        "infinity": {
+          "charge": 0.0036609302725839955,
+          "wave_energy": 0.0010985577677760639,
+          "orbital_energy": 1.3847796928155565e-05,
+          "orbital_angular_momentum": 0.0036609302725839955
+        },
+        "horizon": {
+          "charge": -0.0006536748887429908,
+          "wave_energy": -0.00019615222721024688,
+          "orbital_energy": -2.4725838632153114e-06,
+          "orbital_angular_momentum": -0.0006536748887429908
+        }
+      },
+      "relative_change_percent": {
+        "infinity": -0.02669128857016867,
+        "horizon": 1.963659830295228e-05
+      },
+      "wronskian_relative_spread": 6.79128710935738e-11,
+      "infinity_boundary": {
+        "order": 4,
+        "precision_digits": 64,
+        "coefficients": [
+          [
+            "1.0",
+            "0.0"
+          ],
+          [
+            "-985.104846459886888816773228372852445812161068",
+            "13535.0081674077694416733092320718441425956878"
+          ],
+          [
+            "-89139307.1554424459657337879194706585619575897",
+            "-26606914.9224124015200169624375535923132450131"
+          ],
+          [
+            "262570131857.253049491226385327731440567226333",
+            "-345250041824.229621261242700646352551043909893"
+          ],
+          [
+            "638535614044484.648483840919847677735734731307",
+            "1425860588453650.56068189479806831845722955178"
+          ]
+        ],
+        "recurrence_residual_through_power_5": [
+          [
+            "0.0",
+            "0.0"
+          ],
+          [
+            "0.0",
+            "0.0"
+          ],
+          [
+            "0.0",
+            "0.0"
+          ],
+          [
+            "0.0",
+            "0.0"
+          ],
+          [
+            "1.63132611699963113167757352731413688892529106e-55",
+            "0.0"
+          ],
+          [
+            "0.0",
+            "-3.3409558876152445576756705839393523485189961e-52"
+          ]
+        ],
+        "relative_last_term": 0.0015335720006131022,
+        "partial_sum_B": [
+          "0.89078732843161196135572782637927579929549075",
+          "0.387809301375528137768340831525669428977620162"
+        ],
+        "boundary_log_derivative": [
+          "-0.0000304158319161203083298318034165578006629204124",
+          "0.00716281956279475173011224197337226421487701836"
+        ],
+        "exact_prefactor": "exp(i k r*) r^(i mu^2/k)/sqrt(r^2+a^2)",
+        "construction": "Independent formal series from P'/P and polynomial radial ODE, no use of production infinity_series coefficients."
+      }
+    },
+    {
+      "orbit": 42.1,
+      "ell": 2,
+      "m": 2,
+      "baseline": "docs/root_cause_followup_20260917/fresh_a088_rp42p1_sl2_sm2_L6_q12_nr8_h32.json",
+      "baseline_sha256": "1176554c4f209eaf88d0215553f346408f3a04370ddf97bf467bada745f2269e",
+      "metric_cache": "17def0b499d2a7e5f2a359a9",
+      "metric_cache_sha256": {
+        "faf87b7fd01045e9e8c19c34.npz": "f71bfbdffd9ac643a5f1b5138bcc9246cbd19c38ee62a8655de52319726a2ef8",
+        "ef6a7ec3707d489c64e85fe7.npz": "c737708b294df8966e1c9f48137d08f937c351127c2a9f08654ed847d76adb71",
+        "f2a325702e3c21aec4b46beb.npz": "976a004d05d1674b44392d4cf1e2e1ba0fa8b6304307c66f35b7c416d00b6ca3",
+        "731e6782be683761d9c0bb18.npz": "479636ace45a39d409746a41646dd2e32005372bab59569954952880ab3f4c7d",
+        "bdf7a57777e8965a228e63d7.npz": "2614cd59c510b177aea577112396562280dc04cb3c3d61b6546ee9723d7e98c0",
+        "1110349ed55221bb2248bb75.npz": "1e32c6dbde2b5035348c31e3ab254a8e414ec90054aa21a0aceb94c714fea352",
+        "d9782875a80aa5110279a9e2.npz": "89cac835b6b5ad422bc151f1aff2dbf706e6a0b3313d5f54bdf6ae1b8b29d668",
+        "8fb57fd603afdfec005debe3.npz": "29983b6eb047d93360eea49f19e311a828f464902c99055a194434287f8987b3",
+        "070cc1259c163c382f89558a.npz": "5e246478fc61364f0ddf8ea166d24e192973a59db12696ea13b35a027aad5c3c",
+        "e253dd6d06d21e1d00ce6d00.npz": "e884cda7a8a7f8a6e8cd5a737b88cc1332c233eed909f542b0fd21a8da5cc989",
+        "371726de2ff459b037f2875f.npz": "65875c52f1dc596fa3fa70f5a6102b842a82880f9cccd14e17fe5714e262e125",
+        "a6743bd80d835ce9a41b95db.npz": "6ecdfe8736175dd20c7b6aa624ed3a0f77efd6d1ad3d177108505689f89baed6",
+        "3b70b42c3d88b374d24f82a9.npz": "d05627e6474c99ec3d29ef868983f2b3442bd9e7a0a4c832782d0313de717dd5",
+        "7b4e39a771d0d35939d838b8.npz": "dede971e457a4d88e77fa8d2d31103306bc51fcca7634087e86fb1cd17f11456",
+        "9c83413236515033efaccbe6.npz": "5018a85583d1b807c0c4d4d04e6f8442f115cac949f1e1407d71ca130612a3da",
+        "786dfbeeb2f52606312e27e9.npz": "367ba6e20f4cc11cf742a308566df3abecebb26bee6c00ee769403f27b81aa56",
+        "a022ed1024540d415b5cd991.npz": "1ee03abd80364fd07ff56f98f829c0bbd764022f40395e0f85b034f1600dc120",
+        "2afd03548de0e4b361d9ac52.npz": "dbecc24933566983a83ec111141320e1943720da3eaa0c5fa912b21a6637e373",
+        "447efc5b3597178c24a7e7af.npz": "5cc2c595c9b9c4f3342262eda39c304c0a0a8eb7efc4c661daa52a7a45fc5edd",
+        "d941e52f0987e8467c3f5a17.npz": "7d21b86a7ba1c6cdb9708cd12cca9ada127061c75c03fba8168a4d68c6231c70",
+        "61af2d91dc2b307ee91bf12a.npz": "ec543aaf396140f570515695d2afb542d8df774616f550751871429fb3657ce2",
+        "1dc5a62d9b5ee5def78b8b91.npz": "dbdeb8a2019d7a7248c39d01bda21ee48561fec4e00476f211d0f2c6a059af00",
+        "4cc852291ddd54fec1ff79b9.npz": "c5f4766fddabe1af38fb850cef32f48b67696d18ff549f44717b5443cce0de2c",
+        "1505e3837d06640d2990c41f.npz": "eb9d3553bcb74f8fb84043e44fc45b4ee742750274cb5af83b90c07d447cadcd",
+        "c70096b5181cf299372222dd.npz": "0f63f65210a42ec8d202ef4b3d20f006a12e11cc9371acb7cdb016835c64370b",
+        "ee831964f011fa8bfcf3d376.npz": "48a4bbbb9c2d130e92085713ed1094028156a2cf8bd61f7fe9c791b4ddb10a76",
+        "ddbc4db306c0c41a14a35589.npz": "98eb0e25865503bcd94182801934aa76fd4911c2d21b29515942c996867a9513",
+        "ad4887ee92dfeccba5d43247.npz": "9e074449be91ff88ef1f88b042b75d5dfbc8c1381c02233e07b4605f7dfeea3a",
+        "d876bb9b91ed730603f58913.npz": "c17230494a509eb4e6305db0d0e675a89278da30dd324b8656d100dd82f2ea75",
+        "97edf913111240c100ba5af8.npz": "c72db78db538bb3623ad9fc5f608b3242952e7a7502e511f05b6dbf1646ce540",
+        "3d30b7de998bc5e52edc497a.npz": "d97a3aae7a9bd14db22c7dc02314a4100ac546e18f865e0b9642883ee0df0022",
+        "c30e6e15411b9df3f5063390.npz": "061272fb63e794703842da264b030c13208720776dd5b69982c89873a75609f2",
+        "2fd5ee6449c26c89a95f80e4.npz": "63ec907beef9374df7c41189d0cd1a61395ad32a666f1138ecff8786e5c4c4f1",
+        "b7f7f380eba7d32c3c58657e.npz": "1521017c7ea79cd28f6579b4d2dada360465ced4ddcc43f80fa059762d55a394",
+        "cb62e6800ecfe18b14cfc8a0.npz": "fba776c354f2c8612269cc3e0f160f0de4fad5806affb91b47d2a460c688c309",
+        "eb41e8a58f396f0071ec1e4a.npz": "4177d997b2f14862b46a8adf308f74abbd52533e88eb2525c49429bed8726b11",
+        "6ab23d70c3d53fff2b26a12a.npz": "8671252b67bb64ac3d8be7734c33a11833f8051bcd3941a85d2b5d2436cdbd0c",
+        "da19cf53ab8b09282b3313c6.npz": "99c52a2ac228f9633f377eafa2dfdd9e7b2421973764b33164c352628f7d5eb4",
+        "8fa74e58c753be8e07c697ef.npz": "a595dd1de64f38ea2fbfd1c3fcda203cfcb93d12590d00358d4b3a39c3106c3f",
+        "9d20fdf4869da2537e242cfd.npz": "2912f37632c02a9d401e765b0e004191d7fca64d266f400207cb9a1db780ba72",
+        "d1a7e01e3d4d3aac2733eade.npz": "35751662cd5d9b0647e28d1b24f61b89a6d97a257641ed9792d060f626400900",
+        "9ca9f9a4fc21d04c1ea37d27.npz": "d7a9a27c301acf5c405dddec706c3f31e900d1c7427f75ab49d7581a158c57d8",
+        "06bac4873fa822b79af3b08a.npz": "bdae9da88050947f8dc94debdc1b8518a6318d66663e5828b717a6939ebbc10f",
+        "7e6edf4daa9ef4dde7d1cb0d.npz": "91d20f7532633553c9e6ccd767c77f19a20017d6db118dcb04f1ef6128450ca6",
+        "73b4e68b5e432c87c85ab79b.npz": "221611f2b921213581ed732c40bba52d6abf00e5f3b3f8dca223e4a11599ba13",
+        "2d4f78ac1817e4063ad36b75.npz": "b70b11ee3c9ef6a4e4cf24f75c37005439bcf1b4da133c814b1638b7be71d766",
+        "c46868c30dcf80e84b7de9c4.npz": "29ae0cd53f5ee0ae6d8eec67dcc19ce49c4a6777afca6024b601d6646d91f96b",
+        "4f361220eb5aaea1520d8d08.npz": "6a5e015c16319329ba12d8507e955a31efb953ba29d7f8ac78e49862ccf82fe2",
+        "0416be9e93a50b3677877d73.npz": "d0fa71d121af859b9f429f85a19329252cb54ea0c67b939281fb60d788a8f195",
+        "8adabc012df7ee7bbbf1b63c.npz": "2d438432aaeee87bd7337f57582099016e366b284a3fb5edf55d7cd9c8d5f179",
+        "5c0c10dc318f8c1c162864c0.npz": "24d64bb4f77661468d973148b454fa6ae282b0c2fc5bf02def8b6e1aa78d1867",
+        "b4f4e3092a5352095cbe68bb.npz": "942ecb8ff032f846fd0dfcf86cf160c78c6858531744d4832886a45adf763873",
+        "9e090982cd881447d5d622a6.npz": "71bd2f2c8ddb294a36bf78834df57dcc8257e66ab5a4de0fe0ec192596afa07e",
+        "c10027878a7d42e1a636af95.npz": "2296045fea16bb97c65c1bec995602bc661e2594deb6d69010a0472f6ac24c43",
+        "91d54d80e27ab0f1b49e3a16.npz": "027fd8ab1a4dbcf713e56253d9f2853c11e5de2fa79a802b3a5535ddbfa0aebf",
+        "c0b6096d0c3990a694ae32c5.npz": "9a0cabeb9965d70016d47613264411163efd7e4ec5a91e1fe09cfda4fe1fb418",
+        "cd8735d865ddb4fd4ec5c669.npz": "dab7ee9d96caf3a8f9697ee9a830f84cbb9bdbdf4dcc189cf42aa76ffeca1960",
+        "fdc200d2d92a117c9960c1d8.npz": "49c470f3c95a8ce0140886b0b6179a08ec6c46416a736a90ff30896230930b76",
+        "1126796f5fe228e0d7e3f82f.npz": "01313024242dca0f560e8053c99601f12b8ca4069efe40febc1765c4dba68116",
+        "faab58056ea2137104f47f51.npz": "3d532d21539c8b0d318198a8080b4fd6efce701a8a3c7481c81ec0f341442fce",
+        "290cad01af9c3b86bd1f465f.npz": "68a4a753aca4fc019fd16c2901caa7921f80bf3494c1e17f4384778ff6ad778c",
+        "db58247b3ee5ee057bcb29d4.npz": "31bba6e2b4f4e951c521599235b6806a40d0553d2cd1eee4f325a0d6c2688cea",
+        "c9f4c8f67a54b898f6ab5b63.npz": "04137e0f935ac8ce5b2342f380a08007de59640be5964fe7f9e781a7850c56a8",
+        "f7f5a1e34c51ae02bf0a2a90.npz": "3d86312e1597724ba204c747a6e745496dfc31810985fcf974b6c49ea1493b81",
+        "f03b2ad22afa42fb41ee690a.npz": "c3940aceb78e2a6a452ffc01d3e787c7b7b6de48aaf387c99f09286409852afe",
+        "8e38904a4fdc2313ef469877.npz": "2664fafaa1ff6f03435113558d81b1970dfeb14650f30bd04eef5f6dee034133",
+        "e881acaa5a227daca17332b3.npz": "69eb65407fd7d0d4609d4c063754aa74d4a02ee368e9892b452308095761c7ce",
+        "7bd3bab8a3d31743cf946bd3.npz": "d164630470b0250dad11f0cba1579dc9969e314738b763924696c182f1843bf7",
+        "f4bce290a813086e5e81c18a.npz": "95e34b4f1460d2f11b2e03b234f39bac8a40f22973303cbd47c7203b73ecf183",
+        "18aa237d1970774f99d169ad.npz": "a557ca262e9fa783d7848abcde15409f4706ce5717b41fd66145c7218453759c",
+        "01130619e7895174a2d8bddc.npz": "9eac8e0604965fc8d80fc7a1e65ea908e93a083b926b3fd08b30cb59138a16b8",
+        "6b4bcc7812638633dfaf4a4a.npz": "e10e5a5d29e6da792c6e652a25e0143d6bf7a24bbd51ed2342dde381c13d3c61",
+        "fd3ef3ec4e7ac7553d470fec.npz": "b54b12e5d13da763cdf94d63c94343bd45c1b3f25bacd4ece9870e84497ec9ef",
+        "01bdc148f8d5b7dc958c7680.npz": "940254936aef28985a8179c798564695fc36debaad81be042cb99b33338ada0a",
+        "de15d386aedcc95ad22e3a27.npz": "fec13b0a61b990b05707b8eb9edb5508494d330faed02c6224021af8db96dad8",
+        "f51e61d60a91ae7fb69e665f.npz": "ae388ec4a1fdfdbc7b2ac92671068ca8246a3a4e07ab1cb17e36d27f176c2dde",
+        "9e26e3996ec460d2e751f339.npz": "4e6696fab589022d4f4c43c36dce22cc5942ea03d02a9da94d2e40fd5185ada3",
+        "118bc5efb2818eaabb20a1c0.npz": "ebac9820eb9fb2f7135654bf827e6b874caf9b4e9e21964e0cc9f584dd04c0fc",
+        "b14de499b7e4d64c4f0cf7ce.npz": "9aa639ed534bbf1dbb99b0f86cdc2046adc89dbb2508fc931d831ffe0ae24c4d",
+        "f40b13a3291e40def64527bc.npz": "39982e459f9703e61955043b5d848ed76f418393dd35381056921a8c68150e8a",
+        "2ae4719b70ba4511cc2a9d09.npz": "9c6a3bae0a4e7fca3a69c8d720c3e74844f0d8eaae10cfe406b22d08023c6574",
+        "896a9621bd40085808ff2c3a.npz": "3d38d100c04eb52321baab8c965506980246186fa5420538573a352643f08a61",
+        "898a87a927f51326b937991c.npz": "110b7b76e50ba02583ef1b5491a5cad3c60c2eb36d8e60fbd5f1692c0d437f00",
+        "a932a0e9ade82fa1ac929167.npz": "0b9391b10012a099e8a8d75e48edae247222622b8f2c936e15230f1e3675a8a4",
+        "907f84b0fac90e449ed022ed.npz": "1b24c169c39afe915987e5c10cbc789ea996a4660fd457e8d6c75979c697634e",
+        "7f7122c178f4210196b257f5.npz": "ffeccea2f2c6857fa5821ed0a37ab1c0099c23d0798877f57e95ac7d025e3310",
+        "8c96848c7c977e054d6c85c6.npz": "edecc151e69b5b5fc3466bdfd6033a30c9b1c83ccb3fbf014acb9e5ced28c7bd",
+        "bb8c78b88b1b83ecb8d71f96.npz": "162e6b39a79166bc524fd1e94b5fa1bd963f19b16e42f9fab6478f89fe8fa509",
+        "dfb6e2b42d3e65319b2db3c9.npz": "3135d452223029d7c0ab34da09068c964c46e1e9388ba4225e984260b166fdd1",
+        "4ce53437f09ae6af16832253.npz": "78e8092b51820ce7f4900e995cb841af00e821e2b8d8702f216790cccdf057e9",
+        "e3076407adfc279d64ff7f5f.npz": "c7475fa7ea1e6eafd09bce3a462f55783c57264915e0c0772b482a59183a0b69",
+        "d5fc143a05df874eba4ddaf4.npz": "1335e68378b7a1ba59ca16c9d4e4560cb02ab9e427809e9af9fe23fd2851f4a0",
+        "144b8e437e81fbf42f630bf7.npz": "dc8d8afdad147034e1c71131bb787ee43f48d27001584c20bfe028734d933164",
+        "3ff422ceb8cbcbf8b0a45e1b.npz": "591d073aec96387b004fe0b3c289f09bdbdcb8f1ac6d6ed5ea64356710593bc2",
+        "96a422c9873d39ba12c7deaa.npz": "2a5d5fd08a4b7c745c2e9b42b9e7885d449f9f04f222d319993f29c8449193c5",
+        "17cfdb178d39d6c16702d14c.npz": "b19a2d8afbc70e29fad328f88d66686da3a8716d4e587279cda3f586fd3309ca"
+      },
+      "omega": 0.2999425864644072,
+      "source_relative_l2": 2.827351063427621e-05,
+      "flux": {
+        "infinity": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": 0.0,
+          "orbital_angular_momentum": 0.0
+        },
+        "horizon": {
+          "charge": -0.0006880950943788996,
+          "wave_energy": -0.0002063890223414775,
+          "orbital_energy": -2.510894598879346e-06,
+          "orbital_angular_momentum": -0.0006880950943788996
+        }
+      },
+      "flux_Li_units": {
+        "infinity": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": 0.0,
+          "orbital_angular_momentum": 0.0
+        },
+        "horizon": {
+          "charge": -0.9438890183524001,
+          "wave_energy": -0.28311251349996924,
+          "orbital_energy": -0.0034442998612885414,
+          "orbital_angular_momentum": -0.9438890183524001
+        }
+      },
+      "old_flux": {
+        "infinity": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": 0.0,
+          "orbital_angular_momentum": 0.0
+        },
+        "horizon": {
+          "charge": -0.0006880949586383638,
+          "wave_energy": -0.00020638898162538935,
+          "orbital_energy": -2.510894103555108e-06,
+          "orbital_angular_momentum": -0.0006880949586383638
+        }
+      },
+      "relative_change_percent": {
+        "infinity": null,
+        "horizon": 1.9727006295156002e-05
+      },
+      "wronskian_relative_spread": 1.5383694319552523e-11,
+      "infinity_boundary": {
+        "order": 4,
+        "precision_digits": 64,
+        "coefficients": [
+          [
+            "1.0",
+            "0.0"
+          ],
+          [
+            "-18247.135329345472056907403288530438362016874",
+            "0.0"
+          ],
+          [
+            "144212352.367822670114377063429953201938312537",
+            "0.0"
+          ],
+          [
+            "-650705341520.599174197444133320612336358962885",
+            "0.0"
+          ],
+          [
+            "1860466180409767.72848529607638932635151085242",
+            "0.0"
+          ]
+        ],
+        "recurrence_residual_through_power_5": [
+          [
+            "0.0",
+            "0.0"
+          ],
+          [
+            "0.0",
+            "0.0"
+          ],
+          [
+            "2.43086534291450847935315002100786103148056725e-63",
+            "0.0"
+          ],
+          [
+            "0.0",
+            "0.0"
+          ],
+          [
+            "0.0",
+            "0.0"
+          ],
+          [
+            "0.0",
+            "0.0"
+          ]
+        ],
+        "relative_last_term": 0.0032112148550225124,
+        "partial_sum_B": [
+          "0.552525724033745365133807569316707998396193648",
+          "0.0"
+        ],
+        "boundary_log_derivative": [
+          "-0.005402084652027727130647453865947024148106628",
+          "0.0"
+        ],
+        "exact_prefactor": "exp(i k r*) r^(i mu^2/k)/sqrt(r^2+a^2)",
+        "construction": "Independent formal series from P'/P and polynomial radial ODE, no use of production infinity_series coefficients."
+      }
+    }
+  ],
+  "cloud": {
+    "a": 0.88,
+    "mu": 0.3,
+    "ell_c": 1,
+    "m_c": 1,
+    "n_c": 0,
+    "spectral_omega": [
+      0.29629353472811226,
+      2.216612802247371e-09
+    ],
+    "temporal_omega": 0.29629353472811226,
+    "frequency_policy": "complex spatial Leaver profile; temporal frequency Re(omega_c)",
+    "radial_terms": 150,
+    "spectral_decimal_digits": 64,
+    "evaluation_precision": "complex128",
+    "mass_prescription": "finite BL t=0 Killing energy using frozen temporal frequency",
+    "mass_inner_offset": 1e-06,
+    "mass_outer": 2000.0,
+    "mass_points": 12001,
+    "raw_bl_mass": 795290.161413066,
+    "amplitude": 0.0011213396919410824,
+    "normalized_bl_mass": 1.0,
+    "author_horizon_prescription_verified": false
+  },
+  "mass_audit": [
+    {
+      "inner_offset": 0.001,
+      "outer_radius": 2000.0,
+      "energy": 1.000000090397538,
+      "charge": 3.3750317688639813
+    },
+    {
+      "inner_offset": 1e-06,
+      "outer_radius": 1000.0,
+      "energy": 1.0000000000002502,
+      "charge": 3.3750314563175774
+    },
+    {
+      "inner_offset": 1e-06,
+      "outer_radius": 2000.0,
+      "energy": 1.0,
+      "charge": 3.375031456316732
+    },
+    {
+      "inner_offset": 1e-09,
+      "outer_radius": 2000.0,
+      "energy": 0.9999999049026388,
+      "charge": 3.3750311353527143
+    }
+  ],
+  "implementation_sha256": {
+    "environment_cloud": "13f9628f4513c00022ce7ebe69fc3d74db19a8e9fb610ece93ef9095866c8549",
+    "environment_kerr_quasibound_cloud": "3403dbf846cf630f6668fa2ed698272a37c687124a3d193d68b155b43816458b",
+    "environment_lorenz_mode": "79ca9a4a27c608381291808f3200b752b99495be853d96b8cea0f39bcb5802b6",
+    "environment_metric_sampling": "5a8cb8598093c1ce97825ac03e7af76a7413e9ae719a0e6d85c64685c3fc3e47",
+    "environment_radial": "b392c3ffdbc0ed022441e050a8c25b641533ed65630d6dff8e81d26cdaf28b5a",
+    "environment_response": "c7a9592a6d93fa023461b77f1ac57774232e1017c240d6c3bc9bf9cdfefc230c",
+    "environment_source": "f8ed45cc7200b9738fa3406d0b8a03552f4847340cabdc92eec97b219c4cebb2",
+    "environment_wake": "8e68652fadf84d356cd42b1125abb93413601fe11c35bafba8ff73ba14d5c546",
+    "li_leaver_cloud": "1b23b78b0e3c3aba21d1e720fd4d05cfde953e40bfe2905197e6e42600ecb3e8",
+    "li_normalized_cloud": "e20b4ff2b4f6544ce1134a5bbe6e4d1270fa7f3fd5a1f2d959adfc55fef22ffc",
+    "li_order4_green": "e4ea48b332eb952622f84e7e5e3e1b377d0ef45b94d4665a1ed825851436e7da",
+    "lorenz_chi": "7cd9321f8abe514b6649d54f9c9bc1258753f2e506573288b427fd7c01eb73b9",
+    "lorenz_corrector": "e97fba97ec3cc61fb3e9e990de2e5ddf14da6595bec9f52b3e2fc12da2c11632",
+    "lorenz_ghp": "598f52a92d2ba3c2b9edc51d8c08240a128a8ba714fb379578dbaff63b87a2fc",
+    "lorenz_jet": "8a68ebf0c27ba0a444f07851a6a5eb03623ff328e920a91f3824c332c635af65",
+    "lorenz_kappa": "1a7a906260ac790b2c1c170cca277cb0e9c77b8b54cc5330e1660d3588b4b8e1",
+    "lorenz_metric": "e356a13729114412ffba238807ca1b4b612fc64c78c4a920a101e05baf02e91b",
+    "lorenz_mode_jet": "e8fe89e3a0d13f89ffbf4666fee552d8df3678f8c09f5866c456d9e9c68a6ccc",
+    "lorenz_spin1": "baf3b91c7ce4d316d75394288cbc218279b21be435ce9c696601f3fe39bafe98",
+    "lorenz_spin1_chiral": "e0c14b1f38f01d2f468c5fa439f527dd3b84b819b05e679334d390da2c581449",
+    "lorenz_tensor": "03bd09d77eb50a087cf20dfd9ddf04fb9514efe2311fff1b3a57c4b423551070",
+    "lorenz_weyl": "85668a281b4f351b57cce1a9ac56ddc4e07119918545e24685643f7195f012fd",
+    "report_li_fixed_metric_flux_control": "cf3af6420ea2ba176fe945e694367c389a730f70a6a6214fca79004dd9e132d8",
+    "report_li_order4_boundary_control": "52eadf30c91093e721bd71856b7b56706a9912014ea903930ef9137b557ae17a",
+    "report_li_scalar22_outer_boundary_control": "af36678519d8ccaff4a1764aeb6846e044fe25a064f4cb3140622375c5ac830c",
+    "source_provenance": "bd857ee008868fc3dbd880b276cd59acf025a38e13326674981d80fa3377a1b9"
+  },
+  "limitations": [
+    "Only scalar22; no total flux or direct comparison to a total curve.",
+    "Existing fresh-a=.88 L6 q12 metric; source is direct two-dimensional contraction.",
+    "Main j18 separated-source r0=20 batch is independent of this diagnostic."
+  ]
+}
