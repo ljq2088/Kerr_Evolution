@@ -12,7 +12,9 @@ from environment_source import angular_mode,kerr_metric
 from lorenz_mode_jet import separated_jet
 
 
-@lru_cache(maxsize=96)
+# L<=20 needs 5 mass-squared resolvents per ell (100 entries).
+# Keep the full sweep resident across angles/radii; 96 causes cyclic eviction.
+@lru_cache(maxsize=512)
 def scalar_resolvent(r0,a,ell,m,msq,rtol=1e-12,rmax=2000.,infinity_method='series'):
     op=1/(r0**1.5+a)
     omega=m*op

@@ -1,5 +1,5 @@
 {
-  "status": "same_parameter_flux_batch_running_not_final_comparison_ready",
+  "status": "rp20_flux_complete_figure1_partial_snapshot",
   "source_sha256": {
     "src/li_alignment_contract.py": "969399a3de26276e2fde87f0ecb38ea1ffb124fafed11cb0826a2ea51ba8a222",
     "src/li_separable_factors.py": "e8a65b5621214e0475268f47d3f422318608be92fdc55fc4df50474058918aaf",
@@ -14,7 +14,8 @@
     "src/report_li_aligned_flux.py": "df04f8d69e80bb76e57018d4691cf4a5d25101b56f248bb5d6fdb3f4cbdadd6a",
     "src/report_li_fixed_metric_flux_control.py": "cf3af6420ea2ba176fe945e694367c389a730f70a6a6214fca79004dd9e132d8",
     "tests/test_li_flux_pipeline.py": "3b10b230506896685b648b472c7754c40579964950f96587be66f628d28dc26d",
-    "tests/test_li_flux_inventory.py": "c0835db276fae882761bc3d2e50a09f6e806499a02f5313165e059df68fc04e9"
+    "tests/test_li_flux_inventory.py": "c0835db276fae882761bc3d2e50a09f6e806499a02f5313165e059df68fc04e9",
+    "src/lorenz_kappa.py": "616413913f08d12b19bdea8104bcc93bb02d6bab6db19297405bbbc886d1a89f"
   },
   "validation": {
     "tests_passed": 47,
@@ -28,15 +29,15 @@
       "test_environment_radial.py"
     ]
   },
-  "new_final_flux_comparison_performed": false,
+  "new_final_flux_comparison_performed": true,
   "active_background_job": true,
   "pending": [
-    "Complete a=.88 rp20 full-mode flux batch",
-    "Metric guard/angular and source/radial/endpoint convergence",
-    "Author complex-frequency and BL horizon prescriptions remain unverified",
-    "Extend comparison to both cloud states and orbital scan"
+    "Complete Fig.1 88-mode field batch and comparison",
+    "Metric, source, radial and endpoint convergence",
+    "Author frequency and BL horizon prescriptions remain unverified",
+    "Quadrupolar cloud scan and orbit evolution"
   ],
-  "active_run": "docs/li_alignment/rp20_cloud11_j18_L20_q40_nr12_h64/execution.json",
+  "active_run": "docs/figure1_alignment_20260926/execution.json",
   "diagnostic_flux_computation": "docs/li_alignment/fixed_metric_flux_control.json",
   "latest_validation": {
     "tests_passed": 43,
@@ -50,5 +51,19 @@
       "test_environment_source.py",
       "test_environment_radial.py"
     ]
+  },
+  "cache_policy_fix": {
+    "audit": "docs/li_alignment/rp20_cloud11_j18_L20_q40_nr12_h64_cache512/cache_policy_migration.json",
+    "reused_radii": 87
+  },
+  "resumed_utc": "2026-09-25T16:38:13.122519+00:00",
+  "final_flux_comparison_scope": "Complete finite ell<=5 rp20 dipolar flux; convergence and full reproduction pending",
+  "completed_flux_run": "docs/li_alignment/rp20_cloud11_j18_L20_q40_nr12_h64_cache512/execution.json",
+  "published_active_run_snapshot": "docs/figure1_alignment_20260926/snapshot_20260927.json",
+  "status_as_of": "2026-09-27",
+  "publication_validation": {
+    "tests_passed": 63,
+    "scope": "Cache, Li modules, field and response targeted regression suite",
+    "warnings": "14 Matplotlib/Pyparsing deprecation warnings"
   }
 }

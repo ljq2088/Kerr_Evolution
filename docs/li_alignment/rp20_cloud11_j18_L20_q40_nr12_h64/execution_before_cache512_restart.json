@@ -1,0 +1,301 @@
+{
+  "status": "running",
+  "pid": 206941,
+  "started_utc": "2026-09-25T10:21:47.390625+00:00",
+  "config": {
+    "a": 0.88,
+    "alpha": 0.3,
+    "r0": 20.0,
+    "cloud_ell": 1,
+    "cloud": {
+      "a": 0.88,
+      "mu": 0.3,
+      "ell_c": 1,
+      "m_c": 1,
+      "n_c": 0,
+      "spectral_omega": [
+        0.29629353472811226,
+        2.216612802247371e-09
+      ],
+      "temporal_omega": 0.29629353472811226,
+      "frequency_policy": "complex spatial Leaver profile; temporal frequency Re(omega_c)",
+      "radial_terms": 150,
+      "spectral_decimal_digits": 64,
+      "evaluation_precision": "complex128",
+      "mass_prescription": "finite BL t=0 Killing energy using frozen temporal frequency",
+      "mass_inner_offset": 1e-06,
+      "mass_outer": 2000.0,
+      "mass_points": 12001,
+      "raw_bl_mass": 795290.161413066,
+      "amplitude": 0.0011213396919410824,
+      "normalized_bl_mass": 1.0,
+      "author_horizon_prescription_verified": false
+    },
+    "metric_spheroidal_L": 20,
+    "metric_spherical_jmax": 18,
+    "metric_projection_q": 40,
+    "source_angular_q": 64,
+    "source_fourier_pmax": 12,
+    "source_fourier_dps": 64,
+    "source_float_precision": "complex128",
+    "source_formula": "covariant-identity corrected Li Appendix",
+    "source_panels": [
+      1.4754736834815165,
+      3.0,
+      6.0,
+      12.0,
+      20.0,
+      40.0,
+      80.0,
+      160.0,
+      320.0
+    ],
+    "nr": 12,
+    "nh": 64,
+    "source_inner_offset": 0.0005,
+    "horizon_green_offset": 0.0001,
+    "green_infinity_order": 4,
+    "green_horizon_order": 4,
+    "propagating_green_outer": 8000.0,
+    "bound_green_outer": 1000.0,
+    "radial_rtol": 1e-11,
+    "scalar_lmax": 5,
+    "scalar_modes": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        -3
+      ],
+      [
+        3,
+        -1
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        -4
+      ],
+      [
+        4,
+        -2
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        -5
+      ],
+      [
+        5,
+        -3
+      ],
+      [
+        5,
+        -1
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    "metric_backend": "independent local Lorenz reconstruction, previously checked against protected author modes"
+  },
+  "implementation_sha256": {
+    "environment_angular_diagnostic": "74c1ae7536df0ef1b6193c81a38f289b18c5dfc7371490e9fd1c3257da559307",
+    "environment_cloud": "13f9628f4513c00022ce7ebe69fc3d74db19a8e9fb610ece93ef9095866c8549",
+    "environment_dense_metric": "ac75cb4ceef5706d2330519077b2e87770a446f5d7bea171a1036809c7c69fd1",
+    "environment_kerr_quasibound_cloud": "3403dbf846cf630f6668fa2ed698272a37c687124a3d193d68b155b43816458b",
+    "environment_lorenz_mode": "79ca9a4a27c608381291808f3200b752b99495be853d96b8cea0f39bcb5802b6",
+    "environment_metric_sampling": "5a8cb8598093c1ce97825ac03e7af76a7413e9ae719a0e6d85c64685c3fc3e47",
+    "environment_radial": "b392c3ffdbc0ed022441e050a8c25b641533ed65630d6dff8e81d26cdaf28b5a",
+    "environment_response": "c7a9592a6d93fa023461b77f1ac57774232e1017c240d6c3bc9bf9cdfefc230c",
+    "environment_schwarzschild_cloud": "0658e39d28ecade112d9dc34d06510f15252a79d58901a5111a9edb1c8e051ab",
+    "environment_source": "f8ed45cc7200b9738fa3406d0b8a03552f4847340cabdc92eec97b219c4cebb2",
+    "environment_static_lorenz": "8992980ee355b554aec123492c46d90b5456441bd080e01cd851ba38b5cf0f23",
+    "environment_wake": "8e68652fadf84d356cd42b1125abb93413601fe11c35bafba8ff73ba14d5c546",
+    "li_leaver_cloud": "1b23b78b0e3c3aba21d1e720fd4d05cfde953e40bfe2905197e6e42600ecb3e8",
+    "li_normalized_cloud": "e20b4ff2b4f6544ce1134a5bbe6e4d1270fa7f3fd5a1f2d959adfc55fef22ffc",
+    "li_order4_green": "e4ea48b332eb952622f84e7e5e3e1b377d0ef45b94d4665a1ed825851436e7da",
+    "li_separable_factors": "e8a65b5621214e0475268f47d3f422318608be92fdc55fc4df50474058918aaf",
+    "li_separated_source": "80543e698de64d3015742164b23a973a10a85ad95f9f83a4a35ddf16c9318a40",
+    "lorenz_chi": "7cd9321f8abe514b6649d54f9c9bc1258753f2e506573288b427fd7c01eb73b9",
+    "lorenz_completion": "d52793acdaca007300885b9f194eb403f16ef7abe53d9c91f652f3df8952e78d",
+    "lorenz_corrector": "e97fba97ec3cc61fb3e9e990de2e5ddf14da6595bec9f52b3e2fc12da2c11632",
+    "lorenz_ghp": "598f52a92d2ba3c2b9edc51d8c08240a128a8ba714fb379578dbaff63b87a2fc",
+    "lorenz_jet": "8a68ebf0c27ba0a444f07851a6a5eb03623ff328e920a91f3824c332c635af65",
+    "lorenz_kappa": "1a7a906260ac790b2c1c170cca277cb0e9c77b8b54cc5330e1660d3588b4b8e1",
+    "lorenz_metric": "e356a13729114412ffba238807ca1b4b612fc64c78c4a920a101e05baf02e91b",
+    "lorenz_mode_jet": "e8fe89e3a0d13f89ffbf4666fee552d8df3678f8c09f5866c456d9e9c68a6ccc",
+    "lorenz_spin1": "baf3b91c7ce4d316d75394288cbc218279b21be435ce9c696601f3fe39bafe98",
+    "lorenz_spin1_chiral": "e0c14b1f38f01d2f468c5fa439f527dd3b84b819b05e679334d390da2c581449",
+    "lorenz_static_boundary": "2f47b8eb76ef4ce43ce7547afc7504d9f37d3beaeb7f0cca1ddad61e377ac27c",
+    "lorenz_static_gauge": "d935c10ebf946bce11ff7479c94a985bbf12f3d85cba2cae7e71644474e8a5e4",
+    "lorenz_static_spin2": "dd1eaf5d2d6d2307abe723e543c64abd31ad644c6f64c7f6ec5b7b8602d6914d",
+    "lorenz_static_trace": "e2f622c099c119976380f4a9f8c6cad99b3f52ab7b3ed73c4cc920916b2be2ac",
+    "lorenz_tensor": "03bd09d77eb50a087cf20dfd9ddf04fb9514efe2311fff1b3a57c4b423551070",
+    "lorenz_weyl": "85668a281b4f351b57cce1a9ac56ddc4e07119918545e24685643f7195f012fd",
+    "paper_full_tetrad": "d7bb54106bfd00b00bcae641b4d823b10b80b1acf1efcc1d6889206b12baf697",
+    "paper_jump_basis": "672be1fdc4be0bd94bcd730b37a47930bce470f13c17f9827a3dac6c1e9f4545",
+    "report_environment_forced_mode": "e63288f386449beb1760f08d9eba721036123ff1c6acb736fe4abe40de6d0cc1",
+    "report_li_aligned_flux": "df04f8d69e80bb76e57018d4691cf4a5d25101b56f248bb5d6fdb3f4cbdadd6a",
+    "report_li_order4_boundary_control": "52eadf30c91093e721bd71856b7b56706a9912014ea903930ef9137b557ae17a",
+    "report_li_scalar22_outer_boundary_control": "af36678519d8ccaff4a1764aeb6846e044fe25a064f4cb3140622375c5ac830c",
+    "source_provenance": "bd857ee008868fc3dbd880b276cd59acf025a38e13326674981d80fa3377a1b9",
+    "li_source_terms.json": "e44972d313159fab9fc77f668fb09db1b2f730d2d7054329f598dd02cd37a703"
+  },
+  "cloud_mass_audit": [
+    {
+      "inner_offset": 0.001,
+      "outer_radius": 2000.0,
+      "energy": 1.000000090397538,
+      "charge": 3.3750317688639813
+    },
+    {
+      "inner_offset": 1e-06,
+      "outer_radius": 1000.0,
+      "energy": 1.0000000000002502,
+      "charge": 3.3750314563175774
+    },
+    {
+      "inner_offset": 1e-06,
+      "outer_radius": 2000.0,
+      "energy": 1.0,
+      "charge": 3.375031456316732
+    },
+    {
+      "inner_offset": 1e-09,
+      "outer_radius": 2000.0,
+      "energy": 0.9999999049026388,
+      "charge": 3.3750311353527143
+    }
+  ],
+  "completed": [],
+  "limitations": [
+    "Author complex-frequency freeze sequence and BL mass horizon prescription not fully public.",
+    "Metric is independently reconstructed, not author-generated data at these parameters.",
+    "Spherical j<=18 retained from L<=20; guard-mode and angular convergence remain to be tested.",
+    "Finite radial quadrature and source/Green endpoints require convergence.",
+    "64-digit Fourier coefficients do not imply a 64-digit metric/Green pipeline."
+  ],
+  "summary": {
+    "completed_modes": 0,
+    "expected_modes": 18,
+    "missing_modes": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        -3
+      ],
+      [
+        3,
+        -1
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        -4
+      ],
+      [
+        4,
+        -2
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        -5
+      ],
+      [
+        5,
+        -3
+      ],
+      [
+        5,
+        -1
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    "partial_sums_unit_particle_mass_squared_unit_cloud_mass": {
+      "infinity": 0,
+      "horizon": 0
+    },
+    "complete": false
+  },
+  "updated_utc": "2026-09-25T10:21:47.719937+00:00",
+  "active_metric_abs_m": 1
+}

@@ -1,0 +1,563 @@
+{
+  "status": "completed_fresh_dipole_horizon_cutoff",
+  "baseline": "docs/environment_reproduction/forced_mode_nr8_nt18_L18_alpha0.3_rp41.6_mg1_sl2_gh0.0001_go32000_coulomb_inner0.0005_outer320_log_h32.json",
+  "baseline_sha256": "871494771adf9d4ffe9e7b2424e18dc30da413ce86c4467f94e2ea8d4e9c031e",
+  "baseline_z_h": [
+    0.01892873950667331,
+    0.00518527852509145
+  ],
+  "baseline_flux": -2.478774172051498e-06,
+  "parameters": {
+    "a": 0.8771530275949366,
+    "rp": 41.6,
+    "alpha": 0.3,
+    "omega": 0.3000081092740418,
+    "scalar_ell": 2,
+    "scalar_m": 2,
+    "metric_m": 1,
+    "cloud_rmin": 1.4802119600800843,
+    "scalar_green_rmin": 1.4802110600800844,
+    "trace_kappa_rmin": 1.4802110600800844,
+    "offset": 1e-07,
+    "rtol": 1e-12,
+    "angular_order": 18,
+    "jet_dtype": "<class 'numpy.clongdouble'>"
+  },
+  "baseline_extended_green_reintegration_relative": 2.582154515454317e-09,
+  "original_safe_cutoff_state": [
+    [
+      [
+        0.019284786451303177,
+        -0.004869565049472989
+      ],
+      [
+        8.760042895392106,
+        34.774486670297655
+      ]
+    ],
+    [
+      [
+        -0.0003697432666231419,
+        -0.00029325948585098946
+      ],
+      [
+        0.5291098862076281,
+        -0.6663281898378159
+      ]
+    ]
+  ],
+  "original_safe_cutoff_boundary_by_sector": [
+    [
+      -0.019098663023667323,
+      -0.005638384256387713
+    ],
+    [
+      0.00016902095223718093,
+      0.0004412129867870185
+    ]
+  ],
+  "formula": "delta Z_H(old->new)=sum_s[B_s(old)-B_s(new)], B_s=Delta*(Rup*f_sprime-Rupprime*f_s)/W. Orbit terms cancel because only inner cutoff moves.",
+  "implementation_sha256": {
+    "environment_cloud": "13f9628f4513c00022ce7ebe69fc3d74db19a8e9fb610ece93ef9095866c8549",
+    "environment_radial": "b392c3ffdbc0ed022441e050a8c25b641533ed65630d6dff8e81d26cdaf28b5a",
+    "environment_source": "f8ed45cc7200b9738fa3406d0b8a03552f4847340cabdc92eec97b219c4cebb2",
+    "lorenz_chi": "7cd9321f8abe514b6649d54f9c9bc1258753f2e506573288b427fd7c01eb73b9",
+    "lorenz_corrector": "e97fba97ec3cc61fb3e9e990de2e5ddf14da6595bec9f52b3e2fc12da2c11632",
+    "lorenz_ghp": "598f52a92d2ba3c2b9edc51d8c08240a128a8ba714fb379578dbaff63b87a2fc",
+    "lorenz_jet": "8a68ebf0c27ba0a444f07851a6a5eb03623ff328e920a91f3824c332c635af65",
+    "lorenz_kappa": "1a7a906260ac790b2c1c170cca277cb0e9c77b8b54cc5330e1660d3588b4b8e1",
+    "lorenz_metric": "e356a13729114412ffba238807ca1b4b612fc64c78c4a920a101e05baf02e91b",
+    "lorenz_mode_jet": "e8fe89e3a0d13f89ffbf4666fee552d8df3678f8c09f5866c456d9e9c68a6ccc",
+    "lorenz_spin1": "baf3b91c7ce4d316d75394288cbc218279b21be435ce9c696601f3fe39bafe98",
+    "lorenz_spin1_chiral": "e0c14b1f38f01d2f468c5fa439f527dd3b84b819b05e679334d390da2c581449",
+    "lorenz_tensor": "03bd09d77eb50a087cf20dfd9ddf04fb9514efe2311fff1b3a57c4b423551070",
+    "lorenz_weyl": "85668a281b4f351b57cce1a9ac56ddc4e07119918545e24685643f7195f012fd",
+    "report_field_horizon_cutoff": "bbfb15d3df5b640d22d1797e20a75b686b22093892439fbd62fc3e1b60a3ade2",
+    "source_provenance": "bd857ee008868fc3dbd880b276cd59acf025a38e13326674981d80fa3377a1b9"
+  },
+  "rows": [
+    {
+      "offset": 0.0005,
+      "r": 1.4807109600800843,
+      "state_by_spin0_spin1": [
+        [
+          [
+            0.019284783869003966,
+            -0.004869560115549623
+          ],
+          [
+            8.760059853516681,
+            34.774454343938864
+          ]
+        ],
+        [
+          [
+            -0.00036974326662314133,
+            -0.00029325948585098816
+          ],
+          [
+            0.529109886207643,
+            -0.6663281898377962
+          ]
+        ]
+      ],
+      "boundary_by_spin0_spin1": [
+        [
+          -0.019098648205521134,
+          -0.005638369369163102
+        ],
+        [
+          0.00016902095223716865,
+          0.00044121298678702293
+        ]
+      ],
+      "delta_Z_by_spin0_spin1": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "delta_Z": [
+        0.0,
+        0.0
+      ],
+      "corrected_full_baseline_Z": [
+        0.01892873950667331,
+        0.00518527852509145
+      ],
+      "corrected_full_baseline_flux": -2.4787741720514985e-06,
+      "relative_flux_change": 2.220446049250313e-16,
+      "relative_amplitude_correction": 0.0
+    },
+    {
+      "offset": 0.00025,
+      "r": 1.4804609600800844,
+      "state_by_spin0_spin1": [
+        [
+          [
+            0.012794418756147573,
+            -0.015235435032563893
+          ],
+          [
+            54.93598196054396,
+            46.16042645574409
+          ]
+        ],
+        [
+          [
+            -0.00047155246341837407,
+            -2.1526908206550994e-05
+          ],
+          [
+            0.07812232476701929,
+            -1.700700927932058
+          ]
+        ]
+      ],
+      "boundary_by_spin0_spin1": [
+        [
+          -0.019098260494566133,
+          -0.005598035788472865
+        ],
+        [
+          0.00016977731482236717,
+          0.00044062557580810307
+        ]
+      ],
+      "delta_Z_by_spin0_spin1": [
+        [
+          -3.877109550015574e-07,
+          -4.033358069023756e-05
+        ],
+        [
+          -7.563625851985324e-07,
+          5.874109789198462e-07
+        ]
+      ],
+      "delta_Z": [
+        -1.1440735402000899e-06,
+        -3.974616971131772e-05
+      ],
+      "corrected_full_baseline_Z": [
+        0.01892759543313311,
+        0.005145532355380132
+      ],
+      "corrected_full_baseline_flux": -2.475853059573579e-06,
+      "relative_flux_change": -0.0011784504255591965,
+      "relative_amplitude_correction": 0.002026006528310954
+    },
+    {
+      "offset": 5e-05,
+      "r": 1.4802609600800845,
+      "state_by_spin0_spin1": [
+        [
+          [
+            -0.013604618662370331,
+            -0.0145220878414567
+          ],
+          [
+            261.93767435928606,
+            -245.36097701403526
+          ]
+        ],
+        [
+          [
+            -7.759475319771926e-05,
+            0.00046572029747971494
+          ],
+          [
+            -8.399758616222782,
+            -1.399993360035543
+          ]
+        ]
+      ],
+      "boundary_by_spin0_spin1": [
+        [
+          -0.019096287481050328,
+          -0.005589833167914443
+        ],
+        [
+          0.0001699038932938821,
+          0.00044047033269682836
+        ]
+      ],
+      "delta_Z_by_spin0_spin1": [
+        [
+          -2.3607244708063196e-06,
+          -4.8536201248658164e-05
+        ],
+        [
+          -8.829410567134408e-07,
+          7.426540901945983e-07
+        ]
+      ],
+      "delta_Z": [
+        -3.2436655275197605e-06,
+        -4.7793547158463565e-05
+      ],
+      "corrected_full_baseline_Z": [
+        0.018925495841145792,
+        0.005137484977932987
+      ],
+      "corrected_full_baseline_flux": -2.4748090787579417e-06,
+      "relative_flux_change": -0.0015996186091752351,
+      "relative_amplitude_correction": 0.0024408038850156273
+    },
+    {
+      "offset": 2.5e-05,
+      "r": 1.4802359600800843,
+      "state_by_spin0_spin1": [
+        [
+          [
+            -0.019530541056300067,
+            -0.0038150979209942764
+          ],
+          [
+            137.6424111479059,
+            -704.524744825507
+          ]
+        ],
+        [
+          [
+            0.00020961087284840227,
+            0.0004230733148772912
+          ],
+          [
+            -15.26182656187133,
+            7.560904167967681
+          ]
+        ]
+      ],
+      "boundary_by_spin0_spin1": [
+        [
+          -0.01909960350048032,
+          -0.005587786050725005
+        ],
+        [
+          0.0001699902696050248,
+          0.0004405035510852899
+        ]
+      ],
+      "delta_Z_by_spin0_spin1": [
+        [
+          9.55294959185889e-07,
+          -5.058331843809684e-05
+        ],
+        [
+          -9.69317367856144e-07,
+          7.09435701733065e-07
+        ]
+      ],
+      "delta_Z": [
+        -1.4022408670254977e-08,
+        -4.987388273636378e-05
+      ],
+      "corrected_full_baseline_Z": [
+        0.01892872548426464,
+        0.005135404642355086
+      ],
+      "corrected_full_baseline_flux": -2.4754583006120323e-06,
+      "relative_flux_change": -0.0013377061439693305,
+      "relative_amplitude_correction": 0.0025412003856482776
+    },
+    {
+      "offset": 5e-06,
+      "r": 1.4802159600800844,
+      "state_by_spin0_spin1": [
+        [
+          [
+            -0.006113353273439938,
+            0.01893777073845314
+          ],
+          [
+            -3415.785145206893,
+            -1102.6796708940851
+          ]
+        ],
+        [
+          [
+            0.0004450291488964247,
+            -0.00015775284005589135
+          ],
+          [
+            28.453318237359696,
+            80.26972407672515
+          ]
+        ]
+      ],
+      "boundary_by_spin0_spin1": [
+        [
+          -0.019100304763487758,
+          -0.005584728727486915
+        ],
+        [
+          0.0001700583455123221,
+          0.00044047277401365815
+        ]
+      ],
+      "delta_Z_by_spin0_spin1": [
+        [
+          1.656557966625542e-06,
+          -5.364064167618657e-05
+        ],
+        [
+          -1.037393275153461e-06,
+          7.402127733647756e-07
+        ]
+      ],
+      "delta_Z": [
+        6.19164691472081e-07,
+        -5.290042890282179e-05
+      ],
+      "corrected_full_baseline_Z": [
+        0.018929358671364784,
+        0.005132378096188628
+      ],
+      "corrected_full_baseline_flux": -2.475412579984844e-06,
+      "relative_flux_change": -0.0013561509977618735,
+      "relative_amplitude_correction": 0.002695595074121636
+    },
+    {
+      "offset": 2.5e-06,
+      "r": 1.4802134600800843,
+      "state_by_spin0_spin1": [
+        [
+          [
+            0.00612488664193122,
+            0.01893410364355989
+          ],
+          [
+            -6830.278373100694,
+            2209.4593005515057
+          ]
+        ],
+        [
+          [
+            0.00026855828924595104,
+            -0.0003883485222633128
+          ],
+          [
+            140.09268637142475,
+            96.88026054430895
+          ]
+        ]
+      ],
+      "boundary_by_spin0_spin1": [
+        [
+          -0.019100289976233812,
+          -0.005584702571125778
+        ],
+        [
+          0.0001700584047815419,
+          0.0004404724047039576
+        ]
+      ],
+      "delta_Z_by_spin0_spin1": [
+        [
+          1.6417707126784968e-06,
+          -5.3666798037323525e-05
+        ],
+        [
+          -1.037452544373257e-06,
+          7.405820830653659e-07
+        ]
+      ],
+      "delta_Z": [
+        6.0431816830524e-07,
+        -5.292621595425816e-05
+      ],
+      "corrected_full_baseline_Z": [
+        0.018929343824841616,
+        0.005132352309137192
+      ],
+      "corrected_full_baseline_flux": -2.4754072594946103e-06,
+      "relative_flux_change": -0.0013582974176712392,
+      "relative_amplitude_correction": 0.0026969001566141833
+    },
+    {
+      "offset": 1.2e-06,
+      "r": 1.4802121600800844,
+      "state_by_spin0_spin1": [
+        [
+          [
+            0.01646903705462343,
+            0.01117080800302781
+          ],
+          [
+            -8395.332900593401,
+            12377.112976120634
+          ]
+        ],
+        [
+          [
+            -2.6854335865410564e-05,
+            -0.00047139991102661976
+          ],
+          [
+            354.2825477993935,
+            -20.182305490779388
+          ]
+        ]
+      ],
+      "boundary_by_spin0_spin1": [
+        [
+          -0.019100420823258687,
+          -0.005584682738335695
+        ],
+        [
+          0.00017006090518746836,
+          0.0004404811940136683
+        ]
+      ],
+      "delta_Z_by_spin0_spin1": [
+        [
+          1.772617737554854e-06,
+          -5.3686630827406724e-05
+        ],
+        [
+          -1.0399529502997205e-06,
+          7.317927733546204e-07
+        ]
+      ],
+      "delta_Z": [
+        7.326647872551336e-07,
+        -5.295483805405211e-05
+      ],
+      "corrected_full_baseline_Z": [
+        0.018929472171460567,
+        0.005132323687037398
+      ],
+      "corrected_full_baseline_flux": -2.475436638249232e-06,
+      "relative_flux_change": -0.0013464452873106492,
+      "relative_amplitude_correction": 0.002698440977671438
+    }
+  ],
+  "limitations": [
+    "Stored baseline is historical and not relabelled as freshly sampled; fresh current-code dipole only; fullL18 baseline corrected by this dipole shell contribution, not an all-ell source extension.",
+    "Current cloud normalization unchanged; lowest radius remains above cloud integration start.",
+    "Gauge identity is valid within inner vacuum region; no orbit distribution is added.",
+    "Trace/kappa and massive scalar domains explicitly extended; no extrapolation below their starting radius."
+  ],
+  "old_vs_extended_safe_cutoff_B_difference": [
+    [
+      1.4818146189551383e-08,
+      1.4887224610765691e-08
+    ],
+    [
+      -1.2275929390548367e-17,
+      4.464260678724188e-18
+    ]
+  ],
+  "frobenius_gamma": -0.9018489208625566,
+  "fits": [
+    {
+      "degree": 1,
+      "sample_count": 5,
+      "rank": 3,
+      "condition": 6.984404110651633,
+      "residual_max": 3.5770919837138274e-09,
+      "horizon_B": [
+        -0.0189304407228772,
+        -0.005144059791865045
+      ],
+      "estimated_total_omitted_Z": [
+        8.134695932341123e-07,
+        -5.309659051103375e-05
+      ],
+      "relative_flux_change": -0.0013422805996002873
+    },
+    {
+      "degree": 1,
+      "sample_count": 7,
+      "rank": 3,
+      "condition": 7.484031006468862,
+      "residual_max": 5.089382653396571e-09,
+      "horizon_B": [
+        -0.018930440060637512,
+        -0.005144061313210252
+      ],
+      "estimated_total_omitted_Z": [
+        8.128073535474128e-07,
+        -5.309506916582682e-05
+      ],
+      "relative_flux_change": -0.00134230514930056
+    },
+    {
+      "degree": 2,
+      "sample_count": 5,
+      "rank": 5,
+      "condition": 576.594209137352,
+      "residual_max": 1.0551910960100404e-17,
+      "horizon_B": [
+        -0.018930435878329877,
+        -0.00514405106910957
+      ],
+      "estimated_total_omitted_Z": [
+        8.086250459117821e-07,
+        -5.3105313266509135e-05
+      ],
+      "relative_flux_change": -0.0013429892049927616
+    },
+    {
+      "degree": 2,
+      "sample_count": 7,
+      "rank": 5,
+      "condition": 278.677097918641,
+      "residual_max": 3.4469774938700656e-09,
+      "horizon_B": [
+        -0.01893044069696161,
+        -0.005144059656182753
+      ],
+      "estimated_total_omitted_Z": [
+        8.134436776449932e-07,
+        -5.309672619332554e-05
+      ],
+      "relative_flux_change": -0.0013422867624512946
+    }
+  ],
+  "elapsed_seconds": 31.84958609200112
+}

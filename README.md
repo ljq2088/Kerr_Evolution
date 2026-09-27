@@ -1,4 +1,13 @@
-# Kerr 双曲切片演化：s=-2 与 s=0 参考
+# Kerr 演化与 EMRI 标量云环境效应
+
+当前工作分支为 `codex/reproduce-kerr-environment`。新增频域 Kerr 标量云扰动、Lorenz 度规重构、Li 通量对齐和 Dyson FIG.1 场图复现；原有双曲切片演化保留在下文。
+
+**2026-09-27 状态：** r0=20M 的18模通量已完成，与 Li 图中无穷远/视界结果相差约0.19%/3.22%；FIG.1 的88模后台计算尚未结束，本次仅发布70模冻结快照。不会将部分场误标为完整复现。
+
+[项目状态、代码说明与复现入口](docs/PROJECT_STATUS_20260927.md) · [更新日志](CHANGELOG.md) · [统一约定](docs/li_alignment/CONVENTIONS_ZH.md) · [FIG.1 快照清单](docs/figure1_alignment_20260926/snapshot_20260927.json)
+
+## 原双曲切片演化：s=-2 与 s=0 参考
+
 
 现已导入与 [IndigoJX 参考仓库](https://github.com/IndigoJX/ParticleSourceEvolutionInHyperboloidalCompactCoord/tree/13fc2b485f76b1284c2e17879ede9075de062a9d) 固定提交一致的 **s=-2 点粒子 Teukolsky 演化器**：轨迹、四块源项、七点空间离散、RK4、零无穷波形提取与 checkpoint/restart。导入文件保持原样，见 [对齐说明](docs/upstream_alignment.md) 和 [逐文件校验清单](docs/upstream_manifest.json)。
 

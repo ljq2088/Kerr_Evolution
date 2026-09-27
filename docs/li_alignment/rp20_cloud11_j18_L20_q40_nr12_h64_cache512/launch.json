@@ -1,0 +1,17 @@
+{
+  "pid": 276373,
+  "command": [
+    "/home/ljq/code/kerr-hyperboloidal/.venv/bin/python",
+    "-u",
+    "src/report_li_aligned_flux.py",
+    "--orbit",
+    "20",
+    "--cloud-ell",
+    "1",
+    "--workers",
+    "4",
+    "--output",
+    "/home/ljq/code/kerr-hyperboloidal/docs/li_alignment/rp20_cloud11_j18_L20_q40_nr12_h64_cache512"
+  ],
+  "resumed_after_shutdown": true
+}

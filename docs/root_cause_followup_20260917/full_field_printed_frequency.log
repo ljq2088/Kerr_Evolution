@@ -1,0 +1,6 @@
+{'orbit': 41.1, 'selection': 'all', 'radius': 50.0, 'rms_ratio': 1.057902439474009, 'normalized_amplitude_rms_difference': 0.15795341884690306, 'inside_color_interval_fraction': 0.2222222222222222}
+{'orbit': 41.1, 'selection': 'all', 'radius': 100.0, 'rms_ratio': 1.0461190577220016, 'normalized_amplitude_rms_difference': 0.05775390273432117, 'inside_color_interval_fraction': 0.5833333333333334}
+{'orbit': 41.1, 'selection': 'all', 'radius': 150.0, 'rms_ratio': 1.1247987083958702, 'normalized_amplitude_rms_difference': 0.13900733845710275, 'inside_color_interval_fraction': 0.19444444444444445}
+{'orbit': 42.1, 'selection': 'all', 'radius': 50.0, 'rms_ratio': 0.623201660022225, 'normalized_amplitude_rms_difference': 0.48481654832489923, 'inside_color_interval_fraction': 0.0}
+{'orbit': 42.1, 'selection': 'all', 'radius': 100.0, 'rms_ratio': 1.126728086131887, 'normalized_amplitude_rms_difference': 0.13192167584438794, 'inside_color_interval_fraction': 0.013888888888888888}
+{'orbit': 42.1, 'selection': 'all', 'radius': 150.0, 'rms_ratio': 0.6396643517924364, 'normalized_amplitude_rms_difference': 0.44673917756113546, 'inside_color_interval_fraction': 0.18055555555555555}

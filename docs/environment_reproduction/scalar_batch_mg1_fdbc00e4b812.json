@@ -1,0 +1,87 @@
+{
+  "status": "batch_completed_finite_resolution_not_converged",
+  "parameters": {
+    "alpha": 0.3,
+    "background": "threshold-kerr",
+    "orbital_radius": 20.0,
+    "green_horizon_offset": 0.0001,
+    "green_outer_radius": 1000.0,
+    "infinity_method": "series",
+    "radial_order": 8,
+    "angular_order": 18,
+    "metric_ellmax": 1,
+    "metric_m": 1,
+    "scalar_ell": null,
+    "static_matching": null,
+    "source_inner_offset": 0.0005,
+    "source_outer_radius": 320.0,
+    "horizon_log": true,
+    "horizon_order": 32,
+    "reuse_source": null,
+    "extend_metric_source": null,
+    "scalar_ells": [
+      2
+    ],
+    "conjugate_ells": [
+      0
+    ]
+  },
+  "channels": [
+    {
+      "scalar_ell": 2,
+      "scalar_m": 2,
+      "file": "forced_mode_nr8_nt18_L1_mg1_sl2_inner0.0005_outer320_log_h32.json",
+      "metric_m": 1,
+      "metric_conjugated": false,
+      "metric_cache_hits": 1584,
+      "metric_reconstructions": 0,
+      "elapsed_seconds": 1.2428608469781466,
+      "flux": {
+        "infinity": {
+          "charge": 0.00017823059803079088,
+          "wave_energy": 5.478184937882927e-05,
+          "orbital_energy": 1.9733265097964377e-06,
+          "orbital_angular_momentum": 0.00017823059803079088
+        },
+        "horizon": {
+          "charge": -0.0001344556138875094,
+          "wave_energy": -4.132695098094813e-05,
+          "orbital_energy": -1.4886603658780248e-06,
+          "orbital_angular_momentum": -0.0001344556138875094
+        }
+      }
+    },
+    {
+      "scalar_ell": 0,
+      "scalar_m": 0,
+      "file": "forced_mode_nr8_nt18_L1_mg-1_sl0_inner0.0005_outer320_log_h32.json",
+      "metric_m": -1,
+      "metric_conjugated": true,
+      "metric_cache_hits": 1584,
+      "metric_reconstructions": 0,
+      "elapsed_seconds": 1.2292854429979343,
+      "flux": {
+        "infinity": {
+          "charge": 0.0,
+          "wave_energy": 0.0,
+          "orbital_energy": -0.0,
+          "orbital_angular_momentum": -0.0
+        },
+        "horizon": {
+          "charge": 0.006146832591172304,
+          "wave_energy": 0.0017532087375121477,
+          "orbital_energy": -6.805625878753728e-05,
+          "orbital_angular_momentum": -0.006146832591172304
+        }
+      }
+    }
+  ],
+  "metric_precomputation": {
+    "workers": 4,
+    "cached_radii": 0,
+    "reconstructed_radii": 88,
+    "elapsed_seconds": 65.23992103800992,
+    "cache_key": "0b7be31d3cd3518dbf439ef9",
+    "source_hash": "8e36758457feebbd4d4c08d88de31d41d0b9a55438a65ffc7c73cf25d5f7aea6"
+  }
+}

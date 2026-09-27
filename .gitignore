@@ -8,3 +8,9 @@ reference/*fulltext.txt
 .pytest_cache/
 data/kerr_point_particle_evolution/initial_data/
 data/kerr_point_particle_evolution/runs/
+
+# Live process state is local; publish timestamped snapshots instead.
+docs/figure1_alignment_20260926/execution.json
+docs/figure1_alignment_20260926/launch.json
+docs/figure1_alignment_20260926/run.log
+docs/figure1_alignment_20260926/static_matching.log

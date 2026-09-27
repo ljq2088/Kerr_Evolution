@@ -1,0 +1,18 @@
+41.1 ell 1 completed
+41.1 ell 2 completed
+41.1 ell 3 completed
+41.1 ell 4 completed
+41.1 ell 5 completed
+41.1 ell 6 completed
+41.1 ell 7 completed
+41.1 ell 8 completed
+SUMMARY 41.1 {"metric_ellmax": 8, "contact_source": [8.178339166912114e-10, -2.1855870320479246e-09], "linear_extrapolated_contact": [8.09497268683324e-10, -2.185587020918701e-09], "delta_ZH": [-2.0733806053887842e-15, -3.003959942200262e-14], "relative_delta_ZH": 1.5538166998474698e-12, "delta_ZI": [-1.9712349333830375e-10, -2.6611327156167497e-09], "relative_delta_ZI": 5.121245516195082e-09, "r": [20.0, 50.0, 100.0, 150.0, 180.0], "relative_complex_field_correction": [[-1.2134113653674004e-09, 7.90849568051222e-10], [-1.7345644209691927e-09, 4.909861075033171e-09], [-1.7709172153407033e-09, 4.7742047745625635e-09], [-1.797587771732607e-09, 4.79305635924829e-09], [-1.7960231639331617e-09, 4.796350675278879e-09]], "relative_field_correction_modulus": [1.448381918172684e-09, 5.207249706574294e-09, 5.092070208966688e-09, 5.119053727009814e-09, 5.121589499914323e-09], "bulk_lorenz_source_projection": [[8.60552074996059e-12, -9.611536819816265e-11], [-4.3055559290291417e-11, -1.4295182635499355e-11]], "interpretation": "Diagnostic omitted Lorenz contact; not added to physical response. Exact Lorenz matching should make it zero."}
+42.1 ell 1 completed
+42.1 ell 2 completed
+42.1 ell 3 completed
+42.1 ell 4 completed
+42.1 ell 5 completed
+42.1 ell 6 completed
+42.1 ell 7 completed
+42.1 ell 8 completed
+SUMMARY 42.1 {"metric_ellmax": 8, "contact_source": [-5.951511464790791e-10, -1.7328205698723671e-09], "linear_extrapolated_contact": [-6.032285202970138e-10, -1.7328205591646494e-09], "delta_ZH": [-9.162707563415751e-15, 2.3769817044404135e-16], "relative_delta_ZH": 4.611030101483262e-13, "delta_ZI": [-8.286769519205975e-69, -2.412745829369215e-68], "relative_delta_ZI": null, "r": [20.0, 50.0, 100.0, 150.0, 180.0], "relative_complex_field_correction": [[1.4824135782757114e-10, 4.4306168479675813e-10], [1.048431501787413e-09, 4.839130906465962e-09], [1.2419514760765484e-09, 3.587097714825501e-09], [1.236788288805815e-09, 3.620044751611195e-09], [1.2393925048214821e-09, 3.6103814240506474e-09]], "relative_field_correction_modulus": [4.672035495429201e-10, 4.951403492329654e-09, 3.796012840420202e-09, 3.825489416400858e-09, 3.817191088763785e-09], "bulk_lorenz_source_projection": [[2.128905691864249e-12, 5.565564321295934e-11], [3.575956366188603e-11, -4.820399337242447e-11]], "interpretation": "Diagnostic omitted Lorenz contact; not added to physical response. Exact Lorenz matching should make it zero."}
