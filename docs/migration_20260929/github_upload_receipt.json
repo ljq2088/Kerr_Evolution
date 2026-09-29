@@ -1,0 +1,43 @@
+{
+  "tag": "migration-2026-09-29",
+  "assets": [
+    {
+      "name": "assets.json",
+      "size": 1949,
+      "digest": "sha256:ff8e985a6a27532fbec73b194e838ef90c9317faac6d566311a25365037c89db",
+      "browser_download_url": "https://github.com/ljq2088/Kerr_Evolution/releases/download/untagged-381e5d9f6eea0f77fe1f/assets.json"
+    },
+    {
+      "name": "kerr-project-state-20260929.tar.gz",
+      "size": 539691510,
+      "digest": "sha256:5f71741b0c0f08055f0abc48a41e1020b94982981fd12f0eafdf4dfca13712f0",
+      "browser_download_url": "https://github.com/ljq2088/Kerr_Evolution/releases/download/untagged-381e5d9f6eea0f77fe1f/kerr-project-state-20260929.tar.gz"
+    },
+    {
+      "name": "kerr-workspace-reports-20260929.tar.gz",
+      "size": 242893787,
+      "digest": "sha256:3247e43747215977b489ac3ed7600bc64935dec9952e356d61d96cdb150c7ce0",
+      "browser_download_url": "https://github.com/ljq2088/Kerr_Evolution/releases/download/untagged-381e5d9f6eea0f77fe1f/kerr-workspace-reports-20260929.tar.gz"
+    },
+    {
+      "name": "SHA256SUMS",
+      "size": 206,
+      "digest": "sha256:3b71b7a99084bdaa3a7e2321d2969ba4631081cc2716e8c6be7a95c53ab4476e",
+      "browser_download_url": "https://github.com/ljq2088/Kerr_Evolution/releases/download/untagged-381e5d9f6eea0f77fe1f/SHA256SUMS"
+    }
+  ],
+  "verified_utc": "2026-09-29T11:25:28.1112875Z",
+  "draft": false,
+  "commit": "639213733d9a0da1351431df7e17cab4bdb4a75d",
+  "url": "https://github.com/ljq2088/Kerr_Evolution/releases/tag/migration-2026-09-29",
+  "local_validation": {
+    "targeted_tests_passed": 15,
+    "warnings": "14 Matplotlib/Pyparsing deprecations",
+    "project_archive_verified_files": 31468,
+    "workspace_archive_verified_files": 876,
+    "original_figure1_source_and_data_fingerprints_verified": 44,
+    "complete_figure1_modes_verified": 88,
+    "git_fsck": "passed",
+    "production_numerical_source_changed_by_migration": false
+  }
+}
