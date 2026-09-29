@@ -1,4 +1,7 @@
-# FIG.1 后台复现任务
+# FIG.1 场计算记录
+
+**2026-09-29 更新：88/88 已完成，尚未定量对齐。** 最终状态见 execution_completed_20260929.json；图和比较见 figure1_comparison.png/json。完整 figure1_fields.npz 位于迁移 Release。下文保留原启动方案，最新交接见 ../migration_20260929/HANDOFF_ZH.md。
+
 
 启动日期：2026-09-26。目标选择为 Dyson 原论文 arXiv:2501.09806v1 的 FIG.1：r_p=3.5M 的赤道面与子午面标量扰动幅度。使用此前 Li 通量对齐采用的精确 a=0.88、mu M=0.3、Leaver 偶极基态云与显式 BL 质量归一化，不把同步云 a≈0.877153 的旧数据改名复用。
 

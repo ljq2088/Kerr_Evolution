@@ -1,0 +1,6 @@
+{
+  "unicode_and_binary_roundtrip": "passed",
+  "environment_exclusion": "passed",
+  "idempotent_restore": "passed",
+  "conflicting_local_file_preserved": "passed"
+}

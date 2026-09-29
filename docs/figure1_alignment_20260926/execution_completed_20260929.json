@@ -1,0 +1,833 @@
+{
+  "status": "completed_finite_resolution_field_convergence_pending",
+  "pid": 365243,
+  "started_utc": "2026-09-26T01:13:46.256482+00:00",
+  "config": {
+    "target": "Dyson arXiv:2501.09806v1 Fig.1",
+    "orbit": 3.5,
+    "a": 0.88,
+    "mu": 0.3,
+    "cloud": {
+      "a": 0.88,
+      "mu": 0.3,
+      "ell_c": 1,
+      "m_c": 1,
+      "n_c": 0,
+      "spectral_omega": [
+        0.29629353472811226,
+        2.216612802247371e-09
+      ],
+      "temporal_omega": 0.29629353472811226,
+      "frequency_policy": "complex spatial Leaver profile; temporal frequency Re(omega_c)",
+      "radial_terms": 150,
+      "spectral_decimal_digits": 64,
+      "evaluation_precision": "complex128",
+      "mass_prescription": "finite BL t=0 Killing energy using frozen temporal frequency",
+      "mass_inner_offset": 1e-06,
+      "mass_outer": 2000.0,
+      "mass_points": 12001,
+      "raw_bl_mass": 795290.161413066,
+      "amplitude": 0.0011213396919410824,
+      "normalized_bl_mass": 1.0,
+      "author_horizon_prescription_verified": false
+    },
+    "scalar_lmin": 2,
+    "scalar_lmax": 12,
+    "expected_modes": [
+      [
+        2,
+        -2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        -3
+      ],
+      [
+        3,
+        -1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        -4
+      ],
+      [
+        4,
+        -2
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        -5
+      ],
+      [
+        5,
+        -3
+      ],
+      [
+        5,
+        -1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        -6
+      ],
+      [
+        6,
+        -4
+      ],
+      [
+        6,
+        -2
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        -7
+      ],
+      [
+        7,
+        -5
+      ],
+      [
+        7,
+        -3
+      ],
+      [
+        7,
+        -1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        7,
+        5
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        -8
+      ],
+      [
+        8,
+        -6
+      ],
+      [
+        8,
+        -4
+      ],
+      [
+        8,
+        -2
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        8,
+        6
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        -9
+      ],
+      [
+        9,
+        -7
+      ],
+      [
+        9,
+        -5
+      ],
+      [
+        9,
+        -3
+      ],
+      [
+        9,
+        -1
+      ],
+      [
+        9,
+        1
+      ],
+      [
+        9,
+        3
+      ],
+      [
+        9,
+        5
+      ],
+      [
+        9,
+        7
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        -10
+      ],
+      [
+        10,
+        -8
+      ],
+      [
+        10,
+        -6
+      ],
+      [
+        10,
+        -4
+      ],
+      [
+        10,
+        -2
+      ],
+      [
+        10,
+        0
+      ],
+      [
+        10,
+        2
+      ],
+      [
+        10,
+        4
+      ],
+      [
+        10,
+        6
+      ],
+      [
+        10,
+        8
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        11,
+        -11
+      ],
+      [
+        11,
+        -9
+      ],
+      [
+        11,
+        -7
+      ],
+      [
+        11,
+        -5
+      ],
+      [
+        11,
+        -3
+      ],
+      [
+        11,
+        -1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        11,
+        3
+      ],
+      [
+        11,
+        5
+      ],
+      [
+        11,
+        7
+      ],
+      [
+        11,
+        9
+      ],
+      [
+        11,
+        11
+      ],
+      [
+        12,
+        -12
+      ],
+      [
+        12,
+        -10
+      ],
+      [
+        12,
+        -8
+      ],
+      [
+        12,
+        -6
+      ],
+      [
+        12,
+        -4
+      ],
+      [
+        12,
+        -2
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        12,
+        2
+      ],
+      [
+        12,
+        4
+      ],
+      [
+        12,
+        6
+      ],
+      [
+        12,
+        8
+      ],
+      [
+        12,
+        10
+      ],
+      [
+        12,
+        12
+      ]
+    ],
+    "metric_input_L": 20,
+    "metric_output_j": 18,
+    "metric_q": 40,
+    "source_q": 64,
+    "pmax": 12,
+    "radial_order": 24,
+    "horizon_order": 64,
+    "source_outer": 320.0,
+    "source_inner_offset": 0.0005,
+    "static_completion": "berndtson",
+    "field_scale": "unit cloud mass amplitude / alpha^3",
+    "positive_negative_static_and_bound_modes": true,
+    "coordinate_map": "BL-label x=r sin(theta)cos(phi),y=r sin(theta)sin(phi),z=r cos(theta); paper map unverified",
+    "time": 0,
+    "amplitude_or_phase_fitted": false
+  },
+  "implementation_sha256": {
+    "environment_angular_diagnostic": "74c1ae7536df0ef1b6193c81a38f289b18c5dfc7371490e9fd1c3257da559307",
+    "environment_cloud": "13f9628f4513c00022ce7ebe69fc3d74db19a8e9fb610ece93ef9095866c8549",
+    "environment_dense_metric": "ac75cb4ceef5706d2330519077b2e87770a446f5d7bea171a1036809c7c69fd1",
+    "environment_kerr_quasibound_cloud": "3403dbf846cf630f6668fa2ed698272a37c687124a3d193d68b155b43816458b",
+    "environment_lorenz_mode": "79ca9a4a27c608381291808f3200b752b99495be853d96b8cea0f39bcb5802b6",
+    "environment_metric_sampling": "5a8cb8598093c1ce97825ac03e7af76a7413e9ae719a0e6d85c64685c3fc3e47",
+    "environment_radial": "b392c3ffdbc0ed022441e050a8c25b641533ed65630d6dff8e81d26cdaf28b5a",
+    "environment_response": "c7a9592a6d93fa023461b77f1ac57774232e1017c240d6c3bc9bf9cdfefc230c",
+    "environment_schwarzschild_cloud": "0658e39d28ecade112d9dc34d06510f15252a79d58901a5111a9edb1c8e051ab",
+    "environment_source": "f8ed45cc7200b9738fa3406d0b8a03552f4847340cabdc92eec97b219c4cebb2",
+    "environment_static_lorenz": "8992980ee355b554aec123492c46d90b5456441bd080e01cd851ba38b5cf0f23",
+    "environment_wake": "8e68652fadf84d356cd42b1125abb93413601fe11c35bafba8ff73ba14d5c546",
+    "li_field_green": "fd7bd5742226fcb9eafe78438da70d263265a44f6b8f423c76e19cfc82098eec",
+    "li_leaver_cloud": "1b23b78b0e3c3aba21d1e720fd4d05cfde953e40bfe2905197e6e42600ecb3e8",
+    "li_normalized_cloud": "e20b4ff2b4f6544ce1134a5bbe6e4d1270fa7f3fd5a1f2d959adfc55fef22ffc",
+    "li_order4_green": "e4ea48b332eb952622f84e7e5e3e1b377d0ef45b94d4665a1ed825851436e7da",
+    "li_separable_factors": "e8a65b5621214e0475268f47d3f422318608be92fdc55fc4df50474058918aaf",
+    "li_separated_source": "80543e698de64d3015742164b23a973a10a85ad95f9f83a4a35ddf16c9318a40",
+    "lorenz_chi": "7cd9321f8abe514b6649d54f9c9bc1258753f2e506573288b427fd7c01eb73b9",
+    "lorenz_completion": "d52793acdaca007300885b9f194eb403f16ef7abe53d9c91f652f3df8952e78d",
+    "lorenz_corrector": "e97fba97ec3cc61fb3e9e990de2e5ddf14da6595bec9f52b3e2fc12da2c11632",
+    "lorenz_ghp": "598f52a92d2ba3c2b9edc51d8c08240a128a8ba714fb379578dbaff63b87a2fc",
+    "lorenz_jet": "8a68ebf0c27ba0a444f07851a6a5eb03623ff328e920a91f3824c332c635af65",
+    "lorenz_kappa": "616413913f08d12b19bdea8104bcc93bb02d6bab6db19297405bbbc886d1a89f",
+    "lorenz_metric": "e356a13729114412ffba238807ca1b4b612fc64c78c4a920a101e05baf02e91b",
+    "lorenz_mode_jet": "e8fe89e3a0d13f89ffbf4666fee552d8df3678f8c09f5866c456d9e9c68a6ccc",
+    "lorenz_spin1": "baf3b91c7ce4d316d75394288cbc218279b21be435ce9c696601f3fe39bafe98",
+    "lorenz_spin1_chiral": "e0c14b1f38f01d2f468c5fa439f527dd3b84b819b05e679334d390da2c581449",
+    "lorenz_static_boundary": "2f47b8eb76ef4ce43ce7547afc7504d9f37d3beaeb7f0cca1ddad61e377ac27c",
+    "lorenz_static_gauge": "d935c10ebf946bce11ff7479c94a985bbf12f3d85cba2cae7e71644474e8a5e4",
+    "lorenz_static_spin2": "dd1eaf5d2d6d2307abe723e543c64abd31ad644c6f64c7f6ec5b7b8602d6914d",
+    "lorenz_static_trace": "e2f622c099c119976380f4a9f8c6cad99b3f52ab7b3ed73c4cc920916b2be2ac",
+    "lorenz_tensor": "03bd09d77eb50a087cf20dfd9ddf04fb9514efe2311fff1b3a57c4b423551070",
+    "lorenz_weyl": "85668a281b4f351b57cce1a9ac56ddc4e07119918545e24685643f7195f012fd",
+    "paper_full_tetrad": "d7bb54106bfd00b00bcae641b4d823b10b80b1acf1efcc1d6889206b12baf697",
+    "paper_jump_basis": "672be1fdc4be0bd94bcd730b37a47930bce470f13c17f9827a3dac6c1e9f4545",
+    "render_figure1_background": "55875b9028b7d5d5933b5f01acc244506a73851444ff626a9b1ff3c9cb75d6c0",
+    "report_environment_forced_mode": "e63288f386449beb1760f08d9eba721036123ff1c6acb736fe4abe40de6d0cc1",
+    "report_figure1_background": "9c9ae8e7b92df14263c0afc84b74768a0158ca1f8a5fbabffcc4c28176c43e0c",
+    "report_li_aligned_flux": "df04f8d69e80bb76e57018d4691cf4a5d25101b56f248bb5d6fdb3f4cbdadd6a",
+    "report_li_order4_boundary_control": "52eadf30c91093e721bd71856b7b56706a9912014ea903930ef9137b557ae17a",
+    "report_li_scalar22_outer_boundary_control": "af36678519d8ccaff4a1764aeb6846e044fe25a064f4cb3140622375c5ac830c",
+    "source_provenance": "bd857ee008868fc3dbd880b276cd59acf025a38e13326674981d80fa3377a1b9",
+    "li_source_terms.json": "e44972d313159fab9fc77f668fb09db1b2f730d2d7054329f598dd02cd37a703"
+  },
+  "completed_modes": [
+    [
+      3,
+      1
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      9,
+      1
+    ],
+    [
+      11,
+      1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      8,
+      0
+    ],
+    [
+      10,
+      0
+    ],
+    [
+      12,
+      0
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      8,
+      2
+    ],
+    [
+      10,
+      2
+    ],
+    [
+      12,
+      2
+    ],
+    [
+      3,
+      -1
+    ],
+    [
+      5,
+      -1
+    ],
+    [
+      7,
+      -1
+    ],
+    [
+      9,
+      -1
+    ],
+    [
+      11,
+      -1
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      9,
+      3
+    ],
+    [
+      11,
+      3
+    ],
+    [
+      2,
+      -2
+    ],
+    [
+      4,
+      -2
+    ],
+    [
+      6,
+      -2
+    ],
+    [
+      8,
+      -2
+    ],
+    [
+      10,
+      -2
+    ],
+    [
+      12,
+      -2
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      10,
+      4
+    ],
+    [
+      12,
+      4
+    ],
+    [
+      3,
+      -3
+    ],
+    [
+      5,
+      -3
+    ],
+    [
+      7,
+      -3
+    ],
+    [
+      9,
+      -3
+    ],
+    [
+      11,
+      -3
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      7,
+      5
+    ],
+    [
+      9,
+      5
+    ],
+    [
+      11,
+      5
+    ],
+    [
+      4,
+      -4
+    ],
+    [
+      6,
+      -4
+    ],
+    [
+      8,
+      -4
+    ],
+    [
+      10,
+      -4
+    ],
+    [
+      12,
+      -4
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      8,
+      6
+    ],
+    [
+      10,
+      6
+    ],
+    [
+      12,
+      6
+    ],
+    [
+      5,
+      -5
+    ],
+    [
+      7,
+      -5
+    ],
+    [
+      9,
+      -5
+    ],
+    [
+      11,
+      -5
+    ],
+    [
+      7,
+      7
+    ],
+    [
+      9,
+      7
+    ],
+    [
+      11,
+      7
+    ],
+    [
+      6,
+      -6
+    ],
+    [
+      8,
+      -6
+    ],
+    [
+      10,
+      -6
+    ],
+    [
+      12,
+      -6
+    ],
+    [
+      8,
+      8
+    ],
+    [
+      10,
+      8
+    ],
+    [
+      12,
+      8
+    ],
+    [
+      7,
+      -7
+    ],
+    [
+      9,
+      -7
+    ],
+    [
+      11,
+      -7
+    ],
+    [
+      9,
+      9
+    ],
+    [
+      11,
+      9
+    ],
+    [
+      8,
+      -8
+    ],
+    [
+      10,
+      -8
+    ],
+    [
+      12,
+      -8
+    ],
+    [
+      10,
+      10
+    ],
+    [
+      12,
+      10
+    ],
+    [
+      9,
+      -9
+    ],
+    [
+      11,
+      -9
+    ],
+    [
+      11,
+      11
+    ],
+    [
+      10,
+      -10
+    ],
+    [
+      12,
+      -10
+    ],
+    [
+      12,
+      12
+    ],
+    [
+      11,
+      -11
+    ],
+    [
+      12,
+      -12
+    ]
+  ],
+  "expected_mode_count": 88,
+  "limitations": [
+    "Finite resolution; all retained modes do not imply convergence.",
+    "Dyson caption a=.88 versus synchronized background in its method: use exact .88 consistently here.",
+    "Author complex-frequency policy, coordinate embedding and static completion require verification.",
+    "Local metric implementation, not original author data at this parameter point."
+  ],
+  "updated_utc": "2026-09-27T23:46:10.461044+00:00",
+  "stage": "complete",
+  "metric_abs_m": 13,
+  "export_failure_history": {
+    "status": "failed_resumable",
+    "updated_utc": "2026-09-27T23:46:10.461044+00:00",
+    "exception": "CalledProcessError(1, ['/home/ljq/code/kerr-hyperboloidal/.venv/bin/python', 'src/render_figure1_background.py', '/home/ljq/code/kerr-hyperboloidal/docs/figure1_alignment_20260926'])",
+    "traceback": "Traceback (most recent call last):\n  File \"/home/ljq/code/kerr-hyperboloidal/src/report_figure1_background.py\", line 155, in main\n    subprocess.run([sys.executable,'src/render_figure1_background.py',str(out)],cwd=ROOT,check=True)\n  File \"/home/ljq/miniconda3/envs/few_env/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['/home/ljq/code/kerr-hyperboloidal/.venv/bin/python', 'src/render_figure1_background.py', '/home/ljq/code/kerr-hyperboloidal/docs/figure1_alignment_20260926']' returned non-zero exit status 1.\n"
+  },
+  "completed_utc": "2026-09-28T07:24:57.377976+00:00",
+  "numerical_modes_completed_utc": "2026-09-27T23:46:01.650703+00:00",
+  "export_recovery": {
+    "method": "Windows content-only copy; no timestamp/permission preservation",
+    "sha256": {
+      "figure1_comparison.png": "68a2cf8cf62c28b4c6ee58840998a4a8fd24905be1742cb6bdf50a338e851e5a",
+      "figure1_comparison.json": "2f77b336e8f980e27ffa802b30f579d0a91c4a79ac75080c1744e089f80aa8e6",
+      "figure1_fields.npz": "dec7dfa3c1ee171d354c8718e6a850128c1fb5866bf31d7bc42fa6c07b891448"
+    }
+  },
+  "reproduction_matched": false
+}

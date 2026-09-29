@@ -2,9 +2,11 @@
 
 当前工作分支为 `codex/reproduce-kerr-environment`。新增频域 Kerr 标量云扰动、Lorenz 度规重构、Li 通量对齐和 Dyson FIG.1 场图复现；原有双曲切片演化保留在下文。
 
-**2026-09-27 状态：** r0=20M 的18模通量已完成，与 Li 图中无穷远/视界结果相差约0.19%/3.22%；FIG.1 的88模后台计算尚未结束，本次仅发布70模冻结快照。不会将部分场误标为完整复现。
+**2026-09-29 迁移快照：** FIG.1 的88模计算已完成，但尚未定量复现；当前是 Li 修正实现下的 Dyson r0=3.5M 场景。r0=20M 的18模通量接近 Li 读图，不能由此证明场图一致。后续 FIG.2/4/5/9/10 与谱方法诊断、已取消扫描的检查点一并备份。
 
-[项目状态、代码说明与复现入口](docs/PROJECT_STATUS_20260927.md) · [更新日志](CHANGELOG.md) · [统一约定](docs/li_alignment/CONVENTIONS_ZH.md) · [FIG.1 快照清单](docs/figure1_alignment_20260926/snapshot_20260927.json)
+**换电脑先读：[完整交接与恢复步骤](docs/migration_20260929/HANDOFF_ZH.md)。** 最新代码在 `codex/reproduce-kerr-environment` 分支；[完整项目数据与工作区报告下载](https://github.com/ljq2088/Kerr_Evolution/releases/tag/migration-2026-09-29)。只克隆 Git 不包含所有原始数据，请同时恢复 Release 附件。
+
+[模块说明（历史快照）](docs/PROJECT_STATUS_20260927.md) · [更新日志](CHANGELOG.md) · [统一约定](docs/li_alignment/CONVENTIONS_ZH.md) · [最终 FIG.1 图](docs/figure1_alignment_20260926/figure1_comparison.png)
 
 ## 原双曲切片演化：s=-2 与 s=0 参考
 

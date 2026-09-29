@@ -1,0 +1,21 @@
+{
+  "method": "unweighted least squares on calibrated magnitude samples; diagnostic only; no physical outputs changed",
+  "fits": {
+    "equatorial": {
+      "count": 8,
+      "multiplier": 5.157785633770463,
+      "relative_l2_after": 0.04836169844002792
+    },
+    "meridional": {
+      "count": 8,
+      "multiplier": 5.235923426246696,
+      "relative_l2_after": 0.42037622574292793
+    },
+    "all": {
+      "count": 16,
+      "multiplier": 5.176409421335014,
+      "relative_l2_after": 0.22666113506216395
+    }
+  },
+  "limitations": "Pixel reference, not author arrays. Dyson scene with Li-aligned exact spin and corrected implementation; not same-prescription proof."
+}

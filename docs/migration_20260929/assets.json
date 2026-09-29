@@ -1,0 +1,44 @@
+{
+  "release_tag": "migration-2026-09-29",
+  "branch": "codex/reproduce-kerr-environment",
+  "assets": [
+    {
+      "asset": "kerr-project-state-20260929.tar.gz",
+      "bytes": 539691510,
+      "sha256": "5f71741b0c0f08055f0abc48a41e1020b94982981fd12f0eafdf4dfca13712f0",
+      "file_count": 31468,
+      "uncompressed_bytes": 723845147,
+      "omitted": [
+        ".pytest_cache/",
+        ".venv/",
+        ".git/",
+        "code/kerr_point_particle_solver/.pytest_cache/",
+        "code/kerr_point_particle_solver/src/sminus2_point_particle.egg-info/",
+        "code/kerr_point_particle_solver/src/sminus2_point_particle/__pycache__/",
+        "code/kerr_point_particle_solver/tests/__pycache__/",
+        "code/kerr_waveform_tools/.pytest_cache/",
+        "code/kerr_waveform_tools/src/kerr_waveform_tools.egg-info/",
+        "code/kerr_waveform_tools/src/kerr_waveform_tools/__pycache__/",
+        "code/kerr_waveform_tools/tests/__pycache__/",
+        "docs/environment_reproduction/wolfram/__pycache__/",
+        "docs/root_cause_followup_20260917/__pycache__/",
+        "outputs/li_symbolic_dependencies/",
+        "outputs/dyson_fig7_20260927/__pycache__/",
+        "outputs/paper_metric_reference/python_deps/",
+        "outputs/paper_original_reference/dongjun826_EMRI_in_scalar_clouds/.git/",
+        "outputs/static_recovery_source/66da5c7e1239be84ae751d8462c7bb1e146f18cd/src/__pycache__/",
+        "src/__pycache__/",
+        "tests/__pycache__/"
+      ]
+    },
+    {
+      "asset": "kerr-workspace-reports-20260929.tar.gz",
+      "bytes": 242893787,
+      "sha256": "3247e43747215977b489ac3ed7600bc64935dec9952e356d61d96cdb150c7ce0",
+      "file_count": 876,
+      "uncompressed_bytes": 283215448,
+      "omitted": []
+    }
+  ],
+  "note": "Archive captures source/data before final packaging manifest and copied handoff summaries were added to Git. Clone the tagged commit and restore archives to obtain the complete migration."
+}

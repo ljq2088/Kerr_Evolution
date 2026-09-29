@@ -14,3 +14,6 @@ docs/figure1_alignment_20260926/execution.json
 docs/figure1_alignment_20260926/launch.json
 docs/figure1_alignment_20260926/run.log
 docs/figure1_alignment_20260926/static_matching.log
+
+# Large full-resolution field is in the 2026-09-29 GitHub migration release.
+docs/figure1_alignment_20260926/figure1_fields.npz

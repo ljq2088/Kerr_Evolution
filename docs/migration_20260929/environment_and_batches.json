@@ -1,0 +1,148 @@
+{
+  "captured_utc": "2026-09-29T11:17:49.653526+00:00",
+  "python": "3.12.2",
+  "platform": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "machine": "x86_64",
+  "base_commit": "88d3e76873fa0ff6720a77d51d2af557770fae1f",
+  "branch": "codex/reproduce-kerr-environment",
+  "active_project_calculations_observed": false,
+  "batch_states": {
+    "docs/figure1_alignment_20260926/execution.json": {
+      "status": "completed_finite_resolution_field_convergence_pending"
+    },
+    "outputs/li_fig2_20260928/execution.json": {
+      "status": "completed_requested_radius_finite_resolution_convergence_pending",
+      "scope": "Finish only Fig.2 r0=18.3M then stop; full scan and Fig.9/10 continuation cancelled by user",
+      "completed_groups": [
+        [
+          18.3,
+          6
+        ],
+        [
+          18.3,
+          2
+        ],
+        [
+          18.3,
+          3
+        ],
+        [
+          18.3,
+          4
+        ]
+      ],
+      "failures": []
+    },
+    "outputs/li_fig9_10_20260928/execution.json": {
+      "status": "cancelled_remaining_work_by_user",
+      "cancellation_scope": "All remaining Fig.9/Fig.10 tasks; retain completed results",
+      "completed_groups": [
+        [
+          20.0,
+          1
+        ],
+        [
+          20.0,
+          2
+        ],
+        [
+          20.0,
+          3
+        ],
+        [
+          20.0,
+          4
+        ],
+        [
+          18.3,
+          1
+        ],
+        [
+          18.3,
+          2
+        ]
+      ],
+      "failures": []
+    },
+    "outputs/li_fig45_20260927/execution.json": {
+      "status": "completed_finite_resolution_comparison",
+      "expected": [
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ]
+      ]
+    },
+    "outputs/dyson_fig7_20260927/execution.json": {
+      "status": "incomplete_with_failures",
+      "failures": [
+        {
+          "metric_m": 4,
+          "traceback": "Traceback (most recent call last):\n  File \"/home/ljq/code/kerr-hyperboloidal/outputs/dyson_fig7_20260927/run_fresh.py\", line 46, in main\n    path,result=run(a,cloud=cloud,metric=selected)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ljq/code/kerr-hyperboloidal/src/report_environment_forced_mode.py\", line 123, in run\n    green=RadialGreen(cloud.a,cloud.mu,omega,scalar_ell,scalar_m,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ljq/code/kerr-hyperboloidal/src/environment_radial.py\", line 157, in __init__\n    raise RuntimeError('Homogeneous radial integration failed')\nRuntimeError: Homogeneous radial integration failed\n"
+        },
+        {
+          "metric_m": 5,
+          "traceback": "Traceback (most recent call last):\n  File \"/home/ljq/code/kerr-hyperboloidal/outputs/dyson_fig7_20260927/run_fresh.py\", line 46, in main\n    path,result=run(a,cloud=cloud,metric=selected)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ljq/code/kerr-hyperboloidal/src/report_environment_forced_mode.py\", line 123, in run\n    green=RadialGreen(cloud.a,cloud.mu,omega,scalar_ell,scalar_m,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ljq/code/kerr-hyperboloidal/src/environment_radial.py\", line 157, in __init__\n    raise RuntimeError('Homogeneous radial integration failed')\nRuntimeError: Homogeneous radial integration failed\n"
+        },
+        {
+          "metric_m": 6,
+          "traceback": "Traceback (most recent call last):\n  File \"/home/ljq/code/kerr-hyperboloidal/outputs/dyson_fig7_20260927/run_fresh.py\", line 46, in main\n    path,result=run(a,cloud=cloud,metric=selected)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ljq/code/kerr-hyperboloidal/src/report_environment_forced_mode.py\", line 123, in run\n    green=RadialGreen(cloud.a,cloud.mu,omega,scalar_ell,scalar_m,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ljq/code/kerr-hyperboloidal/src/environment_radial.py\", line 157, in __init__\n    raise RuntimeError('Homogeneous radial integration failed')\nRuntimeError: Homogeneous radial integration failed\n"
+        },
+        {
+          "metric_m": 7,
+          "traceback": "Traceback (most recent call last):\n  File \"/home/ljq/code/kerr-hyperboloidal/outputs/dyson_fig7_20260927/run_fresh.py\", line 46, in main\n    path,result=run(a,cloud=cloud,metric=selected)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ljq/code/kerr-hyperboloidal/src/report_environment_forced_mode.py\", line 123, in run\n    green=RadialGreen(cloud.a,cloud.mu,omega,scalar_ell,scalar_m,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ljq/code/kerr-hyperboloidal/src/environment_radial.py\", line 157, in __init__\n    raise RuntimeError('Homogeneous radial integration failed')\nRuntimeError: Homogeneous radial integration failed\n"
+        },
+        {
+          "metric_m": 8,
+          "traceback": "Traceback (most recent call last):\n  File \"/home/ljq/code/kerr-hyperboloidal/outputs/dyson_fig7_20260927/run_fresh.py\", line 46, in main\n    path,result=run(a,cloud=cloud,metric=selected)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ljq/code/kerr-hyperboloidal/src/report_environment_forced_mode.py\", line 123, in run\n    green=RadialGreen(cloud.a,cloud.mu,omega,scalar_ell,scalar_m,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ljq/code/kerr-hyperboloidal/src/environment_radial.py\", line 157, in __init__\n    raise RuntimeError('Homogeneous radial integration failed')\nRuntimeError: Homogeneous radial integration failed\n"
+        },
+        {
+          "metric_m": 9,
+          "traceback": "Traceback (most recent call last):\n  File \"/home/ljq/code/kerr-hyperboloidal/outputs/dyson_fig7_20260927/run_fresh.py\", line 46, in main\n    path,result=run(a,cloud=cloud,metric=selected)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ljq/code/kerr-hyperboloidal/src/report_environment_forced_mode.py\", line 123, in run\n    green=RadialGreen(cloud.a,cloud.mu,omega,scalar_ell,scalar_m,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ljq/code/kerr-hyperboloidal/src/environment_radial.py\", line 157, in __init__\n    raise RuntimeError('Homogeneous radial integration failed')\nRuntimeError: Homogeneous radial integration failed\n"
+        },
+        {
+          "metric_m": 10,
+          "traceback": "Traceback (most recent call last):\n  File \"/home/ljq/code/kerr-hyperboloidal/outputs/dyson_fig7_20260927/run_fresh.py\", line 46, in main\n    path,result=run(a,cloud=cloud,metric=selected)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ljq/code/kerr-hyperboloidal/src/report_environment_forced_mode.py\", line 123, in run\n    green=RadialGreen(cloud.a,cloud.mu,omega,scalar_ell,scalar_m,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ljq/code/kerr-hyperboloidal/src/environment_radial.py\", line 157, in __init__\n    raise RuntimeError('Homogeneous radial integration failed')\nRuntimeError: Homogeneous radial integration failed\n"
+        },
+        {
+          "metric_m": 11,
+          "traceback": "Traceback (most recent call last):\n  File \"/home/ljq/code/kerr-hyperboloidal/outputs/dyson_fig7_20260927/run_fresh.py\", line 46, in main\n    path,result=run(a,cloud=cloud,metric=selected)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ljq/code/kerr-hyperboloidal/src/report_environment_forced_mode.py\", line 123, in run\n    green=RadialGreen(cloud.a,cloud.mu,omega,scalar_ell,scalar_m,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ljq/code/kerr-hyperboloidal/src/environment_radial.py\", line 157, in __init__\n    raise RuntimeError('Homogeneous radial integration failed')\nRuntimeError: Homogeneous radial integration failed\n"
+        },
+        {
+          "metric_m": 12,
+          "traceback": "Traceback (most recent call last):\n  File \"/home/ljq/code/kerr-hyperboloidal/outputs/dyson_fig7_20260927/run_fresh.py\", line 46, in main\n    path,result=run(a,cloud=cloud,metric=selected)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ljq/code/kerr-hyperboloidal/src/report_environment_forced_mode.py\", line 123, in run\n    green=RadialGreen(cloud.a,cloud.mu,omega,scalar_ell,scalar_m,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ljq/code/kerr-hyperboloidal/src/environment_radial.py\", line 157, in __init__\n    raise RuntimeError('Homogeneous radial integration failed')\nRuntimeError: Homogeneous radial integration failed\n"
+        },
+        {
+          "metric_m": 13,
+          "traceback": "Traceback (most recent call last):\n  File \"/home/ljq/code/kerr-hyperboloidal/outputs/dyson_fig7_20260927/run_fresh.py\", line 46, in main\n    path,result=run(a,cloud=cloud,metric=selected)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ljq/code/kerr-hyperboloidal/src/report_environment_forced_mode.py\", line 123, in run\n    green=RadialGreen(cloud.a,cloud.mu,omega,scalar_ell,scalar_m,\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ljq/code/kerr-hyperboloidal/src/environment_radial.py\", line 157, in __init__\n    raise RuntimeError('Homogeneous radial integration failed')\nRuntimeError: Homogeneous radial integration failed\n"
+        }
+      ]
+    },
+    "outputs/li_dipole_check_20260928/execution.json": {
+      "status": "running_full_radial_crosscheck",
+      "result": "dipole_integral_check.json",
+      "checkpoint": "dipole_source_samples.json",
+      "observation": "Historical running label; recorded PID is absent. Do not assume completion or resume automatically."
+    }
+  }
+}

@@ -1,0 +1,37 @@
+Completed particular ell=2
+Completed particular ell=3
+Completed particular ell=4
+Completed particular ell=5
+Completed particular ell=6
+Completed particular ell=7
+Completed particular ell=8
+Completed particular ell=9
+Completed particular ell=10
+Completed particular ell=11
+Completed particular ell=12
+Completed particular ell=13
+Completed particular ell=14
+Completed particular ell=15
+Completed particular ell=16
+Completed particular ell=17
+Completed particular ell=18
+Completed particular ell=19
+Completed particular ell=20
+{
+  "rank": 26,
+  "max_scaled_fit_residual": 0.0015009108582484713,
+  "max_scaled_derivative_residual_low_degrees": 1.3428332850997373,
+  "max_scaled_holdout_residual": 9.155484611730449,
+  "expected_charge_jumps": {
+    "E": 0.8774455272294542,
+    "G": 1.5443183798385156
+  },
+  "fitted_completion_jumps": {
+    "B": -0.310430846727101,
+    "C": 12.130169461398513,
+    "D": 0.3118607244192107,
+    "E": 0.8774455272294542,
+    "F": 0.09170389233680934,
+    "G": 1.5443183798385156
+  }
+}

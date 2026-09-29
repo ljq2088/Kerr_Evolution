@@ -1,0 +1,23 @@
+{
+  "status": "completed_requested_radius_finite_resolution_convergence_pending",
+  "r0": 18.3,
+  "completed_modes": 18,
+  "comparison": [
+    {
+      "r0": 18.3,
+      "boundary": "infinity",
+      "computed_signed_Li_units": 0.0235529372566338,
+      "paper_magnitude": 0.02351383239552088,
+      "difference_percent": 0.16630577464000762
+    },
+    {
+      "r0": 18.3,
+      "boundary": "horizon",
+      "computed_signed_Li_units": -0.11228157696378695,
+      "paper_magnitude": 0.10822642957861227,
+      "difference_percent": 3.746910436723905
+    }
+  ],
+  "completed_utc": "2026-09-29T02:35:00.010986+00:00",
+  "scope": "Only r0=18.3M requested; no further figure jobs launched"
+}
